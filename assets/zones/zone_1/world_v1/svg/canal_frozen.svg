@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="256" height="256" viewBox="0 0 256 256"><defs>
+<linearGradient id="snow" x2=".3" y2="1"><stop stop-color="#FCFEF5"/><stop offset="1" stop-color="#BDCED2"/></linearGradient>
+<linearGradient id="pine" x2=".8" y2="1"><stop stop-color="#6E9781"/><stop offset="1" stop-color="#365B57"/></linearGradient>
+<linearGradient id="wood" x2=".8" y2="1"><stop stop-color="#B98B63"/><stop offset="1" stop-color="#745347"/></linearGradient>
+<linearGradient id="metal" x2=".85" y2="1"><stop stop-color="#D0E1DF"/><stop offset=".45" stop-color="#8AA1A8"/><stop offset="1" stop-color="#465D6A"/></linearGradient>
+<linearGradient id="brass" x2=".7" y2="1"><stop stop-color="#F3D798"/><stop offset=".5" stop-color="#C99B56"/><stop offset="1" stop-color="#8C653D"/></linearGradient>
+<linearGradient id="ice" x2=".7" y2="1"><stop stop-color="#EDFDFC" stop-opacity=".93"/><stop offset=".4" stop-color="#A4DEEB" stop-opacity=".88"/><stop offset="1" stop-color="#71A9C2" stop-opacity=".93"/></linearGradient>
+<linearGradient id="water" x2=".4" y2="1"><stop stop-color="#81BDC6"/><stop offset="1" stop-color="#477D96"/></linearGradient>
+<linearGradient id="warm" x2="0" y2="1"><stop stop-color="#FFF2B6"/><stop offset=".6" stop-color="#E6A34A"/><stop offset="1" stop-color="#AE613F"/></linearGradient>
+</defs><g stroke="#344A52" stroke-width="2" stroke-linejoin="round" stroke-linecap="round"><ellipse cx="139" cy="211" rx="75" ry="14" fill="#294B51" opacity=".18" stroke="none"/><path d="M58 193 L128 228 L128 240 L58 205 Z" fill="#899A9B" /><path d="M128 228 L198 193 L198 205 L128 240 Z" fill="#526D78" /><path d="M128 158 L198 193 L128 228 L58 193 Z" fill="url(#metal)" /><path d="M58 193 L128 158 L198 193" fill="none" stroke="#F6FFF2" stroke-width="1.8"/><path d="M67 181l34-16 88 32-35 17z" fill="url(#water)" /><path d="M93 180l32 11m15 6 23 8" fill="none" stroke="#BFE7E7" stroke-width="2"/><path d="M67 181l34-16 88 32-35 17z" fill="url(#ice)" /><path d="M82 181l20-10 70 27" fill="none" stroke="#F6FFFC" stroke-width="3"/></g></svg>

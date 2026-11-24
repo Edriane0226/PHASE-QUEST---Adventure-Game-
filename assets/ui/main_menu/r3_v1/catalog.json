@@ -1,0 +1,555 @@
+{
+  "schema_version": 1,
+  "owner": "R3 011",
+  "status": "Implemented—needs verification; user/Android/final-geography pending",
+  "families": [
+    "menu.title_panel",
+    "menu.background.z1",
+    "menu.background.z2",
+    "menu.background.z3",
+    "menu.old_background_layers",
+    "ui.theme_fonts_icons"
+  ],
+  "scene": "UI/Menus/Title/TitleMenu.tscn",
+  "files": [
+    {
+      "path": "assets/ui/main_menu/r3_v1/build-products.json",
+      "sha256": "3B1F585228E126EA8C042A67D910BB1C8310CA342B4E67C34D0E529C4A6051B1",
+      "bytes": 1894,
+      "action": "new",
+      "owner": "R3 011",
+      "consumer": "UI/Menus/Title/TitleMenu.tscn",
+      "dependencies": [
+        "R3 004–006 region art direction",
+        "R3 010 shared support layouts",
+        "R3 021 final viewpoints/providers"
+      ]
+    },
+    {
+      "path": "assets/ui/main_menu/r3_v1/dialogs.json",
+      "sha256": "315A8681685F0CA6BBD13D2781742B162FAD2339C446357EF92B3C967B80B5F4",
+      "bytes": 2856,
+      "action": "new",
+      "owner": "R3 011",
+      "consumer": "UI/Menus/Title/TitleMenu.tscn",
+      "dependencies": [
+        "R3 004–006 region art direction",
+        "R3 010 shared support layouts",
+        "R3 021 final viewpoints/providers"
+      ]
+    },
+    {
+      "path": "assets/ui/main_menu/r3_v1/fallback_static.png",
+      "sha256": "6656307B06DAC28E28858D3686539DAB3422E994548F1B2182F2679BEE348A76",
+      "bytes": 10890,
+      "action": "new",
+      "owner": "R3 011",
+      "consumer": "UI/Menus/Title/TitleMenu.tscn",
+      "dependencies": [
+        "R3 004–006 region art direction",
+        "R3 010 shared support layouts",
+        "R3 021 final viewpoints/providers"
+      ]
+    },
+    {
+      "path": "assets/ui/main_menu/r3_v1/gardens_atmosphere.png",
+      "sha256": "F86C322D2C370D3FEAE2ABBD5F8EC08F89024216D8B7762BC5E2B1B8E1141F53",
+      "bytes": 6474,
+      "action": "new",
+      "owner": "R3 011",
+      "consumer": "UI/Menus/Title/TitleMenu.tscn",
+      "dependencies": [
+        "R3 004–006 region art direction",
+        "R3 010 shared support layouts",
+        "R3 021 final viewpoints/providers"
+      ]
+    },
+    {
+      "path": "assets/ui/main_menu/r3_v1/gardens_painting.png",
+      "sha256": "D8ED1C0826BD0CF481A84BD341F53E66D1EFE8E870017AC984A533C278942DDD",
+      "bytes": 2175261,
+      "action": "new",
+      "owner": "R3 011",
+      "consumer": "UI/Menus/Title/TitleMenu.tscn",
+      "dependencies": [
+        "R3 004–006 region art direction",
+        "R3 010 shared support layouts",
+        "R3 021 final viewpoints/providers"
+      ]
+    },
+    {
+      "path": "assets/ui/main_menu/r3_v1/gardens_static.png",
+      "sha256": "3C53BE1AED589BD4E5211C729C501517D6E1AB817502F28591468B8C213D1518",
+      "bytes": 2038615,
+      "action": "new",
+      "owner": "R3 011",
+      "consumer": "UI/Menus/Title/TitleMenu.tscn",
+      "dependencies": [
+        "R3 004–006 region art direction",
+        "R3 010 shared support layouts",
+        "R3 021 final viewpoints/providers"
+      ]
+    },
+    {
+      "path": "assets/ui/main_menu/r3_v1/gardens_veil.png",
+      "sha256": "308A67FECEDB22D98201B1B0C04C7BFB19F48F32745F927F00F3C601049A7DCB",
+      "bytes": 8419,
+      "action": "new",
+      "owner": "R3 011",
+      "consumer": "UI/Menus/Title/TitleMenu.tscn",
+      "dependencies": [
+        "R3 004–006 region art direction",
+        "R3 010 shared support layouts",
+        "R3 021 final viewpoints/providers"
+      ]
+    },
+    {
+      "path": "assets/ui/main_menu/r3_v1/laboratory_atmosphere.png",
+      "sha256": "36841F3D78BBDBA55756626D8DECA46050EA0EA853208E133D8379C9AD90EBD8",
+      "bytes": 6466,
+      "action": "new",
+      "owner": "R3 011",
+      "consumer": "UI/Menus/Title/TitleMenu.tscn",
+      "dependencies": [
+        "R3 004–006 region art direction",
+        "R3 010 shared support layouts",
+        "R3 021 final viewpoints/providers"
+      ]
+    },
+    {
+      "path": "assets/ui/main_menu/r3_v1/laboratory_painting.png",
+      "sha256": "A0EA473E8D8F0CF8CB48FB8DC082FB09AF678DCDFB14F9CFA47DF725A21D1737",
+      "bytes": 2100013,
+      "action": "new",
+      "owner": "R3 011",
+      "consumer": "UI/Menus/Title/TitleMenu.tscn",
+      "dependencies": [
+        "R3 004–006 region art direction",
+        "R3 010 shared support layouts",
+        "R3 021 final viewpoints/providers"
+      ]
+    },
+    {
+      "path": "assets/ui/main_menu/r3_v1/laboratory_static.png",
+      "sha256": "91F6898B36275C24F2727DC85694BAD9BC1A3686780B4617102B672DC222F0B4",
+      "bytes": 1969304,
+      "action": "new",
+      "owner": "R3 011",
+      "consumer": "UI/Menus/Title/TitleMenu.tscn",
+      "dependencies": [
+        "R3 004–006 region art direction",
+        "R3 010 shared support layouts",
+        "R3 021 final viewpoints/providers"
+      ]
+    },
+    {
+      "path": "assets/ui/main_menu/r3_v1/laboratory_veil.png",
+      "sha256": "3026D0A5F2F0D837948B1180DE0C5E7671F1EAF784C9915E02E70C96258BA67E",
+      "bytes": 8419,
+      "action": "new",
+      "owner": "R3 011",
+      "consumer": "UI/Menus/Title/TitleMenu.tscn",
+      "dependencies": [
+        "R3 004–006 region art direction",
+        "R3 010 shared support layouts",
+        "R3 021 final viewpoints/providers"
+      ]
+    },
+    {
+      "path": "assets/ui/main_menu/r3_v1/menu_states.json",
+      "sha256": "F2C0FCC2F5DE0332342A9B74771D6ABBB3A183D83B90F5507167EE3EC1C92187",
+      "bytes": 2154,
+      "action": "new",
+      "owner": "R3 011",
+      "consumer": "UI/Menus/Title/TitleMenu.tscn",
+      "dependencies": [
+        "R3 004–006 region art direction",
+        "R3 010 shared support layouts",
+        "R3 021 final viewpoints/providers"
+      ]
+    },
+    {
+      "path": "assets/ui/main_menu/r3_v1/regions.json",
+      "sha256": "86FF148308C545DF98C1903FCECD2007AD431C41B7FE159F9F1018D4D2F70D47",
+      "bytes": 2492,
+      "action": "new",
+      "owner": "R3 011",
+      "consumer": "UI/Menus/Title/TitleMenu.tscn",
+      "dependencies": [
+        "R3 004–006 region art direction",
+        "R3 010 shared support layouts",
+        "R3 021 final viewpoints/providers"
+      ]
+    },
+    {
+      "path": "assets/ui/main_menu/r3_v1/title_logo.png",
+      "sha256": "3BC3E2AA23DEBA19EAD44DC777C6C7A50A579965887287233C5B55BFD6C39A69",
+      "bytes": 31687,
+      "action": "new",
+      "owner": "R3 011",
+      "consumer": "UI/Menus/Title/TitleMenu.tscn",
+      "dependencies": [
+        "R3 004–006 region art direction",
+        "R3 010 shared support layouts",
+        "R3 021 final viewpoints/providers"
+      ]
+    },
+    {
+      "path": "assets/ui/main_menu/r3_v1/vale_atmosphere.png",
+      "sha256": "6C94E4AA39F0B3537C8A4BEF2457200317CEE34235B836C4E0BF8641BF7EFC4A",
+      "bytes": 6476,
+      "action": "new",
+      "owner": "R3 011",
+      "consumer": "UI/Menus/Title/TitleMenu.tscn",
+      "dependencies": [
+        "R3 004–006 region art direction",
+        "R3 010 shared support layouts",
+        "R3 021 final viewpoints/providers"
+      ]
+    },
+    {
+      "path": "assets/ui/main_menu/r3_v1/vale_painting.png",
+      "sha256": "1EE908C5DE272495E6C92A62ADF7A4BB97054B7E9D6DD2916CD2DCE2339209F0",
+      "bytes": 2222115,
+      "action": "new",
+      "owner": "R3 011",
+      "consumer": "UI/Menus/Title/TitleMenu.tscn",
+      "dependencies": [
+        "R3 004–006 region art direction",
+        "R3 010 shared support layouts",
+        "R3 021 final viewpoints/providers"
+      ]
+    },
+    {
+      "path": "assets/ui/main_menu/r3_v1/vale_static.png",
+      "sha256": "A62160310B7F1B7D59EA1E50D33297D6DDA531A1ABB3268A7EAE74A31CB012CA",
+      "bytes": 2083040,
+      "action": "new",
+      "owner": "R3 011",
+      "consumer": "UI/Menus/Title/TitleMenu.tscn",
+      "dependencies": [
+        "R3 004–006 region art direction",
+        "R3 010 shared support layouts",
+        "R3 021 final viewpoints/providers"
+      ]
+    },
+    {
+      "path": "assets/ui/main_menu/r3_v1/vale_veil.png",
+      "sha256": "F33DE639B604FBE3291B10EE91D6CA69FC844826E313A549318282E054E15EBD",
+      "bytes": 8416,
+      "action": "new",
+      "owner": "R3 011",
+      "consumer": "UI/Menus/Title/TitleMenu.tscn",
+      "dependencies": [
+        "R3 004–006 region art direction",
+        "R3 010 shared support layouts",
+        "R3 021 final viewpoints/providers"
+      ]
+    }
+  ],
+  "presentation_sources": [
+    {
+      "path": "tools/art/menu_r3_v1/gardens-source.png",
+      "sha256": "37E5C3112A2F240E45BDBF123499489FFEB6963970A75144C0E8264E7DFD2981",
+      "bytes": 1977023,
+      "action": "new",
+      "owner": "R3 011",
+      "consumer": "UI/Menus/Title/TitleMenu.tscn",
+      "dependencies": [
+        "R3 004–006 region art direction",
+        "R3 010 shared support layouts",
+        "R3 021 final viewpoints/providers"
+      ]
+    },
+    {
+      "path": "tools/art/menu_r3_v1/vale-source.png",
+      "sha256": "86978F587ED3564112E670E5A793CE8C97B6C605B49DE90E1D7A4066C80D27CA",
+      "bytes": 1989185,
+      "action": "new",
+      "owner": "R3 011",
+      "consumer": "UI/Menus/Title/TitleMenu.tscn",
+      "dependencies": [
+        "R3 004–006 region art direction",
+        "R3 010 shared support layouts",
+        "R3 021 final viewpoints/providers"
+      ]
+    },
+    {
+      "path": "tools/art/menu_r3_v1/laboratory-source.png",
+      "sha256": "E6A99048A4E116C91391F1BB28A28A0A3483A1A0DD1996EEEF925486EE32ED4A",
+      "bytes": 1913051,
+      "action": "new",
+      "owner": "R3 011",
+      "consumer": "UI/Menus/Title/TitleMenu.tscn",
+      "dependencies": [
+        "R3 004–006 region art direction",
+        "R3 010 shared support layouts",
+        "R3 021 final viewpoints/providers"
+      ]
+    },
+    {
+      "path": "tools/art/menu_r3_v1/imagegen-prompts.json",
+      "sha256": "8ECDD1E6F27EC359228FBC7EBE51E360A34DD4FB6FC538232765E97B1FCA3051",
+      "bytes": 7487,
+      "action": "new",
+      "owner": "R3 011",
+      "consumer": "UI/Menus/Title/TitleMenu.tscn",
+      "dependencies": [
+        "R3 004–006 region art direction",
+        "R3 010 shared support layouts",
+        "R3 021 final viewpoints/providers"
+      ]
+    },
+    {
+      "path": "tools/art/menu_r3_v1/layer_source.gd",
+      "sha256": "BDA52E499DA8AA60A45E790A671700C79453B3DFAD7317B880521FEB630F4B68",
+      "bytes": 1337,
+      "action": "new",
+      "owner": "R3 011",
+      "consumer": "UI/Menus/Title/TitleMenu.tscn",
+      "dependencies": [
+        "R3 004–006 region art direction",
+        "R3 010 shared support layouts",
+        "R3 021 final viewpoints/providers"
+      ]
+    },
+    {
+      "path": "tools/art/menu_r3_v1/logo_source.gd",
+      "sha256": "29894265419D0EE4E7F96C8385ABDEFA3B1C4DADB6C653AD9DF17D9105E4BCD9",
+      "bytes": 1044,
+      "action": "new",
+      "owner": "R3 011",
+      "consumer": "UI/Menus/Title/TitleMenu.tscn",
+      "dependencies": [
+        "R3 004–006 region art direction",
+        "R3 010 shared support layouts",
+        "R3 021 final viewpoints/providers"
+      ]
+    },
+    {
+      "path": "tools/art/menu_r3_v1/build_assets.gd",
+      "sha256": "1373D2F1E5A36B09CAF8F5A05F5346E06DFDDC53C895AAC48661BDDDEA78C125",
+      "bytes": 7926,
+      "action": "new",
+      "owner": "R3 011",
+      "consumer": "UI/Menus/Title/TitleMenu.tscn",
+      "dependencies": [
+        "R3 004–006 region art direction",
+        "R3 010 shared support layouts",
+        "R3 021 final viewpoints/providers"
+      ]
+    },
+    {
+      "path": "tools/art/menu_r3_v1/build.ps1",
+      "sha256": "BAC0F4DA91B56B72D1162914D1EEC5BD80FD2AA5359997E5DA1F715DFA91550D",
+      "bytes": 1544,
+      "action": "new",
+      "owner": "R3 011",
+      "consumer": "UI/Menus/Title/TitleMenu.tscn",
+      "dependencies": [
+        "R3 004–006 region art direction",
+        "R3 010 shared support layouts",
+        "R3 021 final viewpoints/providers"
+      ]
+    },
+    {
+      "path": "tools/art/menu_r3_v1/catalog.ps1",
+      "sha256": "BEC2DB8ABB570DDC7963084B25FC2A522275FB52CE5D9D69C0BF2A170FEB8B9A",
+      "bytes": 4247,
+      "action": "new",
+      "owner": "R3 011",
+      "consumer": "UI/Menus/Title/TitleMenu.tscn",
+      "dependencies": [
+        "R3 004–006 region art direction",
+        "R3 010 shared support layouts",
+        "R3 021 final viewpoints/providers"
+      ]
+    },
+    {
+      "path": "tools/art/menu_r3_v1/generation.md",
+      "sha256": "7CA3525CB99D49271489120DFED5DD7B8AEAF6F0F93A3619403B8874D4515935",
+      "bytes": 3854,
+      "action": "new",
+      "owner": "R3 011",
+      "consumer": "UI/Menus/Title/TitleMenu.tscn",
+      "dependencies": [
+        "R3 004–006 region art direction",
+        "R3 010 shared support layouts",
+        "R3 021 final viewpoints/providers"
+      ]
+    },
+    {
+      "path": "Scripts/UI/Title/menu_backdrop.gd",
+      "sha256": "AC89A86E1326767E4D8FD1D2CBC613102033A0C69E69D03AE9D3258ABCD1C8A4",
+      "bytes": 2651,
+      "action": "new",
+      "owner": "R3 011",
+      "consumer": "UI/Menus/Title/TitleMenu.tscn",
+      "dependencies": [
+        "R3 004–006 region art direction",
+        "R3 010 shared support layouts",
+        "R3 021 final viewpoints/providers"
+      ]
+    },
+    {
+      "path": "Scripts/UI/Title/title_action.gd",
+      "sha256": "6FC4ED4B778DF00936B43526057C0CB45F16E3E2A18E6AA6351CDCF56C4B1478",
+      "bytes": 1416,
+      "action": "new",
+      "owner": "R3 011",
+      "consumer": "UI/Menus/Title/TitleMenu.tscn",
+      "dependencies": [
+        "R3 004–006 region art direction",
+        "R3 010 shared support layouts",
+        "R3 021 final viewpoints/providers"
+      ]
+    },
+    {
+      "path": "Scripts/UI/Title/title_menu.gd",
+      "sha256": "24237089A43B501403CB579399637EAD2EE6040D5C91B4F8739E40ACC4553CAA",
+      "bytes": 7403,
+      "action": "new",
+      "owner": "R3 011",
+      "consumer": "UI/Menus/Title/TitleMenu.tscn",
+      "dependencies": [
+        "R3 004–006 region art direction",
+        "R3 010 shared support layouts",
+        "R3 021 final viewpoints/providers"
+      ]
+    },
+    {
+      "path": "UI/Menus/Title/TitleMenu.tscn",
+      "sha256": "274B20979CA5ACEF875B631B3A2CDCE50FE4CDCF6B171CD92B08DC9F17E40E94",
+      "bytes": 314,
+      "action": "new",
+      "owner": "R3 011",
+      "consumer": "UI/Menus/Title/TitleMenu.tscn",
+      "dependencies": [
+        "R3 004–006 region art direction",
+        "R3 010 shared support layouts",
+        "R3 021 final viewpoints/providers"
+      ]
+    }
+  ],
+  "reused": [
+    {
+      "path": "assets/fonts/PhasequestUI.ttf",
+      "sha256": "BBBB11D16F910E259E928DBEB998A63F68A82B56BCA0E37D3A81BA6428818840",
+      "bytes": 34064,
+      "action": "keep",
+      "owner": "R3 011",
+      "consumer": "UI/Menus/Title/TitleMenu.tscn",
+      "dependencies": [
+        "R3 004–006 region art direction",
+        "R3 010 shared support layouts",
+        "R3 021 final viewpoints/providers"
+      ]
+    },
+    {
+      "path": "assets/fonts/OFL.txt",
+      "sha256": "73A02E59AFEE9983D50E6DCDEABAB9E66ECEA210EDCC149CBF83578CC2CC40C6",
+      "bytes": 4425,
+      "action": "keep",
+      "owner": "R3 011",
+      "consumer": "UI/Menus/Title/TitleMenu.tscn",
+      "dependencies": [
+        "R3 004–006 region art direction",
+        "R3 010 shared support layouts",
+        "R3 021 final viewpoints/providers"
+      ]
+    },
+    {
+      "path": "assets/fonts/InterfaceSans.tres",
+      "sha256": "16CD2D3357A0915B878A40C801630706F216056CE30C5DAAA7BC4B7240837A1B",
+      "bytes": 86051,
+      "action": "keep",
+      "owner": "R3 011",
+      "consumer": "UI/Menus/Title/TitleMenu.tscn",
+      "dependencies": [
+        "R3 004–006 region art direction",
+        "R3 010 shared support layouts",
+        "R3 021 final viewpoints/providers"
+      ]
+    },
+    {
+      "path": "UI/Support/SupportPanels.tscn",
+      "sha256": "1B6879EE7EEE6FF87D74B02535FAF8F112138C6811149CA7DC73DD4E9D345D8B",
+      "bytes": 340,
+      "action": "keep",
+      "owner": "R3 011",
+      "consumer": "UI/Menus/Title/TitleMenu.tscn",
+      "dependencies": [
+        "R3 004–006 region art direction",
+        "R3 010 shared support layouts",
+        "R3 021 final viewpoints/providers"
+      ]
+    },
+    {
+      "path": "Scripts/UI/Support/support_panels.gd",
+      "sha256": "5C4B45E7D3CDC10E59E0A14E1EF42D38B4BE8D77C0DFC9FB3ABC01CC7677FEC5",
+      "bytes": 12452,
+      "action": "keep",
+      "owner": "R3 011",
+      "consumer": "UI/Menus/Title/TitleMenu.tscn",
+      "dependencies": [
+        "R3 004–006 region art direction",
+        "R3 010 shared support layouts",
+        "R3 021 final viewpoints/providers"
+      ]
+    },
+    {
+      "path": "Scripts/UI/Support/support_style.gd",
+      "sha256": "C370DF454F6A66C03A12B9E2B85F1106E2A3126FB9525003D31B76C0C0CFEEA0",
+      "bytes": 1980,
+      "action": "keep",
+      "owner": "R3 011",
+      "consumer": "UI/Menus/Title/TitleMenu.tscn",
+      "dependencies": [
+        "R3 004–006 region art direction",
+        "R3 010 shared support layouts",
+        "R3 021 final viewpoints/providers"
+      ]
+    },
+    {
+      "path": "assets/ui/support/r3_v1/panels.json",
+      "sha256": "84407ED180AE409D8AFE97FD214EE6867132DBDC410D482C8808F1196494E52E",
+      "bytes": 83926,
+      "action": "keep",
+      "owner": "R3 011",
+      "consumer": "UI/Menus/Title/TitleMenu.tscn",
+      "dependencies": [
+        "R3 004–006 region art direction",
+        "R3 010 shared support layouts",
+        "R3 021 final viewpoints/providers"
+      ]
+    },
+    {
+      "path": "assets/ui/support/r3_v1/portrait-index.json",
+      "sha256": "1A5281AA266567FA3DB93CE8A929683960A0F079228F3D393A17B47BEA1F40D4",
+      "bytes": 2034,
+      "action": "keep",
+      "owner": "R3 011",
+      "consumer": "UI/Menus/Title/TitleMenu.tscn",
+      "dependencies": [
+        "R3 004–006 region art direction",
+        "R3 010 shared support layouts",
+        "R3 021 final viewpoints/providers"
+      ]
+    }
+  ],
+  "region_count": 3,
+  "png_products": 14,
+  "menu_states": 19,
+  "dialogs": 7,
+  "source_canvas": [
+    1672,
+    941
+  ],
+  "source_tool": "Built-in image_gen.imagegen,3calls; exact prompts/native exports retained",
+  "title": "Original Phase Quest wordmark using retained OFL typeface",
+  "selection_owner": "R3 021; provider supplies validated active zone, Continue availability, persisted no-repeat choice and final world viewpoint",
+  "runtime_boundary": "Opt-in menu/dialog intents only; no profile/save/reset/quit/scene/navigation mutation",
+  "geography": "Staged coherent mainland paintings, not final-world coordinates; no puzzle/discovery spoilers",
+  "static_and_layered": "Same registered canvas; flattened source plus native editable veil/atmosphere; phase0 pixel agreement checked",
+  "retirement_eligible": false
+}

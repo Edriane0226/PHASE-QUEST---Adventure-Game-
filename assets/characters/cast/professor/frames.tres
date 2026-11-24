@@ -1,0 +1,46 @@
+[gd_resource type="SpriteFrames" format=3]
+
+[ext_resource type="Texture2D" path="res://assets/characters/cast/professor/reworked/idle/east/frame_00.png" id="f0"]
+[ext_resource type="Texture2D" path="res://assets/characters/cast/professor/reworked/idle/east/frame_01.png" id="f1"]
+[ext_resource type="Texture2D" path="res://assets/characters/cast/professor/reworked/idle/east/frame_02.png" id="f2"]
+[ext_resource type="Texture2D" path="res://assets/characters/cast/professor/reworked/idle/east/frame_03.png" id="f3"]
+[ext_resource type="Texture2D" path="res://assets/characters/cast/professor/reworked/idle/south_east/frame_00.png" id="f4"]
+[ext_resource type="Texture2D" path="res://assets/characters/cast/professor/reworked/idle/south_east/frame_01.png" id="f5"]
+[ext_resource type="Texture2D" path="res://assets/characters/cast/professor/reworked/idle/south_east/frame_02.png" id="f6"]
+[ext_resource type="Texture2D" path="res://assets/characters/cast/professor/reworked/idle/south_east/frame_03.png" id="f7"]
+[ext_resource type="Texture2D" path="res://assets/characters/cast/professor/reworked/idle/south/frame_00.png" id="f8"]
+[ext_resource type="Texture2D" path="res://assets/characters/cast/professor/reworked/idle/south/frame_01.png" id="f9"]
+[ext_resource type="Texture2D" path="res://assets/characters/cast/professor/reworked/idle/south/frame_02.png" id="f10"]
+[ext_resource type="Texture2D" path="res://assets/characters/cast/professor/reworked/idle/south/frame_03.png" id="f11"]
+[ext_resource type="Texture2D" path="res://assets/characters/cast/professor/reworked/idle/south_west/frame_00.png" id="f12"]
+[ext_resource type="Texture2D" path="res://assets/characters/cast/professor/reworked/idle/south_west/frame_01.png" id="f13"]
+[ext_resource type="Texture2D" path="res://assets/characters/cast/professor/reworked/idle/south_west/frame_02.png" id="f14"]
+[ext_resource type="Texture2D" path="res://assets/characters/cast/professor/reworked/idle/south_west/frame_03.png" id="f15"]
+[ext_resource type="Texture2D" path="res://assets/characters/cast/professor/reworked/idle/west/frame_00.png" id="f16"]
+[ext_resource type="Texture2D" path="res://assets/characters/cast/professor/reworked/idle/west/frame_01.png" id="f17"]
+[ext_resource type="Texture2D" path="res://assets/characters/cast/professor/reworked/idle/west/frame_02.png" id="f18"]
+[ext_resource type="Texture2D" path="res://assets/characters/cast/professor/reworked/idle/west/frame_03.png" id="f19"]
+[ext_resource type="Texture2D" path="res://assets/characters/cast/professor/reworked/idle/north_west/frame_00.png" id="f20"]
+[ext_resource type="Texture2D" path="res://assets/characters/cast/professor/reworked/idle/north_west/frame_01.png" id="f21"]
+[ext_resource type="Texture2D" path="res://assets/characters/cast/professor/reworked/idle/north_west/frame_02.png" id="f22"]
+[ext_resource type="Texture2D" path="res://assets/characters/cast/professor/reworked/idle/north_west/frame_03.png" id="f23"]
+[ext_resource type="Texture2D" path="res://assets/characters/cast/professor/reworked/idle/north/frame_00.png" id="f24"]
+[ext_resource type="Texture2D" path="res://assets/characters/cast/professor/reworked/idle/north/frame_01.png" id="f25"]
+[ext_resource type="Texture2D" path="res://assets/characters/cast/professor/reworked/idle/north/frame_02.png" id="f26"]
+[ext_resource type="Texture2D" path="res://assets/characters/cast/professor/reworked/idle/north/frame_03.png" id="f27"]
+[ext_resource type="Texture2D" path="res://assets/characters/cast/professor/reworked/idle/north_east/frame_00.png" id="f28"]
+[ext_resource type="Texture2D" path="res://assets/characters/cast/professor/reworked/idle/north_east/frame_01.png" id="f29"]
+[ext_resource type="Texture2D" path="res://assets/characters/cast/professor/reworked/idle/north_east/frame_02.png" id="f30"]
+[ext_resource type="Texture2D" path="res://assets/characters/cast/professor/reworked/idle/north_east/frame_03.png" id="f31"]
+
+[resource]
+animations = [
+{"name":&"east","speed":1.5,"loop":true,"frames":[{"duration":1.0,"texture":ExtResource("f0")}, {"duration":1.0,"texture":ExtResource("f1")}, {"duration":1.0,"texture":ExtResource("f2")}, {"duration":1.0,"texture":ExtResource("f3")}]},
+{"name":&"south_east","speed":1.5,"loop":true,"frames":[{"duration":1.0,"texture":ExtResource("f4")}, {"duration":1.0,"texture":ExtResource("f5")}, {"duration":1.0,"texture":ExtResource("f6")}, {"duration":1.0,"texture":ExtResource("f7")}]},
+{"name":&"south","speed":1.5,"loop":true,"frames":[{"duration":1.0,"texture":ExtResource("f8")}, {"duration":1.0,"texture":ExtResource("f9")}, {"duration":1.0,"texture":ExtResource("f10")}, {"duration":1.0,"texture":ExtResource("f11")}]},
+{"name":&"south_west","speed":1.5,"loop":true,"frames":[{"duration":1.0,"texture":ExtResource("f12")}, {"duration":1.0,"texture":ExtResource("f13")}, {"duration":1.0,"texture":ExtResource("f14")}, {"duration":1.0,"texture":ExtResource("f15")}]},
+{"name":&"west","speed":1.5,"loop":true,"frames":[{"duration":1.0,"texture":ExtResource("f16")}, {"duration":1.0,"texture":ExtResource("f17")}, {"duration":1.0,"texture":ExtResource("f18")}, {"duration":1.0,"texture":ExtResource("f19")}]},
+{"name":&"north_west","speed":1.5,"loop":true,"frames":[{"duration":1.0,"texture":ExtResource("f20")}, {"duration":1.0,"texture":ExtResource("f21")}, {"duration":1.0,"texture":ExtResource("f22")}, {"duration":1.0,"texture":ExtResource("f23")}]},
+{"name":&"north","speed":1.5,"loop":true,"frames":[{"duration":1.0,"texture":ExtResource("f24")}, {"duration":1.0,"texture":ExtResource("f25")}, {"duration":1.0,"texture":ExtResource("f26")}, {"duration":1.0,"texture":ExtResource("f27")}]},
+{"name":&"north_east","speed":1.5,"loop":true,"frames":[{"duration":1.0,"texture":ExtResource("f28")}, {"duration":1.0,"texture":ExtResource("f29")}, {"duration":1.0,"texture":ExtResource("f30")}, {"duration":1.0,"texture":ExtResource("f31")}]}
+]

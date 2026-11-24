@@ -1,0 +1,80 @@
+[gd_scene format=3 uid="uid://ba5weid8h54x7"]
+
+[ext_resource type="Script" uid="uid://b74x77060iso7" path="res://Scripts/UI/professor_guide.gd" id="1_1nq7o"]
+[ext_resource type="Shader" uid="uid://c1v1romqvjam1" path="res://assets/shaders/ui/blur.gdshader" id="2_sks3c"]
+[ext_resource type="FontFile" path="res://assets/fonts/InterfaceSans.tres" id="3_cke80"]
+
+[sub_resource type="ShaderMaterial" id="ShaderMaterial_op3jk"]
+shader = ExtResource("2_sks3c")
+shader_parameter/blur_amount = 2.5
+
+[node name="ProfessorGuide" type="CanvasLayer" unique_id=896395257]
+process_mode = 3
+layer = 70
+script = ExtResource("1_1nq7o")
+
+[node name="ViewRoot" type="Control" parent="." unique_id=626412918]
+visible = false
+layout_mode = 3
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+
+[node name="BackgroundBlur" type="ColorRect" parent="ViewRoot" unique_id=1128011951]
+material = SubResource("ShaderMaterial_op3jk")
+layout_mode = 0
+anchor_right = 1.0
+anchor_bottom = 1.0
+mouse_filter = 2
+
+[node name="Backdrop" type="ColorRect" parent="ViewRoot" unique_id=1853472273]
+layout_mode = 0
+anchor_right = 1.0
+anchor_bottom = 1.0
+mouse_filter = 2
+color = Color(0.02, 0.04, 0.06, 0.36)
+
+[node name="Dialog" type="Control" parent="ViewRoot" unique_id=1803977819]
+anchors_preset = 0
+offset_right = 1152.0
+offset_bottom = 1152.0
+mouse_filter = 1
+
+[node name="Speaker" type="Label" parent="ViewRoot/Dialog" unique_id=108274837]
+layout_mode = 0
+theme_override_colors/font_color = Color(1, 0.84313726, 0.4862745, 1)
+theme_override_colors/font_outline_color = Color(0.10980392, 0.1254902, 0.15686275, 1)
+theme_override_constants/outline_size = 4
+theme_override_fonts/font = ExtResource("3_cke80")
+theme_override_font_sizes/font_size = 21
+text = "Professor Scaldwell"
+horizontal_alignment = 1
+autowrap_mode = 3
+
+[node name="ContentText" type="Label" parent="ViewRoot/Dialog" unique_id=1209259103]
+layout_mode = 0
+theme_override_colors/font_color = Color(1, 1, 1, 1)
+theme_override_colors/font_outline_color = Color(0.10980392, 0.1254902, 0.15686275, 1)
+theme_override_constants/outline_size = 4
+theme_override_fonts/font = ExtResource("3_cke80")
+theme_override_font_sizes/font_size = 20
+horizontal_alignment = 1
+autowrap_mode = 3
+
+[node name="ContinueHint" type="Label" parent="ViewRoot/Dialog" unique_id=1971062228]
+visible = false
+layout_mode = 0
+theme_override_colors/font_color = Color(0.9019608, 0.8666667, 0.7647059, 1)
+theme_override_colors/font_outline_color = Color(0.10980392, 0.1254902, 0.15686275, 1)
+theme_override_constants/outline_size = 4
+theme_override_fonts/font = ExtResource("3_cke80")
+theme_override_font_sizes/font_size = 14
+text = "Continue  ▾"
+horizontal_alignment = 2
+autowrap_mode = 3
+
+[node name="Choices" type="VBoxContainer" parent="ViewRoot/Dialog" unique_id=123104983]
+layout_mode = 0
+theme_override_constants/separation = 8

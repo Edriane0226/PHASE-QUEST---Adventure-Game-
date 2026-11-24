@@ -1,0 +1,486 @@
+{
+  "schema_version": 1,
+  "owner": "R3 008",
+  "status": "Compatibility reviewed; external acceptance pending",
+  "mode_count": 4,
+  "scope": "Reuse/compatibility metadata only; existing presenters/campaign remain authoritative and unchanged",
+  "entries": [
+    {
+      "id": "device.effect.thermal",
+      "mode": "thermal",
+      "action": "keep",
+      "owner": "R3 008",
+      "consumer": "Scripts/World/thermal_blast_effects.gd",
+      "dependencies": [
+        "R3 007 shared player/sockets",
+        "R2 production assets",
+        "phase_device_target eligibility"
+      ],
+      "art": "assets/effects/thermal/v1/sprite_frames.tres",
+      "atlas": "assets/effects/thermal/v1/atlas.png",
+      "source_manifest": "assets/effects/thermal/v1/manifest.json",
+      "phase_mapping": {
+        "start": "start",
+        "loop": "stream",
+        "impact": "impact",
+        "stop": "release"
+      },
+      "audio": {
+        "start": "assets/audio/Device/thermal_start.wav",
+        "loop": "assets/audio/Device/thermal_loop.wav",
+        "stop": "assets/audio/Device/thermal_release.wav",
+        "impact": "qualified loop/contact presentation; no missing separate impact audio event"
+      },
+      "source_project": "tools/art/thermal_v1/generation.md",
+      "cell_px": [
+        128,
+        128
+      ],
+      "conversion": "Existing presenter draw sizes in world units; no global raster rescale. Actor/camera unchanged.",
+      "normal_states": [
+        "start",
+        "sustain miss",
+        "sustain qualified impact",
+        "release",
+        "idle"
+      ],
+      "reduced": "Existing narrower stream/local contact retained; auxiliary motes removed; chamber one ring instead of two",
+      "locked": "Existing normal mode/capability gates + target cue; no emission/unlock from fixture art",
+      "bounds": {
+        "range_world": 100,
+        "max_stream_tiles": 8,
+        "max_particle_slots": 18,
+        "max_voices": 1,
+        "max_local_ring_radius_world": 0,
+        "shimmer_patches": 2
+      },
+      "review": "Isolated current presenter/shared-rig/new-biome review; human listening/Android pending",
+      "retirement_eligible": false
+    },
+    {
+      "id": "device.effect.cryo",
+      "mode": "cryo",
+      "action": "keep",
+      "owner": "R3 008",
+      "consumer": "Scripts/World/cryo_beam_effects.gd",
+      "dependencies": [
+        "R3 007 shared player/sockets",
+        "R2 production assets",
+        "phase_device_target eligibility"
+      ],
+      "art": "assets/effects/cryo/v1/sprite_frames.tres",
+      "atlas": "assets/effects/cryo/v1/atlas.png",
+      "source_manifest": "assets/effects/cryo/v1/manifest.json",
+      "phase_mapping": {
+        "start": "start",
+        "loop": "stream",
+        "impact": "impact",
+        "stop": "release"
+      },
+      "audio": {
+        "start": "assets/audio/Device/cryo_start.wav",
+        "loop": "assets/audio/Device/cryo_loop.wav",
+        "stop": "assets/audio/Device/cryo_release.wav",
+        "impact": "qualified loop/contact presentation; no missing separate impact audio event"
+      },
+      "source_project": "tools/art/cryo_v1/generation.md",
+      "cell_px": [
+        128,
+        128
+      ],
+      "conversion": "Existing presenter draw sizes in world units; no global raster rescale. Actor/camera unchanged.",
+      "normal_states": [
+        "start",
+        "sustain miss",
+        "sustain qualified impact",
+        "release",
+        "idle"
+      ],
+      "reduced": "Existing narrower stream/local contact retained; auxiliary motes removed; chamber one ring instead of two",
+      "locked": "Existing normal mode/capability gates + target cue; no emission/unlock from fixture art",
+      "bounds": {
+        "range_world": 100,
+        "max_stream_tiles": 8,
+        "max_particle_slots": 18,
+        "max_voices": 1,
+        "max_local_ring_radius_world": 0,
+        "shimmer_patches": 0
+      },
+      "review": "Isolated current presenter/shared-rig/new-biome review; human listening/Android pending",
+      "retirement_eligible": false
+    },
+    {
+      "id": "device.effect.vacuum",
+      "mode": "vacuum",
+      "action": "keep",
+      "owner": "R3 008",
+      "consumer": "Scripts/World/vacuum_burst_effects.gd",
+      "dependencies": [
+        "R3 007 shared player/sockets",
+        "R2 production assets",
+        "phase_device_target eligibility"
+      ],
+      "art": "assets/effects/vacuum/v1/sprite_frames.tres",
+      "atlas": "assets/effects/vacuum/v1/atlas.png",
+      "source_manifest": "assets/effects/vacuum/v1/manifest.json",
+      "phase_mapping": {
+        "start": "start",
+        "loop": "stream",
+        "impact": "impact",
+        "stop": "release"
+      },
+      "audio": {
+        "start": "assets/audio/Device/vacuum_start.wav",
+        "loop": "assets/audio/Device/vacuum_loop.wav",
+        "stop": "assets/audio/Device/vacuum_release.wav",
+        "impact": "qualified loop/contact presentation; no missing separate impact audio event"
+      },
+      "source_project": "tools/art/chamber_v1/generation.md",
+      "cell_px": [
+        128,
+        128
+      ],
+      "conversion": "Existing presenter draw sizes in world units; no global raster rescale. Actor/camera unchanged.",
+      "normal_states": [
+        "start",
+        "sustain miss",
+        "sustain qualified impact",
+        "release",
+        "idle"
+      ],
+      "reduced": "Existing narrower stream/local contact retained; auxiliary motes removed; chamber one ring instead of two",
+      "locked": "Existing normal mode/capability gates + target cue; no emission/unlock from fixture art",
+      "bounds": {
+        "range_world": 100,
+        "max_stream_tiles": 8,
+        "max_particle_slots": 18,
+        "max_voices": 1,
+        "max_local_ring_radius_world": 23,
+        "shimmer_patches": 0
+      },
+      "review": "Isolated current presenter/shared-rig/new-biome review; human listening/Android pending",
+      "retirement_eligible": false
+    },
+    {
+      "id": "device.effect.pressure",
+      "mode": "pressure",
+      "action": "keep",
+      "owner": "R3 008",
+      "consumer": "Scripts/World/pressure_vice_effects.gd",
+      "dependencies": [
+        "R3 007 shared player/sockets",
+        "R2 production assets",
+        "phase_device_target eligibility"
+      ],
+      "art": "assets/effects/pressure/v1/sprite_frames.tres",
+      "atlas": "assets/effects/pressure/v1/atlas.png",
+      "source_manifest": "assets/effects/pressure/v1/manifest.json",
+      "phase_mapping": {
+        "start": "start",
+        "loop": "stream",
+        "impact": "impact",
+        "stop": "release"
+      },
+      "audio": {
+        "start": "assets/audio/Device/pressure_start.wav",
+        "loop": "assets/audio/Device/pressure_loop.wav",
+        "stop": "assets/audio/Device/pressure_release.wav",
+        "impact": "qualified loop/contact presentation; no missing separate impact audio event"
+      },
+      "source_project": "tools/art/chamber_v1/generation.md",
+      "cell_px": [
+        128,
+        128
+      ],
+      "conversion": "Existing presenter draw sizes in world units; no global raster rescale. Actor/camera unchanged.",
+      "normal_states": [
+        "start",
+        "sustain miss",
+        "sustain qualified impact",
+        "release",
+        "idle"
+      ],
+      "reduced": "Existing narrower stream/local contact retained; auxiliary motes removed; chamber one ring instead of two",
+      "locked": "Existing normal mode/capability gates + target cue; no emission/unlock from fixture art",
+      "bounds": {
+        "range_world": 100,
+        "max_stream_tiles": 8,
+        "max_particle_slots": 18,
+        "max_voices": 1,
+        "max_local_ring_radius_world": 23,
+        "shimmer_patches": 0
+      },
+      "review": "Isolated current presenter/shared-rig/new-biome review; human listening/Android pending",
+      "retirement_eligible": false
+    }
+  ],
+  "handheld": "assets/devices/phase_device/v1/sprite_frames.tres",
+  "socket_authority": "Native Texture metadata and actual shared phase_device_rig; old sockets.json attachment_integration note is historical R2 003",
+  "cryo_sample": "assets/effects/cryo/v1/sample_frames.tres",
+  "chamber_sample": "assets/effects/chamber/v1/sprite_frames.tres",
+  "cue": "Scripts/World/phase_device_target_cue.gd",
+  "files": [
+    {
+      "path": "assets/devices/phase_device/v1/atlas.png",
+      "sha256": "E232BE29ED7D9319E5A9C32E4DF10ACFD2AA9220F6DACAEE1E6D41518A755121",
+      "bytes": 41072,
+      "action": "keep"
+    },
+    {
+      "path": "assets/devices/phase_device/v1/sockets.json",
+      "sha256": "59B6BA6082DCF8013F658D72F1331508FEDA7F64781ED7032785F18D9A1F4363",
+      "bytes": 7702,
+      "action": "keep"
+    },
+    {
+      "path": "assets/devices/phase_device/v1/sprite_frames.tres",
+      "sha256": "338478E8803111012DD087DFF54BC9ADA66AAD551A1889DFDEAE420DA28DF4FE",
+      "bytes": 9344,
+      "action": "keep"
+    },
+    {
+      "path": "assets/effects/thermal/v1/atlas.png",
+      "sha256": "28857701D34B393933663BC2F82B76D2FC80D48E24F4ABCED00989E360A8F198",
+      "bytes": 162540,
+      "action": "keep"
+    },
+    {
+      "path": "assets/effects/thermal/v1/manifest.json",
+      "sha256": "FC6C2856D29039BDCC062BD2657C6699C6208B071B80D50A3FD0810FF620D8D3",
+      "bytes": 391,
+      "action": "keep"
+    },
+    {
+      "path": "assets/effects/thermal/v1/sprite_frames.tres",
+      "sha256": "46CD91E002DCA0C952DBD60FE892A381C10E9BB500FB22698D3814C5B71C18B3",
+      "bytes": 3365,
+      "action": "keep"
+    },
+    {
+      "path": "assets/effects/cryo/v1/atlas.png",
+      "sha256": "FAAFFC30A504A3B20576C2BFFB3806629E4914BDFF9674A4683C979BAAB3A801",
+      "bytes": 227837,
+      "action": "keep"
+    },
+    {
+      "path": "assets/effects/cryo/v1/manifest.json",
+      "sha256": "3695B025F9BB70FBB7B5A9EBF28A12EB3ECC415E7D687D9DE9791535E81E3D93",
+      "bytes": 390,
+      "action": "keep"
+    },
+    {
+      "path": "assets/effects/cryo/v1/sample_atlas.png",
+      "sha256": "6E0FF9A0792A4E3587F6DF09852EE792452A9FC7ADD87B8B09522BB2DC35ECB8",
+      "bytes": 42591,
+      "action": "keep"
+    },
+    {
+      "path": "assets/effects/cryo/v1/sample_frames.tres",
+      "sha256": "9804BEAD0700D98F076DC6A68312316EAA97411A798089C7BF7D3FAD8CD712AC",
+      "bytes": 915,
+      "action": "keep"
+    },
+    {
+      "path": "assets/effects/cryo/v1/sprite_frames.tres",
+      "sha256": "942035F8F0BDF53D9E66D26260C53715E187B17CAEF9D02B30E29876D18AB07A",
+      "bytes": 3361,
+      "action": "keep"
+    },
+    {
+      "path": "assets/effects/vacuum/v1/atlas.png",
+      "sha256": "7880B092DFE8AC283C2989D0F77B04BFDBF2F68BAAC99300A94A436DAC362C52",
+      "bytes": 191676,
+      "action": "keep"
+    },
+    {
+      "path": "assets/effects/vacuum/v1/manifest.json",
+      "sha256": "527AE7062A7CEE0255371D38ADF6FC55FCFC478B86F597697BB69DFCD277A767",
+      "bytes": 391,
+      "action": "keep"
+    },
+    {
+      "path": "assets/effects/vacuum/v1/sprite_frames.tres",
+      "sha256": "9C6E14592A69D74F3C13F8598CB16CA11C4406EFC34DEF4A87071DFCB0581133",
+      "bytes": 3364,
+      "action": "keep"
+    },
+    {
+      "path": "assets/effects/pressure/v1/atlas.png",
+      "sha256": "AAF3F6C06A5480140276D45C53454C7BB4B4005D64776FC5AE359A64A94A9A50",
+      "bytes": 230000,
+      "action": "keep"
+    },
+    {
+      "path": "assets/effects/pressure/v1/manifest.json",
+      "sha256": "0B6D8F263033083D2D761665444D1CA206E82CCE3420AAE4AB596B4E86CBB05A",
+      "bytes": 391,
+      "action": "keep"
+    },
+    {
+      "path": "assets/effects/pressure/v1/sprite_frames.tres",
+      "sha256": "26807162AF0566C9079BCBF9BC4E5832F45F43D326B27922E7A28F66CE875D14",
+      "bytes": 3366,
+      "action": "keep"
+    },
+    {
+      "path": "assets/effects/chamber/v1/atlas.png",
+      "sha256": "9ED3D7359E0F6C175A4998743C70EDAAC4412D7500A9A31421F34FBABCDE986C",
+      "bytes": 72846,
+      "action": "keep"
+    },
+    {
+      "path": "assets/effects/chamber/v1/sprite_frames.tres",
+      "sha256": "7D8BEB77CC71C71EC1285FEC947EA13AD31FE14FA3465B3E49EB5C1BE15C3214",
+      "bytes": 911,
+      "action": "keep"
+    },
+    {
+      "path": "assets/audio/Device/cryo_loop.wav",
+      "sha256": "398C03FCA0D6F58D4A861E7C027DACBE02129793F8929FA24B0A9788819938D8",
+      "bytes": 88244,
+      "action": "keep"
+    },
+    {
+      "path": "assets/audio/Device/cryo_release.wav",
+      "sha256": "120861AC4FF59F28FE693D3497ED563FDEE2D3C5E2EE3D50F9FAED810465FCFC",
+      "bytes": 5336,
+      "action": "keep"
+    },
+    {
+      "path": "assets/audio/Device/cryo_start.wav",
+      "sha256": "71276E23F019198A79B7D99AE46744CFDE0C4ED883DAD73F5C5DF3B04BC73C79",
+      "bytes": 6218,
+      "action": "keep"
+    },
+    {
+      "path": "assets/audio/Device/pressure_loop.wav",
+      "sha256": "19839511B4D1DF77AD4DFBA1C3B8B2AEB0797C0889737A216FAC1E5D88137510",
+      "bytes": 88244,
+      "action": "keep"
+    },
+    {
+      "path": "assets/audio/Device/pressure_release.wav",
+      "sha256": "8034A6F4CB6A96CD29BAF97BE5290FDC920DBEDAE289D7CEEDDDFADF5E11866C",
+      "bytes": 5336,
+      "action": "keep"
+    },
+    {
+      "path": "assets/audio/Device/pressure_start.wav",
+      "sha256": "EFFD6CD69C06BA5402C3DA48C486A550BCD4E5F195E8E123CE4D80AF9B73BFE9",
+      "bytes": 6218,
+      "action": "keep"
+    },
+    {
+      "path": "assets/audio/Device/thermal_loop.wav",
+      "sha256": "345C9A510508FB9BA058E053B70A75806D45A3B1B0AC5F0618C076F70BD90BC3",
+      "bytes": 88244,
+      "action": "keep"
+    },
+    {
+      "path": "assets/audio/Device/thermal_release.wav",
+      "sha256": "2E8E54A31748DE51DD24054560E5BD641C4F599C3FC0AA3DE8455537DE621CAD",
+      "bytes": 5336,
+      "action": "keep"
+    },
+    {
+      "path": "assets/audio/Device/thermal_start.wav",
+      "sha256": "3B3BF20A3255240575D8BB78FBBD83A7F7925E708BC933A9D2E13AA127F140BA",
+      "bytes": 6218,
+      "action": "keep"
+    },
+    {
+      "path": "assets/audio/Device/vacuum_loop.wav",
+      "sha256": "302D3A62D85AECE00E15E0FAF7F976B0DFDF31E21F766E325B931156554D05F6",
+      "bytes": 88244,
+      "action": "keep"
+    },
+    {
+      "path": "assets/audio/Device/vacuum_release.wav",
+      "sha256": "45A3A22BA68B497A5A10D21B3DC688F7594D37C0A2096AE39DF54A9400FFDCD9",
+      "bytes": 5336,
+      "action": "keep"
+    },
+    {
+      "path": "assets/audio/Device/vacuum_start.wav",
+      "sha256": "2AB3E7B5AC7E7F5F502DA0754A78ABF1BE17BE9F6CCC02E742647BC424472A0C",
+      "bytes": 6218,
+      "action": "keep"
+    }
+  ],
+  "audio_imports": [
+    {
+      "path": "assets/audio/Device/cryo_loop.wav.import",
+      "sha256": "0CF522D266F761CD445119032664698C2AB2CA6E360FF39D4EEEF42CF5BB943A",
+      "compression_mode": 0,
+      "meaning": "Original PCM import, no recompression; independent review retains same params"
+    },
+    {
+      "path": "assets/audio/Device/cryo_release.wav.import",
+      "sha256": "9BD8A254D033C7D627682517519D0DB1012867049B7F1B1838C366540013D0FC",
+      "compression_mode": 0,
+      "meaning": "Original PCM import, no recompression; independent review retains same params"
+    },
+    {
+      "path": "assets/audio/Device/cryo_start.wav.import",
+      "sha256": "F4341D8DF71E661F3A5EE8278C41D90C203332AC5F441A3F9CF3C50AF06932A1",
+      "compression_mode": 0,
+      "meaning": "Original PCM import, no recompression; independent review retains same params"
+    },
+    {
+      "path": "assets/audio/Device/pressure_loop.wav.import",
+      "sha256": "35F0A13D1C2E4B2DC31279A57E1919DC536643E074F7A5E7C02448730DBA35FF",
+      "compression_mode": 0,
+      "meaning": "Original PCM import, no recompression; independent review retains same params"
+    },
+    {
+      "path": "assets/audio/Device/pressure_release.wav.import",
+      "sha256": "2E6D4905DED5C7AB30A5D98BAAC22443B138E0530A56F5625CA2EF3DDE1EEB1F",
+      "compression_mode": 0,
+      "meaning": "Original PCM import, no recompression; independent review retains same params"
+    },
+    {
+      "path": "assets/audio/Device/pressure_start.wav.import",
+      "sha256": "E9348FF7819ACB7C90B814E25B37CF4E4A82061BBB604F48E968F3824091D57E",
+      "compression_mode": 0,
+      "meaning": "Original PCM import, no recompression; independent review retains same params"
+    },
+    {
+      "path": "assets/audio/Device/thermal_loop.wav.import",
+      "sha256": "FFAD7E755A5D43185E24F06DA4FF23270730AA18CE549CFF484AE641742BDC33",
+      "compression_mode": 0,
+      "meaning": "Original PCM import, no recompression; independent review retains same params"
+    },
+    {
+      "path": "assets/audio/Device/thermal_release.wav.import",
+      "sha256": "CE3B034A63E32E01A07106F8F18C6B8568D3C851F85DA88ABCE9F48F773C5C09",
+      "compression_mode": 0,
+      "meaning": "Original PCM import, no recompression; independent review retains same params"
+    },
+    {
+      "path": "assets/audio/Device/thermal_start.wav.import",
+      "sha256": "359D9E8ACAF4715B7E95A86438A42BD33E7535D1746DD6AB704F447002D3D6EE",
+      "compression_mode": 0,
+      "meaning": "Original PCM import, no recompression; independent review retains same params"
+    },
+    {
+      "path": "assets/audio/Device/vacuum_loop.wav.import",
+      "sha256": "2E6CF30C2F9C9C1AD983CD1DF28071546DBB449A0B00F1AC33326DAFC8260BC7",
+      "compression_mode": 0,
+      "meaning": "Original PCM import, no recompression; independent review retains same params"
+    },
+    {
+      "path": "assets/audio/Device/vacuum_release.wav.import",
+      "sha256": "45294DFAAFD0DFC23C957F3470F64F7EE9507BB1E4297DB3EBBFAF13A31303CA",
+      "compression_mode": 0,
+      "meaning": "Original PCM import, no recompression; independent review retains same params"
+    },
+    {
+      "path": "assets/audio/Device/vacuum_start.wav.import",
+      "sha256": "1DD81F150A8ADF3A9AAE11518BAF1792116E92A9F58D0CDA5F469D371D35D174",
+      "compression_mode": 0,
+      "meaning": "Original PCM import, no recompression; independent review retains same params"
+    }
+  ],
+  "gaps": "No missing production phase/VFX/audio family found; no art/audio regeneration or source replacement justified",
+  "stage_limits": "R3 007 user/Android and wider R3 002 art acceptance still pending"
+}

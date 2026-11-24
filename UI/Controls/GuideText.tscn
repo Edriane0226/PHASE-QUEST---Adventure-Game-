@@ -1,0 +1,8 @@
+[gd_scene format=3]
+
+[node name="GuideText" type="Label"]
+custom_minimum_size = Vector2(200, 0)
+theme_override_colors/font_color = Color(0.94902, 0.929412, 0.858824, 1)
+theme_override_font_sizes/font_size = 18
+text = "Guide text"
+autowrap_mode = 3

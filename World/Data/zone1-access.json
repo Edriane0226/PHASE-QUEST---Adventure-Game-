@@ -1,0 +1,1805 @@
+{
+	"access": [
+		{
+			"anchor": [
+				1501.0,
+				1528.0
+			],
+			"authored_jumps": 0,
+			"distance_from_anchor": 13.6,
+			"id": "Z1L1.C0",
+			"route_parts": 1,
+			"safe_ground": [
+				1512.0,
+				1536.0
+			],
+			"subregion": "Z1L1"
+		},
+		{
+			"anchor": [
+				2496.89,
+				1268.45
+			],
+			"authored_jumps": 0,
+			"distance_from_anchor": 3.66,
+			"id": "Z1L1.C1",
+			"route_parts": 1,
+			"safe_ground": [
+				2496.0,
+				1272.0
+			],
+			"subregion": "Z1L1"
+		},
+		{
+			"anchor": [
+				2783.11,
+				2188.45
+			],
+			"authored_jumps": 0,
+			"distance_from_anchor": 4.54,
+			"id": "Z1L1.C2",
+			"route_parts": 1,
+			"safe_ground": [
+				2784.0,
+				2184.0
+			],
+			"subregion": "Z1L1"
+		},
+		{
+			"anchor": [
+				1460.0,
+				2025.0
+			],
+			"authored_jumps": 0,
+			"distance_from_anchor": 9.85,
+			"id": "Z1L1.C3",
+			"route_parts": 1,
+			"safe_ground": [
+				1464.0,
+				2016.0
+			],
+			"subregion": "Z1L1"
+		},
+		{
+			"anchor": [
+				1501.0,
+				1528.0
+			],
+			"authored_jumps": 0,
+			"distance_from_anchor": 13.6,
+			"id": "Z1L1.entry",
+			"route_parts": 1,
+			"safe_ground": [
+				1512.0,
+				1536.0
+			],
+			"subregion": "Z1L1"
+		},
+		{
+			"anchor": [
+				1350.0,
+				1845.0
+			],
+			"authored_jumps": 1,
+			"distance_from_anchor": 6.71,
+			"id": "Z1L1.exit",
+			"route_parts": 3,
+			"safe_ground": [
+				1344.0,
+				1848.0
+			],
+			"subregion": "Z1L1"
+		},
+		{
+			"anchor": [
+				1212.74,
+				4545.78
+			],
+			"authored_jumps": 1,
+			"distance_from_anchor": 14.91,
+			"id": "Z1L1.explore1",
+			"route_parts": 3,
+			"safe_ground": [
+				1224.0,
+				4536.0
+			],
+			"subregion": "Z1L1"
+		},
+		{
+			"anchor": [
+				826.64,
+				3307.82
+			],
+			"authored_jumps": 1,
+			"distance_from_anchor": 11.43,
+			"id": "Z1L1.explore2",
+			"route_parts": 3,
+			"safe_ground": [
+				816.0,
+				3312.0
+			],
+			"subregion": "Z1L1"
+		},
+		{
+			"anchor": [
+				2249.98,
+				3756.28
+			],
+			"authored_jumps": 1,
+			"distance_from_anchor": 13.18,
+			"id": "Z1L1.explore3",
+			"route_parts": 3,
+			"safe_ground": [
+				2256.0,
+				3768.0
+			],
+			"subregion": "Z1L1"
+		},
+		{
+			"anchor": [
+				1330.0,
+				1490.0
+			],
+			"authored_jumps": 0,
+			"distance_from_anchor": 38.05,
+			"id": "Z1L1.legacy_Camp",
+			"route_parts": 1,
+			"safe_ground": [
+				1368.0,
+				1488.0
+			],
+			"subregion": "Z1L1"
+		},
+		{
+			"anchor": [
+				2910.0,
+				1840.0
+			],
+			"authored_jumps": 0,
+			"distance_from_anchor": 24.08,
+			"id": "Z1L1.legacy_blades",
+			"route_parts": 1,
+			"safe_ground": [
+				2928.0,
+				1824.0
+			],
+			"subregion": "Z1L1"
+		},
+		{
+			"anchor": [
+				2500.0,
+				1180.0
+			],
+			"authored_jumps": 0,
+			"distance_from_anchor": 5.66,
+			"id": "Z1L1.legacy_brazier0",
+			"route_parts": 1,
+			"safe_ground": [
+				2496.0,
+				1176.0
+			],
+			"subregion": "Z1L1"
+		},
+		{
+			"anchor": [
+				2900.0,
+				2190.0
+			],
+			"authored_jumps": 0,
+			"distance_from_anchor": 33.29,
+			"id": "Z1L1.legacy_brazier1",
+			"route_parts": 1,
+			"safe_ground": [
+				2928.0,
+				2208.0
+			],
+			"subregion": "Z1L1"
+		},
+		{
+			"anchor": [
+				1860.0,
+				2450.0
+			],
+			"authored_jumps": 0,
+			"distance_from_anchor": 25.06,
+			"id": "Z1L1.legacy_brazier2",
+			"route_parts": 1,
+			"safe_ground": [
+				1848.0,
+				2472.0
+			],
+			"subregion": "Z1L1"
+		},
+		{
+			"anchor": [
+				1660.0,
+				1305.0
+			],
+			"authored_jumps": 0,
+			"distance_from_anchor": 25.0,
+			"id": "Z1L1.legacy_crystal0",
+			"route_parts": 1,
+			"safe_ground": [
+				1680.0,
+				1320.0
+			],
+			"subregion": "Z1L1"
+		},
+		{
+			"anchor": [
+				2385.0,
+				1325.0
+			],
+			"authored_jumps": 0,
+			"distance_from_anchor": 21.02,
+			"id": "Z1L1.legacy_crystal1",
+			"route_parts": 1,
+			"safe_ground": [
+				2376.0,
+				1344.0
+			],
+			"subregion": "Z1L1"
+		},
+		{
+			"anchor": [
+				3030.0,
+				1610.0
+			],
+			"authored_jumps": 0,
+			"distance_from_anchor": 22.8,
+			"id": "Z1L1.legacy_crystal2",
+			"route_parts": 1,
+			"safe_ground": [
+				3024.0,
+				1632.0
+			],
+			"subregion": "Z1L1"
+		},
+		{
+			"anchor": [
+				3000.0,
+				1985.0
+			],
+			"authored_jumps": 0,
+			"distance_from_anchor": 31.0,
+			"id": "Z1L1.legacy_crystal3",
+			"route_parts": 1,
+			"safe_ground": [
+				3000.0,
+				2016.0
+			],
+			"subregion": "Z1L1"
+		},
+		{
+			"anchor": [
+				2380.0,
+				2450.0
+			],
+			"authored_jumps": 0,
+			"distance_from_anchor": 22.36,
+			"id": "Z1L1.legacy_crystal4",
+			"route_parts": 1,
+			"safe_ground": [
+				2376.0,
+				2472.0
+			],
+			"subregion": "Z1L1"
+		},
+		{
+			"anchor": [
+				1990.0,
+				2440.0
+			],
+			"authored_jumps": 0,
+			"distance_from_anchor": 32.06,
+			"id": "Z1L1.legacy_crystal5",
+			"route_parts": 1,
+			"safe_ground": [
+				1992.0,
+				2472.0
+			],
+			"subregion": "Z1L1"
+		},
+		{
+			"anchor": [
+				1350.0,
+				1845.0
+			],
+			"authored_jumps": 1,
+			"distance_from_anchor": 6.71,
+			"id": "Z1L1.legacy_exit",
+			"route_parts": 3,
+			"safe_ground": [
+				1344.0,
+				1848.0
+			],
+			"subregion": "Z1L1"
+		},
+		{
+			"anchor": [
+				2640.0,
+				1340.0
+			],
+			"authored_jumps": 0,
+			"distance_from_anchor": 4.0,
+			"id": "Z1L1.legacy_ice0",
+			"route_parts": 1,
+			"safe_ground": [
+				2640.0,
+				1344.0
+			],
+			"subregion": "Z1L1"
+		},
+		{
+			"anchor": [
+				2640.0,
+				2260.0
+			],
+			"authored_jumps": 0,
+			"distance_from_anchor": 4.0,
+			"id": "Z1L1.legacy_ice1",
+			"route_parts": 1,
+			"safe_ground": [
+				2640.0,
+				2256.0
+			],
+			"subregion": "Z1L1"
+		},
+		{
+			"anchor": [
+				1760.0,
+				2260.0
+			],
+			"authored_jumps": 0,
+			"distance_from_anchor": 8.94,
+			"id": "Z1L1.legacy_ice2",
+			"route_parts": 1,
+			"safe_ground": [
+				1752.0,
+				2256.0
+			],
+			"subregion": "Z1L1"
+		},
+		{
+			"anchor": [
+				2440.0,
+				2170.0
+			],
+			"authored_jumps": 0,
+			"distance_from_anchor": 16.12,
+			"id": "Z1L1.legacy_mirror",
+			"route_parts": 1,
+			"safe_ground": [
+				2448.0,
+				2184.0
+			],
+			"subregion": "Z1L1"
+		},
+		{
+			"anchor": [
+				2120.0,
+				2345.0
+			],
+			"authored_jumps": 0,
+			"distance_from_anchor": 32.02,
+			"id": "Z1L1.legacy_mirror2",
+			"route_parts": 1,
+			"safe_ground": [
+				2112.0,
+				2376.0
+			],
+			"subregion": "Z1L1"
+		},
+		{
+			"anchor": [
+				2120.0,
+				2250.0
+			],
+			"authored_jumps": 0,
+			"distance_from_anchor": 31.05,
+			"id": "Z1L1.legacy_mirror3",
+			"route_parts": 1,
+			"safe_ground": [
+				2112.0,
+				2280.0
+			],
+			"subregion": "Z1L1"
+		},
+		{
+			"anchor": [
+				1445.0,
+				1470.0
+			],
+			"authored_jumps": 0,
+			"distance_from_anchor": 7.81,
+			"id": "Z1L1.legacy_professor",
+			"route_parts": 1,
+			"safe_ground": [
+				1440.0,
+				1464.0
+			],
+			"subregion": "Z1L1"
+		},
+		{
+			"anchor": [
+				2280.0,
+				2154.0
+			],
+			"authored_jumps": 0,
+			"distance_from_anchor": 72.25,
+			"id": "Z1L1.legacy_receiver",
+			"route_parts": 1,
+			"safe_ground": [
+				2232.0,
+				2208.0
+			],
+			"subregion": "Z1L1"
+		},
+		{
+			"anchor": [
+				2970.0,
+				2085.0
+			],
+			"authored_jumps": 0,
+			"distance_from_anchor": 27.66,
+			"id": "Z1L1.legacy_vent",
+			"route_parts": 1,
+			"safe_ground": [
+				2976.0,
+				2112.0
+			],
+			"subregion": "Z1L1"
+		},
+		{
+			"anchor": [
+				2820.0,
+				1570.0
+			],
+			"authored_jumps": 0,
+			"distance_from_anchor": 18.44,
+			"id": "Z1L1.legacy_wood",
+			"route_parts": 1,
+			"safe_ground": [
+				2832.0,
+				1584.0
+			],
+			"subregion": "Z1L1"
+		},
+		{
+			"anchor": [
+				4380.0,
+				2280.0
+			],
+			"authored_jumps": 0,
+			"distance_from_anchor": 12.0,
+			"id": "Z1L2.C0",
+			"route_parts": 1,
+			"safe_ground": [
+				4368.0,
+				2280.0
+			],
+			"subregion": "Z1L2"
+		},
+		{
+			"anchor": [
+				4965.0,
+				2082.0
+			],
+			"authored_jumps": 0,
+			"distance_from_anchor": 6.71,
+			"id": "Z1L2.C1",
+			"route_parts": 1,
+			"safe_ground": [
+				4968.0,
+				2088.0
+			],
+			"subregion": "Z1L2"
+		},
+		{
+			"anchor": [
+				5340.0,
+				1944.0
+			],
+			"authored_jumps": 0,
+			"distance_from_anchor": 12.0,
+			"id": "Z1L2.C2",
+			"route_parts": 1,
+			"safe_ground": [
+				5328.0,
+				1944.0
+			],
+			"subregion": "Z1L2"
+		},
+		{
+			"anchor": [
+				6115.0,
+				1720.0
+			],
+			"authored_jumps": 0,
+			"distance_from_anchor": 16.76,
+			"id": "Z1L2.CacheIceShell",
+			"route_parts": 1,
+			"safe_ground": [
+				6120.0,
+				1704.0
+			],
+			"subregion": "Z1L2"
+		},
+		{
+			"anchor": [
+				4842.5,
+				2081.0
+			],
+			"authored_jumps": 0,
+			"distance_from_anchor": 31.48,
+			"id": "Z1L2.ChannelIce",
+			"route_parts": 1,
+			"safe_ground": [
+				4848.0,
+				2112.0
+			],
+			"subregion": "Z1L2"
+		},
+		{
+			"anchor": [
+				5260.0,
+				2080.0
+			],
+			"authored_jumps": 0,
+			"distance_from_anchor": 25.61,
+			"id": "Z1L2.CrankSocket",
+			"route_parts": 1,
+			"safe_ground": [
+				5280.0,
+				2064.0
+			],
+			"subregion": "Z1L2"
+		},
+		{
+			"anchor": [
+				5920.0,
+				1646.5
+			],
+			"authored_jumps": 0,
+			"distance_from_anchor": 12.42,
+			"id": "Z1L2.ExitBridge",
+			"route_parts": 1,
+			"safe_ground": [
+				5928.0,
+				1656.0
+			],
+			"subregion": "Z1L2"
+		},
+		{
+			"anchor": [
+				4647.5,
+				1798.25
+			],
+			"authored_jumps": 0,
+			"distance_from_anchor": 8.68,
+			"id": "Z1L2.FrozenGear",
+			"route_parts": 1,
+			"safe_ground": [
+				4656.0,
+				1800.0
+			],
+			"subregion": "Z1L2"
+		},
+		{
+			"anchor": [
+				5297.5,
+				2178.25
+			],
+			"authored_jumps": 0,
+			"distance_from_anchor": 8.68,
+			"id": "Z1L2.FrozenLatch",
+			"route_parts": 1,
+			"safe_ground": [
+				5304.0,
+				2184.0
+			],
+			"subregion": "Z1L2"
+		},
+		{
+			"anchor": [
+				4600.0,
+				2358.25
+			],
+			"authored_jumps": 0,
+			"distance_from_anchor": 19.47,
+			"id": "Z1L2.HeatRouteStation",
+			"route_parts": 1,
+			"safe_ground": [
+				4608.0,
+				2376.0
+			],
+			"subregion": "Z1L2"
+		},
+		{
+			"anchor": [
+				4682.5,
+				2143.75
+			],
+			"authored_jumps": 0,
+			"distance_from_anchor": 16.44,
+			"id": "Z1L2.HeaterCartridge",
+			"route_parts": 1,
+			"safe_ground": [
+				4680.0,
+				2160.0
+			],
+			"subregion": "Z1L2"
+		},
+		{
+			"anchor": [
+				6130.0,
+				1735.0
+			],
+			"authored_jumps": 0,
+			"distance_from_anchor": 19.72,
+			"id": "Z1L2.MillCrankRecovery",
+			"route_parts": 1,
+			"safe_ground": [
+				6120.0,
+				1752.0
+			],
+			"subregion": "Z1L2"
+		},
+		{
+			"anchor": [
+				4165.0,
+				2368.75
+			],
+			"authored_jumps": 0,
+			"distance_from_anchor": 20.04,
+			"id": "Z1L2.MillDock",
+			"route_parts": 1,
+			"safe_ground": [
+				4176.0,
+				2352.0
+			],
+			"subregion": "Z1L2"
+		},
+		{
+			"anchor": [
+				5852.5,
+				1876.0
+			],
+			"authored_jumps": 0,
+			"distance_from_anchor": 20.3,
+			"id": "Z1L2.ReflectorA",
+			"route_parts": 1,
+			"safe_ground": [
+				5856.0,
+				1896.0
+			],
+			"subregion": "Z1L2"
+		},
+		{
+			"anchor": [
+				6242.5,
+				1604.5
+			],
+			"authored_jumps": 0,
+			"distance_from_anchor": 27.61,
+			"id": "Z1L2.ReflectorB",
+			"route_parts": 1,
+			"safe_ground": [
+				6240.0,
+				1632.0
+			],
+			"subregion": "Z1L2"
+		},
+		{
+			"anchor": [
+				5050.0,
+				2059.0
+			],
+			"authored_jumps": 0,
+			"distance_from_anchor": 11.18,
+			"id": "Z1L2.TwoWayHeatValve",
+			"route_parts": 1,
+			"safe_ground": [
+				5040.0,
+				2064.0
+			],
+			"subregion": "Z1L2"
+		},
+		{
+			"anchor": [
+				5675.0,
+				1853.75
+			],
+			"authored_jumps": 0,
+			"distance_from_anchor": 12.41,
+			"id": "Z1L2.WalkbackLever",
+			"route_parts": 1,
+			"safe_ground": [
+				5664.0,
+				1848.0
+			],
+			"subregion": "Z1L2"
+		},
+		{
+			"anchor": [
+				4850.0,
+				2088.5
+			],
+			"authored_jumps": 0,
+			"distance_from_anchor": 23.58,
+			"id": "Z1L2.WaterChannel",
+			"route_parts": 1,
+			"safe_ground": [
+				4848.0,
+				2112.0
+			],
+			"subregion": "Z1L2"
+		},
+		{
+			"anchor": [
+				4380.0,
+				2280.0
+			],
+			"authored_jumps": 0,
+			"distance_from_anchor": 12.0,
+			"id": "Z1L2.entry",
+			"route_parts": 1,
+			"safe_ground": [
+				4368.0,
+				2280.0
+			],
+			"subregion": "Z1L2"
+		},
+		{
+			"anchor": [
+				5810.0,
+				1523.0
+			],
+			"authored_jumps": 0,
+			"distance_from_anchor": 11.18,
+			"id": "Z1L2.exit",
+			"route_parts": 1,
+			"safe_ground": [
+				5808.0,
+				1512.0
+			],
+			"subregion": "Z1L2"
+		},
+		{
+			"anchor": [
+				5102.75,
+				3784.63
+			],
+			"authored_jumps": 0,
+			"distance_from_anchor": 11.83,
+			"id": "Z1L2.explore1",
+			"route_parts": 1,
+			"safe_ground": [
+				5112.0,
+				3792.0
+			],
+			"subregion": "Z1L2"
+		},
+		{
+			"anchor": [
+				6405.87,
+				3106.85
+			],
+			"authored_jumps": 0,
+			"distance_from_anchor": 11.06,
+			"id": "Z1L2.explore2",
+			"route_parts": 1,
+			"safe_ground": [
+				6408.0,
+				3096.0
+			],
+			"subregion": "Z1L2"
+		},
+		{
+			"anchor": [
+				4888.32,
+				720.5
+			],
+			"authored_jumps": 0,
+			"distance_from_anchor": 7.7,
+			"id": "Z1L2.explore3",
+			"route_parts": 1,
+			"safe_ground": [
+				4896.0,
+				720.0
+			],
+			"subregion": "Z1L2"
+		},
+		{
+			"anchor": [
+				3544.06,
+				3259.98
+			],
+			"authored_jumps": 0,
+			"distance_from_anchor": 8.9,
+			"id": "Z1L2.explore4",
+			"route_parts": 1,
+			"safe_ground": [
+				3552.0,
+				3264.0
+			],
+			"subregion": "Z1L2"
+		},
+		{
+			"anchor": [
+				5883.71,
+				627.84
+			],
+			"authored_jumps": 0,
+			"distance_from_anchor": 5.34,
+			"id": "Z1L2.explore5",
+			"route_parts": 1,
+			"safe_ground": [
+				5880.0,
+				624.0
+			],
+			"subregion": "Z1L2"
+		},
+		{
+			"anchor": [
+				3875.47,
+				766.54
+			],
+			"authored_jumps": 0,
+			"distance_from_anchor": 11.56,
+			"id": "Z1L2.explore6",
+			"route_parts": 1,
+			"safe_ground": [
+				3864.0,
+				768.0
+			],
+			"subregion": "Z1L2"
+		},
+		{
+			"anchor": [
+				5515.41,
+				3000.08
+			],
+			"authored_jumps": 0,
+			"distance_from_anchor": 4.59,
+			"id": "Z1L2.explore7",
+			"route_parts": 1,
+			"safe_ground": [
+				5520.0,
+				3000.0
+			],
+			"subregion": "Z1L2"
+		},
+		{
+			"anchor": [
+				4339.14,
+				3462.75
+			],
+			"authored_jumps": 0,
+			"distance_from_anchor": 8.32,
+			"id": "Z1L2.explore8",
+			"route_parts": 1,
+			"safe_ground": [
+				4344.0,
+				3456.0
+			],
+			"subregion": "Z1L2"
+		},
+		{
+			"anchor": [
+				3880.0,
+				1650.0
+			],
+			"authored_jumps": 0,
+			"distance_from_anchor": 10.0,
+			"id": "Z1L2.professor_area",
+			"route_parts": 1,
+			"safe_ground": [
+				3888.0,
+				1656.0
+			],
+			"subregion": "Z1L2"
+		},
+		{
+			"anchor": [
+				5280.0,
+				2185.0
+			],
+			"authored_jumps": 0,
+			"distance_from_anchor": 1.0,
+			"id": "Z1L2.runtime_brake_shoe",
+			"route_parts": 1,
+			"safe_ground": [
+				5280.0,
+				2184.0
+			],
+			"subregion": "Z1L2"
+		},
+		{
+			"anchor": [
+				5090.0,
+				1955.0
+			],
+			"authored_jumps": 0,
+			"distance_from_anchor": 11.18,
+			"id": "Z1L2.runtime_crank",
+			"route_parts": 1,
+			"safe_ground": [
+				5088.0,
+				1944.0
+			],
+			"subregion": "Z1L2"
+		},
+		{
+			"anchor": [
+				4920.0,
+				1920.0
+			],
+			"authored_jumps": 0,
+			"distance_from_anchor": 0.0,
+			"id": "Z1L2.runtime_gear",
+			"route_parts": 1,
+			"safe_ground": [
+				4920.0,
+				1920.0
+			],
+			"subregion": "Z1L2"
+		},
+		{
+			"anchor": [
+				5200.0,
+				2100.0
+			],
+			"authored_jumps": 0,
+			"distance_from_anchor": 14.42,
+			"id": "Z1L2.runtime_tray_brake_shoe",
+			"route_parts": 1,
+			"safe_ground": [
+				5208.0,
+				2088.0
+			],
+			"subregion": "Z1L2"
+		},
+		{
+			"anchor": [
+				5120.0,
+				2130.0
+			],
+			"authored_jumps": 0,
+			"distance_from_anchor": 10.0,
+			"id": "Z1L2.runtime_tray_crank",
+			"route_parts": 1,
+			"safe_ground": [
+				5112.0,
+				2136.0
+			],
+			"subregion": "Z1L2"
+		},
+		{
+			"anchor": [
+				5035.0,
+				2080.0
+			],
+			"authored_jumps": 0,
+			"distance_from_anchor": 9.43,
+			"id": "Z1L2.runtime_tray_gear",
+			"route_parts": 1,
+			"safe_ground": [
+				5040.0,
+				2088.0
+			],
+			"subregion": "Z1L2"
+		},
+		{
+			"anchor": [
+				7083.65,
+				2641.93
+			],
+			"authored_jumps": 0,
+			"distance_from_anchor": 4.13,
+			"id": "Z1L3.C0",
+			"route_parts": 1,
+			"safe_ground": [
+				7080.0,
+				2640.0
+			],
+			"subregion": "Z1L3"
+		},
+		{
+			"anchor": [
+				7635.0,
+				3055.0
+			],
+			"authored_jumps": 0,
+			"distance_from_anchor": 7.62,
+			"id": "Z1L3.C1",
+			"route_parts": 1,
+			"safe_ground": [
+				7632.0,
+				3048.0
+			],
+			"subregion": "Z1L3"
+		},
+		{
+			"anchor": [
+				7477.39,
+				2951.57
+			],
+			"authored_jumps": 0,
+			"distance_from_anchor": 10.62,
+			"id": "Z1L3.C2",
+			"route_parts": 1,
+			"safe_ground": [
+				7488.0,
+				2952.0
+			],
+			"subregion": "Z1L3"
+		},
+		{
+			"anchor": [
+				10048.29,
+				1315.23
+			],
+			"authored_jumps": 0,
+			"distance_from_anchor": 9.07,
+			"id": "Z1L3.court1",
+			"route_parts": 1,
+			"safe_ground": [
+				10056.0,
+				1320.0
+			],
+			"subregion": "Z1L3"
+		},
+		{
+			"anchor": [
+				8368.07,
+				1318.38
+			],
+			"authored_jumps": 0,
+			"distance_from_anchor": 8.09,
+			"id": "Z1L3.court2",
+			"route_parts": 1,
+			"safe_ground": [
+				8376.0,
+				1320.0
+			],
+			"subregion": "Z1L3"
+		},
+		{
+			"anchor": [
+				9271.77,
+				2691.23
+			],
+			"authored_jumps": 0,
+			"distance_from_anchor": 8.41,
+			"id": "Z1L3.court3",
+			"route_parts": 1,
+			"safe_ground": [
+				9264.0,
+				2688.0
+			],
+			"subregion": "Z1L3"
+		},
+		{
+			"anchor": [
+				7083.65,
+				2641.93
+			],
+			"authored_jumps": 0,
+			"distance_from_anchor": 4.13,
+			"id": "Z1L3.entry",
+			"route_parts": 1,
+			"safe_ground": [
+				7080.0,
+				2640.0
+			],
+			"subregion": "Z1L3"
+		},
+		{
+			"anchor": [
+				7262.66,
+				3221.67
+			],
+			"authored_jumps": 0,
+			"distance_from_anchor": 10.93,
+			"id": "Z1L3.exit",
+			"route_parts": 1,
+			"safe_ground": [
+				7272.0,
+				3216.0
+			],
+			"subregion": "Z1L3"
+		},
+		{
+			"anchor": [
+				8244.96,
+				4271.82
+			],
+			"authored_jumps": 0,
+			"distance_from_anchor": 11.04,
+			"id": "Z1L3.explore1",
+			"route_parts": 1,
+			"safe_ground": [
+				8256.0,
+				4272.0
+			],
+			"subregion": "Z1L3"
+		},
+		{
+			"anchor": [
+				7273.86,
+				1410.11
+			],
+			"authored_jumps": 0,
+			"distance_from_anchor": 6.18,
+			"id": "Z1L3.explore2",
+			"route_parts": 1,
+			"safe_ground": [
+				7272.0,
+				1416.0
+			],
+			"subregion": "Z1L3"
+		},
+		{
+			"anchor": [
+				8576.35,
+				3368.89
+			],
+			"authored_jumps": 0,
+			"distance_from_anchor": 12.2,
+			"id": "Z1L3.explore3",
+			"route_parts": 1,
+			"safe_ground": [
+				8568.0,
+				3360.0
+			],
+			"subregion": "Z1L3"
+		},
+		{
+			"anchor": [
+				7259.67,
+				2852.68
+			],
+			"authored_jumps": 0,
+			"distance_from_anchor": 12.13,
+			"id": "Z1L3.professor",
+			"route_parts": 1,
+			"safe_ground": [
+				7248.0,
+				2856.0
+			],
+			"subregion": "Z1L3"
+		},
+		{
+			"anchor": [
+				6737.34,
+				3878.33
+			],
+			"authored_jumps": 0,
+			"distance_from_anchor": 11.74,
+			"id": "Z1L4.C0",
+			"route_parts": 1,
+			"safe_ground": [
+				6744.0,
+				3888.0
+			],
+			"subregion": "Z1L4"
+		},
+		{
+			"anchor": [
+				6520.0,
+				4590.0
+			],
+			"authored_jumps": 0,
+			"distance_from_anchor": 10.0,
+			"id": "Z1L4.C1",
+			"route_parts": 1,
+			"safe_ground": [
+				6528.0,
+				4584.0
+			],
+			"subregion": "Z1L4"
+		},
+		{
+			"anchor": [
+				6298.93,
+				4418.14
+			],
+			"authored_jumps": 0,
+			"distance_from_anchor": 11.14,
+			"id": "Z1L4.C2",
+			"route_parts": 1,
+			"safe_ground": [
+				6288.0,
+				4416.0
+			],
+			"subregion": "Z1L4"
+		},
+		{
+			"anchor": [
+				5655.66,
+				5254.9
+			],
+			"authored_jumps": 0,
+			"distance_from_anchor": 8.41,
+			"id": "Z1L4.court1",
+			"route_parts": 1,
+			"safe_ground": [
+				5664.0,
+				5256.0
+			],
+			"subregion": "Z1L4"
+		},
+		{
+			"anchor": [
+				5422.96,
+				4128.42
+			],
+			"authored_jumps": 0,
+			"distance_from_anchor": 1.12,
+			"id": "Z1L4.court2",
+			"route_parts": 1,
+			"safe_ground": [
+				5424.0,
+				4128.0
+			],
+			"subregion": "Z1L4"
+		},
+		{
+			"anchor": [
+				7557.2,
+				4402.34
+			],
+			"authored_jumps": 0,
+			"distance_from_anchor": 10.71,
+			"id": "Z1L4.court3",
+			"route_parts": 1,
+			"safe_ground": [
+				7560.0,
+				4392.0
+			],
+			"subregion": "Z1L4"
+		},
+		{
+			"anchor": [
+				6737.34,
+				3878.33
+			],
+			"authored_jumps": 0,
+			"distance_from_anchor": 11.74,
+			"id": "Z1L4.entry",
+			"route_parts": 1,
+			"safe_ground": [
+				6744.0,
+				3888.0
+			],
+			"subregion": "Z1L4"
+		},
+		{
+			"anchor": [
+				6869.31,
+				4234.23
+			],
+			"authored_jumps": 0,
+			"distance_from_anchor": 11.53,
+			"id": "Z1L4.exit",
+			"route_parts": 1,
+			"safe_ground": [
+				6864.0,
+				4224.0
+			],
+			"subregion": "Z1L4"
+		},
+		{
+			"anchor": [
+				5880.45,
+				3746.07
+			],
+			"authored_jumps": 0,
+			"distance_from_anchor": 2.12,
+			"id": "Z1L4.explore1",
+			"route_parts": 1,
+			"safe_ground": [
+				5880.0,
+				3744.0
+			],
+			"subregion": "Z1L4"
+		},
+		{
+			"anchor": [
+				6174.37,
+				5059.62
+			],
+			"authored_jumps": 0,
+			"distance_from_anchor": 7.73,
+			"id": "Z1L4.explore2",
+			"route_parts": 1,
+			"safe_ground": [
+				6168.0,
+				5064.0
+			],
+			"subregion": "Z1L4"
+		},
+		{
+			"anchor": [
+				6484.11,
+				3438.72
+			],
+			"authored_jumps": 0,
+			"distance_from_anchor": 7.88,
+			"id": "Z1L4.explore3",
+			"route_parts": 1,
+			"safe_ground": [
+				6480.0,
+				3432.0
+			],
+			"subregion": "Z1L4"
+		},
+		{
+			"anchor": [
+				5697.72,
+				4646.46
+			],
+			"authored_jumps": 0,
+			"distance_from_anchor": 13.62,
+			"id": "Z1L4.optional",
+			"route_parts": 1,
+			"safe_ground": [
+				5688.0,
+				4656.0
+			],
+			"subregion": "Z1L4"
+		},
+		{
+			"anchor": [
+				6476.53,
+				3964.23
+			],
+			"authored_jumps": 0,
+			"distance_from_anchor": 5.47,
+			"id": "Z1L4.professor",
+			"route_parts": 1,
+			"safe_ground": [
+				6480.0,
+				3960.0
+			],
+			"subregion": "Z1L4"
+		},
+		{
+			"anchor": [
+				4726.57,
+				4680.32
+			],
+			"authored_jumps": 0,
+			"distance_from_anchor": 1.47,
+			"id": "Z1L5.C0",
+			"route_parts": 1,
+			"safe_ground": [
+				4728.0,
+				4680.0
+			],
+			"subregion": "Z1L5"
+		},
+		{
+			"anchor": [
+				4320.0,
+				5090.0
+			],
+			"authored_jumps": 0,
+			"distance_from_anchor": 2.0,
+			"id": "Z1L5.C1",
+			"route_parts": 1,
+			"safe_ground": [
+				4320.0,
+				5088.0
+			],
+			"subregion": "Z1L5"
+		},
+		{
+			"anchor": [
+				3691.48,
+				5808.61
+			],
+			"authored_jumps": 0,
+			"distance_from_anchor": 4.56,
+			"id": "Z1L5.C2",
+			"route_parts": 1,
+			"safe_ground": [
+				3696.0,
+				5808.0
+			],
+			"subregion": "Z1L5"
+		},
+		{
+			"anchor": [
+				1553.39,
+				4889.47
+			],
+			"authored_jumps": 0,
+			"distance_from_anchor": 9.29,
+			"id": "Z1L5.court1",
+			"route_parts": 1,
+			"safe_ground": [
+				1560.0,
+				4896.0
+			],
+			"subregion": "Z1L5"
+		},
+		{
+			"anchor": [
+				2859.09,
+				4013.92
+			],
+			"authored_jumps": 0,
+			"distance_from_anchor": 6.68,
+			"id": "Z1L5.court2",
+			"route_parts": 1,
+			"safe_ground": [
+				2856.0,
+				4008.0
+			],
+			"subregion": "Z1L5"
+		},
+		{
+			"anchor": [
+				4780.16,
+				6723.27
+			],
+			"authored_jumps": 0,
+			"distance_from_anchor": 5.29,
+			"id": "Z1L5.court3",
+			"route_parts": 1,
+			"safe_ground": [
+				4776.0,
+				6720.0
+			],
+			"subregion": "Z1L5"
+		},
+		{
+			"anchor": [
+				4726.57,
+				4680.32
+			],
+			"authored_jumps": 0,
+			"distance_from_anchor": 1.47,
+			"id": "Z1L5.entry",
+			"route_parts": 1,
+			"safe_ground": [
+				4728.0,
+				4680.0
+			],
+			"subregion": "Z1L5"
+		},
+		{
+			"anchor": [
+				4704.9,
+				4991.51
+			],
+			"authored_jumps": 0,
+			"distance_from_anchor": 1.02,
+			"id": "Z1L5.exit",
+			"route_parts": 1,
+			"safe_ground": [
+				4704.0,
+				4992.0
+			],
+			"subregion": "Z1L5"
+		},
+		{
+			"anchor": [
+				3568.78,
+				6954.16
+			],
+			"authored_jumps": 0,
+			"distance_from_anchor": 9.29,
+			"id": "Z1L5.explore1",
+			"route_parts": 1,
+			"safe_ground": [
+				3576.0,
+				6960.0
+			],
+			"subregion": "Z1L5"
+		},
+		{
+			"anchor": [
+				3850.4,
+				3778.67
+			],
+			"authored_jumps": 0,
+			"distance_from_anchor": 14.9,
+			"id": "Z1L5.explore2",
+			"route_parts": 1,
+			"safe_ground": [
+				3840.0,
+				3768.0
+			],
+			"subregion": "Z1L5"
+		},
+		{
+			"anchor": [
+				2805.63,
+				5042.8
+			],
+			"authored_jumps": 0,
+			"distance_from_anchor": 3.67,
+			"id": "Z1L5.explore3",
+			"route_parts": 1,
+			"safe_ground": [
+				2808.0,
+				5040.0
+			],
+			"subregion": "Z1L5"
+		},
+		{
+			"anchor": [
+				2491.78,
+				6010.95
+			],
+			"authored_jumps": 0,
+			"distance_from_anchor": 11.74,
+			"id": "Z1L5.optional",
+			"route_parts": 1,
+			"safe_ground": [
+				2496.0,
+				6000.0
+			],
+			"subregion": "Z1L5"
+		},
+		{
+			"anchor": [
+				4469.05,
+				4585.02
+			],
+			"authored_jumps": 0,
+			"distance_from_anchor": 5.15,
+			"id": "Z1L5.professor",
+			"route_parts": 1,
+			"safe_ground": [
+				4464.0,
+				4584.0
+			],
+			"subregion": "Z1L5"
+		},
+		{
+			"anchor": [
+				6595.1,
+				5708.49
+			],
+			"authored_jumps": 0,
+			"distance_from_anchor": 6.03,
+			"id": "Z1L6.C0",
+			"route_parts": 1,
+			"safe_ground": [
+				6600.0,
+				5712.0
+			],
+			"subregion": "Z1L6"
+		},
+		{
+			"anchor": [
+				7305.0,
+				6225.0
+			],
+			"authored_jumps": 0,
+			"distance_from_anchor": 12.73,
+			"id": "Z1L6.C1",
+			"route_parts": 1,
+			"safe_ground": [
+				7296.0,
+				6216.0
+			],
+			"subregion": "Z1L6"
+		},
+		{
+			"anchor": [
+				7351.24,
+				6837.06
+			],
+			"authored_jumps": 0,
+			"distance_from_anchor": 7.81,
+			"id": "Z1L6.C2",
+			"route_parts": 1,
+			"safe_ground": [
+				7344.0,
+				6840.0
+			],
+			"subregion": "Z1L6"
+		},
+		{
+			"anchor": [
+				7434.8,
+				5847.03
+			],
+			"authored_jumps": 0,
+			"distance_from_anchor": 10.37,
+			"id": "Z1L6.C3",
+			"route_parts": 1,
+			"safe_ground": [
+				7440.0,
+				5856.0
+			],
+			"subregion": "Z1L6"
+		},
+		{
+			"anchor": [
+				5266.16,
+				6913.22
+			],
+			"authored_jumps": 0,
+			"distance_from_anchor": 10.23,
+			"id": "Z1L6.court1",
+			"route_parts": 1,
+			"safe_ground": [
+				5256.0,
+				6912.0
+			],
+			"subregion": "Z1L6"
+		},
+		{
+			"anchor": [
+				7954.87,
+				4701.7
+			],
+			"authored_jumps": 0,
+			"distance_from_anchor": 11.11,
+			"id": "Z1L6.court2",
+			"route_parts": 1,
+			"safe_ground": [
+				7944.0,
+				4704.0
+			],
+			"subregion": "Z1L6"
+		},
+		{
+			"anchor": [
+				6257.81,
+				6801.21
+			],
+			"authored_jumps": 0,
+			"distance_from_anchor": 11.1,
+			"id": "Z1L6.court3",
+			"route_parts": 1,
+			"safe_ground": [
+				6264.0,
+				6792.0
+			],
+			"subregion": "Z1L6"
+		},
+		{
+			"anchor": [
+				5626.39,
+				5984.15
+			],
+			"authored_jumps": 0,
+			"distance_from_anchor": 13.21,
+			"id": "Z1L6.court4",
+			"route_parts": 1,
+			"safe_ground": [
+				5616.0,
+				5976.0
+			],
+			"subregion": "Z1L6"
+		},
+		{
+			"anchor": [
+				7731.58,
+				7775.13
+			],
+			"authored_jumps": 0,
+			"distance_from_anchor": 3.68,
+			"id": "Z1L6.court5",
+			"route_parts": 1,
+			"safe_ground": [
+				7728.0,
+				7776.0
+			],
+			"subregion": "Z1L6"
+		},
+		{
+			"anchor": [
+				6595.1,
+				5708.49
+			],
+			"authored_jumps": 0,
+			"distance_from_anchor": 6.03,
+			"id": "Z1L6.entry",
+			"route_parts": 1,
+			"safe_ground": [
+				6600.0,
+				5712.0
+			],
+			"subregion": "Z1L6"
+		},
+		{
+			"anchor": [
+				7176.35,
+				7250.4
+			],
+			"authored_jumps": 0,
+			"distance_from_anchor": 2.43,
+			"id": "Z1L6.exit",
+			"route_parts": 1,
+			"safe_ground": [
+				7176.0,
+				7248.0
+			],
+			"subregion": "Z1L6"
+		},
+		{
+			"anchor": [
+				6398.99,
+				7533.12
+			],
+			"authored_jumps": 0,
+			"distance_from_anchor": 9.46,
+			"id": "Z1L6.explore1",
+			"route_parts": 1,
+			"safe_ground": [
+				6408.0,
+				7536.0
+			],
+			"subregion": "Z1L6"
+		},
+		{
+			"anchor": [
+				8024.81,
+				5395.68
+			],
+			"authored_jumps": 0,
+			"distance_from_anchor": 9.81,
+			"id": "Z1L6.explore2",
+			"route_parts": 1,
+			"safe_ground": [
+				8016.0,
+				5400.0
+			],
+			"subregion": "Z1L6"
+		},
+		{
+			"anchor": [
+				7883.23,
+				6489.39
+			],
+			"authored_jumps": 0,
+			"distance_from_anchor": 14.64,
+			"id": "Z1L6.explore3",
+			"route_parts": 1,
+			"safe_ground": [
+				7872.0,
+				6480.0
+			],
+			"subregion": "Z1L6"
+		},
+		{
+			"anchor": [
+				6906.39,
+				5591.37
+			],
+			"authored_jumps": 0,
+			"distance_from_anchor": 5.65,
+			"id": "Z1L6.finn",
+			"route_parts": 1,
+			"safe_ground": [
+				6912.0,
+				5592.0
+			],
+			"subregion": "Z1L6"
+		},
+		{
+			"anchor": [
+				6756.95,
+				5930.31
+			],
+			"authored_jumps": 0,
+			"distance_from_anchor": 11.29,
+			"id": "Z1L6.professor",
+			"route_parts": 1,
+			"safe_ground": [
+				6768.0,
+				5928.0
+			],
+			"subregion": "Z1L6"
+		}
+	],
+	"geometry_hash": "6f3f8c771fdf0b4ed2063cf0aae4f7ebc75a0222b6fe02c595cb2bc488820444"
+}

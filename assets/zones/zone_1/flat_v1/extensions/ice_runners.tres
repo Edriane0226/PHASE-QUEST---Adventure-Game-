@@ -1,0 +1,12 @@
+[gd_resource type="AtlasTexture" format=3]
+
+[ext_resource type="Texture2D" path="res://assets/zones/zone_1/flat_v1/extensions/ice_runners.png" id="1_hawg3"]
+
+[resource]
+atlas = ExtResource("1_hawg3")
+region = Rect2(41, 333, 1133, 847)
+filter_clip = true
+metadata/visible_bounds = Rect2(0, 0, 1133, 847)
+metadata/ground_anchor = Vector2(566.5, 847)
+metadata/art_style = "approved_B_flat_2d"
+metadata/shared_extension = true

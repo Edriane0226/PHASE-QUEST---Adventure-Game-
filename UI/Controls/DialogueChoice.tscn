@@ -1,0 +1,97 @@
+[gd_scene format=3]
+
+[ext_resource type="FontFile" path="res://assets/fonts/InterfaceSans.tres" id="1_nqvs0"]
+[ext_resource type="Texture2D" path="res://assets/ui/icons/dialogue_speech.svg" id="2_m4r0x"]
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_av6dk"]
+content_margin_left = 12.0
+content_margin_top = 5.0
+content_margin_right = 12.0
+content_margin_bottom = 5.0
+bg_color = Color(0.13, 0.15, 0.18, 0.8)
+border_width_left = 2
+border_width_bottom = 1
+border_color = Color(0.94, 0.86, 0.65, 0.65)
+corner_radius_top_left = 4
+corner_radius_top_right = 4
+corner_radius_bottom_right = 4
+corner_radius_bottom_left = 4
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_w5br8"]
+content_margin_left = 12.0
+content_margin_top = 5.0
+content_margin_right = 12.0
+content_margin_bottom = 5.0
+bg_color = Color(0.4, 0.37, 0.29, 0.9)
+border_width_left = 2
+border_width_bottom = 1
+border_color = Color(0.94, 0.86, 0.65, 0.65)
+corner_radius_top_left = 4
+corner_radius_top_right = 4
+corner_radius_bottom_right = 4
+corner_radius_bottom_left = 4
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_7ddn1"]
+content_margin_left = 12.0
+content_margin_top = 5.0
+content_margin_right = 12.0
+content_margin_bottom = 5.0
+bg_color = Color(0.4, 0.37, 0.29, 0.9)
+border_width_left = 2
+border_width_bottom = 1
+border_color = Color(0.94, 0.86, 0.65, 0.65)
+corner_radius_top_left = 4
+corner_radius_top_right = 4
+corner_radius_bottom_right = 4
+corner_radius_bottom_left = 4
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_8k82f"]
+content_margin_left = 12.0
+content_margin_top = 5.0
+content_margin_right = 12.0
+content_margin_bottom = 5.0
+bg_color = Color(0.4, 0.37, 0.29, 0.9)
+border_width_left = 2
+border_width_bottom = 1
+border_color = Color(0.94, 0.86, 0.65, 0.65)
+corner_radius_top_left = 4
+corner_radius_top_right = 4
+corner_radius_bottom_right = 4
+corner_radius_bottom_left = 4
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_kfago"]
+content_margin_left = 12.0
+content_margin_top = 5.0
+content_margin_right = 12.0
+content_margin_bottom = 5.0
+bg_color = Color(0.4, 0.37, 0.29, 0.9)
+border_width_left = 2
+border_width_bottom = 1
+border_color = Color(0.94, 0.86, 0.65, 0.65)
+corner_radius_top_left = 4
+corner_radius_top_right = 4
+corner_radius_bottom_right = 4
+corner_radius_bottom_left = 4
+
+[node name="ChoiceButton" type="Button" unique_id=1425949001]
+custom_minimum_size = Vector2(300, 38)
+theme_override_colors/font_color = Color(1, 1, 1, 1)
+theme_override_colors/font_focus_color = Color(1, 1, 1, 1)
+theme_override_colors/font_pressed_color = Color(1, 1, 1, 1)
+theme_override_colors/font_hover_color = Color(1, 1, 1, 1)
+theme_override_colors/font_disabled_color = Color(1, 1, 1, 1)
+theme_override_colors/font_outline_color = Color(0.03, 0.04, 0.06, 0.8)
+theme_override_constants/outline_size = 2
+theme_override_constants/h_separation = 9
+theme_override_constants/icon_max_width = 18
+theme_override_fonts/font = ExtResource("1_nqvs0")
+theme_override_font_sizes/font_size = 16
+theme_override_styles/normal = SubResource("StyleBoxFlat_av6dk")
+theme_override_styles/pressed = SubResource("StyleBoxFlat_w5br8")
+theme_override_styles/hover = SubResource("StyleBoxFlat_7ddn1")
+theme_override_styles/disabled = SubResource("StyleBoxFlat_8k82f")
+theme_override_styles/focus = SubResource("StyleBoxFlat_kfago")
+text = "Continue"
+icon = ExtResource("2_m4r0x")
+alignment = 0
+autowrap_mode = 3

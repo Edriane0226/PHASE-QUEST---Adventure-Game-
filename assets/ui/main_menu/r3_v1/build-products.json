@@ -1,0 +1,124 @@
+{
+	"layers": "Generated paintings are flattened; added atmosphere/veil are independently editable, not recovered object layers",
+	"owner": "R3 011",
+	"products": [
+		{
+			"file": "gardens_painting.png",
+			"format": "RGBA8 native PNG",
+			"size": [
+				1672,
+				941
+			]
+		},
+		{
+			"file": "gardens_veil.png",
+			"format": "RGBA8 native PNG",
+			"size": [
+				1672,
+				941
+			]
+		},
+		{
+			"file": "gardens_atmosphere.png",
+			"format": "RGBA8 native PNG",
+			"size": [
+				1672,
+				941
+			]
+		},
+		{
+			"file": "gardens_static.png",
+			"format": "RGBA8 native PNG",
+			"size": [
+				1672,
+				941
+			]
+		},
+		{
+			"file": "vale_painting.png",
+			"format": "RGBA8 native PNG",
+			"size": [
+				1672,
+				941
+			]
+		},
+		{
+			"file": "vale_veil.png",
+			"format": "RGBA8 native PNG",
+			"size": [
+				1672,
+				941
+			]
+		},
+		{
+			"file": "vale_atmosphere.png",
+			"format": "RGBA8 native PNG",
+			"size": [
+				1672,
+				941
+			]
+		},
+		{
+			"file": "vale_static.png",
+			"format": "RGBA8 native PNG",
+			"size": [
+				1672,
+				941
+			]
+		},
+		{
+			"file": "laboratory_painting.png",
+			"format": "RGBA8 native PNG",
+			"size": [
+				1672,
+				941
+			]
+		},
+		{
+			"file": "laboratory_veil.png",
+			"format": "RGBA8 native PNG",
+			"size": [
+				1672,
+				941
+			]
+		},
+		{
+			"file": "laboratory_atmosphere.png",
+			"format": "RGBA8 native PNG",
+			"size": [
+				1672,
+				941
+			]
+		},
+		{
+			"file": "laboratory_static.png",
+			"format": "RGBA8 native PNG",
+			"size": [
+				1672,
+				941
+			]
+		},
+		{
+			"file": "title_logo.png",
+			"format": "RGBA8 native PNG",
+			"size": [
+				750,
+				240
+			]
+		},
+		{
+			"file": "fallback_static.png",
+			"format": "RGBA8 native PNG",
+			"size": [
+				1672,
+				941
+			]
+		}
+	],
+	"source_canvas": [
+		1672,
+		941
+	],
+	"source_kind": "Three original built-in imagegen paintings plus native registered overlays/title/fallback",
+	"zone_count": 3
+}

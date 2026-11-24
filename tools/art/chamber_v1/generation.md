@@ -1,0 +1,45 @@
+# Pressure / Vacuum v1 — original source and build
+
+14 November 2026. Built-in `image_gen.imagegen`: separate Pressure and Vacuum effect generations, one registered chamber-state generation and one Vacuum alpha-cleanup edit. No CLI/API fallback. Reference was `tools/art/phase_player_v1/current-reference.png`, style only. Original generated files are preserved unchanged in this directory: `source-pressure.png`, `source-vacuum.png`, `source-vacuum-clean.png`, `source-chamber.png`. No previous artwork, sound or temporary asset was deleted.
+
+Runtime outputs: `assets/effects/pressure/v1/{atlas.png,sprite_frames.tres}`, `assets/effects/vacuum/v1/{atlas.png,sprite_frames.tres}`, and `assets/effects/chamber/v1/{atlas.png,sprite_frames.tres}`. Effect atlases have sixteen 128×128 cells; chamber has four 128×128 state cells. Packing preserves alpha and the supplied regular registration. Start origins are native resource metadata; JSON manifests are audit metadata only. The raw Vacuum generation had translucent white haze in gutters; the selected built-in alpha edit removes it while its original remains archived.
+
+`build_pressure.gd` and `build_vacuum.gd` pack the effect sprites and synthesize three original 22050Hz mono PCM clips per mode into `assets/audio/Device/{pressure,vacuum}_{start,loop,release}.wav`. Pressure uses periodic low components at 40Hz + 7.5Hz increments with 80/120Hz accents; Vacuum uses 65Hz + 9.5Hz increments with 130/195Hz accents. Deterministic phases and circular sample rotation give two-second loops with a zero adjacent-sample seam; one-shots have enveloped silent edges, no external recordings or samples. Runtime gain ramp and one bounded voice per mode reuse 009/010's presentation controller. Human listening remains pending.
+
+`build.gd` packs the chamber states: solid ice / invisible-vapor empty tray for Vacuum; suitable water vapor / deposited frost for Pressure. The sealed vessel, gauge and thermal coil remain intact. Blue glass shading is a material cue, not a depiction of visible water vapor. Runtime assumptions must also establish suitable phase region, pressure regime and heat exchange; this prop is not a general transformation rule or future lesson implementation.
+
+Rebuild using disposable APPDATA and LOCALAPPDATA from the workspace:
+
+```powershell
+& $engine --headless --path . --script res://tools/art/chamber_v1/build_pressure.gd --quit-after 900
+& $engine --headless --path . --script res://tools/art/chamber_v1/build_vacuum.gd --quit-after 900
+& $engine --headless --path . --script res://tools/art/chamber_v1/build.gd --quit-after 900
+& $engine --headless --editor --path . --import --quit
+```
+
+`contact_sheet.gd` packs unscaled crops of actual normal-zoom GPU captures, without altering source artwork. Direction-sheet order: E SE S SW / W NW N NE. Phase sheet: start, sustained chamber impact, partial sample, stop; Pressure top / Vacuum bottom.
+
+## Pressure generation
+
+```text
+Use case: stylized-concept. Original transparent PRODUCTION PRESSURE VICE effects sprite atlas for soft hand-painted storybook RPG. Reference explorer is rendering STYLE ONLY, NO character or gun. EXACT 4 columns x 4 rows equal isolated cells with wide zero-alpha gutters. Sixteen distinct small violet/lavender/ivory effects, restrained glow, never opaque fog. No labels/text/grid/borders/background/checkerboard/ground. Row 1: four chronological compact MUZZLE START frames, violet lens aperture tightening from a small open diamond spiral into a focused short right-facing pulse. Origin center-left of each cell. Row 2: four seamless animated east-facing CONTROL CONNECTION tiles: several small tapered paired violet pulse arcs with inward-chevron motifs, thin filigree, transparent gaps; horizontal across middle 70 percent cell width, middle 20 percent height. This controls a sealed chamber, not a destructive laser or explosion. Row 3: four CONTACT COMPRESSION ring frames for a chamber: thin broken concentric elliptical rings with unmistakable SMALL ARROWS POINTING INWARD toward empty center, moving from broad outer ellipse to closer compact ellipse in successive cells. Center stays at least 70 percent transparent, never a filled bubble. Rings and inward arrowheads must remain readable at tiny scale. Row 4: four RELEASE frames: compressed violet ring relaxes into three then two then one small dissolving curved wisps, final faint glint. Keep every sprite within its own cell, fully transparent outside, consistent illustrative clean edges. No ice, gas cloud, plasma or arbitrary object transformation. Distinct inward pressure visual vocabulary, no giant particles.
+```
+
+## Vacuum generation
+
+```text
+Use case: stylized-concept. Original transparent PRODUCTION VACUUM BURST effects sprite atlas for soft hand-painted storybook RPG. Reference explorer is rendering STYLE ONLY, NO character or gun. EXACT 4 columns x 4 rows equal isolated cells, wide zero-alpha gutters. Sixteen distinct teal/turquoise/ivory effects, restrained glow, no opaque fog. No labels/text/grid/borders/background/checkerboard/ground. Row 1: four chronological compact MUZZLE START frames: tiny teal seed aperture opens into a short outward unfurling spiral directed RIGHT. Origin center-left in each cell. Row 2: four animated horizontal right-facing CONTROL CONNECTION tiles: thin tapered teal curved filaments with spaced outward-opening spiral wavelets, transparent gaps; middle 70 percent width and middle 20 percent height. Distinct from a laser or flame. This communicates with a sealed chamber, not a weapon explosion. Row 3: four CONTACT EXPANSION ring frames: thin broken elliptical teal rings with unmistakable SMALL ARROWS POINTING OUTWARD away from the mostly empty center. Successive frames grow from a compact inner ellipse through medium to broad outer ellipse, same central registration, very transparent inner space. Small delicate teal glints near outer edges, no huge particles. Row 4: four STOP frames: wide expansion ring thins and breaks into three then two then one tiny outward curling wisps, final faint glimmer. Keep every sprite fully within its own cell; true transparent background, crisp soft illustrated shapes. No actual chamber, no ice, no gas clouds, no plasma, no arbitrary props disappearing. Distinct OUTWARD LOW PRESSURE visual vocabulary; make all arrows face away from center.
+```
+
+## Vacuum alpha cleanup
+
+```text
+Production alpha cleanup only. Preserve exactly these sixteen teal Vacuum sprites, their 4x4 layout, relative positions, sizes, inward/outward details and painted colors. Remove the pale white translucent backdrop and low-opacity haze scattered through all empty cell gutters. All background outside the crisp illustrated sprite silhouettes must be TRUE zero-alpha transparent; keep soft antialiasing only immediately along their edges. No checkerboard or white matte baked into output. Keep each sprite in its current cell. Do not add any text, objects, background, glow, or redesign. Image remains the same atlas dimensions with genuine transparency.
+```
+
+## Chamber states generation
+
+```text
+Use case: stylized-concept. Production ORIGINAL transparent 2x2 four-frame sprite atlas for a friendly scientific SEALED SAMPLE CHAMBER in soft hand-painted storybook RPG. Reference is explorer rendering STYLE ONLY; NO character, text, labels, grid, ground, backdrop, cast shadows. Four equal cells with broad true transparent margins. All four views EXACT SAME compact cylindrical sealed glass vessel, squat bell-jar shape, ivory/brass base, brass sealing lid, sturdy little navy gasket, tiny round mechanical pressure dial and small copper heat-exchange coil at base. Elevated three-quarter RPG camera. Clean dark navy/brown outlines, two or three soft painted tones, upper-left lighting, muted warm brass, transparent lightly blue-tinted glass; not pixel art or photorealistic 3D. Object center and scale identically registered in every cell, occupies middle 55 percent width/65 percent height. Interior visible, no opaque gas cloud: water vapor itself is invisible. Cell top-left: VACUUM starting sample, a small flat pale blue piece of solid water ice on interior shallow sample tray, no liquid. Top-right: SAME sealed apparatus, sample ice has sublimated so empty tray visible, chamber still contains invisible vapor, NO black hole or disappearing vessel. Bottom-left: PRESSURE starting sample, clear nearly empty-looking glass interior with clean cold collection plate inside; this represents suitable water vapor already present, no cartoon fog. Bottom-right: SAME sealed apparatus with delicate white-blue crystalline frost growing on the cold collection plate and slightly its interior rim, direct vapor-to-solid deposition; still mostly transparent glass, no liquid pool. Keep instrument/coil/sealed lid in ALL four frames, no state changes to container. Never show huge ice mountain, fractured glass, explosion, flame or new objects. Match explorer storybook outline and scale. True transparent background.
+```
+

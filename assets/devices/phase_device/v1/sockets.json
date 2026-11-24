@@ -1,0 +1,560 @@
+{
+	"atlas": "res://assets/devices/phase_device/v1/atlas.png",
+	"attachment_integration": "pending_R2_004",
+	"cell_size": [
+		64,
+		64
+	],
+	"direction_order": [
+		"east",
+		"south_east",
+		"south",
+		"south_west",
+		"west",
+		"north_west",
+		"north",
+		"north_east"
+	],
+	"holstered_emission": false,
+	"player_baseline_hashes": {
+		"res://Actors/Player/Player.tscn": "d02782157cd6c22f806d7a1558797f792053cf055c414e7c253ec249de63f2f5",
+		"res://Actors/Player/campaign_player.gd": "a4242b4744be72e60e677326d6a96ed809a22340e9f089eeb5029963f630155d",
+		"res://assets/characters/cast/explorer/frames.tres": "8855eab043e6a6f7816a6fa66e1db85dd0d1436993c46ae2fe561f6c28c9cc22"
+	},
+	"recommended_shader": "res://assets/shaders/world/level1_flat_cutout.gdshader",
+	"source_atlas": "res://tools/art/phase_device_v1/source-clean-alpha.png",
+	"sprite_origin": "top_left",
+	"version": 1,
+	"views": {
+		"held_east": {
+			"aim_direction": [
+				1.0,
+				0.0
+			],
+			"belt_px": [
+				27.0,
+				31.0
+			],
+			"body_layer": 1,
+			"can_emit": true,
+			"grip_px": [
+				22.5,
+				39.0
+			],
+			"muzzle_occluded_by_holster": false,
+			"muzzle_px": [
+				45.5999984741211,
+				30.0
+			],
+			"region": [
+				0,
+				0,
+				64,
+				64
+			],
+			"visible_bounds": [
+				18,
+				21,
+				31,
+				25
+			]
+		},
+		"held_north": {
+			"aim_direction": [
+				0.0000000119248806385031,
+				-1.0
+			],
+			"belt_px": [
+				30.0,
+				32.0
+			],
+			"body_layer": 1,
+			"can_emit": true,
+			"grip_px": [
+				28.5,
+				44.5
+			],
+			"muzzle_occluded_by_holster": false,
+			"muzzle_px": [
+				28.5,
+				16.0
+			],
+			"region": [
+				128,
+				64,
+				64,
+				64
+			],
+			"visible_bounds": [
+				24,
+				15,
+				15,
+				34
+			]
+		},
+		"held_north_east": {
+			"aim_direction": [
+				0.707106649875641,
+				-0.70710688829422
+			],
+			"belt_px": [
+				27.0,
+				31.0
+			],
+			"body_layer": 1,
+			"can_emit": true,
+			"grip_px": [
+				30.0,
+				41.0
+			],
+			"muzzle_occluded_by_holster": false,
+			"muzzle_px": [
+				37.5999984741211,
+				20.6000003814697
+			],
+			"region": [
+				192,
+				64,
+				64,
+				64
+			],
+			"visible_bounds": [
+				18,
+				17,
+				27,
+				32
+			]
+		},
+		"held_north_west": {
+			"aim_direction": [
+				-0.707106828689575,
+				-0.707106709480286
+			],
+			"belt_px": [
+				35.0,
+				31.0
+			],
+			"body_layer": 1,
+			"can_emit": true,
+			"grip_px": [
+				32.5,
+				41.0
+			],
+			"muzzle_occluded_by_holster": false,
+			"muzzle_px": [
+				23.5,
+				19.5
+			],
+			"region": [
+				64,
+				64,
+				64,
+				64
+			],
+			"visible_bounds": [
+				18,
+				17,
+				28,
+				32
+			]
+		},
+		"held_south": {
+			"aim_direction": [
+				-0.0000000437113882867379,
+				1.0
+			],
+			"belt_px": [
+				29.0,
+				31.0
+			],
+			"body_layer": 1,
+			"can_emit": true,
+			"grip_px": [
+				27.5,
+				32.0
+			],
+			"muzzle_occluded_by_holster": false,
+			"muzzle_px": [
+				28.5,
+				40.0
+			],
+			"region": [
+				128,
+				0,
+				64,
+				64
+			],
+			"visible_bounds": [
+				23,
+				17,
+				16,
+				29
+			]
+		},
+		"held_south_east": {
+			"aim_direction": [
+				0.70710676908493,
+				0.70710676908493
+			],
+			"belt_px": [
+				28.0,
+				31.0
+			],
+			"body_layer": 1,
+			"can_emit": true,
+			"grip_px": [
+				22.5,
+				36.5
+			],
+			"muzzle_occluded_by_holster": false,
+			"muzzle_px": [
+				39.7999992370605,
+				38.0
+			],
+			"region": [
+				64,
+				0,
+				64,
+				64
+			],
+			"visible_bounds": [
+				19,
+				20,
+				27,
+				23
+			]
+		},
+		"held_south_west": {
+			"aim_direction": [
+				-0.70710676908493,
+				0.70710676908493
+			],
+			"belt_px": [
+				35.0,
+				31.0
+			],
+			"body_layer": 1,
+			"can_emit": true,
+			"grip_px": [
+				37.5,
+				36.5
+			],
+			"muzzle_occluded_by_holster": false,
+			"muzzle_px": [
+				18.0,
+				37.7999992370605
+			],
+			"region": [
+				192,
+				0,
+				64,
+				64
+			],
+			"visible_bounds": [
+				18,
+				20,
+				27,
+				24
+			]
+		},
+		"held_west": {
+			"aim_direction": [
+				-1.0,
+				-0.0000000874227765734759
+			],
+			"belt_px": [
+				36.0,
+				31.0
+			],
+			"body_layer": 1,
+			"can_emit": true,
+			"grip_px": [
+				38.5,
+				40.5
+			],
+			"muzzle_occluded_by_holster": false,
+			"muzzle_px": [
+				18.1000003814697,
+				30.0
+			],
+			"region": [
+				0,
+				64,
+				64,
+				64
+			],
+			"visible_bounds": [
+				16,
+				21,
+				31,
+				25
+			]
+		},
+		"holstered_east": {
+			"aim_direction": [
+				1.0,
+				0.0
+			],
+			"belt_px": [
+				27.0,
+				31.0
+			],
+			"body_layer": 1,
+			"can_emit": false,
+			"grip_px": [
+				22.0,
+				20.7999992370605
+			],
+			"muzzle_occluded_by_holster": true,
+			"muzzle_px": [
+				31.0,
+				43.0
+			],
+			"region": [
+				0,
+				128,
+				64,
+				64
+			],
+			"visible_bounds": [
+				18,
+				18,
+				27,
+				31
+			]
+		},
+		"holstered_north": {
+			"aim_direction": [
+				0.0000000119248806385031,
+				-1.0
+			],
+			"belt_px": [
+				30.0,
+				32.0
+			],
+			"body_layer": 1,
+			"can_emit": false,
+			"grip_px": [
+				30.7999992370605,
+				26.7999992370605
+			],
+			"muzzle_occluded_by_holster": true,
+			"muzzle_px": [
+				31.0,
+				43.0
+			],
+			"region": [
+				128,
+				192,
+				64,
+				64
+			],
+			"visible_bounds": [
+				21,
+				17,
+				21,
+				33
+			]
+		},
+		"holstered_north_east": {
+			"aim_direction": [
+				0.707106649875641,
+				-0.70710688829422
+			],
+			"belt_px": [
+				27.0,
+				31.0
+			],
+			"body_layer": 1,
+			"can_emit": false,
+			"grip_px": [
+				25.0,
+				22.0
+			],
+			"muzzle_occluded_by_holster": true,
+			"muzzle_px": [
+				31.0,
+				43.0
+			],
+			"region": [
+				192,
+				192,
+				64,
+				64
+			],
+			"visible_bounds": [
+				19,
+				19,
+				25,
+				31
+			]
+		},
+		"holstered_north_west": {
+			"aim_direction": [
+				-0.707106828689575,
+				-0.707106709480286
+			],
+			"belt_px": [
+				35.0,
+				31.0
+			],
+			"body_layer": -1,
+			"can_emit": false,
+			"grip_px": [
+				38.5999984741211,
+				19.0
+			],
+			"muzzle_occluded_by_holster": true,
+			"muzzle_px": [
+				31.0,
+				43.0
+			],
+			"region": [
+				64,
+				192,
+				64,
+				64
+			],
+			"visible_bounds": [
+				21,
+				19,
+				24,
+				31
+			]
+		},
+		"holstered_south": {
+			"aim_direction": [
+				-0.0000000437113882867379,
+				1.0
+			],
+			"belt_px": [
+				29.0,
+				31.0
+			],
+			"body_layer": 1,
+			"can_emit": false,
+			"grip_px": [
+				24.0,
+				20.0
+			],
+			"muzzle_occluded_by_holster": true,
+			"muzzle_px": [
+				31.0,
+				43.0
+			],
+			"region": [
+				128,
+				128,
+				64,
+				64
+			],
+			"visible_bounds": [
+				21,
+				16,
+				21,
+				33
+			]
+		},
+		"holstered_south_east": {
+			"aim_direction": [
+				0.70710676908493,
+				0.70710676908493
+			],
+			"belt_px": [
+				28.0,
+				31.0
+			],
+			"body_layer": 1,
+			"can_emit": false,
+			"grip_px": [
+				22.0,
+				19.2000007629395
+			],
+			"muzzle_occluded_by_holster": true,
+			"muzzle_px": [
+				31.0,
+				43.0
+			],
+			"region": [
+				64,
+				128,
+				64,
+				64
+			],
+			"visible_bounds": [
+				19,
+				17,
+				25,
+				32
+			]
+		},
+		"holstered_south_west": {
+			"aim_direction": [
+				-0.70710676908493,
+				0.70710676908493
+			],
+			"belt_px": [
+				35.0,
+				31.0
+			],
+			"body_layer": -1,
+			"can_emit": false,
+			"grip_px": [
+				33.0,
+				19.2000007629395
+			],
+			"muzzle_occluded_by_holster": true,
+			"muzzle_px": [
+				31.0,
+				43.0
+			],
+			"region": [
+				192,
+				128,
+				64,
+				64
+			],
+			"visible_bounds": [
+				19,
+				16,
+				24,
+				33
+			]
+		},
+		"holstered_west": {
+			"aim_direction": [
+				-1.0,
+				-0.0000000874227765734759
+			],
+			"belt_px": [
+				36.0,
+				31.0
+			],
+			"body_layer": -1,
+			"can_emit": false,
+			"grip_px": [
+				39.4000015258789,
+				19.0
+			],
+			"muzzle_occluded_by_holster": true,
+			"muzzle_px": [
+				31.0,
+				43.0
+			],
+			"region": [
+				0,
+				192,
+				64,
+				64
+			],
+			"visible_bounds": [
+				19,
+				19,
+				26,
+				31
+			]
+		}
+	},
+	"visible_bounds_alpha_threshold": 0.9,
+	"world_scale": 0.34
+}

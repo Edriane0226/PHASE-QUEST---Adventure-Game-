@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="384" height="320" viewBox="0 0 384 320"><defs>
+<linearGradient id="leaf" x2=".8" y2="1"><stop stop-color="#ADC985"/><stop offset="1" stop-color="#69974F"/></linearGradient>
+<linearGradient id="wood" x2=".8" y2="1"><stop stop-color="#BE9667"/><stop offset="1" stop-color="#785B47"/></linearGradient>
+<linearGradient id="metal" x2=".85" y2="1"><stop stop-color="#D6E2D8"/><stop offset=".45" stop-color="#9BA3A0"/><stop offset="1" stop-color="#526C70"/></linearGradient>
+<linearGradient id="brass" x2=".7" y2="1"><stop stop-color="#F3E0AA"/><stop offset=".5" stop-color="#D9B56E"/><stop offset="1" stop-color="#997449"/></linearGradient>
+<linearGradient id="ice" x2=".7" y2="1"><stop stop-color="#EDFDFC"/><stop offset="1" stop-color="#80BCCB"/></linearGradient>
+<linearGradient id="water" x2=".4" y2="1"><stop stop-color="#82BEC0"/><stop offset="1" stop-color="#528D9B"/></linearGradient>
+<linearGradient id="glass" x2=".8" y2="1"><stop stop-color="#D8EBE0" stop-opacity=".7"/><stop offset="1" stop-color="#8DB6B4" stop-opacity=".24"/></linearGradient>
+<linearGradient id="pot" x2=".8" y2="1"><stop stop-color="#D6A37A"/><stop offset="1" stop-color="#A36B50"/></linearGradient>
+<linearGradient id="warm" x2="0" y2="1"><stop stop-color="#FFF2B6"/><stop offset="1" stop-color="#D49551"/></linearGradient>
+</defs><g stroke="#3F514A" stroke-width="2" stroke-linejoin="round" stroke-linecap="round"><g transform="translate(64 56)"><ellipse cx="138" cy="212" rx="110" ry="13" fill="#385942" opacity=".18" stroke="none"/><path d="M28 193 L128 237 L128 250 L28 206 Z" fill="#B78962" /><path d="M128 237 L228 193 L228 206 L128 250 Z" fill="#956C50" /><path d="M128 149 L228 193 L128 237 L28 193 Z" fill="url(#pot)" /><path d="M28 193 L128 149 L228 193" fill="none" stroke="#E1E9B9" stroke-width="1.8"/><path d="M28 149l100-67 100 67v57l-100 44-100-44z" fill="url(#glass)" stroke-width="3"/><path d="M28 149l100 45 100-45M128 82v168m-52-70v47m105-47v47m-127-88 74 35 73-35" fill="none" stroke="#A1B6A0" stroke-width="3"/><g id="gas_model" fill="none" stroke="#8BA4A0" stroke-dasharray="3 4"><path d="M107 139v-23m21 23v-30m21 30v-23"/></g></g></g></svg>

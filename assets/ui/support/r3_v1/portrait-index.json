@@ -1,0 +1,47 @@
+{
+	"legacy_aliases": {
+		"professor": "professor_z1"
+	},
+	"roles": {
+		"finn": {
+			"character_id": "finn",
+			"name": "Finn",
+			"portraits": {
+				"concerned": "res://assets/characters/professors/r3_v1/portraits/finn/concerned.tres",
+				"explaining": "res://assets/characters/professors/r3_v1/portraits/finn/explaining.tres",
+				"happy": "res://assets/characters/professors/r3_v1/portraits/finn/happy.tres",
+				"neutral": "res://assets/characters/professors/r3_v1/portraits/finn/neutral.tres"
+			}
+		},
+		"professor_z1": {
+			"character_id": "professor_scaldwell",
+			"name": "Professor Scaldwell",
+			"portraits": {
+				"cold": "res://assets/characters/professors/r3_v1/portraits/professor_z1/cold.tres",
+				"explaining": "res://assets/characters/professors/r3_v1/portraits/professor_z1/explaining.tres",
+				"happy": "res://assets/characters/professors/r3_v1/portraits/professor_z1/happy.tres",
+				"neutral": "res://assets/characters/professors/r3_v1/portraits/professor_z1/neutral.tres"
+			}
+		},
+		"professor_z2": {
+			"character_id": "professor_marisol_reed",
+			"name": "Professor Marisol Reed",
+			"portraits": {
+				"concerned": "res://assets/characters/professors/r3_v1/portraits/professor_z2/concerned.tres",
+				"explaining": "res://assets/characters/professors/r3_v1/portraits/professor_z2/explaining.tres",
+				"happy": "res://assets/characters/professors/r3_v1/portraits/professor_z2/happy.tres",
+				"neutral": "res://assets/characters/professors/r3_v1/portraits/professor_z2/neutral.tres"
+			}
+		},
+		"professor_z3": {
+			"character_id": "professor_ivo_aster",
+			"name": "Professor Ivo Aster",
+			"portraits": {
+				"concerned": "res://assets/characters/professors/r3_v1/portraits/professor_z3/concerned.tres",
+				"explaining": "res://assets/characters/professors/r3_v1/portraits/professor_z3/explaining.tres",
+				"happy": "res://assets/characters/professors/r3_v1/portraits/professor_z3/happy.tres",
+				"neutral": "res://assets/characters/professors/r3_v1/portraits/professor_z3/neutral.tres"
+			}
+		}
+	}
+}

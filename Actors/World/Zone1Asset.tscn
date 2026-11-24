@@ -1,0 +1,6 @@
+[gd_scene load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://Scripts/World/zone1_asset_2d.gd" id="script"]
+
+[node name="Zone1Asset" type="Node2D"]
+script = ExtResource("script")

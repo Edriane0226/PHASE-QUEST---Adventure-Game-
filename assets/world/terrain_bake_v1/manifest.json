@@ -1,0 +1,91 @@
+{
+	"contract": "Render-only exact generated meshes; source geometry signature; runtime fallback rebuilds stale/missing bakes; physical support remains live",
+	"outputs": [
+		{
+			"file": "snow-closed.res",
+			"sha256": "82e2c39942f7b996324d40a70305e8337fb4ac5a1eb19e9e21c07e282afc31fb",
+			"signature": "30abf92070e8c7d7ef502118c34c21c9f38d19b9dbbc5360945dbb7bb404c155",
+			"stats": {
+				"build_ms": 12568.0,
+				"caps": 202797.0,
+				"cells": 115842.0,
+				"clipped_caps": 115969.0,
+				"render_chunks": 206.0,
+				"road_caps": 38394.0
+			}
+		},
+		{
+			"file": "snow-open.res",
+			"sha256": "9b1309294fc6f535d7f3af351ed8f5b5dcf7f8ef93d68f16a73572b8e578677d",
+			"signature": "371c32739f5d60ff0330a42a9f448c32b7f7f0c3e86fb2d4feb7dfbfbb922a01",
+			"stats": {
+				"build_ms": 12510.0,
+				"caps": 203023.0,
+				"cells": 115957.0,
+				"clipped_caps": 116059.0,
+				"render_chunks": 206.0,
+				"road_caps": 38468.0
+			}
+		},
+		{
+			"file": "grass-closed.res",
+			"sha256": "628d207c4ddb8b84545bd2691683ffe58d0aa42808d8d8c0dfea7c07f9eab521",
+			"signature": "d476361fbbd875c7398eb4966b3ca619073e4970ddf869ce37d807dfd80ba09d",
+			"stats": {
+				"build_ms": 9374.0,
+				"caps": 168943.0,
+				"cells": 102030.0,
+				"clipped_caps": 90893.0,
+				"render_chunks": 175.0,
+				"road_caps": 30551.0
+			}
+		},
+		{
+			"file": "grass-open.res",
+			"sha256": "6fca520049e47ea23a48f95515d2e9ec007d641e56e6490dc5eec06242e56fd3",
+			"signature": "cb38e1c1b209fb6d32f97ee02bd5af4907c6355bdc98e6d6e8ac1f60fe0d1f5e",
+			"stats": {
+				"build_ms": 9209.0,
+				"caps": 168943.0,
+				"cells": 102030.0,
+				"clipped_caps": 90893.0,
+				"render_chunks": 175.0,
+				"road_caps": 30551.0
+			}
+		},
+		{
+			"file": "lab-closed.res",
+			"sha256": "3e71ab271c15e1625aea738421d5729d06cef7bd9bd7fdd0d07d23acff6b2a0b",
+			"signature": "4ce79406ee2fc41e904f4d7113f49c49f21b4fd8acfd11b1845583e7a2f62573",
+			"stats": {
+				"build_ms": 6361.0,
+				"caps": 112267.0,
+				"cells": 99686.0,
+				"clipped_caps": 18516.0,
+				"render_chunks": 166.0,
+				"road_caps": 24048.0
+			}
+		},
+		{
+			"file": "lab-open.res",
+			"sha256": "b3a8e2826fce8ad3601a720a047461084a95ac0f7f2dac56776e28934c246ad0",
+			"signature": "20bfdce5d049abad2925c18add4f922915b5b943a4717571fc0498be6a10307c",
+			"stats": {
+				"build_ms": 6426.0,
+				"caps": 112267.0,
+				"cells": 99686.0,
+				"clipped_caps": 18516.0,
+				"render_chunks": 166.0,
+				"road_caps": 24048.0
+			}
+		}
+	],
+	"source_hashes": {
+		"Scripts/World/cube_surface.gd": "a159d33f4907d6bf70834bde29a5f23ac29f440edae57085d23dc0dbe725e693",
+		"Scripts/World/puzzle_terraces.gd": "722170621e4d48e41043a0f13587000488db28239549dd70d3e983e9a09416c8",
+		"Scripts/World/stacked_ground.gd": "0c045b3204e5de9ad8fd0c608c0059f7f83d0f12104bfd64cd39e9c0a8d4f6e1",
+		"Scripts/World/terrain_palette.gd": "3793838508b07fa73d3084de3989ec926b6be6f2e4c2b82fe778e8ab169cc501",
+		"Scripts/World/terrain_relief.gd": "6d0d89d94e53d0d11521e20c586c8919a0c0273021ef1685aeb029d1dadfc083"
+	},
+	"version": 1.0
+}

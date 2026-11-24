@@ -1,0 +1,57 @@
+[gd_scene format=3]
+[ext_resource type="Script" path="res://Scripts/UI/Menus/pause_preferences.gd" id="script"]
+[ext_resource type="FontFile" path="res://assets/fonts/InterfaceSans.tres" id="font"]
+[ext_resource type="Texture2D" path="res://assets/ui/icons/quest_close.svg" id="close"]
+[sub_resource type="StyleBoxFlat" id="panel"]
+bg_color = Color(0.945,0.933,0.894,1)
+border_color = Color(0.71,0.63,0.47,1)
+border_width_left = 1
+border_width_right = 1
+border_width_top = 1
+border_width_bottom = 1
+corner_radius_top_left = 16
+corner_radius_top_right = 16
+corner_radius_bottom_left = 16
+corner_radius_bottom_right = 16
+content_margin_left = 24.0
+content_margin_right = 24.0
+content_margin_top = 24.0
+content_margin_bottom = 24.0
+[sub_resource type="Theme" id="theme"]
+default_font = ExtResource("font")
+default_font_size = 20
+Label/colors/font_color = Color(0.145,0.212,0.29,1)
+CheckButton/colors/font_color = Color(0.145,0.212,0.29,1)
+[node name="Settings" type="Control"]
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+script = ExtResource("script")
+theme = SubResource("theme")
+[node name="PanelContainer" type="PanelContainer" parent="."]
+offset_right = 360.0
+offset_bottom = 340.0
+theme_override_styles/panel = SubResource("panel")
+[node name="Content" type="VBoxContainer" parent="PanelContainer"]
+theme_override_constants/separation = 16
+[node name="Heading" type="Label" parent="PanelContainer/Content"]
+custom_minimum_size = Vector2(0,48)
+text = "Settings"
+horizontal_alignment = 1
+theme_override_font_sizes/font_size = 24
+[node name="Music" type="CheckButton" parent="PanelContainer/Content"]
+custom_minimum_size = Vector2(0,48)
+text = "Music"
+[node name="SoundEffects" type="CheckButton" parent="PanelContainer/Content"]
+custom_minimum_size = Vector2(0,48)
+text = "Sound effects"
+[node name="ReducedEffects" type="CheckButton" parent="PanelContainer/Content"]
+custom_minimum_size = Vector2(0,48)
+text = "Reduced effects"
+[node name="CloseButton" type="Button" parent="."]
+offset_right = 42.0
+offset_bottom = 42.0
+icon = ExtResource("close")
+expand_icon = true
+flat = true
+focus_mode = 0

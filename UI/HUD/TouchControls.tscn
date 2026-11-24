@@ -1,0 +1,176 @@
+[gd_scene format=3]
+[ext_resource type="FontFile" path="res://assets/fonts/InterfaceSans.tres" id="font"]
+[ext_resource type="Script" path="res://Scripts/UI/touch_controls.gd" id="script"]
+[sub_resource type="StyleBoxFlat" id="panel"]
+bg_color = Color(0.06, 0.11, 0.19, 0.55)
+border_width_left = 1
+border_width_top = 1
+border_width_right = 1
+border_width_bottom = 1
+border_color = Color(0.87, 0.79, 0.59, 0.8)
+corner_radius_top_left = 80
+corner_radius_top_right = 80
+corner_radius_bottom_left = 80
+corner_radius_bottom_right = 80
+[sub_resource type="StyleBoxEmpty" id="empty"]
+[sub_resource type="StyleBoxFlat" id="fill"]
+bg_color = Color(0.88, 0.82, 0.66, 0.85)
+corner_radius_top_left = 80
+corner_radius_top_right = 80
+corner_radius_bottom_left = 80
+corner_radius_bottom_right = 80
+
+[node name="MobileControls" type="Control"]
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+process_mode = 3
+mouse_filter = 2
+script = ExtResource("script")
+metadata/levelField = "mobile_controls"
+
+[node name="Joystick" type="Panel" parent="."]
+layout_mode = 0
+anchor_left = 0
+anchor_right = 0
+anchor_top = 1
+anchor_bottom = 1
+offset_left = 35
+offset_top = -190
+offset_right = 167
+offset_bottom = -58
+mouse_filter = 2
+theme_override_styles/panel = SubResource("panel")
+
+[node name="Thumb" type="Panel" parent="Joystick"]
+layout_mode = 0
+anchor_left = 0
+anchor_right = 0
+anchor_top = 0
+anchor_bottom = 0
+offset_left = 45
+offset_top = 45
+offset_right = 87
+offset_bottom = 87
+mouse_filter = 2
+theme_override_styles/panel = SubResource("fill")
+
+[node name="Buttons" type="Control" parent="."]
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+mouse_filter = 2
+
+[node name="fire" type="Button" parent="Buttons"]
+layout_mode = 0
+anchor_left = 1
+anchor_right = 1
+anchor_top = 1
+anchor_bottom = 1
+offset_left = -126
+offset_top = -168
+offset_right = -30
+offset_bottom = -100
+theme_override_fonts/font = ExtResource("font")
+theme_override_font_sizes/font_size = 17
+theme_override_colors/font_color = Color(0.95, 0.97, 1, 1)
+theme_override_colors/font_outline_color = Color(0.07,0.13,0.19,0.95)
+theme_override_constants/outline_size = 3
+text = "Fire"
+mouse_filter = 2
+focus_mode = 0
+toggle_mode = true
+theme_override_styles/normal = SubResource("panel")
+theme_override_styles/pressed = SubResource("fill")
+
+[node name="jump" type="Button" parent="Buttons"]
+layout_mode = 0
+anchor_left = 1
+anchor_right = 1
+anchor_top = 1
+anchor_bottom = 1
+offset_left = -226
+offset_top = -168
+offset_right = -146
+offset_bottom = -100
+theme_override_fonts/font = ExtResource("font")
+theme_override_font_sizes/font_size = 17
+theme_override_colors/font_color = Color(0.95, 0.97, 1, 1)
+theme_override_colors/font_outline_color = Color(0.07,0.13,0.19,0.95)
+theme_override_constants/outline_size = 3
+text = "Jump"
+mouse_filter = 2
+focus_mode = 0
+toggle_mode = true
+theme_override_styles/normal = SubResource("panel")
+theme_override_styles/pressed = SubResource("fill")
+
+[node name="sprint" type="Button" parent="Buttons"]
+layout_mode = 0
+anchor_left = 1
+anchor_right = 1
+anchor_top = 1
+anchor_bottom = 1
+offset_left = -126
+offset_top = -88
+offset_right = -30
+offset_bottom = -30
+theme_override_fonts/font = ExtResource("font")
+theme_override_font_sizes/font_size = 17
+theme_override_colors/font_color = Color(0.95, 0.97, 1, 1)
+theme_override_colors/font_outline_color = Color(0.07,0.13,0.19,0.95)
+theme_override_constants/outline_size = 3
+text = "Run"
+mouse_filter = 2
+focus_mode = 0
+toggle_mode = true
+theme_override_styles/normal = SubResource("panel")
+theme_override_styles/pressed = SubResource("fill")
+
+[node name="map" type="Button" parent="Buttons"]
+layout_mode = 0
+anchor_left = 1
+anchor_right = 1
+anchor_top = 0
+anchor_bottom = 0
+offset_left = -206
+offset_top = 18
+offset_right = -120
+offset_bottom = 66
+theme_override_fonts/font = ExtResource("font")
+theme_override_font_sizes/font_size = 17
+theme_override_colors/font_color = Color(0.95, 0.97, 1, 1)
+theme_override_colors/font_outline_color = Color(0.07,0.13,0.19,0.95)
+theme_override_constants/outline_size = 3
+text = "Map"
+mouse_filter = 2
+focus_mode = 0
+toggle_mode = true
+theme_override_styles/normal = SubResource("panel")
+theme_override_styles/pressed = SubResource("fill")
+
+[node name="pause" type="Button" parent="Buttons"]
+layout_mode = 0
+anchor_left = 1
+anchor_right = 1
+anchor_top = 0
+anchor_bottom = 0
+offset_left = -108
+offset_top = 18
+offset_right = -22
+offset_bottom = 66
+theme_override_fonts/font = ExtResource("font")
+theme_override_font_sizes/font_size = 17
+theme_override_colors/font_color = Color(0.95, 0.97, 1, 1)
+theme_override_colors/font_outline_color = Color(0.07,0.13,0.19,0.95)
+theme_override_constants/outline_size = 3
+text = "Pause"
+mouse_filter = 2
+focus_mode = 0
+toggle_mode = true
+theme_override_styles/normal = SubResource("panel")
+theme_override_styles/pressed = SubResource("fill")

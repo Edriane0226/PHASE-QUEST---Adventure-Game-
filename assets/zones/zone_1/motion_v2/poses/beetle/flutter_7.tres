@@ -1,0 +1,12 @@
+[gd_resource type="AtlasTexture" format=3]
+
+[ext_resource type="Texture2D" path="res://assets/zones/zone_1/motion_v2/atlases/beetle_0.png" id="source"]
+
+[resource]
+atlas = ExtResource("source")
+region = Rect2(97, 2, 91, 98)
+filter_clip = true
+margin = Rect2(215, 355, 421, 414)
+metadata/pose_scale = 1.0
+metadata/ground_anchor = Vector2(256.0, 450.0)
+metadata/registration_version = 2

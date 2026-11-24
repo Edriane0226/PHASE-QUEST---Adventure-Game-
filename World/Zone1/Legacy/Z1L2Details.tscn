@@ -1,0 +1,4 @@
+[gd_scene format=3]
+
+[node name="Z1L2StaticDetails" type="Node2D" unique_id=997210993]
+y_sort_enabled = true

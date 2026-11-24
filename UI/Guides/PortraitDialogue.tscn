@@ -1,0 +1,129 @@
+[gd_scene format=3]
+[ext_resource type="FontFile" path="res://assets/fonts/InterfaceSans.tres" id="font"]
+[ext_resource type="Script" path="res://Scripts/UI/portrait_dialogue.gd" id="script"]
+[ext_resource type="Texture2D" path="res://assets/characters/cast/professor/portraits/professor_explaining.tres" id="portrait"]
+[sub_resource type="StyleBoxFlat" id="panel"]
+content_margin_left = 24.0
+content_margin_right = 24.0
+content_margin_top = 20.0
+content_margin_bottom = 20.0
+bg_color = Color(0.07, 0.16, 0.22, 0.96)
+border_width_left = 1
+border_width_top = 1
+border_width_right = 1
+border_width_bottom = 1
+border_color = Color(0.62, 0.75, 0.8, 0.55)
+corner_radius_top_left = 12
+corner_radius_top_right = 12
+corner_radius_bottom_left = 12
+corner_radius_bottom_right = 12
+[sub_resource type="StyleBoxEmpty" id="empty"]
+[sub_resource type="StyleBoxFlat" id="fill"]
+bg_color = Color(1, 0.71, 0.29, 1)
+corner_radius_top_left = 4
+corner_radius_top_right = 4
+corner_radius_bottom_left = 4
+corner_radius_bottom_right = 4
+
+[node name="PortraitDialogue" type="CanvasLayer"]
+process_mode = 3
+layer = 35
+script = ExtResource("script")
+
+[node name="View" type="Control" parent="."]
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+
+
+[node name="Shade" type="ColorRect" parent="View"]
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+color = Color(0.03,0.08,0.13,0.35)
+mouse_filter = 2
+
+[node name="Portrait" type="TextureRect" parent="View"]
+texture_filter = 2
+anchor_top = 0.15
+anchor_right = 0.4
+anchor_bottom = 1.0
+offset_left = 18.0
+offset_bottom = 15.0
+mouse_filter = 2
+texture = ExtResource("portrait")
+expand_mode = 1
+stretch_mode = 5
+
+[node name="Panel" type="PanelContainer" parent="View"]
+anchor_left = 0.37
+anchor_top = 0.5
+anchor_right = 0.97
+anchor_bottom = 0.96
+theme_override_styles/panel = SubResource("panel")
+
+[node name="Content" type="VBoxContainer" parent="View/Panel"]
+layout_mode = 2
+theme_override_constants/separation = 16
+theme_override_constants/margin_left = 24
+
+[node name="Speaker" type="Label" parent="View/Panel/Content"]
+layout_mode = 2
+theme_override_fonts/font = ExtResource("font")
+theme_override_font_sizes/font_size = 23
+theme_override_colors/font_color = Color(0.95, 0.97, 1, 1)
+theme_override_colors/font_outline_color = Color(0.07,0.13,0.19,0.95)
+theme_override_constants/outline_size = 3
+text = "Professor Scaldwell"
+
+
+[node name="Words" type="Label" parent="View/Panel/Content"]
+layout_mode = 2
+size_flags_vertical = 3
+theme_override_fonts/font = ExtResource("font")
+theme_override_font_sizes/font_size = 20
+theme_override_colors/font_color = Color(0.95, 0.97, 1, 1)
+theme_override_colors/font_outline_color = Color(0.07,0.13,0.19,0.95)
+theme_override_constants/outline_size = 3
+text = "Observe the ice as heat enters it."
+autowrap_mode = 3
+
+[node name="StateDiagram" type="Label" parent="View/Panel/Content"]
+visible = false
+layout_mode = 2
+theme_override_fonts/font = ExtResource("font")
+theme_override_font_sizes/font_size = 19
+theme_override_colors/font_color = Color(1, 0.85, 0.52, 1)
+autowrap_mode = 3
+
+[node name="Actions" type="HBoxContainer" parent="View/Panel/Content"]
+layout_mode = 2
+alignment = 2
+theme_override_constants/separation = 14
+
+[node name="Close" type="Button" parent="View/Panel/Content/Actions"]
+layout_mode = 2
+custom_minimum_size = Vector2(95,48)
+focus_mode = 0
+theme_override_fonts/font = ExtResource("font")
+theme_override_font_sizes/font_size = 18
+theme_override_colors/font_color = Color(0.95, 0.97, 1, 1)
+theme_override_colors/font_outline_color = Color(0.07,0.13,0.19,0.95)
+theme_override_constants/outline_size = 3
+text = "Close"
+
+
+[node name="Continue" type="Button" parent="View/Panel/Content/Actions"]
+layout_mode = 2
+custom_minimum_size = Vector2(190,48)
+focus_mode = 0
+theme_override_fonts/font = ExtResource("font")
+theme_override_font_sizes/font_size = 18
+theme_override_colors/font_color = Color(0.95, 0.97, 1, 1)
+theme_override_colors/font_outline_color = Color(0.07,0.13,0.19,0.95)
+theme_override_constants/outline_size = 3
+text = "Continue"

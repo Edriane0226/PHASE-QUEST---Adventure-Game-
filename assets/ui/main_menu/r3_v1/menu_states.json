@@ -1,0 +1,101 @@
+{
+	"owner": "R3 011",
+	"scope": "Disposable presentation fixtures; no selection or saved-progress authority",
+	"states": {
+		"continue_gardens": {
+			"continue_available": true,
+			"region": "gardens"
+		},
+		"continue_laboratory": {
+			"continue_available": true,
+			"region": "laboratory"
+		},
+		"continue_vale": {
+			"continue_available": true,
+			"region": "vale"
+		},
+		"dialog_continue_unavailable": {
+			"continue_available": true,
+			"dialog": "continue_unavailable",
+			"has_progress": true,
+			"region": "gardens"
+		},
+		"dialog_exit": {
+			"continue_available": true,
+			"dialog": "exit",
+			"has_progress": true,
+			"region": "gardens"
+		},
+		"dialog_loading": {
+			"continue_available": true,
+			"dialog": "loading",
+			"has_progress": true,
+			"region": "gardens"
+		},
+		"dialog_new_game": {
+			"continue_available": true,
+			"dialog": "new_game",
+			"has_progress": true,
+			"region": "gardens"
+		},
+		"dialog_options": {
+			"continue_available": true,
+			"dialog": "options",
+			"has_progress": true,
+			"region": "gardens"
+		},
+		"dialog_save_error": {
+			"continue_available": true,
+			"dialog": "save_error",
+			"has_progress": true,
+			"region": "gardens"
+		},
+		"dialog_unsupported_save": {
+			"continue_available": true,
+			"dialog": "unsupported_save",
+			"has_progress": true,
+			"region": "gardens"
+		},
+		"disabled": {
+			"continue_available": true,
+			"interactions_enabled": false,
+			"region": "vale"
+		},
+		"focus": {
+			"continue_available": true,
+			"region": "gardens",
+			"visual_state": "focus"
+		},
+		"fresh": {
+			"continue_available": false,
+			"region": "gardens"
+		},
+		"hovered": {
+			"continue_available": false,
+			"region": "vale",
+			"visual_state": "hovered"
+		},
+		"layered": {
+			"reduced_motion": false,
+			"region": "laboratory",
+			"variant": "layered"
+		},
+		"missing_assets": {
+			"force_missing_background": true,
+			"region": "gardens"
+		},
+		"pressed": {
+			"continue_available": true,
+			"region": "laboratory",
+			"visual_state": "pressed"
+		},
+		"reduced_motion": {
+			"reduced_motion": true,
+			"region": "vale",
+			"variant": "layered"
+		},
+		"unknown_region": {
+			"region": "unknown"
+		}
+	}
+}

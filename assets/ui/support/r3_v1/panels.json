@@ -1,0 +1,3603 @@
+{
+	"cast_roles": [
+		"finn",
+		"professor_z1",
+		"professor_z2",
+		"professor_z3"
+	],
+	"future_integration": "015/023/046/047; no live learning/save/assessment logic",
+	"owner": "R3 010",
+	"panels": {
+		"answer.correct": {
+			"actions": [
+				{
+					"enabled": true,
+					"id": "submit",
+					"label": "Check answer"
+				},
+				{
+					"enabled": true,
+					"id": "return",
+					"label": "Return"
+				}
+			],
+			"body": "Ice became liquid water. What changed?",
+			"choices": [
+				{
+					"id": "0",
+					"label": "Its state changed."
+				},
+				{
+					"id": "1",
+					"label": "It became a new substance."
+				},
+				{
+					"id": "2",
+					"label": "The water disappeared."
+				}
+			],
+			"family": "answer",
+			"feedback": "Correct. Heat changed solid ice into liquid water. It is still water.",
+			"feedback_tone": "success",
+			"id": "answer.correct",
+			"origin": "Exact current registered L1 practice question/choices/feedback; layout-state selection is a fixture",
+			"owner": "R3 010",
+			"selected_choice": "0",
+			"status": "Practice · free feedback",
+			"title": "Observe melting"
+		},
+		"answer.incorrect": {
+			"actions": [
+				{
+					"enabled": true,
+					"id": "submit",
+					"label": "Check answer"
+				},
+				{
+					"enabled": true,
+					"id": "return",
+					"label": "Return"
+				}
+			],
+			"body": "Ice became liquid water. What changed?",
+			"choices": [
+				{
+					"id": "0",
+					"label": "Its state changed."
+				},
+				{
+					"id": "1",
+					"label": "It became a new substance."
+				},
+				{
+					"id": "2",
+					"label": "The water disappeared."
+				}
+			],
+			"family": "answer",
+			"feedback": "Try again. Heat changed solid ice into liquid water. It is still water.",
+			"feedback_tone": "error",
+			"id": "answer.incorrect",
+			"origin": "Exact current registered L1 practice question/choices/feedback; layout-state selection is a fixture",
+			"owner": "R3 010",
+			"selected_choice": "1",
+			"status": "Practice · free feedback",
+			"title": "Observe melting"
+		},
+		"answer.retry": {
+			"actions": [
+				{
+					"enabled": true,
+					"id": "submit",
+					"label": "Check answer"
+				},
+				{
+					"enabled": true,
+					"id": "return",
+					"label": "Return"
+				}
+			],
+			"body": "Ice became liquid water. What changed?",
+			"choices": [
+				{
+					"id": "0",
+					"label": "Its state changed."
+				},
+				{
+					"id": "1",
+					"label": "It became a new substance."
+				},
+				{
+					"id": "2",
+					"label": "The water disappeared."
+				}
+			],
+			"family": "answer",
+			"feedback": "Try again. Heat changed solid ice into liquid water. It is still water.",
+			"feedback_tone": "error",
+			"id": "answer.retry",
+			"origin": "Exact current registered L1 practice question/choices/feedback; layout-state selection is a fixture",
+			"owner": "R3 010",
+			"selected_choice": "1",
+			"status": "Practice · free feedback",
+			"title": "Observe melting"
+		},
+		"answer.saving": {
+			"actions": [
+				{
+					"enabled": false,
+					"id": "submit",
+					"label": "Check answer"
+				},
+				{
+					"enabled": true,
+					"id": "return",
+					"label": "Return"
+				}
+			],
+			"body": "Ice became liquid water. What changed?",
+			"choices": [
+				{
+					"id": "0",
+					"label": "Its state changed."
+				},
+				{
+					"id": "1",
+					"label": "It became a new substance."
+				},
+				{
+					"id": "2",
+					"label": "The water disappeared."
+				}
+			],
+			"family": "answer",
+			"feedback": "",
+			"feedback_tone": "error",
+			"id": "answer.saving",
+			"origin": "Exact current registered L1 practice question/choices/feedback; layout-state selection is a fixture",
+			"owner": "R3 010",
+			"selected_choice": "",
+			"status": "Saving answer…",
+			"title": "Observe melting"
+		},
+		"answer.unanswered": {
+			"actions": [
+				{
+					"enabled": true,
+					"id": "submit",
+					"label": "Check answer"
+				},
+				{
+					"enabled": true,
+					"id": "return",
+					"label": "Return"
+				}
+			],
+			"body": "Ice became liquid water. What changed?",
+			"choices": [
+				{
+					"id": "0",
+					"label": "Its state changed."
+				},
+				{
+					"id": "1",
+					"label": "It became a new substance."
+				},
+				{
+					"id": "2",
+					"label": "The water disappeared."
+				}
+			],
+			"family": "answer",
+			"feedback": "",
+			"feedback_tone": "error",
+			"id": "answer.unanswered",
+			"origin": "Exact current registered L1 practice question/choices/feedback; layout-state selection is a fixture",
+			"owner": "R3 010",
+			"selected_choice": "",
+			"status": "Practice · free feedback",
+			"title": "Observe melting"
+		},
+		"assessment.answered": {
+			"actions": [
+				{
+					"enabled": true,
+					"id": "next_item",
+					"label": "Next"
+				},
+				{
+					"enabled": true,
+					"id": "return",
+					"label": "Return"
+				}
+			],
+			"body": "Ice became liquid water. What changed?",
+			"can_close": true,
+			"choices": [
+				{
+					"id": "0",
+					"label": "Its state changed."
+				},
+				{
+					"id": "1",
+					"label": "It became a new substance."
+				},
+				{
+					"id": "2",
+					"label": "The water disappeared."
+				}
+			],
+			"family": "assessment",
+			"id": "assessment.answered",
+			"origin": "R3 proposed12iteminstrument layouts; actual L1 text is specimen only, no validated pre/post bank or scoring/persistence implemented",
+			"owner": "R3 010",
+			"selected_choice": "1",
+			"status": "Item 1 / 12",
+			"title": "Study Assessment"
+		},
+		"assessment.entry": {
+			"actions": [
+				{
+					"enabled": true,
+					"id": "review_form",
+					"label": "Review responses"
+				},
+				{
+					"enabled": true,
+					"id": "return",
+					"label": "Return"
+				}
+			],
+			"body": "Study Assessment is separate from adventure progress, rewards and free-help practice. Use the pre/post form assigned by your researcher.",
+			"can_close": true,
+			"choices": [],
+			"family": "assessment",
+			"id": "assessment.entry",
+			"origin": "R3 proposed12iteminstrument layouts; actual L1 text is specimen only, no validated pre/post bank or scoring/persistence implemented",
+			"owner": "R3 010",
+			"selected_choice": "",
+			"status": "Pre / post form",
+			"title": "Study Assessment"
+		},
+		"assessment.error": {
+			"actions": [
+				{
+					"enabled": true,
+					"id": "retry_assessment",
+					"label": "Retry submission"
+				},
+				{
+					"enabled": true,
+					"id": "return",
+					"label": "Return"
+				}
+			],
+			"body": "Assessment submission could not be saved. Your responses remain available. Retry without starting another first attempt.",
+			"can_close": true,
+			"choices": [],
+			"family": "assessment",
+			"id": "assessment.error",
+			"origin": "R3 proposed12iteminstrument layouts; actual L1 text is specimen only, no validated pre/post bank or scoring/persistence implemented",
+			"owner": "R3 010",
+			"selected_choice": "",
+			"status": "Pre / post form",
+			"title": "Study Assessment"
+		},
+		"assessment.explanations": {
+			"actions": [
+				{
+					"enabled": true,
+					"id": "review_form",
+					"label": "Review responses"
+				},
+				{
+					"enabled": true,
+					"id": "return",
+					"label": "Return"
+				}
+			],
+			"body": "Heat changed solid ice into liquid water. It is still water.",
+			"can_close": true,
+			"choices": [],
+			"family": "assessment",
+			"id": "assessment.explanations",
+			"origin": "R3 proposed12iteminstrument layouts; actual L1 text is specimen only, no validated pre/post bank or scoring/persistence implemented",
+			"owner": "R3 010",
+			"selected_choice": "",
+			"status": "Submitted review",
+			"title": "Study Assessment"
+		},
+		"assessment.resume": {
+			"actions": [
+				{
+					"enabled": true,
+					"id": "resume_assessment",
+					"label": "Resume"
+				},
+				{
+					"enabled": true,
+					"id": "return",
+					"label": "Return"
+				}
+			],
+			"body": "An unfinished assessment is available. Continue the same session rather than starting another first attempt.",
+			"can_close": true,
+			"choices": [],
+			"family": "assessment",
+			"id": "assessment.resume",
+			"origin": "R3 proposed12iteminstrument layouts; actual L1 text is specimen only, no validated pre/post bank or scoring/persistence implemented",
+			"owner": "R3 010",
+			"selected_choice": "",
+			"status": "Pre / post form",
+			"title": "Study Assessment"
+		},
+		"assessment.review": {
+			"actions": [
+				{
+					"enabled": true,
+					"id": "review_form",
+					"label": "Review responses"
+				},
+				{
+					"enabled": true,
+					"id": "return",
+					"label": "Return"
+				}
+			],
+			"body": "Review your responses before submission. No correctness hints are shown during the assessment.",
+			"can_close": true,
+			"choices": [],
+			"family": "assessment",
+			"id": "assessment.review",
+			"origin": "R3 proposed12iteminstrument layouts; actual L1 text is specimen only, no validated pre/post bank or scoring/persistence implemented",
+			"owner": "R3 010",
+			"selected_choice": "",
+			"status": "Pre / post form",
+			"title": "Study Assessment"
+		},
+		"assessment.submit_confirm": {
+			"actions": [
+				{
+					"enabled": true,
+					"id": "submit_assessment",
+					"label": "Submit responses"
+				},
+				{
+					"enabled": true,
+					"id": "return",
+					"label": "Return"
+				}
+			],
+			"body": "Submit these responses? This creates a distinct submitted attempt; it does not grant adventure progress.",
+			"can_close": true,
+			"choices": [],
+			"family": "assessment",
+			"id": "assessment.submit_confirm",
+			"origin": "R3 proposed12iteminstrument layouts; actual L1 text is specimen only, no validated pre/post bank or scoring/persistence implemented",
+			"owner": "R3 010",
+			"selected_choice": "",
+			"status": "Pre / post form",
+			"title": "Study Assessment"
+		},
+		"assessment.submitted": {
+			"actions": [
+				{
+					"enabled": true,
+					"id": "review_form",
+					"label": "Review responses"
+				},
+				{
+					"enabled": true,
+					"id": "return",
+					"label": "Return"
+				}
+			],
+			"body": "Assessment submitted. Scores remain separate from stars, badges and Finn progression.",
+			"can_close": true,
+			"choices": [],
+			"family": "assessment",
+			"id": "assessment.submitted",
+			"origin": "R3 proposed12iteminstrument layouts; actual L1 text is specimen only, no validated pre/post bank or scoring/persistence implemented",
+			"owner": "R3 010",
+			"rows": [
+				{
+					"text": "8 / 12",
+					"title": "Submitted result"
+				},
+				{
+					"text": "Pre-test · instrument version 1",
+					"title": "Assigned form"
+				},
+				{
+					"text": "Submitted local study session",
+					"title": "Attempt"
+				}
+			],
+			"selected_choice": "",
+			"status": "Pre / post form",
+			"title": "Study Assessment"
+		},
+		"assessment.submitting": {
+			"actions": [
+				{
+					"enabled": false,
+					"id": "review_form",
+					"label": "Review responses"
+				},
+				{
+					"enabled": false,
+					"id": "return",
+					"label": "Return"
+				}
+			],
+			"body": "Saving the submitted assessment. Wait for confirmation.",
+			"can_close": false,
+			"choices": [],
+			"family": "assessment",
+			"id": "assessment.submitting",
+			"origin": "R3 proposed12iteminstrument layouts; actual L1 text is specimen only, no validated pre/post bank or scoring/persistence implemented",
+			"owner": "R3 010",
+			"selected_choice": "",
+			"status": "Pre / post form",
+			"title": "Study Assessment"
+		},
+		"assessment.unanswered": {
+			"actions": [
+				{
+					"enabled": true,
+					"id": "next_item",
+					"label": "Next"
+				},
+				{
+					"enabled": true,
+					"id": "return",
+					"label": "Return"
+				}
+			],
+			"body": "Ice became liquid water. What changed?",
+			"can_close": true,
+			"choices": [
+				{
+					"id": "0",
+					"label": "Its state changed."
+				},
+				{
+					"id": "1",
+					"label": "It became a new substance."
+				},
+				{
+					"id": "2",
+					"label": "The water disappeared."
+				}
+			],
+			"family": "assessment",
+			"id": "assessment.unanswered",
+			"origin": "R3 proposed12iteminstrument layouts; actual L1 text is specimen only, no validated pre/post bank or scoring/persistence implemented",
+			"owner": "R3 010",
+			"selected_choice": "",
+			"status": "Item 1 / 12",
+			"title": "Study Assessment"
+		},
+		"assessment.unavailable": {
+			"actions": [
+				{
+					"enabled": false,
+					"id": "review_form",
+					"label": "Review responses"
+				},
+				{
+					"enabled": true,
+					"id": "return",
+					"label": "Return"
+				}
+			],
+			"body": "The assigned study form is not available. Ask your researcher for the validated form or paper assessment.",
+			"can_close": true,
+			"choices": [],
+			"family": "assessment",
+			"id": "assessment.unavailable",
+			"origin": "R3 proposed12iteminstrument layouts; actual L1 text is specimen only, no validated pre/post bank or scoring/persistence implemented",
+			"owner": "R3 010",
+			"selected_choice": "",
+			"status": "Pre / post form",
+			"title": "Study Assessment"
+		},
+		"badges.earned": {
+			"actions": [
+				{
+					"enabled": true,
+					"id": "return",
+					"label": "Return"
+				}
+			],
+			"badges": [
+				{
+					"count": 0,
+					"earned": true,
+					"id": "first_thaw"
+				},
+				{
+					"count": 0,
+					"earned": true,
+					"id": "helping_breeze"
+				},
+				{
+					"count": 0,
+					"earned": true,
+					"id": "follow_light"
+				},
+				{
+					"count": 0,
+					"earned": true,
+					"id": "ice_builder"
+				},
+				{
+					"count": 0,
+					"earned": true,
+					"id": "back_and_forth"
+				},
+				{
+					"count": 0,
+					"earned": true,
+					"id": "surface_escape"
+				},
+				{
+					"count": 0,
+					"earned": true,
+					"id": "bubble_business"
+				},
+				{
+					"count": 0,
+					"earned": true,
+					"id": "two_ways_up"
+				},
+				{
+					"count": 0,
+					"earned": true,
+					"id": "dew_detective"
+				},
+				{
+					"count": 0,
+					"earned": true,
+					"id": "round_trip"
+				},
+				{
+					"count": 0,
+					"earned": true,
+					"id": "no_liquid_needed"
+				},
+				{
+					"count": 0,
+					"earned": true,
+					"id": "frost_from_air"
+				},
+				{
+					"count": 0,
+					"earned": true,
+					"id": "direct_return"
+				},
+				{
+					"count": 0,
+					"earned": true,
+					"id": "six_changes"
+				},
+				{
+					"count": 0,
+					"earned": true,
+					"id": "chilled_to_death"
+				},
+				{
+					"count": 0,
+					"earned": true,
+					"id": "back_to_fire"
+				},
+				{
+					"count": 0,
+					"earned": true,
+					"id": "safe_return"
+				},
+				{
+					"count": 0,
+					"earned": true,
+					"id": "hands_on"
+				},
+				{
+					"count": 0,
+					"earned": true,
+					"id": "pocket_scientist"
+				},
+				{
+					"count": 0,
+					"earned": true,
+					"id": "trail_mapper"
+				},
+				{
+					"count": 0,
+					"earned": true,
+					"id": "field_notes"
+				},
+				{
+					"count": 0,
+					"earned": true,
+					"id": "good_question"
+				},
+				{
+					"count": 0,
+					"earned": true,
+					"id": "try_another_way"
+				},
+				{
+					"count": 0,
+					"earned": true,
+					"id": "steady_explorer"
+				},
+				{
+					"count": 0,
+					"earned": true,
+					"id": "boatwright"
+				},
+				{
+					"count": 0,
+					"earned": true,
+					"id": "steam_engineer"
+				},
+				{
+					"count": 0,
+					"earned": true,
+					"id": "frost_engineer"
+				},
+				{
+					"count": 0,
+					"earned": true,
+					"id": "snow_scholar"
+				},
+				{
+					"count": 0,
+					"earned": true,
+					"id": "sun_scholar"
+				},
+				{
+					"count": 0,
+					"earned": true,
+					"id": "lab_scholar"
+				},
+				{
+					"count": 0,
+					"earned": true,
+					"id": "phase_explorer"
+				},
+				{
+					"count": 0,
+					"earned": true,
+					"id": "clear_explanation"
+				}
+			],
+			"body": "Adventure ranks and collectible badges are separate. Only verified gameplay evidence earns a badge.",
+			"family": "badges",
+			"id": "badges.earned",
+			"origin": "All32actual achievement IDs/predicates retained; earned/count state is disposable presentation data",
+			"owner": "R3 010",
+			"status": "32 / 32 earned",
+			"title": "Achievements"
+		},
+		"badges.hidden": {
+			"actions": [
+				{
+					"enabled": true,
+					"id": "return",
+					"label": "Return"
+				}
+			],
+			"badges": [
+				{
+					"count": 0,
+					"earned": false,
+					"id": "first_thaw"
+				},
+				{
+					"count": 0,
+					"earned": false,
+					"id": "helping_breeze"
+				},
+				{
+					"count": 0,
+					"earned": false,
+					"id": "follow_light"
+				},
+				{
+					"count": 0,
+					"earned": false,
+					"id": "ice_builder"
+				},
+				{
+					"count": 0,
+					"earned": false,
+					"id": "back_and_forth"
+				},
+				{
+					"count": 0,
+					"earned": false,
+					"id": "surface_escape"
+				},
+				{
+					"count": 0,
+					"earned": false,
+					"id": "bubble_business"
+				},
+				{
+					"count": 0,
+					"earned": false,
+					"id": "two_ways_up"
+				},
+				{
+					"count": 0,
+					"earned": false,
+					"id": "dew_detective"
+				},
+				{
+					"count": 0,
+					"earned": false,
+					"id": "round_trip"
+				},
+				{
+					"count": 0,
+					"earned": false,
+					"id": "no_liquid_needed"
+				},
+				{
+					"count": 0,
+					"earned": false,
+					"id": "frost_from_air"
+				},
+				{
+					"count": 0,
+					"earned": false,
+					"id": "direct_return"
+				},
+				{
+					"count": 0,
+					"earned": false,
+					"id": "six_changes"
+				},
+				{
+					"count": 0,
+					"earned": false,
+					"id": "chilled_to_death"
+				},
+				{
+					"count": 0,
+					"earned": false,
+					"id": "back_to_fire"
+				},
+				{
+					"count": 0,
+					"earned": false,
+					"id": "safe_return"
+				},
+				{
+					"count": 0,
+					"earned": false,
+					"id": "hands_on"
+				},
+				{
+					"count": 0,
+					"earned": false,
+					"id": "pocket_scientist"
+				},
+				{
+					"count": 0,
+					"earned": false,
+					"id": "trail_mapper"
+				},
+				{
+					"count": 0,
+					"earned": false,
+					"id": "field_notes"
+				},
+				{
+					"count": 0,
+					"earned": false,
+					"id": "good_question"
+				},
+				{
+					"count": 0,
+					"earned": false,
+					"id": "try_another_way"
+				},
+				{
+					"count": 0,
+					"earned": false,
+					"id": "steady_explorer"
+				},
+				{
+					"count": 0,
+					"earned": false,
+					"id": "boatwright"
+				},
+				{
+					"count": 0,
+					"earned": false,
+					"id": "steam_engineer"
+				},
+				{
+					"count": 0,
+					"earned": false,
+					"id": "frost_engineer"
+				},
+				{
+					"count": 0,
+					"earned": false,
+					"id": "snow_scholar"
+				},
+				{
+					"count": 0,
+					"earned": false,
+					"id": "sun_scholar"
+				},
+				{
+					"count": 0,
+					"earned": false,
+					"id": "lab_scholar"
+				},
+				{
+					"count": 0,
+					"earned": false,
+					"id": "phase_explorer"
+				},
+				{
+					"count": 0,
+					"earned": false,
+					"id": "clear_explanation"
+				}
+			],
+			"body": "Adventure ranks and collectible badges are separate. Only verified gameplay evidence earns a badge.",
+			"family": "badges",
+			"id": "badges.hidden",
+			"origin": "All32actual achievement IDs/predicates retained; earned/count state is disposable presentation data",
+			"owner": "R3 010",
+			"status": "0 / 32 earned",
+			"title": "Achievements"
+		},
+		"badges.locked": {
+			"actions": [
+				{
+					"enabled": true,
+					"id": "return",
+					"label": "Return"
+				}
+			],
+			"badges": [
+				{
+					"count": 0,
+					"earned": false,
+					"id": "first_thaw"
+				},
+				{
+					"count": 0,
+					"earned": false,
+					"id": "helping_breeze"
+				},
+				{
+					"count": 0,
+					"earned": false,
+					"id": "follow_light"
+				},
+				{
+					"count": 0,
+					"earned": false,
+					"id": "ice_builder"
+				},
+				{
+					"count": 0,
+					"earned": false,
+					"id": "back_and_forth"
+				},
+				{
+					"count": 0,
+					"earned": false,
+					"id": "surface_escape"
+				},
+				{
+					"count": 0,
+					"earned": false,
+					"id": "bubble_business"
+				},
+				{
+					"count": 0,
+					"earned": false,
+					"id": "two_ways_up"
+				},
+				{
+					"count": 0,
+					"earned": false,
+					"id": "dew_detective"
+				},
+				{
+					"count": 0,
+					"earned": false,
+					"id": "round_trip"
+				},
+				{
+					"count": 0,
+					"earned": false,
+					"id": "no_liquid_needed"
+				},
+				{
+					"count": 0,
+					"earned": false,
+					"id": "frost_from_air"
+				},
+				{
+					"count": 0,
+					"earned": false,
+					"id": "direct_return"
+				},
+				{
+					"count": 0,
+					"earned": false,
+					"id": "six_changes"
+				},
+				{
+					"count": 0,
+					"earned": false,
+					"id": "chilled_to_death"
+				},
+				{
+					"count": 0,
+					"earned": false,
+					"id": "back_to_fire"
+				},
+				{
+					"count": 0,
+					"earned": false,
+					"id": "safe_return"
+				},
+				{
+					"count": 0,
+					"earned": false,
+					"id": "hands_on"
+				},
+				{
+					"count": 0,
+					"earned": false,
+					"id": "pocket_scientist"
+				},
+				{
+					"count": 0,
+					"earned": false,
+					"id": "trail_mapper"
+				},
+				{
+					"count": 0,
+					"earned": false,
+					"id": "field_notes"
+				},
+				{
+					"count": 0,
+					"earned": false,
+					"id": "good_question"
+				},
+				{
+					"count": 0,
+					"earned": false,
+					"id": "try_another_way"
+				},
+				{
+					"count": 0,
+					"earned": false,
+					"id": "steady_explorer"
+				},
+				{
+					"count": 0,
+					"earned": false,
+					"id": "boatwright"
+				},
+				{
+					"count": 0,
+					"earned": false,
+					"id": "steam_engineer"
+				},
+				{
+					"count": 0,
+					"earned": false,
+					"id": "frost_engineer"
+				},
+				{
+					"count": 0,
+					"earned": false,
+					"id": "snow_scholar"
+				},
+				{
+					"count": 0,
+					"earned": false,
+					"id": "sun_scholar"
+				},
+				{
+					"count": 0,
+					"earned": false,
+					"id": "lab_scholar"
+				},
+				{
+					"count": 0,
+					"earned": false,
+					"id": "phase_explorer"
+				},
+				{
+					"count": 0,
+					"earned": false,
+					"id": "clear_explanation"
+				}
+			],
+			"body": "Adventure ranks and collectible badges are separate. Only verified gameplay evidence earns a badge.",
+			"family": "badges",
+			"id": "badges.locked",
+			"origin": "All32actual achievement IDs/predicates retained; earned/count state is disposable presentation data",
+			"owner": "R3 010",
+			"status": "0 / 32 earned",
+			"title": "Achievements"
+		},
+		"badges.partial": {
+			"actions": [
+				{
+					"enabled": true,
+					"id": "return",
+					"label": "Return"
+				}
+			],
+			"badges": [
+				{
+					"count": 1,
+					"earned": false,
+					"id": "first_thaw"
+				},
+				{
+					"count": 1,
+					"earned": false,
+					"id": "helping_breeze"
+				},
+				{
+					"count": 1,
+					"earned": false,
+					"id": "follow_light"
+				},
+				{
+					"count": 1,
+					"earned": false,
+					"id": "ice_builder"
+				},
+				{
+					"count": 1,
+					"earned": false,
+					"id": "back_and_forth"
+				},
+				{
+					"count": 1,
+					"earned": false,
+					"id": "surface_escape"
+				},
+				{
+					"count": 1,
+					"earned": false,
+					"id": "bubble_business"
+				},
+				{
+					"count": 1,
+					"earned": false,
+					"id": "two_ways_up"
+				},
+				{
+					"count": 1,
+					"earned": false,
+					"id": "dew_detective"
+				},
+				{
+					"count": 1,
+					"earned": false,
+					"id": "round_trip"
+				},
+				{
+					"count": 1,
+					"earned": false,
+					"id": "no_liquid_needed"
+				},
+				{
+					"count": 1,
+					"earned": false,
+					"id": "frost_from_air"
+				},
+				{
+					"count": 1,
+					"earned": false,
+					"id": "direct_return"
+				},
+				{
+					"count": 1,
+					"earned": false,
+					"id": "six_changes"
+				},
+				{
+					"count": 1,
+					"earned": false,
+					"id": "chilled_to_death"
+				},
+				{
+					"count": 1,
+					"earned": false,
+					"id": "back_to_fire"
+				},
+				{
+					"count": 1,
+					"earned": false,
+					"id": "safe_return"
+				},
+				{
+					"count": 1,
+					"earned": false,
+					"id": "hands_on"
+				},
+				{
+					"count": 1,
+					"earned": false,
+					"id": "pocket_scientist"
+				},
+				{
+					"count": 1,
+					"earned": false,
+					"id": "trail_mapper"
+				},
+				{
+					"count": 1,
+					"earned": false,
+					"id": "field_notes"
+				},
+				{
+					"count": 1,
+					"earned": false,
+					"id": "good_question"
+				},
+				{
+					"count": 1,
+					"earned": false,
+					"id": "try_another_way"
+				},
+				{
+					"count": 1,
+					"earned": false,
+					"id": "steady_explorer"
+				},
+				{
+					"count": 1,
+					"earned": false,
+					"id": "boatwright"
+				},
+				{
+					"count": 1,
+					"earned": false,
+					"id": "steam_engineer"
+				},
+				{
+					"count": 1,
+					"earned": false,
+					"id": "frost_engineer"
+				},
+				{
+					"count": 1,
+					"earned": false,
+					"id": "snow_scholar"
+				},
+				{
+					"count": 1,
+					"earned": false,
+					"id": "sun_scholar"
+				},
+				{
+					"count": 1,
+					"earned": false,
+					"id": "lab_scholar"
+				},
+				{
+					"count": 1,
+					"earned": false,
+					"id": "phase_explorer"
+				},
+				{
+					"count": 1,
+					"earned": false,
+					"id": "clear_explanation"
+				}
+			],
+			"body": "Adventure ranks and collectible badges are separate. Only verified gameplay evidence earns a badge.",
+			"family": "badges",
+			"id": "badges.partial",
+			"origin": "All32actual achievement IDs/predicates retained; earned/count state is disposable presentation data",
+			"owner": "R3 010",
+			"status": "0 / 32 earned",
+			"title": "Achievements"
+		},
+		"completion.already_complete": {
+			"actions": [
+				{
+					"enabled": true,
+					"id": "return_world",
+					"label": "Return to world"
+				},
+				{
+					"enabled": true,
+					"id": "journal",
+					"label": "Journal"
+				}
+			],
+			"body": "This completion is already recorded. Replaying does not duplicate its star or rewards.",
+			"can_close": true,
+			"family": "completion",
+			"id": "completion.already_complete",
+			"origin": "R3 proposed presentation copy; not an integrated lesson/progression controller",
+			"owner": "R3 010",
+			"status": "Committed progress",
+			"title": "Subregion complete",
+			"tone": "success"
+		},
+		"completion.campaign_complete": {
+			"actions": [
+				{
+					"enabled": true,
+					"id": "return_world",
+					"label": "Return to world"
+				},
+				{
+					"enabled": true,
+					"id": "journal",
+					"label": "Journal"
+				}
+			],
+			"body": "The final scanner task is complete. You can return to the world or revisit discoveries in the Journal.",
+			"can_close": true,
+			"family": "completion",
+			"id": "completion.campaign_complete",
+			"origin": "R3 proposed presentation copy; not an integrated lesson/progression controller",
+			"owner": "R3 010",
+			"status": "Committed progress",
+			"title": "Adventure complete",
+			"tone": "success"
+		},
+		"completion.error": {
+			"actions": [
+				{
+					"enabled": true,
+					"id": "retry_save",
+					"label": "Retry save"
+				},
+				{
+					"enabled": false,
+					"id": "journal",
+					"label": "Journal"
+				}
+			],
+			"body": "Completion could not be saved. Retry before leaving; no unlock or reward is confirmed.",
+			"can_close": false,
+			"family": "completion",
+			"id": "completion.error",
+			"origin": "R3 proposed presentation copy; not an integrated lesson/progression controller",
+			"owner": "R3 010",
+			"status": "Not saved",
+			"title": "Subregion complete",
+			"tone": "error"
+		},
+		"completion.saving": {
+			"actions": [
+				{
+					"enabled": false,
+					"id": "return_world",
+					"label": "Return to world"
+				},
+				{
+					"enabled": false,
+					"id": "journal",
+					"label": "Journal"
+				}
+			],
+			"body": "Saving verified progress. Please wait for confirmation.",
+			"can_close": false,
+			"family": "completion",
+			"id": "completion.saving",
+			"origin": "R3 proposed presentation copy; not an integrated lesson/progression controller",
+			"owner": "R3 010",
+			"status": "Saving…",
+			"title": "Subregion complete",
+			"tone": "success"
+		},
+		"completion.success": {
+			"actions": [
+				{
+					"enabled": true,
+					"id": "return_world",
+					"label": "Return to world"
+				},
+				{
+					"enabled": true,
+					"id": "journal",
+					"label": "Journal"
+				}
+			],
+			"body": "Your completed work has been saved. Continue exploring unlocked routes.",
+			"can_close": true,
+			"family": "completion",
+			"id": "completion.success",
+			"origin": "R3 proposed presentation copy; not an integrated lesson/progression controller",
+			"owner": "R3 010",
+			"status": "Committed progress",
+			"title": "Subregion complete",
+			"tone": "success"
+		},
+		"craft.canceled": {
+			"actions": [
+				{
+					"enabled": true,
+					"id": "retry",
+					"label": "Retry"
+				},
+				{
+					"enabled": true,
+					"id": "return",
+					"label": "Return"
+				}
+			],
+			"body": "Assembly paused. Fitted parts and remaining inventory are preserved.",
+			"can_close": true,
+			"family": "craft",
+			"id": "craft.canceled",
+			"origin": "R3 proposed presentation copy; not an integrated lesson/progression controller",
+			"owner": "R3 010",
+			"title": "Assembly workshop",
+			"tone": "neutral"
+		},
+		"craft.save_error": {
+			"actions": [
+				{
+					"enabled": true,
+					"id": "retry",
+					"label": "Retry"
+				},
+				{
+					"enabled": false,
+					"id": "return",
+					"label": "Return"
+				}
+			],
+			"body": "Assembly could not be saved. Retry before leaving; no success or reward is confirmed.",
+			"can_close": false,
+			"family": "craft",
+			"id": "craft.save_error",
+			"origin": "R3 proposed presentation copy; not an integrated lesson/progression controller",
+			"owner": "R3 010",
+			"title": "Assembly workshop",
+			"tone": "error"
+		},
+		"craft.test_failed": {
+			"actions": [
+				{
+					"enabled": true,
+					"id": "retry",
+					"label": "Retry"
+				},
+				{
+					"enabled": true,
+					"id": "return",
+					"label": "Return"
+				}
+			],
+			"body": "The test is incomplete. Check the apparatus and retry; your existing parts are preserved.",
+			"can_close": true,
+			"family": "craft",
+			"id": "craft.test_failed",
+			"origin": "R3 proposed presentation copy; not an integrated lesson/progression controller",
+			"owner": "R3 010",
+			"title": "Assembly workshop",
+			"tone": "error"
+		},
+		"craft.wrong_part": {
+			"actions": [
+				{
+					"enabled": true,
+					"id": "retry",
+					"label": "Retry"
+				},
+				{
+					"enabled": true,
+					"id": "return",
+					"label": "Return"
+				}
+			],
+			"body": "This part does not match that slot. Return it unchanged and inspect the matching shape.",
+			"can_close": true,
+			"family": "craft",
+			"id": "craft.wrong_part",
+			"origin": "R3 proposed presentation copy; not an integrated lesson/progression controller",
+			"owner": "R3 010",
+			"title": "Assembly workshop",
+			"tone": "neutral"
+		},
+		"craft.z1_fitted": {
+			"actions": [
+				{
+					"enabled": true,
+					"id": "test",
+					"label": "Test assembly"
+				},
+				{
+					"enabled": false,
+					"id": "finn",
+					"label": "Speak to Finn"
+				},
+				{
+					"enabled": true,
+					"id": "return",
+					"label": "Return"
+				}
+			],
+			"body": "Recover parts → fit matching slots → operate and test → answer Finn → use the travel device.",
+			"family": "craft",
+			"id": "craft.z1_fitted",
+			"origin": "R3 master planned capstone recipe; asset contract only, no live item/inventory consumption",
+			"owner": "R3 010",
+			"rows": [
+				{
+					"text": "Fitted to matching slot",
+					"title": "Three plank bundles"
+				},
+				{
+					"text": "Fitted to matching slot",
+					"title": "Rope"
+				},
+				{
+					"text": "Fitted to matching slot",
+					"title": "Sailcloth"
+				},
+				{
+					"text": "Fitted to matching slot",
+					"title": "Rudder"
+				}
+			],
+			"status": "Assembly ready for test",
+			"title": "Boat assembly"
+		},
+		"craft.z1_missing": {
+			"actions": [
+				{
+					"enabled": false,
+					"id": "test",
+					"label": "Test assembly"
+				},
+				{
+					"enabled": false,
+					"id": "finn",
+					"label": "Speak to Finn"
+				},
+				{
+					"enabled": true,
+					"id": "return",
+					"label": "Return"
+				}
+			],
+			"body": "Recover parts → fit matching slots → operate and test → answer Finn → use the travel device.",
+			"family": "craft",
+			"id": "craft.z1_missing",
+			"origin": "R3 master planned capstone recipe; asset contract only, no live item/inventory consumption",
+			"owner": "R3 010",
+			"rows": [
+				{
+					"text": "Missing · locate part",
+					"title": "Three plank bundles"
+				},
+				{
+					"text": "Missing · locate part",
+					"title": "Rope"
+				},
+				{
+					"text": "Missing · locate part",
+					"title": "Sailcloth"
+				},
+				{
+					"text": "Missing · locate part",
+					"title": "Rudder"
+				}
+			],
+			"status": "Recipe available · parts missing",
+			"title": "Boat assembly"
+		},
+		"craft.z1_tested": {
+			"actions": [
+				{
+					"enabled": false,
+					"id": "test",
+					"label": "Test assembly"
+				},
+				{
+					"enabled": true,
+					"id": "finn",
+					"label": "Speak to Finn"
+				},
+				{
+					"enabled": true,
+					"id": "return",
+					"label": "Return"
+				}
+			],
+			"body": "Recover parts → fit matching slots → operate and test → answer Finn → use the travel device.",
+			"family": "craft",
+			"id": "craft.z1_tested",
+			"origin": "R3 master planned capstone recipe; asset contract only, no live item/inventory consumption",
+			"owner": "R3 010",
+			"rows": [
+				{
+					"text": "Fitted to matching slot",
+					"title": "Three plank bundles"
+				},
+				{
+					"text": "Fitted to matching slot",
+					"title": "Rope"
+				},
+				{
+					"text": "Fitted to matching slot",
+					"title": "Sailcloth"
+				},
+				{
+					"text": "Fitted to matching slot",
+					"title": "Rudder"
+				}
+			],
+			"status": "Craft test complete",
+			"title": "Boat assembly"
+		},
+		"craft.z2_fitted": {
+			"actions": [
+				{
+					"enabled": true,
+					"id": "test",
+					"label": "Test assembly"
+				},
+				{
+					"enabled": false,
+					"id": "finn",
+					"label": "Speak to Finn"
+				},
+				{
+					"enabled": true,
+					"id": "return",
+					"label": "Return"
+				}
+			],
+			"body": "Recover parts → fit matching slots → operate and test → answer Finn → use the travel device.",
+			"family": "craft",
+			"id": "craft.z2_fitted",
+			"origin": "R3 master planned capstone recipe; asset contract only, no live item/inventory consumption",
+			"owner": "R3 010",
+			"rows": [
+				{
+					"text": "Fitted to matching slot",
+					"title": "Boiler shell"
+				},
+				{
+					"text": "Fitted to matching slot",
+					"title": "Turbine cartridge"
+				},
+				{
+					"text": "Fitted to matching slot",
+					"title": "Condenser coil"
+				},
+				{
+					"text": "Fitted to matching slot",
+					"title": "Return tank"
+				},
+				{
+					"text": "Fitted to matching slot",
+					"title": "Drive belt"
+				}
+			],
+			"status": "Assembly ready for test",
+			"title": "Skybridge engine"
+		},
+		"craft.z2_missing": {
+			"actions": [
+				{
+					"enabled": false,
+					"id": "test",
+					"label": "Test assembly"
+				},
+				{
+					"enabled": false,
+					"id": "finn",
+					"label": "Speak to Finn"
+				},
+				{
+					"enabled": true,
+					"id": "return",
+					"label": "Return"
+				}
+			],
+			"body": "Recover parts → fit matching slots → operate and test → answer Finn → use the travel device.",
+			"family": "craft",
+			"id": "craft.z2_missing",
+			"origin": "R3 master planned capstone recipe; asset contract only, no live item/inventory consumption",
+			"owner": "R3 010",
+			"rows": [
+				{
+					"text": "Missing · locate part",
+					"title": "Boiler shell"
+				},
+				{
+					"text": "Missing · locate part",
+					"title": "Turbine cartridge"
+				},
+				{
+					"text": "Missing · locate part",
+					"title": "Condenser coil"
+				},
+				{
+					"text": "Missing · locate part",
+					"title": "Return tank"
+				},
+				{
+					"text": "Missing · locate part",
+					"title": "Drive belt"
+				}
+			],
+			"status": "Recipe available · parts missing",
+			"title": "Skybridge engine"
+		},
+		"craft.z2_tested": {
+			"actions": [
+				{
+					"enabled": false,
+					"id": "test",
+					"label": "Test assembly"
+				},
+				{
+					"enabled": true,
+					"id": "finn",
+					"label": "Speak to Finn"
+				},
+				{
+					"enabled": true,
+					"id": "return",
+					"label": "Return"
+				}
+			],
+			"body": "Recover parts → fit matching slots → operate and test → answer Finn → use the travel device.",
+			"family": "craft",
+			"id": "craft.z2_tested",
+			"origin": "R3 master planned capstone recipe; asset contract only, no live item/inventory consumption",
+			"owner": "R3 010",
+			"rows": [
+				{
+					"text": "Fitted to matching slot",
+					"title": "Boiler shell"
+				},
+				{
+					"text": "Fitted to matching slot",
+					"title": "Turbine cartridge"
+				},
+				{
+					"text": "Fitted to matching slot",
+					"title": "Condenser coil"
+				},
+				{
+					"text": "Fitted to matching slot",
+					"title": "Return tank"
+				},
+				{
+					"text": "Fitted to matching slot",
+					"title": "Drive belt"
+				}
+			],
+			"status": "Craft test complete",
+			"title": "Skybridge engine"
+		},
+		"craft.z3_fitted": {
+			"actions": [
+				{
+					"enabled": true,
+					"id": "test",
+					"label": "Test assembly"
+				},
+				{
+					"enabled": false,
+					"id": "finn",
+					"label": "Speak to Finn"
+				},
+				{
+					"enabled": true,
+					"id": "return",
+					"label": "Return"
+				}
+			],
+			"body": "Recover parts → fit matching slots → operate and test → answer Finn → use the travel device. Deposit the measured sample, then use the scanner after Finn.",
+			"family": "craft",
+			"id": "craft.z3_fitted",
+			"origin": "R3 master planned capstone recipe; asset contract only, no live item/inventory consumption",
+			"owner": "R3 010",
+			"rows": [
+				{
+					"text": "Fitted to matching slot",
+					"title": "Housing"
+				},
+				{
+					"text": "Fitted to matching slot",
+					"title": "Plate"
+				},
+				{
+					"text": "Fitted to matching slot",
+					"title": "Tube"
+				},
+				{
+					"text": "Fitted to matching slot",
+					"title": "Sensor"
+				},
+				{
+					"text": "Fitted to matching slot",
+					"title": "Ice"
+				},
+				{
+					"text": "Fitted to matching slot",
+					"title": "Port"
+				}
+			],
+			"status": "Assembly ready for test",
+			"title": "Phase cartridge"
+		},
+		"craft.z3_missing": {
+			"actions": [
+				{
+					"enabled": false,
+					"id": "test",
+					"label": "Test assembly"
+				},
+				{
+					"enabled": false,
+					"id": "finn",
+					"label": "Speak to Finn"
+				},
+				{
+					"enabled": true,
+					"id": "return",
+					"label": "Return"
+				}
+			],
+			"body": "Recover parts → fit matching slots → operate and test → answer Finn → use the travel device. Deposit the measured sample, then use the scanner after Finn.",
+			"family": "craft",
+			"id": "craft.z3_missing",
+			"origin": "R3 master planned capstone recipe; asset contract only, no live item/inventory consumption",
+			"owner": "R3 010",
+			"rows": [
+				{
+					"text": "Missing · locate part",
+					"title": "Housing"
+				},
+				{
+					"text": "Missing · locate part",
+					"title": "Plate"
+				},
+				{
+					"text": "Missing · locate part",
+					"title": "Tube"
+				},
+				{
+					"text": "Missing · locate part",
+					"title": "Sensor"
+				},
+				{
+					"text": "Missing · locate part",
+					"title": "Ice"
+				},
+				{
+					"text": "Missing · locate part",
+					"title": "Port"
+				}
+			],
+			"status": "Recipe available · parts missing",
+			"title": "Phase cartridge"
+		},
+		"craft.z3_tested": {
+			"actions": [
+				{
+					"enabled": false,
+					"id": "test",
+					"label": "Test assembly"
+				},
+				{
+					"enabled": true,
+					"id": "finn",
+					"label": "Speak to Finn"
+				},
+				{
+					"enabled": true,
+					"id": "return",
+					"label": "Return"
+				}
+			],
+			"body": "Recover parts → fit matching slots → operate and test → answer Finn → use the travel device. Deposit the measured sample, then use the scanner after Finn.",
+			"family": "craft",
+			"id": "craft.z3_tested",
+			"origin": "R3 master planned capstone recipe; asset contract only, no live item/inventory consumption",
+			"owner": "R3 010",
+			"rows": [
+				{
+					"text": "Fitted to matching slot",
+					"title": "Housing"
+				},
+				{
+					"text": "Fitted to matching slot",
+					"title": "Plate"
+				},
+				{
+					"text": "Fitted to matching slot",
+					"title": "Tube"
+				},
+				{
+					"text": "Fitted to matching slot",
+					"title": "Sensor"
+				},
+				{
+					"text": "Fitted to matching slot",
+					"title": "Ice"
+				},
+				{
+					"text": "Fitted to matching slot",
+					"title": "Port"
+				}
+			],
+			"status": "Craft test complete",
+			"title": "Phase cartridge"
+		},
+		"demo.complete": {
+			"actions": [
+				{
+					"enabled": true,
+					"id": "demo_replay",
+					"label": "Replay"
+				},
+				{
+					"enabled": true,
+					"id": "demo_next",
+					"label": "Next step"
+				},
+				{
+					"enabled": true,
+					"id": "return",
+					"label": "Return"
+				}
+			],
+			"body": "Use the labeled steps to compare the sample before heat transfer and afterward. Replays are free and do not solve your live task.",
+			"demo_stage": 2,
+			"diagram": "melting",
+			"family": "demo",
+			"id": "demo.complete",
+			"origin": "R3 proposed presentation copy; not an integrated lesson/progression controller",
+			"owner": "R3 010",
+			"status": "Demonstration complete",
+			"title": "Replay demonstration"
+		},
+		"demo.paused": {
+			"actions": [
+				{
+					"enabled": true,
+					"id": "demo_replay",
+					"label": "Replay"
+				},
+				{
+					"enabled": true,
+					"id": "demo_next",
+					"label": "Next step"
+				},
+				{
+					"enabled": true,
+					"id": "return",
+					"label": "Return"
+				}
+			],
+			"body": "Use the labeled steps to compare the sample before heat transfer and afterward. Replays are free and do not solve your live task.",
+			"demo_stage": 0,
+			"diagram": "melting",
+			"family": "demo",
+			"id": "demo.paused",
+			"origin": "R3 proposed presentation copy; not an integrated lesson/progression controller",
+			"owner": "R3 010",
+			"status": "Paused",
+			"title": "Replay demonstration"
+		},
+		"demo.ready": {
+			"actions": [
+				{
+					"enabled": true,
+					"id": "demo_replay",
+					"label": "Replay"
+				},
+				{
+					"enabled": true,
+					"id": "demo_next",
+					"label": "Next step"
+				},
+				{
+					"enabled": true,
+					"id": "return",
+					"label": "Return"
+				}
+			],
+			"body": "Use the labeled steps to compare the sample before heat transfer and afterward. Replays are free and do not solve your live task.",
+			"demo_stage": 0,
+			"diagram": "melting",
+			"family": "demo",
+			"id": "demo.ready",
+			"origin": "R3 proposed presentation copy; not an integrated lesson/progression controller",
+			"owner": "R3 010",
+			"status": "Ready",
+			"title": "Replay demonstration"
+		},
+		"demo.stepping": {
+			"actions": [
+				{
+					"enabled": true,
+					"id": "demo_replay",
+					"label": "Replay"
+				},
+				{
+					"enabled": true,
+					"id": "demo_next",
+					"label": "Next step"
+				},
+				{
+					"enabled": true,
+					"id": "return",
+					"label": "Return"
+				}
+			],
+			"body": "Use the labeled steps to compare the sample before heat transfer and afterward. Replays are free and do not solve your live task.",
+			"demo_stage": 1,
+			"diagram": "melting",
+			"family": "demo",
+			"id": "demo.stepping",
+			"origin": "R3 proposed presentation copy; not an integrated lesson/progression controller",
+			"owner": "R3 010",
+			"status": "Step 2 of 3",
+			"title": "Replay demonstration"
+		},
+		"demo.unavailable": {
+			"actions": [
+				{
+					"enabled": false,
+					"id": "demo_replay",
+					"label": "Replay"
+				},
+				{
+					"enabled": false,
+					"id": "demo_next",
+					"label": "Next step"
+				},
+				{
+					"enabled": true,
+					"id": "return",
+					"label": "Return"
+				}
+			],
+			"body": "Use the labeled steps to compare the sample before heat transfer and afterward. Replays are free and do not solve your live task.",
+			"demo_stage": 0,
+			"diagram": "",
+			"family": "demo",
+			"id": "demo.unavailable",
+			"origin": "R3 proposed presentation copy; not an integrated lesson/progression controller",
+			"owner": "R3 010",
+			"status": "Demonstration unavailable; read the Guide instead",
+			"title": "Replay demonstration"
+		},
+		"dialogue.ack_error": {
+			"actions": [
+				{
+					"enabled": true,
+					"id": "retry_ack",
+					"label": "Retry acknowledgement"
+				}
+			],
+			"body": "The ice gained heat and became liquid water. This change is melting. It is still water.\n\nYour acknowledgement could not be saved. Retry to keep this discovery recorded.",
+			"can_close": false,
+			"expression": "cold",
+			"family": "dialogue",
+			"id": "dialogue.ack_error",
+			"origin": "R3 proposed presentation copy; not an integrated lesson/progression controller",
+			"owner": "R3 010",
+			"speaker": "professor_z1",
+			"status": "Not saved",
+			"title": "Acknowledgement not saved",
+			"tone": "error"
+		},
+		"dialogue.first_success": {
+			"actions": [
+				{
+					"enabled": true,
+					"id": "acknowledge",
+					"label": "Understood"
+				}
+			],
+			"body": "The ice gained heat and became liquid water. This change is melting. It is still water.",
+			"close_action": "acknowledge",
+			"diagram": "melting",
+			"expression": "happy",
+			"family": "dialogue",
+			"id": "dialogue.first_success",
+			"origin": "Retained exact PUZZLE_EXPLANATIONS.melt_direct; display/ack intent only",
+			"owner": "R3 010",
+			"speaker": "professor_z1",
+			"title": "A new discovery"
+		},
+		"dialogue.instruction": {
+			"actions": [
+				{
+					"enabled": true,
+					"id": "return",
+					"label": "Return"
+				}
+			],
+			"body": "Select an available mode. Face a nearby suitable sample; hold Fire with a clear path. Release to stop.",
+			"expression": "neutral",
+			"family": "dialogue",
+			"id": "dialogue.instruction",
+			"origin": "R3 proposed presentation copy; not an integrated lesson/progression controller",
+			"owner": "R3 010",
+			"speaker": "professor_z1",
+			"title": "Use the device"
+		},
+		"dialogue.long": {
+			"actions": [
+				{
+					"enabled": true,
+					"id": "continue",
+					"label": "Continue"
+				}
+			],
+			"body": "In suitable controlled conditions, solid water changes directly to gas, or vapor directly to frost. These paths have no intermediate liquid. Keep the apparatus contained.\n\nLiquid water can become gas by evaporation at its surface or boiling throughout the liquid. Cooling water vapor can form liquid droplets.\n\nSolid ice gains heat and becomes liquid water. This is melting: the substance remains water.",
+			"expression": "concerned",
+			"family": "dialogue",
+			"id": "dialogue.long",
+			"origin": "R3 proposed presentation copy; not an integrated lesson/progression controller",
+			"owner": "R3 010",
+			"speaker": "professor_z3",
+			"title": "A careful explanation"
+		},
+		"dialogue.pending": {
+			"actions": [
+				{
+					"enabled": true,
+					"id": "read",
+					"label": "Read explanation"
+				},
+				{
+					"enabled": true,
+					"id": "later",
+					"label": "Later"
+				}
+			],
+			"body": "Your explanation is ready. Read it when you are safely back, then acknowledge it. It remains pending until acknowledgement is saved.",
+			"family": "dialogue",
+			"id": "dialogue.pending",
+			"origin": "R3 proposed presentation copy; not an integrated lesson/progression controller",
+			"owner": "R3 010",
+			"speaker": "professor_z1",
+			"title": "Continue your discovery"
+		},
+		"dialogue.professor_z1": {
+			"actions": [
+				{
+					"enabled": true,
+					"id": "continue",
+					"label": "Continue"
+				}
+			],
+			"body": "Solid ice gains heat and becomes liquid water. This is melting: the substance remains water.",
+			"diagram": "melting",
+			"expression": "explaining",
+			"family": "dialogue",
+			"id": "dialogue.professor_z1",
+			"origin": "R3 proposed presentation copy; not an integrated lesson/progression controller",
+			"owner": "R3 010",
+			"speaker": "professor_z1",
+			"title": "A field lesson"
+		},
+		"dialogue.professor_z2": {
+			"actions": [
+				{
+					"enabled": true,
+					"id": "continue",
+					"label": "Continue"
+				}
+			],
+			"body": "Liquid water can become gas by evaporation at its surface or boiling throughout the liquid. Cooling water vapor can form liquid droplets.",
+			"diagram": "evaporation",
+			"expression": "explaining",
+			"family": "dialogue",
+			"id": "dialogue.professor_z2",
+			"origin": "R3 proposed presentation copy; not an integrated lesson/progression controller",
+			"owner": "R3 010",
+			"speaker": "professor_z2",
+			"title": "A field lesson"
+		},
+		"dialogue.professor_z3": {
+			"actions": [
+				{
+					"enabled": true,
+					"id": "continue",
+					"label": "Continue"
+				}
+			],
+			"body": "In suitable controlled conditions, solid water changes directly to gas, or vapor directly to frost. These paths have no intermediate liquid. Keep the apparatus contained.",
+			"diagram": "sublimation",
+			"expression": "explaining",
+			"family": "dialogue",
+			"id": "dialogue.professor_z3",
+			"origin": "R3 proposed presentation copy; not an integrated lesson/progression controller",
+			"owner": "R3 010",
+			"speaker": "professor_z3",
+			"title": "A field lesson"
+		},
+		"finn.correct": {
+			"actions": [
+				{
+					"enabled": true,
+					"id": "continue",
+					"label": "Continue"
+				},
+				{
+					"enabled": true,
+					"id": "help",
+					"label": "Ask for help"
+				}
+			],
+			"body": "Ice became liquid water. What changed?",
+			"can_close": true,
+			"choices": [
+				{
+					"id": "0",
+					"label": "Its state changed."
+				},
+				{
+					"id": "1",
+					"label": "It became a new substance."
+				},
+				{
+					"id": "2",
+					"label": "The water disappeared."
+				}
+			],
+			"expression": "happy",
+			"family": "finn",
+			"feedback": "Correct. Heat changed solid ice into liquid water. It is still water.",
+			"id": "finn.correct",
+			"origin": "R3 proposed presentation copy; not an integrated lesson/progression controller",
+			"owner": "R3 010",
+			"selected_choice": "0",
+			"speaker": "finn",
+			"title": "Finn's field questions",
+			"tone": "neutral"
+		},
+		"finn.resumed": {
+			"actions": [
+				{
+					"enabled": true,
+					"id": "continue",
+					"label": "Continue"
+				},
+				{
+					"enabled": true,
+					"id": "help",
+					"label": "Ask for help"
+				}
+			],
+			"body": "Ice became liquid water. What changed?",
+			"can_close": true,
+			"choices": [
+				{
+					"id": "0",
+					"label": "Its state changed."
+				},
+				{
+					"id": "1",
+					"label": "It became a new substance."
+				},
+				{
+					"id": "2",
+					"label": "The water disappeared."
+				}
+			],
+			"expression": "neutral",
+			"family": "finn",
+			"feedback": "Passed answers are restored. First-attempt accuracy stays separate from eventual pass.",
+			"id": "finn.resumed",
+			"origin": "R3 proposed presentation copy; not an integrated lesson/progression controller",
+			"owner": "R3 010",
+			"selected_choice": "0",
+			"speaker": "finn",
+			"title": "Finn's field questions",
+			"tone": "neutral"
+		},
+		"finn.save_error": {
+			"actions": [
+				{
+					"enabled": true,
+					"id": "continue",
+					"label": "Continue"
+				},
+				{
+					"enabled": true,
+					"id": "help",
+					"label": "Ask for help"
+				}
+			],
+			"body": "Ice became liquid water. What changed?",
+			"can_close": false,
+			"choices": [
+				{
+					"id": "0",
+					"label": "Its state changed."
+				},
+				{
+					"id": "1",
+					"label": "It became a new substance."
+				},
+				{
+					"id": "2",
+					"label": "The water disappeared."
+				}
+			],
+			"expression": "concerned",
+			"family": "finn",
+			"feedback": "Answer could not be saved. Retry; no capstone completion is confirmed.",
+			"id": "finn.save_error",
+			"origin": "R3 proposed presentation copy; not an integrated lesson/progression controller",
+			"owner": "R3 010",
+			"selected_choice": "0",
+			"speaker": "finn",
+			"title": "Finn's field questions",
+			"tone": "error"
+		},
+		"finn.wait": {
+			"actions": [
+				{
+					"enabled": true,
+					"id": "recipe",
+					"label": "View recipe"
+				},
+				{
+					"enabled": true,
+					"id": "return",
+					"label": "Return"
+				}
+			],
+			"body": "Finish the craft test first. Then we can discuss what you observed.",
+			"expression": "neutral",
+			"family": "finn",
+			"id": "finn.wait",
+			"origin": "R3 proposed presentation copy; not an integrated lesson/progression controller",
+			"owner": "R3 010",
+			"speaker": "finn",
+			"status": "Questions follow the tested craft",
+			"title": "Finn"
+		},
+		"finn.wrong": {
+			"actions": [
+				{
+					"enabled": true,
+					"id": "retry",
+					"label": "Try again"
+				},
+				{
+					"enabled": true,
+					"id": "help",
+					"label": "Ask for help"
+				}
+			],
+			"body": "Ice became liquid water. What changed?",
+			"can_close": true,
+			"choices": [
+				{
+					"id": "0",
+					"label": "Its state changed."
+				},
+				{
+					"id": "1",
+					"label": "It became a new substance."
+				},
+				{
+					"id": "2",
+					"label": "The water disappeared."
+				}
+			],
+			"expression": "concerned",
+			"family": "finn",
+			"feedback": "Try again. Heat changed solid ice into liquid water. It is still water.",
+			"id": "finn.wrong",
+			"origin": "R3 proposed presentation copy; not an integrated lesson/progression controller",
+			"owner": "R3 010",
+			"selected_choice": "1",
+			"speaker": "finn",
+			"title": "Finn's field questions",
+			"tone": "error"
+		},
+		"finn.z1_passed": {
+			"actions": [
+				{
+					"enabled": true,
+					"id": "return",
+					"label": "Return to workshop"
+				},
+				{
+					"enabled": true,
+					"id": "help",
+					"label": "Ask for help"
+				}
+			],
+			"body": "All required questions are answered. Use the tested travel device to finish this capstone.",
+			"choices": [],
+			"expression": "happy",
+			"family": "finn",
+			"id": "finn.z1_passed",
+			"origin": "R3 planned3/4/6pass counts; actual L1 practice text used only as layout specimen, not final Finn question bank",
+			"owner": "R3 010",
+			"speaker": "finn",
+			"status": "3 / 3 passed · first attempts recorded separately",
+			"title": "Finn's field questions"
+		},
+		"finn.z1_question": {
+			"actions": [
+				{
+					"enabled": true,
+					"id": "submit",
+					"label": "Check answer"
+				},
+				{
+					"enabled": true,
+					"id": "help",
+					"label": "Ask for help"
+				}
+			],
+			"body": "Ice became liquid water. What changed?",
+			"choices": [
+				{
+					"id": "0",
+					"label": "Its state changed."
+				},
+				{
+					"id": "1",
+					"label": "It became a new substance."
+				},
+				{
+					"id": "2",
+					"label": "The water disappeared."
+				}
+			],
+			"expression": "explaining",
+			"family": "finn",
+			"id": "finn.z1_question",
+			"origin": "R3 planned3/4/6pass counts; actual L1 practice text used only as layout specimen, not final Finn question bank",
+			"owner": "R3 010",
+			"speaker": "finn",
+			"status": "Question 1 / 3",
+			"title": "Finn's field questions"
+		},
+		"finn.z2_passed": {
+			"actions": [
+				{
+					"enabled": true,
+					"id": "return",
+					"label": "Return to workshop"
+				},
+				{
+					"enabled": true,
+					"id": "help",
+					"label": "Ask for help"
+				}
+			],
+			"body": "All required questions are answered. Use the tested travel device to finish this capstone.",
+			"choices": [],
+			"expression": "happy",
+			"family": "finn",
+			"id": "finn.z2_passed",
+			"origin": "R3 planned3/4/6pass counts; actual L1 practice text used only as layout specimen, not final Finn question bank",
+			"owner": "R3 010",
+			"speaker": "finn",
+			"status": "4 / 4 passed · first attempts recorded separately",
+			"title": "Finn's field questions"
+		},
+		"finn.z2_question": {
+			"actions": [
+				{
+					"enabled": true,
+					"id": "submit",
+					"label": "Check answer"
+				},
+				{
+					"enabled": true,
+					"id": "help",
+					"label": "Ask for help"
+				}
+			],
+			"body": "Ice became liquid water. What changed?",
+			"choices": [
+				{
+					"id": "0",
+					"label": "Its state changed."
+				},
+				{
+					"id": "1",
+					"label": "It became a new substance."
+				},
+				{
+					"id": "2",
+					"label": "The water disappeared."
+				}
+			],
+			"expression": "explaining",
+			"family": "finn",
+			"id": "finn.z2_question",
+			"origin": "R3 planned3/4/6pass counts; actual L1 practice text used only as layout specimen, not final Finn question bank",
+			"owner": "R3 010",
+			"speaker": "finn",
+			"status": "Question 1 / 4",
+			"title": "Finn's field questions"
+		},
+		"finn.z3_passed": {
+			"actions": [
+				{
+					"enabled": true,
+					"id": "return",
+					"label": "Return to workshop"
+				},
+				{
+					"enabled": true,
+					"id": "help",
+					"label": "Ask for help"
+				}
+			],
+			"body": "All required questions are answered. Use the tested travel device to finish this capstone.",
+			"choices": [],
+			"expression": "happy",
+			"family": "finn",
+			"id": "finn.z3_passed",
+			"origin": "R3 planned3/4/6pass counts; actual L1 practice text used only as layout specimen, not final Finn question bank",
+			"owner": "R3 010",
+			"speaker": "finn",
+			"status": "6 / 6 passed · first attempts recorded separately",
+			"title": "Finn's field questions"
+		},
+		"finn.z3_question": {
+			"actions": [
+				{
+					"enabled": true,
+					"id": "submit",
+					"label": "Check answer"
+				},
+				{
+					"enabled": true,
+					"id": "help",
+					"label": "Ask for help"
+				}
+			],
+			"body": "Ice became liquid water. What changed?",
+			"choices": [
+				{
+					"id": "0",
+					"label": "Its state changed."
+				},
+				{
+					"id": "1",
+					"label": "It became a new substance."
+				},
+				{
+					"id": "2",
+					"label": "The water disappeared."
+				}
+			],
+			"expression": "explaining",
+			"family": "finn",
+			"id": "finn.z3_question",
+			"origin": "R3 planned3/4/6pass counts; actual L1 practice text used only as layout specimen, not final Finn question bank",
+			"owner": "R3 010",
+			"speaker": "finn",
+			"status": "Question 1 / 6",
+			"title": "Finn's field questions"
+		},
+		"guides.empty": {
+			"actions": [
+				{
+					"enabled": true,
+					"id": "help",
+					"label": "Ask for help"
+				},
+				{
+					"enabled": true,
+					"id": "return",
+					"label": "Return"
+				}
+			],
+			"body": "No Guides discovered yet. Speak to the Professor or observe a lesson. Help and demonstrations are free.",
+			"family": "guides",
+			"id": "guides.empty",
+			"origin": "R3 proposed presentation copy; not an integrated lesson/progression controller",
+			"owner": "R3 010",
+			"rows": [],
+			"search": true,
+			"title": "Guides"
+		},
+		"guides.library": {
+			"actions": [
+				{
+					"enabled": true,
+					"id": "return",
+					"label": "Return"
+				}
+			],
+			"body": "Free help · unlimited replay. Demonstrations never complete the live puzzle.",
+			"family": "guides",
+			"id": "guides.library",
+			"origin": "R3 proposed presentation copy; not an integrated lesson/progression controller",
+			"owner": "R3 010",
+			"rows": [
+				{
+					"action": "open_guide",
+					"id": "melting",
+					"text": "Discovered lesson · Replay demonstration",
+					"title": "Melting"
+				},
+				{
+					"action": "open_guide",
+					"id": "freezing",
+					"text": "Discovered lesson · Replay demonstration",
+					"title": "Freezing"
+				},
+				{
+					"action": "open_guide",
+					"id": "evaporation",
+					"text": "Discovered lesson · Replay demonstration",
+					"title": "Evaporation"
+				},
+				{
+					"action": "open_guide",
+					"id": "boiling",
+					"text": "Discovered lesson · Replay demonstration",
+					"title": "Boiling"
+				},
+				{
+					"action": "open_guide",
+					"id": "condensation",
+					"text": "Discovered lesson · Replay demonstration",
+					"title": "Condensation"
+				},
+				{
+					"action": "open_guide",
+					"id": "sublimation",
+					"text": "Discovered lesson · Replay demonstration",
+					"title": "Sublimation"
+				},
+				{
+					"action": "open_guide",
+					"id": "deposition",
+					"text": "Discovered lesson · Replay demonstration",
+					"title": "Deposition"
+				}
+			],
+			"search": true,
+			"title": "Discovered Guides"
+		},
+		"guides.locked": {
+			"actions": [
+				{
+					"enabled": true,
+					"id": "return",
+					"label": "Return"
+				}
+			],
+			"body": "Speak to this zone's Professor and follow its introduction. You can revisit previously discovered Guides at any time.",
+			"family": "guides",
+			"id": "guides.locked",
+			"origin": "R3 proposed presentation copy; not an integrated lesson/progression controller",
+			"owner": "R3 010",
+			"rows": [
+				{
+					"enabled": false,
+					"id": "future",
+					"text": "Not yet discovered",
+					"title": "Undiscovered lesson"
+				}
+			],
+			"title": "Lesson not discovered"
+		},
+		"guides.no_results": {
+			"actions": [
+				{
+					"enabled": true,
+					"id": "clear_search",
+					"label": "Clear search"
+				},
+				{
+					"enabled": true,
+					"id": "return",
+					"label": "Return"
+				}
+			],
+			"body": "No matching Guides. Clear your search or try another word.",
+			"family": "guides",
+			"id": "guides.no_results",
+			"origin": "R3 proposed presentation copy; not an integrated lesson/progression controller",
+			"owner": "R3 010",
+			"search": true,
+			"search_text": "unmatched topic",
+			"title": "Guides"
+		},
+		"help.contextual": {
+			"actions": [
+				{
+					"enabled": true,
+					"id": "demo",
+					"label": "Show demonstration"
+				},
+				{
+					"enabled": true,
+					"id": "return",
+					"label": "Return"
+				}
+			],
+			"body": "Face nearby first ice with a clear path; hold Fire to add heat. Release to stop. Solid ice melts into liquid water.",
+			"diagram": "melting",
+			"family": "help",
+			"id": "help.contextual",
+			"origin": "R2 device-first help adapted from expedition_learning_support; old wedge position removed",
+			"owner": "R3 010",
+			"speaker": "professor_z1",
+			"status": "Free help · unlimited",
+			"title": "Need a hand?"
+		},
+		"help.mechanical": {
+			"actions": [
+				{
+					"enabled": true,
+					"id": "demo",
+					"label": "Show demonstration"
+				},
+				{
+					"enabled": true,
+					"id": "return",
+					"label": "Return"
+				}
+			],
+			"body": "The bells shake the ice dam apart. This is mechanical fracture, not a melting observation.",
+			"family": "help",
+			"id": "help.mechanical",
+			"origin": "Current frozen_mill_campaign description; legacy campaign_support furnace/melting wording retained only in source/conflict log",
+			"owner": "R3 010",
+			"speaker": "professor_z1",
+			"title": "Resonance bells"
+		},
+		"journal.empty": {
+			"actions": [
+				{
+					"enabled": true,
+					"id": "guides",
+					"label": "Guides"
+				},
+				{
+					"enabled": true,
+					"id": "return",
+					"label": "Return"
+				}
+			],
+			"body": "Complete a subregion to add its discoveries. Unfinished puzzles are not shown as completed memories.",
+			"family": "journal",
+			"id": "journal.empty",
+			"origin": "R3 proposed presentation copy; not an integrated lesson/progression controller",
+			"owner": "R3 010",
+			"title": "Field Journal"
+		},
+		"journal.notes": {
+			"actions": [
+				{
+					"enabled": true,
+					"id": "demo_replay",
+					"label": "Replay discovery"
+				},
+				{
+					"enabled": true,
+					"id": "return",
+					"label": "Return"
+				}
+			],
+			"body": "The ice gained heat and became liquid water. This change is melting. It is still water.",
+			"diagram": "melting",
+			"family": "journal",
+			"id": "journal.notes",
+			"origin": "Retained exact first melting explanation; completed-state fixture only",
+			"owner": "R3 010",
+			"status": "Completed discovery · The Melting Garden",
+			"title": "Field Journal"
+		},
+		"journal.rank_0": {
+			"actions": [
+				{
+					"enabled": true,
+					"id": "guides",
+					"label": "Guides"
+				},
+				{
+					"enabled": true,
+					"id": "badges",
+					"label": "Badges"
+				},
+				{
+					"enabled": true,
+					"id": "return",
+					"label": "Return"
+				}
+			],
+			"body": "One star per unique completed subregion. Replaying a completion does not add another star.",
+			"family": "journal",
+			"id": "journal.rank_0",
+			"origin": "R3 proposed presentation copy; not an integrated lesson/progression controller",
+			"owner": "R3 010",
+			"rank_index": 0,
+			"rows": [
+				{
+					"text": "0 / 18 subregions complete",
+					"title": "Progress"
+				}
+			],
+			"status": "Apprentice · 0–6 stars",
+			"title": "Adventure ranks"
+		},
+		"journal.rank_1": {
+			"actions": [
+				{
+					"enabled": true,
+					"id": "guides",
+					"label": "Guides"
+				},
+				{
+					"enabled": true,
+					"id": "badges",
+					"label": "Badges"
+				},
+				{
+					"enabled": true,
+					"id": "return",
+					"label": "Return"
+				}
+			],
+			"body": "One star per unique completed subregion. Replaying a completion does not add another star.",
+			"family": "journal",
+			"id": "journal.rank_1",
+			"origin": "R3 proposed presentation copy; not an integrated lesson/progression controller",
+			"owner": "R3 010",
+			"rank_index": 1,
+			"rows": [
+				{
+					"text": "7 / 18 subregions complete",
+					"title": "Progress"
+				}
+			],
+			"status": "Researcher · 7–12 stars",
+			"title": "Adventure ranks"
+		},
+		"journal.rank_2": {
+			"actions": [
+				{
+					"enabled": true,
+					"id": "guides",
+					"label": "Guides"
+				},
+				{
+					"enabled": true,
+					"id": "badges",
+					"label": "Badges"
+				},
+				{
+					"enabled": true,
+					"id": "return",
+					"label": "Return"
+				}
+			],
+			"body": "One star per unique completed subregion. Replaying a completion does not add another star.",
+			"family": "journal",
+			"id": "journal.rank_2",
+			"origin": "R3 proposed presentation copy; not an integrated lesson/progression controller",
+			"owner": "R3 010",
+			"rank_index": 2,
+			"rows": [
+				{
+					"text": "18 / 18 subregions complete",
+					"title": "Progress"
+				}
+			],
+			"status": "Phase Master · 13–18 stars",
+			"title": "Adventure ranks"
+		},
+		"pause.open": {
+			"actions": [
+				{
+					"enabled": true,
+					"id": "resume",
+					"label": "Resume"
+				},
+				{
+					"enabled": true,
+					"id": "save_menu",
+					"label": "Save & Menu"
+				}
+			],
+			"body": "Take your time. Learning help is free.",
+			"family": "pause",
+			"id": "pause.open",
+			"origin": "R3 proposed presentation copy; not an integrated lesson/progression controller",
+			"owner": "R3 010",
+			"rows": [
+				{
+					"action": "guides",
+					"text": "Lessons and demonstrations",
+					"title": "Guides"
+				},
+				{
+					"action": "journal",
+					"text": "Discoveries, ranks and achievements",
+					"title": "Journal"
+				},
+				{
+					"action": "travel",
+					"text": "Previously attuned checkpoints",
+					"title": "Travel"
+				},
+				{
+					"action": "settings",
+					"text": "Audio and accessibility",
+					"title": "Settings"
+				}
+			],
+			"title": "Paused"
+		},
+		"profile.empty": {
+			"actions": [
+				{
+					"enabled": false,
+					"id": "save_name",
+					"label": "Save name"
+				},
+				{
+					"enabled": true,
+					"id": "return",
+					"label": "Back"
+				}
+			],
+			"body": "Enter your name first.",
+			"can_close": true,
+			"family": "profile",
+			"field": {
+				"value": ""
+			},
+			"id": "profile.empty",
+			"origin": "Existing set_player_name trims to24characters and rejects empty; presentation does not save",
+			"owner": "R3 010",
+			"status": "",
+			"title": "Your explorer name"
+		},
+		"profile.error": {
+			"actions": [
+				{
+					"enabled": true,
+					"id": "save_name",
+					"label": "Save name"
+				},
+				{
+					"enabled": true,
+					"id": "return",
+					"label": "Back"
+				}
+			],
+			"body": "Your name could not be saved. Retry; your previous name is retained.",
+			"can_close": true,
+			"family": "profile",
+			"field": {
+				"value": "Ari"
+			},
+			"id": "profile.error",
+			"origin": "Existing set_player_name trims to24characters and rejects empty; presentation does not save",
+			"owner": "R3 010",
+			"status": "",
+			"title": "Your explorer name"
+		},
+		"profile.saving": {
+			"actions": [
+				{
+					"enabled": false,
+					"id": "save_name",
+					"label": "Save name"
+				},
+				{
+					"enabled": false,
+					"id": "return",
+					"label": "Back"
+				}
+			],
+			"body": "Choose a name for your adventure.",
+			"can_close": false,
+			"family": "profile",
+			"field": {
+				"value": "Ari"
+			},
+			"id": "profile.saving",
+			"origin": "Existing set_player_name trims to24characters and rejects empty; presentation does not save",
+			"owner": "R3 010",
+			"status": "Saving…",
+			"title": "Your explorer name"
+		},
+		"profile.valid": {
+			"actions": [
+				{
+					"enabled": true,
+					"id": "save_name",
+					"label": "Save name"
+				},
+				{
+					"enabled": true,
+					"id": "return",
+					"label": "Back"
+				}
+			],
+			"body": "Choose a name for your adventure.",
+			"can_close": true,
+			"family": "profile",
+			"field": {
+				"value": "Ari"
+			},
+			"id": "profile.valid",
+			"origin": "Existing set_player_name trims to24characters and rejects empty; presentation does not save",
+			"owner": "R3 010",
+			"status": "",
+			"title": "Your explorer name"
+		},
+		"recovery.backup_available": {
+			"actions": [
+				{
+					"enabled": true,
+					"id": "restore_backup",
+					"label": "Review recovery copy"
+				},
+				{
+					"enabled": true,
+					"id": "cancel",
+					"label": "Back"
+				}
+			],
+			"body": "A recovery copy is available. Review it before restoring; keep the current file until recovery succeeds.",
+			"family": "recovery",
+			"id": "recovery.backup_available",
+			"origin": "R3 proposed presentation copy; not an integrated lesson/progression controller",
+			"owner": "R3 010",
+			"title": "Save needs attention",
+			"tone": "neutral"
+		},
+		"recovery.backup_missing": {
+			"actions": [
+				{
+					"enabled": false,
+					"id": "retry_save",
+					"label": "Retry save"
+				},
+				{
+					"enabled": true,
+					"id": "cancel",
+					"label": "Back"
+				}
+			],
+			"body": "No recovery copy is available. Return safely; do not reset the profile automatically.",
+			"family": "recovery",
+			"id": "recovery.backup_missing",
+			"origin": "R3 proposed presentation copy; not an integrated lesson/progression controller",
+			"owner": "R3 010",
+			"title": "Save needs attention",
+			"tone": "error"
+		},
+		"recovery.checkpoint": {
+			"actions": [
+				{
+					"enabled": true,
+					"id": "recover",
+					"label": "Return to checkpoint"
+				},
+				{
+					"enabled": true,
+					"id": "cancel",
+					"label": "Back"
+				}
+			],
+			"body": "Return to the newest unlocked checkpoint in this subregion. Completed work stays committed.",
+			"family": "recovery",
+			"id": "recovery.checkpoint",
+			"origin": "R3 proposed presentation copy; not an integrated lesson/progression controller",
+			"owner": "R3 010",
+			"title": "Recovery",
+			"tone": "neutral"
+		},
+		"recovery.restart_confirm": {
+			"actions": [
+				{
+					"enabled": true,
+					"id": "confirm_restart",
+					"label": "Restart attempt"
+				},
+				{
+					"enabled": true,
+					"id": "cancel",
+					"label": "Back"
+				}
+			],
+			"body": "Restart this attempt? Review what will reset before confirming. Existing earned profile progress is preserved.",
+			"family": "recovery",
+			"id": "recovery.restart_confirm",
+			"origin": "R3 proposed presentation copy; not an integrated lesson/progression controller",
+			"owner": "R3 010",
+			"title": "Confirm restart",
+			"tone": "neutral"
+		},
+		"recovery.save_failed": {
+			"actions": [
+				{
+					"enabled": true,
+					"id": "retry_save",
+					"label": "Retry save"
+				},
+				{
+					"enabled": true,
+					"id": "cancel",
+					"label": "Back"
+				}
+			],
+			"body": "Progress could not be saved. Retry. The previous valid save remains available; success has not been confirmed.",
+			"family": "recovery",
+			"id": "recovery.save_failed",
+			"origin": "R3 proposed presentation copy; not an integrated lesson/progression controller",
+			"owner": "R3 010",
+			"title": "Save needs attention",
+			"tone": "error"
+		},
+		"recovery.unknown_version": {
+			"actions": [
+				{
+					"enabled": false,
+					"id": "retry_save",
+					"label": "Retry save"
+				},
+				{
+					"enabled": true,
+					"id": "cancel",
+					"label": "Back"
+				}
+			],
+			"body": "This save uses an unsupported version. Keep it unchanged and return to the menu.",
+			"family": "recovery",
+			"id": "recovery.unknown_version",
+			"origin": "R3 proposed presentation copy; not an integrated lesson/progression controller",
+			"owner": "R3 010",
+			"title": "Save needs attention",
+			"tone": "error"
+		},
+		"recovery.unsaved_confirm": {
+			"actions": [
+				{
+					"enabled": true,
+					"id": "retry_save",
+					"label": "Retry save"
+				},
+				{
+					"enabled": true,
+					"id": "cancel",
+					"label": "Stay here"
+				}
+			],
+			"body": "Changes have not been saved. Retry saving or stay here before leaving.",
+			"family": "recovery",
+			"id": "recovery.unsaved_confirm",
+			"origin": "R3 proposed presentation copy; not an integrated lesson/progression controller",
+			"owner": "R3 010",
+			"title": "Save needs attention",
+			"tone": "error"
+		},
+		"science.boiling": {
+			"actions": [
+				{
+					"enabled": true,
+					"id": "demo_previous",
+					"label": "Previous step"
+				},
+				{
+					"enabled": true,
+					"id": "demo_next",
+					"label": "Next step"
+				},
+				{
+					"enabled": true,
+					"id": "return",
+					"label": "Return"
+				}
+			],
+			"body": "Liquid → gas. Heat flows in. The substance remains water. Vapor bubbles form throughout the liquid under suitable boiling conditions. Water vapor is invisible; dots in this particle diagram are a model.",
+			"demo_stage": 0,
+			"diagram": "boiling",
+			"family": "science",
+			"id": "science.boiling",
+			"origin": "Endpoints/heat from actual phase_transition_rules; new explanatory model copy pending teacher review",
+			"owner": "R3 010",
+			"status": "Step 1 of 3",
+			"title": "Boiling"
+		},
+		"science.condensation": {
+			"actions": [
+				{
+					"enabled": true,
+					"id": "demo_previous",
+					"label": "Previous step"
+				},
+				{
+					"enabled": true,
+					"id": "demo_next",
+					"label": "Next step"
+				},
+				{
+					"enabled": true,
+					"id": "return",
+					"label": "Return"
+				}
+			],
+			"body": "Gas → liquid. Heat flows out. The substance remains water. Water vapor is invisible; dots in this particle diagram are a model.",
+			"demo_stage": 0,
+			"diagram": "condensation",
+			"family": "science",
+			"id": "science.condensation",
+			"origin": "Endpoints/heat from actual phase_transition_rules; new explanatory model copy pending teacher review",
+			"owner": "R3 010",
+			"status": "Step 1 of 3",
+			"title": "Condensation"
+		},
+		"science.deposition": {
+			"actions": [
+				{
+					"enabled": true,
+					"id": "demo_previous",
+					"label": "Previous step"
+				},
+				{
+					"enabled": true,
+					"id": "demo_next",
+					"label": "Next step"
+				},
+				{
+					"enabled": true,
+					"id": "return",
+					"label": "Return"
+				}
+			],
+			"body": "Gas → solid. Heat flows out. The substance remains water. Suitable controlled chamber conditions are required. There is no intermediate liquid. Deposited frost is a measured sample, not a load-bearing platform. Water vapor is invisible; dots in this particle diagram are a model.",
+			"demo_stage": 0,
+			"diagram": "deposition",
+			"family": "science",
+			"id": "science.deposition",
+			"origin": "Endpoints/heat from actual phase_transition_rules; new explanatory model copy pending teacher review",
+			"owner": "R3 010",
+			"status": "Step 1 of 3",
+			"title": "Deposition"
+		},
+		"science.evaporation": {
+			"actions": [
+				{
+					"enabled": true,
+					"id": "demo_previous",
+					"label": "Previous step"
+				},
+				{
+					"enabled": true,
+					"id": "demo_next",
+					"label": "Next step"
+				},
+				{
+					"enabled": true,
+					"id": "return",
+					"label": "Return"
+				}
+			],
+			"body": "Liquid → gas. Heat flows in. The substance remains water. Evaporation occurs at the surface; it does not require bubbles throughout the liquid. Water vapor is invisible; dots in this particle diagram are a model.",
+			"demo_stage": 0,
+			"diagram": "evaporation",
+			"family": "science",
+			"id": "science.evaporation",
+			"origin": "Endpoints/heat from actual phase_transition_rules; new explanatory model copy pending teacher review",
+			"owner": "R3 010",
+			"status": "Step 1 of 3",
+			"title": "Evaporation"
+		},
+		"science.freezing": {
+			"actions": [
+				{
+					"enabled": true,
+					"id": "demo_previous",
+					"label": "Previous step"
+				},
+				{
+					"enabled": true,
+					"id": "demo_next",
+					"label": "Next step"
+				},
+				{
+					"enabled": true,
+					"id": "return",
+					"label": "Return"
+				}
+			],
+			"body": "Liquid → solid. Heat flows out. The substance remains water.",
+			"demo_stage": 0,
+			"diagram": "freezing",
+			"family": "science",
+			"id": "science.freezing",
+			"origin": "Endpoints/heat from actual phase_transition_rules; new explanatory model copy pending teacher review",
+			"owner": "R3 010",
+			"status": "Step 1 of 3",
+			"title": "Freezing"
+		},
+		"science.melting": {
+			"actions": [
+				{
+					"enabled": true,
+					"id": "demo_previous",
+					"label": "Previous step"
+				},
+				{
+					"enabled": true,
+					"id": "demo_next",
+					"label": "Next step"
+				},
+				{
+					"enabled": true,
+					"id": "return",
+					"label": "Return"
+				}
+			],
+			"body": "Solid → liquid. Heat flows in. The substance remains water.",
+			"demo_stage": 0,
+			"diagram": "melting",
+			"family": "science",
+			"id": "science.melting",
+			"origin": "Endpoints/heat from actual phase_transition_rules; new explanatory model copy pending teacher review",
+			"owner": "R3 010",
+			"status": "Step 1 of 3",
+			"title": "Melting"
+		},
+		"science.sublimation": {
+			"actions": [
+				{
+					"enabled": true,
+					"id": "demo_previous",
+					"label": "Previous step"
+				},
+				{
+					"enabled": true,
+					"id": "demo_next",
+					"label": "Next step"
+				},
+				{
+					"enabled": true,
+					"id": "return",
+					"label": "Return"
+				}
+			],
+			"body": "Solid → gas. Heat flows in. The substance remains water. Suitable controlled chamber conditions are required. There is no intermediate liquid. Water vapor is invisible; dots in this particle diagram are a model.",
+			"demo_stage": 0,
+			"diagram": "sublimation",
+			"family": "science",
+			"id": "science.sublimation",
+			"origin": "Endpoints/heat from actual phase_transition_rules; new explanatory model copy pending teacher review",
+			"owner": "R3 010",
+			"status": "Step 1 of 3",
+			"title": "Sublimation"
+		},
+		"settings.accessible": {
+			"actions": [
+				{
+					"enabled": true,
+					"id": "return",
+					"label": "Return"
+				}
+			],
+			"body": "Adjust audio and choose comfortable text, contrast and motion.",
+			"family": "settings",
+			"high_contrast": true,
+			"id": "settings.accessible",
+			"large_text": true,
+			"origin": "R3 proposed presentation copy; not an integrated lesson/progression controller",
+			"owner": "R3 010",
+			"reduced_motion": true,
+			"settings": [
+				{
+					"id": "music",
+					"label": "Music",
+					"value": true
+				},
+				{
+					"id": "sfx",
+					"label": "Sound effects",
+					"value": true
+				},
+				{
+					"id": "reduced_effects",
+					"label": "Reduced effects",
+					"value": true
+				},
+				{
+					"id": "reduced_motion",
+					"label": "Reduced motion",
+					"value": true
+				},
+				{
+					"id": "large_text",
+					"label": "Larger text",
+					"value": true
+				},
+				{
+					"id": "high_contrast",
+					"label": "Higher contrast",
+					"value": true
+				}
+			],
+			"title": "Settings"
+		},
+		"settings.default": {
+			"actions": [
+				{
+					"enabled": true,
+					"id": "return",
+					"label": "Return"
+				}
+			],
+			"body": "Adjust audio and choose comfortable text, contrast and motion.",
+			"family": "settings",
+			"high_contrast": false,
+			"id": "settings.default",
+			"large_text": false,
+			"origin": "R3 proposed presentation copy; not an integrated lesson/progression controller",
+			"owner": "R3 010",
+			"reduced_motion": false,
+			"settings": [
+				{
+					"id": "music",
+					"label": "Music",
+					"value": true
+				},
+				{
+					"id": "sfx",
+					"label": "Sound effects",
+					"value": true
+				},
+				{
+					"id": "reduced_effects",
+					"label": "Reduced effects",
+					"value": false
+				},
+				{
+					"id": "reduced_motion",
+					"label": "Reduced motion",
+					"value": false
+				},
+				{
+					"id": "large_text",
+					"label": "Larger text",
+					"value": false
+				},
+				{
+					"id": "high_contrast",
+					"label": "Higher contrast",
+					"value": false
+				}
+			],
+			"title": "Settings"
+		},
+		"settings.muted": {
+			"actions": [
+				{
+					"enabled": true,
+					"id": "return",
+					"label": "Return"
+				}
+			],
+			"body": "Adjust audio and choose comfortable text, contrast and motion.",
+			"family": "settings",
+			"high_contrast": false,
+			"id": "settings.muted",
+			"large_text": false,
+			"origin": "R3 proposed presentation copy; not an integrated lesson/progression controller",
+			"owner": "R3 010",
+			"reduced_motion": false,
+			"settings": [
+				{
+					"id": "music",
+					"label": "Music",
+					"value": false
+				},
+				{
+					"id": "sfx",
+					"label": "Sound effects",
+					"value": false
+				},
+				{
+					"id": "reduced_effects",
+					"label": "Reduced effects",
+					"value": false
+				},
+				{
+					"id": "reduced_motion",
+					"label": "Reduced motion",
+					"value": false
+				},
+				{
+					"id": "large_text",
+					"label": "Larger text",
+					"value": false
+				},
+				{
+					"id": "high_contrast",
+					"label": "Higher contrast",
+					"value": false
+				}
+			],
+			"title": "Settings"
+		},
+		"travel.empty": {
+			"actions": [
+				{
+					"enabled": true,
+					"id": "return",
+					"label": "Return"
+				}
+			],
+			"body": "Only previously attuned destinations are available. Travel is not a lesson or a progression unlock.",
+			"family": "travel",
+			"id": "travel.empty",
+			"origin": "R3 proposed presentation copy; not an integrated lesson/progression controller",
+			"owner": "R3 010",
+			"rows": [],
+			"status": "No destinations attuned",
+			"title": "Checkpoint travel"
+		},
+		"travel.known": {
+			"actions": [
+				{
+					"enabled": true,
+					"id": "return",
+					"label": "Return"
+				}
+			],
+			"body": "Only previously attuned destinations are available. Travel is not a lesson or a progression unlock.",
+			"family": "travel",
+			"id": "travel.known",
+			"origin": "R3 proposed presentation copy; not an integrated lesson/progression controller",
+			"owner": "R3 010",
+			"rows": [
+				{
+					"action": "request_travel",
+					"enabled": true,
+					"id": "C1",
+					"text": "Safe destination supplied by the world",
+					"title": "Attuned checkpoint"
+				}
+			],
+			"status": "Previously attuned destination",
+			"title": "Checkpoint travel"
+		},
+		"travel.locked": {
+			"actions": [
+				{
+					"enabled": true,
+					"id": "return",
+					"label": "Return"
+				}
+			],
+			"body": "Only previously attuned destinations are available. Travel is not a lesson or a progression unlock.",
+			"family": "travel",
+			"id": "travel.locked",
+			"origin": "R3 proposed presentation copy; not an integrated lesson/progression controller",
+			"owner": "R3 010",
+			"rows": [
+				{
+					"action": "request_travel",
+					"enabled": false,
+					"id": "C1",
+					"text": "Safe destination supplied by the world",
+					"title": "Attuned checkpoint"
+				}
+			],
+			"status": "Destination unavailable",
+			"title": "Checkpoint travel"
+		}
+	},
+	"schema_version": 1,
+	"science_routes": {
+		"boiling": {
+			"capability": "vaporization",
+			"from": "liquid",
+			"heat": "in",
+			"modes": [
+				"thermal"
+			],
+			"region": "boiling_bulk",
+			"to": "gas",
+			"type": "boil_volume"
+		},
+		"condensation": {
+			"capability": "condensation",
+			"from": "gas",
+			"heat": "out",
+			"modes": [
+				"cryo",
+				"pressure"
+			],
+			"region": "condensing",
+			"to": "liquid",
+			"type": "condense_collect"
+		},
+		"deposition": {
+			"capability": "deposition",
+			"from": "gas",
+			"heat": "out",
+			"modes": [
+				"pressure"
+			],
+			"region": "gas_solid",
+			"to": "solid",
+			"type": "deposit_frost"
+		},
+		"evaporation": {
+			"capability": "vaporization",
+			"from": "liquid",
+			"heat": "in",
+			"modes": [
+				"thermal"
+			],
+			"region": "evaporating_surface",
+			"to": "gas",
+			"type": "evaporate_surface"
+		},
+		"freezing": {
+			"capability": "freezing",
+			"from": "liquid",
+			"heat": "out",
+			"modes": [
+				"cryo"
+			],
+			"region": "freezing",
+			"to": "solid",
+			"type": "freeze_controlled"
+		},
+		"melting": {
+			"capability": "melting",
+			"from": "solid",
+			"heat": "in",
+			"modes": [
+				"thermal"
+			],
+			"region": "melting",
+			"to": "liquid",
+			"type": "melt_direct"
+		},
+		"sublimation": {
+			"capability": "sublimation",
+			"from": "solid",
+			"heat": "in",
+			"modes": [
+				"vacuum"
+			],
+			"region": "solid_gas",
+			"to": "gas",
+			"type": "sublime_controlled"
+		}
+	},
+	"scope": "Opt-in asset/default-state catalog; provider-supplied content remains authoritative"
+}

@@ -1,0 +1,18 @@
+[
+  {
+    "Path": "C:\\Users\\Nitro\\Documents\\phase-quest\\assets\\characters\\cast\\explorer\\frames.tres",
+    "Hash": "8855EAB043E6A6F7816A6FA66E1DB85DD0D1436993C46AE2FE561F6C28C9CC22"
+  },
+  {
+    "Path": "C:\\Users\\Nitro\\Documents\\phase-quest\\Actors\\Player.tscn",
+    "Hash": "D02782157CD6C22F806D7A1558797F792053CF055C414E7C253EC249DE63F2F5"
+  },
+  {
+    "Path": "C:\\Users\\Nitro\\Documents\\phase-quest\\Scripts\\Player\\campaign_player.gd",
+    "Hash": "A4242B4744BE72E60E677326D6A96ED809A22340E9F089EEB5029963F630155D"
+  },
+  {
+    "Path": "C:\\Users\\Nitro\\Documents\\phase-quest\\Scripts\\Player\\player_model.gd",
+    "Hash": "E2D68CBAAE63A300E01110284001DAD32F4B20DE8DF7391337345318F02EF8BC"
+  }
+]

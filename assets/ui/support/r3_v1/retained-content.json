@@ -1,0 +1,668 @@
+{
+	"achievements": [
+		{
+			"condition": "Manually melt an ice barrier using Thermal device heat for the first time. Legacy direct-heater awards remain earned.",
+			"icon": "ice",
+			"id": "first_thaw",
+			"name": "First Thaw"
+		},
+		{
+			"condition": "Manually complete the Level 1 fan-assisted heater outcome after installing blades and providing fuel. Pickup alone does not count.",
+			"icon": "fan",
+			"id": "helping_breeze",
+			"name": "A Helping Breeze"
+		},
+		{
+			"condition": "Manually complete a mirror-directed heating puzzle.",
+			"icon": "light",
+			"id": "follow_light",
+			"name": "Follow the Light"
+		},
+		{
+			"condition": "Manually freeze a filled tray to verified solid state.",
+			"icon": "steps",
+			"id": "ice_builder",
+			"name": "Ice Builder"
+		},
+		{
+			"condition": "Manually melt and refreeze the same tracked water sample in one puzzle instance. Tutorial previews do not count.",
+			"icon": "arrows",
+			"id": "back_and_forth",
+			"name": "Back and Forth"
+		},
+		{
+			"condition": "Manually complete a surface-evaporation outcome.",
+			"icon": "tray",
+			"id": "surface_escape",
+			"name": "Surface Escape"
+		},
+		{
+			"condition": "Manually complete a boiling-through-volume outcome.",
+			"icon": "boiler",
+			"id": "bubble_business",
+			"name": "Bubble Business"
+		},
+		{
+			"condition": "Earn both Surface Escape and Bubble Business across saves or sessions.",
+			"icon": "dual",
+			"id": "two_ways_up",
+			"members": [
+				"surface_escape",
+				"bubble_business"
+			],
+			"mode": "derived",
+			"name": "Two Ways Up"
+		},
+		{
+			"condition": "Manually collect the required amount of condensed water in a condensation puzzle.",
+			"icon": "drop",
+			"id": "dew_detective",
+			"name": "Dew Detective"
+		},
+		{
+			"condition": "Manually complete boiling → condensation → reservoir return in one working circuit.",
+			"icon": "loop",
+			"id": "round_trip",
+			"name": "Round Trip"
+		},
+		{
+			"condition": "Manually complete controlled sublimation with no intermediate liquid state.",
+			"icon": "gas",
+			"id": "no_liquid_needed",
+			"name": "No Liquid Needed"
+		},
+		{
+			"condition": "Manually complete deposition using water vapor with no intermediate liquid.",
+			"icon": "frost",
+			"id": "frost_from_air",
+			"name": "Frost from Air"
+		},
+		{
+			"condition": "Manually complete sublimation → deposition transfer in the same tracked apparatus.",
+			"icon": "transfer",
+			"id": "direct_return",
+			"name": "Direct Return"
+		},
+		{
+			"condition": "Record an independent verified solve for all six phase changes. Vaporization requires both evaporation and boiling. This game achievement is not a validated assessment result.",
+			"icon": "six",
+			"id": "six_changes",
+			"members": [
+				"melting",
+				"freezing",
+				"evaporation",
+				"boiling",
+				"condensation",
+				"sublimation",
+				"deposition"
+			],
+			"mode": "set",
+			"name": "Six Changes Understood"
+		},
+		{
+			"condition": "First actual game-over caused by cold when warmth reaches zero. Falling, pause, reload and visual frost effects do not qualify.",
+			"hidden": true,
+			"icon": "mitten",
+			"id": "chilled_to_death",
+			"name": "Chilled to death"
+		},
+		{
+			"condition": "In one life, fall to 25% warmth or below, then recover to at least 90% through shelter heat without cold death or checkpoint teleport resetting the meter.",
+			"icon": "fire",
+			"id": "back_to_fire",
+			"name": "Back to the Fire"
+		},
+		{
+			"condition": "Unlock a non-entry checkpoint, then respawn at the newest unlocked checkpoint after a death and regain control. Initial spawn and fast travel do not count.",
+			"icon": "flag",
+			"id": "safe_return",
+			"name": "Safe Return"
+		},
+		{
+			"condition": "Successfully pick up and place a required module or part in its matching destination. Dropping it elsewhere does not count.",
+			"icon": "module",
+			"id": "hands_on",
+			"name": "Hands On"
+		},
+		{
+			"condition": "Collect all six unique Level 1 crystals. Repeated pickup events do not count.",
+			"icon": "crystals",
+			"id": "pocket_scientist",
+			"mode": "set",
+			"name": "Pocket Scientist",
+			"target": 6,
+			"validation": "crystal"
+		},
+		{
+			"condition": "Activate three distinct non-entry waypoints across the campaign. Revisits and fast travel do not count.",
+			"icon": "pins",
+			"id": "trail_mapper",
+			"mode": "set",
+			"name": "Trail Mapper",
+			"target": 3,
+			"validation": "waypoint"
+		},
+		{
+			"condition": "Unlock all six phase-change lesson Guides through required lessons or observations. Discovery does not establish independent mastery.",
+			"icon": "book",
+			"id": "field_notes",
+			"members": [
+				"melting",
+				"freezing",
+				"vaporization",
+				"condensation",
+				"sublimation",
+				"deposition"
+			],
+			"mode": "set",
+			"name": "Field Notes"
+		},
+		{
+			"condition": "Open free contextual help for an active unresolved puzzle and acknowledge its guidance. Automatic introductions and empty help panels do not count.",
+			"icon": "question",
+			"id": "good_question",
+			"name": "Good Question"
+		},
+		{
+			"condition": "After an explicit test reports an incorrect configuration, change it and manually solve the same puzzle ID. Setup, waiting and previews do not count. Free help is allowed.",
+			"icon": "retry",
+			"id": "try_another_way",
+			"name": "Try Another Way"
+		},
+		{
+			"condition": "Complete a level in one attempt without player death. No speed requirement. Free help is allowed.",
+			"icon": "boots",
+			"id": "steady_explorer",
+			"name": "Steady Explorer"
+		},
+		{
+			"condition": "Complete Zone 1 Level 6 recovery puzzles, assemble the boat and pass its launch test.",
+			"icon": "boat",
+			"id": "boatwright",
+			"name": "Boatwright"
+		},
+		{
+			"condition": "Assemble the Zone 2 Level 6 engine and pass the full vapor/condensate return test.",
+			"icon": "engine",
+			"id": "steam_engineer",
+			"name": "Steam Engineer"
+		},
+		{
+			"condition": "Assemble the Zone 3 Level 6 cartridge and verify its deposited sample.",
+			"icon": "cartridge",
+			"id": "frost_engineer",
+			"name": "Frost Engineer"
+		},
+		{
+			"condition": "Pass the Zone 1 Level 6 craft test, answer all 3 Finn questions correctly, and complete boarding.",
+			"icon": "snow_seal",
+			"id": "snow_scholar",
+			"name": "Snow Scholar"
+		},
+		{
+			"condition": "Pass the Zone 2 Level 6 craft test, answer all 4 Finn questions correctly, and depart on the lift.",
+			"icon": "sun_seal",
+			"id": "sun_scholar",
+			"name": "Sun Scholar"
+		},
+		{
+			"condition": "Pass the Zone 3 Level 6 craft test, answer all 6 Finn questions correctly, use the scanner and exit.",
+			"icon": "lab_seal",
+			"id": "lab_scholar",
+			"name": "Lab Scholar"
+		},
+		{
+			"condition": "Complete all 18 unique levels.",
+			"icon": "crest",
+			"id": "phase_explorer",
+			"mode": "set",
+			"name": "Phase Explorer",
+			"target": 18,
+			"validation": "level"
+		},
+		{
+			"condition": "Answer every Finn question correctly on its first attempt in one challenge run without contextual answer help during that run. Prior learning and earlier puzzle help are allowed. No timer.",
+			"icon": "speech",
+			"id": "clear_explanation",
+			"name": "Clear Explanation"
+		}
+	],
+	"authority": "Read-only originals, including historical wording; source hashes and explicit conflict/adaptation notes remain separate.",
+	"guide_lessons": {
+		"altar": [
+			"Knowledge altars",
+			[
+				"Altars test what you have learned.",
+				"DO: approach the altar and interact. Answer its questions; incorrect answers explain what to try again.",
+				"Earn knowledge seals or workshop materials."
+			]
+		],
+		"assembly": [
+			"Build the thermal skiff",
+			[
+				"BEFORE: an empty hull waits at the dock.",
+				"DO: solve four workshops and their questions. Bring plates, engine, runners and sail.",
+				"RESULT: install all four parts, then LAUNCH to unlock Mistfall Highlands."
+			]
+		],
+		"balance": [
+			"Mass and balance",
+			[
+				"BEFORE: the empty counterweight tray leaves the beam tilted.",
+				"DO: choose SAME MASS as the sealed water sample, not double mass.",
+				"RESULT: the beam levels. Freezing changes state, not the sample's mass."
+			]
+		],
+		"checkpoint": [
+			"Checkpoint statues",
+			[
+				"Statues mark safe return points.",
+				"DO: approach a statue and interact to attune it and save your checkpoint.",
+				"Restarting from a checkpoint returns you to safe ground."
+			]
+		],
+		"coat": [
+			"Insulated coat",
+			[
+				"Your coat protects you in these gardens.",
+				"DO: explore with your insulated coat. Its protected warmth meter stays full in this zone.",
+				"The protected meter stays at 100%."
+			]
+		],
+		"conduction": [
+			"Copper conduction",
+			[
+				"BEFORE: a closed or wooden link carries too little heat.",
+				"DO: choose COPPER and light the heater. Follow orange heat pulses.",
+				"RESULT: heat travels through metal and melts the ice at the far end."
+			]
+		],
+		"coolant": [
+			"Coolant crystals and sockets",
+			[
+				"Later cooling circuits need power.",
+				"DO: collect the coolant crystal, carry it to its socket, then interact to install it.",
+				"The socket lights up and enables its cooling circuit."
+			]
+		],
+		"crystals": [
+			"Collecting crystals",
+			[
+				"Crystals are exploration rewards.",
+				"DO: approach a crystal and interact. In melting levels, stay nearby to thaw it, then interact again to collect.",
+				"Collected crystals count toward the exit requirement."
+			]
+		],
+		"cycle": [
+			"Melt, fill, close, freeze",
+			[
+				"BEFORE: frozen source, empty basin, no crossing.",
+				"DO: HEAT source, OPEN sluice until full, CLOSE it, then choose COOL.",
+				"RESULT: the same water changes solid > liquid > solid. The bridge opens."
+			]
+		],
+		"exit": [
+			"Exit gates",
+			[
+				"The exit checks your objectives.",
+				"DO: finish the required puzzles, collect the required crystals, then interact with the gate.",
+				"The next level becomes available after completion."
+			]
+		],
+		"fan_blades": [
+			"Fan blades",
+			[
+				"The fan needs its missing blades.",
+				"DO: collect the blades, then interact with the fan housing to install them.",
+				"The repaired fan supplies air to the heater."
+			]
+		],
+		"freezing": [
+			"Freezing",
+			[
+				"BEFORE: liquid water cannot support a crossing.",
+				"DO: fill the basin, CLOSE the sluice, then switch cooling ON.",
+				"RESULT: heat flows OUT. Frost spreads until solid ice supports the path."
+			]
+		],
+		"fuel": [
+			"Collecting wood",
+			[
+				"The second heater needs fuel.",
+				"DO: approach the wood pile and interact to collect it. Take the wood to the second heater.",
+				"Fuel collected. Repair airflow, then light the heater."
+			]
+		],
+		"fuel_air": [
+			"Fuel and airflow",
+			[
+				"BEFORE: the heater has no usable fire.",
+				"DO: add wood and install the fan blades. Fuel AND air support the fire.",
+				"RESULT: the fan spins, fire grows, and heat reaches the ice."
+			]
+		],
+		"insulation": [
+			"Insulation",
+			[
+				"BEFORE: heat from warmer surroundings keeps entering the cold basin.",
+				"DO: apply the thermal wrap before cooling the full, closed basin.",
+				"RESULT: the wrap slows unwanted heat transfer. Frost can spread."
+			]
+		],
+		"map": [
+			"Map and fast travel",
+			[
+				"Attuned statues become map destinations.",
+				"DO: open Map. Choose an attuned statue to travel to safe ground.",
+				"Your map shows discovered checkpoint destinations."
+			]
+		],
+		"melting": [
+			"Melting",
+			[
+				"BEFORE: solid ice blocks the path.",
+				"DO: switch on heat. Orange arrows carry energy INTO the ice.",
+				"RESULT: ice shrinks into a growing puddle. Solid becomes liquid."
+			]
+		],
+		"movement": [
+			"Moving and sprinting",
+			[
+				"Explore the trails to find equipment.",
+				"DO: use the movement stick. Hold Sprint to run; interact when close to an object.",
+				"Move close to new objects to discover more guides."
+			]
+		],
+		"notes": [
+			"Trail notes",
+			[
+				"Notes explain nearby puzzles.",
+				"DO: approach the sign and interact to read its clue.",
+				"Use the clue to solve the nearby equipment."
+			]
+		],
+		"pressure": [
+			"Pressure safety",
+			[
+				"BEFORE: the exchanger's sealed hot loop shows a red pressure gauge.",
+				"DO: OPEN the pressure release before switching the exchanger to HEAT.",
+				"RESULT: vapor vents, the gauge falls into green, and heating is enabled."
+			]
+		],
+		"professor": [
+			"Professor Scaldwell",
+			[
+				"The professor offers lessons and hints.",
+				"DO: approach Professor Scaldwell and interact to ask about this level's mechanics.",
+				"Choose a lesson or a hint when you need help."
+			]
+		],
+		"recovery": [
+			"Recover heat, raise lift",
+			[
+				"BEFORE: the lift is down and the recovery tank is empty.",
+				"DO: freeze the full basin. Capture the heat leaving the water; then RELEASE lift.",
+				"RESULT: the recovery engine raises the platform and opens the crossing."
+			]
+		],
+		"reflection": [
+			"Mirror relay",
+			[
+				"BEFORE: a misaligned beam misses the receiver.",
+				"DO: rotate mirrors until the beam touches the next mirror and receiver.",
+				"RESULT: a continuous beam heats the receiver and melts the gate."
+			]
+		],
+		"routing": [
+			"Water routing",
+			[
+				"BEFORE: the selector sends water to sea or drain, so the basin stays empty.",
+				"DO: point the brass selector toward COOLING STATION, then open the sluice.",
+				"RESULT: blue water pulses reach the reservoir and its water level rises."
+			]
+		],
+		"sluice": [
+			"Sluice valves",
+			[
+				"An empty basin needs water.",
+				"DO: OPEN the sluice to fill the basin; CLOSE it when full before switching cooling on.",
+				"Still water can freeze into a crossing."
+			]
+		],
+		"task_sidebar": [
+			"Task sidebar and objectives",
+			[
+				"Your next action and objectives share one sidebar.",
+				"DO: tap the edge arrow to slide the sidebar away. Tap it again to reopen. Tap a group heading to fold or expand its tasks.",
+				"Checkboxes mark completed tasks. Progress bars combine repeated objectives, such as ice barriers and crystals."
+			]
+		],
+		"warmth": [
+			"Warmth %",
+			[
+				"Cold drains your warmth.",
+				"DO: stand near a lit heater or campfire to recover warmth. At 0%, return to your checkpoint.",
+				"Warmth rises beside heat; keep warm while exploring."
+			]
+		]
+	},
+	"puzzle_explanations": {
+		"melt_direct": "The ice gained heat and became liquid water. This change is melting. It is still water.",
+		"melt_fueled_airflow": "Fuel supplies heat while the fan provides air for the fire. The ice gains heat and melts into liquid water.",
+		"melt_heat_routing": "Selected pipes carry heat to ice. The ice gains heat and melts into the same water as a liquid.",
+		"melt_solar_relay": "The mirrors direct light to the receiver, which supplies heat. The ice gains heat and melts into liquid water."
+	},
+	"question_banks": {
+		"1": [
+			[
+				"melting",
+				"The ice blocking the expedition supply route became liquid water. What is this change called?",
+				[
+					"Melting",
+					"Freezing",
+					"Condensation"
+				],
+				0,
+				"Melting is the change from a solid to a liquid."
+			],
+			[
+				"melting",
+				"To thaw the frozen supply crossing, what happens to the ice?",
+				[
+					"Ice loses heat",
+					"Ice gains heat",
+					"Heat is destroyed"
+				],
+				1,
+				"Ice absorbs heat as it changes from solid to liquid."
+			],
+			[
+				"melting",
+				"After the ice beside the field supplies melts, what substance remains?",
+				[
+					"A new substance",
+					"Only air",
+					"Water in liquid form"
+				],
+				2,
+				"Melting changes the state of water, not its identity."
+			]
+		],
+		"2": [
+			[
+				"melting",
+				"Which change clears an ice plug from the camp-water pipe?",
+				[
+					"An ice cube becomes liquid water",
+					"Liquid water becomes ice",
+					"Water vapor becomes liquid"
+				],
+				0,
+				"A solid changing into a liquid is melting."
+			],
+			[
+				"melting",
+				"How does particle movement change when solid ice melts?",
+				[
+					"The particles stop moving",
+					"The particles can move past one another",
+					"All particles disappear"
+				],
+				1,
+				"In a liquid, particles can move past one another instead of vibrating around fixed positions."
+			],
+			[
+				"melting",
+				"If a sealed water sample carried along this route melts without leaking, what happens to its mass?",
+				[
+					"Its mass disappears",
+					"Its mass doubles",
+					"Its mass stays the same"
+				],
+				2,
+				"Changing state does not change the amount of matter in a sealed container."
+			],
+			[
+				"melting",
+				"Why is melting a physical change?",
+				[
+					"The substance stays the same while its state changes",
+					"It always creates a new substance",
+					"It destroys the water particles"
+				],
+				0,
+				"Melting changes a substance from solid to liquid without forming a new substance."
+			]
+		],
+		"3": [
+			[
+				"freezing",
+				"What must happen to heat for the cold-supply pool to freeze?",
+				[
+					"The water gains heat",
+					"The water loses heat",
+					"The water becomes a new substance"
+				],
+				1,
+				"Freezing happens when liquid water loses heat and becomes solid ice."
+			],
+			[
+				"freezing",
+				"The returned supply water becomes solid ice in the cooled pool. What is this change called?",
+				[
+					"Freezing",
+					"Melting",
+					"Evaporation"
+				],
+				0,
+				"Freezing is the change from a liquid to a solid."
+			],
+			[
+				"freezing",
+				"What do water particles do after the water freezes?",
+				[
+					"Stop moving completely",
+					"Disappear",
+					"Vibrate around fixed positions"
+				],
+				2,
+				"Particles in solid ice still move, but they vibrate around fixed positions."
+			],
+			[
+				"freezing",
+				"After liquid water freezes, what substance is the ice?",
+				[
+					"A completely new substance",
+					"Only air",
+					"Water in solid form"
+				],
+				2,
+				"Freezing changes water's state. It remains the same substance."
+			]
+		]
+	},
+	"rank_names": [
+		"Apprentice",
+		"Researcher",
+		"Phase Master"
+	],
+	"rank_ranges": [
+		"0–6 stars",
+		"7–12 stars",
+		"13–18 stars"
+	],
+	"registered_levels": {
+		"melting_and_freezing:1": {
+			"checkpoints": {
+				"C0": "Spawn",
+				"C1": "RouteCheckpoints/Checkpoint0",
+				"C2": "RouteCheckpoints/Checkpoint1",
+				"C3": "RouteCheckpoints/Checkpoint2"
+			},
+			"device_milestone_successes": {
+				"z1l1_melting": {
+					"puzzle0": "melt_direct"
+				}
+			},
+			"level": 1,
+			"practice_question": {
+				"choices": [
+					"Its state changed.",
+					"It became a new substance.",
+					"The water disappeared."
+				],
+				"correct": 0,
+				"feedback": "Heat changed solid ice into liquid water. It is still water.",
+				"text": "Ice became liquid water. What changed?"
+			},
+			"puzzle_ids": [
+				"puzzle0",
+				"puzzle1",
+				"puzzle2"
+			],
+			"puzzle_types": [
+				"melt_direct",
+				"melt_fueled_airflow",
+				"melt_solar_relay"
+			],
+			"question_bank": 1,
+			"ready": true,
+			"scene": "res://Zone_1/Levels/wrld_lvl_1.tscn",
+			"title": "The Melting Garden",
+			"zone": "melting_and_freezing"
+		},
+		"melting_and_freezing:2": {
+			"checkpoints": {
+				"C0": "Checkpoints/C0/SafeSpawn",
+				"C1": "Checkpoints/C1/SafeSpawn",
+				"C2": "Checkpoints/C2/SafeSpawn"
+			},
+			"level": 2,
+			"practice_question": {
+				"choices": [
+					"Solid water becomes liquid water.",
+					"The heater created new water.",
+					"The wheel created water."
+				],
+				"correct": 0,
+				"feedback": "Ice gained heat and became liquid water. The metal parts remained solid.",
+				"text": "What changed when the heater warmed the frozen parts?"
+			},
+			"puzzle_ids": [
+				"resonance_bells",
+				"thaw_sort",
+				"counterweight_lift"
+			],
+			"puzzle_types": [
+				"ice_resonance",
+				"melt_direct",
+				"mill_counterweight"
+			],
+			"question_bank": 1,
+			"ready": true,
+			"scene": "res://Zone_1/Levels/wrld_lvl_2.tscn",
+			"title": "The Frozen Mill",
+			"zone": "melting_and_freezing"
+		}
+	}
+}

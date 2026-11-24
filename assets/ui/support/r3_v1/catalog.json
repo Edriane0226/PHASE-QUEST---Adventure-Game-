@@ -1,0 +1,492 @@
+{
+  "schema_version": 1,
+  "owner": "R3 010",
+  "status": "Implemented—needs verification; user/teacher/physical Android pending",
+  "families": [
+    "ui.dialogue.professor",
+    "ui.guides.help.demos",
+    "ui.science.diagrams",
+    "ui.journal.achievements_rank",
+    "ui.crafting_finn",
+    "ui.assessment",
+    "ui.settings_recovery_errors",
+    "ui.theme_fonts_icons"
+  ],
+  "scene": "UI/Support/SupportPanels.tscn",
+  "panel_states": 98,
+  "files": [
+    {
+      "path": "assets/ui/support/r3_v1/panels.json",
+      "sha256": "84407ED180AE409D8AFE97FD214EE6867132DBDC410D482C8808F1196494E52E",
+      "action": "new",
+      "owner": "R3 010",
+      "consumer": "UI/Support/SupportPanels.tscn",
+      "dependencies": [
+        "R3 009 shared UI direction",
+        "existing content and R3 007 cast"
+      ]
+    },
+    {
+      "path": "assets/ui/support/r3_v1/portrait-index.json",
+      "sha256": "1A5281AA266567FA3DB93CE8A929683960A0F079228F3D393A17B47BEA1F40D4",
+      "action": "new",
+      "owner": "R3 010",
+      "consumer": "UI/Support/SupportPanels.tscn",
+      "dependencies": [
+        "R3 009 shared UI direction",
+        "existing content and R3 007 cast"
+      ]
+    },
+    {
+      "path": "assets/ui/support/r3_v1/retained-content.json",
+      "sha256": "4AE4B65071819645E90B097463FF9C33A2E5A2ADDE13E6B1CD835FB568CB4888",
+      "action": "new",
+      "owner": "R3 010",
+      "consumer": "UI/Support/SupportPanels.tscn",
+      "dependencies": [
+        "R3 009 shared UI direction",
+        "existing content and R3 007 cast"
+      ]
+    }
+  ],
+  "presentation_sources": [
+    {
+      "path": "Scripts/UI/Support/support_panels.gd",
+      "sha256": "5C4B45E7D3CDC10E59E0A14E1EF42D38B4BE8D77C0DFC9FB3ABC01CC7677FEC5",
+      "action": "new",
+      "owner": "R3 010",
+      "consumer": "UI/Support/SupportPanels.tscn",
+      "dependencies": [
+        "R3 009 shared UI direction",
+        "existing content and R3 007 cast"
+      ]
+    },
+    {
+      "path": "Scripts/UI/Support/support_style.gd",
+      "sha256": "C370DF454F6A66C03A12B9E2B85F1106E2A3126FB9525003D31B76C0C0CFEEA0",
+      "action": "new",
+      "owner": "R3 010",
+      "consumer": "UI/Support/SupportPanels.tscn",
+      "dependencies": [
+        "R3 009 shared UI direction",
+        "existing content and R3 007 cast"
+      ]
+    },
+    {
+      "path": "Scripts/UI/Support/science_card.gd",
+      "sha256": "9B56C340BF4FCA2C4FC4E63F176FBCADEC8DE1746D5514ECCF53889E377085BD",
+      "action": "new",
+      "owner": "R3 010",
+      "consumer": "UI/Support/SupportPanels.tscn",
+      "dependencies": [
+        "R3 009 shared UI direction",
+        "existing content and R3 007 cast"
+      ]
+    },
+    {
+      "path": "UI/Support/SupportPanels.tscn",
+      "sha256": "1B6879EE7EEE6FF87D74B02535FAF8F112138C6811149CA7DC73DD4E9D345D8B",
+      "action": "new",
+      "owner": "R3 010",
+      "consumer": "UI/Support/SupportPanels.tscn",
+      "dependencies": [
+        "R3 009 shared UI direction",
+        "existing content and R3 007 cast"
+      ]
+    },
+    {
+      "path": "tools/art/support_r3_v1/build_content.gd",
+      "sha256": "5018666A3CC4ACF28DF3792FBAA92F2D97001CAB9D833A2EF3EA1C1C8981F95A",
+      "action": "new",
+      "owner": "R3 010",
+      "consumer": "UI/Support/SupportPanels.tscn",
+      "dependencies": [
+        "R3 009 shared UI direction",
+        "existing content and R3 007 cast"
+      ]
+    },
+    {
+      "path": "tools/art/support_r3_v1/build.ps1",
+      "sha256": "793CE66C65C9D2BB2948ADEAC3FC23CBF4A80443B950D87F8AE4B581B695200F",
+      "action": "new",
+      "owner": "R3 010",
+      "consumer": "UI/Support/SupportPanels.tscn",
+      "dependencies": [
+        "R3 009 shared UI direction",
+        "existing content and R3 007 cast"
+      ]
+    },
+    {
+      "path": "tools/art/support_r3_v1/catalog.ps1",
+      "sha256": "A6CB3E7C294BB2242FFDDE3AD409647A4CC154A21561800F0D3FD4724FDDC6FA",
+      "action": "new",
+      "owner": "R3 010",
+      "consumer": "UI/Support/SupportPanels.tscn",
+      "dependencies": [
+        "R3 009 shared UI direction",
+        "existing content and R3 007 cast"
+      ]
+    },
+    {
+      "path": "tools/art/support_r3_v1/generation.md",
+      "sha256": "D97891814F79BC0D6AED3FC232F4F5A2E3F9237C4779356C08E6E98C4DCF28F7",
+      "action": "new",
+      "owner": "R3 010",
+      "consumer": "UI/Support/SupportPanels.tscn",
+      "dependencies": [
+        "R3 009 shared UI direction",
+        "existing content and R3 007 cast"
+      ]
+    }
+  ],
+  "reused": [
+    {
+      "path": "Scripts/Content/level_questions.gd",
+      "sha256": "57295242A8074DF19B6D97D16C45EC8A763FBD43ED9F409D32A2FF7444A2EF57",
+      "action": "keep",
+      "owner": "R3 010",
+      "consumer": "UI/Support/SupportPanels.tscn",
+      "dependencies": [
+        "R3 009 shared UI direction",
+        "existing content and R3 007 cast"
+      ]
+    },
+    {
+      "path": "Scripts/Content/level_registry.gd",
+      "sha256": "5BC56269A45E7C9A630FA3745265C506980C9A31931A2E8DD17FE86816A2CC1C",
+      "action": "keep",
+      "owner": "R3 010",
+      "consumer": "UI/Support/SupportPanels.tscn",
+      "dependencies": [
+        "R3 009 shared UI direction",
+        "existing content and R3 007 cast"
+      ]
+    },
+    {
+      "path": "Scripts/Content/phase_transition_rules.gd",
+      "sha256": "AC096BD16F2F81C7780F0FD69D6247C5A4F7EBF83D62BBEB316B076CADC99F30",
+      "action": "keep",
+      "owner": "R3 010",
+      "consumer": "UI/Support/SupportPanels.tscn",
+      "dependencies": [
+        "R3 009 shared UI direction",
+        "existing content and R3 007 cast"
+      ]
+    },
+    {
+      "path": "Scripts/UI/mechanic_visual.gd",
+      "sha256": "44F27163F704228DE8D399D1BD3C03862EDD9DF11FF4FF098EEA6DE37CEF0263",
+      "action": "keep",
+      "owner": "R3 010",
+      "consumer": "UI/Support/SupportPanels.tscn",
+      "dependencies": [
+        "R3 009 shared UI direction",
+        "existing content and R3 007 cast"
+      ]
+    },
+    {
+      "path": "Scripts/Autoload/achievement_registry.gd",
+      "sha256": "7F62C76C3C0EC01265C19234A41B34735490616613BD1B432C33BEC20AF61898",
+      "action": "keep",
+      "owner": "R3 010",
+      "consumer": "UI/Support/SupportPanels.tscn",
+      "dependencies": [
+        "R3 009 shared UI direction",
+        "existing content and R3 007 cast"
+      ]
+    },
+    {
+      "path": "Scripts/UI/achievement_icon.gd",
+      "sha256": "415473B622A83E8BB79CD4F7FA70923C7011876E8D226B24A289FD682EE7E2DC",
+      "action": "keep",
+      "owner": "R3 010",
+      "consumer": "UI/Support/SupportPanels.tscn",
+      "dependencies": [
+        "R3 009 shared UI direction",
+        "existing content and R3 007 cast"
+      ]
+    },
+    {
+      "path": "Scripts/UI/quest_frame.gd",
+      "sha256": "7D486E92F50F3B213ABC1933AB267B187E76ADBDC9A2037EE951295490A74A0D",
+      "action": "keep",
+      "owner": "R3 010",
+      "consumer": "UI/Support/SupportPanels.tscn",
+      "dependencies": [
+        "R3 009 shared UI direction",
+        "existing content and R3 007 cast"
+      ]
+    },
+    {
+      "path": "Scripts/UI/quest_ui.gd",
+      "sha256": "70D7D448A4AB29ABBBB1818C4316AFC3632102589758A581408D7463E52FA9F2",
+      "action": "keep",
+      "owner": "R3 010",
+      "consumer": "UI/Support/SupportPanels.tscn",
+      "dependencies": [
+        "R3 009 shared UI direction",
+        "existing content and R3 007 cast"
+      ]
+    },
+    {
+      "path": "Scripts/UI/achievement_toast.gd",
+      "sha256": "BFD769DA77CF3CCC09BB509C5763D9CA830584FF5FA2931997D954F0E2D2231F",
+      "action": "keep",
+      "owner": "R3 010",
+      "consumer": "UI/Support/SupportPanels.tscn",
+      "dependencies": [
+        "R3 009 shared UI direction",
+        "existing content and R3 007 cast"
+      ]
+    },
+    {
+      "path": "UI/HUD/AchievementToast.tscn",
+      "sha256": "13EC2CF23DB32105D05FC5B16446FFD79D9D2CA9D574B36E203CC2CB737B23EB",
+      "action": "keep",
+      "owner": "R3 010",
+      "consumer": "UI/Support/SupportPanels.tscn",
+      "dependencies": [
+        "R3 009 shared UI direction",
+        "existing content and R3 007 cast"
+      ]
+    },
+    {
+      "path": "assets/ui/ranks/rank_badges.png",
+      "sha256": "C69165A5E625C1637044C9B4399068375D1C50F1B9DE93E46E78971F605883D9",
+      "action": "keep",
+      "owner": "R3 010",
+      "consumer": "UI/Support/SupportPanels.tscn",
+      "dependencies": [
+        "R3 009 shared UI direction",
+        "existing content and R3 007 cast"
+      ]
+    },
+    {
+      "path": "assets/fonts/InterfaceSans.tres",
+      "sha256": "16CD2D3357A0915B878A40C801630706F216056CE30C5DAAA7BC4B7240837A1B",
+      "action": "keep",
+      "owner": "R3 010",
+      "consumer": "UI/Support/SupportPanels.tscn",
+      "dependencies": [
+        "R3 009 shared UI direction",
+        "existing content and R3 007 cast"
+      ]
+    },
+    {
+      "path": "assets/fonts/PhasequestUI.ttf",
+      "sha256": "BBBB11D16F910E259E928DBEB998A63F68A82B56BCA0E37D3A81BA6428818840",
+      "action": "keep",
+      "owner": "R3 010",
+      "consumer": "UI/Support/SupportPanels.tscn",
+      "dependencies": [
+        "R3 009 shared UI direction",
+        "existing content and R3 007 cast"
+      ]
+    },
+    {
+      "path": "assets/fonts/OFL.txt",
+      "sha256": "73A02E59AFEE9983D50E6DCDEABAB9E66ECEA210EDCC149CBF83578CC2CC40C6",
+      "action": "keep",
+      "owner": "R3 010",
+      "consumer": "UI/Support/SupportPanels.tscn",
+      "dependencies": [
+        "R3 009 shared UI direction",
+        "existing content and R3 007 cast"
+      ]
+    },
+    {
+      "path": "assets/characters/professors/r3_v1/portraits/finn/concerned.tres",
+      "sha256": "65737A551948F1B98E3473D83DD8BD966B8F8332131AFD86568D74ADA8BB15E8",
+      "action": "keep",
+      "owner": "R3 010",
+      "consumer": "UI/Support/SupportPanels.tscn",
+      "dependencies": [
+        "R3 009 shared UI direction",
+        "existing content and R3 007 cast"
+      ]
+    },
+    {
+      "path": "assets/characters/professors/r3_v1/portraits/finn/explaining.tres",
+      "sha256": "2EF2991E9CF030184200BF9F021EAA9DE906AD0091743CAC7E604A1D085C940C",
+      "action": "keep",
+      "owner": "R3 010",
+      "consumer": "UI/Support/SupportPanels.tscn",
+      "dependencies": [
+        "R3 009 shared UI direction",
+        "existing content and R3 007 cast"
+      ]
+    },
+    {
+      "path": "assets/characters/professors/r3_v1/portraits/finn/happy.tres",
+      "sha256": "FA9153F954A2390EFD8D6988F2A78BF95B1ECFDAA8D7430653BFCC856925E6A4",
+      "action": "keep",
+      "owner": "R3 010",
+      "consumer": "UI/Support/SupportPanels.tscn",
+      "dependencies": [
+        "R3 009 shared UI direction",
+        "existing content and R3 007 cast"
+      ]
+    },
+    {
+      "path": "assets/characters/professors/r3_v1/portraits/finn/neutral.tres",
+      "sha256": "37601AD0BD9A80CF7C60C3EB97E7BD603DF13C54376891839614923FD608B563",
+      "action": "keep",
+      "owner": "R3 010",
+      "consumer": "UI/Support/SupportPanels.tscn",
+      "dependencies": [
+        "R3 009 shared UI direction",
+        "existing content and R3 007 cast"
+      ]
+    },
+    {
+      "path": "assets/characters/professors/r3_v1/portraits/professor_z1/cold.tres",
+      "sha256": "8B3CA4207D1711C135AFEA382230D302EBE06E608CB40D201AD39A3884124107",
+      "action": "keep",
+      "owner": "R3 010",
+      "consumer": "UI/Support/SupportPanels.tscn",
+      "dependencies": [
+        "R3 009 shared UI direction",
+        "existing content and R3 007 cast"
+      ]
+    },
+    {
+      "path": "assets/characters/professors/r3_v1/portraits/professor_z1/explaining.tres",
+      "sha256": "89DA882EA4C16D7162E555B47B9BE971B6A0736B53EF310AE74A8B93E02F2253",
+      "action": "keep",
+      "owner": "R3 010",
+      "consumer": "UI/Support/SupportPanels.tscn",
+      "dependencies": [
+        "R3 009 shared UI direction",
+        "existing content and R3 007 cast"
+      ]
+    },
+    {
+      "path": "assets/characters/professors/r3_v1/portraits/professor_z1/happy.tres",
+      "sha256": "83D9F830273265B733A4DAB5ADA722B6F9607A68CC78055A4482FD20DB6C561D",
+      "action": "keep",
+      "owner": "R3 010",
+      "consumer": "UI/Support/SupportPanels.tscn",
+      "dependencies": [
+        "R3 009 shared UI direction",
+        "existing content and R3 007 cast"
+      ]
+    },
+    {
+      "path": "assets/characters/professors/r3_v1/portraits/professor_z1/neutral.tres",
+      "sha256": "12FB27BD7EA453EFA87C5AE982CD37E4CC58E81E5A4946E2561BA85893C4A7E8",
+      "action": "keep",
+      "owner": "R3 010",
+      "consumer": "UI/Support/SupportPanels.tscn",
+      "dependencies": [
+        "R3 009 shared UI direction",
+        "existing content and R3 007 cast"
+      ]
+    },
+    {
+      "path": "assets/characters/professors/r3_v1/portraits/professor_z2/concerned.tres",
+      "sha256": "DB4D731D3766A3E72C14D58D55D7BFBDCC08244353E005CD855D064C63CE9602",
+      "action": "keep",
+      "owner": "R3 010",
+      "consumer": "UI/Support/SupportPanels.tscn",
+      "dependencies": [
+        "R3 009 shared UI direction",
+        "existing content and R3 007 cast"
+      ]
+    },
+    {
+      "path": "assets/characters/professors/r3_v1/portraits/professor_z2/explaining.tres",
+      "sha256": "0A0B4AE726BEB41084B93288AD6F3419BC7A621EC7FB0C3571341B2C6066EE00",
+      "action": "keep",
+      "owner": "R3 010",
+      "consumer": "UI/Support/SupportPanels.tscn",
+      "dependencies": [
+        "R3 009 shared UI direction",
+        "existing content and R3 007 cast"
+      ]
+    },
+    {
+      "path": "assets/characters/professors/r3_v1/portraits/professor_z2/happy.tres",
+      "sha256": "EA66A3C241AE8D11246B52B90821C4E75C0837ACF4C4AAD9AAECE5F9EFCA8CF5",
+      "action": "keep",
+      "owner": "R3 010",
+      "consumer": "UI/Support/SupportPanels.tscn",
+      "dependencies": [
+        "R3 009 shared UI direction",
+        "existing content and R3 007 cast"
+      ]
+    },
+    {
+      "path": "assets/characters/professors/r3_v1/portraits/professor_z2/neutral.tres",
+      "sha256": "9AC13064FA501E89356EAE64808AB03F3F55B6F3F86D221A8A25C0DADC1200DB",
+      "action": "keep",
+      "owner": "R3 010",
+      "consumer": "UI/Support/SupportPanels.tscn",
+      "dependencies": [
+        "R3 009 shared UI direction",
+        "existing content and R3 007 cast"
+      ]
+    },
+    {
+      "path": "assets/characters/professors/r3_v1/portraits/professor_z3/concerned.tres",
+      "sha256": "1949986ACFB5916A8237DA12510D062B4150257140BFB3F06604451867D0CB58",
+      "action": "keep",
+      "owner": "R3 010",
+      "consumer": "UI/Support/SupportPanels.tscn",
+      "dependencies": [
+        "R3 009 shared UI direction",
+        "existing content and R3 007 cast"
+      ]
+    },
+    {
+      "path": "assets/characters/professors/r3_v1/portraits/professor_z3/explaining.tres",
+      "sha256": "CC098922415C75B709A987D725EA221E7E42B1E9856CF00A04D7303894CDB0C1",
+      "action": "keep",
+      "owner": "R3 010",
+      "consumer": "UI/Support/SupportPanels.tscn",
+      "dependencies": [
+        "R3 009 shared UI direction",
+        "existing content and R3 007 cast"
+      ]
+    },
+    {
+      "path": "assets/characters/professors/r3_v1/portraits/professor_z3/happy.tres",
+      "sha256": "349C04D124932439B9FFA68233AB4A3593A245FD50321562F4B531347A9CB6BF",
+      "action": "keep",
+      "owner": "R3 010",
+      "consumer": "UI/Support/SupportPanels.tscn",
+      "dependencies": [
+        "R3 009 shared UI direction",
+        "existing content and R3 007 cast"
+      ]
+    },
+    {
+      "path": "assets/characters/professors/r3_v1/portraits/professor_z3/neutral.tres",
+      "sha256": "1D707E1DD6B659D6B0FD8191FFD3CDE47D75722B1537968FD9EAC3F33BFD41CE",
+      "action": "keep",
+      "owner": "R3 010",
+      "consumer": "UI/Support/SupportPanels.tscn",
+      "dependencies": [
+        "R3 009 shared UI direction",
+        "existing content and R3 007 cast"
+      ]
+    }
+  ],
+  "retained_question_banks": 3,
+  "retained_questions": 11,
+  "retained_badge_ids": 32,
+  "routes": [
+    "melting",
+    "freezing",
+    "evaporation",
+    "boiling",
+    "condensation",
+    "sublimation",
+    "deposition"
+  ],
+  "minimum_body_font_ui": 16,
+  "minimum_action_ui": 44,
+  "full_text": "Vertical scrolling with fixed actions; feedback brought into view; no full body ellipsis",
+  "accessibility": "Larger text, contrast, focus-follow scroll, neutral touch labels, static reduced motion and text alternatives",
+  "production_binding": "015/023/046/047; no real services, assessment scoring or save/award/consumption in these assets",
+  "retirement_eligible": false
+}

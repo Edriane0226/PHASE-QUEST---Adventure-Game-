@@ -1,0 +1,6 @@
+[gd_resource type="AtlasTexture" format=3]
+[ext_resource type="Texture2D" path="res://assets/characters/cast/explorer/portraits/explorer_neutral.png" id="source"]
+[resource]
+atlas = ExtResource("source")
+region = Rect2(145, 430, 475, 430)
+filter_clip = true

@@ -1,0 +1,9 @@
+[gd_scene format=3 uid="uid://g3khijhoe7q"]
+
+[ext_resource type="Script" uid="uid://cpb82so40qre7" path="res://Scripts/World/world_ambience.gd" id="1"]
+
+[node name="Snowfall" type="Node2D" unique_id=1803428341]
+physics_interpolation_mode = 2
+z_index = 5
+texture_filter = 1
+script = ExtResource("1")

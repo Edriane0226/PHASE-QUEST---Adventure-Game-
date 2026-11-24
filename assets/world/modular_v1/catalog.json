@@ -1,0 +1,445 @@
+{
+  "version": 1,
+  "cube_unit_px": 20,
+  "license": "Original project-authored editable SVG geometry",
+  "cap_px": [
+    40,
+    20
+  ],
+  "entries": [
+    {
+      "overhang_cubes": 0,
+      "sorting": "ground midpoint; art-only elevation; floor z=-1, roof z=2",
+      "height_layers": 0,
+      "path": "res://assets/world/modular_v1/snow.floor.svg",
+      "id": "snow.floor",
+      "assembly_offset_cubes": [],
+      "footprint_cubes": [
+        1,
+        1
+      ],
+      "sha256": "63E7A553BE4F407E52F7D42EE6DE0493DEB259ED28B0B65621B24D28AD170A71",
+      "world_scale": 1,
+      "collision": "none; existing stacked terrain owns support",
+      "owner": "R3 004 scoped 022 correction",
+      "pivot_px": [
+        64,
+        96
+      ]
+    },
+    {
+      "overhang_cubes": 0,
+      "sorting": "ground midpoint; art-only elevation; floor z=-1, roof z=2",
+      "height_layers": 3,
+      "path": "res://assets/world/modular_v1/snow.wall_u.svg",
+      "id": "snow.wall_u",
+      "assembly_offset_cubes": [],
+      "footprint_cubes": [
+        1,
+        0.225
+      ],
+      "sha256": "490FB69EEEF3D02232D93896A8E5D0B60BD1E0EAE93FC46DFFF8886F2C3D8B55",
+      "world_scale": 1,
+      "collision": "independent ground segment; layer1, Fire1|2|8",
+      "owner": "R3 004 scoped 022 correction",
+      "pivot_px": [
+        64,
+        96
+      ]
+    },
+    {
+      "overhang_cubes": 0,
+      "sorting": "ground midpoint; art-only elevation; floor z=-1, roof z=2",
+      "height_layers": 3,
+      "path": "res://assets/world/modular_v1/snow.wall_v.svg",
+      "id": "snow.wall_v",
+      "assembly_offset_cubes": [],
+      "footprint_cubes": [
+        0.225,
+        1
+      ],
+      "sha256": "AD5D9F4009C89A08DFD01514D7F9BA88D76948AF2185E751A26147CA4BB7EA81",
+      "world_scale": 1,
+      "collision": "independent ground segment; layer1, Fire1|2|8",
+      "owner": "R3 004 scoped 022 correction",
+      "pivot_px": [
+        64,
+        96
+      ]
+    },
+    {
+      "overhang_cubes": 0,
+      "sorting": "ground midpoint; art-only elevation; floor z=-1, roof z=2",
+      "height_layers": 3,
+      "path": "res://assets/world/modular_v1/snow.window_u.svg",
+      "id": "snow.window_u",
+      "assembly_offset_cubes": [],
+      "footprint_cubes": [
+        1,
+        0.225
+      ],
+      "sha256": "4A30C00120C121D6D38C5029DDFE7DBDAD956759A7C1E071C9F76E8E46A17904",
+      "world_scale": 1,
+      "collision": "independent ground segment; layer1, Fire1|2|8",
+      "owner": "R3 004 scoped 022 correction",
+      "pivot_px": [
+        64,
+        96
+      ]
+    },
+    {
+      "overhang_cubes": 0,
+      "sorting": "ground midpoint; art-only elevation; floor z=-1, roof z=2",
+      "height_layers": 3,
+      "path": "res://assets/world/modular_v1/snow.window_v.svg",
+      "id": "snow.window_v",
+      "assembly_offset_cubes": [],
+      "footprint_cubes": [
+        0.225,
+        1
+      ],
+      "sha256": "54CFC6C7FE40947C598818053001A9B1C8F4BBA2234641C1E001E4945C1BCEAB",
+      "world_scale": 1,
+      "collision": "independent ground segment; layer1, Fire1|2|8",
+      "owner": "R3 004 scoped 022 correction",
+      "pivot_px": [
+        64,
+        96
+      ]
+    },
+    {
+      "overhang_cubes": 0,
+      "sorting": "ground midpoint; art-only elevation; floor z=-1, roof z=2",
+      "height_layers": 3,
+      "path": "res://assets/world/modular_v1/snow.door_v.svg",
+      "id": "snow.door_v",
+      "assembly_offset_cubes": [],
+      "footprint_cubes": [
+        0.225,
+        3
+      ],
+      "sha256": "6D2DCE8B5CF4F243CE0817F388285511788952800127F011762CE1A27D075FBC",
+      "world_scale": 1,
+      "collision": "posts only; supported open three-cell threshold",
+      "owner": "R3 004 scoped 022 correction",
+      "pivot_px": [
+        64,
+        96
+      ]
+    },
+    {
+      "overhang_cubes": 0,
+      "sorting": "ground midpoint; art-only elevation; floor z=-1, roof z=2",
+      "height_layers": 0,
+      "path": "res://assets/world/modular_v1/snow.roof.svg",
+      "id": "snow.roof",
+      "assembly_offset_cubes": [
+        0,
+        0,
+        3
+      ],
+      "footprint_cubes": [
+        1,
+        1
+      ],
+      "sha256": "253EA31E06EBE223B91A181EC78F109E8461C8D751B3C3129125B23F11BCFB50",
+      "world_scale": 1,
+      "collision": "none; existing stacked terrain owns support",
+      "owner": "R3 004 scoped 022 correction",
+      "pivot_px": [
+        64,
+        96
+      ]
+    },
+    {
+      "overhang_cubes": 0,
+      "sorting": "ground midpoint; art-only elevation; floor z=-1, roof z=2",
+      "height_layers": 0,
+      "path": "res://assets/world/modular_v1/vale.floor.svg",
+      "id": "vale.floor",
+      "assembly_offset_cubes": [],
+      "footprint_cubes": [
+        1,
+        1
+      ],
+      "sha256": "E9DB980AAB7F022DD3ED84906B0EBE41088B32FD585E49E4E804A2A6512D9BBF",
+      "world_scale": 1,
+      "collision": "none; existing stacked terrain owns support",
+      "owner": "R3 005 scoped 022 correction",
+      "pivot_px": [
+        64,
+        96
+      ]
+    },
+    {
+      "overhang_cubes": 0,
+      "sorting": "ground midpoint; art-only elevation; floor z=-1, roof z=2",
+      "height_layers": 3,
+      "path": "res://assets/world/modular_v1/vale.wall_u.svg",
+      "id": "vale.wall_u",
+      "assembly_offset_cubes": [],
+      "footprint_cubes": [
+        1,
+        0.225
+      ],
+      "sha256": "D9C16A593D1F9E887C0652072C394B7D657D28DAC7DC5F0F198308C627D7BE65",
+      "world_scale": 1,
+      "collision": "independent ground segment; layer1, Fire1|2|8",
+      "owner": "R3 005 scoped 022 correction",
+      "pivot_px": [
+        64,
+        96
+      ]
+    },
+    {
+      "overhang_cubes": 0,
+      "sorting": "ground midpoint; art-only elevation; floor z=-1, roof z=2",
+      "height_layers": 3,
+      "path": "res://assets/world/modular_v1/vale.wall_v.svg",
+      "id": "vale.wall_v",
+      "assembly_offset_cubes": [],
+      "footprint_cubes": [
+        0.225,
+        1
+      ],
+      "sha256": "BB6BD5B321C3A0DAE64CF8BD722395D48CE496AC4152395FD6A40986F4248DCC",
+      "world_scale": 1,
+      "collision": "independent ground segment; layer1, Fire1|2|8",
+      "owner": "R3 005 scoped 022 correction",
+      "pivot_px": [
+        64,
+        96
+      ]
+    },
+    {
+      "overhang_cubes": 0,
+      "sorting": "ground midpoint; art-only elevation; floor z=-1, roof z=2",
+      "height_layers": 3,
+      "path": "res://assets/world/modular_v1/vale.window_u.svg",
+      "id": "vale.window_u",
+      "assembly_offset_cubes": [],
+      "footprint_cubes": [
+        1,
+        0.225
+      ],
+      "sha256": "A8926693EE32044FE271063E63509CB4BEBB31125E3855D71690ABA75C113D66",
+      "world_scale": 1,
+      "collision": "independent ground segment; layer1, Fire1|2|8",
+      "owner": "R3 005 scoped 022 correction",
+      "pivot_px": [
+        64,
+        96
+      ]
+    },
+    {
+      "overhang_cubes": 0,
+      "sorting": "ground midpoint; art-only elevation; floor z=-1, roof z=2",
+      "height_layers": 3,
+      "path": "res://assets/world/modular_v1/vale.window_v.svg",
+      "id": "vale.window_v",
+      "assembly_offset_cubes": [],
+      "footprint_cubes": [
+        0.225,
+        1
+      ],
+      "sha256": "14687F1BF4307EA47D0D6751C4358B3AA37B82774F2CE11445EF4C94EE645F78",
+      "world_scale": 1,
+      "collision": "independent ground segment; layer1, Fire1|2|8",
+      "owner": "R3 005 scoped 022 correction",
+      "pivot_px": [
+        64,
+        96
+      ]
+    },
+    {
+      "overhang_cubes": 0,
+      "sorting": "ground midpoint; art-only elevation; floor z=-1, roof z=2",
+      "height_layers": 3,
+      "path": "res://assets/world/modular_v1/vale.door_v.svg",
+      "id": "vale.door_v",
+      "assembly_offset_cubes": [],
+      "footprint_cubes": [
+        0.225,
+        3
+      ],
+      "sha256": "2D068F5AFFC7F67AC84A51BCEF8F1806C2DDF17829F787838D66E41D7CA8FD1A",
+      "world_scale": 1,
+      "collision": "posts only; supported open three-cell threshold",
+      "owner": "R3 005 scoped 022 correction",
+      "pivot_px": [
+        64,
+        96
+      ]
+    },
+    {
+      "overhang_cubes": 0,
+      "sorting": "ground midpoint; art-only elevation; floor z=-1, roof z=2",
+      "height_layers": 0,
+      "path": "res://assets/world/modular_v1/vale.roof.svg",
+      "id": "vale.roof",
+      "assembly_offset_cubes": [
+        0,
+        0,
+        3
+      ],
+      "footprint_cubes": [
+        1,
+        1
+      ],
+      "sha256": "C290B5B63E44BC7ED4FA82A4080C8D01A9AED7FAF62329EA8B9C344AD1207AD5",
+      "world_scale": 1,
+      "collision": "none; existing stacked terrain owns support",
+      "owner": "R3 005 scoped 022 correction",
+      "pivot_px": [
+        64,
+        96
+      ]
+    },
+    {
+      "overhang_cubes": 0,
+      "sorting": "ground midpoint; art-only elevation; floor z=-1, roof z=2",
+      "height_layers": 0,
+      "path": "res://assets/world/modular_v1/lab.floor.svg",
+      "id": "lab.floor",
+      "assembly_offset_cubes": [],
+      "footprint_cubes": [
+        1,
+        1
+      ],
+      "sha256": "9F8F63B8BF283D675E9E8C84B5C3C991281D468D49F757AD65D3FFDDC47B1811",
+      "world_scale": 1,
+      "collision": "none; existing stacked terrain owns support",
+      "owner": "R3 006 scoped 022 correction",
+      "pivot_px": [
+        64,
+        96
+      ]
+    },
+    {
+      "overhang_cubes": 0,
+      "sorting": "ground midpoint; art-only elevation; floor z=-1, roof z=2",
+      "height_layers": 3,
+      "path": "res://assets/world/modular_v1/lab.wall_u.svg",
+      "id": "lab.wall_u",
+      "assembly_offset_cubes": [],
+      "footprint_cubes": [
+        1,
+        0.225
+      ],
+      "sha256": "B8C4E8C726F5D45EA2BFD9DAB284904874FBE6435F48D8BA2E2A757F4CCA3A51",
+      "world_scale": 1,
+      "collision": "independent ground segment; layer1, Fire1|2|8",
+      "owner": "R3 006 scoped 022 correction",
+      "pivot_px": [
+        64,
+        96
+      ]
+    },
+    {
+      "overhang_cubes": 0,
+      "sorting": "ground midpoint; art-only elevation; floor z=-1, roof z=2",
+      "height_layers": 3,
+      "path": "res://assets/world/modular_v1/lab.wall_v.svg",
+      "id": "lab.wall_v",
+      "assembly_offset_cubes": [],
+      "footprint_cubes": [
+        0.225,
+        1
+      ],
+      "sha256": "816AEA4C7BF58FEB5237F42EAC9796823B0C02722D298FB900A692E75ACD39D6",
+      "world_scale": 1,
+      "collision": "independent ground segment; layer1, Fire1|2|8",
+      "owner": "R3 006 scoped 022 correction",
+      "pivot_px": [
+        64,
+        96
+      ]
+    },
+    {
+      "overhang_cubes": 0,
+      "sorting": "ground midpoint; art-only elevation; floor z=-1, roof z=2",
+      "height_layers": 3,
+      "path": "res://assets/world/modular_v1/lab.window_u.svg",
+      "id": "lab.window_u",
+      "assembly_offset_cubes": [],
+      "footprint_cubes": [
+        1,
+        0.225
+      ],
+      "sha256": "1690B62B4C7615E793844C83C31E2C785134F4991D885DA657AD841E247FB02F",
+      "world_scale": 1,
+      "collision": "independent ground segment; layer1, Fire1|2|8",
+      "owner": "R3 006 scoped 022 correction",
+      "pivot_px": [
+        64,
+        96
+      ]
+    },
+    {
+      "overhang_cubes": 0,
+      "sorting": "ground midpoint; art-only elevation; floor z=-1, roof z=2",
+      "height_layers": 3,
+      "path": "res://assets/world/modular_v1/lab.window_v.svg",
+      "id": "lab.window_v",
+      "assembly_offset_cubes": [],
+      "footprint_cubes": [
+        0.225,
+        1
+      ],
+      "sha256": "CAAA43A897E1EEC493FCED2CA3BE87DC69AF6681626442B254723F581C9C152F",
+      "world_scale": 1,
+      "collision": "independent ground segment; layer1, Fire1|2|8",
+      "owner": "R3 006 scoped 022 correction",
+      "pivot_px": [
+        64,
+        96
+      ]
+    },
+    {
+      "overhang_cubes": 0,
+      "sorting": "ground midpoint; art-only elevation; floor z=-1, roof z=2",
+      "height_layers": 3,
+      "path": "res://assets/world/modular_v1/lab.door_v.svg",
+      "id": "lab.door_v",
+      "assembly_offset_cubes": [],
+      "footprint_cubes": [
+        0.225,
+        3
+      ],
+      "sha256": "13E226DF49A72D16B942104B05589F1575E4CB6527B7EF7A0478AE1BDBBEF5E2",
+      "world_scale": 1,
+      "collision": "posts only; supported open three-cell threshold",
+      "owner": "R3 006 scoped 022 correction",
+      "pivot_px": [
+        64,
+        96
+      ]
+    },
+    {
+      "overhang_cubes": 0,
+      "sorting": "ground midpoint; art-only elevation; floor z=-1, roof z=2",
+      "height_layers": 0,
+      "path": "res://assets/world/modular_v1/lab.roof.svg",
+      "id": "lab.roof",
+      "assembly_offset_cubes": [
+        0,
+        0,
+        3
+      ],
+      "footprint_cubes": [
+        1,
+        1
+      ],
+      "sha256": "DF1BD124DC35367CC21A8EEAD1D6FF5EC22959232D1E66E49E19AE56FAB611C9",
+      "world_scale": 1,
+      "collision": "none; existing stacked terrain owns support",
+      "owner": "R3 006 scoped 022 correction",
+      "pivot_px": [
+        64,
+        96
+      ]
+    }
+  ],
+  "source": "tools/world/r3_022/build-modules.ps1",
+  "rise_px": 20
+}

@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="256" height="256" viewBox="0 0 256 256"><defs>
+<linearGradient id="leaf" x2=".8" y2="1"><stop stop-color="#ADC985"/><stop offset="1" stop-color="#69974F"/></linearGradient>
+<linearGradient id="wood" x2=".8" y2="1"><stop stop-color="#BE9667"/><stop offset="1" stop-color="#785B47"/></linearGradient>
+<linearGradient id="metal" x2=".85" y2="1"><stop stop-color="#D6E2D8"/><stop offset=".45" stop-color="#9BA3A0"/><stop offset="1" stop-color="#526C70"/></linearGradient>
+<linearGradient id="brass" x2=".7" y2="1"><stop stop-color="#F3E0AA"/><stop offset=".5" stop-color="#D9B56E"/><stop offset="1" stop-color="#997449"/></linearGradient>
+<linearGradient id="ice" x2=".7" y2="1"><stop stop-color="#EDFDFC"/><stop offset="1" stop-color="#80BCCB"/></linearGradient>
+<linearGradient id="water" x2=".4" y2="1"><stop stop-color="#82BEC0"/><stop offset="1" stop-color="#528D9B"/></linearGradient>
+<linearGradient id="glass" x2=".8" y2="1"><stop stop-color="#D8EBE0" stop-opacity=".7"/><stop offset="1" stop-color="#8DB6B4" stop-opacity=".24"/></linearGradient>
+<linearGradient id="pot" x2=".8" y2="1"><stop stop-color="#D6A37A"/><stop offset="1" stop-color="#A36B50"/></linearGradient>
+<linearGradient id="warm" x2="0" y2="1"><stop stop-color="#FFF2B6"/><stop offset="1" stop-color="#D49551"/></linearGradient>
+</defs><g stroke="#3F514A" stroke-width="2" stroke-linejoin="round" stroke-linecap="round"><ellipse cx="138" cy="212" rx="44" ry="13" fill="#385942" opacity=".18" stroke="none"/><path d="M90 175 L128 195 L128 224 L90 204 Z" fill="#BD8A62" /><path d="M128 195 L166 175 L166 204 L128 224 Z" fill="#986C50" /><path d="M128 155 L166 175 L128 195 L90 175 Z" fill="url(#pot)" /><path d="M90 175 L128 155 L166 175" fill="none" stroke="#E1E9B9" stroke-width="1.8"/><path d="M95 171l33-16 34 17-34 16z" fill="#695D43" /><path d="M127 173v-31m0 22-15-9m15 2 15-9" fill="none" stroke="#69974F" stroke-width="4"/><g transform="translate(-2 25)"><path d="M129 168a8 8 0 1 1-1 0z" fill="#F3E8CB" /></g><g id="wet_soil"><path d="M105 174l13-5m20 7 11-5" fill="none" stroke="#8EC1B8" stroke-width="2"/></g><path d="M199 165l8 8 17-21" fill="none" stroke="#416D50" stroke-width="5"/></g></svg>

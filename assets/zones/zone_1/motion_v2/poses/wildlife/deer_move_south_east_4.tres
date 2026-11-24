@@ -1,0 +1,12 @@
+[gd_resource type="AtlasTexture" format=3]
+
+[ext_resource type="Texture2D" path="res://assets/zones/zone_1/motion_v2/atlases/wildlife_0.png" id="source"]
+
+[resource]
+atlas = ExtResource("source")
+region = Rect2(993, 1192, 143, 107)
+filter_clip = true
+margin = Rect2(89, 184, 177, 193)
+metadata/pose_scale = 1.0
+metadata/ground_anchor = Vector2(160.0, 288.0)
+metadata/registration_version = 2

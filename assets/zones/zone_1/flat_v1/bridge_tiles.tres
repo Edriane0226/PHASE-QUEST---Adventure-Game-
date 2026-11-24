@@ -1,0 +1,79 @@
+[gd_resource type="TileSet" format=3 uid="uid://dp71qkb2c5ywf"]
+
+[ext_resource type="Texture2D" uid="uid://wty1lrxmx8oe" path="res://assets/zones/zone_1/flat_v1/tiles/bridge_deck_0.png" id="1_lmyg2"]
+[ext_resource type="Texture2D" uid="uid://c1kerxxqjjq7p" path="res://assets/zones/zone_1/flat_v1/tiles/bridge_deck_1.png" id="2_11wwy"]
+[ext_resource type="Texture2D" uid="uid://b85vb7tknu5v1" path="res://assets/zones/zone_1/flat_v1/tiles/bridge_deck_2.png" id="3_hlaoi"]
+[ext_resource type="Texture2D" uid="uid://dk16uav4k3jo8" path="res://assets/zones/zone_1/flat_v1/tiles/bridge_deck_3.png" id="4_14k8i"]
+[ext_resource type="Texture2D" uid="uid://dq3jfivueugm6" path="res://assets/zones/zone_1/flat_v1/tiles/bridge_rail_east.png" id="5_rg6ag"]
+[ext_resource type="Texture2D" uid="uid://dra3bpwba8da1" path="res://assets/zones/zone_1/flat_v1/tiles/bridge_rail_south.png" id="6_87mg0"]
+[ext_resource type="Texture2D" uid="uid://gsynodkg5h5" path="res://assets/zones/zone_1/flat_v1/tiles/bridge_rail_near_left.png" id="7_qsr2a"]
+[ext_resource type="Texture2D" uid="uid://c0twpvtl0ldri" path="res://assets/zones/zone_1/flat_v1/tiles/bridge_rail_near_right.png" id="8_urky4"]
+[ext_resource type="Texture2D" uid="uid://cdi84gumf8r22" path="res://assets/zones/zone_1/flat_v1/tiles/bridge_post.png" id="9_st5sf"]
+
+[sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_mtkss"]
+texture = ExtResource("1_lmyg2")
+texture_region_size = Vector2i(96, 112)
+0:0/0 = 0
+0:0/0/texture_origin = Vector2i(0, -16)
+
+[sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_siy0v"]
+texture = ExtResource("2_11wwy")
+texture_region_size = Vector2i(96, 112)
+0:0/0 = 0
+0:0/0/texture_origin = Vector2i(0, -16)
+
+[sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_x1b37"]
+texture = ExtResource("3_hlaoi")
+texture_region_size = Vector2i(96, 112)
+0:0/0 = 0
+0:0/0/texture_origin = Vector2i(0, -16)
+
+[sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_e401x"]
+texture = ExtResource("4_14k8i")
+texture_region_size = Vector2i(96, 112)
+0:0/0 = 0
+0:0/0/texture_origin = Vector2i(0, -16)
+
+[sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_jfycw"]
+texture = ExtResource("5_rg6ag")
+texture_region_size = Vector2i(96, 112)
+0:0/0 = 0
+0:0/0/texture_origin = Vector2i(0, -16)
+
+[sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_hsvhj"]
+texture = ExtResource("6_87mg0")
+texture_region_size = Vector2i(96, 112)
+0:0/0 = 0
+0:0/0/texture_origin = Vector2i(0, -16)
+
+[sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_gi2pa"]
+texture = ExtResource("7_qsr2a")
+texture_region_size = Vector2i(96, 112)
+0:0/0 = 0
+0:0/0/texture_origin = Vector2i(0, -16)
+
+[sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_koexk"]
+texture = ExtResource("8_urky4")
+texture_region_size = Vector2i(96, 112)
+0:0/0 = 0
+0:0/0/texture_origin = Vector2i(0, -16)
+
+[sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_akhrp"]
+texture = ExtResource("9_st5sf")
+texture_region_size = Vector2i(96, 112)
+0:0/0 = 0
+0:0/0/texture_origin = Vector2i(0, -16)
+
+[resource]
+tile_shape = 1
+tile_layout = 5
+tile_size = Vector2i(80, 40)
+sources/0 = SubResource("TileSetAtlasSource_mtkss")
+sources/1 = SubResource("TileSetAtlasSource_siy0v")
+sources/2 = SubResource("TileSetAtlasSource_x1b37")
+sources/3 = SubResource("TileSetAtlasSource_e401x")
+sources/4 = SubResource("TileSetAtlasSource_jfycw")
+sources/5 = SubResource("TileSetAtlasSource_hsvhj")
+sources/6 = SubResource("TileSetAtlasSource_gi2pa")
+sources/7 = SubResource("TileSetAtlasSource_koexk")
+sources/8 = SubResource("TileSetAtlasSource_akhrp")

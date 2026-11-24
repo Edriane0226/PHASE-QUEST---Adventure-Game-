@@ -1,0 +1,23 @@
+[gd_scene load_steps=4 format=3]
+
+[ext_resource type="Script" path="res://Scripts/UI/cryo_device_preview.gd" id="preview"]
+[ext_resource type="PackedScene" path="res://Actors/Player/Player.tscn" id="player"]
+[ext_resource type="PackedScene" path="res://UI/HUD/CampaignHUD.tscn" id="hud"]
+
+[node name="CryoDevicePreview" type="Node2D"]
+script = ExtResource("preview")
+
+[node name="Backdrop" type="Polygon2D" parent="."]
+polygon = PackedVector2Array(-2000, -2000, 2000, -2000, 2000, 2000, -2000, 2000)
+color = Color(0.19, 0.26, 0.31, 1)
+
+[node name="Actors" type="Node2D" parent="."]
+
+[node name="Player" parent="Actors" instance=ExtResource("player")]
+
+[node name="Camera2D" parent="Actors/Player" index="6"]
+position = Vector2(45, -28)
+zoom = Vector2(2, 2)
+position_smoothing_enabled = false
+
+[node name="GameplayHUD" parent="." instance=ExtResource("hud")]

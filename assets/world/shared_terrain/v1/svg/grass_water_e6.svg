@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="176" height="176" viewBox="0 0 176 176"><defs>
+ <linearGradient id="sideL" x1="0" y1="0" x2="0.4" y2="1"><stop stop-color="#896D57"/><stop offset="1" stop-color="#92735A"/></linearGradient>
+ <linearGradient id="sideR" x1="0" y1="0" x2="0.75" y2="1"><stop stop-color="#625344"/><stop offset="1" stop-color="#725B47"/></linearGradient>
+ <linearGradient id="stone" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#ACB3B0"/><stop offset="1" stop-color="#87908F"/></linearGradient>
+ <linearGradient id="water" x1="0" y1="0" x2="0" y2="1"><stop stop-color="#528D9B"/><stop offset="1" stop-color="#528D9B"/></linearGradient>
+ <radialGradient id="wash"><stop stop-color="#B0CD94" stop-opacity=".20"/><stop offset=".75" stop-color="#B0CD94" stop-opacity=".05"/><stop offset="1" stop-color="#B0CD94" stop-opacity="0"/></radialGradient>
+ <linearGradient id="wood" x1="0" y1="0" x2="0" y2="1"><stop stop-color="#C29A6B"/><stop offset=".42" stop-color="#AD7D50"/><stop offset="1" stop-color="#91603E"/></linearGradient>
+ <linearGradient id="fogNE" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#819B9B" stop-opacity=".65"/><stop offset=".58" stop-color="#A0B5AE" stop-opacity=".25"/><stop offset="1" stop-color="#B5C4BA" stop-opacity="0"/></linearGradient>
+</defs><polygon points="88,48 168,88 88,128 8,88" fill="#528D9B" stroke="#528D9B" stroke-width="1" stroke-linejoin="round" /><polyline points="168,88 88,128" fill="none" stroke="#366572" stroke-width="6" stroke-linecap="round" stroke-linejoin="round" /><polyline points="163.2,88 88,125.6" fill="none" stroke="#7CABB1" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" /><polyline points="88,128 8,88" fill="none" stroke="#366572" stroke-width="6" stroke-linecap="round" stroke-linejoin="round" /><polyline points="88,125.6 12.8,88" fill="none" stroke="#7CABB1" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" /></svg>

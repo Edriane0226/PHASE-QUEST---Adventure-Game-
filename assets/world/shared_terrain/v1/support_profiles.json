@@ -1,0 +1,655 @@
+{
+  "schema_version": 1,
+  "standard": "phase-quest-r3-art-002-v1",
+  "scope": "R3 003 opt-in authoring/review data; not campaign integration",
+  "coordinate_system": {
+    "grid_world_units": [
+      80,
+      40
+    ],
+    "elevation_step": 20,
+    "edge_mask_bits": {
+      "NE": 1,
+      "SE": 2,
+      "SW": 4,
+      "NW": 8
+    },
+    "edge_order": "N->E, E->S, S->W, W->N",
+    "solid_collision_layer": 1,
+    "low_collision_layer": 2,
+    "player_collision_layer": 4,
+    "gate_collision_layer": 8
+  },
+  "player_foot": {
+    "shape": "capsule",
+    "radius": 10,
+    "height": 22,
+    "bounding_rect": [
+      -10,
+      -11,
+      20,
+      22
+    ]
+  },
+  "cargo_clearance": {
+    "id": "workshop_parts",
+    "bounds": [
+      -13,
+      -25,
+      27,
+      36
+    ],
+    "classification": "conservative projected clearance envelope, not a physical cargo collider or support footprint",
+    "measured_hand_anchor_source": "assets/characters/cast/explorer/frames.tres: black_hair_carry_idle/walk metadata",
+    "metadata_frames": 96,
+    "hand_source_pixel_extents": [
+      77,
+      108,
+      114,
+      117
+    ],
+    "actor_uniform_scale": 0.2923077,
+    "actor_home": [
+      1,
+      -13.999992
+    ],
+    "held_max_world_size": [
+      15,
+      14
+    ],
+    "grip": "bottom center of used image",
+    "computed_cargo_only_bounds": [
+      -12.0538463,
+      -24.4922996,
+      25.8153849,
+      16.6307693
+    ],
+    "body_union_rounded_outward": [
+      -13,
+      -25,
+      27,
+      36
+    ],
+    "source_evidence": [
+      "Scripts/Zone_1/Levels/frozen_split_heat.gd:74-77,99-114,200-202",
+      "Scripts/Player/campaign_player.gd:546-574",
+      "Actors/Player.tscn:91-94"
+    ],
+    "limits": [
+      "96 authored frame hand anchors conservatively include inactive alternatives; current clip metadata overrides fallback CARRY_HANDS",
+      "Not a measured envelope for every future crafted item, brake pin, lift/place motion, or arbitrary actor animation",
+      "Actual gameplay collider remains 20x22 foot; caller chooses blocker silhouette for conservative visual clearance"
+    ]
+  },
+  "profiles": [
+    {
+      "id": "flat80x40",
+      "support_polygon": [
+        [
+          0,
+          -20
+        ],
+        [
+          40,
+          0
+        ],
+        [
+          0,
+          20
+        ],
+        [
+          -40,
+          0
+        ]
+      ],
+      "collider_rule": "none",
+      "collision_layer": 0,
+      "height_rule": "flat",
+      "direction": "",
+      "rise_world_units": 0,
+      "treads": 0,
+      "stable_while_occupied": true,
+      "visual_origin_is_support": false,
+      "activation_while_occupied": "unchanged"
+    },
+    {
+      "id": "joined_ground80x40",
+      "support_polygon": [
+        [
+          0,
+          -20
+        ],
+        [
+          40,
+          0
+        ],
+        [
+          0,
+          20
+        ],
+        [
+          -40,
+          0
+        ]
+      ],
+      "collider_rule": "none",
+      "collision_layer": 0,
+      "height_rule": "flat",
+      "direction": "",
+      "rise_world_units": 0,
+      "treads": 0,
+      "stable_while_occupied": true,
+      "visual_origin_is_support": false,
+      "activation_while_occupied": "unchanged"
+    },
+    {
+      "id": "edge80x40",
+      "support_polygon": [
+        [
+          0,
+          -20
+        ],
+        [
+          40,
+          0
+        ],
+        [
+          0,
+          20
+        ],
+        [
+          -40,
+          0
+        ]
+      ],
+      "collider_rule": "exposed_edges",
+      "collision_layer": 1,
+      "height_rule": "flat",
+      "direction": "",
+      "rise_world_units": 0,
+      "treads": 0,
+      "stable_while_occupied": true,
+      "visual_origin_is_support": false,
+      "activation_while_occupied": "unchanged"
+    },
+    {
+      "id": "cliff80x40",
+      "support_polygon": [
+        [
+          0,
+          -20
+        ],
+        [
+          40,
+          0
+        ],
+        [
+          0,
+          20
+        ],
+        [
+          -40,
+          0
+        ]
+      ],
+      "collider_rule": "exposed_edges",
+      "collision_layer": 1,
+      "height_rule": "flat",
+      "direction": "",
+      "rise_world_units": 0,
+      "treads": 0,
+      "stable_while_occupied": true,
+      "visual_origin_is_support": false,
+      "activation_while_occupied": "unchanged"
+    },
+    {
+      "id": "side_only",
+      "support_polygon": [],
+      "collider_rule": "none",
+      "collision_layer": 0,
+      "height_rule": "none",
+      "direction": "",
+      "rise_world_units": 0,
+      "treads": 0,
+      "stable_while_occupied": false,
+      "visual_origin_is_support": false,
+      "activation_while_occupied": "unchanged"
+    },
+    {
+      "id": "corner_overlay",
+      "support_polygon": [],
+      "collider_rule": "none",
+      "collision_layer": 0,
+      "height_rule": "none",
+      "direction": "",
+      "rise_world_units": 0,
+      "treads": 0,
+      "stable_while_occupied": false,
+      "visual_origin_is_support": false,
+      "activation_while_occupied": "unchanged"
+    },
+    {
+      "id": "water80x40",
+      "support_polygon": [],
+      "collider_rule": "none",
+      "collision_layer": 0,
+      "height_rule": "none",
+      "direction": "",
+      "rise_world_units": 0,
+      "treads": 0,
+      "stable_while_occupied": false,
+      "visual_origin_is_support": false,
+      "activation_while_occupied": "unchanged"
+    },
+    {
+      "id": "shore_water",
+      "support_polygon": [],
+      "collider_rule": "none",
+      "collision_layer": 0,
+      "height_rule": "none",
+      "direction": "",
+      "rise_world_units": 0,
+      "treads": 0,
+      "stable_while_occupied": false,
+      "visual_origin_is_support": false,
+      "activation_while_occupied": "unchanged"
+    },
+    {
+      "id": "shore80x40",
+      "support_polygon": [
+        [
+          0,
+          -20
+        ],
+        [
+          40,
+          0
+        ],
+        [
+          0,
+          20
+        ],
+        [
+          -40,
+          0
+        ]
+      ],
+      "collider_rule": "exposed_edges",
+      "collision_layer": 1,
+      "height_rule": "flat",
+      "direction": "",
+      "rise_world_units": 0,
+      "treads": 0,
+      "stable_while_occupied": true,
+      "visual_origin_is_support": false,
+      "activation_while_occupied": "unchanged"
+    },
+    {
+      "id": "ramp_NE20",
+      "support_polygon": [
+        [
+          0,
+          -20
+        ],
+        [
+          40,
+          0
+        ],
+        [
+          0,
+          20
+        ],
+        [
+          -40,
+          0
+        ]
+      ],
+      "collider_rule": "none",
+      "collision_layer": 0,
+      "height_rule": "ramp",
+      "direction": "NE",
+      "rise_world_units": 20,
+      "treads": 0,
+      "stable_while_occupied": true,
+      "visual_origin_is_support": false,
+      "activation_while_occupied": "unchanged"
+    },
+    {
+      "id": "ramp_SE20",
+      "support_polygon": [
+        [
+          0,
+          -20
+        ],
+        [
+          40,
+          0
+        ],
+        [
+          0,
+          20
+        ],
+        [
+          -40,
+          0
+        ]
+      ],
+      "collider_rule": "none",
+      "collision_layer": 0,
+      "height_rule": "ramp",
+      "direction": "SE",
+      "rise_world_units": 20,
+      "treads": 0,
+      "stable_while_occupied": true,
+      "visual_origin_is_support": false,
+      "activation_while_occupied": "unchanged"
+    },
+    {
+      "id": "ramp_SW20",
+      "support_polygon": [
+        [
+          0,
+          -20
+        ],
+        [
+          40,
+          0
+        ],
+        [
+          0,
+          20
+        ],
+        [
+          -40,
+          0
+        ]
+      ],
+      "collider_rule": "none",
+      "collision_layer": 0,
+      "height_rule": "ramp",
+      "direction": "SW",
+      "rise_world_units": 20,
+      "treads": 0,
+      "stable_while_occupied": true,
+      "visual_origin_is_support": false,
+      "activation_while_occupied": "unchanged"
+    },
+    {
+      "id": "ramp_NW20",
+      "support_polygon": [
+        [
+          0,
+          -20
+        ],
+        [
+          40,
+          0
+        ],
+        [
+          0,
+          20
+        ],
+        [
+          -40,
+          0
+        ]
+      ],
+      "collider_rule": "none",
+      "collision_layer": 0,
+      "height_rule": "ramp",
+      "direction": "NW",
+      "rise_world_units": 20,
+      "treads": 0,
+      "stable_while_occupied": true,
+      "visual_origin_is_support": false,
+      "activation_while_occupied": "unchanged"
+    },
+    {
+      "id": "stairs_NE20",
+      "support_polygon": [
+        [
+          0,
+          -20
+        ],
+        [
+          40,
+          0
+        ],
+        [
+          0,
+          20
+        ],
+        [
+          -40,
+          0
+        ]
+      ],
+      "collider_rule": "none",
+      "collision_layer": 0,
+      "height_rule": "stairs",
+      "direction": "NE",
+      "rise_world_units": 20,
+      "treads": 4,
+      "stable_while_occupied": true,
+      "visual_origin_is_support": false,
+      "activation_while_occupied": "unchanged",
+      "height_formula": "base + (0 if t<=0.0001 else ceil(clamp(t,0,1)*4-0.0001)*5)"
+    },
+    {
+      "id": "stairs_SE20",
+      "support_polygon": [
+        [
+          0,
+          -20
+        ],
+        [
+          40,
+          0
+        ],
+        [
+          0,
+          20
+        ],
+        [
+          -40,
+          0
+        ]
+      ],
+      "collider_rule": "none",
+      "collision_layer": 0,
+      "height_rule": "stairs",
+      "direction": "SE",
+      "rise_world_units": 20,
+      "treads": 4,
+      "stable_while_occupied": true,
+      "visual_origin_is_support": false,
+      "activation_while_occupied": "unchanged",
+      "height_formula": "base + (0 if t<=0.0001 else ceil(clamp(t,0,1)*4-0.0001)*5)"
+    },
+    {
+      "id": "stairs_SW20",
+      "support_polygon": [
+        [
+          0,
+          -20
+        ],
+        [
+          40,
+          0
+        ],
+        [
+          0,
+          20
+        ],
+        [
+          -40,
+          0
+        ]
+      ],
+      "collider_rule": "none",
+      "collision_layer": 0,
+      "height_rule": "stairs",
+      "direction": "SW",
+      "rise_world_units": 20,
+      "treads": 4,
+      "stable_while_occupied": true,
+      "visual_origin_is_support": false,
+      "activation_while_occupied": "unchanged",
+      "height_formula": "base + (0 if t<=0.0001 else ceil(clamp(t,0,1)*4-0.0001)*5)"
+    },
+    {
+      "id": "stairs_NW20",
+      "support_polygon": [
+        [
+          0,
+          -20
+        ],
+        [
+          40,
+          0
+        ],
+        [
+          0,
+          20
+        ],
+        [
+          -40,
+          0
+        ]
+      ],
+      "collider_rule": "none",
+      "collision_layer": 0,
+      "height_rule": "stairs",
+      "direction": "NW",
+      "rise_world_units": 20,
+      "treads": 4,
+      "stable_while_occupied": true,
+      "visual_origin_is_support": false,
+      "activation_while_occupied": "unchanged",
+      "height_formula": "base + (0 if t<=0.0001 else ceil(clamp(t,0,1)*4-0.0001)*5)"
+    },
+    {
+      "id": "bridge_NE",
+      "support_polygon": [
+        [
+          -140,
+          30
+        ],
+        [
+          -60,
+          70
+        ],
+        [
+          140,
+          -30
+        ],
+        [
+          60,
+          -70
+        ]
+      ],
+      "collider_rule": "none",
+      "collision_layer": 0,
+      "height_rule": "flat",
+      "direction": "",
+      "rise_world_units": 0,
+      "treads": 0,
+      "stable_while_occupied": true,
+      "visual_origin_is_support": false,
+      "activation_while_occupied": "unchanged"
+    },
+    {
+      "id": "bridge_SE",
+      "support_polygon": [
+        [
+          -60,
+          -70
+        ],
+        [
+          -140,
+          -30
+        ],
+        [
+          60,
+          70
+        ],
+        [
+          140,
+          30
+        ]
+      ],
+      "collider_rule": "none",
+      "collision_layer": 0,
+      "height_rule": "flat",
+      "direction": "",
+      "rise_world_units": 0,
+      "treads": 0,
+      "stable_while_occupied": true,
+      "visual_origin_is_support": false,
+      "activation_while_occupied": "unchanged"
+    },
+    {
+      "id": "cave_threshold",
+      "support_polygon": [
+        [
+          -32,
+          -32
+        ],
+        [
+          32,
+          -32
+        ],
+        [
+          32,
+          32
+        ],
+        [
+          -32,
+          32
+        ]
+      ],
+      "collider_rule": "portal_sides",
+      "collision_layer": 1,
+      "height_rule": "flat",
+      "direction": "",
+      "rise_world_units": 0,
+      "treads": 0,
+      "stable_while_occupied": true,
+      "visual_origin_is_support": false,
+      "activation_while_occupied": "unchanged"
+    },
+    {
+      "id": "fog_edge",
+      "support_polygon": [],
+      "collider_rule": "none",
+      "collision_layer": 0,
+      "height_rule": "none",
+      "direction": "",
+      "rise_world_units": 0,
+      "treads": 0,
+      "stable_while_occupied": false,
+      "visual_origin_is_support": false,
+      "activation_while_occupied": "unchanged"
+    },
+    {
+      "id": "access_barrier",
+      "support_polygon": [],
+      "collider_rule": "gate",
+      "collision_layer": 8,
+      "height_rule": "none",
+      "direction": "",
+      "rise_world_units": 0,
+      "treads": 0,
+      "stable_while_occupied": false,
+      "visual_origin_is_support": false,
+      "activation_while_occupied": "defer_until_clear"
+    }
+  ],
+  "rules": [
+    "Invisible fog has no support/collision/permission effect; independent access_barrier remains layer8",
+    "Only exposed edge_mask builds cliff/shore blockers; interior joined tile edges have no blockers",
+    "Water/corner/side/fog visuals alone never support floor",
+    "Occupied verified bridges/platforms retain support until clear; visual state alone never authorizes support",
+    "Physics integration still requires full-foot support and actual shape query on appropriate inherited layers"
+  ]
+}

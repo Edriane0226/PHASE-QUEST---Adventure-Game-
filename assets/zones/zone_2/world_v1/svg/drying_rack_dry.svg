@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="256" height="256" viewBox="0 0 256 256"><defs>
+<linearGradient id="leaf" x2=".8" y2="1"><stop stop-color="#ADC985"/><stop offset="1" stop-color="#69974F"/></linearGradient>
+<linearGradient id="wood" x2=".8" y2="1"><stop stop-color="#BE9667"/><stop offset="1" stop-color="#785B47"/></linearGradient>
+<linearGradient id="metal" x2=".85" y2="1"><stop stop-color="#D6E2D8"/><stop offset=".45" stop-color="#9BA3A0"/><stop offset="1" stop-color="#526C70"/></linearGradient>
+<linearGradient id="brass" x2=".7" y2="1"><stop stop-color="#F3E0AA"/><stop offset=".5" stop-color="#D9B56E"/><stop offset="1" stop-color="#997449"/></linearGradient>
+<linearGradient id="ice" x2=".7" y2="1"><stop stop-color="#EDFDFC"/><stop offset="1" stop-color="#80BCCB"/></linearGradient>
+<linearGradient id="water" x2=".4" y2="1"><stop stop-color="#82BEC0"/><stop offset="1" stop-color="#528D9B"/></linearGradient>
+<linearGradient id="glass" x2=".8" y2="1"><stop stop-color="#D8EBE0" stop-opacity=".7"/><stop offset="1" stop-color="#8DB6B4" stop-opacity=".24"/></linearGradient>
+<linearGradient id="pot" x2=".8" y2="1"><stop stop-color="#D6A37A"/><stop offset="1" stop-color="#A36B50"/></linearGradient>
+<linearGradient id="warm" x2="0" y2="1"><stop stop-color="#FFF2B6"/><stop offset="1" stop-color="#D49551"/></linearGradient>
+</defs><g stroke="#3F514A" stroke-width="2" stroke-linejoin="round" stroke-linecap="round"><ellipse cx="138" cy="212" rx="74" ry="13" fill="#385942" opacity=".18" stroke="none"/><path d="M63 188 L128 212 L128 220 L63 196 Z" fill="#A17D57" /><path d="M128 212 L193 188 L193 196 L128 220 Z" fill="#785B47" /><path d="M128 164 L193 188 L128 212 L63 188 Z" fill="url(#wood)" /><path d="M63 188 L128 164 L193 188" fill="none" stroke="#E1E9B9" stroke-width="1.8"/><path d="M68 189v39l11 5v-39zm109 0v39l11-5v-39z" fill="url(#wood)" /><g transform="translate(128 172) scale(1 .62) translate(-128 -172)"><path d="M90 148q37-13 76 0l2 34q-34 23-77 7zm12 8v23q27 8 52-2l-1-21q-27-6-51 0z" fill="#B99C6C" fill-rule="evenodd"/><path d="M94 151q30-9 66-1m-63 34q28 7 61-6" fill="none" stroke="#E8D2A4" stroke-width="2"/></g><path d="M199 165l8 8 17-21" fill="none" stroke="#416D50" stroke-width="5"/></g></svg>

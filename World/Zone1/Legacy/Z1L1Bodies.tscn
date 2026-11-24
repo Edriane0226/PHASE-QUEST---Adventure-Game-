@@ -1,0 +1,1683 @@
+[gd_scene format=3]
+
+[node name="Z1L1SourceBodies" type="Node2D" unique_id=1791538084]
+
+[node name="Terrain_JumpSurfaces_StoneShelf_0_LowStoneBody" type="StaticBody2D" parent="." unique_id=441540062]
+collision_layer = 2
+metadata/source_path = "Terrain/JumpSurfaces/StoneShelf_0/LowStoneBody"
+metadata/science_gate = false
+
+[node name="@CollisionPolygon2D@6" type="CollisionPolygon2D" parent="Terrain_JumpSurfaces_StoneShelf_0_LowStoneBody" unique_id=1604759346]
+polygon = PackedVector2Array(-196.29059, -302.1546, -193.73059, -312.71463, -138.05058, -340.76462, -84.29059, -313.70462, -74.05058, -304.46463, -74.05058, -278.46463, -131.65059, -248.76462, -196.29059, -276.15463, -196.29059, -302.1546)
+
+[node name="Terrain_JumpSurfaces_StoneShelf_1_LowStoneBody" type="StaticBody2D" parent="." unique_id=2041452289]
+collision_layer = 2
+metadata/source_path = "Terrain/JumpSurfaces/StoneShelf_1/LowStoneBody"
+metadata/science_gate = false
+
+[node name="@CollisionPolygon2D@7" type="CollisionPolygon2D" parent="Terrain_JumpSurfaces_StoneShelf_1_LowStoneBody" unique_id=45462761]
+polygon = PackedVector2Array(-125.11209, -331.09595, -121.79209, -344.53592, -49.582092, -380.23593, 20.137909, -345.79593, 33.417908, -334.03592, 33.417908, -298.03592, -41.282093, -260.23593, -125.11209, -295.09592, -125.11209, -331.09595)
+
+[node name="Terrain_JumpSurfaces_StoneShelf_2_LowStoneBody" type="StaticBody2D" parent="." unique_id=149455177]
+collision_layer = 2
+metadata/source_path = "Terrain/JumpSurfaces/StoneShelf_2/LowStoneBody"
+metadata/science_gate = false
+
+[node name="@CollisionPolygon2D@8" type="CollisionPolygon2D" parent="Terrain_JumpSurfaces_StoneShelf_2_LowStoneBody" unique_id=1689498843]
+polygon = PackedVector2Array(431.38593, -0.93883896, 434.9059, -15.018837, 511.4659, -52.41884, 585.3859, -16.338837, 599.46594, -4.018839, 599.46594, 27.981161, 520.2659, 67.58116, 431.38593, 31.061161, 431.38593, -0.93883896)
+
+[node name="Terrain_JumpSurfaces_StoneShelf_3_LowStoneBody" type="StaticBody2D" parent="." unique_id=1573557193]
+collision_layer = 2
+metadata/source_path = "Terrain/JumpSurfaces/StoneShelf_3/LowStoneBody"
+metadata/science_gate = false
+
+[node name="@CollisionPolygon2D@9" type="CollisionPolygon2D" parent="Terrain_JumpSurfaces_StoneShelf_3_LowStoneBody" unique_id=236178175]
+polygon = PackedVector2Array(17.06736, 353.11218, 21.06736, 338.0722, 108.06736, 298.1222, 192.06735, 336.6622, 208.06735, 349.8222, 208.06735, 379.8222, 118.06736, 422.1222, 17.06736, 383.11218, 17.06736, 353.11218)
+
+[node name="Terrain_JumpSurfaces_StoneShelf_4_LowStoneBody" type="StaticBody2D" parent="." unique_id=792523522]
+collision_layer = 2
+metadata/source_path = "Terrain/JumpSurfaces/StoneShelf_4/LowStoneBody"
+metadata/science_gate = false
+
+[node name="@CollisionPolygon2D@10" type="CollisionPolygon2D" parent="Terrain_JumpSurfaces_StoneShelf_4_LowStoneBody" unique_id=1673049235]
+polygon = PackedVector2Array(-529.1018, 249.0756, -525.8218, 236.2756, -454.48178, 202.2756, -385.60178, 235.0756, -372.48178, 246.2756, -372.48178, 280.2756, -446.28177, 316.2756, -529.1018, 283.0756, -529.1018, 249.0756)
+
+[node name="Terrain_JumpSurfaces_LowStoneEdging_LowStoneBody" type="StaticBody2D" parent="." unique_id=1262652529]
+collision_layer = 2
+collision_mask = 0
+metadata/source_path = "Terrain/JumpSurfaces/LowStoneEdging/LowStoneBody"
+metadata/science_gate = false
+
+[node name="@CollisionPolygon2D@11" type="CollisionPolygon2D" parent="Terrain_JumpSurfaces_LowStoneEdging_LowStoneBody" unique_id=1037113403]
+polygon = PackedVector2Array(-884.0001, 314.0768, -893.1112, 303.4472, -965.9999, 365.9232, -956.8888, 376.5528)
+
+[node name="Actors_Camp_CollisionBody" type="StaticBody2D" parent="." unique_id=2040307016]
+metadata/source_path = "Actors/Camp/CollisionBody"
+metadata/science_gate = false
+
+[node name="@CollisionPolygon2D@12" type="CollisionPolygon2D" parent="Actors_Camp_CollisionBody" unique_id=437174266]
+polygon = PackedVector2Array(-870, -336.7879, -870.3939, -335.60608, -871.9697, -336, -872.75757, -331.27274, -874.3333, -331.6667, -875.9091, -329.30304, -881.8182, -330.0909, -884.9697, -328.12122, -886.5455, -324.18182, -890.48486, -324.57578, -892.8485, -323.39395, -894.8182, -320.63638, -894.42426, -314.33334, -895.6061, -312.36365, -894.8182, -306.8485, -891.2727, -304.48486, -887.3333, -304.48486, -886.9394, -301.7273, -882.6061, -298.9697, -878.2727, -299.36365, -873.9394, -302.90912, -873.1515, -300.54547, -870, -298.57578, -865.2727, -298.57578, -861.3333, -301.33334, -860.5455, -304.87878, -856.6061, -303.30304, -852.2727, -303.697, -848.7273, -306.8485, -848.3333, -311.18182, -845.57574, -312.36365, -843.6061, -315.51517, -843.6061, -319.0606, -844.7879, -321.81818, -848.3333, -323.7879, -848.3333, -325.36365, -850.69696, -328.90912, -855.42426, -330.0909, -860.1515, -327.7273, -862.1212, -331.27274, -864.48486, -331.6667, -864.8788, -333.24243, -866.8485, -333.24243, -868.8182, -336.7879)
+
+[node name="Actors_waypoint0_CollisionBody" type="StaticBody2D" parent="." unique_id=37287226]
+metadata/source_path = "Actors/waypoint0/CollisionBody"
+metadata/science_gate = false
+
+[node name="@CollisionPolygon2D@13" type="CollisionPolygon2D" parent="Actors_waypoint0_CollisionBody" unique_id=518066867]
+polygon = PackedVector2Array(-612.0187, -566.5234, -620.76636, -565.17755, -628.1682, -559.7944, -627.4953, -547.00934, -630.1869, -524.13086, -632.2056, -520.76636, -640.2804, -516.729, -640.2804, -509.3271, -614.71027, -495.86917, -611.34576, -495.86917, -595.1963, -503.27103, -579.04675, -512.6916, -579.7196, -518.7477, -590.48596, -525.4766, -589.8131, -547.68225, -592.5047, -550.37384, -593.85046, -562.48596, -598.5607, -565.85046)
+
+[node name="Actors_waypoint1_CollisionBody" type="StaticBody2D" parent="." unique_id=435268174]
+metadata/source_path = "Actors/waypoint1/CollisionBody"
+metadata/science_gate = false
+
+[node name="@CollisionPolygon2D@14" type="CollisionPolygon2D" parent="Actors_waypoint1_CollisionBody" unique_id=735907680]
+polygon = PackedVector2Array(757.9813, -376.52338, 749.23364, -375.17758, 741.8318, -369.7944, 742.5047, -357.00934, 739.8131, -334.13086, 737.7944, -330.76636, 729.7196, -326.72897, 729.7196, -319.3271, 755.28973, -305.86917, 758.65424, -305.86917, 774.8037, -313.27103, 790.95325, -322.6916, 790.2804, -328.74768, 779.51404, -335.47662, 780.1869, -357.68225, 777.4953, -360.37384, 776.14954, -372.486, 771.4393, -375.85046)
+
+[node name="Actors_waypoint2_CollisionBody" type="StaticBody2D" parent="." unique_id=990162889]
+metadata/source_path = "Actors/waypoint2/CollisionBody"
+metadata/science_gate = false
+
+[node name="@CollisionPolygon2D@15" type="CollisionPolygon2D" parent="Actors_waypoint2_CollisionBody" unique_id=1996170989]
+polygon = PackedVector2Array(17.981308, 593.4767, 9.233645, 594.8225, 1.8317776, 600.2057, 2.504673, 612.9907, -0.18691444, 635.8692, -2.2056065, 639.2337, -10.280373, 643.2711, -10.280373, 650.673, 15.289721, 664.13086, 18.654205, 664.13086, 34.803738, 656.729, 50.95327, 647.3085, 50.280373, 641.2524, 39.514015, 634.52344, 40.186913, 612.3178, 37.495327, 609.6262, 36.149532, 597.5141, 31.43925, 594.1496)
+
+[node name="Actors_Lamp_3_0_CollisionBody" type="StaticBody2D" parent="." unique_id=504460454]
+metadata/source_path = "Actors/Lamp_3_0/CollisionBody"
+metadata/science_gate = false
+
+[node name="@CollisionPolygon2D@16" type="CollisionPolygon2D" parent="Actors_Lamp_3_0_CollisionBody" unique_id=872214800]
+polygon = PackedVector2Array(-373.26126, -643.9099, -384.9009, -638.3964, -386.73874, -635.9459, -386.73874, -605.3153, -405.11713, -595.51355, -405.11713, -589.3874, -403.8919, -588.1622, -383.6757, -577.74774, -374.48648, -580.1982, -354.27026, -591.2252, -354.88287, -597.964, -378.16217, -610.2162, -377.54956, -614.5045, -370.1982, -612.6667, -361.6216, -616.95496, -361.009, -631.04504, -358.55856, -632.27026, -359.17117, -637.17114, -365.9099, -640.23425, -367.74774, -643.9099)
+
+[node name="Actors_Lamp_8_0_CollisionBody" type="StaticBody2D" parent="." unique_id=841640476]
+metadata/source_path = "Actors/Lamp_8_0/CollisionBody"
+metadata/science_gate = false
+
+[node name="@CollisionPolygon2D@17" type="CollisionPolygon2D" parent="Actors_Lamp_8_0_CollisionBody" unique_id=675234572]
+polygon = PackedVector2Array(59.43951, -726.6907, 47.79987, -721.1772, 45.962032, -718.7267, 45.962032, -688.09607, 27.583654, -678.2943, 27.583654, -672.16815, 28.80888, -670.94293, 49.025097, -660.5285, 58.214287, -662.97894, 78.4305, -674.006, 77.81789, -680.74475, 54.53861, -692.99695, 55.151222, -697.2853, 62.50257, -695.44745, 71.07915, -699.7357, 71.691765, -713.8258, 74.14221, -715.051, 73.5296, -719.9519, 66.79086, -723.015, 64.953026, -726.6907)
+
+[node name="Actors_Lamp_20_0_CollisionBody" type="StaticBody2D" parent="." unique_id=1131337319]
+metadata/source_path = "Actors/Lamp_20_0/CollisionBody"
+metadata/science_gate = false
+
+[node name="@CollisionPolygon2D@18" type="CollisionPolygon2D" parent="Actors_Lamp_20_0_CollisionBody" unique_id=1265176968]
+polygon = PackedVector2Array(616.78406, -168.46582, 605.1445, -162.95232, 603.30664, -160.50186, 603.30664, -129.87123, 584.9282, -120.069435, 584.9282, -113.943306, 586.15344, -112.71808, 606.3697, -102.30367, 615.55884, -104.75411, 635.7751, -115.78114, 635.1625, -122.51988, 611.8832, -134.77213, 612.4958, -139.06042, 619.84717, -137.2226, 628.4237, -141.51086, 629.0363, -155.60095, 631.4868, -156.82619, 630.8742, -161.72708, 624.13544, -164.79016, 622.2976, -168.46582)
+
+[node name="Actors_Lamp_27_0_CollisionBody" type="StaticBody2D" parent="." unique_id=2074792780]
+metadata/source_path = "Actors/Lamp_27_0/CollisionBody"
+metadata/science_gate = false
+
+[node name="@CollisionPolygon2D@19" type="CollisionPolygon2D" parent="Actors_Lamp_27_0_CollisionBody" unique_id=507264194]
+polygon = PackedVector2Array(720.1709, -147.08298, 708.5313, -141.56946, 706.6935, -139.119, 706.6935, -108.48837, 688.31506, -98.68658, 688.31506, -92.56045, 689.5403, -91.33522, 709.75653, -80.920815, 718.9457, -83.371254, 739.1619, -94.398285, 738.5493, -101.137024, 715.27, -113.389275, 715.8826, -117.67757, 723.234, -115.83973, 731.81055, -120.12801, 732.42316, -134.21811, 734.87366, -135.44333, 734.26105, -140.34424, 727.5223, -143.40729, 725.68445, -147.08298)
+
+[node name="Actors_Lamp_30_5_CollisionBody" type="StaticBody2D" parent="." unique_id=1367827602]
+metadata/source_path = "Actors/Lamp_30_5/CollisionBody"
+metadata/science_gate = false
+
+[node name="@CollisionPolygon2D@20" type="CollisionPolygon2D" parent="Actors_Lamp_30_5_CollisionBody" unique_id=74107509]
+polygon = PackedVector2Array(787.85126, -3.7271194, 776.2117, 1.7863922, 774.37384, 4.236847, 774.37384, 34.867477, 755.9954, 44.669273, 755.9954, 50.795403, 757.22064, 52.02063, 777.4369, 62.435036, 786.62604, 59.984596, 806.8423, 48.957565, 806.2297, 42.218826, 782.9504, 29.966576, 783.563, 25.678284, 790.91437, 27.51612, 799.4909, 23.227837, 800.1035, 9.137749, 802.554, 7.9125214, 801.9414, 3.0116196, 795.20264, -0.051445007, 793.3648, -3.7271194)
+
+[node name="Actors_Lamp_30_18_CollisionBody" type="StaticBody2D" parent="." unique_id=924682576]
+metadata/source_path = "Actors/Lamp_30_18/CollisionBody"
+metadata/science_gate = false
+
+[node name="@CollisionPolygon2D@21" type="CollisionPolygon2D" parent="Actors_Lamp_30_18_CollisionBody" unique_id=1670894174]
+polygon = PackedVector2Array(68.66087, 450.20007, 57.021233, 455.71356, 55.183395, 458.16403, 55.183395, 488.79465, 36.805016, 498.59644, 36.805016, 504.7226, 38.030243, 505.9478, 58.24646, 516.3622, 67.435646, 513.91174, 87.65186, 502.88474, 87.03925, 496.146, 63.75997, 483.89374, 64.37258, 479.60547, 71.72394, 481.4433, 80.300514, 477.15503, 80.913124, 463.06494, 83.36357, 461.8397, 82.75096, 456.93878, 76.01222, 453.87573, 74.174385, 450.20007)
+
+[node name="Actors_Lamp_38_24_CollisionBody" type="StaticBody2D" parent="." unique_id=456398402]
+metadata/source_path = "Actors/Lamp_38_24/CollisionBody"
+metadata/science_gate = false
+
+[node name="@CollisionPolygon2D@22" type="CollisionPolygon2D" parent="Actors_Lamp_38_24_CollisionBody" unique_id=395446160]
+polygon = PackedVector2Array(-618.8391, 173.40135, -630.4787, 178.91486, -632.3165, 181.36533, -632.3165, 211.99594, -650.69495, 221.79774, -650.69495, 227.92387, -649.4697, 229.14911, -629.2535, 239.5635, -620.06433, 237.11307, -599.8481, 226.08603, -600.4607, 219.34729, -623.74, 207.09505, -623.1274, 202.80676, -615.776, 204.64459, -607.19946, 200.35631, -606.58685, 186.26622, -604.13635, 185.04099, -604.74896, 180.14009, -611.48773, 177.07703, -613.32556, 173.40135)
+
+[node name="Actors_note0_CollisionBody" type="StaticBody2D" parent="." unique_id=1493007213]
+metadata/source_path = "Actors/note0/CollisionBody"
+metadata/science_gate = false
+
+[node name="@CollisionPolygon2D@23" type="CollisionPolygon2D" parent="Actors_note0_CollisionBody" unique_id=809099063]
+polygon = PackedVector2Array(-371.4909, -572.05457, -372.9818, -570.56366, -372.9818, -567.58185, -379.31818, -564.9727, -380.06363, -563.85455, -379.69092, -554.5364, -378.57272, -553.7909, -372.9818, -554.5364, -372.9818, -550.8091, -386.02728, -544.4727, -386.77274, -542.60913, -386.4, -539.2546, -372.6091, -532.1727, -370.37274, -532.1727, -353.6, -540.7455, -353.6, -544.1, -355.0909, -545.9636, -367.3909, -551.9273, -367.3909, -557.5182, -359.93637, -561.2455, -359.19092, -562.36365, -359.19092, -570.9364, -360.68182, -572.4273, -363.66364, -572.4273, -366.64545, -570.56366, -368.8818, -572.4273)
+
+[node name="Actors_note1_CollisionBody" type="StaticBody2D" parent="." unique_id=547039381]
+metadata/source_path = "Actors/note1/CollisionBody"
+metadata/science_gate = false
+
+[node name="@CollisionPolygon2D@24" type="CollisionPolygon2D" parent="Actors_note1_CollisionBody" unique_id=1455481526]
+polygon = PackedVector2Array(928.5091, -2.054535, 927.0182, -0.56362915, 927.0182, 2.41819, 920.6818, 5.0272827, 919.93634, 6.145462, 920.3091, 15.463646, 921.42725, 16.209099, 927.0182, 15.463646, 927.0182, 19.190918, 913.9727, 25.527283, 913.2273, 27.390915, 913.6, 30.74546, 927.3909, 37.827286, 929.62726, 37.827286, 946.4, 29.254555, 946.4, 25.90001, 944.9091, 24.03637, 932.6091, 18.072735, 932.6091, 12.481827, 940.06366, 8.754555, 940.8091, 7.6363716, 940.8091, -0.9363556, 939.3182, -2.4272652, 936.33636, -2.4272652, 933.35455, -0.56362915, 931.11816, -2.4272652)
+
+[node name="Actors_note2_CollisionBody" type="StaticBody2D" parent="." unique_id=510338272]
+metadata/source_path = "Actors/note2/CollisionBody"
+metadata/science_gate = false
+
+[node name="@CollisionPolygon2D@25" type="CollisionPolygon2D" parent="Actors_note2_CollisionBody" unique_id=1705098391]
+polygon = PackedVector2Array(298.5091, 557.94543, 297.0182, 559.4364, 297.0182, 562.4182, 290.68182, 565.0273, 289.93637, 566.14545, 290.30908, 575.4636, 291.42728, 576.2091, 297.0182, 575.4636, 297.0182, 579.1909, 283.97272, 585.5273, 283.22726, 587.3909, 283.6, 590.7455, 297.3909, 597.8273, 299.62726, 597.8273, 316.4, 589.2546, 316.4, 585.9, 314.9091, 584.0364, 302.6091, 578.07275, 302.6091, 572.4818, 310.06363, 568.7546, 310.80908, 567.63635, 310.80908, 559.06366, 309.31818, 557.57275, 306.33636, 557.57275, 303.35455, 559.4364, 301.1182, 557.57275)
+
+[node name="Actors_crystal0_CollisionBody" type="StaticBody2D" parent="." unique_id=1516565057]
+metadata/source_path = "Actors/crystal0/CollisionBody"
+metadata/science_gate = false
+
+[node name="@CollisionPolygon2D@26" type="CollisionPolygon2D" parent="Actors_crystal0_CollisionBody" unique_id=1697307229]
+polygon = PackedVector2Array(-540.35925, -523.37866, -544.31067, -523.0194, -547.9029, -520.8641, -549.69904, -516.1942, -549.69904, -503.62137, -555.4466, -500.7476, -557.24274, -498.95148, -557.24274, -495.35922, -542.15533, -487.0971, -540.71844, -487.0971, -522.75726, -496.0777, -523.1165, -500.02914, -531.37866, -504.69904, -531.73785, -516.91266, -532.81555, -521.2233, -535.3301, -523.0194)
+
+[node name="Actors_crystal1_CollisionBody" type="StaticBody2D" parent="." unique_id=75833343]
+metadata/source_path = "Actors/crystal1/CollisionBody"
+metadata/science_gate = false
+
+[node name="@CollisionPolygon2D@27" type="CollisionPolygon2D" parent="Actors_crystal1_CollisionBody" unique_id=125608679]
+polygon = PackedVector2Array(184.64078, -503.37863, 180.68932, -503.0194, 177.09709, -500.86407, 175.30096, -496.19415, 175.30096, -483.62134, 169.5534, -480.74756, 167.75728, -478.95145, 167.75728, -475.35922, 182.84467, -467.09708, 184.28156, -467.09708, 202.24272, -476.07767, 201.8835, -480.0291, 193.62135, -484.69904, 193.26213, -496.91263, 192.18446, -501.2233, 189.6699, -503.0194)
+
+[node name="Actors_crystal2_CollisionBody" type="StaticBody2D" parent="." unique_id=1668932951]
+metadata/source_path = "Actors/crystal2/CollisionBody"
+metadata/science_gate = false
+
+[node name="@CollisionPolygon2D@28" type="CollisionPolygon2D" parent="Actors_crystal2_CollisionBody" unique_id=1572904235]
+polygon = PackedVector2Array(829.64075, -218.37865, 825.68933, -218.01942, 822.0971, -215.86409, 820.30096, -211.19418, 820.30096, -198.62137, 814.5534, -195.74759, 812.75726, -193.95148, 812.75726, -190.35922, 827.84467, -182.0971, 829.28156, -182.0971, 847.24274, -191.07768, 846.8835, -195.02914, 838.62134, -199.69904, 838.26215, -211.91263, 837.18445, -216.22331, 834.6699, -218.01942)
+
+[node name="Actors_crystal3_CollisionBody" type="StaticBody2D" parent="." unique_id=520139440]
+metadata/source_path = "Actors/crystal3/CollisionBody"
+metadata/science_gate = false
+
+[node name="@CollisionPolygon2D@29" type="CollisionPolygon2D" parent="Actors_crystal3_CollisionBody" unique_id=734448688]
+polygon = PackedVector2Array(799.64075, 156.62135, 795.68933, 156.98058, 792.0971, 159.13591, 790.30096, 163.80582, 790.30096, 176.37863, 784.5534, 179.25241, 782.75726, 181.04852, 782.75726, 184.64078, 797.84467, 192.9029, 799.28156, 192.9029, 817.24274, 183.92232, 816.8835, 179.97086, 808.62134, 175.30096, 808.26215, 163.08737, 807.18445, 158.77669, 804.6699, 156.98058)
+
+[node name="Actors_crystal4_CollisionBody" type="StaticBody2D" parent="." unique_id=141621127]
+metadata/source_path = "Actors/crystal4/CollisionBody"
+metadata/science_gate = false
+
+[node name="@CollisionPolygon2D@30" type="CollisionPolygon2D" parent="Actors_crystal4_CollisionBody" unique_id=1857118574]
+polygon = PackedVector2Array(179.64078, 621.62134, 175.68932, 621.9806, 172.09709, 624.1359, 170.30096, 628.8058, 170.30096, 641.37866, 164.5534, 644.25244, 162.75728, 646.0485, 162.75728, 649.64075, 177.84467, 657.9029, 179.28156, 657.9029, 197.24272, 648.9223, 196.8835, 644.9709, 188.62135, 640.30096, 188.26213, 628.08734, 187.18446, 623.7767, 184.6699, 621.9806)
+
+[node name="Actors_crystal5_CollisionBody" type="StaticBody2D" parent="." unique_id=1735327766]
+metadata/source_path = "Actors/crystal5/CollisionBody"
+metadata/science_gate = false
+
+[node name="@CollisionPolygon2D@31" type="CollisionPolygon2D" parent="Actors_crystal5_CollisionBody" unique_id=636980410]
+polygon = PackedVector2Array(-210.35922, 611.62134, -214.31068, 611.9806, -217.90291, 614.1359, -219.69904, 618.8058, -219.69904, 631.37866, -225.4466, 634.25244, -227.24272, 636.0485, -227.24272, 639.64075, -212.15533, 647.9029, -210.71844, 647.9029, -192.75728, 638.9223, -193.1165, 634.9709, -201.37865, 630.30096, -201.73787, 618.08734, -202.81554, 613.7767, -205.3301, 611.9806)
+
+[node name="Actors_ice0_CollisionBody" type="StaticBody2D" parent="." unique_id=1909210669]
+metadata/source_path = "Actors/ice0/CollisionBody"
+metadata/science_gate = true
+
+[node name="@CollisionPolygon2D@32" type="CollisionPolygon2D" parent="Actors_ice0_CollisionBody" unique_id=1057656959]
+polygon = PackedVector2Array(402.43405, -407.2288, 420.3226, -398.28452, 477.56595, -512.7712, 459.6774, -521.71545)
+
+[node name="Actors_brazier1_CollisionBody" type="StaticBody2D" parent="." unique_id=196643567]
+metadata/source_path = "Actors/brazier1/CollisionBody"
+metadata/science_gate = false
+
+[node name="@CollisionPolygon2D@33" type="CollisionPolygon2D" parent="Actors_brazier1_CollisionBody" unique_id=1120019684]
+polygon = PackedVector2Array(697.7739, 337.13043, 693.87823, 338.24347, 692.7652, 344.36523, 679.4087, 351.0435, 678.8522, 381.65216, 675.51306, 384.9913, 676.0696, 390, 694.99133, 400.0174, 697.7739, 400.0174, 721.1478, 388.88696, 724.48694, 386.10434, 724.48694, 381.65216, 721.70435, 378.31305, 721.1478, 349.93045, 704.45215, 342.13913, 702.7826, 337.68695)
+
+[node name="Actors_ice1_CollisionBody" type="StaticBody2D" parent="." unique_id=1164284121]
+metadata/source_path = "Actors/ice1/CollisionBody"
+metadata/science_gate = true
+
+[node name="@CollisionPolygon2D@34" type="CollisionPolygon2D" parent="Actors_ice1_CollisionBody" unique_id=1055794281]
+polygon = PackedVector2Array(420.3226, 398.28452, 402.43405, 407.2288, 459.6774, 521.71545, 477.56595, 512.7712)
+
+[node name="Actors_brazier2_CollisionBody" type="StaticBody2D" parent="." unique_id=1275971553]
+metadata/source_path = "Actors/brazier2/CollisionBody"
+metadata/science_gate = false
+
+[node name="@CollisionPolygon2D@35" type="CollisionPolygon2D" parent="Actors_brazier2_CollisionBody" unique_id=315277365]
+polygon = PackedVector2Array(-342.22607, 597.13043, -346.12173, 598.24347, -347.23477, 604.36523, -360.5913, 611.04346, -361.14783, 641.65216, -364.48697, 644.99133, -363.93042, 650, -345.0087, 660.0174, -342.22607, 660.0174, -318.85217, 648.88696, -315.51303, 646.1044, -315.51303, 641.65216, -318.29565, 638.31305, -318.85217, 609.9304, -335.54782, 602.13916, -337.21738, 597.68695)
+
+[node name="Actors_ice2_CollisionBody" type="StaticBody2D" parent="." unique_id=162171715]
+metadata/source_path = "Actors/ice2/CollisionBody"
+metadata/science_gate = true
+
+[node name="@CollisionPolygon2D@36" type="CollisionPolygon2D" parent="Actors_ice2_CollisionBody" unique_id=1624191472]
+polygon = PackedVector2Array(-402.43405, 407.2288, -420.3226, 398.28452, -477.56595, 512.7712, -459.6774, 521.71545)
+
+[node name="Actors_wood_PickupBody" type="StaticBody2D" parent="." unique_id=1392708677]
+metadata/source_path = "Actors/wood/PickupBody"
+metadata/science_gate = false
+
+[node name="@CollisionPolygon2D@37" type="CollisionPolygon2D" parent="Actors_wood_PickupBody" unique_id=1403471982]
+polygon = PackedVector2Array(625.9459, -246.22902, 625.5, -246.22902, 625.0541, -245.63443, 624.3108, -245.18848, 623.56757, -245.03983, 623.41895, -244.74254, 603.6486, -234.33713, 603.2027, -233.89119, 602.9054, -233.14793, 602.9054, -232.25604, 603.5, -230.91821, 604.9865, -229.87767, 605.58105, -228.24254, 607.06757, -227.202, 607.5135, -225.7155, 609, -224.52632, 610.0405, -224.52632, 631.1486, -236.86415, 631.7432, -236.86415, 632.3378, -237.45876, 632.3378, -239.09389, 631.8919, -239.98578, 630.2568, -241.02632, 630.1081, -242.2155, 629.36487, -242.95876, 629.36487, -243.25604, 628.17566, -243.702, 628.02704, -244.89117, 627.2838, -245.63443, 627.2838, -245.93172)
+
+[node name="Actors_vent_CollisionBody" type="StaticBody2D" parent="." unique_id=1657782564]
+metadata/source_path = "Actors/vent/CollisionBody"
+metadata/science_gate = false
+
+[node name="@CollisionPolygon2D@38" type="CollisionPolygon2D" parent="Actors_vent_CollisionBody" unique_id=533146742]
+polygon = PackedVector2Array(751.8938, 228.34512, 750.1416, 228.92918, 749.5575, 231.26547, 749.5575, 242.94688, 751.30975, 244.6991, 751.30975, 268.646, 748.97345, 270.3982, 748.97345, 291.42474, 750.72565, 292.5929, 789.27435, 292.5929, 791.6106, 290.8407, 791.6106, 275.07077, 791.02655, 271.56635, 788.69025, 268.646, 788.69025, 244.6991, 790.4425, 242.94688, 789.8584, 228.92918, 788.1062, 227.76105)
+
+[node name="Actors_blades_PickupBody" type="StaticBody2D" parent="." unique_id=299778032]
+metadata/source_path = "Actors/blades/PickupBody"
+metadata/science_gate = false
+
+[node name="@CollisionPolygon2D@39" type="CollisionPolygon2D" parent="Actors_blades_PickupBody" unique_id=516073055]
+polygon = PackedVector2Array(711.1163, 28.139534, 709.8605, 28.55814, 708.18604, 30.372093, 707.06976, 32.604652, 706.23254, 36.23256, 706.23254, 37.069767, 702.8837, 36.23256, 700.93024, 36.23256, 699.67444, 36.511627, 698.6977, 37.069767, 698.1395, 37.76744, 698, 38.604652, 698.55817, 40.139534, 700.3721, 41.813953, 702.6047, 42.930233, 706.23254, 43.76744, 707.06976, 43.76744, 706.3721, 46, 706.23254, 49.069767, 706.7907, 50.88372, 707.76746, 51.860466, 708.7442, 52, 710, 51.581398, 711.3953, 50.186047, 712.3721, 48.65116, 712.93024, 47.395348, 713.76746, 43.90698, 713.76746, 42.930233, 715.3023, 43.488373, 717.2558, 43.76744, 719.76746, 43.627907, 721.3023, 42.930233, 721.8605, 42.23256, 722, 41.395348, 721.44183, 39.860466, 720.18604, 38.604652, 717.81396, 37.2093, 713.76746, 36.23256, 712.93024, 36.23256, 713.6279, 34, 713.6279, 30.232557, 713.2093, 29.11628, 712.6512, 28.418604)
+
+[node name="Actors_mirror_CollisionBody" type="StaticBody2D" parent="." unique_id=1154574396]
+metadata/source_path = "Actors/mirror/CollisionBody"
+metadata/science_gate = false
+
+[node name="@CollisionPolygon2D@40" type="CollisionPolygon2D" parent="Actors_mirror_CollisionBody" unique_id=494304847]
+polygon = PackedVector2Array(226.24, 360.54, 226.67, 358.39, 227.1, 357.53, 227.53, 357.1, 261.07, 357.1, 261.5, 357.53, 261.93, 358.82, 261.93, 362.26, 261.5, 362.69, 248.6, 368.28, 245.59, 369.57, 243.44, 369.57, 227.53, 363.12, 226.67, 362.69, 226.24, 362.26, 226.24, 360.54)
+
+[node name="Actors_mirror2_CollisionBody" type="StaticBody2D" parent="." unique_id=1870561532]
+metadata/source_path = "Actors/mirror2/CollisionBody"
+metadata/science_gate = false
+
+[node name="@CollisionPolygon2D@41" type="CollisionPolygon2D" parent="Actors_mirror2_CollisionBody" unique_id=305454157]
+polygon = PackedVector2Array(-99.457504, 537.045, -99.0275, 533.605, -97.7375, 532.315, -62.4775, 532.315, -62.0475, 532.745, -61.6175, 533.605, -61.1875, 535.755, -61.1875, 537.475, -61.6175, 537.905, -62.4775, 538.335, -77.0975, 545.645, -80.5375, 545.645, -98.5975, 538.335, -99.457504, 537.475, -99.457504, 537.045)
+
+[node name="Actors_mirror3_CollisionBody" type="StaticBody2D" parent="." unique_id=2035992845]
+metadata/source_path = "Actors/mirror3/CollisionBody"
+metadata/science_gate = false
+
+[node name="@CollisionPolygon2D@42" type="CollisionPolygon2D" parent="Actors_mirror3_CollisionBody" unique_id=968488520]
+polygon = PackedVector2Array(-98.275, 440.11, -97.845, 437.53, -97.415, 437.1, -63.015, 437.1, -62.585, 437.53, -62.155, 439.68, -62.155, 441.83002, -62.585, 442.26, -64.305, 443.12, -65.165, 443.55, -66.025, 443.98, -75.915, 448.28, -78.925, 449.57, -81.505, 449.57, -84.515, 448.28, -94.405, 443.98, -95.265, 443.55, -97.845, 442.26, -98.275, 441.4, -98.275, 440.11)
+
+[node name="Actors_receiver_CollisionBody" type="StaticBody2D" parent="." unique_id=1423541148]
+metadata/source_path = "Actors/receiver/CollisionBody"
+metadata/science_gate = false
+
+[node name="@CollisionPolygon2D@43" type="CollisionPolygon2D" parent="Actors_receiver_CollisionBody" unique_id=397919193]
+polygon = PackedVector2Array(80.50467, 311.6075, 72.42991, 312.61688, 67.38318, 316.14957, 66.37383, 318.16827, 67.38318, 328.26172, 65.36449, 344.91592, 57.28972, 349.96265, 57.28972, 353.49536, 58.80374, 355.51407, 76.46729, 364.59818, 85.5514, 362.07483, 103.21495, 352.48602, 102.71028, 346.93463, 94.63551, 341.88788, 95.64486, 339.8692, 95.14018, 325.2337, 94.130844, 324.729, 92.61682, 314.63556, 86.560745, 311.6075)
+
+[node name="Actors_exit_CollisionBody" type="StaticBody2D" parent="." unique_id=1358236793]
+metadata/source_path = "Actors/exit/CollisionBody"
+metadata/science_gate = true
+
+[node name="@CollisionPolygon2D@44" type="CollisionPolygon2D" parent="Actors_exit_CollisionBody" unique_id=1465389744]
+polygon = PackedVector2Array(-824.2857, -54.047676, -841.4286, -45.47625, -839.5238, -27.381012, -842.381, -26.428627, -845.2381, -17.8572, -851.9048, -19.761963, -852.8571, -14.047676, -860.4762, -22.619102, -874.7619, -30.238152, -879.5238, -30.238152, -896.6667, -19.761963, -896.6667, -14.047676, -893.8095, -10.238159, -893.8095, 55.476135, -880.4762, 63.095184, -873.8095, 63.095184, -862.381, 57.38089, -860.4762, 49.76184, -854.7619, 47.857086, -854.7619, 41.190414, -851.9048, 42.142807, -852.8571, 44.04756, -848.0952, 44.99994, -847.1429, 39.28566, -842.381, 42.142807, -840.4762, 36.428513, -830, 36.428513, -820.4762, 39.28566, -806.1905, 31.66661, -806.1905, -38.809578, -804.2857, -39.761963, -804.2857, -45.47625, -818.5714, -54.047676)
+
+[node name="Actors_exit_PillarCollision" type="StaticBody2D" parent="." unique_id=1038873121]
+metadata/source_path = "Actors/exit/PillarCollision"
+metadata/science_gate = true
+
+[node name="@CollisionPolygon2D@45" type="CollisionPolygon2D" parent="Actors_exit_PillarCollision" unique_id=344421425]
+polygon = PackedVector2Array(-824.5134, -53.8879, -832.6691, -49.81005, -834.70807, -49.81005, -838.7859, -45.7322, -840.8248, -45.7322, -840.8248, -38.595963, -838.7859, -37.5765, -838.7859, 32.76642, -833.6886, 35.8248, -833.6886, 36.84427, -825.5329, 40.92212, -817.3772, 40.92212, -807.18256, 34.805344, -805.1437, 34.805344, -805.1437, 32.76642, -804.1242, 32.76642, -803.10474, -40.634888, -802.08527, -40.634888, -803.10474, -42.673813, -803.10474, -45.7322, -807.18256, -47.771126, -807.18256, -48.79059, -817.3772, -52.86844, -817.3772, -53.8879, -824.5134, -54.907364)
+
+[node name="@CollisionPolygon2D@46" type="CollisionPolygon2D" parent="Actors_exit_PillarCollision" unique_id=120427723]
+polygon = PackedVector2Array(-878.5449, -31.459724, -882.6228, -29.4208, -884.66174, -29.4208, -885.6812, -28.401337, -885.6812, -27.381874, -891.798, -24.323486, -893.8369, -24.323486, -894.8563, -22.284561, -895.8758, -22.284561, -894.8563, -14.12886, -893.8369, -14.12886, -893.8369, 1.1630707, -892.81744, 1.1630707, -893.8369, 53.155655, -891.798, 55.19458, -891.798, 56.21405, -876.50604, 63.35028, -873.44763, 63.35028, -861.2141, 56.21405, -859.1752, 56.21405, -859.1752, 54.175125, -858.1557, 54.175125, -858.1557, -14.12886, -857.1362, -15.148331, -856.11676, -15.148331, -856.11676, -17.187256, -855.0973, -17.187256, -855.0973, -21.265106, -857.1362, -23.304016, -857.1362, -24.323486, -872.42816, -31.459724, -872.42816, -32.479187, -878.5449, -32.479187)
+
+[node name="Actors_Bluff_0_CliffCollision" type="StaticBody2D" parent="." unique_id=1049711224]
+metadata/source_path = "Actors/Bluff_0/CliffCollision"
+metadata/science_gate = false
+
+[node name="@CollisionPolygon2D@47" type="CollisionPolygon2D" parent="Actors_Bluff_0_CliffCollision" unique_id=512935700]
+polygon = PackedVector2Array(-39.868713, -517.50305, -46.409256, -516.90845, -57.70655, -513.9355, -60.08493, -508.5841, -61.274117, -490.74628, -71.97682, -489.55707, -83.86871, -485.39493, -86.84169, -483.01654, -88.030876, -480.04358, -88.030876, -449.71924, -86.24709, -445.55707, -74.3552, -432.476, -71.38223, -431.2868, -66.62547, -431.2868, -44.030876, -437.23276, -39.868713, -439.61115, -39.868713, -440.80032, -9.54439, -440.80032, -4.787632, -443.1787, 1.1583138, -459.82736, -0.6254692, -481.82736, -2.4092522, -484.20572, -2.4092522, -485.9895, -8.949795, -489.55707, -15.490335, -490.74628, -15.490335, -498.476, -18.463308, -505.61115, -17.868713, -509.7733, -20.247091, -513.9355, -27.976822, -517.50305)
+
+[node name="Actors_Bluff_1_CliffCollision" type="StaticBody2D" parent="." unique_id=256980468]
+metadata/source_path = "Actors/Bluff_1/CliffCollision"
+metadata/science_gate = false
+
+[node name="@CollisionPolygon2D@48" type="CollisionPolygon2D" parent="Actors_Bluff_1_CliffCollision" unique_id=491553866]
+polygon = PackedVector2Array(-480.1042, -335.89188, -500.6375, -335.89188, -504.1575, -334.71854, -506.50418, -330.0252, -507.67752, -313.01187, -531.14417, -307.1452, -534.0775, -304.79852, -535.25085, -301.8652, -534.6642, -271.35852, -517.06415, -251.99854, -517.06415, -250.8252, -514.13086, -249.65187, -509.4375, -249.65187, -487.14417, -255.51854, -483.62418, -259.03854, -457.81085, -259.03854, -453.70416, -260.79852, -446.0775, -283.67853, -447.83752, -303.6252, -450.18417, -308.31854, -454.29083, -310.07852, -462.50418, -310.07852, -461.9175, -312.4252, -466.02417, -323.57187, -466.02417, -329.43854, -470.7175, -335.3052)
+
+[node name="Actors_Bluff_2_CliffCollision" type="StaticBody2D" parent="." unique_id=841286459]
+metadata/source_path = "Actors/Bluff_2/CliffCollision"
+metadata/science_gate = false
+
+[node name="@CollisionPolygon2D@49" type="CollisionPolygon2D" parent="Actors_Bluff_2_CliffCollision" unique_id=871764256]
+polygon = PackedVector2Array(667.16455, 103.02993, 649.9213, 106.5975, 646.94836, 115.51642, 646.35376, 129.78668, 635.65106, 130.97588, 626.1375, 135.13803, 624.35376, 135.13803, 620.7862, 137.51642, 619.597, 140.4894, 619.597, 171.40831, 621.97534, 175.57047, 633.27264, 188.05696, 636.8402, 189.24615, 641.0024, 189.24615, 661.2186, 183.3002, 664.1916, 183.3002, 667.75916, 180.92183, 667.75916, 179.73264, 698.0835, 179.73264, 701.65106, 178.54344, 703.4348, 176.75966, 708.7862, 160.70561, 707.0024, 138.70561, 705.2186, 136.32722, 705.2186, 134.54344, 699.86725, 131.57047, 692.1375, 129.78668, 692.1375, 122.05696, 690.94836, 120.86777, 689.16455, 114.92182, 689.75916, 110.75966, 687.38074, 106.5975, 683.8132, 104.219124, 679.65106, 103.02993)
+
+[node name="Actors_Bluff_3_CliffCollision" type="StaticBody2D" parent="." unique_id=1036144014]
+metadata/source_path = "Actors/Bluff_3/CliffCollision"
+metadata/science_gate = false
+
+[node name="@CollisionPolygon2D@50" type="CollisionPolygon2D" parent="Actors_Bluff_3_CliffCollision" unique_id=480615496]
+polygon = PackedVector2Array(281.88876, 637.98584, 261.35544, 637.98584, 257.83545, 639.1592, 255.48877, 643.85254, 254.31544, 660.86584, 230.84879, 666.73254, 227.91544, 669.07916, 226.74211, 672.5992, 226.74211, 700.75916, 229.08878, 705.4525, 230.26212, 705.4525, 230.26212, 706.62585, 244.92877, 721.87915, 244.92877, 723.0525, 252.55545, 724.2258, 274.8488, 718.3592, 278.36877, 714.8392, 304.1821, 714.8392, 307.11545, 713.66583, 309.4621, 710.1459, 315.91544, 690.19916, 314.15546, 670.2525, 311.80878, 665.5592, 308.28876, 663.7992, 299.48877, 663.7992, 300.07544, 662.0392, 295.96878, 650.30585, 295.96878, 644.4392, 291.27545, 638.5725)
+
+[node name="Actors_Bluff_4_CliffCollision" type="StaticBody2D" parent="." unique_id=1421873703]
+metadata/source_path = "Actors/Bluff_4/CliffCollision"
+metadata/science_gate = false
+
+[node name="@CollisionPolygon2D@51" type="CollisionPolygon2D" parent="Actors_Bluff_4_CliffCollision" unique_id=266757655]
+polygon = PackedVector2Array(-624.345, 36.024376, -630.8855, 36.618973, -642.1828, 39.591946, -644.5612, 44.9433, -645.75037, 62.781136, -656.45306, 63.970325, -668.345, 68.132484, -671.31793, 70.510864, -672.50714, 73.48384, -672.50714, 103.80817, -670.7234, 107.97032, -658.8315, 121.05141, -655.8585, 122.24059, -651.10175, 122.24059, -628.50714, 116.29465, -624.345, 113.916275, -624.345, 112.72708, -594.0206, 112.72708, -589.2639, 110.3487, -583.31793, 93.70006, -585.10175, 71.70006, -586.8855, 69.32167, -586.8855, 67.53789, -593.4261, 63.970325, -599.9666, 62.781136, -599.9666, 55.051407, -602.9396, 47.916267, -602.345, 43.75411, -604.7234, 39.591946, -612.45306, 36.024376)
+
+[node name="Actors_Detail_-16_3_CollisionBody" type="StaticBody2D" parent="." unique_id=1609594881]
+collision_layer = 2
+metadata/source_path = "Actors/Detail_-16_3/CollisionBody"
+metadata/science_gate = false
+
+[node name="@CollisionPolygon2D@52" type="CollisionPolygon2D" parent="Actors_Detail_-16_3_CollisionBody" unique_id=896408065]
+polygon = PackedVector2Array(-432.6729, -363.3256, -434.62137, -363.04724, -439.35333, -360.82043, -442.97186, -357.75858, -444.64197, -353.5833, -444.92032, -344.11942, -443.2502, -341.8926, -438.79663, -339.6658, -431.28116, -337.16064, -428.2193, -337.16064, -423.20898, -339.1091, -416.52856, -343.28436, -415.97186, -344.11942, -415.97186, -353.5833, -418.19867, -357.20187, -421.81723, -359.15033, -422.93063, -361.37714, -425.9925, -363.04724, -428.776, -363.60394)
+
+[node name="Actors_Detail_-15_-5_CollisionBody" type="StaticBody2D" parent="." unique_id=1934197168]
+collision_layer = 2
+metadata/source_path = "Actors/Detail_-15_-5/CollisionBody"
+metadata/science_gate = false
+
+[node name="@CollisionPolygon2D@53" type="CollisionPolygon2D" parent="Actors_Detail_-15_-5_CollisionBody" unique_id=2073259850]
+polygon = PackedVector2Array(-277.8501, -267.0269, -283.19385, -264.7769, -287.9751, -261.12064, -289.6626, -256.05814, -289.94385, -247.33939, -289.38135, -246.49564, -286.2876, -244.52689, -276.44385, -240.87064, -270.25635, -242.27689, -260.9751, -246.49564, -259.2876, -248.46439, -259.56885, -256.62064, -260.69385, -259.1519, -264.06885, -261.68314, -266.31885, -262.5269, -267.7251, -264.7769, -269.9751, -265.9019, -274.75635, -267.30814)
+
+[node name="Actors_Detail_-9_-10_CollisionBody" type="StaticBody2D" parent="." unique_id=1754373064]
+metadata/source_path = "Actors/Detail_-9_-10/CollisionBody"
+metadata/science_gate = false
+
+[node name="@CollisionPolygon2D@54" type="CollisionPolygon2D" parent="Actors_Detail_-9_-10_CollisionBody" unique_id=1410590254]
+polygon = PackedVector2Array(-290.1721, -314.7111, -290.9333, -312.60632, -293.101, -310.822, -296.34525, -309.62976, -300.1721, -309.2111, -303.99893, -309.62976, -307.24316, -310.822, -309.4109, -312.60632, -310.1721, -314.7111, -309.4109, -316.81586, -307.24316, -318.6002, -303.99893, -319.79242, -300.1721, -320.2111, -296.34525, -319.79242, -293.101, -318.6002, -290.9333, -316.81586)
+
+[node name="Actors_Detail_-9_-2_CollisionBody" type="StaticBody2D" parent="." unique_id=1689627922]
+collision_layer = 2
+metadata/source_path = "Actors/Detail_-9_-2/CollisionBody"
+metadata/science_gate = false
+
+[node name="@CollisionPolygon2D@55" type="CollisionPolygon2D" parent="Actors_Detail_-9_-2_CollisionBody" unique_id=1837242366]
+polygon = PackedVector2Array(-328.35294, -398.68625, -334.31372, -396.8235, -336.549, -394.21564, -337.29413, -387.88232, -344, -385.64703, -346.60785, -383.41174, -347.7255, -381.17642, -347.7255, -368.88232, -340.64706, -361.8039, -337.66666, -361.8039, -327.2353, -364.78427, -326.11765, -366.64703, -317.17648, -365.52936, -312.70587, -365.90192, -310.84314, -367.01956, -308.60785, -370.74506, -308.2353, -380.05878, -309.35294, -384.5294, -311.58823, -386.76468, -316.43137, -387.88232, -316.80392, -393.098, -319.7843, -397.94113, -322.7647, -399.05878)
+
+[node name="Actors_Detail_-9_8_CollisionBody" type="StaticBody2D" parent="." unique_id=782868699]
+collision_layer = 2
+metadata/source_path = "Actors/Detail_-9_8/CollisionBody"
+metadata/science_gate = false
+
+[node name="@CollisionPolygon2D@56" type="CollisionPolygon2D" parent="Actors_Detail_-9_8_CollisionBody" unique_id=1448502530]
+polygon = PackedVector2Array(-490.83066, -348.9524, -492.7791, -348.67404, -497.51108, -346.44724, -501.40796, -342.82867, -501.6863, -341.1586, -503.07806, -339.21014, -503.3564, -328.91116, -498.34613, -325.8493, -489.4389, -322.78745, -487.7688, -322.78745, -481.92343, -324.7359, -473.29456, -328.6328, -472.18118, -330.02457, -472.18118, -336.42664, -473.01624, -340.0452, -477.19147, -343.66376, -479.69662, -344.49878, -479.97498, -345.89053, -481.08838, -347.00394, -487.2121, -349.23074)
+
+[node name="Actors_Detail_-7_-11_CollisionBody" type="StaticBody2D" parent="." unique_id=556682868]
+metadata/source_path = "Actors/Detail_-7_-11/CollisionBody"
+metadata/science_gate = false
+
+[node name="@CollisionPolygon2D@57" type="CollisionPolygon2D" parent="Actors_Detail_-7_-11_CollisionBody" unique_id=934778164]
+polygon = PackedVector2Array(86.12666, -607.87103, 85.47964, -606.082, 83.63707, -604.5653, 80.87947, -603.5519, 77.62666, -603.19604, 74.373856, -603.5519, 71.61626, -604.5653, 69.77369, -606.082, 69.12666, -607.87103, 69.77369, -609.6601, 71.61626, -611.17676, 74.373856, -612.1902, 77.62666, -612.546, 80.87947, -612.1902, 83.63707, -611.17676, 85.47964, -609.6601)
+
+[node name="Actors_Detail_-6_6_CollisionBody" type="StaticBody2D" parent="." unique_id=1780394200]
+metadata/source_path = "Actors/Detail_-6_6/CollisionBody"
+metadata/science_gate = false
+
+[node name="@CollisionPolygon2D@58" type="CollisionPolygon2D" parent="Actors_Detail_-6_6_CollisionBody" unique_id=121606588]
+polygon = PackedVector2Array(-423.97104, -616.3281, -424.73224, -614.2234, -426.89996, -612.439, -430.1442, -611.24677, -433.97104, -610.8281, -437.79788, -611.24677, -441.0421, -612.439, -443.20984, -614.2234, -443.97104, -616.3281, -443.20984, -618.43286, -441.0421, -620.2172, -437.79788, -621.4095, -433.97104, -621.8281, -430.1442, -621.4095, -426.89996, -620.2172, -424.73224, -618.43286)
+
+[node name="Actors_Detail_-4_3_CollisionBody" type="StaticBody2D" parent="." unique_id=1364663914]
+metadata/source_path = "Actors/Detail_-4_3/CollisionBody"
+metadata/science_gate = false
+
+[node name="@CollisionPolygon2D@59" type="CollisionPolygon2D" parent="Actors_Detail_-4_3_CollisionBody" unique_id=724164474]
+polygon = PackedVector2Array(-371.90134, -615.2116, -372.66254, -613.1069, -374.83026, -611.3225, -378.0745, -610.13025, -381.90134, -609.7116, -385.72818, -610.13025, -388.9724, -611.3225, -391.14014, -613.1069, -391.90134, -615.2116, -391.14014, -617.31635, -388.9724, -619.1007, -385.72818, -620.29297, -381.90134, -620.7116, -378.0745, -620.29297, -374.83026, -619.1007, -372.66254, -617.31635)
+
+[node name="Actors_Detail_-3_8_CollisionBody" type="StaticBody2D" parent="." unique_id=1254741730]
+metadata/source_path = "Actors/Detail_-3_8/CollisionBody"
+metadata/science_gate = false
+
+[node name="@CollisionPolygon2D@60" type="CollisionPolygon2D" parent="Actors_Detail_-3_8_CollisionBody" unique_id=1868643364]
+polygon = PackedVector2Array(-459.69803, -639.9971, -460.45923, -637.89233, -462.62695, -636.108, -465.8712, -634.9157, -469.69803, -634.4971, -473.52487, -634.9157, -476.7691, -636.108, -478.93683, -637.89233, -479.69803, -639.9971, -478.93683, -642.1018, -476.7691, -643.88617, -473.52487, -645.0784, -469.69803, -645.4971, -465.8712, -645.0784, -462.62695, -643.88617, -460.45923, -642.1018)
+
+[node name="Actors_Detail_-2_3_CollisionBody" type="StaticBody2D" parent="." unique_id=505891968]
+collision_layer = 2
+metadata/source_path = "Actors/Detail_-2_3/CollisionBody"
+metadata/science_gate = false
+
+[node name="@CollisionPolygon2D@61" type="CollisionPolygon2D" parent="Actors_Detail_-2_3_CollisionBody" unique_id=1943983812]
+polygon = PackedVector2Array(-330.0103, -365.59793, -336.69073, -362.81442, -340.0309, -359.75256, -341.70102, -355.57733, -341.97937, -345.5567, -340.86597, -344.4433, -335.57733, -341.93814, -328.06186, -339.43298, -325, -339.43298, -319.71133, -341.38144, -312.19586, -345.83505, -311.63916, -347.2268, -311.91754, -355.29898, -314.70102, -359.47424, -318.87628, -361.42267, -320.5464, -363.92783, -325, -365.59793)
+
+[node name="Actors_Detail_-1_0_CollisionBody" type="StaticBody2D" parent="." unique_id=1296651613]
+collision_layer = 2
+metadata/source_path = "Actors/Detail_-1_0/CollisionBody"
+metadata/science_gate = false
+
+[node name="@CollisionPolygon2D@62" type="CollisionPolygon2D" parent="Actors_Detail_-1_0_CollisionBody" unique_id=2041095159]
+polygon = PackedVector2Array(-234.36388, -482.83405, -241.60098, -479.7722, -244.66284, -476.71033, -246.33295, -471.14334, -246.33295, -462.51447, -242.15768, -460.0093, -232.69377, -456.6691, -227.4051, -457.50415, -216.54944, -462.51447, -215.43604, -463.90622, -215.43604, -471.4217, -216.27109, -473.6485, -219.6113, -476.71033, -222.9515, -478.38043, -224.34325, -480.60724, -230.18861, -482.83405)
+
+[node name="Actors_Detail_-1_6_CollisionBody" type="StaticBody2D" parent="." unique_id=898891070]
+metadata/source_path = "Actors/Detail_-1_6/CollisionBody"
+metadata/science_gate = false
+
+[node name="@CollisionPolygon2D@63" type="CollisionPolygon2D" parent="Actors_Detail_-1_6_CollisionBody" unique_id=1438054759]
+polygon = PackedVector2Array(-381.94437, -650.78577, -382.70557, -648.681, -384.8733, -646.89667, -388.11752, -645.7044, -391.94437, -645.28577, -395.7712, -645.7044, -399.01544, -646.89667, -401.18317, -648.681, -401.94437, -650.78577, -401.18317, -652.8905, -399.01544, -654.67487, -395.7712, -655.8671, -391.94437, -656.28577, -388.11752, -655.8671, -384.8733, -654.67487, -382.70557, -652.8905)
+
+[node name="Actors_Detail_-1_11_CollisionBody" type="StaticBody2D" parent="." unique_id=736167297]
+metadata/source_path = "Actors/Detail_-1_11/CollisionBody"
+metadata/science_gate = false
+
+[node name="@CollisionPolygon2D@64" type="CollisionPolygon2D" parent="Actors_Detail_-1_11_CollisionBody" unique_id=564367104]
+polygon = PackedVector2Array(-503.04956, -622.677, -503.81076, -620.57227, -505.9785, -618.7879, -509.22272, -617.59564, -513.04956, -617.177, -516.8764, -617.59564, -520.1206, -618.7879, -522.2883, -620.57227, -523.04956, -622.677, -522.2883, -624.78174, -520.1206, -626.5661, -516.8764, -627.75836, -513.04956, -628.177, -509.22272, -627.75836, -505.9785, -626.5661, -503.81076, -624.78174)
+
+[node name="Actors_Detail_1_-9_CollisionBody" type="StaticBody2D" parent="." unique_id=155590791]
+metadata/source_path = "Actors/Detail_1_-9/CollisionBody"
+metadata/science_gate = false
+
+[node name="@CollisionPolygon2D@65" type="CollisionPolygon2D" parent="Actors_Detail_1_-9_CollisionBody" unique_id=20620027]
+polygon = PackedVector2Array(47.13125, -623.2237, 46.370045, -621.11896, 44.202316, -619.3346, 40.958084, -618.14233, 37.13125, -617.7237, 33.304413, -618.14233, 30.06018, -619.3346, 27.892452, -621.11896, 27.131248, -623.2237, 27.892452, -625.3284, 30.06018, -627.1128, 33.304413, -628.30505, 37.13125, -628.7237, 40.958084, -628.30505, 44.202316, -627.1128, 46.370045, -625.3284)
+
+[node name="Actors_Detail_1_3_CollisionBody" type="StaticBody2D" parent="." unique_id=624837702]
+metadata/source_path = "Actors/Detail_1_3/CollisionBody"
+metadata/science_gate = false
+
+[node name="@CollisionPolygon2D@66" type="CollisionPolygon2D" parent="Actors_Detail_1_3_CollisionBody" unique_id=1834771256]
+polygon = PackedVector2Array(-176.93785, -621.7151, -177.69905, -619.61035, -179.86679, -617.826, -183.11102, -616.6337, -186.93785, -616.2151, -190.76468, -616.6337, -194.00891, -617.826, -196.17665, -619.61035, -196.93785, -621.7151, -196.17665, -623.8198, -194.00891, -625.6042, -190.76468, -626.79645, -186.93785, -627.2151, -183.11102, -626.79645, -179.86679, -625.6042, -177.69905, -623.8198)
+
+[node name="Actors_Detail_1_10_CollisionBody" type="StaticBody2D" parent="." unique_id=1788027168]
+collision_layer = 2
+metadata/source_path = "Actors/Detail_1_10/CollisionBody"
+metadata/science_gate = false
+
+[node name="@CollisionPolygon2D@67" type="CollisionPolygon2D" parent="Actors_Detail_1_10_CollisionBody" unique_id=1765190597]
+polygon = PackedVector2Array(-453.3035, -574.7377, -455.25195, -574.4593, -459.98392, -572.2325, -463.60245, -569.17065, -465.27255, -564.99536, -465.5509, -555.53143, -463.8808, -553.3046, -459.42722, -551.0779, -451.91174, -548.5727, -448.84988, -548.5727, -443.83957, -550.5211, -437.15915, -554.6964, -436.60245, -555.53143, -436.60245, -564.99536, -438.82925, -568.61395, -442.4478, -570.5624, -443.56122, -572.7892, -446.62308, -574.4593, -449.4066, -575.016)
+
+[node name="Actors_Detail_2_-6_CollisionBody" type="StaticBody2D" parent="." unique_id=150222317]
+metadata/source_path = "Actors/Detail_2_-6/CollisionBody"
+metadata/science_gate = false
+
+[node name="@CollisionPolygon2D@68" type="CollisionPolygon2D" parent="Actors_Detail_2_-6_CollisionBody" unique_id=1417077584]
+polygon = PackedVector2Array(-22.0131, -665.3802, -22.660124, -663.5911, -24.502693, -662.07446, -27.26029, -661.06104, -30.5131, -660.7052, -33.765907, -661.06104, -36.523506, -662.07446, -38.366074, -663.5911, -39.0131, -665.3802, -38.366074, -667.16925, -36.523506, -668.6859, -33.765907, -669.69934, -30.5131, -670.0552, -27.26029, -669.69934, -24.502693, -668.6859, -22.660124, -667.16925)
+
+[node name="Actors_Detail_3_0_CollisionBody" type="StaticBody2D" parent="." unique_id=401898861]
+metadata/source_path = "Actors/Detail_3_0/CollisionBody"
+metadata/science_gate = false
+
+[node name="@CollisionPolygon2D@69" type="CollisionPolygon2D" parent="Actors_Detail_3_0_CollisionBody" unique_id=884332486]
+polygon = PackedVector2Array(-61.78926, -624.36194, -62.436287, -622.5729, -64.278854, -621.0562, -67.03645, -620.0428, -70.28926, -619.68695, -73.54207, -620.0428, -76.29967, -621.0562, -78.142235, -622.5729, -78.78926, -624.36194, -78.142235, -626.151, -76.29967, -627.66766, -73.54207, -628.6811, -70.28926, -629.0369, -67.03645, -628.6811, -64.278854, -627.66766, -62.436287, -626.151)
+
+[node name="Actors_Detail_5_3_CollisionBody" type="StaticBody2D" parent="." unique_id=1286951386]
+collision_layer = 2
+metadata/source_path = "Actors/Detail_5_3/CollisionBody"
+metadata/science_gate = false
+
+[node name="@CollisionPolygon2D@70" type="CollisionPolygon2D" parent="Actors_Detail_5_3_CollisionBody" unique_id=1084560421]
+polygon = PackedVector2Array(-78.314674, -522.92145, -83.658424, -520.67145, -88.439674, -517.0152, -90.127174, -511.9527, -90.408424, -503.23395, -89.845924, -502.3902, -86.752174, -500.42145, -76.908424, -496.7652, -70.720924, -498.17145, -61.439674, -502.3902, -59.752174, -504.35895, -60.033424, -512.5152, -61.158424, -515.04645, -64.533424, -517.5777, -66.783424, -518.42145, -68.189674, -520.67145, -70.439674, -521.79645, -75.220924, -523.2027)
+
+[node name="Actors_Detail_5_6_CollisionBody" type="StaticBody2D" parent="." unique_id=1458113394]
+metadata/source_path = "Actors/Detail_5_6/CollisionBody"
+metadata/science_gate = false
+
+[node name="@CollisionPolygon2D@71" type="CollisionPolygon2D" parent="Actors_Detail_5_6_CollisionBody" unique_id=1072362777]
+polygon = PackedVector2Array(-255.50775, -657.30853, -256.1548, -655.5195, -257.99734, -654.0028, -260.75494, -652.9894, -264.00775, -652.63354, -267.26056, -652.9894, -270.01816, -654.0028, -271.86072, -655.5195, -272.50775, -657.30853, -271.86072, -659.0976, -270.01816, -660.61426, -267.26056, -661.6277, -264.00775, -661.9835, -260.75494, -661.6277, -257.99734, -660.61426, -256.1548, -659.0976)
+
+[node name="Actors_Detail_8_3_CollisionBody" type="StaticBody2D" parent="." unique_id=1896548808]
+collision_layer = 2
+metadata/source_path = "Actors/Detail_8_3/CollisionBody"
+metadata/science_gate = false
+
+[node name="@CollisionPolygon2D@72" type="CollisionPolygon2D" parent="Actors_Detail_8_3_CollisionBody" unique_id=1848803457]
+polygon = PackedVector2Array(-63.024025, -747.7607, -68.98481, -745.89795, -71.22011, -743.2901, -71.9652, -736.9568, -78.67108, -734.7215, -81.27893, -732.4862, -82.396576, -730.25085, -82.396576, -717.9568, -75.318146, -710.87836, -72.33775, -710.87836, -61.90638, -713.8587, -60.78873, -715.7215, -51.847557, -714.6038, -47.37697, -714.9764, -45.51422, -716.094, -43.27893, -719.8195, -42.90638, -729.13324, -44.024025, -733.6038, -46.25932, -735.8391, -51.10246, -736.9568, -51.475006, -742.1724, -54.4554, -747.01556, -57.43579, -748.13324)
+
+[node name="Actors_Detail_11_-6_CollisionBody" type="StaticBody2D" parent="." unique_id=600039295]
+collision_layer = 2
+metadata/source_path = "Actors/Detail_11_-6/CollisionBody"
+metadata/science_gate = false
+
+[node name="@CollisionPolygon2D@73" type="CollisionPolygon2D" parent="Actors_Detail_11_-6_CollisionBody" unique_id=1095899679]
+polygon = PackedVector2Array(250.12695, -481.88748, 248.1785, -481.60913, 243.44655, -479.38232, 239.54964, -475.76376, 239.27129, -474.0937, 237.87953, -472.1452, 237.60118, -461.84625, 242.6115, -458.7844, 251.5187, -455.72253, 253.18881, -455.72253, 259.03418, -457.671, 267.66302, -461.5679, 268.77643, -462.95966, 268.77643, -469.36172, 267.9414, -472.9803, 263.76614, -476.59882, 261.261, -477.43387, 260.98264, -478.82562, 259.86923, -479.93903, 253.74551, -482.16583)
+
+[node name="Actors_Detail_32_2_CollisionBody" type="StaticBody2D" parent="." unique_id=643245782]
+metadata/source_path = "Actors/Detail_32_2/CollisionBody"
+metadata/science_gate = false
+
+[node name="@CollisionPolygon2D@74" type="CollisionPolygon2D" parent="Actors_Detail_32_2_CollisionBody" unique_id=808071500]
+polygon = PackedVector2Array(692.74524, -46.84517, 691.984, -44.74041, 689.8163, -42.95608, 686.5721, -41.763832, 682.74524, -41.34517, 678.9184, -41.763832, 675.6742, -42.95608, 673.5065, -44.74041, 672.74524, -46.84517, 673.5065, -48.94993, 675.6742, -50.734257, 678.9184, -51.926506, 682.74524, -52.34517, 686.5721, -51.926506, 689.8163, -50.734257, 691.984, -48.94993)
+
+[node name="Actors_Detail_33_5_CollisionBody" type="StaticBody2D" parent="." unique_id=1992042516]
+collision_layer = 2
+metadata/source_path = "Actors/Detail_33_5/CollisionBody"
+metadata/science_gate = false
+
+[node name="@CollisionPolygon2D@75" type="CollisionPolygon2D" parent="Actors_Detail_33_5_CollisionBody" unique_id=1655837907]
+polygon = PackedVector2Array(687.1557, -201.66788, 680.4753, -198.88437, 677.1351, -195.82251, 675.46497, -191.64725, 675.18665, -181.62663, 676.30005, -180.51323, 681.5887, -178.00809, 689.1042, -175.50293, 692.166, -175.50293, 697.45465, -177.45139, 704.97015, -181.90498, 705.52686, -183.29674, 705.2485, -191.3689, 702.46497, -195.54416, 698.28973, -197.49261, 696.6196, -199.99777, 692.166, -201.66788)
+
+[node name="Actors_Detail_39_-3_CollisionBody" type="StaticBody2D" parent="." unique_id=1249884036]
+metadata/source_path = "Actors/Detail_39_-3/CollisionBody"
+metadata/science_gate = false
+
+[node name="@CollisionPolygon2D@76" type="CollisionPolygon2D" parent="Actors_Detail_39_-3_CollisionBody" unique_id=782881737]
+polygon = PackedVector2Array(620.7179, 237.56487, 620.07086, 239.35391, 618.22833, 240.87059, 615.4707, 241.884, 612.2179, 242.23987, 608.9651, 241.884, 606.20746, 240.87059, 604.3649, 239.35391, 603.7179, 237.56487, 604.3649, 235.77582, 606.20746, 234.25914, 608.9651, 233.24573, 612.2179, 232.88986, 615.4707, 233.24573, 618.22833, 234.25914, 620.07086, 235.77582)
+
+[node name="Actors_Detail_42_-3_CollisionBody" type="StaticBody2D" parent="." unique_id=1031645553]
+metadata/source_path = "Actors/Detail_42_-3/CollisionBody"
+metadata/science_gate = false
+
+[node name="@CollisionPolygon2D@77" type="CollisionPolygon2D" parent="Actors_Detail_42_-3_CollisionBody" unique_id=74743299]
+polygon = PackedVector2Array(641.2505, 269.12082, 640.60345, 270.90985, 638.7609, 272.42654, 636.0033, 273.43994, 632.7505, 273.7958, 629.4977, 273.43994, 626.74005, 272.42654, 624.8975, 270.90985, 624.2505, 269.12082, 624.8975, 267.3318, 626.74005, 265.8151, 629.4977, 264.8017, 632.7505, 264.44583, 636.0033, 264.8017, 638.7609, 265.8151, 640.60345, 267.3318)
+
+[node name="Actors_Detail_45_-4_CollisionBody" type="StaticBody2D" parent="." unique_id=597825997]
+collision_layer = 2
+metadata/source_path = "Actors/Detail_45_-4/CollisionBody"
+metadata/science_gate = false
+
+[node name="@CollisionPolygon2D@78" type="CollisionPolygon2D" parent="Actors_Detail_45_-4_CollisionBody" unique_id=461979159]
+polygon = PackedVector2Array(681.4471, 488.31784, 674.20996, 491.3797, 671.14813, 494.44153, 669.478, 500.00854, 669.478, 508.63742, 673.65326, 511.14258, 683.1172, 514.4828, 688.4058, 513.6477, 699.26154, 508.63742, 700.37494, 507.24567, 700.37494, 499.7302, 699.53986, 497.5034, 696.19965, 494.44153, 692.85944, 492.77142, 691.4677, 490.54465, 685.6224, 488.31784)
+
+[node name="Actors_Detail_45_2_CollisionBody" type="StaticBody2D" parent="." unique_id=1955375932]
+collision_layer = 2
+metadata/source_path = "Actors/Detail_45_2/CollisionBody"
+metadata/science_gate = false
+
+[node name="@CollisionPolygon2D@79" type="CollisionPolygon2D" parent="Actors_Detail_45_2_CollisionBody" unique_id=1520296614]
+polygon = PackedVector2Array(880.23834, 223.24551, 878.2899, 223.52386, 873.5579, 225.75067, 869.9394, 228.81252, 868.2693, 232.98778, 867.9909, 242.45169, 869.661, 244.6785, 874.1146, 246.9053, 881.6301, 249.41046, 884.69196, 249.41046, 889.7023, 247.462, 896.3827, 243.28674, 896.9394, 242.45169, 896.9394, 232.98778, 894.7126, 229.36922, 891.094, 227.42076, 889.9806, 225.19397, 886.91876, 223.52386, 884.13525, 222.96716)
+
+[node name="Actors_Detail_45_5_CollisionBody" type="StaticBody2D" parent="." unique_id=279690393]
+metadata/source_path = "Actors/Detail_45_5/CollisionBody"
+metadata/science_gate = false
+
+[node name="@CollisionPolygon2D@80" type="CollisionPolygon2D" parent="Actors_Detail_45_5_CollisionBody" unique_id=1484331158]
+polygon = PackedVector2Array(955.73627, 200.83182, 954.97504, 202.93657, 952.8073, 204.7209, 949.5631, 205.91316, 945.73627, 206.33182, 941.9094, 205.91316, 938.6652, 204.7209, 936.4975, 202.93657, 935.73627, 200.83182, 936.4975, 198.72707, 938.6652, 196.94273, 941.9094, 195.75047, 945.73627, 195.33182, 949.5631, 195.75047, 952.8073, 196.94273, 954.97504, 198.72707)
+
+[node name="Actors_Detail_42_33_CollisionBody" type="StaticBody2D" parent="." unique_id=1444335930]
+collision_layer = 2
+metadata/source_path = "Actors/Detail_42_33/CollisionBody"
+metadata/science_gate = false
+
+[node name="@CollisionPolygon2D@81" type="CollisionPolygon2D" parent="Actors_Detail_42_33_CollisionBody" unique_id=47848452]
+polygon = PackedVector2Array(271.9986, 448.5589, 266.65485, 450.8089, 261.8736, 454.46515, 260.1861, 459.52765, 259.90485, 468.2464, 260.46735, 469.09015, 263.5611, 471.0589, 273.40485, 474.71515, 279.59235, 473.3089, 288.8736, 469.09015, 290.5611, 467.1214, 290.27985, 458.96515, 289.15485, 456.4339, 285.77985, 453.90265, 283.52985, 453.0589, 282.1236, 450.8089, 279.8736, 449.6839, 275.09235, 448.27765)
+
+[node name="Actors_Detail_48_19_CollisionBody" type="StaticBody2D" parent="." unique_id=498589503]
+collision_layer = 2
+metadata/source_path = "Actors/Detail_48_19/CollisionBody"
+metadata/science_gate = false
+
+[node name="@CollisionPolygon2D@82" type="CollisionPolygon2D" parent="Actors_Detail_48_19_CollisionBody" unique_id=2003575416]
+polygon = PackedVector2Array(-147.82507, 429.231, -153.78586, 431.09375, -156.02116, 433.7016, -156.76625, 440.0349, -163.47214, 442.2702, -166.07999, 444.5055, -167.19763, 446.7408, -167.19763, 459.0349, -160.1192, 466.11334, -157.13881, 466.11334, -146.70743, 463.13297, -145.58978, 461.2702, -136.6486, 462.38788, -132.17802, 462.01532, -130.31528, 460.89767, -128.07999, 457.17218, -127.70743, 447.85846, -128.82507, 443.38785, -131.06038, 441.15256, -135.9035, 440.0349, -136.27606, 434.81924, -139.25645, 429.9761, -142.23685, 428.85846)
+
+[node name="Actors_Detail_50_36_CollisionBody" type="StaticBody2D" parent="." unique_id=1871990734]
+collision_layer = 2
+metadata/source_path = "Actors/Detail_50_36/CollisionBody"
+metadata/science_gate = false
+
+[node name="@CollisionPolygon2D@83" type="CollisionPolygon2D" parent="Actors_Detail_50_36_CollisionBody" unique_id=170664727]
+polygon = PackedVector2Array(274.67084, 637.01117, 272.72238, 637.28955, 267.99042, 639.51636, 264.09354, 643.1349, 263.8152, 644.805, 262.42343, 646.7535, 262.14508, 657.0524, 267.15536, 660.11426, 276.0626, 663.17615, 277.7327, 663.17615, 283.57806, 661.22766, 292.2069, 657.33075, 293.3203, 655.939, 293.3203, 649.537, 292.4853, 645.9184, 288.31003, 642.29987, 285.80487, 641.4648, 285.52652, 640.07306, 284.41312, 638.95966, 278.2894, 636.73285)
+
+[node name="Actors_Detail_52_20_CollisionBody" type="StaticBody2D" parent="." unique_id=1589490540]
+metadata/source_path = "Actors/Detail_52_20/CollisionBody"
+metadata/science_gate = false
+
+[node name="@CollisionPolygon2D@84" type="CollisionPolygon2D" parent="Actors_Detail_52_20_CollisionBody" unique_id=734751365]
+polygon = PackedVector2Array(-49.416756, 385.6529, -50.06378, 387.44193, -51.90635, 388.95862, -54.663948, 389.97202, -57.916756, 390.32788, -61.169563, 389.97202, -63.927162, 388.95862, -65.76973, 387.44193, -66.416756, 385.6529, -65.76973, 383.86386, -63.927162, 382.34717, -61.169563, 381.33377, -57.916756, 380.9779, -54.663948, 381.33377, -51.90635, 382.34717, -50.06378, 383.86386)
+
+[node name="Actors_Detail_53_36_CollisionBody" type="StaticBody2D" parent="." unique_id=529707927]
+metadata/source_path = "Actors/Detail_53_36/CollisionBody"
+metadata/science_gate = false
+
+[node name="@CollisionPolygon2D@85" type="CollisionPolygon2D" parent="Actors_Detail_53_36_CollisionBody" unique_id=1406078654]
+polygon = PackedVector2Array(-50.958477, 354.21503, -51.71968, 356.3198, -53.88741, 358.10413, -57.13164, 359.29636, -60.958477, 359.71503, -64.78531, 359.29636, -68.02954, 358.10413, -70.19727, 356.3198, -70.95848, 354.21503, -70.19727, 352.11026, -68.02954, 350.32593, -64.78531, 349.1337, -60.958477, 348.71503, -57.13164, 349.1337, -53.88741, 350.32593, -51.71968, 352.11026)
+
+[node name="Actors_Detail_54_23_CollisionBody" type="StaticBody2D" parent="." unique_id=1555380349]
+collision_layer = 2
+metadata/source_path = "Actors/Detail_54_23/CollisionBody"
+metadata/science_gate = false
+
+[node name="@CollisionPolygon2D@86" type="CollisionPolygon2D" parent="Actors_Detail_54_23_CollisionBody" unique_id=247700094]
+polygon = PackedVector2Array(-131.9354, 495.75247, -138.61581, 498.53598, -141.95601, 501.59784, -143.62611, 505.77307, -143.90446, 515.7937, -142.79106, 516.9071, -137.50241, 519.41223, -129.98694, 521.9174, -126.92509, 521.9174, -121.63643, 519.96893, -114.120964, 515.5154, -113.56426, 514.1236, -113.84261, 506.05142, -116.62612, 501.87616, -120.80138, 499.92773, -122.47148, 497.42258, -126.92509, 495.75247)
+
+[node name="Actors_Detail_67_28_CollisionBody" type="StaticBody2D" parent="." unique_id=271998152]
+metadata/source_path = "Actors/Detail_67_28/CollisionBody"
+metadata/science_gate = false
+
+[node name="@CollisionPolygon2D@87" type="CollisionPolygon2D" parent="Actors_Detail_67_28_CollisionBody" unique_id=1788589872]
+polygon = PackedVector2Array(-639.5944, 116.99693, -640.24146, 118.78598, -642.084, 120.30266, -644.8416, 121.31607, -648.0944, 121.671936, -651.3472, 121.31607, -654.10486, 120.30266, -655.9474, 118.78598, -656.5944, 116.99693, -655.9474, 115.207886, -654.10486, 113.69121, -651.3472, 112.677795, -648.0944, 112.32193, -644.8416, 112.677795, -642.084, 113.69121, -640.24146, 115.207886)
+
+[node name="Actors_Detail_67_31_CollisionBody" type="StaticBody2D" parent="." unique_id=1346851855]
+metadata/source_path = "Actors/Detail_67_31/CollisionBody"
+metadata/science_gate = false
+
+[node name="@CollisionPolygon2D@88" type="CollisionPolygon2D" parent="Actors_Detail_67_31_CollisionBody" unique_id=637297215]
+polygon = PackedVector2Array(-668.19556, 91.25456, -668.9568, 93.35932, -671.1245, 95.14365, -674.3687, 96.3359, -678.19556, 96.75456, -682.0224, 96.3359, -685.2666, 95.14365, -687.4343, 93.35932, -688.19556, 91.25456, -687.4343, 89.1498, -685.2666, 87.36548, -682.0224, 86.173225, -678.19556, 85.75456, -674.3687, 86.173225, -671.1245, 87.36548, -668.9568, 89.1498)
+
+[node name="Actors_Detail_68_21_CollisionBody" type="StaticBody2D" parent="." unique_id=1712681325]
+collision_layer = 2
+metadata/source_path = "Actors/Detail_68_21/CollisionBody"
+metadata/science_gate = false
+
+[node name="@CollisionPolygon2D@89" type="CollisionPolygon2D" parent="Actors_Detail_68_21_CollisionBody" unique_id=930166311]
+polygon = PackedVector2Array(-619.5344, 137.21558, -626.77155, 140.27742, -629.8334, 143.33928, -631.5035, 148.90628, -631.5035, 157.53516, -627.32825, 160.04031, -617.8643, 163.38051, -612.5757, 162.54547, -601.72, 157.53516, -600.60657, 156.1434, -600.60657, 148.62793, -601.44165, 146.40114, -604.78186, 143.33928, -608.1221, 141.66917, -609.5138, 139.44237, -615.35913, 137.21558)
+
+[node name="Actors_Detail_70_24_CollisionBody" type="StaticBody2D" parent="." unique_id=1973392604]
+metadata/source_path = "Actors/Detail_70_24/CollisionBody"
+metadata/science_gate = false
+
+[node name="@CollisionPolygon2D@90" type="CollisionPolygon2D" parent="Actors_Detail_70_24_CollisionBody" unique_id=1211767186]
+polygon = PackedVector2Array(-578.80566, 102.01007, -579.5669, 104.11483, -581.7346, 105.899155, -584.9788, 107.09141, -588.80566, 107.51007, -592.6325, 107.09141, -595.8767, 105.899155, -598.04443, 104.11483, -598.80566, 102.01007, -598.04443, 99.90531, -595.8767, 98.12099, -592.6325, 96.928734, -588.80566, 96.51007, -584.9788, 96.928734, -581.7346, 98.12099, -579.5669, 99.90531)
+
+[node name="Actors_Detail_71_35_CollisionBody" type="StaticBody2D" parent="." unique_id=833079705]
+collision_layer = 2
+metadata/source_path = "Actors/Detail_71_35/CollisionBody"
+metadata/science_gate = false
+
+[node name="@CollisionPolygon2D@91" type="CollisionPolygon2D" parent="Actors_Detail_71_35_CollisionBody" unique_id=132290274]
+polygon = PackedVector2Array(-687.98047, 359.36014, -689.9289, 359.6385, -694.6609, 361.8653, -698.2794, 364.92715, -699.9495, 369.10242, -700.2279, 378.5663, -698.5578, 380.79312, -694.1042, 383.01993, -686.5887, 385.5251, -683.52686, 385.5251, -678.51654, 383.57663, -671.8361, 379.40137, -671.2794, 378.5663, -671.2794, 369.10242, -673.5062, 365.48386, -677.1248, 363.5354, -678.2382, 361.3086, -681.30005, 359.6385, -684.08356, 359.0818)
+
+[node name="Actors_Detail_73_31_CollisionBody" type="StaticBody2D" parent="." unique_id=1825400224]
+metadata/source_path = "Actors/Detail_73_31/CollisionBody"
+metadata/science_gate = false
+
+[node name="@CollisionPolygon2D@92" type="CollisionPolygon2D" parent="Actors_Detail_73_31_CollisionBody" unique_id=259866609]
+polygon = PackedVector2Array(-991.647, 90.971466, -992.4082, 93.076225, -994.5759, 94.86055, -997.8201, 96.0528, -1001.647, 96.471466, -1005.4738, 96.0528, -1008.718, 94.86055, -1010.88574, 93.076225, -1011.647, 90.971466, -1010.88574, 88.86671, -1008.718, 87.08238, -1005.4738, 85.89013, -1001.647, 85.471466, -997.8201, 85.89013, -994.5759, 87.08238, -992.4082, 88.86671)
+
+[node name="Actors_Detail_76_24_CollisionBody" type="StaticBody2D" parent="." unique_id=1988890997]
+collision_layer = 2
+metadata/source_path = "Actors/Detail_76_24/CollisionBody"
+metadata/science_gate = false
+
+[node name="@CollisionPolygon2D@93" type="CollisionPolygon2D" parent="Actors_Detail_76_24_CollisionBody" unique_id=244199785]
+polygon = PackedVector2Array(-656.9556, 226.83902, -662.2994, 229.08902, -667.0806, 232.74527, -668.7681, 237.80777, -669.0494, 246.52652, -668.4869, 247.37027, -665.3931, 249.33902, -655.5494, 252.99527, -649.3619, 251.58902, -640.0806, 247.37027, -638.3931, 245.40152, -638.6744, 237.24527, -639.7994, 234.71402, -643.1744, 232.18277, -645.4244, 231.33902, -646.8306, 229.08902, -649.0806, 227.96402, -653.8619, 226.55777)
+
+[node name="Actors_Detail_76_32_CollisionBody" type="StaticBody2D" parent="." unique_id=59722549]
+metadata/source_path = "Actors/Detail_76_32/CollisionBody"
+metadata/science_gate = false
+
+[node name="@CollisionPolygon2D@94" type="CollisionPolygon2D" parent="Actors_Detail_76_32_CollisionBody" unique_id=1311623074]
+polygon = PackedVector2Array(-1025.4426, 312.1026, -1026.0896, 313.89163, -1027.9323, 315.40833, -1030.6898, 316.42172, -1033.9426, 316.7776, -1037.1954, 316.42172, -1039.953, 315.40833, -1041.7957, 313.89163, -1042.4426, 312.1026, -1041.7957, 310.31357, -1039.953, 308.79688, -1037.1954, 307.78348, -1033.9426, 307.4276, -1030.6898, 307.78348, -1027.9323, 308.79688, -1026.0896, 310.31357)
+
+[node name="Actors_Detail_76_34_CollisionBody" type="StaticBody2D" parent="." unique_id=2130510756]
+metadata/source_path = "Actors/Detail_76_34/CollisionBody"
+metadata/science_gate = false
+
+[node name="@CollisionPolygon2D@95" type="CollisionPolygon2D" parent="Actors_Detail_76_34_CollisionBody" unique_id=860677687]
+polygon = PackedVector2Array(-695.4754, 351.78522, -696.23663, 353.88998, -698.40436, 355.67432, -701.64856, 356.86655, -705.4754, 357.28522, -709.30225, 356.86655, -712.54645, 355.67432, -714.7142, 353.88998, -715.4754, 351.78522, -714.7142, 349.68045, -712.54645, 347.89612, -709.30225, 346.7039, -705.4754, 346.28522, -701.64856, 346.7039, -698.40436, 347.89612, -696.23663, 349.68045)
+
+[node name="Actors_Detail_79_25_CollisionBody" type="StaticBody2D" parent="." unique_id=1339869860]
+collision_layer = 2
+metadata/source_path = "Actors/Detail_79_25/CollisionBody"
+metadata/science_gate = false
+
+[node name="@CollisionPolygon2D@96" type="CollisionPolygon2D" parent="Actors_Detail_79_25_CollisionBody" unique_id=1535740639]
+polygon = PackedVector2Array(-723.8312, 88.57135, -729.79193, 90.43409, -732.0272, 93.04193, -732.77234, 99.37527, -739.4782, 101.610565, -742.08606, 103.845856, -743.2037, 106.08115, -743.2037, 118.37527, -736.12524, 125.4537, -733.1449, 125.4537, -722.7135, 122.473305, -721.5959, 120.61056, -712.65466, 121.72821, -708.1841, 121.35566, -706.32135, 120.238014, -704.08606, 116.51252, -703.7135, 107.19879, -704.8312, 102.72821, -707.06647, 100.49291, -711.9096, 99.37527, -712.2821, 94.15958, -715.2625, 89.316444, -718.2429, 88.19879)
+
+[node name="Actors_Detail_80_30_CollisionBody" type="StaticBody2D" parent="." unique_id=1681407806]
+metadata/source_path = "Actors/Detail_80_30/CollisionBody"
+metadata/science_gate = false
+
+[node name="@CollisionPolygon2D@97" type="CollisionPolygon2D" parent="Actors_Detail_80_30_CollisionBody" unique_id=446490860]
+polygon = PackedVector2Array(-1017.7494, 211.51268, -1018.5106, 213.61743, -1020.67834, 215.40176, -1023.92255, 216.59402, -1027.7494, 217.01268, -1031.5762, 216.59402, -1034.8204, 215.40176, -1036.9882, 213.61743, -1037.7494, 211.51268, -1036.9882, 209.40793, -1034.8204, 207.6236, -1031.5762, 206.43134, -1027.7494, 206.01268, -1023.92255, 206.43134, -1020.67834, 207.6236, -1018.5106, 209.40793)
+
+[node name="Actors_Detail_81_24_CollisionBody" type="StaticBody2D" parent="." unique_id=1561206236]
+metadata/source_path = "Actors/Detail_81_24/CollisionBody"
+metadata/science_gate = false
+
+[node name="@CollisionPolygon2D@98" type="CollisionPolygon2D" parent="Actors_Detail_81_24_CollisionBody" unique_id=38673290]
+polygon = PackedVector2Array(-557.5916, 166.91258, -558.23865, 168.70163, -560.0812, 170.2183, -562.8388, 171.23172, -566.0916, 171.58759, -569.3444, 171.23172, -572.10205, 170.2183, -573.9446, 168.70163, -574.5916, 166.91258, -573.9446, 165.12354, -572.10205, 163.60686, -569.3444, 162.59344, -566.0916, 162.23758, -562.8388, 162.59344, -560.0812, 163.60686, -558.23865, 165.12354)
+
+[node name="Actors_LowLog_LowCollision" type="StaticBody2D" parent="." unique_id=1127133640]
+collision_layer = 2
+collision_mask = 0
+metadata/source_path = "Actors/LowLog/LowCollision"
+metadata/science_gate = false
+
+[node name="@CollisionPolygon2D@99" type="CollisionPolygon2D" parent="Actors_LowLog_LowCollision" unique_id=1916504018]
+polygon = PackedVector2Array(-263.2185, -486.1496, -249.57701, -489.29758, -271.1635, -582.8392, -284.80502, -579.69116)
+
+[node name="Actors_AlpinePlant_000_young_fir_SolidPlantBody" type="StaticBody2D" parent="." unique_id=1177794546]
+metadata/source_path = "Actors/AlpinePlant_000_young_fir/SolidPlantBody"
+metadata/science_gate = false
+
+[node name="@CollisionPolygon2D@100" type="CollisionPolygon2D" parent="Actors_AlpinePlant_000_young_fir_SolidPlantBody" unique_id=384895623]
+polygon = PackedVector2Array(-387.36386, -197.90054, -387.8206, -196.6377, -389.12122, -195.5671, -391.06775, -194.85175, -393.36386, -194.60054, -395.65997, -194.85175, -397.6065, -195.5671, -398.90714, -196.6377, -399.36386, -197.90054, -398.90714, -199.16339, -397.6065, -200.234, -395.65997, -200.94934, -393.36386, -201.20055, -391.06775, -200.94934, -389.12122, -200.234, -387.8206, -199.16339)
+
+[node name="Actors_AlpinePlant_001_young_fir_SolidPlantBody" type="StaticBody2D" parent="." unique_id=2073761070]
+metadata/source_path = "Actors/AlpinePlant_001_young_fir/SolidPlantBody"
+metadata/science_gate = false
+
+[node name="@CollisionPolygon2D@101" type="CollisionPolygon2D" parent="Actors_AlpinePlant_001_young_fir_SolidPlantBody" unique_id=269427129]
+polygon = PackedVector2Array(-442.13434, -301.70892, -442.59106, -300.44608, -443.8917, -299.37546, -445.83823, -298.66013, -448.13434, -298.40894, -450.43045, -298.66013, -452.37698, -299.37546, -453.6776, -300.44608, -454.13434, -301.70892, -453.6776, -302.97177, -452.37698, -304.0424, -450.43045, -304.75772, -448.13434, -305.0089, -445.83823, -304.75772, -443.8917, -304.0424, -442.59106, -302.97177)
+
+[node name="Actors_AlpinePlant_003_snow_heather_SolidPlantBody" type="StaticBody2D" parent="." unique_id=2053278183]
+collision_layer = 2
+metadata/source_path = "Actors/AlpinePlant_003_snow_heather/SolidPlantBody"
+metadata/science_gate = false
+
+[node name="@CollisionPolygon2D@102" type="CollisionPolygon2D" parent="Actors_AlpinePlant_003_snow_heather_SolidPlantBody" unique_id=594661780]
+polygon = PackedVector2Array(-288.5204, -226.41702, -289.3285, -226.41702, -291.14667, -225.20491, -293.3689, -225.00288, -294.98505, -223.99278, -296.3992, -222.1746, -298.82343, -221.56854, -300.6416, -219.75037, -301.6517, -217.73016, -301.24768, -214.0938, -299.4295, -211.87157, -297.81332, -211.06349, -296.3992, -211.06349, -295.5911, -210.2554, -293.3689, -209.85136, -291.95474, -207.62915, -290.3386, -207.02309, -287.91434, -207.02309, -285.89413, -207.83116, -283.26788, -210.2554, -281.85373, -212.88167, -280.84363, -218.94228, -280.84363, -221.36652, -282.45978, -224.59885, -283.26788, -225.20491, -285.2881, -225.20491, -286.7022, -226.41702)
+
+[node name="Actors_AlpinePlant_004_frost_reeds_SolidPlantBody" type="StaticBody2D" parent="." unique_id=1229936193]
+collision_layer = 2
+metadata/source_path = "Actors/AlpinePlant_004_frost_reeds/SolidPlantBody"
+metadata/science_gate = false
+
+[node name="@CollisionPolygon2D@103" type="CollisionPolygon2D" parent="Actors_AlpinePlant_004_frost_reeds_SolidPlantBody" unique_id=579018756]
+polygon = PackedVector2Array(-341.84747, -379.29288, -342.6763, -378.67126, -343.09073, -377.01358, -342.8835, -374.1127, -342.0547, -372.45505, -343.50513, -373.28387, -344.54117, -373.28387, -345.78442, -371.62622, -345.78442, -368.93253, -344.54117, -367.27484, -344.12677, -362.30188, -343.29794, -362.09467, -343.09073, -360.2298, -342.6763, -359.6082, -342.0547, -359.6082, -341.43307, -360.0226, -341.43307, -363.33792, -340.81143, -363.33792, -340.39703, -359.40097, -338.11777, -358.77936, -337.91055, -361.47305, -337.08173, -362.5091, -336.0457, -361.47305, -335.83847, -356.9145, -334.80243, -356.9145, -334.38803, -357.32892, -334.18082, -361.05865, -333.7664, -361.05865, -333.7664, -359.1938, -333.14478, -358.57214, -332.10873, -358.77936, -331.90155, -359.8154, -330.8655, -360.437, -330.24387, -365.6172, -329.00064, -368.31088, -329.20786, -371.419, -330.45108, -372.24783, -330.8655, -374.7343, -331.69434, -375.77036, -333.14478, -375.14874, -333.7664, -372.66223, -334.38803, -372.66223, -334.38803, -375.35593, -335.42407, -377.01358, -336.0457, -377.01358, -337.2889, -375.14874, -337.91055, -375.77036, -338.73938, -375.77036, -339.5682, -374.94153, -339.77542, -378.25684, -340.81143, -379.5001)
+
+[node name="Actors_AlpinePlant_006_mountain_pine_SolidPlantBody" type="StaticBody2D" parent="." unique_id=744016675]
+metadata/source_path = "Actors/AlpinePlant_006_mountain_pine/SolidPlantBody"
+metadata/science_gate = false
+
+[node name="@CollisionPolygon2D@104" type="CollisionPolygon2D" parent="Actors_AlpinePlant_006_mountain_pine_SolidPlantBody" unique_id=776115210]
+polygon = PackedVector2Array(-381.18945, -300.68408, -381.8365, -298.89505, -383.67905, -297.37836, -386.43665, -296.36496, -389.68945, -296.0091, -392.94226, -296.36496, -395.69986, -297.37836, -397.54242, -298.89505, -398.18945, -300.68408, -397.54242, -302.4731, -395.69986, -303.9898, -392.94226, -305.0032, -389.68945, -305.35907, -386.43665, -305.0032, -383.67905, -303.9898, -381.8365, -302.4731)
+
+[node name="Actors_AlpinePlant_007_snow_heather_SolidPlantBody" type="StaticBody2D" parent="." unique_id=1136146147]
+collision_layer = 2
+metadata/source_path = "Actors/AlpinePlant_007_snow_heather/SolidPlantBody"
+metadata/science_gate = false
+
+[node name="@CollisionPolygon2D@105" type="CollisionPolygon2D" parent="Actors_AlpinePlant_007_snow_heather_SolidPlantBody" unique_id=240453845]
+polygon = PackedVector2Array(-539.99097, -328.85568, -540.7991, -328.85568, -542.61725, -327.64355, -544.8395, -327.44153, -546.4556, -326.43146, -547.86975, -324.61325, -550.294, -324.0072, -552.1122, -322.18903, -553.1223, -320.16882, -552.71826, -316.53244, -550.9001, -314.31024, -549.28394, -313.50214, -547.86975, -313.50214, -547.0617, -312.69406, -544.8395, -312.29004, -543.4253, -310.0678, -541.80914, -309.46173, -539.38495, -309.46173, -537.36475, -310.26984, -534.73846, -312.69406, -533.32434, -315.32034, -532.3142, -321.38095, -532.3142, -323.80518, -533.93036, -327.0375, -534.73846, -327.64355, -536.75867, -327.64355, -538.1728, -328.85568)
+
+[node name="Actors_AlpinePlant_009_winter_fern_SolidPlantBody" type="StaticBody2D" parent="." unique_id=599654111]
+collision_layer = 2
+metadata/source_path = "Actors/AlpinePlant_009_winter_fern/SolidPlantBody"
+metadata/science_gate = false
+
+[node name="@CollisionPolygon2D@106" type="CollisionPolygon2D" parent="Actors_AlpinePlant_009_winter_fern_SolidPlantBody" unique_id=1390400084]
+polygon = PackedVector2Array(-196.56114, -188.79616, -197.67226, -188.12949, -199.56114, -187.90726, -200.89447, -186.46281, -202.33893, -186.12949, -204.00558, -184.01837, -203.45003, -181.35172, -199.56114, -179.68504, -198.00558, -178.12949, -195.78337, -178.35172, -193.67226, -180.12949, -192.45003, -185.01837, -192.67226, -186.79616, -193.56114, -188.01837, -195.1167, -188.90726)
+
+[node name="Actors_AlpinePlant_010_frost_reeds_SolidPlantBody" type="StaticBody2D" parent="." unique_id=544723264]
+collision_layer = 2
+metadata/source_path = "Actors/AlpinePlant_010_frost_reeds/SolidPlantBody"
+metadata/science_gate = false
+
+[node name="@CollisionPolygon2D@107" type="CollisionPolygon2D" parent="Actors_AlpinePlant_010_frost_reeds_SolidPlantBody" unique_id=734078511]
+polygon = PackedVector2Array(-265.65042, -340.25916, -266.47925, -339.63754, -266.89368, -337.97986, -266.68646, -335.07898, -265.85764, -333.42133, -267.30807, -334.25015, -268.34412, -334.25015, -269.58737, -332.5925, -269.58737, -329.8988, -268.34412, -328.24115, -267.92972, -323.26816, -267.1009, -323.06094, -266.89368, -321.1961, -266.47925, -320.57446, -265.85764, -320.57446, -265.23602, -320.9889, -265.23602, -324.3042, -264.61438, -324.3042, -264.19998, -320.36725, -261.92072, -319.74564, -261.7135, -322.43933, -260.88467, -323.47537, -259.84863, -322.43933, -259.64142, -317.88077, -258.60538, -317.88077, -258.19098, -318.2952, -257.98376, -322.0249, -257.56934, -322.0249, -257.56934, -320.16006, -256.94772, -319.53842, -255.9117, -319.74564, -255.70448, -320.78168, -254.66844, -321.4033, -254.04683, -326.58347, -252.80359, -329.27716, -253.01079, -332.38528, -254.25403, -333.2141, -254.66844, -335.7006, -255.49728, -336.73663, -256.94772, -336.11502, -257.56934, -333.6285, -258.19098, -333.6285, -258.19098, -336.3222, -259.22702, -337.97986, -259.84863, -337.97986, -261.09186, -336.11502, -261.7135, -336.73663, -262.54233, -336.73663, -263.37115, -335.9078, -263.57837, -339.2231, -264.61438, -340.46637)
+
+[node name="Actors_AlpinePlant_012_mountain_pine_SolidPlantBody" type="StaticBody2D" parent="." unique_id=593101810]
+metadata/source_path = "Actors/AlpinePlant_012_mountain_pine/SolidPlantBody"
+metadata/science_gate = false
+
+[node name="@CollisionPolygon2D@108" type="CollisionPolygon2D" parent="Actors_AlpinePlant_012_mountain_pine_SolidPlantBody" unique_id=1429720316]
+polygon = PackedVector2Array(-723.53296, -444.27386, -724.18, -442.48483, -726.0225, -440.96814, -728.78015, -439.95474, -732.03296, -439.59888, -735.28577, -439.95474, -738.0434, -440.96814, -739.8859, -442.48483, -740.53296, -444.27386, -739.8859, -446.0629, -738.0434, -447.5796, -735.28577, -448.593, -732.03296, -448.94885, -728.78015, -448.593, -726.0225, -447.5796, -724.18, -446.0629)
+
+[node name="Actors_AlpinePlant_013_young_fir_SolidPlantBody" type="StaticBody2D" parent="." unique_id=1201802368]
+metadata/source_path = "Actors/AlpinePlant_013_young_fir/SolidPlantBody"
+metadata/science_gate = false
+
+[node name="@CollisionPolygon2D@109" type="CollisionPolygon2D" parent="Actors_AlpinePlant_013_young_fir_SolidPlantBody" unique_id=1623234591]
+polygon = PackedVector2Array(-508.62457, -557.3588, -509.0813, -556.09595, -510.38193, -555.0254, -512.3285, -554.31, -514.6246, -554.05884, -516.92065, -554.31, -518.8672, -555.0254, -520.16785, -556.09595, -520.6246, -557.3588, -520.16785, -558.6217, -518.8672, -559.69226, -516.92065, -560.40765, -514.6246, -560.6588, -512.3285, -560.40765, -510.38193, -559.69226, -509.0813, -558.6217)
+
+[node name="Actors_AlpinePlant_015_mountain_pine_SolidPlantBody" type="StaticBody2D" parent="." unique_id=1502574439]
+metadata/source_path = "Actors/AlpinePlant_015_mountain_pine/SolidPlantBody"
+metadata/science_gate = false
+
+[node name="@CollisionPolygon2D@110" type="CollisionPolygon2D" parent="Actors_AlpinePlant_015_mountain_pine_SolidPlantBody" unique_id=1144404211]
+polygon = PackedVector2Array(-71.593346, 322.28137, -72.24037, 324.0704, -74.08294, 325.5871, -76.84054, 326.6005, -80.093346, 326.95636, -83.34615, 326.6005, -86.10375, 325.5871, -87.94632, 324.0704, -88.593346, 322.28137, -87.94632, 320.49234, -86.10375, 318.97565, -83.34615, 317.96225, -80.093346, 317.60638, -76.84054, 317.96225, -74.08294, 318.97565, -72.24037, 320.49234)
+
+[node name="Actors_AlpinePlant_016_mountain_pine_SolidPlantBody" type="StaticBody2D" parent="." unique_id=1304868704]
+metadata/source_path = "Actors/AlpinePlant_016_mountain_pine/SolidPlantBody"
+metadata/science_gate = false
+
+[node name="@CollisionPolygon2D@111" type="CollisionPolygon2D" parent="Actors_AlpinePlant_016_mountain_pine_SolidPlantBody" unique_id=1433955474]
+polygon = PackedVector2Array(-472.04987, -572.9396, -472.6969, -571.1505, -474.53946, -569.63385, -477.29706, -568.6204, -480.54987, -568.2646, -483.80267, -568.6204, -486.56027, -569.63385, -488.40283, -571.1505, -489.04987, -572.9396, -488.40283, -574.72864, -486.56027, -576.2453, -483.80267, -577.2587, -480.54987, -577.61456, -477.29706, -577.2587, -474.53946, -576.2453, -472.6969, -574.72864)
+
+[node name="Actors_AlpinePlant_018_winter_fern_SolidPlantBody" type="StaticBody2D" parent="." unique_id=1891270025]
+collision_layer = 2
+metadata/source_path = "Actors/AlpinePlant_018_winter_fern/SolidPlantBody"
+metadata/science_gate = false
+
+[node name="@CollisionPolygon2D@112" type="CollisionPolygon2D" parent="Actors_AlpinePlant_018_winter_fern_SolidPlantBody" unique_id=2104220938]
+polygon = PackedVector2Array(-468.16403, -539.7971, -469.27512, -539.13043, -471.16403, -538.9082, -472.49734, -537.4638, -473.9418, -537.13043, -475.60846, -535.01935, -475.05292, -532.35266, -471.16403, -530.686, -469.60846, -529.13043, -467.38623, -529.35266, -465.27512, -531.13043, -464.05292, -536.01935, -464.27512, -537.7971, -465.16403, -539.01935, -466.71957, -539.9082)
+
+[node name="Actors_AlpinePlant_019_winter_fern_SolidPlantBody" type="StaticBody2D" parent="." unique_id=207289487]
+collision_layer = 2
+metadata/source_path = "Actors/AlpinePlant_019_winter_fern/SolidPlantBody"
+metadata/science_gate = false
+
+[node name="@CollisionPolygon2D@113" type="CollisionPolygon2D" parent="Actors_AlpinePlant_019_winter_fern_SolidPlantBody" unique_id=229082460]
+polygon = PackedVector2Array(-381.82364, -437.85364, -382.93472, -437.18695, -384.82364, -436.96475, -386.15695, -435.5203, -387.6014, -435.18695, -389.26807, -433.07587, -388.71252, -430.40918, -384.82364, -428.74252, -383.26807, -427.18695, -381.04584, -427.40918, -378.93472, -429.18695, -377.71252, -434.07587, -377.93472, -435.85364, -378.82364, -437.07587, -380.37918, -437.96475)
+
+[node name="Actors_AlpinePlant_021_young_fir_SolidPlantBody" type="StaticBody2D" parent="." unique_id=1567202692]
+metadata/source_path = "Actors/AlpinePlant_021_young_fir/SolidPlantBody"
+metadata/science_gate = false
+
+[node name="@CollisionPolygon2D@114" type="CollisionPolygon2D" parent="Actors_AlpinePlant_021_young_fir_SolidPlantBody" unique_id=50326516]
+polygon = PackedVector2Array(-343.4039, -694.3761, -343.86063, -693.1132, -345.16125, -692.04266, -347.1078, -691.3273, -349.4039, -691.0761, -351.7, -691.3273, -353.64655, -692.04266, -354.94717, -693.1132, -355.4039, -694.3761, -354.94717, -695.639, -353.64655, -696.70953, -351.7, -697.4249, -349.4039, -697.6761, -347.1078, -697.4249, -345.16125, -696.70953, -343.86063, -695.639)
+
+[node name="Actors_AlpinePlant_022_frost_reeds_SolidPlantBody" type="StaticBody2D" parent="." unique_id=684526981]
+collision_layer = 2
+metadata/source_path = "Actors/AlpinePlant_022_frost_reeds/SolidPlantBody"
+metadata/science_gate = false
+
+[node name="@CollisionPolygon2D@115" type="CollisionPolygon2D" parent="Actors_AlpinePlant_022_frost_reeds_SolidPlantBody" unique_id=1611222830]
+polygon = PackedVector2Array(-66.042534, -427.33566, -66.87137, -426.71405, -67.28578, -425.05637, -67.078575, -422.1555, -66.24974, -420.49783, -67.700195, -421.32666, -68.73623, -421.32666, -69.97948, -419.669, -69.97948, -416.9753, -68.73623, -415.31763, -68.321815, -410.34467, -67.49299, -410.13745, -67.28578, -408.27258, -66.87137, -407.65097, -66.24974, -407.65097, -65.62812, -408.0654, -65.62812, -411.3807, -65.0065, -411.3807, -64.59209, -407.44376, -62.312805, -406.82214, -62.1056, -409.51584, -61.27677, -410.55188, -60.240734, -409.51584, -60.033527, -404.95728, -58.99749, -404.95728, -58.583076, -405.3717, -58.37587, -409.10144, -57.961456, -409.10144, -57.961456, -407.23657, -57.339832, -406.61493, -56.3038, -406.82214, -56.09659, -407.8582, -55.060555, -408.4798, -54.438934, -413.65997, -53.19569, -416.35367, -53.402897, -419.4618, -54.64614, -420.29062, -55.060555, -422.7771, -55.88938, -423.81314, -57.339832, -423.19153, -57.961456, -420.70502, -58.583076, -420.70502, -58.583076, -423.3987, -59.619114, -425.05637, -60.240734, -425.05637, -61.48398, -423.19153, -62.1056, -423.81314, -62.93443, -423.81314, -63.763256, -422.9843, -63.970463, -426.29962, -65.0065, -427.54288)
+
+[node name="Actors_AlpinePlant_024_mountain_pine_SolidPlantBody" type="StaticBody2D" parent="." unique_id=924457274]
+metadata/source_path = "Actors/AlpinePlant_024_mountain_pine/SolidPlantBody"
+metadata/science_gate = false
+
+[node name="@CollisionPolygon2D@116" type="CollisionPolygon2D" parent="Actors_AlpinePlant_024_mountain_pine_SolidPlantBody" unique_id=749079775]
+polygon = PackedVector2Array(-102.15436, -616.5681, -102.801384, -614.77905, -104.64395, -613.2624, -107.40155, -612.24896, -110.65436, -611.8931, -113.907166, -612.24896, -116.664764, -613.2624, -118.50733, -614.77905, -119.15436, -616.5681, -118.50733, -618.3572, -116.664764, -619.87384, -113.907166, -620.88727, -110.65436, -621.2431, -107.40155, -620.88727, -104.64395, -619.87384, -102.801384, -618.3572)
+
+[node name="Actors_AlpinePlant_025_snow_heather_SolidPlantBody" type="StaticBody2D" parent="." unique_id=1422007931]
+collision_layer = 2
+metadata/source_path = "Actors/AlpinePlant_025_snow_heather/SolidPlantBody"
+metadata/science_gate = false
+
+[node name="@CollisionPolygon2D@117" type="CollisionPolygon2D" parent="Actors_AlpinePlant_025_snow_heather_SolidPlantBody" unique_id=742320891]
+polygon = PackedVector2Array(-194.97914, -710.56885, -195.78722, -710.56885, -197.60541, -709.3567, -199.82762, -709.15466, -201.44379, -708.1446, -202.85793, -706.3264, -205.28217, -705.72034, -207.10036, -703.90216, -208.11046, -701.88196, -207.7064, -698.2456, -205.88823, -696.0234, -204.27206, -695.2153, -202.85793, -695.2153, -202.04985, -694.4072, -199.82762, -694.0032, -198.41348, -691.78094, -196.79732, -691.17487, -194.37308, -691.17487, -192.35287, -691.983, -189.72661, -694.4072, -188.31247, -697.03345, -187.30237, -703.09406, -187.30237, -705.5183, -188.91853, -708.7506, -189.72661, -709.3567, -191.74681, -709.3567, -193.16095, -710.56885)
+
+[node name="Actors_AlpinePlant_027_snow_heather_SolidPlantBody" type="StaticBody2D" parent="." unique_id=2088888429]
+collision_layer = 2
+metadata/source_path = "Actors/AlpinePlant_027_snow_heather/SolidPlantBody"
+metadata/science_gate = false
+
+[node name="@CollisionPolygon2D@118" type="CollisionPolygon2D" parent="Actors_AlpinePlant_027_snow_heather_SolidPlantBody" unique_id=2057696972]
+polygon = PackedVector2Array(-4.4409885, -437.95334, -5.249069, -437.95334, -7.067251, -436.7412, -9.289474, -436.53918, -10.905636, -435.5291, -12.319777, -433.7109, -14.7440195, -433.10486, -16.5622, -431.28668, -17.572302, -429.26648, -17.168262, -425.6301, -15.3500805, -423.4079, -13.733918, -422.5998, -12.319777, -422.5998, -11.511696, -421.79172, -9.289474, -421.3877, -7.875332, -419.16547, -6.2591705, -418.5594, -3.8349278, -418.5594, -1.8147259, -419.3675, 0.81153727, -421.79172, 2.225679, -424.418, 3.2357793, -430.4786, 3.2357793, -432.90283, 1.6196179, -436.13516, 0.81153727, -436.7412, -1.2086649, -436.7412, -2.6228065, -437.95334)
+
+[node name="Actors_AlpinePlant_028_mountain_pine_SolidPlantBody" type="StaticBody2D" parent="." unique_id=1403897809]
+metadata/source_path = "Actors/AlpinePlant_028_mountain_pine/SolidPlantBody"
+metadata/science_gate = false
+
+[node name="@CollisionPolygon2D@119" type="CollisionPolygon2D" parent="Actors_AlpinePlant_028_mountain_pine_SolidPlantBody" unique_id=1860003421]
+polygon = PackedVector2Array(5.0055313, -621.1275, 4.358507, -619.33844, 2.5159388, -617.8218, -0.2416594, -616.80835, -3.4944687, -616.4525, -6.747278, -616.80835, -9.504876, -617.8218, -11.347445, -619.33844, -11.994469, -621.1275, -11.347445, -622.91656, -9.504876, -624.4332, -6.747278, -625.44666, -3.4944687, -625.8025, -0.2416594, -625.44666, 2.5159388, -624.4332, 4.358507, -622.91656)
+
+[node name="Actors_AlpinePlant_030_mountain_pine_SolidPlantBody" type="StaticBody2D" parent="." unique_id=768004241]
+metadata/source_path = "Actors/AlpinePlant_030_mountain_pine/SolidPlantBody"
+metadata/science_gate = false
+
+[node name="@CollisionPolygon2D@120" type="CollisionPolygon2D" parent="Actors_AlpinePlant_030_mountain_pine_SolidPlantBody" unique_id=186050592]
+polygon = PackedVector2Array(111.15542, -626.3937, 110.50839, -624.6046, 108.665825, -623.08795, 105.908226, -622.0745, 102.65542, -621.7187, 99.40261, -622.0745, 96.64501, -623.08795, 94.802444, -624.6046, 94.15542, -626.3937, 94.802444, -628.18274, 96.64501, -629.6994, 99.40261, -630.7128, 102.65542, -631.06866, 105.908226, -630.7128, 108.665825, -629.6994, 110.50839, -628.18274)
+
+[node name="Actors_AlpinePlant_031_snow_heather_SolidPlantBody" type="StaticBody2D" parent="." unique_id=443279582]
+collision_layer = 2
+metadata/source_path = "Actors/AlpinePlant_031_snow_heather/SolidPlantBody"
+metadata/science_gate = false
+
+[node name="@CollisionPolygon2D@121" type="CollisionPolygon2D" parent="Actors_AlpinePlant_031_snow_heather_SolidPlantBody" unique_id=1424506264]
+polygon = PackedVector2Array(-345.62646, -646.77966, -346.43457, -646.77966, -348.25275, -645.5675, -350.47498, -645.3655, -352.09113, -644.3554, -353.50528, -642.53723, -355.9295, -641.93115, -357.74768, -640.113, -358.75778, -638.0928, -358.35376, -634.4564, -356.53558, -632.2342, -354.9194, -631.4261, -353.50528, -631.4261, -352.69717, -630.61804, -350.47498, -630.214, -349.06082, -627.99176, -347.44467, -627.3857, -345.02042, -627.3857, -343.0002, -628.1938, -340.37396, -630.61804, -338.9598, -633.24426, -337.9497, -639.3049, -337.9497, -641.7291, -339.56586, -644.9614, -340.37396, -645.5675, -342.39417, -645.5675, -343.8083, -646.77966)
+
+[node name="Actors_AlpinePlant_033_frost_reeds_SolidPlantBody" type="StaticBody2D" parent="." unique_id=57019639]
+collision_layer = 2
+metadata/source_path = "Actors/AlpinePlant_033_frost_reeds/SolidPlantBody"
+metadata/science_gate = false
+
+[node name="@CollisionPolygon2D@122" type="CollisionPolygon2D" parent="Actors_AlpinePlant_033_frost_reeds_SolidPlantBody" unique_id=1007485504]
+polygon = PackedVector2Array(-107.818184, -736.5411, -108.64702, -735.9195, -109.06143, -734.26184, -108.854225, -731.3609, -108.02539, -729.70325, -109.475845, -730.5321, -110.51188, -730.5321, -111.75513, -728.87445, -111.75513, -726.1807, -110.51188, -724.5231, -110.097466, -719.5501, -109.26864, -719.3429, -109.06143, -717.478, -108.64702, -716.85645, -108.02539, -716.85645, -107.40377, -717.2708, -107.40377, -720.5861, -106.78215, -720.5861, -106.36774, -716.64923, -104.088455, -716.0276, -103.88125, -718.7213, -103.05242, -719.7573, -102.01639, -718.7213, -101.80917, -714.1627, -100.77314, -714.1627, -100.35873, -714.57715, -100.15152, -718.3069, -99.73711, -718.3069, -99.73711, -716.442, -99.115486, -715.8204, -98.079445, -716.0276, -97.87224, -717.0636, -96.836205, -717.68524, -96.214584, -722.8654, -94.97134, -725.55914, -95.17854, -728.66724, -96.42179, -729.49603, -96.836205, -731.98254, -97.66503, -733.01855, -99.115486, -732.397, -99.73711, -729.91046, -100.35873, -729.91046, -100.35873, -732.6042, -101.39476, -734.26184, -102.01639, -734.26184, -103.25963, -732.397, -103.88125, -733.01855, -104.710075, -733.01855, -105.53891, -732.18976, -105.74612, -735.50507, -106.78215, -736.7483)
+
+[node name="Actors_AlpinePlant_034_mountain_pine_SolidPlantBody" type="StaticBody2D" parent="." unique_id=1646401044]
+metadata/source_path = "Actors/AlpinePlant_034_mountain_pine/SolidPlantBody"
+metadata/science_gate = false
+
+[node name="@CollisionPolygon2D@123" type="CollisionPolygon2D" parent="Actors_AlpinePlant_034_mountain_pine_SolidPlantBody" unique_id=1127681569]
+polygon = PackedVector2Array(10.750356, -652.3198, 10.103332, -650.53076, 8.260763, -649.0141, 5.5031652, -648.0007, 2.2503557, -647.64484, -1.0024536, -648.0007, -3.7600517, -649.0141, -5.60262, -650.53076, -6.2496443, -652.3198, -5.60262, -654.1089, -3.7600517, -655.62555, -1.0024536, -656.639, 2.2503557, -656.9948, 5.5031652, -656.639, 8.260763, -655.62555, 10.103332, -654.1089)
+
+[node name="Actors_AlpinePlant_036_mountain_pine_SolidPlantBody" type="StaticBody2D" parent="." unique_id=1117093183]
+metadata/source_path = "Actors/AlpinePlant_036_mountain_pine/SolidPlantBody"
+metadata/science_gate = false
+
+[node name="@CollisionPolygon2D@124" type="CollisionPolygon2D" parent="Actors_AlpinePlant_036_mountain_pine_SolidPlantBody" unique_id=1181248150]
+polygon = PackedVector2Array(88.86815, -659.3122, 88.22112, -657.52313, 86.378555, -656.0065, 83.62096, -654.99304, 80.36815, -654.6372, 77.11534, -654.99304, 74.35774, -656.0065, 72.515175, -657.52313, 71.86815, -659.3122, 72.515175, -661.10126, 74.35774, -662.6179, 77.11534, -663.63135, 80.36815, -663.9872, 83.62096, -663.63135, 86.378555, -662.6179, 88.22112, -661.10126)
+
+[node name="Actors_AlpinePlant_037_snow_heather_SolidPlantBody" type="StaticBody2D" parent="." unique_id=823258612]
+collision_layer = 2
+metadata/source_path = "Actors/AlpinePlant_037_snow_heather/SolidPlantBody"
+metadata/science_gate = false
+
+[node name="@CollisionPolygon2D@125" type="CollisionPolygon2D" parent="Actors_AlpinePlant_037_snow_heather_SolidPlantBody" unique_id=93165767]
+polygon = PackedVector2Array(126.05549, -473.85178, 125.24741, -473.85178, 123.42923, -472.63965, 121.20701, -472.43762, 119.59084, -471.42755, 118.176704, -469.60934, 115.75246, -469.0033, 113.93428, -467.18512, 112.92418, -465.16492, 113.32822, -461.52853, 115.1464, -459.30634, 116.76256, -458.49823, 118.176704, -458.49823, 118.98479, -457.69016, 121.20701, -457.28613, 122.62115, -455.0639, 124.23731, -454.45782, 126.66155, -454.45782, 128.68175, -455.26593, 131.30801, -457.69016, 132.72215, -460.31644, 133.73225, -466.37704, 133.73225, -468.80127, 132.1161, -472.0336, 131.30801, -472.63965, 129.28781, -472.63965, 127.87367, -473.85178)
+
+[node name="Actors_AlpinePlant_039_young_fir_SolidPlantBody" type="StaticBody2D" parent="." unique_id=1662931572]
+metadata/source_path = "Actors/AlpinePlant_039_young_fir/SolidPlantBody"
+metadata/science_gate = false
+
+[node name="@CollisionPolygon2D@126" type="CollisionPolygon2D" parent="Actors_AlpinePlant_039_young_fir_SolidPlantBody" unique_id=677790467]
+polygon = PackedVector2Array(96.56887, -437.82846, 96.112144, -436.5656, 94.81151, -435.495, 92.864975, -434.77966, 90.56887, -434.52847, 88.272766, -434.77966, 86.32623, -435.495, 85.0256, -436.5656, 84.56887, -437.82846, 85.0256, -439.0913, 86.32623, -440.16193, 88.272766, -440.87726, 90.56887, -441.12845, 92.864975, -440.87726, 94.81151, -440.16193, 96.112144, -439.0913)
+
+[node name="Actors_AlpinePlant_040_winter_fern_SolidPlantBody" type="StaticBody2D" parent="." unique_id=1859485680]
+collision_layer = 2
+metadata/source_path = "Actors/AlpinePlant_040_winter_fern/SolidPlantBody"
+metadata/science_gate = false
+
+[node name="@CollisionPolygon2D@127" type="CollisionPolygon2D" parent="Actors_AlpinePlant_040_winter_fern_SolidPlantBody" unique_id=814676618]
+polygon = PackedVector2Array(14.9315605, -698.34174, 13.82045, -697.67505, 11.9315605, -697.4528, 10.5982275, -696.0084, 9.153783, -695.67505, 7.487116, -693.56396, 8.042671, -690.8973, 11.9315605, -689.2306, 13.487116, -687.67505, 15.709339, -687.8973, 17.82045, -689.67505, 19.042671, -694.56396, 18.82045, -696.34174, 17.93156, -697.56396, 16.376005, -698.4528)
+
+[node name="Actors_AlpinePlant_042_young_fir_SolidPlantBody" type="StaticBody2D" parent="." unique_id=1220980238]
+metadata/source_path = "Actors/AlpinePlant_042_young_fir/SolidPlantBody"
+metadata/science_gate = false
+
+[node name="@CollisionPolygon2D@128" type="CollisionPolygon2D" parent="Actors_AlpinePlant_042_young_fir_SolidPlantBody" unique_id=1151229883]
+polygon = PackedVector2Array(270.17273, -390.66074, 269.716, -389.3979, 268.41537, -388.32727, 266.46884, -387.61194, 264.17273, -387.36075, 261.87662, -387.61194, 259.93008, -388.32727, 258.62946, -389.3979, 258.17273, -390.66074, 258.62946, -391.92358, 259.93008, -392.9942, 261.87662, -393.70953, 264.17273, -393.96072, 266.46884, -393.70953, 268.41537, -392.9942, 269.716, -391.92358)
+
+[node name="Actors_AlpinePlant_043_snow_heather_SolidPlantBody" type="StaticBody2D" parent="." unique_id=1036793961]
+collision_layer = 2
+metadata/source_path = "Actors/AlpinePlant_043_snow_heather/SolidPlantBody"
+metadata/science_gate = false
+
+[node name="@CollisionPolygon2D@129" type="CollisionPolygon2D" parent="Actors_AlpinePlant_043_snow_heather_SolidPlantBody" unique_id=1638447596]
+polygon = PackedVector2Array(301.32367, -459.64575, 300.51556, -459.64575, 298.6974, -458.43362, 296.47516, -458.23163, 294.859, -457.2215, 293.44485, -455.40332, 291.02063, -454.79727, 289.20245, -452.9791, 288.19235, -450.9589, 288.59637, -447.3225, 290.41455, -445.1003, 292.03073, -444.2922, 293.44485, -444.2922, 294.25296, -443.48413, 296.47516, -443.0801, 297.8893, -440.85788, 299.50546, -440.2518, 301.92972, -440.2518, 303.94992, -441.0599, 306.57617, -443.48413, 307.99033, -446.1104, 309.00043, -452.17102, 309.00043, -454.59525, 307.38428, -457.82758, 306.57617, -458.43362, 304.55597, -458.43362, 303.14185, -459.64575)
+
+[node name="Actors_AlpinePlant_045_snow_birch_SolidPlantBody" type="StaticBody2D" parent="." unique_id=345980612]
+metadata/source_path = "Actors/AlpinePlant_045_snow_birch/SolidPlantBody"
+metadata/science_gate = false
+
+[node name="@CollisionPolygon2D@130" type="CollisionPolygon2D" parent="Actors_AlpinePlant_045_snow_birch_SolidPlantBody" unique_id=1815444459]
+polygon = PackedVector2Array(429.8728, -581.2696, 429.22577, -579.4805, 427.3832, -577.96387, 424.6256, -576.95044, 421.3728, -576.5946, 418.12, -576.95044, 415.3624, -577.96387, 413.51984, -579.4805, 412.8728, -581.2696, 413.51984, -583.05865, 415.3624, -584.5753, 418.12, -585.58875, 421.3728, -585.9446, 424.6256, -585.58875, 427.3832, -584.5753, 429.22577, -583.05865)
+
+[node name="Actors_AlpinePlant_046_mountain_pine_SolidPlantBody" type="StaticBody2D" parent="." unique_id=1156728648]
+metadata/source_path = "Actors/AlpinePlant_046_mountain_pine/SolidPlantBody"
+metadata/science_gate = false
+
+[node name="@CollisionPolygon2D@131" type="CollisionPolygon2D" parent="Actors_AlpinePlant_046_mountain_pine_SolidPlantBody" unique_id=182267608]
+polygon = PackedVector2Array(-85.39603, 360.8643, -86.04305, 362.65332, -87.88562, 364.17, -90.64322, 365.1834, -93.89603, 365.53928, -97.148834, 365.1834, -99.90643, 364.17, -101.749, 362.65332, -102.39603, 360.8643, -101.749, 359.07526, -99.90643, 357.55856, -97.148834, 356.54517, -93.89603, 356.1893, -90.64322, 356.54517, -87.88562, 357.55856, -86.04305, 359.07526)
+
+[node name="Actors_AlpinePlant_048_winter_fern_SolidPlantBody" type="StaticBody2D" parent="." unique_id=1558622896]
+collision_layer = 2
+metadata/source_path = "Actors/AlpinePlant_048_winter_fern/SolidPlantBody"
+metadata/science_gate = false
+
+[node name="@CollisionPolygon2D@132" type="CollisionPolygon2D" parent="Actors_AlpinePlant_048_winter_fern_SolidPlantBody" unique_id=2085568636]
+polygon = PackedVector2Array(244.2678, 422.2061, 243.1567, 422.87277, 241.2678, 423.09497, 239.93448, 424.53943, 238.49002, 424.87277, 236.82336, 426.98386, 237.37892, 429.65054, 241.2678, 431.3172, 242.82336, 432.87277, 245.04558, 432.65054, 247.1567, 430.87277, 248.37892, 425.98386, 248.1567, 424.2061, 247.2678, 422.98386, 245.71225, 422.09497)
+
+[node name="Actors_AlpinePlant_051_young_fir_SolidPlantBody" type="StaticBody2D" parent="." unique_id=521009217]
+metadata/source_path = "Actors/AlpinePlant_051_young_fir/SolidPlantBody"
+metadata/science_gate = false
+
+[node name="@CollisionPolygon2D@133" type="CollisionPolygon2D" parent="Actors_AlpinePlant_051_young_fir_SolidPlantBody" unique_id=1442252901]
+polygon = PackedVector2Array(523.5849, -258.6248, 523.1282, -257.36194, 521.8275, -256.29132, 519.881, -255.57599, 517.5849, -255.32478, 515.2888, -255.57599, 513.3423, -256.29132, 512.0416, -257.36194, 511.5849, -258.6248, 512.0416, -259.88763, 513.3423, -260.95825, 515.2888, -261.67358, 517.5849, -261.92477, 519.881, -261.67358, 521.8275, -260.95825, 523.1282, -259.88763)
+
+[node name="Actors_AlpinePlant_052_frost_reeds_SolidPlantBody" type="StaticBody2D" parent="." unique_id=1857671]
+collision_layer = 2
+metadata/source_path = "Actors/AlpinePlant_052_frost_reeds/SolidPlantBody"
+metadata/science_gate = false
+
+[node name="@CollisionPolygon2D@134" type="CollisionPolygon2D" parent="Actors_AlpinePlant_052_frost_reeds_SolidPlantBody" unique_id=1826356232]
+polygon = PackedVector2Array(569.707, -322.80872, 568.8782, -322.1871, 568.46375, -320.52942, 568.67096, -317.62854, 569.49976, -315.9709, 568.0493, -316.7997, 567.0133, -316.7997, 565.7701, -315.14206, 565.7701, -312.44836, 567.0133, -310.7907, 567.42773, -305.81772, 568.25653, -305.6105, 568.46375, -303.74567, 568.8782, -303.12402, 569.49976, -303.12402, 570.1214, -303.53845, 570.1214, -306.85376, 570.74304, -306.85376, 571.1575, -302.9168, 573.4367, -302.2952, 573.6439, -304.9889, 574.4728, -306.02493, 575.5088, -304.9889, 575.716, -300.43033, 576.752, -300.43033, 577.16644, -300.84476, 577.37366, -304.57446, 577.7881, -304.57446, 577.7881, -302.70963, 578.40967, -302.08798, 579.44574, -302.2952, 579.65295, -303.33124, 580.68896, -303.95285, 581.3106, -309.13303, 582.55383, -311.82672, 582.3466, -314.93484, 581.1034, -315.76367, 580.68896, -318.25015, 579.86017, -319.2862, 578.40967, -318.66458, 577.7881, -316.17807, 577.16644, -316.17807, 577.16644, -318.87177, 576.13043, -320.52942, 575.5088, -320.52942, 574.26556, -318.66458, 573.6439, -319.2862, 572.8151, -319.2862, 571.98627, -318.45737, 571.77905, -321.77267, 570.74304, -323.01593)
+
+[node name="Actors_AlpinePlant_054_winter_fern_SolidPlantBody" type="StaticBody2D" parent="." unique_id=1779618889]
+collision_layer = 2
+metadata/source_path = "Actors/AlpinePlant_054_winter_fern/SolidPlantBody"
+metadata/science_gate = false
+
+[node name="@CollisionPolygon2D@135" type="CollisionPolygon2D" parent="Actors_AlpinePlant_054_winter_fern_SolidPlantBody" unique_id=2041921670]
+polygon = PackedVector2Array(560.1143, -208.95535, 559.00323, -208.28868, 557.1143, -208.06645, 555.781, -206.62201, 554.33655, -206.28868, 552.66986, -204.17757, 553.22546, -201.5109, 557.1143, -199.84424, 558.66986, -198.28868, 560.8921, -198.5109, 563.00323, -200.28868, 564.22546, -205.17757, 564.00323, -206.95535, 563.1143, -208.17757, 561.5588, -209.06645)
+
+[node name="Actors_AlpinePlant_055_young_fir_SolidPlantBody" type="StaticBody2D" parent="." unique_id=636303308]
+metadata/source_path = "Actors/AlpinePlant_055_young_fir/SolidPlantBody"
+metadata/science_gate = false
+
+[node name="@CollisionPolygon2D@136" type="CollisionPolygon2D" parent="Actors_AlpinePlant_055_young_fir_SolidPlantBody" unique_id=1773222101]
+polygon = PackedVector2Array(253.24971, 494.15588, 252.79298, 495.41873, 251.49236, 496.48935, 249.5458, 497.20468, 247.24971, 497.45587, 244.95361, 497.20468, 243.00706, 496.48935, 241.70644, 495.41873, 241.24971, 494.15588, 241.70644, 492.89304, 243.00706, 491.82242, 244.95361, 491.1071, 247.24971, 490.8559, 249.5458, 491.1071, 251.49236, 491.82242, 252.79298, 492.89304)
+
+[node name="Actors_AlpinePlant_057_snow_heather_SolidPlantBody" type="StaticBody2D" parent="." unique_id=327530102]
+collision_layer = 2
+metadata/source_path = "Actors/AlpinePlant_057_snow_heather/SolidPlantBody"
+metadata/science_gate = false
+
+[node name="@CollisionPolygon2D@137" type="CollisionPolygon2D" parent="Actors_AlpinePlant_057_snow_heather_SolidPlantBody" unique_id=1901631001]
+polygon = PackedVector2Array(372.33862, 566.6998, 371.53052, 566.6998, 369.71234, 567.912, 367.4901, 568.114, 365.87396, 569.1241, 364.4598, 570.94226, 362.03558, 571.54834, 360.2174, 573.3665, 359.2073, 575.3867, 359.61133, 579.0231, 361.4295, 581.2453, 363.0457, 582.0534, 364.4598, 582.0534, 365.2679, 582.86145, 367.4901, 583.2655, 368.90427, 585.48773, 370.52042, 586.0938, 372.94467, 586.0938, 374.96487, 585.2857, 377.59113, 582.86145, 379.00528, 580.2352, 380.01538, 574.1746, 380.01538, 571.75037, 378.39923, 568.51807, 377.59113, 567.912, 375.57092, 567.912, 374.1568, 566.6998)
+
+[node name="Actors_AlpinePlant_058_snow_birch_SolidPlantBody" type="StaticBody2D" parent="." unique_id=1095388796]
+metadata/source_path = "Actors/AlpinePlant_058_snow_birch/SolidPlantBody"
+metadata/science_gate = false
+
+[node name="@CollisionPolygon2D@138" type="CollisionPolygon2D" parent="Actors_AlpinePlant_058_snow_birch_SolidPlantBody" unique_id=392041806]
+polygon = PackedVector2Array(908.2405, -274.36124, 907.59344, -272.5722, 905.7509, -271.0555, 902.9933, -270.0421, 899.7405, -269.68625, 896.4877, -270.0421, 893.73004, -271.0555, 891.8875, -272.5722, 891.2405, -274.36124, 891.8875, -276.15027, 893.73004, -277.66696, 896.4877, -278.68036, 899.7405, -279.03622, 902.9933, -278.68036, 905.7509, -277.66696, 907.59344, -276.15027)
+
+[node name="Actors_AlpinePlant_060_frost_reeds_SolidPlantBody" type="StaticBody2D" parent="." unique_id=857469036]
+collision_layer = 2
+metadata/source_path = "Actors/AlpinePlant_060_frost_reeds/SolidPlantBody"
+metadata/science_gate = false
+
+[node name="@CollisionPolygon2D@139" type="CollisionPolygon2D" parent="Actors_AlpinePlant_060_frost_reeds_SolidPlantBody" unique_id=2095950359]
+polygon = PackedVector2Array(230.92697, 601.9055, 230.09814, 602.5271, 229.68373, 604.18475, 229.89095, 607.0857, 230.71977, 608.74335, 229.26932, 607.9145, 228.23328, 607.9145, 226.99004, 609.57214, 226.99004, 612.26587, 228.23328, 613.9235, 228.6477, 618.8965, 229.47653, 619.1037, 229.68373, 620.96857, 230.09814, 621.59015, 230.71977, 621.59015, 231.34138, 621.1758, 231.34138, 617.8605, 231.96301, 617.8605, 232.37743, 621.79736, 234.65671, 622.419, 234.8639, 619.72534, 235.69275, 618.6893, 236.72878, 619.72534, 236.93599, 624.2839, 237.97202, 624.2839, 238.38644, 623.86945, 238.59364, 620.1397, 239.00806, 620.1397, 239.00806, 622.0046, 239.62968, 622.6262, 240.66571, 622.419, 240.87292, 621.383, 241.90897, 620.76135, 242.53058, 615.5812, 243.77382, 612.88745, 243.56662, 609.77936, 242.32338, 608.95056, 241.90897, 606.46405, 241.08012, 605.42804, 239.62968, 606.0496, 239.00806, 608.53613, 238.38644, 608.53613, 238.38644, 605.8424, 237.3504, 604.18475, 236.72878, 604.18475, 235.48553, 606.0496, 234.8639, 605.42804, 234.03508, 605.42804, 233.20625, 606.25684, 232.99905, 602.9415, 231.96301, 601.6983)
+
+[node name="Actors_AlpinePlant_061_young_fir_SolidPlantBody" type="StaticBody2D" parent="." unique_id=1471331776]
+metadata/source_path = "Actors/AlpinePlant_061_young_fir/SolidPlantBody"
+metadata/science_gate = false
+
+[node name="@CollisionPolygon2D@140" type="CollisionPolygon2D" parent="Actors_AlpinePlant_061_young_fir_SolidPlantBody" unique_id=37885015]
+polygon = PackedVector2Array(660.54, -20.631493, 660.08325, -19.368637, 658.7826, -18.29804, 656.83606, -17.582691, 654.54, -17.331493, 652.2439, -17.582691, 650.29736, -18.29804, 648.9967, -19.368637, 648.54, -20.631493, 648.9967, -21.894348, 650.29736, -22.964945, 652.2439, -23.680294, 654.54, -23.931492, 656.83606, -23.680294, 658.7826, -22.964945, 660.08325, -21.894348)
+
+[node name="Actors_AlpinePlant_064_frost_reeds_SolidPlantBody" type="StaticBody2D" parent="." unique_id=361726078]
+collision_layer = 2
+metadata/source_path = "Actors/AlpinePlant_064_frost_reeds/SolidPlantBody"
+metadata/science_gate = false
+
+[node name="@CollisionPolygon2D@141" type="CollisionPolygon2D" parent="Actors_AlpinePlant_064_frost_reeds_SolidPlantBody" unique_id=771811518]
+polygon = PackedVector2Array(847.0885, -122.27922, 846.2597, -121.65759, 845.8453, -119.99994, 846.0525, -117.09904, 846.8813, -115.441376, 845.43085, -116.27021, 844.39484, -116.27021, 843.1516, -114.61255, 843.1516, -111.91885, 844.39484, -110.2612, 844.80927, -105.28822, 845.63806, -105.081024, 845.8453, -103.216156, 846.2597, -102.59453, 846.8813, -102.59453, 847.5029, -103.00894, 847.5029, -106.324265, 848.1246, -106.324265, 848.539, -102.38733, 850.81824, -101.7657, 851.02545, -104.4594, 851.8543, -105.49544, 852.8903, -104.4594, 853.09753, -99.90084, 854.13354, -99.90084, 854.548, -100.315254, 854.7552, -104.04498, 855.1696, -104.04498, 855.1696, -102.180115, 855.7912, -101.558495, 856.8273, -101.7657, 857.0345, -102.80174, 858.0705, -103.42336, 858.69214, -108.603546, 859.93536, -111.29723, 859.72815, -114.40534, 858.4849, -115.23418, 858.0705, -117.72066, 857.2417, -118.7567, 855.7912, -118.13507, 855.1696, -115.64859, 854.548, -115.64859, 854.548, -118.34228, 853.51196, -119.99994, 852.8903, -119.99994, 851.6471, -118.13507, 851.02545, -118.7567, 850.19666, -118.7567, 849.3678, -117.927864, 849.1606, -121.24318, 848.1246, -122.48642)
+
+[node name="Actors_AlpinePlant_066_winter_fern_SolidPlantBody" type="StaticBody2D" parent="." unique_id=425745789]
+collision_layer = 2
+metadata/source_path = "Actors/AlpinePlant_066_winter_fern/SolidPlantBody"
+metadata/science_gate = false
+
+[node name="@CollisionPolygon2D@142" type="CollisionPolygon2D" parent="Actors_AlpinePlant_066_winter_fern_SolidPlantBody" unique_id=2027250736]
+polygon = PackedVector2Array(200.28288, 704.45544, 199.17177, 705.12213, 197.28288, 705.34436, 195.94955, 706.78876, 194.5051, 707.12213, 192.83844, 709.2332, 193.394, 711.8999, 197.28288, 713.5666, 198.83844, 715.12213, 201.06065, 714.8999, 203.17177, 713.12213, 204.394, 708.2332, 204.17177, 706.45544, 203.28288, 705.2332, 201.72733, 704.34436)
+
+[node name="Actors_AlpinePlant_067_snow_heather_SolidPlantBody" type="StaticBody2D" parent="." unique_id=609332776]
+collision_layer = 2
+metadata/source_path = "Actors/AlpinePlant_067_snow_heather/SolidPlantBody"
+metadata/science_gate = false
+
+[node name="@CollisionPolygon2D@143" type="CollisionPolygon2D" parent="Actors_AlpinePlant_067_snow_heather_SolidPlantBody" unique_id=1048521924]
+polygon = PackedVector2Array(239.00182, 643.5581, 238.19374, 643.5581, 236.37555, 644.77026, 234.15334, 644.9723, 232.53717, 645.98236, 231.12303, 647.80054, 228.69879, 648.4066, 226.8806, 650.2248, 225.8705, 652.245, 226.27455, 655.88135, 228.09273, 658.1036, 229.7089, 658.9117, 231.12303, 658.9117, 231.9311, 659.7197, 234.15334, 660.1238, 235.56747, 662.346, 237.18364, 662.9521, 239.60788, 662.9521, 241.62808, 662.144, 244.25435, 659.7197, 245.66849, 657.0935, 246.67859, 651.0329, 246.67859, 648.60864, 245.06242, 645.37634, 244.25435, 644.77026, 242.23415, 644.77026, 240.82, 643.5581)
+
+[node name="Actors_AlpinePlant_070_winter_fern_SolidPlantBody" type="StaticBody2D" parent="." unique_id=1424692233]
+collision_layer = 2
+metadata/source_path = "Actors/AlpinePlant_070_winter_fern/SolidPlantBody"
+metadata/science_gate = false
+
+[node name="@CollisionPolygon2D@144" type="CollisionPolygon2D" parent="Actors_AlpinePlant_070_winter_fern_SolidPlantBody" unique_id=1977359711]
+polygon = PackedVector2Array(150.00542, 701.5144, 148.8943, 702.1811, 147.00542, 702.4033, 145.67209, 703.8477, 144.22763, 704.1811, 142.56097, 706.2922, 143.11653, 708.95886, 147.00542, 710.62555, 148.56097, 712.1811, 150.78319, 711.95886, 152.8943, 710.1811, 154.11653, 705.2922, 153.8943, 703.5144, 153.00542, 702.2922, 151.44986, 701.4033)
+
+[node name="Actors_AlpinePlant_073_winter_fern_SolidPlantBody" type="StaticBody2D" parent="." unique_id=1609342370]
+collision_layer = 2
+metadata/source_path = "Actors/AlpinePlant_073_winter_fern/SolidPlantBody"
+metadata/science_gate = false
+
+[node name="@CollisionPolygon2D@145" type="CollisionPolygon2D" parent="Actors_AlpinePlant_073_winter_fern_SolidPlantBody" unique_id=15530943]
+polygon = PackedVector2Array(115.74449, 639.2167, 114.63338, 639.88336, 112.74449, 640.1056, 111.411156, 641.55, 109.96671, 641.88336, 108.30005, 643.99445, 108.8556, 646.66113, 112.74449, 648.3278, 114.30005, 649.88336, 116.52227, 649.66113, 118.63338, 647.88336, 119.8556, 642.99445, 119.63338, 641.2167, 118.74449, 639.99445, 117.188934, 639.1056)
+
+[node name="Actors_AlpinePlant_075_snow_heather_SolidPlantBody" type="StaticBody2D" parent="." unique_id=1856612668]
+collision_layer = 2
+metadata/source_path = "Actors/AlpinePlant_075_snow_heather/SolidPlantBody"
+metadata/science_gate = false
+
+[node name="@CollisionPolygon2D@146" type="CollisionPolygon2D" parent="Actors_AlpinePlant_075_snow_heather_SolidPlantBody" unique_id=570316318]
+polygon = PackedVector2Array(100.7517, 688.45544, 99.94363, 688.45544, 98.12544, 689.6676, 95.90322, 689.8696, 94.287056, 690.8797, 92.87292, 692.6979, 90.44867, 693.30396, 88.63049, 695.12213, 87.62039, 697.14233, 88.02443, 700.7787, 89.84261, 703.0009, 91.45877, 703.809, 92.87292, 703.809, 93.681, 704.61707, 95.90322, 705.0211, 97.31736, 707.24335, 98.933525, 707.8494, 101.357765, 707.8494, 103.37797, 707.0413, 106.00423, 704.61707, 107.41837, 701.99084, 108.428474, 695.93024, 108.428474, 693.506, 106.81231, 690.2737, 106.00423, 689.6676, 103.984024, 689.6676, 102.569885, 688.45544)
+
+[node name="Actors_AlpinePlant_076_young_fir_SolidPlantBody" type="StaticBody2D" parent="." unique_id=1587419058]
+metadata/source_path = "Actors/AlpinePlant_076_young_fir/SolidPlantBody"
+metadata/science_gate = false
+
+[node name="@CollisionPolygon2D@147" type="CollisionPolygon2D" parent="Actors_AlpinePlant_076_young_fir_SolidPlantBody" unique_id=457856090]
+polygon = PackedVector2Array(-39.750973, 763.6682, -40.207695, 764.9311, -41.50833, 766.00165, -43.454872, 766.71704, -45.750973, 766.9682, -48.047073, 766.71704, -49.993614, 766.00165, -51.29425, 764.9311, -51.750973, 763.6682, -51.29425, 762.40533, -49.993614, 761.3348, -48.047073, 760.6194, -45.750973, 760.3682, -43.454872, 760.6194, -41.50833, 761.3348, -40.207695, 762.40533)
+
+[node name="Actors_AlpinePlant_078_young_fir_SolidPlantBody" type="StaticBody2D" parent="." unique_id=189215905]
+metadata/source_path = "Actors/AlpinePlant_078_young_fir/SolidPlantBody"
+metadata/science_gate = false
+
+[node name="@CollisionPolygon2D@148" type="CollisionPolygon2D" parent="Actors_AlpinePlant_078_young_fir_SolidPlantBody" unique_id=1228659698]
+polygon = PackedVector2Array(-73.1857, 688.7169, -73.642426, 689.9798, -74.94306, 691.05035, -76.8896, 691.76575, -79.1857, 692.0169, -81.4818, 691.76575, -83.42834, 691.05035, -84.72897, 689.9798, -85.1857, 688.7169, -84.72897, 687.45404, -83.42834, 686.3835, -81.4818, 685.6681, -79.1857, 685.41693, -76.8896, 685.6681, -74.94306, 686.3835, -73.642426, 687.45404)
+
+[node name="Actors_AlpinePlant_079_snow_heather_SolidPlantBody" type="StaticBody2D" parent="." unique_id=1110282180]
+collision_layer = 2
+metadata/source_path = "Actors/AlpinePlant_079_snow_heather/SolidPlantBody"
+metadata/science_gate = false
+
+[node name="@CollisionPolygon2D@149" type="CollisionPolygon2D" parent="Actors_AlpinePlant_079_snow_heather_SolidPlantBody" unique_id=2054010455]
+polygon = PackedVector2Array(-0.025039196, 702.1431, -0.83312, 702.1431, -2.6513019, 703.3553, -4.873524, 703.5573, -6.489686, 704.5674, -7.9038277, 706.38556, -10.32807, 706.99164, -12.146252, 708.8098, -13.156353, 710.83, -12.752313, 714.4664, -10.934131, 716.6886, -9.317968, 717.4967, -7.9038277, 717.4967, -7.0957465, 718.30475, -4.873524, 718.7088, -3.4593828, 720.931, -1.8432211, 721.5371, 0.58102155, 721.5371, 2.6012235, 720.729, 5.2274866, 718.30475, 6.6416283, 715.6785, 7.6517286, 709.6179, 7.6517286, 707.19366, 6.0355673, 703.96136, 5.2274866, 703.3553, 3.2072845, 703.3553, 1.7931428, 702.1431)
+
+[node name="Actors_AlpinePlant_081_frost_reeds_SolidPlantBody" type="StaticBody2D" parent="." unique_id=276251642]
+collision_layer = 2
+metadata/source_path = "Actors/AlpinePlant_081_frost_reeds/SolidPlantBody"
+metadata/science_gate = false
+
+[node name="@CollisionPolygon2D@150" type="CollisionPolygon2D" parent="Actors_AlpinePlant_081_frost_reeds_SolidPlantBody" unique_id=894946377]
+polygon = PackedVector2Array(918.44025, 147.58963, 917.61145, 148.21126, 917.197, 149.86891, 917.40424, 152.7698, 918.23303, 154.42747, 916.7826, 153.59865, 915.7466, 153.59865, 914.50336, 155.2563, 914.50336, 157.95, 915.7466, 159.60765, 916.161, 164.58063, 916.9898, 164.78783, 917.197, 166.6527, 917.61145, 167.27432, 918.23303, 167.27432, 918.8547, 166.85991, 918.8547, 163.54459, 919.4763, 163.54459, 919.89075, 167.48152, 922.17, 168.10315, 922.3772, 165.40945, 923.20605, 164.37341, 924.24207, 165.40945, 924.4493, 169.96802, 925.4853, 169.96802, 925.8997, 169.55359, 926.10693, 165.82387, 926.52136, 165.82387, 926.52136, 167.68874, 927.14294, 168.31036, 928.179, 168.10315, 928.3862, 167.06711, 929.42224, 166.4455, 930.0439, 161.2653, 931.2871, 158.57162, 931.0799, 155.4635, 929.8367, 154.63467, 929.42224, 152.1482, 928.59344, 151.11215, 927.14294, 151.73378, 926.52136, 154.22026, 925.8997, 154.22026, 925.8997, 151.52657, 924.8637, 149.86891, 924.24207, 149.86891, 922.99884, 151.73378, 922.3772, 151.11215, 921.5484, 151.11215, 920.71954, 151.94098, 920.5123, 148.62567, 919.4763, 147.38243)
+
+[node name="Actors_AlpinePlant_085_snow_birch_SolidPlantBody" type="StaticBody2D" parent="." unique_id=664970967]
+metadata/source_path = "Actors/AlpinePlant_085_snow_birch/SolidPlantBody"
+metadata/science_gate = false
+
+[node name="@CollisionPolygon2D@151" type="CollisionPolygon2D" parent="Actors_AlpinePlant_085_snow_birch_SolidPlantBody" unique_id=1395917663]
+polygon = PackedVector2Array(937.86957, 337.50418, 937.22253, 339.2932, 935.38, 340.8099, 932.6224, 341.8233, 929.36957, 342.17917, 926.11676, 341.8233, 923.35913, 340.8099, 921.5166, 339.2932, 920.86957, 337.50418, 921.5166, 335.71515, 923.35913, 334.19846, 926.11676, 333.18506, 929.36957, 332.8292, 932.6224, 333.18506, 935.38, 334.19846, 937.22253, 335.71515)
+
+[node name="Actors_AlpinePlant_087_snow_birch_SolidPlantBody" type="StaticBody2D" parent="." unique_id=1139931295]
+metadata/source_path = "Actors/AlpinePlant_087_snow_birch/SolidPlantBody"
+metadata/science_gate = false
+
+[node name="@CollisionPolygon2D@152" type="CollisionPolygon2D" parent="Actors_AlpinePlant_087_snow_birch_SolidPlantBody" unique_id=1148887661]
+polygon = PackedVector2Array(576.77893, 252.58255, 576.1319, 254.3716, 574.28937, 255.88828, 571.53174, 256.90167, 568.27893, 257.25754, 565.0261, 256.90167, 562.2685, 255.88828, 560.42596, 254.3716, 559.77893, 252.58255, 560.42596, 250.7935, 562.2685, 249.27682, 565.0261, 248.26341, 568.27893, 247.90755, 571.53174, 248.26341, 574.28937, 249.27682, 576.1319, 250.7935)
+
+[node name="Actors_AlpinePlant_088_snow_heather_SolidPlantBody" type="StaticBody2D" parent="." unique_id=743946118]
+collision_layer = 2
+metadata/source_path = "Actors/AlpinePlant_088_snow_heather/SolidPlantBody"
+metadata/science_gate = false
+
+[node name="@CollisionPolygon2D@153" type="CollisionPolygon2D" parent="Actors_AlpinePlant_088_snow_heather_SolidPlantBody" unique_id=980891735]
+polygon = PackedVector2Array(-128.87283, 683.3117, -129.68091, 683.3117, -131.4991, 684.52386, -133.72131, 684.7259, -135.33748, 685.73596, -136.75162, 687.55414, -139.17586, 688.1602, -140.99405, 689.9784, -142.00415, 691.9986, -141.6001, 695.63495, -139.78192, 697.8572, -138.16576, 698.6653, -136.75162, 698.6653, -135.94354, 699.4733, -133.72131, 699.8774, -132.30717, 702.0996, -130.69101, 702.7057, -128.26677, 702.7057, -126.24657, 701.8976, -123.62031, 699.4733, -122.20616, 696.8471, -121.19606, 690.7865, -121.19606, 688.36224, -122.812225, 685.12994, -123.62031, 684.52386, -125.64051, 684.52386, -127.05465, 683.3117)
+
+[node name="Actors_AlpinePlant_090_mountain_pine_SolidPlantBody" type="StaticBody2D" parent="." unique_id=869673054]
+metadata/source_path = "Actors/AlpinePlant_090_mountain_pine/SolidPlantBody"
+metadata/science_gate = false
+
+[node name="@CollisionPolygon2D@154" type="CollisionPolygon2D" parent="Actors_AlpinePlant_090_mountain_pine_SolidPlantBody" unique_id=1810098794]
+polygon = PackedVector2Array(-107.74469, 391.9809, -108.391716, 393.76993, -110.23428, 395.28662, -112.99188, 396.30002, -116.24469, 396.65588, -119.4975, 396.30002, -122.2551, 395.28662, -124.097664, 393.76993, -124.74469, 391.9809, -124.097664, 390.19186, -122.2551, 388.67517, -119.4975, 387.66177, -116.24469, 387.3059, -112.99188, 387.66177, -110.23428, 388.67517, -108.391716, 390.19186)
+
+[node name="Actors_AlpinePlant_091_young_fir_SolidPlantBody" type="StaticBody2D" parent="." unique_id=421383081]
+metadata/source_path = "Actors/AlpinePlant_091_young_fir/SolidPlantBody"
+metadata/science_gate = false
+
+[node name="@CollisionPolygon2D@155" type="CollisionPolygon2D" parent="Actors_AlpinePlant_091_young_fir_SolidPlantBody" unique_id=1126945111]
+polygon = PackedVector2Array(513.79004, 321.38336, 513.3333, 322.6462, 512.03265, 323.71683, 510.08615, 324.43216, 507.79004, 324.68335, 505.49393, 324.43216, 503.5474, 323.71683, 502.24677, 322.6462, 501.79004, 321.38336, 502.24677, 320.1205, 503.5474, 319.0499, 505.49393, 318.33456, 507.79004, 318.08337, 510.08615, 318.33456, 512.03265, 319.0499, 513.3333, 320.1205)
+
+[node name="Actors_AlpinePlant_093_frost_reeds_SolidPlantBody" type="StaticBody2D" parent="." unique_id=569080710]
+collision_layer = 2
+metadata/source_path = "Actors/AlpinePlant_093_frost_reeds/SolidPlantBody"
+metadata/science_gate = false
+
+[node name="@CollisionPolygon2D@156" type="CollisionPolygon2D" parent="Actors_AlpinePlant_093_frost_reeds_SolidPlantBody" unique_id=175469524]
+polygon = PackedVector2Array(879.0392, 300.74164, 878.2104, 301.36325, 877.79596, 303.02094, 878.0032, 305.9218, 878.832, 307.57947, 877.38153, 306.75064, 876.3455, 306.75064, 875.1023, 308.4083, 875.1023, 311.102, 876.3455, 312.75964, 876.75995, 317.73264, 877.58875, 317.93985, 877.79596, 319.8047, 878.2104, 320.42633, 878.832, 320.42633, 879.4536, 320.0119, 879.4536, 316.6966, 880.07526, 316.6966, 880.4897, 320.63354, 882.7689, 321.25516, 882.97614, 318.56146, 883.805, 317.52542, 884.841, 318.56146, 885.0482, 323.12003, 886.0842, 323.12003, 886.49866, 322.7056, 886.7059, 318.9759, 887.1203, 318.9759, 887.1203, 320.84073, 887.7419, 321.46237, 888.77795, 321.25516, 888.98517, 320.21912, 890.0212, 319.5975, 890.6428, 314.41733, 891.88605, 311.72363, 891.67883, 308.6155, 890.4356, 307.78668, 890.0212, 305.3002, 889.1924, 304.26416, 887.7419, 304.88577, 887.1203, 307.37228, 886.49866, 307.37228, 886.49866, 304.6786, 885.46265, 303.02094, 884.841, 303.02094, 883.5978, 304.88577, 882.97614, 304.26416, 882.14734, 304.26416, 881.3185, 305.093, 881.11127, 301.77768, 880.07526, 300.53442)
+
+[node name="Actors_AlpinePlant_094_snow_heather_SolidPlantBody" type="StaticBody2D" parent="." unique_id=46161861]
+collision_layer = 2
+metadata/source_path = "Actors/AlpinePlant_094_snow_heather/SolidPlantBody"
+metadata/science_gate = false
+
+[node name="@CollisionPolygon2D@157" type="CollisionPolygon2D" parent="Actors_AlpinePlant_094_snow_heather_SolidPlantBody" unique_id=625285819]
+polygon = PackedVector2Array(-567.92096, 331.82162, -568.72906, 331.82162, -570.54724, 333.03375, -572.7695, 333.23578, -574.3856, 334.24585, -575.79974, 336.06406, -578.224, 336.6701, -580.0422, 338.48828, -581.0523, 340.50848, -580.64825, 344.14487, -578.8301, 346.36707, -577.2139, 347.17517, -575.79974, 347.17517, -574.9917, 347.98325, -572.7695, 348.38727, -571.3553, 350.6095, -569.73914, 351.21558, -567.31494, 351.21558, -565.29474, 350.40747, -562.66846, 347.98325, -561.25433, 345.35696, -560.2442, 339.29636, -560.2442, 336.87213, -561.86035, 333.6398, -562.66846, 333.03375, -564.68866, 333.03375, -566.1028, 331.82162)
+
+[node name="Actors_AlpinePlant_096_frost_reeds_SolidPlantBody" type="StaticBody2D" parent="." unique_id=1762133754]
+collision_layer = 2
+metadata/source_path = "Actors/AlpinePlant_096_frost_reeds/SolidPlantBody"
+metadata/science_gate = false
+
+[node name="@CollisionPolygon2D@158" type="CollisionPolygon2D" parent="Actors_AlpinePlant_096_frost_reeds_SolidPlantBody" unique_id=1912131995]
+polygon = PackedVector2Array(861.943, 358.04532, 861.1142, 358.66693, 860.69977, 360.32462, 860.907, 363.2255, 861.7358, 364.88315, 860.28534, 364.05432, 859.2493, 364.05432, 858.0061, 365.71198, 858.0061, 368.40567, 859.2493, 370.06335, 859.66376, 375.03632, 860.49255, 375.24353, 860.69977, 377.1084, 861.1142, 377.73, 861.7358, 377.73, 862.3574, 377.31558, 862.3574, 374.00027, 862.97906, 374.00027, 863.3935, 377.93723, 865.6727, 378.55884, 865.87994, 375.86514, 866.7088, 374.8291, 867.7448, 375.86514, 867.952, 380.4237, 868.98804, 380.4237, 869.40247, 380.00928, 869.6097, 376.27954, 870.0241, 376.27954, 870.0241, 378.1444, 870.6457, 378.76605, 871.68176, 378.55884, 871.889, 377.5228, 872.925, 376.90118, 873.54663, 371.721, 874.78986, 369.0273, 874.58264, 365.9192, 873.3394, 365.09036, 872.925, 362.60388, 872.0962, 361.56784, 870.6457, 362.18945, 870.0241, 364.67596, 869.40247, 364.67596, 869.40247, 361.98227, 868.36646, 360.32462, 867.7448, 360.32462, 866.5016, 362.18945, 865.87994, 361.56784, 865.05115, 361.56784, 864.2223, 362.39667, 864.0151, 359.08136, 862.97906, 357.8381)
+
+[node name="Actors_AlpinePlant_097_snow_heather_SolidPlantBody" type="StaticBody2D" parent="." unique_id=864251401]
+collision_layer = 2
+metadata/source_path = "Actors/AlpinePlant_097_snow_heather/SolidPlantBody"
+metadata/science_gate = false
+
+[node name="@CollisionPolygon2D@159" type="CollisionPolygon2D" parent="Actors_AlpinePlant_097_snow_heather_SolidPlantBody" unique_id=1208634940]
+polygon = PackedVector2Array(-269.94424, 471.54666, -270.75235, 471.54666, -272.57053, 472.7588, -274.79276, 472.96082, -276.4089, 473.9709, -277.82306, 475.7891, -280.24728, 476.39514, -282.06546, 478.21332, -283.07556, 480.23352, -282.67154, 483.8699, -280.85336, 486.0921, -279.23718, 486.9002, -277.82306, 486.9002, -277.01495, 487.70828, -274.79276, 488.1123, -273.3786, 490.33453, -271.76245, 490.9406, -269.3382, 490.9406, -267.318, 490.1325, -264.69174, 487.70828, -263.2776, 485.082, -262.2675, 479.0214, -262.2675, 476.59717, -263.88364, 473.36484, -264.69174, 472.7588, -266.71194, 472.7588, -268.12607, 471.54666)
+
+[node name="Actors_AlpinePlant_099_snow_birch_SolidPlantBody" type="StaticBody2D" parent="." unique_id=176463328]
+metadata/source_path = "Actors/AlpinePlant_099_snow_birch/SolidPlantBody"
+metadata/science_gate = false
+
+[node name="@CollisionPolygon2D@160" type="CollisionPolygon2D" parent="Actors_AlpinePlant_099_snow_birch_SolidPlantBody" unique_id=1153875859]
+polygon = PackedVector2Array(-616.9365, 365.8825, -617.58356, 367.67154, -619.4261, 369.18823, -622.1837, 370.20163, -625.4365, 370.5575, -628.68933, 370.20163, -631.44696, 369.18823, -633.2895, 367.67154, -633.9365, 365.8825, -633.2895, 364.09348, -631.44696, 362.57678, -628.68933, 361.5634, -625.4365, 361.20752, -622.1837, 361.5634, -619.4261, 362.57678, -617.58356, 364.09348)
+
+[node name="Actors_AlpinePlant_100_snow_birch_SolidPlantBody" type="StaticBody2D" parent="." unique_id=325496913]
+metadata/source_path = "Actors/AlpinePlant_100_snow_birch/SolidPlantBody"
+metadata/science_gate = false
+
+[node name="@CollisionPolygon2D@161" type="CollisionPolygon2D" parent="Actors_AlpinePlant_100_snow_birch_SolidPlantBody" unique_id=1908654112]
+polygon = PackedVector2Array(901.5626, 514.4711, 900.9156, 516.2602, 899.07306, 517.77686, 896.3154, 518.7903, 893.0626, 519.1461, 889.8098, 518.7903, 887.0522, 517.77686, 885.20966, 516.2602, 884.5626, 514.4711, 885.20966, 512.68207, 887.0522, 511.1654, 889.8098, 510.152, 893.0626, 509.79614, 896.3154, 510.152, 899.07306, 511.1654, 900.9156, 512.68207)
+
+[node name="Actors_AlpinePlant_102_snow_heather_SolidPlantBody" type="StaticBody2D" parent="." unique_id=124931490]
+collision_layer = 2
+metadata/source_path = "Actors/AlpinePlant_102_snow_heather/SolidPlantBody"
+metadata/science_gate = false
+
+[node name="@CollisionPolygon2D@162" type="CollisionPolygon2D" parent="Actors_AlpinePlant_102_snow_heather_SolidPlantBody" unique_id=570317083]
+polygon = PackedVector2Array(718.77295, 500.54794, 717.96484, 500.54794, 716.14667, 501.76007, 713.92444, 501.9621, 712.3083, 502.97217, 710.89417, 504.79037, 708.4699, 505.39642, 706.65173, 507.2146, 705.6416, 509.2348, 706.04565, 512.87115, 707.86383, 515.0934, 709.48, 515.9015, 710.89417, 515.9015, 711.7022, 516.70953, 713.92444, 517.1136, 715.3386, 519.3358, 716.9548, 519.9419, 719.37897, 519.9419, 721.3992, 519.1338, 724.02545, 516.70953, 725.4396, 514.0833, 726.4497, 508.02267, 726.4497, 505.59845, 724.83356, 502.36612, 724.02545, 501.76007, 722.00525, 501.76007, 720.5911, 500.54794)
+
+[node name="Actors_AlpinePlant_103_young_fir_SolidPlantBody" type="StaticBody2D" parent="." unique_id=1015802965]
+metadata/source_path = "Actors/AlpinePlant_103_young_fir/SolidPlantBody"
+metadata/science_gate = false
+
+[node name="@CollisionPolygon2D@163" type="CollisionPolygon2D" parent="Actors_AlpinePlant_103_young_fir_SolidPlantBody" unique_id=134649952]
+polygon = PackedVector2Array(820.42035, 518.4331, 819.9636, 519.696, 818.66296, 520.76654, 816.71643, 521.48193, 814.42035, 521.7331, 812.12427, 521.48193, 810.17773, 520.76654, 808.8771, 519.696, 808.42035, 518.4331, 808.8771, 517.1702, 810.17773, 516.0997, 812.12427, 515.3843, 814.42035, 515.1331, 816.71643, 515.3843, 818.66296, 516.0997, 819.9636, 517.1702)
+
+[node name="Actors_AlpinePlant_105_young_fir_SolidPlantBody" type="StaticBody2D" parent="." unique_id=1092024250]
+metadata/source_path = "Actors/AlpinePlant_105_young_fir/SolidPlantBody"
+metadata/science_gate = false
+
+[node name="@CollisionPolygon2D@164" type="CollisionPolygon2D" parent="Actors_AlpinePlant_105_young_fir_SolidPlantBody" unique_id=70498863]
+polygon = PackedVector2Array(-601.5797, 274.5905, -602.03644, 275.85336, -603.3371, 276.92398, -605.2836, 277.6393, -607.5797, 277.8905, -609.8758, 277.6393, -611.8223, 276.92398, -613.123, 275.85336, -613.5797, 274.5905, -613.123, 273.32767, -611.8223, 272.25705, -609.8758, 271.54172, -607.5797, 271.29053, -605.2836, 271.54172, -603.3371, 272.25705, -602.03644, 273.32767)
+
+[node name="Actors_AlpinePlant_106_snow_birch_SolidPlantBody" type="StaticBody2D" parent="." unique_id=938030715]
+metadata/source_path = "Actors/AlpinePlant_106_snow_birch/SolidPlantBody"
+metadata/science_gate = false
+
+[node name="@CollisionPolygon2D@165" type="CollisionPolygon2D" parent="Actors_AlpinePlant_106_snow_birch_SolidPlantBody" unique_id=2029296902]
+polygon = PackedVector2Array(-678.8572, 587.82666, -679.5042, 589.6157, -681.34674, 591.1324, -684.1044, 592.1458, -687.3572, 592.50165, -690.61, 592.1458, -693.3676, 591.1324, -695.21014, 589.6157, -695.8572, 587.82666, -695.21014, 586.0376, -693.3676, 584.52094, -690.61, 583.5075, -687.3572, 583.1517, -684.1044, 583.5075, -681.34674, 584.52094, -679.5042, 586.0376)
+
+[node name="Actors_AlpinePlant_108_young_fir_SolidPlantBody" type="StaticBody2D" parent="." unique_id=284963575]
+metadata/source_path = "Actors/AlpinePlant_108_young_fir/SolidPlantBody"
+metadata/science_gate = false
+
+[node name="@CollisionPolygon2D@166" type="CollisionPolygon2D" parent="Actors_AlpinePlant_108_young_fir_SolidPlantBody" unique_id=1847417378]
+polygon = PackedVector2Array(-668.0192, 344.59454, -668.47595, 345.8574, -669.7766, 346.928, -671.72314, 347.64334, -674.0192, 347.89453, -676.3153, 347.64334, -678.26184, 346.928, -679.5625, 345.8574, -680.0192, 344.59454, -679.5625, 343.3317, -678.26184, 342.26108, -676.3153, 341.54575, -674.0192, 341.29456, -671.72314, 341.54575, -669.7766, 342.26108, -668.47595, 343.3317)
+
+[node name="Actors_AlpinePlant_109_winter_fern_SolidPlantBody" type="StaticBody2D" parent="." unique_id=1313492820]
+collision_layer = 2
+metadata/source_path = "Actors/AlpinePlant_109_winter_fern/SolidPlantBody"
+metadata/science_gate = false
+
+[node name="@CollisionPolygon2D@167" type="CollisionPolygon2D" parent="Actors_AlpinePlant_109_winter_fern_SolidPlantBody" unique_id=1528079698]
+polygon = PackedVector2Array(-744.89264, 340.83926, -746.0037, 341.50595, -747.89264, 341.72815, -749.22595, 343.1726, -750.6704, 343.50595, -752.3371, 345.61703, -751.7815, 348.28372, -747.89264, 349.95038, -746.3371, 351.50595, -744.11487, 351.28372, -742.0037, 349.50595, -740.7815, 344.61703, -741.0037, 342.83926, -741.89264, 341.61703, -743.4482, 340.72815)
+
+[node name="Actors_AlpinePlant_111_snow_birch_SolidPlantBody" type="StaticBody2D" parent="." unique_id=2079927641]
+metadata/source_path = "Actors/AlpinePlant_111_snow_birch/SolidPlantBody"
+metadata/science_gate = false
+
+[node name="@CollisionPolygon2D@168" type="CollisionPolygon2D" parent="Actors_AlpinePlant_111_snow_birch_SolidPlantBody" unique_id=913938677]
+polygon = PackedVector2Array(-963.8832, 101.35385, -964.5302, 103.1429, -966.37274, 104.65958, -969.1304, 105.67299, -972.3832, 106.028854, -975.636, 105.67299, -978.3936, 104.65958, -980.23615, 103.1429, -980.8832, 101.35385, -980.23615, 99.564804, -978.3936, 98.04813, -975.636, 97.03471, -972.3832, 96.67885, -969.1304, 97.03471, -966.37274, 98.04813, -964.5302, 99.564804)
+
+[node name="Actors_AlpinePlant_112_young_fir_SolidPlantBody" type="StaticBody2D" parent="." unique_id=377000642]
+metadata/source_path = "Actors/AlpinePlant_112_young_fir/SolidPlantBody"
+metadata/science_gate = false
+
+[node name="@CollisionPolygon2D@169" type="CollisionPolygon2D" parent="Actors_AlpinePlant_112_young_fir_SolidPlantBody" unique_id=1096208699]
+polygon = PackedVector2Array(-608.90515, 306.95203, -609.3619, 308.21487, -610.66254, 309.2855, -612.6091, 310.00082, -614.90515, 310.252, -617.20123, 310.00082, -619.14777, 309.2855, -620.4484, 308.21487, -620.90515, 306.95203, -620.4484, 305.68918, -619.14777, 304.61856, -617.20123, 303.90323, -614.90515, 303.65204, -612.6091, 303.90323, -610.66254, 304.61856, -609.3619, 305.68918)
+
+[node name="Actors_AlpinePlant_114_snow_birch_SolidPlantBody" type="StaticBody2D" parent="." unique_id=1435534801]
+metadata/source_path = "Actors/AlpinePlant_114_snow_birch/SolidPlantBody"
+metadata/science_gate = false
+
+[node name="@CollisionPolygon2D@170" type="CollisionPolygon2D" parent="Actors_AlpinePlant_114_snow_birch_SolidPlantBody" unique_id=1869378160]
+polygon = PackedVector2Array(-1015.57947, 264.13412, -1016.2265, 265.92316, -1018.06903, 267.43985, -1020.82666, 268.45325, -1024.0795, 268.8091, -1027.3323, 268.45325, -1030.0898, 267.43985, -1031.9325, 265.92316, -1032.5795, 264.13412, -1031.9325, 262.3451, -1030.0898, 260.8284, -1027.3323, 259.815, -1024.0795, 259.45914, -1020.82666, 259.815, -1018.06903, 260.8284, -1016.2265, 262.3451)
+
+[node name="Actors_AlpinePlant_115_snow_heather_SolidPlantBody" type="StaticBody2D" parent="." unique_id=1878478577]
+collision_layer = 2
+metadata/source_path = "Actors/AlpinePlant_115_snow_heather/SolidPlantBody"
+metadata/science_gate = false
+
+[node name="@CollisionPolygon2D@171" type="CollisionPolygon2D" parent="Actors_AlpinePlant_115_snow_heather_SolidPlantBody" unique_id=1968578030]
+polygon = PackedVector2Array(-776.6043, 178.19014, -777.4124, 178.19014, -779.2306, 179.40225, -781.4528, 179.60428, -783.069, 180.61438, -784.4831, 182.43256, -786.90735, 183.03862, -788.7255, 184.85681, -789.73566, 186.87701, -789.3316, 190.51337, -787.5134, 192.7356, -785.8973, 193.54367, -784.4831, 193.54367, -783.67505, 194.35175, -781.4528, 194.7558, -780.03864, 196.97801, -778.4225, 197.58408, -775.9983, 197.58408, -773.9781, 196.776, -771.3518, 194.35175, -769.9377, 191.7255, -768.92755, 185.66489, -768.92755, 183.24065, -770.5437, 180.00832, -771.3518, 179.40225, -773.372, 179.40225, -774.78613, 178.19014)
+
+[node name="Actors_AlpinePlant_117_young_fir_SolidPlantBody" type="StaticBody2D" parent="." unique_id=925137801]
+metadata/source_path = "Actors/AlpinePlant_117_young_fir/SolidPlantBody"
+metadata/science_gate = false
+
+[node name="@CollisionPolygon2D@172" type="CollisionPolygon2D" parent="Actors_AlpinePlant_117_young_fir_SolidPlantBody" unique_id=527339937]
+polygon = PackedVector2Array(-708.8451, 290.82104, -709.3018, 292.0839, -710.6025, 293.1545, -712.549, 293.86984, -714.8451, 294.12103, -717.1412, 293.86984, -719.0877, 293.1545, -720.38837, 292.0839, -720.8451, 290.82104, -720.38837, 289.5582, -719.0877, 288.48758, -717.1412, 287.77225, -714.8451, 287.52106, -712.549, 287.77225, -710.6025, 288.48758, -709.3018, 289.5582)
+
+[node name="Actors_AlpinePlant_118_frost_reeds_SolidPlantBody" type="StaticBody2D" parent="." unique_id=92795020]
+collision_layer = 2
+metadata/source_path = "Actors/AlpinePlant_118_frost_reeds/SolidPlantBody"
+metadata/science_gate = false
+
+[node name="@CollisionPolygon2D@173" type="CollisionPolygon2D" parent="Actors_AlpinePlant_118_frost_reeds_SolidPlantBody" unique_id=1315028080]
+polygon = PackedVector2Array(-894.2734, 270.6048, -895.1022, 271.2264, -895.5166, 272.8841, -895.3094, 275.78497, -894.4806, 277.44263, -895.931, 276.6138, -896.96704, 276.6138, -898.21027, 278.27145, -898.21027, 280.96515, -896.96704, 282.6228, -896.5526, 287.5958, -895.7238, 287.803, -895.5166, 289.66785, -895.1022, 290.2895, -894.4806, 290.2895, -893.85895, 289.87506, -893.85895, 286.55975, -893.2373, 286.55975, -892.8229, 290.4967, -890.54364, 291.11832, -890.3364, 288.42462, -889.50757, 287.38858, -888.47156, 288.42462, -888.26434, 292.9832, -887.22833, 292.9832, -886.8139, 292.56876, -886.6067, 288.83905, -886.19226, 288.83905, -886.19226, 290.7039, -885.5707, 291.32553, -884.5346, 291.11832, -884.3274, 290.08228, -883.2914, 289.46066, -882.66974, 284.2805, -881.4265, 281.5868, -881.6337, 278.47867, -882.87695, 277.64984, -883.2914, 275.16336, -884.1202, 274.12732, -885.5707, 274.74893, -886.19226, 277.23544, -886.8139, 277.23544, -886.8139, 274.54175, -887.8499, 272.8841, -888.47156, 272.8841, -889.7148, 274.74893, -890.3364, 274.12732, -891.1652, 274.12732, -891.9941, 274.95615, -892.2013, 271.64084, -893.2373, 270.39758)
+
+[node name="Actors_AlpinePlant_120_young_fir_SolidPlantBody" type="StaticBody2D" parent="." unique_id=1991064287]
+metadata/source_path = "Actors/AlpinePlant_120_young_fir/SolidPlantBody"
+metadata/science_gate = false
+
+[node name="@CollisionPolygon2D@174" type="CollisionPolygon2D" parent="Actors_AlpinePlant_120_young_fir_SolidPlantBody" unique_id=364313094]
+polygon = PackedVector2Array(-680.5241, 311.3037, -680.98083, 312.56656, -682.2815, 313.63718, -684.228, 314.3525, -686.5241, 314.6037, -688.8202, 314.3525, -690.7667, 313.63718, -692.0674, 312.56656, -692.5241, 311.3037, -692.0674, 310.04086, -690.7667, 308.97025, -688.8202, 308.2549, -686.5241, 308.00372, -684.228, 308.2549, -682.2815, 308.97025, -680.98083, 310.04086)
+
+[node name="Actors_AlpinePlant_121_frost_reeds_SolidPlantBody" type="StaticBody2D" parent="." unique_id=581414955]
+collision_layer = 2
+metadata/source_path = "Actors/AlpinePlant_121_frost_reeds/SolidPlantBody"
+metadata/science_gate = false
+
+[node name="@CollisionPolygon2D@175" type="CollisionPolygon2D" parent="Actors_AlpinePlant_121_frost_reeds_SolidPlantBody" unique_id=1246661566]
+polygon = PackedVector2Array(-944.6396, 70.77762, -945.4684, 71.39925, -945.8828, 73.0569, -945.6756, 75.9578, -944.8468, 77.61546, -946.29724, 76.78663, -947.33325, 76.78663, -948.5765, 78.44429, -948.5765, 81.137985, -947.33325, 82.79564, -946.9188, 87.768616, -946.09, 87.975815, -945.8828, 89.84068, -945.4684, 90.46231, -944.8468, 90.46231, -944.22516, 90.0479, -944.22516, 86.732574, -943.6035, 86.732574, -943.1891, 90.66951, -940.90985, 91.29114, -940.70264, 88.59744, -939.8738, 87.5614, -938.83777, 88.59744, -938.63055, 93.156, -937.59454, 93.156, -937.1801, 92.741585, -936.9729, 89.011856, -936.5585, 89.011856, -936.5585, 90.876724, -935.9369, 91.498344, -934.9008, 91.29114, -934.6936, 90.2551, -933.6576, 89.63348, -933.03595, 84.45329, -931.7927, 81.759605, -931.99994, 78.6515, -933.24316, 77.82266, -933.6576, 75.33618, -934.4864, 74.30014, -935.9369, 74.92177, -936.5585, 77.40825, -937.1801, 77.40825, -937.1801, 74.71456, -938.2161, 73.0569, -938.83777, 73.0569, -940.081, 74.92177, -940.70264, 74.30014, -941.53143, 74.30014, -942.3603, 75.128975, -942.5675, 71.81366, -943.6035, 70.57042)
+
+[node name="Actors_AlpinePlant_123_mountain_pine_SolidPlantBody" type="StaticBody2D" parent="." unique_id=2066229894]
+metadata/source_path = "Actors/AlpinePlant_123_mountain_pine/SolidPlantBody"
+metadata/science_gate = false
+
+[node name="@CollisionPolygon2D@176" type="CollisionPolygon2D" parent="Actors_AlpinePlant_123_mountain_pine_SolidPlantBody" unique_id=953949498]
+polygon = PackedVector2Array(-1020.49854, 78.12238, -1021.14557, 79.91143, -1022.9881, 81.42811, -1025.7457, 82.44152, -1028.9985, 82.797386, -1032.2513, 82.44152, -1035.0089, 81.42811, -1036.8516, 79.91143, -1037.4985, 78.12238, -1036.8516, 76.333336, -1035.0089, 74.81666, -1032.2513, 73.803246, -1028.9985, 73.44738, -1025.7457, 73.803246, -1022.9881, 74.81666, -1021.14557, 76.333336)
+
+[node name="Actors_AlpinePlant_124_snow_heather_SolidPlantBody" type="StaticBody2D" parent="." unique_id=1659660278]
+collision_layer = 2
+metadata/source_path = "Actors/AlpinePlant_124_snow_heather/SolidPlantBody"
+metadata/science_gate = false
+
+[node name="@CollisionPolygon2D@177" type="CollisionPolygon2D" parent="Actors_AlpinePlant_124_snow_heather_SolidPlantBody" unique_id=672490691]
+polygon = PackedVector2Array(213.93874, -426.35538, 213.13066, -426.35538, 211.31247, -425.14325, 209.09026, -424.94122, 207.47409, -423.93115, 206.05995, -422.11295, 203.63571, -421.5069, 201.81752, -419.68872, 200.80742, -417.66852, 201.21147, -414.03214, 203.02965, -411.80994, 204.64581, -411.00183, 206.05995, -411.00183, 206.86803, -410.19376, 209.09026, -409.78973, 210.5044, -407.5675, 212.12056, -406.96143, 214.5448, -406.96143, 216.565, -407.76953, 219.19127, -410.19376, 220.60541, -412.82004, 221.61551, -418.88065, 221.61551, -421.30487, 219.99934, -424.5372, 219.19127, -425.14325, 217.17107, -425.14325, 215.75693, -426.35538)
+
+[node name="Actors_AddedGroveTree_000_CollisionBody" type="StaticBody2D" parent="." unique_id=1941663851]
+metadata/source_path = "Actors/AddedGroveTree_000/CollisionBody"
+metadata/science_gate = false
+
+[node name="@CollisionPolygon2D@178" type="CollisionPolygon2D" parent="Actors_AddedGroveTree_000_CollisionBody" unique_id=681564325]
+polygon = PackedVector2Array(-367.76614, -237.10329, -368.41318, -235.31424, -370.25574, -233.79756, -373.01334, -232.78415, -376.26614, -232.42828, -379.51895, -232.78415, -382.27655, -233.79756, -384.1191, -235.31424, -384.76614, -237.10329, -384.1191, -238.89233, -382.27655, -240.40901, -379.51895, -241.42242, -376.26614, -241.77829, -373.01334, -241.42242, -370.25574, -240.40901, -368.41318, -238.89233)
+
+[node name="Actors_AddedGroveTree_002_CollisionBody" type="StaticBody2D" parent="." unique_id=582680439]
+metadata/source_path = "Actors/AddedGroveTree_002/CollisionBody"
+metadata/science_gate = false
+
+[node name="@CollisionPolygon2D@179" type="CollisionPolygon2D" parent="Actors_AddedGroveTree_002_CollisionBody" unique_id=881117800]
+polygon = PackedVector2Array(-470.00583, -207.32677, -470.76703, -205.22202, -472.93475, -203.43768, -476.179, -202.24542, -480.00583, -201.82677, -483.83267, -202.24542, -487.0769, -203.43768, -489.24463, -205.22202, -490.00583, -207.32677, -489.24463, -209.43152, -487.0769, -211.21585, -483.83267, -212.40811, -480.00583, -212.82677, -476.179, -212.40811, -472.93475, -211.21585, -470.76703, -209.43152)
+
+[node name="Actors_AddedGroveTree_003_CollisionBody" type="StaticBody2D" parent="." unique_id=1231074777]
+metadata/source_path = "Actors/AddedGroveTree_003/CollisionBody"
+metadata/science_gate = false
+
+[node name="@CollisionPolygon2D@180" type="CollisionPolygon2D" parent="Actors_AddedGroveTree_003_CollisionBody" unique_id=1798827897]
+polygon = PackedVector2Array(-92.90996, 738.0814, -93.671165, 740.18616, -95.83889, 741.9705, -99.08312, 743.1628, -102.90996, 743.5814, -106.73679, 743.1628, -109.981026, 741.9705, -112.14875, 740.18616, -112.90996, 738.0814, -112.14875, 735.9767, -109.981026, 734.1923, -106.73679, 733.00006, -102.90996, 732.5814, -99.08312, 733.00006, -95.83889, 734.1923, -93.671165, 735.9767)
+
+[node name="Actors_AddedGroveTree_004_CollisionBody" type="StaticBody2D" parent="." unique_id=1002565490]
+metadata/source_path = "Actors/AddedGroveTree_004/CollisionBody"
+metadata/science_gate = false
+
+[node name="@CollisionPolygon2D@181" type="CollisionPolygon2D" parent="Actors_AddedGroveTree_004_CollisionBody" unique_id=765955289]
+polygon = PackedVector2Array(-433.83566, -215.65292, -434.4827, -213.86388, -436.32526, -212.3472, -439.08286, -211.33379, -442.33566, -210.97792, -445.58847, -211.33379, -448.34607, -212.3472, -450.18863, -213.86388, -450.83566, -215.65292, -450.18863, -217.44197, -448.34607, -218.95865, -445.58847, -219.97206, -442.33566, -220.32793, -439.08286, -219.97206, -436.32526, -218.95865, -434.4827, -217.44197)
+
+[node name="Actors_AddedGroveTree_005_CollisionBody" type="StaticBody2D" parent="." unique_id=716335767]
+metadata/source_path = "Actors/AddedGroveTree_005/CollisionBody"
+metadata/science_gate = false
+
+[node name="@CollisionPolygon2D@182" type="CollisionPolygon2D" parent="Actors_AddedGroveTree_005_CollisionBody" unique_id=6296818]
+polygon = PackedVector2Array(-134.24536, -667.6255, -134.89238, -665.8364, -136.73495, -664.31976, -139.49255, -663.30634, -142.74536, -662.9505, -145.99817, -663.30634, -148.75577, -664.31976, -150.59834, -665.8364, -151.24536, -667.6255, -150.59834, -669.41455, -148.75577, -670.9312, -145.99817, -671.94464, -142.74536, -672.3005, -139.49255, -671.94464, -136.73495, -670.9312, -134.89238, -669.41455)
+
+[node name="Actors_AddedGroveTree_006_CollisionBody" type="StaticBody2D" parent="." unique_id=591637830]
+metadata/source_path = "Actors/AddedGroveTree_006/CollisionBody"
+metadata/science_gate = false
+
+[node name="@CollisionPolygon2D@183" type="CollisionPolygon2D" parent="Actors_AddedGroveTree_006_CollisionBody" unique_id=1185117778]
+polygon = PackedVector2Array(-78.26168, 793.03, -79.02289, 795.13477, -81.19061, 796.9191, -84.434845, 798.1114, -88.26168, 798.53, -92.08852, 798.1114, -95.33275, 796.9191, -97.50047, 795.13477, -98.26168, 793.03, -97.50047, 790.9253, -95.33275, 789.1409, -92.08852, 787.94867, -88.26168, 787.53, -84.434845, 787.94867, -81.19061, 789.1409, -79.02289, 790.9253)
+
+[node name="Actors_AddedGroveTree_007_CollisionBody" type="StaticBody2D" parent="." unique_id=1010189775]
+metadata/source_path = "Actors/AddedGroveTree_007/CollisionBody"
+metadata/science_gate = false
+
+[node name="@CollisionPolygon2D@184" type="CollisionPolygon2D" parent="Actors_AddedGroveTree_007_CollisionBody" unique_id=237199847]
+polygon = PackedVector2Array(602.38837, 211.42136, 601.62714, 213.52611, 599.4594, 215.31044, 596.2152, 216.5027, 592.38837, 216.92136, 588.5615, 216.5027, 585.3173, 215.31044, 583.1496, 213.52611, 582.38837, 211.42136, 583.1496, 209.3166, 585.3173, 207.53227, 588.5615, 206.34001, 592.38837, 205.92136, 596.2152, 206.34001, 599.4594, 207.53227, 601.62714, 209.3166)
+
+[node name="Actors_AddedGroveTree_008_CollisionBody" type="StaticBody2D" parent="." unique_id=1562071146]
+metadata/source_path = "Actors/AddedGroveTree_008/CollisionBody"
+metadata/science_gate = false
+
+[node name="@CollisionPolygon2D@185" type="CollisionPolygon2D" parent="Actors_AddedGroveTree_008_CollisionBody" unique_id=1558669345]
+polygon = PackedVector2Array(-428.07535, -657.5723, -428.72238, -655.78326, -430.56494, -654.2666, -433.32254, -653.2532, -436.57535, -652.89734, -439.82816, -653.2532, -442.58575, -654.2666, -444.4283, -655.78326, -445.07535, -657.5723, -444.4283, -659.3614, -442.58575, -660.87805, -439.82816, -661.8915, -436.57535, -662.2473, -433.32254, -661.8915, -430.56494, -660.87805, -428.72238, -659.3614)
+
+[node name="Actors_AddedGroveTree_009_CollisionBody" type="StaticBody2D" parent="." unique_id=1216451163]
+metadata/source_path = "Actors/AddedGroveTree_009/CollisionBody"
+metadata/science_gate = false
+
+[node name="@CollisionPolygon2D@186" type="CollisionPolygon2D" parent="Actors_AddedGroveTree_009_CollisionBody" unique_id=658626269]
+polygon = PackedVector2Array(927.3584, 269.36874, 926.71136, 271.15778, 924.86884, 272.67447, 922.1112, 273.68787, 918.8584, 274.04373, 915.6056, 273.68787, 912.84796, 272.67447, 911.00543, 271.15778, 910.3584, 269.36874, 911.00543, 267.5797, 912.84796, 266.06302, 915.6056, 265.04962, 918.8584, 264.69376, 922.1112, 265.04962, 924.86884, 266.06302, 926.71136, 267.5797)
+
+[node name="Actors_AddedGroveTree_010_CollisionBody" type="StaticBody2D" parent="." unique_id=1261073179]
+metadata/source_path = "Actors/AddedGroveTree_010/CollisionBody"
+metadata/science_gate = false
+
+[node name="@CollisionPolygon2D@187" type="CollisionPolygon2D" parent="Actors_AddedGroveTree_010_CollisionBody" unique_id=1706862319]
+polygon = PackedVector2Array(562.0986, 319.00482, 561.33734, 321.1096, 559.1696, 322.89392, 555.9254, 324.08615, 552.0986, 324.50482, 548.2717, 324.08615, 545.0275, 322.89392, 542.8598, 321.1096, 542.0986, 319.00482, 542.8598, 316.90005, 545.0275, 315.11572, 548.2717, 313.9235, 552.0986, 313.50482, 555.9254, 313.9235, 559.1696, 315.11572, 561.33734, 316.90005)
+
+[node name="Actors_AddedGroveTree_011_CollisionBody" type="StaticBody2D" parent="." unique_id=1384105757]
+metadata/source_path = "Actors/AddedGroveTree_011/CollisionBody"
+metadata/science_gate = false
+
+[node name="@CollisionPolygon2D@188" type="CollisionPolygon2D" parent="Actors_AddedGroveTree_011_CollisionBody" unique_id=19355489]
+polygon = PackedVector2Array(-347.14032, -284.77658, -347.90152, -282.6718, -350.06924, -280.88748, -353.31348, -279.69525, -357.14032, -279.27658, -360.96716, -279.69525, -364.2114, -280.88748, -366.37912, -282.6718, -367.14032, -284.77658, -366.37912, -286.88135, -364.2114, -288.66568, -360.96716, -289.8579, -357.14032, -290.27658, -353.31348, -289.8579, -350.06924, -288.66568, -347.90152, -286.88135)
+
+[node name="Actors_AddedGroveTree_013_CollisionBody" type="StaticBody2D" parent="." unique_id=6782422]
+metadata/source_path = "Actors/AddedGroveTree_013/CollisionBody"
+metadata/science_gate = false
+
+[node name="@CollisionPolygon2D@189" type="CollisionPolygon2D" parent="Actors_AddedGroveTree_013_CollisionBody" unique_id=960159018]
+polygon = PackedVector2Array(-1004.7397, 141.59598, -1005.3867, 143.38503, -1007.22925, 144.9017, -1009.9869, 145.91512, -1013.2397, 146.27098, -1016.4925, 145.91512, -1019.2501, 144.9017, -1021.09265, 143.38503, -1021.7397, 141.59598, -1021.09265, 139.80693, -1019.2501, 138.29025, -1016.4925, 137.27684, -1013.2397, 136.92097, -1009.9869, 137.27684, -1007.22925, 138.29025, -1005.3867, 139.80693)
+
+[node name="Actors_AddedGroveTree_015_CollisionBody" type="StaticBody2D" parent="." unique_id=795614485]
+metadata/source_path = "Actors/AddedGroveTree_015/CollisionBody"
+metadata/science_gate = false
+
+[node name="@CollisionPolygon2D@190" type="CollisionPolygon2D" parent="Actors_AddedGroveTree_015_CollisionBody" unique_id=509377934]
+polygon = PackedVector2Array(415.58014, 674.94446, 414.81894, 677.0492, 412.6512, 678.83356, 409.40698, 680.0258, 405.58014, 680.44446, 401.7533, 680.0258, 398.50906, 678.83356, 396.34134, 677.0492, 395.58014, 674.94446, 396.34134, 672.8397, 398.50906, 671.05536, 401.7533, 669.8631, 405.58014, 669.44446, 409.40698, 669.8631, 412.6512, 671.05536, 414.81894, 672.8397)
+
+[node name="Actors_AddedGroveTree_017_CollisionBody" type="StaticBody2D" parent="." unique_id=524119512]
+metadata/source_path = "Actors/AddedGroveTree_017/CollisionBody"
+metadata/science_gate = false
+
+[node name="@CollisionPolygon2D@191" type="CollisionPolygon2D" parent="Actors_AddedGroveTree_017_CollisionBody" unique_id=1050519]
+polygon = PackedVector2Array(-398.35553, -237.38568, -399.00256, -235.59663, -400.84512, -234.07996, -403.60272, -233.06654, -406.85553, -232.71068, -410.10834, -233.06654, -412.86594, -234.07996, -414.7085, -235.59663, -415.35553, -237.38568, -414.7085, -239.17473, -412.86594, -240.6914, -410.10834, -241.70482, -406.85553, -242.06068, -403.60272, -241.70482, -400.84512, -240.6914, -399.00256, -239.17473)
+
+[node name="Actors_AddedGroveTree_018_CollisionBody" type="StaticBody2D" parent="." unique_id=1375174369]
+metadata/source_path = "Actors/AddedGroveTree_018/CollisionBody"
+metadata/science_gate = false
+
+[node name="@CollisionPolygon2D@192" type="CollisionPolygon2D" parent="Actors_AddedGroveTree_018_CollisionBody" unique_id=1780963963]
+polygon = PackedVector2Array(-284.3126, -685.7828, -285.0738, -683.67804, -287.24152, -681.8937, -290.48575, -680.7014, -294.3126, -680.2828, -298.13943, -680.7014, -301.38367, -681.8937, -303.5514, -683.67804, -304.3126, -685.7828, -303.5514, -687.8875, -301.38367, -689.6719, -298.13943, -690.86414, -294.3126, -691.2828, -290.48575, -690.86414, -287.24152, -689.6719, -285.0738, -687.8875)
+
+[node name="Actors_AddedGroveTree_020_CollisionBody" type="StaticBody2D" parent="." unique_id=1087524945]
+metadata/source_path = "Actors/AddedGroveTree_020/CollisionBody"
+metadata/science_gate = false
+
+[node name="@CollisionPolygon2D@193" type="CollisionPolygon2D" parent="Actors_AddedGroveTree_020_CollisionBody" unique_id=1003846556]
+polygon = PackedVector2Array(113.94014, -679.763, 113.29311, -677.97394, 111.45055, -676.4573, 108.69295, -675.44385, 105.44014, -675.088, 102.18733, -675.44385, 99.42973, -676.4573, 97.587166, -677.97394, 96.94014, -679.763, 97.587166, -681.55206, 99.42973, -683.0687, 102.18733, -684.08215, 105.44014, -684.438, 108.69295, -684.08215, 111.45055, -683.0687, 113.29311, -681.55206)
+
+[node name="Actors_AddedGroveTree_021_CollisionBody" type="StaticBody2D" parent="." unique_id=590640185]
+metadata/source_path = "Actors/AddedGroveTree_021/CollisionBody"
+metadata/science_gate = false
+
+[node name="@CollisionPolygon2D@194" type="CollisionPolygon2D" parent="Actors_AddedGroveTree_021_CollisionBody" unique_id=794721122]
+polygon = PackedVector2Array(-304.4563, -260.28915, -305.10333, -258.50012, -306.9459, -256.98343, -309.7035, -255.97002, -312.9563, -255.61415, -316.2091, -255.97002, -318.9667, -256.98343, -320.80927, -258.50012, -321.4563, -260.28915, -320.80927, -262.0782, -318.9667, -263.59488, -316.2091, -264.60828, -312.9563, -264.96414, -309.7035, -264.60828, -306.9459, -263.59488, -305.10333, -262.0782)
+
+[node name="Actors_AddedGroveTree_022_CollisionBody" type="StaticBody2D" parent="." unique_id=2110204058]
+metadata/source_path = "Actors/AddedGroveTree_022/CollisionBody"
+metadata/science_gate = false
+
+[node name="@CollisionPolygon2D@195" type="CollisionPolygon2D" parent="Actors_AddedGroveTree_022_CollisionBody" unique_id=2071357029]
+polygon = PackedVector2Array(-24.094688, -609.1041, -24.855892, -606.9994, -27.02362, -605.215, -30.267855, -604.02277, -34.09469, -603.6041, -37.921524, -604.02277, -41.165756, -605.215, -43.333485, -606.9994, -44.09469, -609.1041, -43.333485, -611.20886, -41.165756, -612.9932, -37.921524, -614.1855, -34.09469, -614.6041, -30.267855, -614.1855, -27.02362, -612.9932, -24.855892, -611.20886)
+
+[node name="Actors_AddedGroveTree_023_CollisionBody" type="StaticBody2D" parent="." unique_id=1705627815]
+metadata/source_path = "Actors/AddedGroveTree_023/CollisionBody"
+metadata/science_gate = false
+
+[node name="@CollisionPolygon2D@196" type="CollisionPolygon2D" parent="Actors_AddedGroveTree_023_CollisionBody" unique_id=1595574928]
+polygon = PackedVector2Array(682.24115, 280.25848, 681.4799, 282.36325, 679.3122, 284.14758, 676.068, 285.3398, 672.24115, 285.75848, 668.4143, 285.3398, 665.1701, 284.14758, 663.0024, 282.36325, 662.24115, 280.25848, 663.0024, 278.15372, 665.1701, 276.3694, 668.4143, 275.17715, 672.24115, 274.75848, 676.068, 275.17715, 679.3122, 276.3694, 681.4799, 278.15372)
+
+[node name="Actors_AddedGroveTree_024_CollisionBody" type="StaticBody2D" parent="." unique_id=1283710807]
+metadata/source_path = "Actors/AddedGroveTree_024/CollisionBody"
+metadata/science_gate = false
+
+[node name="@CollisionPolygon2D@197" type="CollisionPolygon2D" parent="Actors_AddedGroveTree_024_CollisionBody" unique_id=408294741]
+polygon = PackedVector2Array(-514.5907, -205.05078, -515.23773, -203.26173, -517.08026, -201.74506, -519.8379, -200.73164, -523.0907, -200.37578, -526.3435, -200.73164, -529.10114, -201.74506, -530.94366, -203.26173, -531.5907, -205.05078, -530.94366, -206.83983, -529.10114, -208.3565, -526.3435, -209.36992, -523.0907, -209.72578, -519.8379, -209.36992, -517.08026, -208.3565, -515.23773, -206.83983)
+
+[node name="Actors_AddedGroveTree_025_CollisionBody" type="StaticBody2D" parent="." unique_id=2011233413]
+metadata/source_path = "Actors/AddedGroveTree_025/CollisionBody"
+metadata/science_gate = false
+
+[node name="@CollisionPolygon2D@198" type="CollisionPolygon2D" parent="Actors_AddedGroveTree_025_CollisionBody" unique_id=474174138]
+polygon = PackedVector2Array(-284.77795, -358.36148, -285.425, -356.57245, -287.26755, -355.05576, -290.02515, -354.04236, -293.27795, -353.6865, -296.53076, -354.04236, -299.28836, -355.05576, -301.13092, -356.57245, -301.77795, -358.36148, -301.13092, -360.1505, -299.28836, -361.6672, -296.53076, -362.6806, -293.27795, -363.03647, -290.02515, -362.6806, -287.26755, -361.6672, -285.425, -360.1505)
+
+[node name="Actors_AddedGroveTree_026_CollisionBody" type="StaticBody2D" parent="." unique_id=1803750100]
+metadata/source_path = "Actors/AddedGroveTree_026/CollisionBody"
+metadata/science_gate = false
+
+[node name="@CollisionPolygon2D@199" type="CollisionPolygon2D" parent="Actors_AddedGroveTree_026_CollisionBody" unique_id=642689589]
+polygon = PackedVector2Array(-1018.8224, 361.29538, -1019.5836, 363.40015, -1021.75134, 365.18448, -1024.9956, 366.3767, -1028.8224, 366.79538, -1032.6492, 366.3767, -1035.8934, 365.18448, -1038.0612, 363.40015, -1038.8224, 361.29538, -1038.0612, 359.1906, -1035.8934, 357.40628, -1032.6492, 356.21405, -1028.8224, 355.79538, -1024.9956, 356.21405, -1021.75134, 357.40628, -1019.5836, 359.1906)
+
+[node name="Actors_AddedGroveTree_027_CollisionBody" type="StaticBody2D" parent="." unique_id=1087995543]
+metadata/source_path = "Actors/AddedGroveTree_027/CollisionBody"
+metadata/science_gate = false
+
+[node name="@CollisionPolygon2D@200" type="CollisionPolygon2D" parent="Actors_AddedGroveTree_027_CollisionBody" unique_id=780651205]
+polygon = PackedVector2Array(-222.26831, -681.66974, -223.02951, -679.565, -225.19724, -677.78064, -228.44148, -676.5884, -232.26831, -676.16974, -236.09514, -676.5884, -239.33939, -677.78064, -241.50711, -679.565, -242.26831, -681.66974, -241.50711, -683.7745, -239.33939, -685.55884, -236.09514, -686.7511, -232.26831, -687.16974, -228.44148, -686.7511, -225.19724, -685.55884, -223.02951, -683.7745)
+
+[node name="Actors_AddedGroveTree_028_CollisionBody" type="StaticBody2D" parent="." unique_id=377519702]
+metadata/source_path = "Actors/AddedGroveTree_028/CollisionBody"
+metadata/science_gate = false
+
+[node name="@CollisionPolygon2D@201" type="CollisionPolygon2D" parent="Actors_AddedGroveTree_028_CollisionBody" unique_id=473912887]
+polygon = PackedVector2Array(-332.56586, -218.2671, -333.2129, -216.47806, -335.05545, -214.96138, -337.81305, -213.94797, -341.06586, -213.5921, -344.31866, -213.94797, -347.07626, -214.96138, -348.91882, -216.47806, -349.56586, -218.2671, -348.91882, -220.05615, -347.07626, -221.57283, -344.31866, -222.58624, -341.06586, -222.94211, -337.81305, -222.58624, -335.05545, -221.57283, -333.2129, -220.05615)
+
+[node name="Actors_AddedGroveTree_030_CollisionBody" type="StaticBody2D" parent="." unique_id=343815614]
+metadata/source_path = "Actors/AddedGroveTree_030/CollisionBody"
+metadata/science_gate = false
+
+[node name="@CollisionPolygon2D@202" type="CollisionPolygon2D" parent="Actors_AddedGroveTree_030_CollisionBody" unique_id=1285096907]
+polygon = PackedVector2Array(-87.48766, -672.08215, -88.24887, -669.9774, -90.416595, -668.19305, -93.66083, -667.0008, -97.48766, -666.58215, -101.3145, -667.0008, -104.55873, -668.19305, -106.726456, -669.9774, -107.48766, -672.08215, -106.726456, -674.1869, -104.55873, -675.97125, -101.3145, -677.1635, -97.48766, -677.58215, -93.66083, -677.1635, -90.416595, -675.97125, -88.24887, -674.1869)
+
+[node name="Actors_AddedGroveTree_031_CollisionBody" type="StaticBody2D" parent="." unique_id=1109344599]
+metadata/source_path = "Actors/AddedGroveTree_031/CollisionBody"
+metadata/science_gate = false
+
+[node name="@CollisionPolygon2D@203" type="CollisionPolygon2D" parent="Actors_AddedGroveTree_031_CollisionBody" unique_id=167420591]
+polygon = PackedVector2Array(-549.35596, -611.33826, -550.1172, -609.2335, -552.2849, -607.44916, -555.5291, -606.2569, -559.35596, -605.83826, -563.1828, -606.2569, -566.427, -607.44916, -568.5947, -609.2335, -569.35596, -611.33826, -568.5947, -613.443, -566.427, -615.22736, -563.1828, -616.4196, -559.35596, -616.83826, -555.5291, -616.4196, -552.2849, -615.22736, -550.1172, -613.443)
+
+[node name="Actors_AddedGroveTree_032_CollisionBody" type="StaticBody2D" parent="." unique_id=329709474]
+metadata/source_path = "Actors/AddedGroveTree_032/CollisionBody"
+metadata/science_gate = false
+
+[node name="@CollisionPolygon2D@204" type="CollisionPolygon2D" parent="Actors_AddedGroveTree_032_CollisionBody" unique_id=1239499395]
+polygon = PackedVector2Array(-138.08955, -612.776, -138.73657, -610.98694, -140.57915, -609.4703, -143.33675, -608.45685, -146.58955, -608.101, -149.84236, -608.45685, -152.59996, -609.4703, -154.44254, -610.98694, -155.08955, -612.776, -154.44254, -614.56506, -152.59996, -616.0817, -149.84236, -617.09515, -146.58955, -617.451, -143.33675, -617.09515, -140.57915, -616.0817, -138.73657, -614.56506)
+
+[node name="Actors_AddedGroveTree_033_CollisionBody" type="StaticBody2D" parent="." unique_id=23184364]
+metadata/source_path = "Actors/AddedGroveTree_033/CollisionBody"
+metadata/science_gate = false
+
+[node name="@CollisionPolygon2D@205" type="CollisionPolygon2D" parent="Actors_AddedGroveTree_033_CollisionBody" unique_id=331367709]
+polygon = PackedVector2Array(538.9306, 236.33194, 538.28357, 238.12099, 536.44104, 239.63766, 533.6834, 240.65108, 530.4306, 241.00694, 527.1778, 240.65108, 524.42017, 239.63766, 522.57764, 238.12099, 521.9306, 236.33194, 522.57764, 234.5429, 524.42017, 233.02621, 527.1778, 232.0128, 530.4306, 231.65694, 533.6834, 232.0128, 536.44104, 233.02621, 538.28357, 234.5429)
+
+[node name="Actors_AddedGroveTree_034_CollisionBody" type="StaticBody2D" parent="." unique_id=853389032]
+metadata/source_path = "Actors/AddedGroveTree_034/CollisionBody"
+metadata/science_gate = false
+
+[node name="@CollisionPolygon2D@206" type="CollisionPolygon2D" parent="Actors_AddedGroveTree_034_CollisionBody" unique_id=400668545]
+polygon = PackedVector2Array(521.07965, 261.20206, 520.3184, 263.30682, 518.1507, 265.09116, 514.9065, 266.2834, 511.07965, 266.70206, 507.2528, 266.2834, 504.00858, 265.09116, 501.84085, 263.30682, 501.07965, 261.20206, 501.84085, 259.0973, 504.00858, 257.31296, 507.2528, 256.12073, 511.07965, 255.70206, 514.9065, 256.12073, 518.1507, 257.31296, 520.3184, 259.0973)
+
+[node name="Actors_AddedGroveTree_035_CollisionBody" type="StaticBody2D" parent="." unique_id=862790968]
+metadata/source_path = "Actors/AddedGroveTree_035/CollisionBody"
+metadata/science_gate = false
+
+[node name="@CollisionPolygon2D@207" type="CollisionPolygon2D" parent="Actors_AddedGroveTree_035_CollisionBody" unique_id=1825678764]
+polygon = PackedVector2Array(-439.2193, 695.1422, -439.9805, 697.24695, -442.14822, 699.0313, -445.39246, 700.2236, -449.2193, 700.6422, -453.04614, 700.2236, -456.29037, 699.0313, -458.4581, 697.24695, -459.2193, 695.1422, -458.4581, 693.0375, -456.29037, 691.2531, -453.04614, 690.06085, -449.2193, 689.6422, -445.39246, 690.06085, -442.14822, 691.2531, -439.9805, 693.0375)
+
+[node name="Actors_AddedGroveTree_036_CollisionBody" type="StaticBody2D" parent="." unique_id=17899757]
+metadata/source_path = "Actors/AddedGroveTree_036/CollisionBody"
+metadata/science_gate = false
+
+[node name="@CollisionPolygon2D@208" type="CollisionPolygon2D" parent="Actors_AddedGroveTree_036_CollisionBody" unique_id=1630782430]
+polygon = PackedVector2Array(-8.277746, -695.3828, -8.92477, -693.59375, -10.767339, -692.0771, -13.524937, -691.06366, -16.777746, -690.7078, -20.030556, -691.06366, -22.788155, -692.0771, -24.630722, -693.59375, -25.277746, -695.3828, -24.630722, -697.1719, -22.788155, -698.68854, -20.030556, -699.70197, -16.777746, -700.0578, -13.524937, -699.70197, -10.767339, -698.68854, -8.92477, -697.1719)
+
+[node name="Actors_AddedGroveTree_038_CollisionBody" type="StaticBody2D" parent="." unique_id=1377484895]
+metadata/source_path = "Actors/AddedGroveTree_038/CollisionBody"
+metadata/science_gate = false
+
+[node name="@CollisionPolygon2D@209" type="CollisionPolygon2D" parent="Actors_AddedGroveTree_038_CollisionBody" unique_id=1775293707]
+polygon = PackedVector2Array(675.873, 210.43716, 675.11176, 212.54192, 672.94403, 214.32625, 669.6998, 215.51851, 665.873, 215.93716, 662.04614, 215.51851, 658.80194, 214.32625, 656.6342, 212.54192, 655.873, 210.43716, 656.6342, 208.33241, 658.80194, 206.54808, 662.04614, 205.35582, 665.873, 204.93716, 669.6998, 205.35582, 672.94403, 206.54808, 675.11176, 208.33241)
+
+[node name="Actors_AddedGroveTree_039_CollisionBody" type="StaticBody2D" parent="." unique_id=881783706]
+metadata/source_path = "Actors/AddedGroveTree_039/CollisionBody"
+metadata/science_gate = false
+
+[node name="@CollisionPolygon2D@210" type="CollisionPolygon2D" parent="Actors_AddedGroveTree_039_CollisionBody" unique_id=341422647]
+polygon = PackedVector2Array(-786.09534, 554.4719, -786.85657, 556.57666, -789.0243, 558.361, -792.2685, 559.5533, -796.09534, 559.9719, -799.9222, 559.5533, -803.1664, 558.361, -805.3341, 556.57666, -806.09534, 554.4719, -805.3341, 552.3672, -803.1664, 550.5828, -799.9222, 549.39056, -796.09534, 548.9719, -792.2685, 549.39056, -789.0243, 550.5828, -786.85657, 552.3672)
+
+[node name="Actors_AddedGroveTree_041_CollisionBody" type="StaticBody2D" parent="." unique_id=318060113]
+metadata/source_path = "Actors/AddedGroveTree_041/CollisionBody"
+metadata/science_gate = false
+
+[node name="@CollisionPolygon2D@211" type="CollisionPolygon2D" parent="Actors_AddedGroveTree_041_CollisionBody" unique_id=244514501]
+polygon = PackedVector2Array(930.7971, 379.8964, 930.1501, 381.68542, 928.30756, 383.20212, 925.5499, 384.2155, 922.2971, 384.57138, 919.0443, 384.2155, 916.2867, 383.20212, 914.44415, 381.68542, 913.7971, 379.8964, 914.44415, 378.10736, 916.2867, 376.59067, 919.0443, 375.57727, 922.2971, 375.2214, 925.5499, 375.57727, 928.30756, 376.59067, 930.1501, 378.10736)
+
+[node name="Actors_AddedGroveTree_043_CollisionBody" type="StaticBody2D" parent="." unique_id=372859704]
+metadata/source_path = "Actors/AddedGroveTree_043/CollisionBody"
+metadata/science_gate = false
+
+[node name="@CollisionPolygon2D@212" type="CollisionPolygon2D" parent="Actors_AddedGroveTree_043_CollisionBody" unique_id=679607825]
+polygon = PackedVector2Array(-530.5278, -657.03955, -531.289, -654.9348, -533.4567, -653.15045, -536.7009, -651.9582, -540.5278, -651.53955, -544.3546, -651.9582, -547.5988, -653.15045, -549.76654, -654.9348, -550.5278, -657.03955, -549.76654, -659.1443, -547.5988, -660.92865, -544.3546, -662.1209, -540.5278, -662.53955, -536.7009, -662.1209, -533.4567, -660.92865, -531.289, -659.1443)
+
+[node name="Actors_AddedGroveTree_044_CollisionBody" type="StaticBody2D" parent="." unique_id=1235161549]
+metadata/source_path = "Actors/AddedGroveTree_044/CollisionBody"
+metadata/science_gate = false
+
+[node name="@CollisionPolygon2D@213" type="CollisionPolygon2D" parent="Actors_AddedGroveTree_044_CollisionBody" unique_id=278499200]
+polygon = PackedVector2Array(938.23773, 229.44421, 937.5907, 231.23326, 935.74817, 232.74994, 932.99054, 233.76335, 929.73773, 234.11922, 926.4849, 233.76335, 923.7273, 232.74994, 921.88477, 231.23326, 921.23773, 229.44421, 921.88477, 227.65517, 923.7273, 226.13849, 926.4849, 225.12508, 929.73773, 224.76921, 932.99054, 225.12508, 935.74817, 226.13849, 937.5907, 227.65517)
+
+[node name="Actors_AddedGroveTree_045_CollisionBody" type="StaticBody2D" parent="." unique_id=516683553]
+metadata/source_path = "Actors/AddedGroveTree_045/CollisionBody"
+metadata/science_gate = false
+
+[node name="@CollisionPolygon2D@214" type="CollisionPolygon2D" parent="Actors_AddedGroveTree_045_CollisionBody" unique_id=1593186257]
+polygon = PackedVector2Array(-598.99585, -607.80634, -599.6429, -606.0173, -601.4854, -604.5006, -604.24304, -603.4872, -607.49585, -603.13135, -610.74866, -603.4872, -613.5063, -604.5006, -615.3488, -606.0173, -615.99585, -607.80634, -615.3488, -609.5954, -613.5063, -611.11206, -610.74866, -612.1255, -607.49585, -612.4813, -604.24304, -612.1255, -601.4854, -611.11206, -599.6429, -609.5954)
+
+[node name="Actors_AddedGroveTree_047_CollisionBody" type="StaticBody2D" parent="." unique_id=609902072]
+metadata/source_path = "Actors/AddedGroveTree_047/CollisionBody"
+metadata/science_gate = false
+
+[node name="@CollisionPolygon2D@215" type="CollisionPolygon2D" parent="Actors_AddedGroveTree_047_CollisionBody" unique_id=199812538]
+polygon = PackedVector2Array(-313.98837, -664.5547, -314.74957, -662.44995, -316.9173, -660.6656, -320.16153, -659.4733, -323.98837, -659.0547, -327.81522, -659.4733, -331.05945, -660.6656, -333.22717, -662.44995, -333.98837, -664.5547, -333.22717, -666.6594, -331.05945, -668.4438, -327.81522, -669.63605, -323.98837, -670.0547, -320.16153, -669.63605, -316.9173, -668.4438, -314.74957, -666.6594)
+
+[node name="Actors_AddedGroveTree_048_CollisionBody" type="StaticBody2D" parent="." unique_id=1578287343]
+metadata/source_path = "Actors/AddedGroveTree_048/CollisionBody"
+metadata/science_gate = false
+
+[node name="@CollisionPolygon2D@216" type="CollisionPolygon2D" parent="Actors_AddedGroveTree_048_CollisionBody" unique_id=1558393424]
+polygon = PackedVector2Array(198.10262, -693.23737, 197.4556, -691.4483, 195.61302, -689.93164, 192.85542, -688.9182, 189.60262, -688.5624, 186.34981, -688.9182, 183.59221, -689.93164, 181.74963, -691.4483, 181.10262, -693.23737, 181.74963, -695.0264, 183.59221, -696.5431, 186.34981, -697.5565, 189.60262, -697.91235, 192.85542, -697.5565, 195.61302, -696.5431, 197.4556, -695.0264)
+
+[node name="Actors_AddedGroveTree_049_CollisionBody" type="StaticBody2D" parent="." unique_id=1407616396]
+metadata/source_path = "Actors/AddedGroveTree_049/CollisionBody"
+metadata/science_gate = false
+
+[node name="@CollisionPolygon2D@217" type="CollisionPolygon2D" parent="Actors_AddedGroveTree_049_CollisionBody" unique_id=550886167]
+polygon = PackedVector2Array(-404.04364, -684.9597, -404.69067, -683.17065, -406.53323, -681.654, -409.29083, -680.64056, -412.54364, -680.2847, -415.79645, -680.64056, -418.55405, -681.654, -420.3966, -683.17065, -421.04364, -684.9597, -420.3966, -686.7488, -418.55405, -688.26544, -415.79645, -689.2789, -412.54364, -689.6347, -409.29083, -689.2789, -406.53323, -688.26544, -404.69067, -686.7488)
+
+[node name="Actors_AddedGroveTree_051_CollisionBody" type="StaticBody2D" parent="." unique_id=410297255]
+metadata/source_path = "Actors/AddedGroveTree_051/CollisionBody"
+metadata/science_gate = false
+
+[node name="@CollisionPolygon2D@218" type="CollisionPolygon2D" parent="Actors_AddedGroveTree_051_CollisionBody" unique_id=282095900]
+polygon = PackedVector2Array(-164.74988, 509.0802, -165.51108, 511.18497, -167.6788, 512.9693, -170.92305, 514.16156, -174.74988, 514.5802, -178.5767, 514.16156, -181.82095, 512.9693, -183.98868, 511.18497, -184.74988, 509.0802, -183.98868, 506.97543, -181.82095, 505.1911, -178.5767, 503.99887, -174.74988, 503.5802, -170.92305, 503.99887, -167.6788, 505.1911, -165.51108, 506.97543)
+
+[node name="Actors_AddedGroveTree_054_CollisionBody" type="StaticBody2D" parent="." unique_id=1719661103]
+metadata/source_path = "Actors/AddedGroveTree_054/CollisionBody"
+metadata/science_gate = false
+
+[node name="@CollisionPolygon2D@219" type="CollisionPolygon2D" parent="Actors_AddedGroveTree_054_CollisionBody" unique_id=962932228]
+polygon = PackedVector2Array(-347.063, -322.89844, -347.8242, -320.79367, -349.9919, -319.00934, -353.23615, -317.8171, -357.063, -317.39844, -360.88983, -317.8171, -364.13406, -319.00934, -366.3018, -320.79367, -367.063, -322.89844, -366.3018, -325.0032, -364.13406, -326.78754, -360.88983, -327.97977, -357.063, -328.39844, -353.23615, -327.97977, -349.9919, -326.78754, -347.8242, -325.0032)
+
+[node name="Actors_AddedGroveTree_055_CollisionBody" type="StaticBody2D" parent="." unique_id=1644147034]
+metadata/source_path = "Actors/AddedGroveTree_055/CollisionBody"
+metadata/science_gate = false
+
+[node name="@CollisionPolygon2D@220" type="CollisionPolygon2D" parent="Actors_AddedGroveTree_055_CollisionBody" unique_id=664852796]
+polygon = PackedVector2Array(415.0607, -619.49524, 414.2995, -617.3905, 412.13177, -615.60614, 408.88754, -614.4139, 405.0607, -613.99524, 401.23386, -614.4139, 397.98962, -615.60614, 395.8219, -617.3905, 395.0607, -619.49524, 395.8219, -621.6, 397.98962, -623.38434, 401.23386, -624.5766, 405.0607, -624.99524, 408.88754, -624.5766, 412.13177, -623.38434, 414.2995, -621.6)
+
+[node name="Actors_AddedGroveTree_056_CollisionBody" type="StaticBody2D" parent="." unique_id=1714623711]
+metadata/source_path = "Actors/AddedGroveTree_056/CollisionBody"
+metadata/science_gate = false
+
+[node name="@CollisionPolygon2D@221" type="CollisionPolygon2D" parent="Actors_AddedGroveTree_056_CollisionBody" unique_id=2066422623]
+polygon = PackedVector2Array(721.9533, -45.81944, 721.3063, -44.030396, 719.46375, -42.513714, 716.7061, -41.5003, 713.4533, -41.14444, 710.2005, -41.5003, 707.4429, -42.513714, 705.60034, -44.030396, 704.9533, -45.81944, 705.60034, -47.608482, 707.4429, -49.125164, 710.2005, -50.138577, 713.4533, -50.49444, 716.7061, -50.138577, 719.46375, -49.125164, 721.3063, -47.608482)
+
+[node name="Actors_AddedGroveTree_058_CollisionBody" type="StaticBody2D" parent="." unique_id=1435364687]
+metadata/source_path = "Actors/AddedGroveTree_058/CollisionBody"
+metadata/science_gate = false
+
+[node name="@CollisionPolygon2D@222" type="CollisionPolygon2D" parent="Actors_AddedGroveTree_058_CollisionBody" unique_id=358228772]
+polygon = PackedVector2Array(163.58359, -688.605, 162.82239, -686.50024, 160.65466, -684.7159, 157.41042, -683.5236, 153.58359, -683.105, 149.75676, -683.5236, 146.51251, -684.7159, 144.34479, -686.50024, 143.58359, -688.605, 144.34479, -690.7097, 146.51251, -692.4941, 149.75676, -693.68634, 153.58359, -694.105, 157.41042, -693.68634, 160.65466, -692.4941, 162.82239, -690.7097)
+
+[node name="Actors_AddedGroveTree_060_CollisionBody" type="StaticBody2D" parent="." unique_id=1809183135]
+metadata/source_path = "Actors/AddedGroveTree_060/CollisionBody"
+metadata/science_gate = false
+
+[node name="@CollisionPolygon2D@223" type="CollisionPolygon2D" parent="Actors_AddedGroveTree_060_CollisionBody" unique_id=865429921]
+polygon = PackedVector2Array(-190.8284, -657.0187, -191.47542, -655.2296, -193.318, -653.71295, -196.07559, -652.6995, -199.3284, -652.3437, -202.5812, -652.6995, -205.3388, -653.71295, -207.18138, -655.2296, -207.8284, -657.0187, -207.18138, -658.80774, -205.3388, -660.3244, -202.5812, -661.3378, -199.3284, -661.69366, -196.07559, -661.3378, -193.318, -660.3244, -191.47542, -658.80774)
+
+[node name="Actors_AddedGroveTree_061_CollisionBody" type="StaticBody2D" parent="." unique_id=385070336]
+metadata/source_path = "Actors/AddedGroveTree_061/CollisionBody"
+metadata/science_gate = false
+
+[node name="@CollisionPolygon2D@224" type="CollisionPolygon2D" parent="Actors_AddedGroveTree_061_CollisionBody" unique_id=27895129]
+polygon = PackedVector2Array(955.01434, 305.14072, 954.3673, 306.92975, 952.5248, 308.44644, 949.76715, 309.45984, 946.51434, 309.8157, 943.26154, 309.45984, 940.5039, 308.44644, 938.6614, 306.92975, 938.01434, 305.14072, 938.6614, 303.35168, 940.5039, 301.835, 943.26154, 300.8216, 946.51434, 300.46573, 949.76715, 300.8216, 952.5248, 301.835, 954.3673, 303.35168)
+
+[node name="Actors_AddedGroveTree_062_CollisionBody" type="StaticBody2D" parent="." unique_id=1317644675]
+metadata/source_path = "Actors/AddedGroveTree_062/CollisionBody"
+metadata/science_gate = false
+
+[node name="@CollisionPolygon2D@225" type="CollisionPolygon2D" parent="Actors_AddedGroveTree_062_CollisionBody" unique_id=1983305040]
+polygon = PackedVector2Array(-477.1823, -176.28052, -477.9435, -174.17577, -480.11124, -172.39143, -483.35547, -171.19917, -487.1823, -170.78052, -491.00916, -171.19917, -494.2534, -172.39143, -496.4211, -174.17577, -497.1823, -176.28052, -496.4211, -178.38527, -494.2534, -180.1696, -491.00916, -181.36186, -487.1823, -181.78052, -483.35547, -181.36186, -480.11124, -180.1696, -477.9435, -178.38527)
+
+[node name="Actors_AddedGroveTree_063_CollisionBody" type="StaticBody2D" parent="." unique_id=1580301259]
+metadata/source_path = "Actors/AddedGroveTree_063/CollisionBody"
+metadata/science_gate = false
+
+[node name="@CollisionPolygon2D@226" type="CollisionPolygon2D" parent="Actors_AddedGroveTree_063_CollisionBody" unique_id=1050622307]
+polygon = PackedVector2Array(495.6374, 286.7144, 494.8762, 288.81915, 492.70847, 290.6035, 489.46423, 291.79572, 485.6374, 292.2144, 481.81055, 291.79572, 478.5663, 290.6035, 476.3986, 288.81915, 475.6374, 286.7144, 476.3986, 284.60962, 478.5663, 282.8253, 481.81055, 281.63306, 485.6374, 281.2144, 489.46423, 281.63306, 492.70847, 282.8253, 494.8762, 284.60962)
+
+[node name="Actors_AddedGroveTree_064_CollisionBody" type="StaticBody2D" parent="." unique_id=522556766]
+metadata/source_path = "Actors/AddedGroveTree_064/CollisionBody"
+metadata/science_gate = false
+
+[node name="@CollisionPolygon2D@227" type="CollisionPolygon2D" parent="Actors_AddedGroveTree_064_CollisionBody" unique_id=211561333]
+polygon = PackedVector2Array(277.84668, 749.6569, 277.19965, 751.446, 275.3571, 752.96265, 272.5995, 753.9761, 269.34668, 754.3319, 266.09387, 753.9761, 263.33627, 752.96265, 261.4937, 751.446, 260.84668, 749.6569, 261.4937, 747.86786, 263.33627, 746.3512, 266.09387, 745.33777, 269.34668, 744.98193, 272.5995, 745.33777, 275.3571, 746.3512, 277.19965, 747.86786)
+
+[node name="Actors_AddedGroveTree_065_CollisionBody" type="StaticBody2D" parent="." unique_id=41965787]
+metadata/source_path = "Actors/AddedGroveTree_065/CollisionBody"
+metadata/science_gate = false
+
+[node name="@CollisionPolygon2D@228" type="CollisionPolygon2D" parent="Actors_AddedGroveTree_065_CollisionBody" unique_id=1380299202]
+polygon = PackedVector2Array(939.45953, -82.07023, 938.8125, -80.28118, 936.97, -78.7645, 934.21234, -77.75109, 930.95953, -77.395226, 927.7067, -77.75109, 924.9491, -78.7645, 923.10657, -80.28118, 922.45953, -82.07023, 923.10657, -83.859276, 924.9491, -85.37595, 927.7067, -86.389366, 930.95953, -86.74523, 934.21234, -86.389366, 936.97, -85.37595, 938.8125, -83.859276)
+
+[node name="Actors_SanctuaryBrazier_CollisionBody" type="StaticBody2D" parent="." unique_id=2013400548]
+metadata/source_path = "Actors/SanctuaryBrazier/CollisionBody"
+metadata/science_gate = false
+
+[node name="@CollisionPolygon2D@229" type="CollisionPolygon2D" parent="Actors_SanctuaryBrazier_CollisionBody" unique_id=820471227]
+polygon = PackedVector2Array(-812.2261, 227.13043, -816.12177, 228.24348, -817.2348, 234.36522, -830.5913, 241.04349, -831.1478, 271.65216, -834.48694, 274.9913, -833.9304, 280, -815.00867, 290.0174, -812.2261, 290.0174, -788.8522, 278.88696, -785.51306, 276.10434, -785.51306, 271.65216, -788.29565, 268.31305, -788.8522, 239.93045, -805.54785, 232.13913, -807.2174, 227.68697)
+
+[node name="Actors_ObservationSign_CollisionBody" type="StaticBody2D" parent="." unique_id=1467094336]
+metadata/source_path = "Actors/ObservationSign/CollisionBody"
+metadata/science_gate = false
+
+[node name="@CollisionPolygon2D@230" type="CollisionPolygon2D" parent="Actors_ObservationSign_CollisionBody" unique_id=1975245190]
+polygon = PackedVector2Array(-861.4909, 157.94545, -862.9818, 159.43636, -862.9818, 162.41818, -869.3182, 165.02727, -870.06366, 166.14545, -869.6909, 175.46362, -868.57275, 176.20908, -862.9818, 175.46362, -862.9818, 179.1909, -876.0273, 185.52727, -876.7727, 187.3909, -876.4, 190.74545, -862.6091, 197.82727, -860.37274, 197.82727, -843.6, 189.25455, -843.6, 185.9, -845.0909, 184.03635, -857.3909, 178.07272, -857.3909, 172.48181, -849.93634, 168.75455, -849.1909, 167.63635, -849.1909, 159.06363, -850.6818, 157.57272, -853.66364, 157.57272, -856.64545, 159.43636, -858.88184, 157.57272)
+
+[node name="TraversalMarkers_J1_InnerBarrier_Body" type="StaticBody2D" parent="." unique_id=1526362420]
+collision_mask = 0
+metadata/source_path = "TraversalMarkers/J1/InnerBarrier/Body"
+metadata/science_gate = false
+
+[node name="@CollisionPolygon2D@231" type="CollisionPolygon2D" parent="TraversalMarkers_J1_InnerBarrier_Body" unique_id=1097036448]
+polygon = PackedVector2Array(-191.48831, -161.97708, -172.00052, -166.47427, -226.4165, -402.27698, -245.90431, -397.7798)
+
+[node name="TraversalMarkers_J1_OuterBarrier_Body" type="StaticBody2D" parent="." unique_id=1315959366]
+collision_mask = 0
+metadata/source_path = "TraversalMarkers/J1/OuterBarrier/Body"
+metadata/science_gate = false
+
+[node name="@CollisionPolygon2D@232" type="CollisionPolygon2D" parent="TraversalMarkers_J1_OuterBarrier_Body" unique_id=2062134824]
+polygon = PackedVector2Array(-287.7282, -579.0166, -268.2403, -583.5138, -306.9162, -751.1091, -326.40402, -746.6119)
+
+[node name="TraversalMarkers_J1_ReturnGate_Body" type="StaticBody2D" parent="." unique_id=941400421]
+collision_mask = 0
+metadata/source_path = "TraversalMarkers/J1/ReturnGate/Body"
+metadata/science_gate = true
+
+[node name="@CollisionPolygon2D@233" type="CollisionPolygon2D" parent="TraversalMarkers_J1_ReturnGate_Body" unique_id=650384097]
+polygon = PackedVector2Array(-245.90431, -397.7798, -226.4165, -402.27698, -246.65381, -489.97217, -266.14172, -485.47498)
+
+[node name="TraversalMarkers_J2_InnerBarrier_Body" type="StaticBody2D" parent="." unique_id=413333113]
+collision_mask = 0
+metadata/source_path = "TraversalMarkers/J2/InnerBarrier/Body"
+metadata/science_gate = false
+
+[node name="@CollisionPolygon2D@234" type="CollisionPolygon2D" parent="TraversalMarkers_J2_InnerBarrier_Body" unique_id=477552887]
+polygon = PackedVector2Array(-629.9746, 100.291794, -642.99036, 85.106705, -895.0636, 301.1694, -882.0478, 316.3546)
+
+[node name="TraversalMarkers_J2_OuterBarrier_Body" type="StaticBody2D" parent="." unique_id=2016685806]
+collision_mask = 0
+metadata/source_path = "TraversalMarkers/J2/OuterBarrier/Body"
+metadata/science_gate = false
+
+[node name="@CollisionPolygon2D@235" type="CollisionPolygon2D" parent="TraversalMarkers_J2_OuterBarrier_Body" unique_id=1863353273]
+polygon = PackedVector2Array(-954.9364, 378.8306, -967.9522, 363.6454, -1098.5444, 475.58148, -1085.5286, 490.7667)

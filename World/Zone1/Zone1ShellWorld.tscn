@@ -1,0 +1,5 @@
+[gd_scene load_steps=3 format=3]
+[ext_resource type="PackedScene" path="res://World/PhaseWorld.tscn" id="base"]
+[ext_resource type="Script" path="res://Scripts/World/Zone1/zone1_shell_world.gd" id="script"]
+[node name="Zone1ShellWorld" instance=ExtResource("base")]
+script = ExtResource("script")

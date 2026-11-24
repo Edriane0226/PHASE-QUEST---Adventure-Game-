@@ -1,0 +1,24 @@
+Phase Quest R3 Prompt 012 audio source record — 15 November 2026
+
+New World/r3_v1 WAVs are deterministic original mathematical synthesis authored
+for this project. Editable source: tools/audio/r3_v1/build.gd. No recordings,
+external samples, copied compositions, voice models or voice acting used.
+Rights disposition: project-authored material; no third-party attribution added.
+This record does not assign a new open-source license or certify legacy rights.
+
+Existing procedural UI/puzzle/footstep builders are reused byte-for-byte from
+Scripts/Autoload/audio_manager.gd, called without entering the scene tree.
+Existing device clips retain their source records under tools/art/thermal_v1,
+cryo_v1 and chamber_v1. No device clip is regenerated here.
+
+Legacy Music/adventure_theme.wav and Music/zone1_snowy.wav remain unchanged and
+match historical Git blobs exactly. Original local-composition README and
+tools/compose_bgm.py recovered under tools/audio/r3_v1/legacy from commit
+f43dee10fb261a7b65fdea046f27d96fbccf95ed. These are project-authored scores.
+
+Footsteps/wet_step_*.wav remain unchanged and match historical Git blobs.
+Original recording wet_walk_source.mp3, README and preparation builders recovered
+under tools/audio/r3_v1/legacy. README identifies user-supplied
+freesound_community-walk-wet-86710.mp3, with no accompanying license metadata.
+Wet-step release clearance remains pending. Inclusion in a review package is
+not clearance. Source recording is retained outside the runtime export.

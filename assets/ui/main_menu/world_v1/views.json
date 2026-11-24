@@ -1,0 +1,75 @@
+{
+	"regions": {
+		"gardens": {
+			"atmosphere": "res://assets/ui/main_menu/r3_v1/gardens_atmosphere.png",
+			"camera": {
+				"ground_xy": [
+					2200.0,
+					3350.0
+				],
+				"viewport": [
+					1280,
+					720
+				],
+				"zoom": 0.800000011920929
+			},
+			"label": "Melting Gardens",
+			"painting": "res://assets/ui/main_menu/world_v1/gardens-painting.png",
+			"relief_sha256": "0c045b3204e5de9ad8fd0c608c0059f7f83d0f12104bfd64cd39e9c0a8d4f6e1",
+			"spoilers": "Exterior only; no live actors, stations, objectives, routes or discovery",
+			"static": "res://assets/ui/main_menu/world_v1/gardens-static.png",
+			"surface_sha256": "2b6b5a55f93d20429316e7010536106219e2bb60b4b8c1e5df8d113737a2b12b",
+			"terrain_sha256": "6f3f8c771fdf0b4ed2063cf0aae4f7ebc75a0222b6fe02c595cb2bc488820444",
+			"veil": "res://assets/ui/main_menu/r3_v1/gardens_veil.png",
+			"zone_id": "melting_and_freezing"
+		},
+		"laboratory": {
+			"atmosphere": "res://assets/ui/main_menu/r3_v1/laboratory_atmosphere.png",
+			"camera": {
+				"ground_xy": [
+					14850.0,
+					4000.0
+				],
+				"viewport": [
+					1280,
+					720
+				],
+				"zoom": 0.800000011920929
+			},
+			"label": "Phaseworks Laboratory",
+			"painting": "res://assets/ui/main_menu/world_v1/laboratory-painting.png",
+			"relief_sha256": "0c045b3204e5de9ad8fd0c608c0059f7f83d0f12104bfd64cd39e9c0a8d4f6e1",
+			"spoilers": "Exterior only; no live actors, stations, objectives, routes or discovery",
+			"static": "res://assets/ui/main_menu/world_v1/laboratory-static.png",
+			"surface_sha256": "2b6b5a55f93d20429316e7010536106219e2bb60b4b8c1e5df8d113737a2b12b",
+			"terrain_sha256": "8af9872421d98d9f05cd8777bac391e6008a52ff5df5b0e28975e00e4425dc17",
+			"veil": "res://assets/ui/main_menu/r3_v1/laboratory_veil.png",
+			"zone_id": "sublimation_and_deposition"
+		},
+		"vale": {
+			"atmosphere": "res://assets/ui/main_menu/r3_v1/vale_atmosphere.png",
+			"camera": {
+				"ground_xy": [
+					9400.0,
+					5500.0
+				],
+				"viewport": [
+					1280,
+					720
+				],
+				"zoom": 0.800000011920929
+			},
+			"label": "Sunpetal Vale",
+			"painting": "res://assets/ui/main_menu/world_v1/vale-painting.png",
+			"relief_sha256": "0c045b3204e5de9ad8fd0c608c0059f7f83d0f12104bfd64cd39e9c0a8d4f6e1",
+			"spoilers": "Exterior only; no live actors, stations, objectives, routes or discovery",
+			"static": "res://assets/ui/main_menu/world_v1/vale-static.png",
+			"surface_sha256": "2b6b5a55f93d20429316e7010536106219e2bb60b4b8c1e5df8d113737a2b12b",
+			"terrain_sha256": "d68931ff03504c1ee63557bae6f9a4f52ad5e8c52baf74209cda324780ed9b0c",
+			"veil": "res://assets/ui/main_menu/r3_v1/vale_veil.png",
+			"zone_id": "vaporization_and_condensation"
+		}
+	},
+	"source": "R3 021 fixed exterior captures of current shared terrain",
+	"version": 1
+}

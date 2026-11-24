@@ -1,0 +1,45 @@
+[gd_scene format=3 uid="uid://b1vsc23etmhjf"]
+
+[ext_resource type="Script" uid="uid://bpor7i4sotxcw" path="res://Scripts/UI/achievement_icon.gd" id="icon"]
+[ext_resource type="Script" uid="uid://c88rnkaa7tllq" path="res://Scripts/UI/achievement_toast.gd" id="script"]
+
+[node name="AchievementToast" type="CanvasLayer" unique_id=1215100063]
+layer = 90
+script = ExtResource("script")
+
+[node name="Banner" type="PanelContainer" parent="." unique_id=1464826771]
+visible = false
+anchors_preset = 5
+anchor_left = 0.5
+anchor_right = 0.5
+offset_left = -235.0
+offset_top = 18.0
+offset_right = 235.0
+offset_bottom = 110.0
+mouse_filter = 2
+
+[node name="Content" type="HBoxContainer" parent="Banner" unique_id=721308487]
+layout_mode = 2
+mouse_filter = 2
+theme_override_constants/separation = 14
+
+[node name="Icon" type="Control" parent="Banner/Content" unique_id=488504217]
+custom_minimum_size = Vector2(60, 60)
+layout_mode = 2
+mouse_filter = 2
+script = ExtResource("icon")
+
+[node name="Words" type="VBoxContainer" parent="Banner/Content" unique_id=1854113930]
+layout_mode = 2
+size_flags_horizontal = 3
+mouse_filter = 2
+
+[node name="Caption" type="Label" parent="Banner/Content/Words" unique_id=77356474]
+layout_mode = 2
+theme_override_font_sizes/font_size = 16
+text = "Achievement unlocked"
+
+[node name="Title" type="Label" parent="Banner/Content/Words" unique_id=43966593]
+layout_mode = 2
+theme_override_font_sizes/font_size = 21
+autowrap_mode = 3

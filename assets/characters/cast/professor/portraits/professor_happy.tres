@@ -1,0 +1,8 @@
+[gd_resource type="AtlasTexture" format=3]
+
+[ext_resource type="Texture2D" path="res://assets/characters/cast/professor/portraits/professor_happy.png" id="image"]
+
+[resource]
+atlas = ExtResource("image")
+region = Rect2(116, 329, 536, 679)
+filter_clip = true

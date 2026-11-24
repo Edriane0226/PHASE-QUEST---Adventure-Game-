@@ -1,0 +1,9 @@
+[gd_scene load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://Scripts/World/catalog_art_2d.gd" id="art"]
+
+[node name="Zone2Asset" type="Node2D"]
+script = ExtResource("art")
+catalog_path = "res://assets/zones/zone_2/world_v1/kit_catalog.json"
+atlas_path = "res://assets/zones/zone_2/world_v1/kit_atlas.tres"
+asset_id = "sun_tree_orchard"

@@ -1,0 +1,133 @@
+{
+	"dialogs": {
+		"continue_unavailable": {
+			"actions": [
+				{
+					"enabled": true,
+					"id": "recovery",
+					"label": "Recovery options"
+				},
+				{
+					"enabled": true,
+					"id": "menu_back",
+					"label": "Back"
+				}
+			],
+			"body": "This adventure could not be resumed. Your save has not been reset. Return and review recovery options.",
+			"rows": [],
+			"title": "Adventure unavailable"
+		},
+		"exit": {
+			"actions": [
+				{
+					"enabled": true,
+					"id": "confirm_exit",
+					"label": "Exit"
+				},
+				{
+					"enabled": true,
+					"id": "menu_back",
+					"label": "Stay"
+				}
+			],
+			"body": "Leave the game? Your last successfully saved progress remains available.",
+			"rows": [],
+			"title": "Exit Phase Quest?"
+		},
+		"loading": {
+			"actions": [
+				{
+					"enabled": false,
+					"id": "wait",
+					"label": "Opening…"
+				}
+			],
+			"body": "Please wait for your adventure to open.",
+			"can_close": false,
+			"rows": [],
+			"title": "Opening adventure"
+		},
+		"new_game": {
+			"actions": [
+				{
+					"enabled": true,
+					"id": "confirm_new_game",
+					"label": "Start new adventure"
+				},
+				{
+					"enabled": true,
+					"id": "menu_back",
+					"label": "Keep current adventure"
+				}
+			],
+			"body": "Starting a new adventure replaces the current adventure's progress. Continue your existing adventure to keep it.",
+			"rows": [],
+			"title": "Start a new adventure?"
+		},
+		"options": {
+			"actions": [
+				{
+					"enabled": true,
+					"id": "menu_back",
+					"label": "Back"
+				}
+			],
+			"body": "Take your time. Guides and learning help are free.",
+			"rows": [
+				{
+					"action": "guides",
+					"text": "Lessons and demonstrations",
+					"title": "Guides"
+				},
+				{
+					"action": "journal",
+					"text": "Discoveries, ranks and achievements",
+					"title": "Journal"
+				},
+				{
+					"action": "settings",
+					"text": "Audio and accessibility",
+					"title": "Settings"
+				},
+				{
+					"action": "study",
+					"text": "Paper forms from your study coordinator",
+					"title": "Study Assessment"
+				}
+			],
+			"title": "Options"
+		},
+		"save_error": {
+			"actions": [
+				{
+					"enabled": true,
+					"id": "retry_save",
+					"label": "Retry save"
+				},
+				{
+					"enabled": true,
+					"id": "menu_back",
+					"label": "Stay here"
+				}
+			],
+			"body": "Saving could not finish. Retry before leaving; no replacement or new adventure is confirmed.",
+			"rows": [],
+			"title": "Progress not saved"
+		},
+		"unsupported_save": {
+			"actions": [
+				{
+					"enabled": true,
+					"id": "menu_back",
+					"label": "Back"
+				}
+			],
+			"body": "Keep this save unchanged. Return safely rather than resetting the profile.",
+			"can_close": true,
+			"rows": [],
+			"title": "Save needs a newer version"
+		}
+	},
+	"owner": "R3 011",
+	"scope": "Presentation/confirmation intents only; no reset/save/exit/scene mutation"
+}

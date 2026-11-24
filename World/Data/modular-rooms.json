@@ -1,0 +1,80 @@
+{
+  "rooms": [
+	{
+	  "door": {
+		"edge": "u=8",
+		"v": [
+		  2,
+		  5
+		]
+	  },
+	  "elevation": 40.0,
+	  "height_layers": 3,
+	  "id": "snow-workshop",
+	  "material": "snow",
+	  "origin": [
+		4240.0,
+		4980.0
+	  ],
+	  "replaces_node": "Z1L5_C1_Shelter",
+	  "reserve": "Z1L5.C1",
+	  "size_cubes": [
+		8,
+		8
+	  ],
+	  "subregion": "Z1L5",
+	  "support": "existing actual 20px stacked ground; floor tiles do not add support"
+	},
+	{
+	  "door": {
+		"edge": "u=6",
+		"v": [
+		  2,
+		  5
+		]
+	  },
+	  "elevation": 20.0,
+	  "height_layers": 3,
+	  "id": "dewglass-workroom",
+	  "material": "vale",
+	  "origin": [
+		11160.0,
+		6260.0
+	  ],
+	  "replaces_node": "",
+	  "reserve": "Z2L3.court3",
+	  "size_cubes": [
+		6,
+		6
+	  ],
+	  "subregion": "Z2L3",
+	  "support": "existing actual 20px stacked ground; floor tiles do not add support"
+	},
+	{
+	  "door": {
+		"edge": "u=8",
+		"v": [
+		  2,
+		  5
+		]
+	  },
+	  "elevation": 120.0,
+	  "height_layers": 3,
+	  "id": "lab-service-room",
+	  "material": "lab",
+	  "origin": [
+		14480.0,
+		3480.0
+	  ],
+	  "replaces_node": "",
+	  "reserve": "Z3L1.C1",
+	  "size_cubes": [
+		8,
+		8
+	  ],
+	  "subregion": "Z3L1",
+	  "support": "existing actual 20px stacked ground; floor tiles do not add support"
+	}
+  ],
+  "version": 1
+}

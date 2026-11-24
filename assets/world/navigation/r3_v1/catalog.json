@@ -1,0 +1,107 @@
+{
+  "schema_version": 1,
+  "owner": "R3 013",
+  "entries": [
+    {
+      "id": "checkpoint_locked",
+      "state": "locked",
+      "path": "res://assets/world/navigation/r3_v1/checkpoint_locked.svg",
+      "pivot_px": [
+        64,
+        110
+      ],
+      "source_size": [
+        128,
+        128
+      ],
+      "world_scale": 0.5,
+      "footprint_world": [
+        -16,
+        -8,
+        32,
+        16
+      ],
+      "sorting": "ground pivot; caller-owned elevation",
+      "collider": "none; actual checkpoint provider owns interaction",
+      "license": "Original project-authored SVG",
+      "source": "tools/art/gate_a_v1/build.ps1",
+      "sha256": "D6EC5121AAE805C73B86F50CF408982548898CE66AC49832E0019A128EE679B4"
+    },
+    {
+      "id": "checkpoint_available",
+      "state": "available",
+      "path": "res://assets/world/navigation/r3_v1/checkpoint_available.svg",
+      "pivot_px": [
+        64,
+        110
+      ],
+      "source_size": [
+        128,
+        128
+      ],
+      "world_scale": 0.5,
+      "footprint_world": [
+        -16,
+        -8,
+        32,
+        16
+      ],
+      "sorting": "ground pivot; caller-owned elevation",
+      "collider": "none; actual checkpoint provider owns interaction",
+      "license": "Original project-authored SVG",
+      "source": "tools/art/gate_a_v1/build.ps1",
+      "sha256": "FA582979C3A85C6A2ADFC8E0AFF882D1DD06FDCAE276003909C0EA9FA8E0FA86"
+    },
+    {
+      "id": "checkpoint_active",
+      "state": "active",
+      "path": "res://assets/world/navigation/r3_v1/checkpoint_active.svg",
+      "pivot_px": [
+        64,
+        110
+      ],
+      "source_size": [
+        128,
+        128
+      ],
+      "world_scale": 0.5,
+      "footprint_world": [
+        -16,
+        -8,
+        32,
+        16
+      ],
+      "sorting": "ground pivot; caller-owned elevation",
+      "collider": "none; actual checkpoint provider owns interaction",
+      "license": "Original project-authored SVG",
+      "source": "tools/art/gate_a_v1/build.ps1",
+      "sha256": "D7A70573B8DE09616317CF79CA362DB1E5BCB137836E7672A6E1DC0C1F91D525"
+    }
+  ],
+  "consumers": [
+    "Opt-in art review; later world checkpoint provider"
+  ],
+  "retained": [
+    "Zone1 shelter_cold/shelter_warm",
+    "HUD minimap/checkpoint vocabulary",
+    "Existing checkpoint statue scene and state providers"
+  ],
+  "ambient": {
+    "bounds_world": [
+      240,
+      120
+    ],
+    "reduced": "zero optional marks; science material/drip/heater/device cues remain in their existing separate presenters",
+    "scene": "Actors/World/RegionAmbientArt.tscn",
+    "biomes": [
+      "snow",
+      "vale",
+      "lab"
+    ],
+    "source": "Scripts/World/region_ambient_art.gd",
+    "license": "Original project-authored GDScript",
+    "max_marks": 24,
+    "pause": "freeze phase; no game outcome"
+  },
+  "status": "Art coverage added; user/content/Android acceptance pending"
+}

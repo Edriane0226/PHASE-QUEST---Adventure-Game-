@@ -1,0 +1,43 @@
+[gd_resource type="SpriteFrames" format=3 uid="uid://b4grl6y10h26m"]
+
+[ext_resource type="Texture2D" uid="uid://dhqxpxl1yp8do" path="res://assets/effects/cryo/v1/sample_atlas.png" id="atlas"]
+
+[sub_resource type="AtlasTexture" id="s0"]
+atlas = ExtResource("atlas")
+region = Rect2(0, 0, 128, 128)
+filter_clip = true
+
+[sub_resource type="AtlasTexture" id="s1"]
+atlas = ExtResource("atlas")
+region = Rect2(128, 0, 128, 128)
+filter_clip = true
+
+[sub_resource type="AtlasTexture" id="s2"]
+atlas = ExtResource("atlas")
+region = Rect2(0, 128, 128, 128)
+filter_clip = true
+
+[sub_resource type="AtlasTexture" id="s3"]
+atlas = ExtResource("atlas")
+region = Rect2(128, 128, 128, 128)
+filter_clip = true
+
+[resource]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("s0")
+}, {
+"duration": 1.0,
+"texture": SubResource("s1")
+}, {
+"duration": 1.0,
+"texture": SubResource("s2")
+}, {
+"duration": 1.0,
+"texture": SubResource("s3")
+}],
+"loop": 0,
+"name": &"sample",
+"speed": 1.0
+}]

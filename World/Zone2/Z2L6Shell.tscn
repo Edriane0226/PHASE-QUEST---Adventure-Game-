@@ -1,0 +1,11 @@
+[gd_scene load_steps=2 format=3]
+[ext_resource type="Script" path="res://Scripts/World/Zone2/zone2_shell.gd" id="shell"]
+[node name="Z2L6Shell" type="Node2D"]
+script = ExtResource("shell")
+y_sort_enabled = true
+surface_name = "grass"
+fixture_only = true
+subregion_id = "Z2L6"
+chunk_id = "Z2L6.shell"
+ground_origin = Vector2(13800, 5500)
+shell_number = 6

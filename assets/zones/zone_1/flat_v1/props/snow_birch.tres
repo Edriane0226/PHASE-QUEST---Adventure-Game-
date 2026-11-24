@@ -1,0 +1,13 @@
+[gd_resource type="AtlasTexture" load_steps=2 format=3]
+
+[ext_resource type="Texture2D" path="res://assets/zones/zone_1/flat_v1/masters/forest.png" id="source"]
+
+[resource]
+atlas = ExtResource("source")
+region = Rect2(967, 472, 295, 388)
+filter_clip = true
+margin = Rect2(89, 73, 217, 124)
+metadata/ground_anchor = Vector2(256, 450)
+metadata/visible_bounds = Rect2(89, 73, 295, 388)
+metadata/alpha_cutoff = 0.9
+metadata/art_style = "approved_B_flat_2d"

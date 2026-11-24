@@ -1,0 +1,9 @@
+[gd_resource type="AtlasTexture" load_steps=2 format=3]
+
+[ext_resource type="Texture2D" path="res://assets/characters/professors/r3_v1/portraits_atlas_0.png" id="page"]
+
+[resource]
+atlas = ExtResource("page")
+region = Rect2(492,4,480,539)
+margin = Rect2(16,85,32,101)
+filter_clip = true

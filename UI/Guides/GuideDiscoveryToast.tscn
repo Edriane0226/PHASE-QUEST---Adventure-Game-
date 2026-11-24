@@ -1,0 +1,9 @@
+[gd_scene format=3]
+
+[node name="GuideDiscoveryToast" type="Label"]
+mouse_filter = 2
+theme_override_font_sizes/font_size = 20
+theme_override_colors/font_color = Color(1, 0.878431, 0.627451, 1)
+theme_override_colors/font_outline_color = Color(0.078431, 0.180392, 0.25098, 1)
+theme_override_constants/outline_size = 5
+text = "Guide discovered"

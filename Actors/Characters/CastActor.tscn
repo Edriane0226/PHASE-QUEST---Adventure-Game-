@@ -1,0 +1,11 @@
+[gd_scene load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://Actors/Characters/cast_art_presenter.gd" id="art"]
+
+[node name="CastActor" type="Node2D"]
+script = ExtResource("art")
+
+[node name="Sprite" type="AnimatedSprite2D" parent="."]
+texture_filter = 2
+position = Vector2(0,-13.999992)
+scale = Vector2(0.2923077,0.2923077)

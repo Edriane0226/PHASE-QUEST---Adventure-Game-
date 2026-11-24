@@ -1,0 +1,68 @@
+{
+	"fallback": "res://assets/ui/main_menu/r3_v1/fallback_static.png",
+	"owner": "R3 011",
+	"regions": {
+		"gardens": {
+			"atmosphere": "res://assets/ui/main_menu/r3_v1/gardens_atmosphere.png",
+			"canvas": [
+				1672,
+				941
+			],
+			"geography": "Staged shared mainland: snow terraces, river lowlands, pale lab ridge; final actual world viewpoints remain021",
+			"label": "Melting Gardens",
+			"painting": "res://assets/ui/main_menu/r3_v1/gardens_painting.png",
+			"runtime_layers": [
+				"painting",
+				"veil",
+				"atmosphere"
+			],
+			"source": "tools/art/menu_r3_v1/gardens-source.png",
+			"spoilers": "Exterior scenery only; no puzzle mechanisms/targets/routes/discovery state",
+			"static": "res://assets/ui/main_menu/r3_v1/gardens_static.png",
+			"veil": "res://assets/ui/main_menu/r3_v1/gardens_veil.png",
+			"zone_id": "melting_and_freezing"
+		},
+		"laboratory": {
+			"atmosphere": "res://assets/ui/main_menu/r3_v1/laboratory_atmosphere.png",
+			"canvas": [
+				1672,
+				941
+			],
+			"geography": "Staged shared mainland: snow terraces, river lowlands, pale lab ridge; final actual world viewpoints remain021",
+			"label": "Phaseworks Laboratory",
+			"painting": "res://assets/ui/main_menu/r3_v1/laboratory_painting.png",
+			"runtime_layers": [
+				"painting",
+				"veil",
+				"atmosphere"
+			],
+			"source": "tools/art/menu_r3_v1/laboratory-source.png",
+			"spoilers": "Exterior scenery only; no puzzle mechanisms/targets/routes/discovery state",
+			"static": "res://assets/ui/main_menu/r3_v1/laboratory_static.png",
+			"veil": "res://assets/ui/main_menu/r3_v1/laboratory_veil.png",
+			"zone_id": "sublimation_and_deposition"
+		},
+		"vale": {
+			"atmosphere": "res://assets/ui/main_menu/r3_v1/vale_atmosphere.png",
+			"canvas": [
+				1672,
+				941
+			],
+			"geography": "Staged shared mainland: snow terraces, river lowlands, pale lab ridge; final actual world viewpoints remain021",
+			"label": "Sunpetal Vale",
+			"painting": "res://assets/ui/main_menu/r3_v1/vale_painting.png",
+			"runtime_layers": [
+				"painting",
+				"veil",
+				"atmosphere"
+			],
+			"source": "tools/art/menu_r3_v1/vale-source.png",
+			"spoilers": "Exterior scenery only; no puzzle mechanisms/targets/routes/discovery state",
+			"static": "res://assets/ui/main_menu/r3_v1/vale_static.png",
+			"veil": "res://assets/ui/main_menu/r3_v1/vale_veil.png",
+			"zone_id": "vaporization_and_condensation"
+		}
+	},
+	"schema_version": 1,
+	"selection_owner": "R3 021; metadata mapping is not save lookup/rotation"
+}

@@ -1,0 +1,17 @@
+[gd_scene load_steps=6 format=3]
+[ext_resource type="Script" path="res://Scripts/World/Runtime/phase_world.gd" id="world"]
+[ext_resource type="PackedScene" path="res://Actors/Player/Player.tscn" id="player"]
+[ext_resource type="PackedScene" path="res://UI/HUD/WorldHUD.tscn" id="hud"]
+[ext_resource type="PackedScene" path="res://UI/Support/SupportPanels.tscn" id="support"]
+[ext_resource type="Script" path="res://Scripts/World/Runtime/world_input.gd" id="input"]
+[node name="PhaseWorld" type="Node2D"]
+script = ExtResource("world")
+[node name="GroundSort" type="Node2D" parent="."]
+y_sort_enabled = true
+[node name="Player" parent="GroundSort" instance=ExtResource("player")]
+[node name="GameplayHUD" type="CanvasLayer" parent="."]
+layer = 10
+[node name="WorldHUD" parent="GameplayHUD" instance=ExtResource("hud")]
+[node name="SupportPanels" parent="GameplayHUD" instance=ExtResource("support")]
+[node name="WorldInput" type="Node" parent="."]
+script = ExtResource("input")

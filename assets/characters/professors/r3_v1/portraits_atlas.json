@@ -1,0 +1,583 @@
+{
+	"page_size": [
+		2048,
+		2048
+	],
+	"pages": 2,
+	"regions": [
+		{
+			"action": "new",
+			"common_crop": [
+				73,
+				30,
+				517,
+				581
+			],
+			"export": "res://assets/characters/professors/r3_v1/portraits/professor_z2/neutral.png",
+			"expression": "neutral",
+			"id": "professor_z2_portrait_neutral",
+			"kind": "portrait",
+			"page": 0,
+			"rect": [
+				4,
+				4,
+				480,
+				539
+			],
+			"role": "professor_z2",
+			"source": "tools/art/cast_r3_v1/marisol-portrait-source.png",
+			"source_cell": [
+				0,
+				0,
+				627,
+				627
+			],
+			"source_size": [
+				512,
+				640
+			],
+			"trim_rect": [
+				16,
+				85,
+				480,
+				539
+			],
+			"uniform_normalization": 0.928433268858801
+		},
+		{
+			"action": "new",
+			"common_crop": [
+				73,
+				30,
+				517,
+				581
+			],
+			"export": "res://assets/characters/professors/r3_v1/portraits/professor_z2/explaining.png",
+			"expression": "explaining",
+			"id": "professor_z2_portrait_explaining",
+			"kind": "portrait",
+			"page": 0,
+			"rect": [
+				492,
+				4,
+				480,
+				539
+			],
+			"role": "professor_z2",
+			"source": "tools/art/cast_r3_v1/marisol-portrait-source.png",
+			"source_cell": [
+				627,
+				0,
+				627,
+				627
+			],
+			"source_size": [
+				512,
+				640
+			],
+			"trim_rect": [
+				16,
+				85,
+				480,
+				539
+			],
+			"uniform_normalization": 0.928433268858801
+		},
+		{
+			"action": "new",
+			"common_crop": [
+				73,
+				30,
+				517,
+				581
+			],
+			"export": "res://assets/characters/professors/r3_v1/portraits/professor_z2/happy.png",
+			"expression": "happy",
+			"id": "professor_z2_portrait_happy",
+			"kind": "portrait",
+			"page": 0,
+			"rect": [
+				980,
+				4,
+				480,
+				539
+			],
+			"role": "professor_z2",
+			"source": "tools/art/cast_r3_v1/marisol-portrait-source.png",
+			"source_cell": [
+				0,
+				627,
+				627,
+				627
+			],
+			"source_size": [
+				512,
+				640
+			],
+			"trim_rect": [
+				16,
+				85,
+				480,
+				539
+			],
+			"uniform_normalization": 0.928433268858801
+		},
+		{
+			"action": "new",
+			"common_crop": [
+				73,
+				30,
+				517,
+				581
+			],
+			"export": "res://assets/characters/professors/r3_v1/portraits/professor_z2/concerned.png",
+			"expression": "concerned",
+			"id": "professor_z2_portrait_concerned",
+			"kind": "portrait",
+			"page": 0,
+			"rect": [
+				1468,
+				4,
+				479,
+				539
+			],
+			"role": "professor_z2",
+			"source": "tools/art/cast_r3_v1/marisol-portrait-source.png",
+			"source_cell": [
+				627,
+				627,
+				627,
+				627
+			],
+			"source_size": [
+				512,
+				640
+			],
+			"trim_rect": [
+				16,
+				85,
+				479,
+				539
+			],
+			"uniform_normalization": 0.928433268858801
+		},
+		{
+			"action": "new",
+			"common_crop": [
+				89,
+				26,
+				510,
+				586
+			],
+			"export": "res://assets/characters/professors/r3_v1/portraits/professor_z3/neutral.png",
+			"expression": "neutral",
+			"id": "professor_z3_portrait_neutral",
+			"kind": "portrait",
+			"page": 0,
+			"rect": [
+				4,
+				551,
+				447,
+				552
+			],
+			"role": "professor_z3",
+			"source": "tools/art/cast_r3_v1/ivo-portrait-source.png",
+			"source_cell": [
+				0,
+				0,
+				627,
+				627
+			],
+			"source_size": [
+				512,
+				640
+			],
+			"trim_rect": [
+				38,
+				72,
+				447,
+				552
+			],
+			"uniform_normalization": 0.941176470588235
+		},
+		{
+			"action": "new",
+			"common_crop": [
+				89,
+				26,
+				510,
+				586
+			],
+			"export": "res://assets/characters/professors/r3_v1/portraits/professor_z3/explaining.png",
+			"expression": "explaining",
+			"id": "professor_z3_portrait_explaining",
+			"kind": "portrait",
+			"page": 0,
+			"rect": [
+				459,
+				551,
+				480,
+				552
+			],
+			"role": "professor_z3",
+			"source": "tools/art/cast_r3_v1/ivo-portrait-source.png",
+			"source_cell": [
+				627,
+				0,
+				627,
+				627
+			],
+			"source_size": [
+				512,
+				640
+			],
+			"trim_rect": [
+				16,
+				72,
+				480,
+				552
+			],
+			"uniform_normalization": 0.941176470588235
+		},
+		{
+			"action": "new",
+			"common_crop": [
+				89,
+				26,
+				510,
+				586
+			],
+			"export": "res://assets/characters/professors/r3_v1/portraits/professor_z3/happy.png",
+			"expression": "happy",
+			"id": "professor_z3_portrait_happy",
+			"kind": "portrait",
+			"page": 0,
+			"rect": [
+				947,
+				551,
+				425,
+				552
+			],
+			"role": "professor_z3",
+			"source": "tools/art/cast_r3_v1/ivo-portrait-source.png",
+			"source_cell": [
+				0,
+				627,
+				627,
+				627
+			],
+			"source_size": [
+				512,
+				640
+			],
+			"trim_rect": [
+				39,
+				72,
+				425,
+				552
+			],
+			"uniform_normalization": 0.941176470588235
+		},
+		{
+			"action": "new",
+			"common_crop": [
+				89,
+				26,
+				510,
+				586
+			],
+			"export": "res://assets/characters/professors/r3_v1/portraits/professor_z3/concerned.png",
+			"expression": "concerned",
+			"id": "professor_z3_portrait_concerned",
+			"kind": "portrait",
+			"page": 0,
+			"rect": [
+				1380,
+				551,
+				463,
+				552
+			],
+			"role": "professor_z3",
+			"source": "tools/art/cast_r3_v1/ivo-portrait-source.png",
+			"source_cell": [
+				627,
+				627,
+				627,
+				627
+			],
+			"source_size": [
+				512,
+				640
+			],
+			"trim_rect": [
+				16,
+				72,
+				463,
+				552
+			],
+			"uniform_normalization": 0.941176470588235
+		},
+		{
+			"action": "new",
+			"common_crop": [
+				109,
+				20,
+				499,
+				586
+			],
+			"export": "res://assets/characters/professors/r3_v1/portraits/finn/neutral.png",
+			"expression": "neutral",
+			"id": "finn_portrait_neutral",
+			"kind": "portrait",
+			"page": 0,
+			"rect": [
+				4,
+				1111,
+				469,
+				564
+			],
+			"role": "finn",
+			"source": "tools/art/cast_r3_v1/finn-portrait-source.png",
+			"source_cell": [
+				0,
+				0,
+				627,
+				627
+			],
+			"source_size": [
+				512,
+				640
+			],
+			"trim_rect": [
+				16,
+				60,
+				469,
+				564
+			],
+			"uniform_normalization": 0.961923847695391
+		},
+		{
+			"action": "new",
+			"common_crop": [
+				109,
+				20,
+				499,
+				586
+			],
+			"export": "res://assets/characters/professors/r3_v1/portraits/finn/explaining.png",
+			"expression": "explaining",
+			"id": "finn_portrait_explaining",
+			"kind": "portrait",
+			"page": 0,
+			"rect": [
+				481,
+				1111,
+				480,
+				564
+			],
+			"role": "finn",
+			"source": "tools/art/cast_r3_v1/finn-portrait-source.png",
+			"source_cell": [
+				627,
+				0,
+				627,
+				627
+			],
+			"source_size": [
+				512,
+				640
+			],
+			"trim_rect": [
+				16,
+				60,
+				480,
+				564
+			],
+			"uniform_normalization": 0.961923847695391
+		},
+		{
+			"action": "new",
+			"common_crop": [
+				109,
+				20,
+				499,
+				586
+			],
+			"export": "res://assets/characters/professors/r3_v1/portraits/finn/happy.png",
+			"expression": "happy",
+			"id": "finn_portrait_happy",
+			"kind": "portrait",
+			"page": 0,
+			"rect": [
+				969,
+				1111,
+				439,
+				564
+			],
+			"role": "finn",
+			"source": "tools/art/cast_r3_v1/finn-portrait-source.png",
+			"source_cell": [
+				0,
+				627,
+				627,
+				627
+			],
+			"source_size": [
+				512,
+				640
+			],
+			"trim_rect": [
+				16,
+				60,
+				439,
+				564
+			],
+			"uniform_normalization": 0.961923847695391
+		},
+		{
+			"action": "new",
+			"common_crop": [
+				109,
+				20,
+				499,
+				586
+			],
+			"export": "res://assets/characters/professors/r3_v1/portraits/finn/concerned.png",
+			"expression": "concerned",
+			"id": "finn_portrait_concerned",
+			"kind": "portrait",
+			"page": 0,
+			"rect": [
+				1416,
+				1111,
+				480,
+				564
+			],
+			"role": "finn",
+			"source": "tools/art/cast_r3_v1/finn-portrait-source.png",
+			"source_cell": [
+				627,
+				627,
+				627,
+				627
+			],
+			"source_size": [
+				512,
+				640
+			],
+			"trim_rect": [
+				16,
+				60,
+				480,
+				564
+			],
+			"uniform_normalization": 0.961923847695391
+		},
+		{
+			"action": "keep",
+			"export": "res://assets/characters/cast/professor/portraits/professor_neutral.tres",
+			"expression": "neutral",
+			"id": "professor_z1_portrait_neutral",
+			"kind": "portrait",
+			"page": 1,
+			"rect": [
+				4,
+				4,
+				480,
+				646
+			],
+			"role": "professor_z1",
+			"source": "assets/characters/cast/professor/portraits/professor_neutral.tres",
+			"source_size": [
+				536,
+				679
+			],
+			"trim_rect": [
+				28,
+				17,
+				480,
+				646
+			]
+		},
+		{
+			"action": "keep",
+			"export": "res://assets/characters/cast/professor/portraits/professor_explaining.tres",
+			"expression": "explaining",
+			"id": "professor_z1_portrait_explaining",
+			"kind": "portrait",
+			"page": 1,
+			"rect": [
+				492,
+				4,
+				504,
+				642
+			],
+			"role": "professor_z1",
+			"source": "assets/characters/cast/professor/portraits/professor_explaining.tres",
+			"source_size": [
+				536,
+				679
+			],
+			"trim_rect": [
+				16,
+				21,
+				504,
+				642
+			]
+		},
+		{
+			"action": "keep",
+			"export": "res://assets/characters/cast/professor/portraits/professor_happy.tres",
+			"expression": "happy",
+			"id": "professor_z1_portrait_happy",
+			"kind": "portrait",
+			"page": 1,
+			"rect": [
+				1004,
+				4,
+				474,
+				647
+			],
+			"role": "professor_z1",
+			"source": "assets/characters/cast/professor/portraits/professor_happy.tres",
+			"source_size": [
+				536,
+				679
+			],
+			"trim_rect": [
+				31,
+				16,
+				474,
+				647
+			]
+		},
+		{
+			"action": "keep",
+			"export": "res://assets/characters/cast/professor/portraits/professor_cold.tres",
+			"expression": "cold",
+			"id": "professor_z1_portrait_cold",
+			"kind": "portrait",
+			"page": 1,
+			"rect": [
+				1486,
+				4,
+				473,
+				638
+			],
+			"role": "professor_z1",
+			"source": "assets/characters/cast/professor/portraits/professor_cold.tres",
+			"source_size": [
+				536,
+				679
+			],
+			"trim_rect": [
+				32,
+				25,
+				473,
+				638
+			]
+		}
+	],
+	"rotation": false,
+	"transparent_padding_pixels": 4
+}

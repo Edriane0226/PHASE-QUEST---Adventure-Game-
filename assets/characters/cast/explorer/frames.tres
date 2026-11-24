@@ -1,0 +1,5061 @@
+[gd_resource type="SpriteFrames" format=3 uid="uid://b6gp1ljo0n14m"]
+
+[ext_resource type="Texture2D" uid="uid://deo25g6p260ij" path="res://assets/characters/cast/explorer/Animation Sprites Player/Animation Sprites Player/black_hair_generated/carry_idle_east.png" id="black_hair_carry_idle_east"]
+[ext_resource type="Texture2D" uid="uid://cohodvq60tjrj" path="res://assets/characters/cast/explorer/Animation Sprites Player/Animation Sprites Player/black_hair_generated/carry_idle_north.png" id="black_hair_carry_idle_north"]
+[ext_resource type="Texture2D" uid="uid://dhqvut51qp1p6" path="res://assets/characters/cast/explorer/Animation Sprites Player/Animation Sprites Player/black_hair_generated/carry_idle_north_east.png" id="black_hair_carry_idle_north_east"]
+[ext_resource type="Texture2D" uid="uid://cjw3xbujh8bpq" path="res://assets/characters/cast/explorer/Animation Sprites Player/Animation Sprites Player/black_hair_generated/carry_idle_north_west.png" id="black_hair_carry_idle_north_west"]
+[ext_resource type="Texture2D" uid="uid://dd7cqgpgay2yx" path="res://assets/characters/cast/explorer/Animation Sprites Player/Animation Sprites Player/black_hair_generated/carry_idle_south.png" id="black_hair_carry_idle_south"]
+[ext_resource type="Texture2D" uid="uid://m8wwhvac0ogi" path="res://assets/characters/cast/explorer/Animation Sprites Player/Animation Sprites Player/black_hair_generated/carry_idle_south_east.png" id="black_hair_carry_idle_south_east"]
+[ext_resource type="Texture2D" uid="uid://c8018n0x7j4dd" path="res://assets/characters/cast/explorer/Animation Sprites Player/Animation Sprites Player/black_hair_generated/carry_idle_south_west.png" id="black_hair_carry_idle_south_west"]
+[ext_resource type="Texture2D" uid="uid://du2r5ih5tnj4e" path="res://assets/characters/cast/explorer/Animation Sprites Player/Animation Sprites Player/black_hair_generated/carry_idle_west.png" id="black_hair_carry_idle_west"]
+[ext_resource type="Texture2D" uid="uid://dvg2pura8o348" path="res://assets/characters/cast/explorer/Animation Sprites Player/Animation Sprites Player/black_hair_generated/carry_walk_east.png" id="black_hair_carry_walk_east"]
+[ext_resource type="Texture2D" uid="uid://kmblslh3wwpt" path="res://assets/characters/cast/explorer/Animation Sprites Player/Animation Sprites Player/black_hair_generated/carry_walk_north.png" id="black_hair_carry_walk_north"]
+[ext_resource type="Texture2D" uid="uid://c0vgeety6bjsa" path="res://assets/characters/cast/explorer/Animation Sprites Player/Animation Sprites Player/black_hair_generated/carry_walk_north_east.png" id="black_hair_carry_walk_north_east"]
+[ext_resource type="Texture2D" uid="uid://bjmam6vxb0i3s" path="res://assets/characters/cast/explorer/Animation Sprites Player/Animation Sprites Player/black_hair_generated/carry_walk_north_west.png" id="black_hair_carry_walk_north_west"]
+[ext_resource type="Texture2D" uid="uid://bx8ljhri5x6j3" path="res://assets/characters/cast/explorer/Animation Sprites Player/Animation Sprites Player/black_hair_generated/carry_walk_south.png" id="black_hair_carry_walk_south"]
+[ext_resource type="Texture2D" uid="uid://bvolxt5u20ve5" path="res://assets/characters/cast/explorer/Animation Sprites Player/Animation Sprites Player/black_hair_generated/carry_walk_south_east.png" id="black_hair_carry_walk_south_east"]
+[ext_resource type="Texture2D" uid="uid://bjpi7qr50jgb7" path="res://assets/characters/cast/explorer/Animation Sprites Player/Animation Sprites Player/black_hair_generated/carry_walk_south_west.png" id="black_hair_carry_walk_south_west"]
+[ext_resource type="Texture2D" uid="uid://du3o1yvyjg5b2" path="res://assets/characters/cast/explorer/Animation Sprites Player/Animation Sprites Player/black_hair_generated/carry_walk_west.png" id="black_hair_carry_walk_west"]
+[ext_resource type="Texture2D" uid="uid://cees3pyrnwe2s" path="res://assets/characters/cast/explorer/Animation Sprites Player/Animation Sprites Player/black_hair_generated/idle_east.png" id="black_hair_idle_east"]
+[ext_resource type="Texture2D" uid="uid://dvodgpctfksws" path="res://assets/characters/cast/explorer/Animation Sprites Player/Animation Sprites Player/black_hair_generated/idle_north.png" id="black_hair_idle_north"]
+[ext_resource type="Texture2D" uid="uid://bo0dpqhaj5fvr" path="res://assets/characters/cast/explorer/Animation Sprites Player/Animation Sprites Player/black_hair_generated/idle_north_east.png" id="black_hair_idle_north_east"]
+[ext_resource type="Texture2D" uid="uid://dhk1ftabcppbr" path="res://assets/characters/cast/explorer/Animation Sprites Player/Animation Sprites Player/black_hair_generated/idle_north_west.png" id="black_hair_idle_north_west"]
+[ext_resource type="Texture2D" uid="uid://b4chun8w4qjer" path="res://assets/characters/cast/explorer/Animation Sprites Player/Animation Sprites Player/black_hair_generated/idle_south.png" id="black_hair_idle_south"]
+[ext_resource type="Texture2D" uid="uid://lvncvhw6iiqk" path="res://assets/characters/cast/explorer/Animation Sprites Player/Animation Sprites Player/black_hair_generated/idle_south_east.png" id="black_hair_idle_south_east"]
+[ext_resource type="Texture2D" uid="uid://dwgkraapaanyv" path="res://assets/characters/cast/explorer/Animation Sprites Player/Animation Sprites Player/black_hair_generated/idle_south_west.png" id="black_hair_idle_south_west"]
+[ext_resource type="Texture2D" uid="uid://blib0clgbkorh" path="res://assets/characters/cast/explorer/Animation Sprites Player/Animation Sprites Player/black_hair_generated/idle_west.png" id="black_hair_idle_west"]
+[ext_resource type="Texture2D" uid="uid://d36rvl0ssk8iu" path="res://assets/characters/cast/explorer/Animation Sprites Player/Animation Sprites Player/black_hair_generated/jump_east.png" id="black_hair_jump_east"]
+[ext_resource type="Texture2D" uid="uid://b2ifeq7lc4egg" path="res://assets/characters/cast/explorer/Animation Sprites Player/Animation Sprites Player/black_hair_generated/jump_north.png" id="black_hair_jump_north"]
+[ext_resource type="Texture2D" uid="uid://dpodbyxkp7cu2" path="res://assets/characters/cast/explorer/Animation Sprites Player/Animation Sprites Player/black_hair_generated/jump_north_east.png" id="black_hair_jump_north_east"]
+[ext_resource type="Texture2D" uid="uid://xt45c8ppejpw" path="res://assets/characters/cast/explorer/Animation Sprites Player/Animation Sprites Player/black_hair_generated/jump_north_west.png" id="black_hair_jump_north_west"]
+[ext_resource type="Texture2D" uid="uid://dx7b62oooygqr" path="res://assets/characters/cast/explorer/Animation Sprites Player/Animation Sprites Player/black_hair_generated/jump_south.png" id="black_hair_jump_south"]
+[ext_resource type="Texture2D" uid="uid://bmus46cyl2him" path="res://assets/characters/cast/explorer/Animation Sprites Player/Animation Sprites Player/black_hair_generated/jump_south_east.png" id="black_hair_jump_south_east"]
+[ext_resource type="Texture2D" uid="uid://bkt1vxthw0jks" path="res://assets/characters/cast/explorer/Animation Sprites Player/Animation Sprites Player/black_hair_generated/jump_south_west.png" id="black_hair_jump_south_west"]
+[ext_resource type="Texture2D" uid="uid://ccdux40ikkuyy" path="res://assets/characters/cast/explorer/Animation Sprites Player/Animation Sprites Player/black_hair_generated/jump_west.png" id="black_hair_jump_west"]
+[ext_resource type="Texture2D" uid="uid://c44mqfs4w7rs0" path="res://assets/characters/cast/explorer/Animation Sprites Player/Animation Sprites Player/black_hair_generated/lift_east.png" id="black_hair_lift_east"]
+[ext_resource type="Texture2D" uid="uid://buohvs5hqmb2e" path="res://assets/characters/cast/explorer/Animation Sprites Player/Animation Sprites Player/black_hair_generated/lift_north.png" id="black_hair_lift_north"]
+[ext_resource type="Texture2D" uid="uid://cv2d2yheyqqwp" path="res://assets/characters/cast/explorer/Animation Sprites Player/Animation Sprites Player/black_hair_generated/lift_north_east.png" id="black_hair_lift_north_east"]
+[ext_resource type="Texture2D" uid="uid://cx0btmrkpwuin" path="res://assets/characters/cast/explorer/Animation Sprites Player/Animation Sprites Player/black_hair_generated/lift_north_west.png" id="black_hair_lift_north_west"]
+[ext_resource type="Texture2D" uid="uid://rvuinl7xo52w" path="res://assets/characters/cast/explorer/Animation Sprites Player/Animation Sprites Player/black_hair_generated/lift_south.png" id="black_hair_lift_south"]
+[ext_resource type="Texture2D" uid="uid://d4ntdvwf7mlp0" path="res://assets/characters/cast/explorer/Animation Sprites Player/Animation Sprites Player/black_hair_generated/lift_south_east.png" id="black_hair_lift_south_east"]
+[ext_resource type="Texture2D" uid="uid://dob8vcgprwq5f" path="res://assets/characters/cast/explorer/Animation Sprites Player/Animation Sprites Player/black_hair_generated/lift_south_west.png" id="black_hair_lift_south_west"]
+[ext_resource type="Texture2D" uid="uid://d7pcw3h0slyf" path="res://assets/characters/cast/explorer/Animation Sprites Player/Animation Sprites Player/black_hair_generated/lift_west.png" id="black_hair_lift_west"]
+[ext_resource type="Texture2D" uid="uid://f1p6fma6u38h" path="res://assets/characters/cast/explorer/Animation Sprites Player/Animation Sprites Player/black_hair_generated/operate_east.png" id="black_hair_operate_east"]
+[ext_resource type="Texture2D" uid="uid://nha3n5seto54" path="res://assets/characters/cast/explorer/Animation Sprites Player/Animation Sprites Player/black_hair_generated/operate_north.png" id="black_hair_operate_north"]
+[ext_resource type="Texture2D" uid="uid://cw5ljgw2n8bgv" path="res://assets/characters/cast/explorer/Animation Sprites Player/Animation Sprites Player/black_hair_generated/operate_north_east.png" id="black_hair_operate_north_east"]
+[ext_resource type="Texture2D" uid="uid://dq8h3wbir6tl1" path="res://assets/characters/cast/explorer/Animation Sprites Player/Animation Sprites Player/black_hair_generated/operate_north_west.png" id="black_hair_operate_north_west"]
+[ext_resource type="Texture2D" uid="uid://btxpfne51ni00" path="res://assets/characters/cast/explorer/Animation Sprites Player/Animation Sprites Player/black_hair_generated/operate_south.png" id="black_hair_operate_south"]
+[ext_resource type="Texture2D" uid="uid://c42g0q4wg5fuu" path="res://assets/characters/cast/explorer/Animation Sprites Player/Animation Sprites Player/black_hair_generated/operate_south_east.png" id="black_hair_operate_south_east"]
+[ext_resource type="Texture2D" uid="uid://c2l1o68m00ht2" path="res://assets/characters/cast/explorer/Animation Sprites Player/Animation Sprites Player/black_hair_generated/operate_south_west.png" id="black_hair_operate_south_west"]
+[ext_resource type="Texture2D" uid="uid://hsn0oukgbrc3" path="res://assets/characters/cast/explorer/Animation Sprites Player/Animation Sprites Player/black_hair_generated/operate_west.png" id="black_hair_operate_west"]
+[ext_resource type="Texture2D" uid="uid://bsvkq3bbf1weh" path="res://assets/characters/cast/explorer/Animation Sprites Player/Animation Sprites Player/black_hair_generated/place_east.png" id="black_hair_place_east"]
+[ext_resource type="Texture2D" uid="uid://re0et756vbqh" path="res://assets/characters/cast/explorer/Animation Sprites Player/Animation Sprites Player/black_hair_generated/place_north.png" id="black_hair_place_north"]
+[ext_resource type="Texture2D" uid="uid://b4oxc878ntjgy" path="res://assets/characters/cast/explorer/Animation Sprites Player/Animation Sprites Player/black_hair_generated/place_north_east.png" id="black_hair_place_north_east"]
+[ext_resource type="Texture2D" uid="uid://fl7v8vl6tieq" path="res://assets/characters/cast/explorer/Animation Sprites Player/Animation Sprites Player/black_hair_generated/place_north_west.png" id="black_hair_place_north_west"]
+[ext_resource type="Texture2D" uid="uid://c30iv6atdidvj" path="res://assets/characters/cast/explorer/Animation Sprites Player/Animation Sprites Player/black_hair_generated/place_south.png" id="black_hair_place_south"]
+[ext_resource type="Texture2D" uid="uid://d1b3l0dg8mfwc" path="res://assets/characters/cast/explorer/Animation Sprites Player/Animation Sprites Player/black_hair_generated/place_south_east.png" id="black_hair_place_south_east"]
+[ext_resource type="Texture2D" uid="uid://cepj2vfaf3ccq" path="res://assets/characters/cast/explorer/Animation Sprites Player/Animation Sprites Player/black_hair_generated/place_south_west.png" id="black_hair_place_south_west"]
+[ext_resource type="Texture2D" uid="uid://cp47yltkygqbv" path="res://assets/characters/cast/explorer/Animation Sprites Player/Animation Sprites Player/black_hair_generated/place_west.png" id="black_hair_place_west"]
+[ext_resource type="Texture2D" uid="uid://c3pfxreuem3ek" path="res://assets/characters/cast/explorer/Animation Sprites Player/Animation Sprites Player/black_hair_generated/run_east.png" id="black_hair_run_east"]
+[ext_resource type="Texture2D" uid="uid://bpmk07xn4hrq4" path="res://assets/characters/cast/explorer/Animation Sprites Player/Animation Sprites Player/black_hair_generated/run_north.png" id="black_hair_run_north"]
+[ext_resource type="Texture2D" uid="uid://cik1ekpwreime" path="res://assets/characters/cast/explorer/Animation Sprites Player/Animation Sprites Player/black_hair_generated/run_north_east.png" id="black_hair_run_north_east"]
+[ext_resource type="Texture2D" uid="uid://dc61j2wbroru7" path="res://assets/characters/cast/explorer/Animation Sprites Player/Animation Sprites Player/black_hair_generated/run_north_west.png" id="black_hair_run_north_west"]
+[ext_resource type="Texture2D" uid="uid://dqy8onu8unuog" path="res://assets/characters/cast/explorer/Animation Sprites Player/Animation Sprites Player/black_hair_generated/run_south.png" id="black_hair_run_south"]
+[ext_resource type="Texture2D" uid="uid://stptvog7a1ma" path="res://assets/characters/cast/explorer/Animation Sprites Player/Animation Sprites Player/black_hair_generated/run_south_east.png" id="black_hair_run_south_east"]
+[ext_resource type="Texture2D" uid="uid://q1e87sxfb5qe" path="res://assets/characters/cast/explorer/Animation Sprites Player/Animation Sprites Player/black_hair_generated/run_south_west.png" id="black_hair_run_south_west"]
+[ext_resource type="Texture2D" uid="uid://eahayxjq3iqo" path="res://assets/characters/cast/explorer/Animation Sprites Player/Animation Sprites Player/black_hair_generated/run_west.png" id="black_hair_run_west"]
+[ext_resource type="Texture2D" uid="uid://dr0ohhswdag7y" path="res://assets/characters/cast/explorer/Animation Sprites Player/Animation Sprites Player/black_hair_generated/touch_east.png" id="black_hair_touch_east"]
+[ext_resource type="Texture2D" uid="uid://bbh5oai8qwxo6" path="res://assets/characters/cast/explorer/Animation Sprites Player/Animation Sprites Player/black_hair_generated/touch_north.png" id="black_hair_touch_north"]
+[ext_resource type="Texture2D" uid="uid://dbr30hylm67kk" path="res://assets/characters/cast/explorer/Animation Sprites Player/Animation Sprites Player/black_hair_generated/touch_north_east.png" id="black_hair_touch_north_east"]
+[ext_resource type="Texture2D" uid="uid://clfpmn5bedehm" path="res://assets/characters/cast/explorer/Animation Sprites Player/Animation Sprites Player/black_hair_generated/touch_north_west.png" id="black_hair_touch_north_west"]
+[ext_resource type="Texture2D" uid="uid://cindvdlnmdx08" path="res://assets/characters/cast/explorer/Animation Sprites Player/Animation Sprites Player/black_hair_generated/touch_south.png" id="black_hair_touch_south"]
+[ext_resource type="Texture2D" uid="uid://dku4366eymy36" path="res://assets/characters/cast/explorer/Animation Sprites Player/Animation Sprites Player/black_hair_generated/touch_south_east.png" id="black_hair_touch_south_east"]
+[ext_resource type="Texture2D" uid="uid://b2vgnt3mcfdjd" path="res://assets/characters/cast/explorer/Animation Sprites Player/Animation Sprites Player/black_hair_generated/touch_south_west.png" id="black_hair_touch_south_west"]
+[ext_resource type="Texture2D" uid="uid://bgefdkbrqaghc" path="res://assets/characters/cast/explorer/Animation Sprites Player/Animation Sprites Player/black_hair_generated/touch_west.png" id="black_hair_touch_west"]
+[ext_resource type="Texture2D" uid="uid://dh1vc3xf8858f" path="res://assets/characters/cast/explorer/Animation Sprites Player/Animation Sprites Player/black_hair_generated/walk_east.png" id="black_hair_walk_east"]
+[ext_resource type="Texture2D" uid="uid://dhvkkuxtgfg21" path="res://assets/characters/cast/explorer/Animation Sprites Player/Animation Sprites Player/black_hair_generated/walk_north.png" id="black_hair_walk_north"]
+[ext_resource type="Texture2D" uid="uid://d35ill0yhojgy" path="res://assets/characters/cast/explorer/Animation Sprites Player/Animation Sprites Player/black_hair_generated/walk_north_east.png" id="black_hair_walk_north_east"]
+[ext_resource type="Texture2D" uid="uid://j6nnpmfymne" path="res://assets/characters/cast/explorer/Animation Sprites Player/Animation Sprites Player/black_hair_generated/walk_north_west.png" id="black_hair_walk_north_west"]
+[ext_resource type="Texture2D" uid="uid://dp1w85u5i182o" path="res://assets/characters/cast/explorer/Animation Sprites Player/Animation Sprites Player/black_hair_generated/walk_south.png" id="black_hair_walk_south"]
+[ext_resource type="Texture2D" uid="uid://b3v1gvdv0xlji" path="res://assets/characters/cast/explorer/Animation Sprites Player/Animation Sprites Player/black_hair_generated/walk_south_east.png" id="black_hair_walk_south_east"]
+[ext_resource type="Texture2D" uid="uid://cq8oaju3ycl4g" path="res://assets/characters/cast/explorer/Animation Sprites Player/Animation Sprites Player/black_hair_generated/walk_south_west.png" id="black_hair_walk_south_west"]
+[ext_resource type="Texture2D" uid="uid://bu21rledq11n" path="res://assets/characters/cast/explorer/Animation Sprites Player/Animation Sprites Player/black_hair_generated/walk_west.png" id="black_hair_walk_west"]
+
+[sub_resource type="AtlasTexture" id="black_hair_carry_idle_east_0"]
+atlas = ExtResource("black_hair_carry_idle_east")
+region = Rect2(0, 0, 192, 192)
+filter_clip = true
+metadata/preview_registered = true
+metadata/hand_anchor = Vector2(105, 113)
+
+[sub_resource type="AtlasTexture" id="black_hair_carry_idle_east_1"]
+atlas = ExtResource("black_hair_carry_idle_east")
+region = Rect2(192, 0, 192, 192)
+filter_clip = true
+metadata/preview_registered = true
+metadata/hand_anchor = Vector2(105, 113)
+
+[sub_resource type="AtlasTexture" id="black_hair_carry_idle_east_2"]
+atlas = ExtResource("black_hair_carry_idle_east")
+region = Rect2(384, 0, 192, 192)
+filter_clip = true
+metadata/preview_registered = true
+metadata/hand_anchor = Vector2(105, 112)
+
+[sub_resource type="AtlasTexture" id="black_hair_carry_idle_east_3"]
+atlas = ExtResource("black_hair_carry_idle_east")
+region = Rect2(576, 0, 192, 192)
+filter_clip = true
+metadata/preview_registered = true
+metadata/hand_anchor = Vector2(107, 112)
+
+[sub_resource type="AtlasTexture" id="black_hair_carry_idle_east_4"]
+atlas = ExtResource("black_hair_carry_idle_east")
+region = Rect2(768, 0, 192, 192)
+filter_clip = true
+metadata/preview_registered = true
+metadata/hand_anchor = Vector2(105, 113)
+
+[sub_resource type="AtlasTexture" id="black_hair_carry_idle_east_5"]
+atlas = ExtResource("black_hair_carry_idle_east")
+region = Rect2(960, 0, 192, 192)
+filter_clip = true
+metadata/preview_registered = true
+metadata/hand_anchor = Vector2(106, 112)
+
+[sub_resource type="AtlasTexture" id="black_hair_carry_idle_north_0"]
+atlas = ExtResource("black_hair_carry_idle_north")
+region = Rect2(0, 0, 192, 192)
+filter_clip = true
+metadata/preview_registered = true
+metadata/hand_anchor = Vector2(82, 115)
+
+[sub_resource type="AtlasTexture" id="black_hair_carry_idle_north_1"]
+atlas = ExtResource("black_hair_carry_idle_north")
+region = Rect2(192, 0, 192, 192)
+filter_clip = true
+metadata/preview_registered = true
+metadata/hand_anchor = Vector2(112, 115)
+
+[sub_resource type="AtlasTexture" id="black_hair_carry_idle_north_2"]
+atlas = ExtResource("black_hair_carry_idle_north")
+region = Rect2(384, 0, 192, 192)
+filter_clip = true
+metadata/preview_registered = true
+metadata/hand_anchor = Vector2(111, 114)
+
+[sub_resource type="AtlasTexture" id="black_hair_carry_idle_north_3"]
+atlas = ExtResource("black_hair_carry_idle_north")
+region = Rect2(576, 0, 192, 192)
+filter_clip = true
+metadata/preview_registered = true
+metadata/hand_anchor = Vector2(111, 115)
+
+[sub_resource type="AtlasTexture" id="black_hair_carry_idle_north_4"]
+atlas = ExtResource("black_hair_carry_idle_north")
+region = Rect2(768, 0, 192, 192)
+filter_clip = true
+metadata/preview_registered = true
+metadata/hand_anchor = Vector2(111, 114)
+
+[sub_resource type="AtlasTexture" id="black_hair_carry_idle_north_5"]
+atlas = ExtResource("black_hair_carry_idle_north")
+region = Rect2(960, 0, 192, 192)
+filter_clip = true
+metadata/preview_registered = true
+metadata/hand_anchor = Vector2(110, 115)
+
+[sub_resource type="AtlasTexture" id="black_hair_carry_idle_north_east_0"]
+atlas = ExtResource("black_hair_carry_idle_north_east")
+region = Rect2(0, 0, 192, 192)
+filter_clip = true
+metadata/preview_registered = true
+metadata/hand_anchor = Vector2(113, 113)
+
+[sub_resource type="AtlasTexture" id="black_hair_carry_idle_north_east_1"]
+atlas = ExtResource("black_hair_carry_idle_north_east")
+region = Rect2(192, 0, 192, 192)
+filter_clip = true
+metadata/preview_registered = true
+metadata/hand_anchor = Vector2(113, 113)
+
+[sub_resource type="AtlasTexture" id="black_hair_carry_idle_north_east_2"]
+atlas = ExtResource("black_hair_carry_idle_north_east")
+region = Rect2(384, 0, 192, 192)
+filter_clip = true
+metadata/preview_registered = true
+metadata/hand_anchor = Vector2(113, 112)
+
+[sub_resource type="AtlasTexture" id="black_hair_carry_idle_north_east_3"]
+atlas = ExtResource("black_hair_carry_idle_north_east")
+region = Rect2(576, 0, 192, 192)
+filter_clip = true
+metadata/preview_registered = true
+metadata/hand_anchor = Vector2(113, 112)
+
+[sub_resource type="AtlasTexture" id="black_hair_carry_idle_north_east_4"]
+atlas = ExtResource("black_hair_carry_idle_north_east")
+region = Rect2(768, 0, 192, 192)
+filter_clip = true
+metadata/preview_registered = true
+metadata/hand_anchor = Vector2(113, 112)
+
+[sub_resource type="AtlasTexture" id="black_hair_carry_idle_north_east_5"]
+atlas = ExtResource("black_hair_carry_idle_north_east")
+region = Rect2(960, 0, 192, 192)
+filter_clip = true
+metadata/preview_registered = true
+metadata/hand_anchor = Vector2(112, 112)
+
+[sub_resource type="AtlasTexture" id="black_hair_carry_idle_north_west_0"]
+atlas = ExtResource("black_hair_carry_idle_north_west")
+region = Rect2(0, 0, 192, 192)
+filter_clip = true
+metadata/preview_registered = true
+metadata/hand_anchor = Vector2(78, 113)
+
+[sub_resource type="AtlasTexture" id="black_hair_carry_idle_north_west_1"]
+atlas = ExtResource("black_hair_carry_idle_north_west")
+region = Rect2(192, 0, 192, 192)
+filter_clip = true
+metadata/preview_registered = true
+metadata/hand_anchor = Vector2(78, 113)
+
+[sub_resource type="AtlasTexture" id="black_hair_carry_idle_north_west_2"]
+atlas = ExtResource("black_hair_carry_idle_north_west")
+region = Rect2(384, 0, 192, 192)
+filter_clip = true
+metadata/preview_registered = true
+metadata/hand_anchor = Vector2(78, 112)
+
+[sub_resource type="AtlasTexture" id="black_hair_carry_idle_north_west_3"]
+atlas = ExtResource("black_hair_carry_idle_north_west")
+region = Rect2(576, 0, 192, 192)
+filter_clip = true
+metadata/preview_registered = true
+metadata/hand_anchor = Vector2(78, 112)
+
+[sub_resource type="AtlasTexture" id="black_hair_carry_idle_north_west_4"]
+atlas = ExtResource("black_hair_carry_idle_north_west")
+region = Rect2(768, 0, 192, 192)
+filter_clip = true
+metadata/preview_registered = true
+metadata/hand_anchor = Vector2(78, 112)
+
+[sub_resource type="AtlasTexture" id="black_hair_carry_idle_north_west_5"]
+atlas = ExtResource("black_hair_carry_idle_north_west")
+region = Rect2(960, 0, 192, 192)
+filter_clip = true
+metadata/preview_registered = true
+metadata/hand_anchor = Vector2(78, 112)
+
+[sub_resource type="AtlasTexture" id="black_hair_carry_idle_south_0"]
+atlas = ExtResource("black_hair_carry_idle_south")
+region = Rect2(0, 0, 192, 192)
+filter_clip = true
+metadata/preview_registered = true
+metadata/hand_anchor = Vector2(96, 114)
+
+[sub_resource type="AtlasTexture" id="black_hair_carry_idle_south_1"]
+atlas = ExtResource("black_hair_carry_idle_south")
+region = Rect2(192, 0, 192, 192)
+filter_clip = true
+metadata/preview_registered = true
+metadata/hand_anchor = Vector2(95, 114)
+
+[sub_resource type="AtlasTexture" id="black_hair_carry_idle_south_2"]
+atlas = ExtResource("black_hair_carry_idle_south")
+region = Rect2(384, 0, 192, 192)
+filter_clip = true
+metadata/preview_registered = true
+metadata/hand_anchor = Vector2(96, 114)
+
+[sub_resource type="AtlasTexture" id="black_hair_carry_idle_south_3"]
+atlas = ExtResource("black_hair_carry_idle_south")
+region = Rect2(576, 0, 192, 192)
+filter_clip = true
+metadata/preview_registered = true
+metadata/hand_anchor = Vector2(96, 114)
+
+[sub_resource type="AtlasTexture" id="black_hair_carry_idle_south_4"]
+atlas = ExtResource("black_hair_carry_idle_south")
+region = Rect2(768, 0, 192, 192)
+filter_clip = true
+metadata/preview_registered = true
+metadata/hand_anchor = Vector2(96, 114)
+
+[sub_resource type="AtlasTexture" id="black_hair_carry_idle_south_5"]
+atlas = ExtResource("black_hair_carry_idle_south")
+region = Rect2(960, 0, 192, 192)
+filter_clip = true
+metadata/preview_registered = true
+metadata/hand_anchor = Vector2(96, 114)
+
+[sub_resource type="AtlasTexture" id="black_hair_carry_idle_south_east_0"]
+atlas = ExtResource("black_hair_carry_idle_south_east")
+region = Rect2(0, 0, 192, 192)
+filter_clip = true
+metadata/preview_registered = true
+metadata/hand_anchor = Vector2(99, 114)
+
+[sub_resource type="AtlasTexture" id="black_hair_carry_idle_south_east_1"]
+atlas = ExtResource("black_hair_carry_idle_south_east")
+region = Rect2(192, 0, 192, 192)
+filter_clip = true
+metadata/preview_registered = true
+metadata/hand_anchor = Vector2(99, 114)
+
+[sub_resource type="AtlasTexture" id="black_hair_carry_idle_south_east_2"]
+atlas = ExtResource("black_hair_carry_idle_south_east")
+region = Rect2(384, 0, 192, 192)
+filter_clip = true
+metadata/preview_registered = true
+metadata/hand_anchor = Vector2(100, 114)
+
+[sub_resource type="AtlasTexture" id="black_hair_carry_idle_south_east_3"]
+atlas = ExtResource("black_hair_carry_idle_south_east")
+region = Rect2(576, 0, 192, 192)
+filter_clip = true
+metadata/preview_registered = true
+metadata/hand_anchor = Vector2(100, 113)
+
+[sub_resource type="AtlasTexture" id="black_hair_carry_idle_south_east_4"]
+atlas = ExtResource("black_hair_carry_idle_south_east")
+region = Rect2(768, 0, 192, 192)
+filter_clip = true
+metadata/preview_registered = true
+metadata/hand_anchor = Vector2(99, 114)
+
+[sub_resource type="AtlasTexture" id="black_hair_carry_idle_south_east_5"]
+atlas = ExtResource("black_hair_carry_idle_south_east")
+region = Rect2(960, 0, 192, 192)
+filter_clip = true
+metadata/preview_registered = true
+metadata/hand_anchor = Vector2(99, 114)
+
+[sub_resource type="AtlasTexture" id="black_hair_carry_idle_south_west_0"]
+atlas = ExtResource("black_hair_carry_idle_south_west")
+region = Rect2(0, 0, 192, 192)
+filter_clip = true
+metadata/preview_registered = true
+metadata/hand_anchor = Vector2(92, 114)
+
+[sub_resource type="AtlasTexture" id="black_hair_carry_idle_south_west_1"]
+atlas = ExtResource("black_hair_carry_idle_south_west")
+region = Rect2(192, 0, 192, 192)
+filter_clip = true
+metadata/preview_registered = true
+metadata/hand_anchor = Vector2(92, 114)
+
+[sub_resource type="AtlasTexture" id="black_hair_carry_idle_south_west_2"]
+atlas = ExtResource("black_hair_carry_idle_south_west")
+region = Rect2(384, 0, 192, 192)
+filter_clip = true
+metadata/preview_registered = true
+metadata/hand_anchor = Vector2(91, 114)
+
+[sub_resource type="AtlasTexture" id="black_hair_carry_idle_south_west_3"]
+atlas = ExtResource("black_hair_carry_idle_south_west")
+region = Rect2(576, 0, 192, 192)
+filter_clip = true
+metadata/preview_registered = true
+metadata/hand_anchor = Vector2(92, 113)
+
+[sub_resource type="AtlasTexture" id="black_hair_carry_idle_south_west_4"]
+atlas = ExtResource("black_hair_carry_idle_south_west")
+region = Rect2(768, 0, 192, 192)
+filter_clip = true
+metadata/preview_registered = true
+metadata/hand_anchor = Vector2(92, 114)
+
+[sub_resource type="AtlasTexture" id="black_hair_carry_idle_south_west_5"]
+atlas = ExtResource("black_hair_carry_idle_south_west")
+region = Rect2(960, 0, 192, 192)
+filter_clip = true
+metadata/preview_registered = true
+metadata/hand_anchor = Vector2(92, 114)
+
+[sub_resource type="AtlasTexture" id="black_hair_carry_idle_west_0"]
+atlas = ExtResource("black_hair_carry_idle_west")
+region = Rect2(0, 0, 192, 192)
+filter_clip = true
+metadata/preview_registered = true
+metadata/hand_anchor = Vector2(86, 113)
+
+[sub_resource type="AtlasTexture" id="black_hair_carry_idle_west_1"]
+atlas = ExtResource("black_hair_carry_idle_west")
+region = Rect2(192, 0, 192, 192)
+filter_clip = true
+metadata/preview_registered = true
+metadata/hand_anchor = Vector2(86, 113)
+
+[sub_resource type="AtlasTexture" id="black_hair_carry_idle_west_2"]
+atlas = ExtResource("black_hair_carry_idle_west")
+region = Rect2(384, 0, 192, 192)
+filter_clip = true
+metadata/preview_registered = true
+metadata/hand_anchor = Vector2(86, 112)
+
+[sub_resource type="AtlasTexture" id="black_hair_carry_idle_west_3"]
+atlas = ExtResource("black_hair_carry_idle_west")
+region = Rect2(576, 0, 192, 192)
+filter_clip = true
+metadata/preview_registered = true
+metadata/hand_anchor = Vector2(84, 112)
+
+[sub_resource type="AtlasTexture" id="black_hair_carry_idle_west_4"]
+atlas = ExtResource("black_hair_carry_idle_west")
+region = Rect2(768, 0, 192, 192)
+filter_clip = true
+metadata/preview_registered = true
+metadata/hand_anchor = Vector2(86, 113)
+
+[sub_resource type="AtlasTexture" id="black_hair_carry_idle_west_5"]
+atlas = ExtResource("black_hair_carry_idle_west")
+region = Rect2(960, 0, 192, 192)
+filter_clip = true
+metadata/preview_registered = true
+metadata/hand_anchor = Vector2(85, 112)
+
+[sub_resource type="AtlasTexture" id="black_hair_carry_walk_east_0"]
+atlas = ExtResource("black_hair_carry_walk_east")
+region = Rect2(0, 0, 192, 192)
+filter_clip = true
+metadata/preview_registered = true
+metadata/hand_anchor = Vector2(107, 115)
+
+[sub_resource type="AtlasTexture" id="black_hair_carry_walk_east_1"]
+atlas = ExtResource("black_hair_carry_walk_east")
+region = Rect2(192, 0, 192, 192)
+filter_clip = true
+metadata/preview_registered = true
+metadata/hand_anchor = Vector2(108, 115)
+
+[sub_resource type="AtlasTexture" id="black_hair_carry_walk_east_2"]
+atlas = ExtResource("black_hair_carry_walk_east")
+region = Rect2(384, 0, 192, 192)
+filter_clip = true
+metadata/preview_registered = true
+metadata/hand_anchor = Vector2(108, 114)
+
+[sub_resource type="AtlasTexture" id="black_hair_carry_walk_east_3"]
+atlas = ExtResource("black_hair_carry_walk_east")
+region = Rect2(576, 0, 192, 192)
+filter_clip = true
+metadata/preview_registered = true
+metadata/hand_anchor = Vector2(108, 114)
+
+[sub_resource type="AtlasTexture" id="black_hair_carry_walk_east_4"]
+atlas = ExtResource("black_hair_carry_walk_east")
+region = Rect2(768, 0, 192, 192)
+filter_clip = true
+metadata/preview_registered = true
+metadata/hand_anchor = Vector2(108, 114)
+
+[sub_resource type="AtlasTexture" id="black_hair_carry_walk_east_5"]
+atlas = ExtResource("black_hair_carry_walk_east")
+region = Rect2(960, 0, 192, 192)
+filter_clip = true
+metadata/preview_registered = true
+metadata/hand_anchor = Vector2(108, 115)
+
+[sub_resource type="AtlasTexture" id="black_hair_carry_walk_north_0"]
+atlas = ExtResource("black_hair_carry_walk_north")
+region = Rect2(0, 0, 192, 192)
+filter_clip = true
+metadata/preview_registered = true
+metadata/hand_anchor = Vector2(112, 112)
+
+[sub_resource type="AtlasTexture" id="black_hair_carry_walk_north_1"]
+atlas = ExtResource("black_hair_carry_walk_north")
+region = Rect2(192, 0, 192, 192)
+filter_clip = true
+metadata/preview_registered = true
+metadata/hand_anchor = Vector2(111, 112)
+
+[sub_resource type="AtlasTexture" id="black_hair_carry_walk_north_2"]
+atlas = ExtResource("black_hair_carry_walk_north")
+region = Rect2(384, 0, 192, 192)
+filter_clip = true
+metadata/preview_registered = true
+metadata/hand_anchor = Vector2(111, 112)
+
+[sub_resource type="AtlasTexture" id="black_hair_carry_walk_north_3"]
+atlas = ExtResource("black_hair_carry_walk_north")
+region = Rect2(576, 0, 192, 192)
+filter_clip = true
+metadata/preview_registered = true
+metadata/hand_anchor = Vector2(110, 112)
+
+[sub_resource type="AtlasTexture" id="black_hair_carry_walk_north_4"]
+atlas = ExtResource("black_hair_carry_walk_north")
+region = Rect2(768, 0, 192, 192)
+filter_clip = true
+metadata/preview_registered = true
+metadata/hand_anchor = Vector2(110, 112)
+
+[sub_resource type="AtlasTexture" id="black_hair_carry_walk_north_5"]
+atlas = ExtResource("black_hair_carry_walk_north")
+region = Rect2(960, 0, 192, 192)
+filter_clip = true
+metadata/preview_registered = true
+metadata/hand_anchor = Vector2(111, 112)
+
+[sub_resource type="AtlasTexture" id="black_hair_carry_walk_north_east_0"]
+atlas = ExtResource("black_hair_carry_walk_north_east")
+region = Rect2(0, 0, 192, 192)
+filter_clip = true
+metadata/preview_registered = true
+metadata/hand_anchor = Vector2(114, 112)
+
+[sub_resource type="AtlasTexture" id="black_hair_carry_walk_north_east_1"]
+atlas = ExtResource("black_hair_carry_walk_north_east")
+region = Rect2(192, 0, 192, 192)
+filter_clip = true
+metadata/preview_registered = true
+metadata/hand_anchor = Vector2(113, 111)
+
+[sub_resource type="AtlasTexture" id="black_hair_carry_walk_north_east_2"]
+atlas = ExtResource("black_hair_carry_walk_north_east")
+region = Rect2(384, 0, 192, 192)
+filter_clip = true
+metadata/preview_registered = true
+metadata/hand_anchor = Vector2(114, 111)
+
+[sub_resource type="AtlasTexture" id="black_hair_carry_walk_north_east_3"]
+atlas = ExtResource("black_hair_carry_walk_north_east")
+region = Rect2(576, 0, 192, 192)
+filter_clip = true
+metadata/preview_registered = true
+metadata/hand_anchor = Vector2(113, 108)
+
+[sub_resource type="AtlasTexture" id="black_hair_carry_walk_north_east_4"]
+atlas = ExtResource("black_hair_carry_walk_north_east")
+region = Rect2(768, 0, 192, 192)
+filter_clip = true
+metadata/preview_registered = true
+metadata/hand_anchor = Vector2(113, 111)
+
+[sub_resource type="AtlasTexture" id="black_hair_carry_walk_north_east_5"]
+atlas = ExtResource("black_hair_carry_walk_north_east")
+region = Rect2(960, 0, 192, 192)
+filter_clip = true
+metadata/preview_registered = true
+metadata/hand_anchor = Vector2(114, 110)
+
+[sub_resource type="AtlasTexture" id="black_hair_carry_walk_north_west_0"]
+atlas = ExtResource("black_hair_carry_walk_north_west")
+region = Rect2(0, 0, 192, 192)
+filter_clip = true
+metadata/preview_registered = true
+metadata/hand_anchor = Vector2(77, 112)
+
+[sub_resource type="AtlasTexture" id="black_hair_carry_walk_north_west_1"]
+atlas = ExtResource("black_hair_carry_walk_north_west")
+region = Rect2(192, 0, 192, 192)
+filter_clip = true
+metadata/preview_registered = true
+metadata/hand_anchor = Vector2(78, 111)
+
+[sub_resource type="AtlasTexture" id="black_hair_carry_walk_north_west_2"]
+atlas = ExtResource("black_hair_carry_walk_north_west")
+region = Rect2(384, 0, 192, 192)
+filter_clip = true
+metadata/preview_registered = true
+metadata/hand_anchor = Vector2(77, 111)
+
+[sub_resource type="AtlasTexture" id="black_hair_carry_walk_north_west_3"]
+atlas = ExtResource("black_hair_carry_walk_north_west")
+region = Rect2(576, 0, 192, 192)
+filter_clip = true
+metadata/preview_registered = true
+metadata/hand_anchor = Vector2(78, 108)
+
+[sub_resource type="AtlasTexture" id="black_hair_carry_walk_north_west_4"]
+atlas = ExtResource("black_hair_carry_walk_north_west")
+region = Rect2(768, 0, 192, 192)
+filter_clip = true
+metadata/preview_registered = true
+metadata/hand_anchor = Vector2(78, 111)
+
+[sub_resource type="AtlasTexture" id="black_hair_carry_walk_north_west_5"]
+atlas = ExtResource("black_hair_carry_walk_north_west")
+region = Rect2(960, 0, 192, 192)
+filter_clip = true
+metadata/preview_registered = true
+metadata/hand_anchor = Vector2(77, 110)
+
+[sub_resource type="AtlasTexture" id="black_hair_carry_walk_south_0"]
+atlas = ExtResource("black_hair_carry_walk_south")
+region = Rect2(0, 0, 192, 192)
+filter_clip = true
+metadata/preview_registered = true
+metadata/hand_anchor = Vector2(95, 116)
+
+[sub_resource type="AtlasTexture" id="black_hair_carry_walk_south_1"]
+atlas = ExtResource("black_hair_carry_walk_south")
+region = Rect2(192, 0, 192, 192)
+filter_clip = true
+metadata/preview_registered = true
+metadata/hand_anchor = Vector2(95, 115)
+
+[sub_resource type="AtlasTexture" id="black_hair_carry_walk_south_2"]
+atlas = ExtResource("black_hair_carry_walk_south")
+region = Rect2(384, 0, 192, 192)
+filter_clip = true
+metadata/preview_registered = true
+metadata/hand_anchor = Vector2(95, 116)
+
+[sub_resource type="AtlasTexture" id="black_hair_carry_walk_south_3"]
+atlas = ExtResource("black_hair_carry_walk_south")
+region = Rect2(576, 0, 192, 192)
+filter_clip = true
+metadata/preview_registered = true
+metadata/hand_anchor = Vector2(96, 117)
+
+[sub_resource type="AtlasTexture" id="black_hair_carry_walk_south_4"]
+atlas = ExtResource("black_hair_carry_walk_south")
+region = Rect2(768, 0, 192, 192)
+filter_clip = true
+metadata/preview_registered = true
+metadata/hand_anchor = Vector2(96, 116)
+
+[sub_resource type="AtlasTexture" id="black_hair_carry_walk_south_5"]
+atlas = ExtResource("black_hair_carry_walk_south")
+region = Rect2(960, 0, 192, 192)
+filter_clip = true
+metadata/preview_registered = true
+metadata/hand_anchor = Vector2(96, 117)
+
+[sub_resource type="AtlasTexture" id="black_hair_carry_walk_south_east_0"]
+atlas = ExtResource("black_hair_carry_walk_south_east")
+region = Rect2(0, 0, 192, 192)
+filter_clip = true
+metadata/preview_registered = true
+metadata/hand_anchor = Vector2(103, 116)
+
+[sub_resource type="AtlasTexture" id="black_hair_carry_walk_south_east_1"]
+atlas = ExtResource("black_hair_carry_walk_south_east")
+region = Rect2(192, 0, 192, 192)
+filter_clip = true
+metadata/preview_registered = true
+metadata/hand_anchor = Vector2(102, 115)
+
+[sub_resource type="AtlasTexture" id="black_hair_carry_walk_south_east_2"]
+atlas = ExtResource("black_hair_carry_walk_south_east")
+region = Rect2(384, 0, 192, 192)
+filter_clip = true
+metadata/preview_registered = true
+metadata/hand_anchor = Vector2(102, 116)
+
+[sub_resource type="AtlasTexture" id="black_hair_carry_walk_south_east_3"]
+atlas = ExtResource("black_hair_carry_walk_south_east")
+region = Rect2(576, 0, 192, 192)
+filter_clip = true
+metadata/preview_registered = true
+metadata/hand_anchor = Vector2(102, 116)
+
+[sub_resource type="AtlasTexture" id="black_hair_carry_walk_south_east_4"]
+atlas = ExtResource("black_hair_carry_walk_south_east")
+region = Rect2(768, 0, 192, 192)
+filter_clip = true
+metadata/preview_registered = true
+metadata/hand_anchor = Vector2(103, 116)
+
+[sub_resource type="AtlasTexture" id="black_hair_carry_walk_south_east_5"]
+atlas = ExtResource("black_hair_carry_walk_south_east")
+region = Rect2(960, 0, 192, 192)
+filter_clip = true
+metadata/preview_registered = true
+metadata/hand_anchor = Vector2(103, 114)
+
+[sub_resource type="AtlasTexture" id="black_hair_carry_walk_south_west_0"]
+atlas = ExtResource("black_hair_carry_walk_south_west")
+region = Rect2(0, 0, 192, 192)
+filter_clip = true
+metadata/preview_registered = true
+metadata/hand_anchor = Vector2(88, 116)
+
+[sub_resource type="AtlasTexture" id="black_hair_carry_walk_south_west_1"]
+atlas = ExtResource("black_hair_carry_walk_south_west")
+region = Rect2(192, 0, 192, 192)
+filter_clip = true
+metadata/preview_registered = true
+metadata/hand_anchor = Vector2(89, 115)
+
+[sub_resource type="AtlasTexture" id="black_hair_carry_walk_south_west_2"]
+atlas = ExtResource("black_hair_carry_walk_south_west")
+region = Rect2(384, 0, 192, 192)
+filter_clip = true
+metadata/preview_registered = true
+metadata/hand_anchor = Vector2(89, 116)
+
+[sub_resource type="AtlasTexture" id="black_hair_carry_walk_south_west_3"]
+atlas = ExtResource("black_hair_carry_walk_south_west")
+region = Rect2(576, 0, 192, 192)
+filter_clip = true
+metadata/preview_registered = true
+metadata/hand_anchor = Vector2(90, 116)
+
+[sub_resource type="AtlasTexture" id="black_hair_carry_walk_south_west_4"]
+atlas = ExtResource("black_hair_carry_walk_south_west")
+region = Rect2(768, 0, 192, 192)
+filter_clip = true
+metadata/preview_registered = true
+metadata/hand_anchor = Vector2(88, 116)
+
+[sub_resource type="AtlasTexture" id="black_hair_carry_walk_south_west_5"]
+atlas = ExtResource("black_hair_carry_walk_south_west")
+region = Rect2(960, 0, 192, 192)
+filter_clip = true
+metadata/preview_registered = true
+metadata/hand_anchor = Vector2(88, 114)
+
+[sub_resource type="AtlasTexture" id="black_hair_carry_walk_west_0"]
+atlas = ExtResource("black_hair_carry_walk_west")
+region = Rect2(0, 0, 192, 192)
+filter_clip = true
+metadata/preview_registered = true
+metadata/hand_anchor = Vector2(84, 115)
+
+[sub_resource type="AtlasTexture" id="black_hair_carry_walk_west_1"]
+atlas = ExtResource("black_hair_carry_walk_west")
+region = Rect2(192, 0, 192, 192)
+filter_clip = true
+metadata/preview_registered = true
+metadata/hand_anchor = Vector2(83, 115)
+
+[sub_resource type="AtlasTexture" id="black_hair_carry_walk_west_2"]
+atlas = ExtResource("black_hair_carry_walk_west")
+region = Rect2(384, 0, 192, 192)
+filter_clip = true
+metadata/preview_registered = true
+metadata/hand_anchor = Vector2(83, 114)
+
+[sub_resource type="AtlasTexture" id="black_hair_carry_walk_west_3"]
+atlas = ExtResource("black_hair_carry_walk_west")
+region = Rect2(576, 0, 192, 192)
+filter_clip = true
+metadata/preview_registered = true
+metadata/hand_anchor = Vector2(83, 114)
+
+[sub_resource type="AtlasTexture" id="black_hair_carry_walk_west_4"]
+atlas = ExtResource("black_hair_carry_walk_west")
+region = Rect2(768, 0, 192, 192)
+filter_clip = true
+metadata/preview_registered = true
+metadata/hand_anchor = Vector2(83, 114)
+
+[sub_resource type="AtlasTexture" id="black_hair_carry_walk_west_5"]
+atlas = ExtResource("black_hair_carry_walk_west")
+region = Rect2(960, 0, 192, 192)
+filter_clip = true
+metadata/preview_registered = true
+metadata/hand_anchor = Vector2(83, 115)
+
+[sub_resource type="AtlasTexture" id="black_hair_idle_east_0"]
+atlas = ExtResource("black_hair_idle_east")
+region = Rect2(0, 0, 192, 192)
+filter_clip = true
+metadata/mirror_walk = false
+
+[sub_resource type="AtlasTexture" id="black_hair_idle_east_1"]
+atlas = ExtResource("black_hair_idle_east")
+region = Rect2(192, 0, 192, 192)
+filter_clip = true
+metadata/mirror_walk = false
+
+[sub_resource type="AtlasTexture" id="black_hair_idle_east_2"]
+atlas = ExtResource("black_hair_idle_east")
+region = Rect2(384, 0, 192, 192)
+filter_clip = true
+metadata/mirror_walk = false
+
+[sub_resource type="AtlasTexture" id="black_hair_idle_east_3"]
+atlas = ExtResource("black_hair_idle_east")
+region = Rect2(576, 0, 192, 192)
+filter_clip = true
+metadata/mirror_walk = false
+
+[sub_resource type="AtlasTexture" id="black_hair_idle_north_0"]
+atlas = ExtResource("black_hair_idle_north")
+region = Rect2(0, 0, 192, 192)
+filter_clip = true
+metadata/mirror_walk = false
+
+[sub_resource type="AtlasTexture" id="black_hair_idle_north_1"]
+atlas = ExtResource("black_hair_idle_north")
+region = Rect2(192, 0, 192, 192)
+filter_clip = true
+metadata/mirror_walk = false
+
+[sub_resource type="AtlasTexture" id="black_hair_idle_north_2"]
+atlas = ExtResource("black_hair_idle_north")
+region = Rect2(384, 0, 192, 192)
+filter_clip = true
+metadata/mirror_walk = false
+
+[sub_resource type="AtlasTexture" id="black_hair_idle_north_3"]
+atlas = ExtResource("black_hair_idle_north")
+region = Rect2(576, 0, 192, 192)
+filter_clip = true
+metadata/mirror_walk = false
+
+[sub_resource type="AtlasTexture" id="black_hair_idle_north_east_0"]
+atlas = ExtResource("black_hair_idle_north_east")
+region = Rect2(0, 0, 192, 192)
+filter_clip = true
+metadata/mirror_walk = false
+
+[sub_resource type="AtlasTexture" id="black_hair_idle_north_east_1"]
+atlas = ExtResource("black_hair_idle_north_east")
+region = Rect2(192, 0, 192, 192)
+filter_clip = true
+metadata/mirror_walk = false
+
+[sub_resource type="AtlasTexture" id="black_hair_idle_north_east_2"]
+atlas = ExtResource("black_hair_idle_north_east")
+region = Rect2(384, 0, 192, 192)
+filter_clip = true
+metadata/mirror_walk = false
+
+[sub_resource type="AtlasTexture" id="black_hair_idle_north_east_3"]
+atlas = ExtResource("black_hair_idle_north_east")
+region = Rect2(576, 0, 192, 192)
+filter_clip = true
+metadata/mirror_walk = false
+
+[sub_resource type="AtlasTexture" id="black_hair_idle_north_west_0"]
+atlas = ExtResource("black_hair_idle_north_west")
+region = Rect2(0, 0, 192, 192)
+filter_clip = true
+metadata/mirror_walk = false
+
+[sub_resource type="AtlasTexture" id="black_hair_idle_north_west_1"]
+atlas = ExtResource("black_hair_idle_north_west")
+region = Rect2(192, 0, 192, 192)
+filter_clip = true
+metadata/mirror_walk = false
+
+[sub_resource type="AtlasTexture" id="black_hair_idle_north_west_2"]
+atlas = ExtResource("black_hair_idle_north_west")
+region = Rect2(384, 0, 192, 192)
+filter_clip = true
+metadata/mirror_walk = false
+
+[sub_resource type="AtlasTexture" id="black_hair_idle_north_west_3"]
+atlas = ExtResource("black_hair_idle_north_west")
+region = Rect2(576, 0, 192, 192)
+filter_clip = true
+metadata/mirror_walk = false
+
+[sub_resource type="AtlasTexture" id="black_hair_idle_south_0"]
+atlas = ExtResource("black_hair_idle_south")
+region = Rect2(0, 0, 192, 192)
+filter_clip = true
+metadata/mirror_walk = false
+
+[sub_resource type="AtlasTexture" id="black_hair_idle_south_1"]
+atlas = ExtResource("black_hair_idle_south")
+region = Rect2(192, 0, 192, 192)
+filter_clip = true
+metadata/mirror_walk = false
+
+[sub_resource type="AtlasTexture" id="black_hair_idle_south_2"]
+atlas = ExtResource("black_hair_idle_south")
+region = Rect2(384, 0, 192, 192)
+filter_clip = true
+metadata/mirror_walk = false
+
+[sub_resource type="AtlasTexture" id="black_hair_idle_south_3"]
+atlas = ExtResource("black_hair_idle_south")
+region = Rect2(576, 0, 192, 192)
+filter_clip = true
+metadata/mirror_walk = false
+
+[sub_resource type="AtlasTexture" id="black_hair_idle_south_east_0"]
+atlas = ExtResource("black_hair_idle_south_east")
+region = Rect2(0, 0, 192, 192)
+filter_clip = true
+metadata/mirror_walk = false
+
+[sub_resource type="AtlasTexture" id="black_hair_idle_south_east_1"]
+atlas = ExtResource("black_hair_idle_south_east")
+region = Rect2(192, 0, 192, 192)
+filter_clip = true
+metadata/mirror_walk = false
+
+[sub_resource type="AtlasTexture" id="black_hair_idle_south_east_2"]
+atlas = ExtResource("black_hair_idle_south_east")
+region = Rect2(384, 0, 192, 192)
+filter_clip = true
+metadata/mirror_walk = false
+
+[sub_resource type="AtlasTexture" id="black_hair_idle_south_east_3"]
+atlas = ExtResource("black_hair_idle_south_east")
+region = Rect2(576, 0, 192, 192)
+filter_clip = true
+metadata/mirror_walk = false
+
+[sub_resource type="AtlasTexture" id="black_hair_idle_south_west_0"]
+atlas = ExtResource("black_hair_idle_south_west")
+region = Rect2(0, 0, 192, 192)
+filter_clip = true
+metadata/mirror_walk = false
+
+[sub_resource type="AtlasTexture" id="black_hair_idle_south_west_1"]
+atlas = ExtResource("black_hair_idle_south_west")
+region = Rect2(192, 0, 192, 192)
+filter_clip = true
+metadata/mirror_walk = false
+
+[sub_resource type="AtlasTexture" id="black_hair_idle_south_west_2"]
+atlas = ExtResource("black_hair_idle_south_west")
+region = Rect2(384, 0, 192, 192)
+filter_clip = true
+metadata/mirror_walk = false
+
+[sub_resource type="AtlasTexture" id="black_hair_idle_south_west_3"]
+atlas = ExtResource("black_hair_idle_south_west")
+region = Rect2(576, 0, 192, 192)
+filter_clip = true
+metadata/mirror_walk = false
+
+[sub_resource type="AtlasTexture" id="black_hair_idle_west_0"]
+atlas = ExtResource("black_hair_idle_west")
+region = Rect2(0, 0, 192, 192)
+filter_clip = true
+metadata/mirror_walk = false
+
+[sub_resource type="AtlasTexture" id="black_hair_idle_west_1"]
+atlas = ExtResource("black_hair_idle_west")
+region = Rect2(192, 0, 192, 192)
+filter_clip = true
+metadata/mirror_walk = false
+
+[sub_resource type="AtlasTexture" id="black_hair_idle_west_2"]
+atlas = ExtResource("black_hair_idle_west")
+region = Rect2(384, 0, 192, 192)
+filter_clip = true
+metadata/mirror_walk = false
+
+[sub_resource type="AtlasTexture" id="black_hair_idle_west_3"]
+atlas = ExtResource("black_hair_idle_west")
+region = Rect2(576, 0, 192, 192)
+filter_clip = true
+metadata/mirror_walk = false
+
+[sub_resource type="AtlasTexture" id="black_hair_jump_east_0"]
+atlas = ExtResource("black_hair_jump_east")
+region = Rect2(0, 0, 192, 192)
+filter_clip = true
+metadata/preview_registered = true
+metadata/hand_anchor = Vector2(94, 120)
+
+[sub_resource type="AtlasTexture" id="black_hair_jump_east_1"]
+atlas = ExtResource("black_hair_jump_east")
+region = Rect2(192, 0, 192, 192)
+filter_clip = true
+metadata/preview_registered = true
+metadata/hand_anchor = Vector2(80, 121)
+
+[sub_resource type="AtlasTexture" id="black_hair_jump_east_2"]
+atlas = ExtResource("black_hair_jump_east")
+region = Rect2(384, 0, 192, 192)
+filter_clip = true
+metadata/preview_registered = true
+metadata/hand_anchor = Vector2(89, 110)
+
+[sub_resource type="AtlasTexture" id="black_hair_jump_east_3"]
+atlas = ExtResource("black_hair_jump_east")
+region = Rect2(576, 0, 192, 192)
+filter_clip = true
+metadata/preview_registered = true
+metadata/hand_anchor = Vector2(84, 109)
+
+[sub_resource type="AtlasTexture" id="black_hair_jump_east_4"]
+atlas = ExtResource("black_hair_jump_east")
+region = Rect2(768, 0, 192, 192)
+filter_clip = true
+metadata/preview_registered = true
+metadata/hand_anchor = Vector2(88, 117)
+
+[sub_resource type="AtlasTexture" id="black_hair_jump_east_5"]
+atlas = ExtResource("black_hair_jump_east")
+region = Rect2(960, 0, 192, 192)
+filter_clip = true
+metadata/preview_registered = true
+metadata/hand_anchor = Vector2(94, 120)
+
+[sub_resource type="AtlasTexture" id="black_hair_jump_north_0"]
+atlas = ExtResource("black_hair_jump_north")
+region = Rect2(0, 0, 192, 192)
+filter_clip = true
+metadata/preview_registered = true
+metadata/hand_anchor = Vector2(81, 120)
+
+[sub_resource type="AtlasTexture" id="black_hair_jump_north_1"]
+atlas = ExtResource("black_hair_jump_north")
+region = Rect2(192, 0, 192, 192)
+filter_clip = true
+metadata/preview_registered = true
+metadata/hand_anchor = Vector2(111, 124)
+
+[sub_resource type="AtlasTexture" id="black_hair_jump_north_2"]
+atlas = ExtResource("black_hair_jump_north")
+region = Rect2(384, 0, 192, 192)
+filter_clip = true
+metadata/preview_registered = true
+metadata/hand_anchor = Vector2(80, 110)
+
+[sub_resource type="AtlasTexture" id="black_hair_jump_north_3"]
+atlas = ExtResource("black_hair_jump_north")
+region = Rect2(576, 0, 192, 192)
+filter_clip = true
+metadata/preview_registered = true
+metadata/hand_anchor = Vector2(76, 119)
+
+[sub_resource type="AtlasTexture" id="black_hair_jump_north_4"]
+atlas = ExtResource("black_hair_jump_north")
+region = Rect2(768, 0, 192, 192)
+filter_clip = true
+metadata/preview_registered = true
+metadata/hand_anchor = Vector2(109, 121)
+
+[sub_resource type="AtlasTexture" id="black_hair_jump_north_5"]
+atlas = ExtResource("black_hair_jump_north")
+region = Rect2(960, 0, 192, 192)
+filter_clip = true
+metadata/preview_registered = true
+metadata/hand_anchor = Vector2(81, 120)
+
+[sub_resource type="AtlasTexture" id="black_hair_jump_north_east_0"]
+atlas = ExtResource("black_hair_jump_north_east")
+region = Rect2(0, 0, 192, 192)
+filter_clip = true
+metadata/preview_registered = true
+metadata/hand_anchor = Vector2(108, 116)
+
+[sub_resource type="AtlasTexture" id="black_hair_jump_north_east_1"]
+atlas = ExtResource("black_hair_jump_north_east")
+region = Rect2(192, 0, 192, 192)
+filter_clip = true
+metadata/preview_registered = true
+metadata/hand_anchor = Vector2(105, 122)
+
+[sub_resource type="AtlasTexture" id="black_hair_jump_north_east_2"]
+atlas = ExtResource("black_hair_jump_north_east")
+region = Rect2(384, 0, 192, 192)
+filter_clip = true
+metadata/preview_registered = true
+metadata/hand_anchor = Vector2(108, 108)
+
+[sub_resource type="AtlasTexture" id="black_hair_jump_north_east_3"]
+atlas = ExtResource("black_hair_jump_north_east")
+region = Rect2(576, 0, 192, 192)
+filter_clip = true
+metadata/preview_registered = true
+metadata/hand_anchor = Vector2(111, 117)
+
+[sub_resource type="AtlasTexture" id="black_hair_jump_north_east_4"]
+atlas = ExtResource("black_hair_jump_north_east")
+region = Rect2(768, 0, 192, 192)
+filter_clip = true
+metadata/preview_registered = true
+metadata/hand_anchor = Vector2(109, 116)
+
+[sub_resource type="AtlasTexture" id="black_hair_jump_north_east_5"]
+atlas = ExtResource("black_hair_jump_north_east")
+region = Rect2(960, 0, 192, 192)
+filter_clip = true
+metadata/preview_registered = true
+metadata/hand_anchor = Vector2(108, 116)
+
+[sub_resource type="AtlasTexture" id="black_hair_jump_north_west_0"]
+atlas = ExtResource("black_hair_jump_north_west")
+region = Rect2(0, 0, 192, 192)
+filter_clip = true
+metadata/preview_registered = true
+metadata/hand_anchor = Vector2(83, 116)
+
+[sub_resource type="AtlasTexture" id="black_hair_jump_north_west_1"]
+atlas = ExtResource("black_hair_jump_north_west")
+region = Rect2(192, 0, 192, 192)
+filter_clip = true
+metadata/preview_registered = true
+metadata/hand_anchor = Vector2(86, 122)
+
+[sub_resource type="AtlasTexture" id="black_hair_jump_north_west_2"]
+atlas = ExtResource("black_hair_jump_north_west")
+region = Rect2(384, 0, 192, 192)
+filter_clip = true
+metadata/preview_registered = true
+metadata/hand_anchor = Vector2(83, 108)
+
+[sub_resource type="AtlasTexture" id="black_hair_jump_north_west_3"]
+atlas = ExtResource("black_hair_jump_north_west")
+region = Rect2(576, 0, 192, 192)
+filter_clip = true
+metadata/preview_registered = true
+metadata/hand_anchor = Vector2(80, 117)
+
+[sub_resource type="AtlasTexture" id="black_hair_jump_north_west_4"]
+atlas = ExtResource("black_hair_jump_north_west")
+region = Rect2(768, 0, 192, 192)
+filter_clip = true
+metadata/preview_registered = true
+metadata/hand_anchor = Vector2(82, 116)
+
+[sub_resource type="AtlasTexture" id="black_hair_jump_north_west_5"]
+atlas = ExtResource("black_hair_jump_north_west")
+region = Rect2(960, 0, 192, 192)
+filter_clip = true
+metadata/preview_registered = true
+metadata/hand_anchor = Vector2(83, 116)
+
+[sub_resource type="AtlasTexture" id="black_hair_jump_south_0"]
+atlas = ExtResource("black_hair_jump_south")
+region = Rect2(0, 0, 192, 192)
+filter_clip = true
+metadata/preview_registered = true
+metadata/hand_anchor = Vector2(83, 118)
+
+[sub_resource type="AtlasTexture" id="black_hair_jump_south_1"]
+atlas = ExtResource("black_hair_jump_south")
+region = Rect2(192, 0, 192, 192)
+filter_clip = true
+metadata/preview_registered = true
+metadata/hand_anchor = Vector2(81, 123)
+
+[sub_resource type="AtlasTexture" id="black_hair_jump_south_2"]
+atlas = ExtResource("black_hair_jump_south")
+region = Rect2(384, 0, 192, 192)
+filter_clip = true
+metadata/preview_registered = true
+metadata/hand_anchor = Vector2(81, 108)
+
+[sub_resource type="AtlasTexture" id="black_hair_jump_south_3"]
+atlas = ExtResource("black_hair_jump_south")
+region = Rect2(576, 0, 192, 192)
+filter_clip = true
+metadata/preview_registered = true
+metadata/hand_anchor = Vector2(79, 120)
+
+[sub_resource type="AtlasTexture" id="black_hair_jump_south_4"]
+atlas = ExtResource("black_hair_jump_south")
+region = Rect2(768, 0, 192, 192)
+filter_clip = true
+metadata/preview_registered = true
+metadata/hand_anchor = Vector2(83, 120)
+
+[sub_resource type="AtlasTexture" id="black_hair_jump_south_5"]
+atlas = ExtResource("black_hair_jump_south")
+region = Rect2(960, 0, 192, 192)
+filter_clip = true
+metadata/preview_registered = true
+metadata/hand_anchor = Vector2(83, 118)
+
+[sub_resource type="AtlasTexture" id="black_hair_jump_south_east_0"]
+atlas = ExtResource("black_hair_jump_south_east")
+region = Rect2(0, 0, 192, 192)
+filter_clip = true
+metadata/preview_registered = true
+metadata/hand_anchor = Vector2(84, 117)
+
+[sub_resource type="AtlasTexture" id="black_hair_jump_south_east_1"]
+atlas = ExtResource("black_hair_jump_south_east")
+region = Rect2(192, 0, 192, 192)
+filter_clip = true
+metadata/preview_registered = true
+metadata/hand_anchor = Vector2(81, 121)
+
+[sub_resource type="AtlasTexture" id="black_hair_jump_south_east_2"]
+atlas = ExtResource("black_hair_jump_south_east")
+region = Rect2(384, 0, 192, 192)
+filter_clip = true
+metadata/preview_registered = true
+metadata/hand_anchor = Vector2(85, 110)
+
+[sub_resource type="AtlasTexture" id="black_hair_jump_south_east_3"]
+atlas = ExtResource("black_hair_jump_south_east")
+region = Rect2(576, 0, 192, 192)
+filter_clip = true
+metadata/preview_registered = true
+metadata/hand_anchor = Vector2(77, 115)
+
+[sub_resource type="AtlasTexture" id="black_hair_jump_south_east_4"]
+atlas = ExtResource("black_hair_jump_south_east")
+region = Rect2(768, 0, 192, 192)
+filter_clip = true
+metadata/preview_registered = true
+metadata/hand_anchor = Vector2(80, 119)
+
+[sub_resource type="AtlasTexture" id="black_hair_jump_south_east_5"]
+atlas = ExtResource("black_hair_jump_south_east")
+region = Rect2(960, 0, 192, 192)
+filter_clip = true
+metadata/preview_registered = true
+metadata/hand_anchor = Vector2(84, 117)
+
+[sub_resource type="AtlasTexture" id="black_hair_jump_south_west_0"]
+atlas = ExtResource("black_hair_jump_south_west")
+region = Rect2(0, 0, 192, 192)
+filter_clip = true
+metadata/preview_registered = true
+metadata/hand_anchor = Vector2(108, 117)
+
+[sub_resource type="AtlasTexture" id="black_hair_jump_south_west_1"]
+atlas = ExtResource("black_hair_jump_south_west")
+region = Rect2(192, 0, 192, 192)
+filter_clip = true
+metadata/preview_registered = true
+metadata/hand_anchor = Vector2(110, 121)
+
+[sub_resource type="AtlasTexture" id="black_hair_jump_south_west_2"]
+atlas = ExtResource("black_hair_jump_south_west")
+region = Rect2(384, 0, 192, 192)
+filter_clip = true
+metadata/preview_registered = true
+metadata/hand_anchor = Vector2(106, 110)
+
+[sub_resource type="AtlasTexture" id="black_hair_jump_south_west_3"]
+atlas = ExtResource("black_hair_jump_south_west")
+region = Rect2(576, 0, 192, 192)
+filter_clip = true
+metadata/preview_registered = true
+metadata/hand_anchor = Vector2(114, 115)
+
+[sub_resource type="AtlasTexture" id="black_hair_jump_south_west_4"]
+atlas = ExtResource("black_hair_jump_south_west")
+region = Rect2(768, 0, 192, 192)
+filter_clip = true
+metadata/preview_registered = true
+metadata/hand_anchor = Vector2(111, 119)
+
+[sub_resource type="AtlasTexture" id="black_hair_jump_south_west_5"]
+atlas = ExtResource("black_hair_jump_south_west")
+region = Rect2(960, 0, 192, 192)
+filter_clip = true
+metadata/preview_registered = true
+metadata/hand_anchor = Vector2(108, 117)
+
+[sub_resource type="AtlasTexture" id="black_hair_jump_west_0"]
+atlas = ExtResource("black_hair_jump_west")
+region = Rect2(0, 0, 192, 192)
+filter_clip = true
+metadata/preview_registered = true
+metadata/hand_anchor = Vector2(97, 119)
+
+[sub_resource type="AtlasTexture" id="black_hair_jump_west_1"]
+atlas = ExtResource("black_hair_jump_west")
+region = Rect2(192, 0, 192, 192)
+filter_clip = true
+metadata/preview_registered = true
+metadata/hand_anchor = Vector2(111, 121)
+
+[sub_resource type="AtlasTexture" id="black_hair_jump_west_2"]
+atlas = ExtResource("black_hair_jump_west")
+region = Rect2(384, 0, 192, 192)
+filter_clip = true
+metadata/preview_registered = true
+metadata/hand_anchor = Vector2(102, 110)
+
+[sub_resource type="AtlasTexture" id="black_hair_jump_west_3"]
+atlas = ExtResource("black_hair_jump_west")
+region = Rect2(576, 0, 192, 192)
+filter_clip = true
+metadata/preview_registered = true
+metadata/hand_anchor = Vector2(107, 109)
+
+[sub_resource type="AtlasTexture" id="black_hair_jump_west_4"]
+atlas = ExtResource("black_hair_jump_west")
+region = Rect2(768, 0, 192, 192)
+filter_clip = true
+metadata/preview_registered = true
+metadata/hand_anchor = Vector2(103, 117)
+
+[sub_resource type="AtlasTexture" id="black_hair_jump_west_5"]
+atlas = ExtResource("black_hair_jump_west")
+region = Rect2(960, 0, 192, 192)
+filter_clip = true
+metadata/preview_registered = true
+metadata/hand_anchor = Vector2(97, 119)
+
+[sub_resource type="AtlasTexture" id="black_hair_lift_east_0"]
+atlas = ExtResource("black_hair_lift_east")
+region = Rect2(0, 0, 192, 192)
+filter_clip = true
+metadata/preview_registered = true
+metadata/hand_anchor = Vector2(94, 120)
+
+[sub_resource type="AtlasTexture" id="black_hair_lift_east_1"]
+atlas = ExtResource("black_hair_lift_east")
+region = Rect2(192, 0, 192, 192)
+filter_clip = true
+metadata/preview_registered = true
+metadata/hand_anchor = Vector2(107, 124)
+
+[sub_resource type="AtlasTexture" id="black_hair_lift_east_2"]
+atlas = ExtResource("black_hair_lift_east")
+region = Rect2(384, 0, 192, 192)
+filter_clip = true
+metadata/preview_registered = true
+metadata/hand_anchor = Vector2(113, 135)
+
+[sub_resource type="AtlasTexture" id="black_hair_lift_east_3"]
+atlas = ExtResource("black_hair_lift_east")
+region = Rect2(576, 0, 192, 192)
+filter_clip = true
+metadata/preview_registered = true
+metadata/hand_anchor = Vector2(115, 123)
+
+[sub_resource type="AtlasTexture" id="black_hair_lift_east_4"]
+atlas = ExtResource("black_hair_lift_east")
+region = Rect2(768, 0, 192, 192)
+filter_clip = true
+metadata/preview_registered = true
+metadata/hand_anchor = Vector2(113, 116)
+
+[sub_resource type="AtlasTexture" id="black_hair_lift_east_5"]
+atlas = ExtResource("black_hair_lift_east")
+region = Rect2(960, 0, 192, 192)
+filter_clip = true
+metadata/preview_registered = true
+metadata/hand_anchor = Vector2(105, 113)
+
+[sub_resource type="AtlasTexture" id="black_hair_lift_north_0"]
+atlas = ExtResource("black_hair_lift_north")
+region = Rect2(0, 0, 192, 192)
+filter_clip = true
+metadata/preview_registered = true
+metadata/hand_anchor = Vector2(81, 120)
+
+[sub_resource type="AtlasTexture" id="black_hair_lift_north_1"]
+atlas = ExtResource("black_hair_lift_north")
+region = Rect2(192, 0, 192, 192)
+filter_clip = true
+metadata/preview_registered = true
+metadata/hand_anchor = Vector2(111, 123)
+
+[sub_resource type="AtlasTexture" id="black_hair_lift_north_2"]
+atlas = ExtResource("black_hair_lift_north")
+region = Rect2(384, 0, 192, 192)
+filter_clip = true
+metadata/preview_registered = true
+metadata/hand_anchor = Vector2(117, 134)
+
+[sub_resource type="AtlasTexture" id="black_hair_lift_north_3"]
+atlas = ExtResource("black_hair_lift_north")
+region = Rect2(576, 0, 192, 192)
+filter_clip = true
+metadata/preview_registered = true
+metadata/hand_anchor = Vector2(115, 119)
+
+[sub_resource type="AtlasTexture" id="black_hair_lift_north_4"]
+atlas = ExtResource("black_hair_lift_north")
+region = Rect2(768, 0, 192, 192)
+filter_clip = true
+metadata/preview_registered = true
+metadata/hand_anchor = Vector2(111, 114)
+
+[sub_resource type="AtlasTexture" id="black_hair_lift_north_5"]
+atlas = ExtResource("black_hair_lift_north")
+region = Rect2(960, 0, 192, 192)
+filter_clip = true
+metadata/preview_registered = true
+metadata/hand_anchor = Vector2(82, 115)
+
+[sub_resource type="AtlasTexture" id="black_hair_lift_north_east_0"]
+atlas = ExtResource("black_hair_lift_north_east")
+region = Rect2(0, 0, 192, 192)
+filter_clip = true
+metadata/preview_registered = true
+metadata/hand_anchor = Vector2(108, 116)
+
+[sub_resource type="AtlasTexture" id="black_hair_lift_north_east_1"]
+atlas = ExtResource("black_hair_lift_north_east")
+region = Rect2(192, 0, 192, 192)
+filter_clip = true
+metadata/preview_registered = true
+metadata/hand_anchor = Vector2(115, 123)
+
+[sub_resource type="AtlasTexture" id="black_hair_lift_north_east_2"]
+atlas = ExtResource("black_hair_lift_north_east")
+region = Rect2(384, 0, 192, 192)
+filter_clip = true
+metadata/preview_registered = true
+metadata/hand_anchor = Vector2(121, 139)
+
+[sub_resource type="AtlasTexture" id="black_hair_lift_north_east_3"]
+atlas = ExtResource("black_hair_lift_north_east")
+region = Rect2(576, 0, 192, 192)
+filter_clip = true
+metadata/preview_registered = true
+metadata/hand_anchor = Vector2(117, 120)
+
+[sub_resource type="AtlasTexture" id="black_hair_lift_north_east_4"]
+atlas = ExtResource("black_hair_lift_north_east")
+region = Rect2(768, 0, 192, 192)
+filter_clip = true
+metadata/preview_registered = true
+metadata/hand_anchor = Vector2(117, 114)
+
+[sub_resource type="AtlasTexture" id="black_hair_lift_north_east_5"]
+atlas = ExtResource("black_hair_lift_north_east")
+region = Rect2(960, 0, 192, 192)
+filter_clip = true
+metadata/preview_registered = true
+metadata/hand_anchor = Vector2(113, 113)
+
+[sub_resource type="AtlasTexture" id="black_hair_lift_north_west_0"]
+atlas = ExtResource("black_hair_lift_north_west")
+region = Rect2(0, 0, 192, 192)
+filter_clip = true
+metadata/preview_registered = true
+metadata/hand_anchor = Vector2(83, 116)
+
+[sub_resource type="AtlasTexture" id="black_hair_lift_north_west_1"]
+atlas = ExtResource("black_hair_lift_north_west")
+region = Rect2(192, 0, 192, 192)
+filter_clip = true
+metadata/preview_registered = true
+metadata/hand_anchor = Vector2(76, 123)
+
+[sub_resource type="AtlasTexture" id="black_hair_lift_north_west_2"]
+atlas = ExtResource("black_hair_lift_north_west")
+region = Rect2(384, 0, 192, 192)
+filter_clip = true
+metadata/preview_registered = true
+metadata/hand_anchor = Vector2(70, 139)
+
+[sub_resource type="AtlasTexture" id="black_hair_lift_north_west_3"]
+atlas = ExtResource("black_hair_lift_north_west")
+region = Rect2(576, 0, 192, 192)
+filter_clip = true
+metadata/preview_registered = true
+metadata/hand_anchor = Vector2(74, 120)
+
+[sub_resource type="AtlasTexture" id="black_hair_lift_north_west_4"]
+atlas = ExtResource("black_hair_lift_north_west")
+region = Rect2(768, 0, 192, 192)
+filter_clip = true
+metadata/preview_registered = true
+metadata/hand_anchor = Vector2(74, 114)
+
+[sub_resource type="AtlasTexture" id="black_hair_lift_north_west_5"]
+atlas = ExtResource("black_hair_lift_north_west")
+region = Rect2(960, 0, 192, 192)
+filter_clip = true
+metadata/preview_registered = true
+metadata/hand_anchor = Vector2(78, 113)
+
+[sub_resource type="AtlasTexture" id="black_hair_lift_south_0"]
+atlas = ExtResource("black_hair_lift_south")
+region = Rect2(0, 0, 192, 192)
+filter_clip = true
+metadata/preview_registered = true
+metadata/hand_anchor = Vector2(83, 118)
+
+[sub_resource type="AtlasTexture" id="black_hair_lift_south_1"]
+atlas = ExtResource("black_hair_lift_south")
+region = Rect2(192, 0, 192, 192)
+filter_clip = true
+metadata/preview_registered = true
+metadata/hand_anchor = Vector2(89, 124)
+
+[sub_resource type="AtlasTexture" id="black_hair_lift_south_2"]
+atlas = ExtResource("black_hair_lift_south")
+region = Rect2(384, 0, 192, 192)
+filter_clip = true
+metadata/preview_registered = true
+metadata/hand_anchor = Vector2(103, 139)
+
+[sub_resource type="AtlasTexture" id="black_hair_lift_south_3"]
+atlas = ExtResource("black_hair_lift_south")
+region = Rect2(576, 0, 192, 192)
+filter_clip = true
+metadata/preview_registered = true
+metadata/hand_anchor = Vector2(98, 120)
+
+[sub_resource type="AtlasTexture" id="black_hair_lift_south_4"]
+atlas = ExtResource("black_hair_lift_south")
+region = Rect2(768, 0, 192, 192)
+filter_clip = true
+metadata/preview_registered = true
+metadata/hand_anchor = Vector2(97, 115)
+
+[sub_resource type="AtlasTexture" id="black_hair_lift_south_5"]
+atlas = ExtResource("black_hair_lift_south")
+region = Rect2(960, 0, 192, 192)
+filter_clip = true
+metadata/preview_registered = true
+metadata/hand_anchor = Vector2(96, 114)
+
+[sub_resource type="AtlasTexture" id="black_hair_lift_south_east_0"]
+atlas = ExtResource("black_hair_lift_south_east")
+region = Rect2(0, 0, 192, 192)
+filter_clip = true
+metadata/preview_registered = true
+metadata/hand_anchor = Vector2(84, 117)
+
+[sub_resource type="AtlasTexture" id="black_hair_lift_south_east_1"]
+atlas = ExtResource("black_hair_lift_south_east")
+region = Rect2(192, 0, 192, 192)
+filter_clip = true
+metadata/preview_registered = true
+metadata/hand_anchor = Vector2(102, 124)
+
+[sub_resource type="AtlasTexture" id="black_hair_lift_south_east_2"]
+atlas = ExtResource("black_hair_lift_south_east")
+region = Rect2(384, 0, 192, 192)
+filter_clip = true
+metadata/preview_registered = true
+metadata/hand_anchor = Vector2(110, 137)
+
+[sub_resource type="AtlasTexture" id="black_hair_lift_south_east_3"]
+atlas = ExtResource("black_hair_lift_south_east")
+region = Rect2(576, 0, 192, 192)
+filter_clip = true
+metadata/preview_registered = true
+metadata/hand_anchor = Vector2(110, 121)
+
+[sub_resource type="AtlasTexture" id="black_hair_lift_south_east_4"]
+atlas = ExtResource("black_hair_lift_south_east")
+region = Rect2(768, 0, 192, 192)
+filter_clip = true
+metadata/preview_registered = true
+metadata/hand_anchor = Vector2(106, 117)
+
+[sub_resource type="AtlasTexture" id="black_hair_lift_south_east_5"]
+atlas = ExtResource("black_hair_lift_south_east")
+region = Rect2(960, 0, 192, 192)
+filter_clip = true
+metadata/preview_registered = true
+metadata/hand_anchor = Vector2(99, 114)
+
+[sub_resource type="AtlasTexture" id="black_hair_lift_south_west_0"]
+atlas = ExtResource("black_hair_lift_south_west")
+region = Rect2(0, 0, 192, 192)
+filter_clip = true
+metadata/preview_registered = true
+metadata/hand_anchor = Vector2(108, 117)
+
+[sub_resource type="AtlasTexture" id="black_hair_lift_south_west_1"]
+atlas = ExtResource("black_hair_lift_south_west")
+region = Rect2(192, 0, 192, 192)
+filter_clip = true
+metadata/preview_registered = true
+metadata/hand_anchor = Vector2(89, 124)
+
+[sub_resource type="AtlasTexture" id="black_hair_lift_south_west_2"]
+atlas = ExtResource("black_hair_lift_south_west")
+region = Rect2(384, 0, 192, 192)
+filter_clip = true
+metadata/preview_registered = true
+metadata/hand_anchor = Vector2(81, 137)
+
+[sub_resource type="AtlasTexture" id="black_hair_lift_south_west_3"]
+atlas = ExtResource("black_hair_lift_south_west")
+region = Rect2(576, 0, 192, 192)
+filter_clip = true
+metadata/preview_registered = true
+metadata/hand_anchor = Vector2(81, 121)
+
+[sub_resource type="AtlasTexture" id="black_hair_lift_south_west_4"]
+atlas = ExtResource("black_hair_lift_south_west")
+region = Rect2(768, 0, 192, 192)
+filter_clip = true
+metadata/preview_registered = true
+metadata/hand_anchor = Vector2(85, 117)
+
+[sub_resource type="AtlasTexture" id="black_hair_lift_south_west_5"]
+atlas = ExtResource("black_hair_lift_south_west")
+region = Rect2(960, 0, 192, 192)
+filter_clip = true
+metadata/preview_registered = true
+metadata/hand_anchor = Vector2(92, 114)
+
+[sub_resource type="AtlasTexture" id="black_hair_lift_west_0"]
+atlas = ExtResource("black_hair_lift_west")
+region = Rect2(0, 0, 192, 192)
+filter_clip = true
+metadata/preview_registered = true
+metadata/hand_anchor = Vector2(97, 119)
+
+[sub_resource type="AtlasTexture" id="black_hair_lift_west_1"]
+atlas = ExtResource("black_hair_lift_west")
+region = Rect2(192, 0, 192, 192)
+filter_clip = true
+metadata/preview_registered = true
+metadata/hand_anchor = Vector2(84, 124)
+
+[sub_resource type="AtlasTexture" id="black_hair_lift_west_2"]
+atlas = ExtResource("black_hair_lift_west")
+region = Rect2(384, 0, 192, 192)
+filter_clip = true
+metadata/preview_registered = true
+metadata/hand_anchor = Vector2(78, 135)
+
+[sub_resource type="AtlasTexture" id="black_hair_lift_west_3"]
+atlas = ExtResource("black_hair_lift_west")
+region = Rect2(576, 0, 192, 192)
+filter_clip = true
+metadata/preview_registered = true
+metadata/hand_anchor = Vector2(76, 123)
+
+[sub_resource type="AtlasTexture" id="black_hair_lift_west_4"]
+atlas = ExtResource("black_hair_lift_west")
+region = Rect2(768, 0, 192, 192)
+filter_clip = true
+metadata/preview_registered = true
+metadata/hand_anchor = Vector2(78, 116)
+
+[sub_resource type="AtlasTexture" id="black_hair_lift_west_5"]
+atlas = ExtResource("black_hair_lift_west")
+region = Rect2(960, 0, 192, 192)
+filter_clip = true
+metadata/preview_registered = true
+metadata/hand_anchor = Vector2(86, 113)
+
+[sub_resource type="AtlasTexture" id="black_hair_operate_east_0"]
+atlas = ExtResource("black_hair_operate_east")
+region = Rect2(0, 0, 192, 192)
+filter_clip = true
+metadata/preview_registered = true
+metadata/hand_anchor = Vector2(109, 114)
+
+[sub_resource type="AtlasTexture" id="black_hair_operate_east_1"]
+atlas = ExtResource("black_hair_operate_east")
+region = Rect2(192, 0, 192, 192)
+filter_clip = true
+metadata/preview_registered = true
+metadata/hand_anchor = Vector2(112, 113)
+
+[sub_resource type="AtlasTexture" id="black_hair_operate_east_2"]
+atlas = ExtResource("black_hair_operate_east")
+region = Rect2(384, 0, 192, 192)
+filter_clip = true
+metadata/preview_registered = true
+metadata/hand_anchor = Vector2(115, 106)
+
+[sub_resource type="AtlasTexture" id="black_hair_operate_east_3"]
+atlas = ExtResource("black_hair_operate_east")
+region = Rect2(576, 0, 192, 192)
+filter_clip = true
+metadata/preview_registered = true
+metadata/hand_anchor = Vector2(113, 108)
+
+[sub_resource type="AtlasTexture" id="black_hair_operate_east_4"]
+atlas = ExtResource("black_hair_operate_east")
+region = Rect2(768, 0, 192, 192)
+filter_clip = true
+metadata/preview_registered = true
+metadata/hand_anchor = Vector2(102, 112)
+
+[sub_resource type="AtlasTexture" id="black_hair_operate_east_5"]
+atlas = ExtResource("black_hair_operate_east")
+region = Rect2(960, 0, 192, 192)
+filter_clip = true
+metadata/preview_registered = true
+metadata/hand_anchor = Vector2(109, 114)
+
+[sub_resource type="AtlasTexture" id="black_hair_operate_north_0"]
+atlas = ExtResource("black_hair_operate_north")
+region = Rect2(0, 0, 192, 192)
+filter_clip = true
+metadata/preview_registered = true
+metadata/hand_anchor = Vector2(111, 112)
+
+[sub_resource type="AtlasTexture" id="black_hair_operate_north_1"]
+atlas = ExtResource("black_hair_operate_north")
+region = Rect2(192, 0, 192, 192)
+filter_clip = true
+metadata/preview_registered = true
+metadata/hand_anchor = Vector2(114, 108)
+
+[sub_resource type="AtlasTexture" id="black_hair_operate_north_2"]
+atlas = ExtResource("black_hair_operate_north")
+region = Rect2(384, 0, 192, 192)
+filter_clip = true
+metadata/preview_registered = true
+metadata/hand_anchor = Vector2(116, 106)
+
+[sub_resource type="AtlasTexture" id="black_hair_operate_north_3"]
+atlas = ExtResource("black_hair_operate_north")
+region = Rect2(576, 0, 192, 192)
+filter_clip = true
+metadata/preview_registered = true
+metadata/hand_anchor = Vector2(112, 110)
+
+[sub_resource type="AtlasTexture" id="black_hair_operate_north_4"]
+atlas = ExtResource("black_hair_operate_north")
+region = Rect2(768, 0, 192, 192)
+filter_clip = true
+metadata/preview_registered = true
+metadata/hand_anchor = Vector2(111, 111)
+
+[sub_resource type="AtlasTexture" id="black_hair_operate_north_5"]
+atlas = ExtResource("black_hair_operate_north")
+region = Rect2(960, 0, 192, 192)
+filter_clip = true
+metadata/preview_registered = true
+metadata/hand_anchor = Vector2(108, 113)
+
+[sub_resource type="AtlasTexture" id="black_hair_operate_north_east_0"]
+atlas = ExtResource("black_hair_operate_north_east")
+region = Rect2(0, 0, 192, 192)
+filter_clip = true
+metadata/preview_registered = true
+metadata/hand_anchor = Vector2(113, 111)
+
+[sub_resource type="AtlasTexture" id="black_hair_operate_north_east_1"]
+atlas = ExtResource("black_hair_operate_north_east")
+region = Rect2(192, 0, 192, 192)
+filter_clip = true
+metadata/preview_registered = true
+metadata/hand_anchor = Vector2(119, 107)
+
+[sub_resource type="AtlasTexture" id="black_hair_operate_north_east_2"]
+atlas = ExtResource("black_hair_operate_north_east")
+region = Rect2(384, 0, 192, 192)
+filter_clip = true
+metadata/preview_registered = true
+metadata/hand_anchor = Vector2(121, 106)
+
+[sub_resource type="AtlasTexture" id="black_hair_operate_north_east_3"]
+atlas = ExtResource("black_hair_operate_north_east")
+region = Rect2(576, 0, 192, 192)
+filter_clip = true
+metadata/preview_registered = true
+metadata/hand_anchor = Vector2(116, 107)
+
+[sub_resource type="AtlasTexture" id="black_hair_operate_north_east_4"]
+atlas = ExtResource("black_hair_operate_north_east")
+region = Rect2(768, 0, 192, 192)
+filter_clip = true
+metadata/preview_registered = true
+metadata/hand_anchor = Vector2(110, 109)
+
+[sub_resource type="AtlasTexture" id="black_hair_operate_north_east_5"]
+atlas = ExtResource("black_hair_operate_north_east")
+region = Rect2(960, 0, 192, 192)
+filter_clip = true
+metadata/preview_registered = true
+metadata/hand_anchor = Vector2(112, 111)
+
+[sub_resource type="AtlasTexture" id="black_hair_operate_north_west_0"]
+atlas = ExtResource("black_hair_operate_north_west")
+region = Rect2(0, 0, 192, 192)
+filter_clip = true
+metadata/preview_registered = true
+metadata/hand_anchor = Vector2(78, 111)
+
+[sub_resource type="AtlasTexture" id="black_hair_operate_north_west_1"]
+atlas = ExtResource("black_hair_operate_north_west")
+region = Rect2(192, 0, 192, 192)
+filter_clip = true
+metadata/preview_registered = true
+metadata/hand_anchor = Vector2(72, 107)
+
+[sub_resource type="AtlasTexture" id="black_hair_operate_north_west_2"]
+atlas = ExtResource("black_hair_operate_north_west")
+region = Rect2(384, 0, 192, 192)
+filter_clip = true
+metadata/preview_registered = true
+metadata/hand_anchor = Vector2(70, 106)
+
+[sub_resource type="AtlasTexture" id="black_hair_operate_north_west_3"]
+atlas = ExtResource("black_hair_operate_north_west")
+region = Rect2(576, 0, 192, 192)
+filter_clip = true
+metadata/preview_registered = true
+metadata/hand_anchor = Vector2(76, 107)
+
+[sub_resource type="AtlasTexture" id="black_hair_operate_north_west_4"]
+atlas = ExtResource("black_hair_operate_north_west")
+region = Rect2(768, 0, 192, 192)
+filter_clip = true
+metadata/preview_registered = true
+metadata/hand_anchor = Vector2(81, 109)
+
+[sub_resource type="AtlasTexture" id="black_hair_operate_north_west_5"]
+atlas = ExtResource("black_hair_operate_north_west")
+region = Rect2(960, 0, 192, 192)
+filter_clip = true
+metadata/preview_registered = true
+metadata/hand_anchor = Vector2(79, 111)
+
+[sub_resource type="AtlasTexture" id="black_hair_operate_south_0"]
+atlas = ExtResource("black_hair_operate_south")
+region = Rect2(0, 0, 192, 192)
+filter_clip = true
+metadata/preview_registered = true
+metadata/hand_anchor = Vector2(85, 114)
+
+[sub_resource type="AtlasTexture" id="black_hair_operate_south_1"]
+atlas = ExtResource("black_hair_operate_south")
+region = Rect2(192, 0, 192, 192)
+filter_clip = true
+metadata/preview_registered = true
+metadata/hand_anchor = Vector2(86, 110)
+
+[sub_resource type="AtlasTexture" id="black_hair_operate_south_2"]
+atlas = ExtResource("black_hair_operate_south")
+region = Rect2(384, 0, 192, 192)
+filter_clip = true
+metadata/preview_registered = true
+metadata/hand_anchor = Vector2(88, 107)
+
+[sub_resource type="AtlasTexture" id="black_hair_operate_south_3"]
+atlas = ExtResource("black_hair_operate_south")
+region = Rect2(576, 0, 192, 192)
+filter_clip = true
+metadata/preview_registered = true
+metadata/hand_anchor = Vector2(88, 107)
+
+[sub_resource type="AtlasTexture" id="black_hair_operate_south_4"]
+atlas = ExtResource("black_hair_operate_south")
+region = Rect2(768, 0, 192, 192)
+filter_clip = true
+metadata/preview_registered = true
+metadata/hand_anchor = Vector2(84, 112)
+
+[sub_resource type="AtlasTexture" id="black_hair_operate_south_5"]
+atlas = ExtResource("black_hair_operate_south")
+region = Rect2(960, 0, 192, 192)
+filter_clip = true
+metadata/preview_registered = true
+metadata/hand_anchor = Vector2(84, 114)
+
+[sub_resource type="AtlasTexture" id="black_hair_operate_south_east_0"]
+atlas = ExtResource("black_hair_operate_south_east")
+region = Rect2(0, 0, 192, 192)
+filter_clip = true
+metadata/preview_registered = true
+metadata/hand_anchor = Vector2(90, 114)
+
+[sub_resource type="AtlasTexture" id="black_hair_operate_south_east_1"]
+atlas = ExtResource("black_hair_operate_south_east")
+region = Rect2(192, 0, 192, 192)
+filter_clip = true
+metadata/preview_registered = true
+metadata/hand_anchor = Vector2(100, 111)
+
+[sub_resource type="AtlasTexture" id="black_hair_operate_south_east_2"]
+atlas = ExtResource("black_hair_operate_south_east")
+region = Rect2(384, 0, 192, 192)
+filter_clip = true
+metadata/preview_registered = true
+metadata/hand_anchor = Vector2(105, 108)
+
+[sub_resource type="AtlasTexture" id="black_hair_operate_south_east_3"]
+atlas = ExtResource("black_hair_operate_south_east")
+region = Rect2(576, 0, 192, 192)
+filter_clip = true
+metadata/preview_registered = true
+metadata/hand_anchor = Vector2(98, 110)
+
+[sub_resource type="AtlasTexture" id="black_hair_operate_south_east_4"]
+atlas = ExtResource("black_hair_operate_south_east")
+region = Rect2(768, 0, 192, 192)
+filter_clip = true
+metadata/preview_registered = true
+metadata/hand_anchor = Vector2(86, 112)
+
+[sub_resource type="AtlasTexture" id="black_hair_operate_south_east_5"]
+atlas = ExtResource("black_hair_operate_south_east")
+region = Rect2(960, 0, 192, 192)
+filter_clip = true
+metadata/preview_registered = true
+metadata/hand_anchor = Vector2(91, 113)
+
+[sub_resource type="AtlasTexture" id="black_hair_operate_south_west_0"]
+atlas = ExtResource("black_hair_operate_south_west")
+region = Rect2(0, 0, 192, 192)
+filter_clip = true
+metadata/preview_registered = true
+metadata/hand_anchor = Vector2(101, 114)
+
+[sub_resource type="AtlasTexture" id="black_hair_operate_south_west_1"]
+atlas = ExtResource("black_hair_operate_south_west")
+region = Rect2(192, 0, 192, 192)
+filter_clip = true
+metadata/preview_registered = true
+metadata/hand_anchor = Vector2(91, 111)
+
+[sub_resource type="AtlasTexture" id="black_hair_operate_south_west_2"]
+atlas = ExtResource("black_hair_operate_south_west")
+region = Rect2(384, 0, 192, 192)
+filter_clip = true
+metadata/preview_registered = true
+metadata/hand_anchor = Vector2(86, 108)
+
+[sub_resource type="AtlasTexture" id="black_hair_operate_south_west_3"]
+atlas = ExtResource("black_hair_operate_south_west")
+region = Rect2(576, 0, 192, 192)
+filter_clip = true
+metadata/preview_registered = true
+metadata/hand_anchor = Vector2(93, 110)
+
+[sub_resource type="AtlasTexture" id="black_hair_operate_south_west_4"]
+atlas = ExtResource("black_hair_operate_south_west")
+region = Rect2(768, 0, 192, 192)
+filter_clip = true
+metadata/preview_registered = true
+metadata/hand_anchor = Vector2(105, 112)
+
+[sub_resource type="AtlasTexture" id="black_hair_operate_south_west_5"]
+atlas = ExtResource("black_hair_operate_south_west")
+region = Rect2(960, 0, 192, 192)
+filter_clip = true
+metadata/preview_registered = true
+metadata/hand_anchor = Vector2(100, 113)
+
+[sub_resource type="AtlasTexture" id="black_hair_operate_west_0"]
+atlas = ExtResource("black_hair_operate_west")
+region = Rect2(0, 0, 192, 192)
+filter_clip = true
+metadata/preview_registered = true
+metadata/hand_anchor = Vector2(82, 114)
+
+[sub_resource type="AtlasTexture" id="black_hair_operate_west_1"]
+atlas = ExtResource("black_hair_operate_west")
+region = Rect2(192, 0, 192, 192)
+filter_clip = true
+metadata/preview_registered = true
+metadata/hand_anchor = Vector2(79, 113)
+
+[sub_resource type="AtlasTexture" id="black_hair_operate_west_2"]
+atlas = ExtResource("black_hair_operate_west")
+region = Rect2(384, 0, 192, 192)
+filter_clip = true
+metadata/preview_registered = true
+metadata/hand_anchor = Vector2(76, 106)
+
+[sub_resource type="AtlasTexture" id="black_hair_operate_west_3"]
+atlas = ExtResource("black_hair_operate_west")
+region = Rect2(576, 0, 192, 192)
+filter_clip = true
+metadata/preview_registered = true
+metadata/hand_anchor = Vector2(78, 108)
+
+[sub_resource type="AtlasTexture" id="black_hair_operate_west_4"]
+atlas = ExtResource("black_hair_operate_west")
+region = Rect2(768, 0, 192, 192)
+filter_clip = true
+metadata/preview_registered = true
+metadata/hand_anchor = Vector2(89, 112)
+
+[sub_resource type="AtlasTexture" id="black_hair_operate_west_5"]
+atlas = ExtResource("black_hair_operate_west")
+region = Rect2(960, 0, 192, 192)
+filter_clip = true
+metadata/preview_registered = true
+metadata/hand_anchor = Vector2(82, 114)
+
+[sub_resource type="AtlasTexture" id="black_hair_place_east_0"]
+atlas = ExtResource("black_hair_place_east")
+region = Rect2(0, 0, 192, 192)
+filter_clip = true
+metadata/preview_registered = true
+metadata/hand_anchor = Vector2(105, 113)
+
+[sub_resource type="AtlasTexture" id="black_hair_place_east_1"]
+atlas = ExtResource("black_hair_place_east")
+region = Rect2(192, 0, 192, 192)
+filter_clip = true
+metadata/preview_registered = true
+metadata/hand_anchor = Vector2(111, 122)
+
+[sub_resource type="AtlasTexture" id="black_hair_place_east_2"]
+atlas = ExtResource("black_hair_place_east")
+region = Rect2(384, 0, 192, 192)
+filter_clip = true
+metadata/preview_registered = true
+metadata/hand_anchor = Vector2(114, 127)
+
+[sub_resource type="AtlasTexture" id="black_hair_place_east_3"]
+atlas = ExtResource("black_hair_place_east")
+region = Rect2(576, 0, 192, 192)
+filter_clip = true
+metadata/preview_registered = true
+metadata/hand_anchor = Vector2(117, 141)
+
+[sub_resource type="AtlasTexture" id="black_hair_place_east_4"]
+atlas = ExtResource("black_hair_place_east")
+region = Rect2(768, 0, 192, 192)
+filter_clip = true
+metadata/preview_registered = true
+metadata/hand_anchor = Vector2(115, 129)
+
+[sub_resource type="AtlasTexture" id="black_hair_place_east_5"]
+atlas = ExtResource("black_hair_place_east")
+region = Rect2(960, 0, 192, 192)
+filter_clip = true
+metadata/preview_registered = true
+metadata/hand_anchor = Vector2(94, 120)
+
+[sub_resource type="AtlasTexture" id="black_hair_place_north_0"]
+atlas = ExtResource("black_hair_place_north")
+region = Rect2(0, 0, 192, 192)
+filter_clip = true
+metadata/preview_registered = true
+metadata/hand_anchor = Vector2(82, 115)
+
+[sub_resource type="AtlasTexture" id="black_hair_place_north_1"]
+atlas = ExtResource("black_hair_place_north")
+region = Rect2(192, 0, 192, 192)
+filter_clip = true
+metadata/preview_registered = true
+metadata/hand_anchor = Vector2(111, 119)
+
+[sub_resource type="AtlasTexture" id="black_hair_place_north_2"]
+atlas = ExtResource("black_hair_place_north")
+region = Rect2(384, 0, 192, 192)
+filter_clip = true
+metadata/preview_registered = true
+metadata/hand_anchor = Vector2(113, 128)
+
+[sub_resource type="AtlasTexture" id="black_hair_place_north_3"]
+atlas = ExtResource("black_hair_place_north")
+region = Rect2(576, 0, 192, 192)
+filter_clip = true
+metadata/preview_registered = true
+metadata/hand_anchor = Vector2(108, 135)
+
+[sub_resource type="AtlasTexture" id="black_hair_place_north_4"]
+atlas = ExtResource("black_hair_place_north")
+region = Rect2(768, 0, 192, 192)
+filter_clip = true
+metadata/preview_registered = true
+metadata/hand_anchor = Vector2(112, 123)
+
+[sub_resource type="AtlasTexture" id="black_hair_place_north_5"]
+atlas = ExtResource("black_hair_place_north")
+region = Rect2(960, 0, 192, 192)
+filter_clip = true
+metadata/preview_registered = true
+metadata/hand_anchor = Vector2(81, 120)
+
+[sub_resource type="AtlasTexture" id="black_hair_place_north_east_0"]
+atlas = ExtResource("black_hair_place_north_east")
+region = Rect2(0, 0, 192, 192)
+filter_clip = true
+metadata/preview_registered = true
+metadata/hand_anchor = Vector2(113, 113)
+
+[sub_resource type="AtlasTexture" id="black_hair_place_north_east_1"]
+atlas = ExtResource("black_hair_place_north_east")
+region = Rect2(192, 0, 192, 192)
+filter_clip = true
+metadata/preview_registered = true
+metadata/hand_anchor = Vector2(115, 121)
+
+[sub_resource type="AtlasTexture" id="black_hair_place_north_east_2"]
+atlas = ExtResource("black_hair_place_north_east")
+region = Rect2(384, 0, 192, 192)
+filter_clip = true
+metadata/preview_registered = true
+metadata/hand_anchor = Vector2(118, 128)
+
+[sub_resource type="AtlasTexture" id="black_hair_place_north_east_3"]
+atlas = ExtResource("black_hair_place_north_east")
+region = Rect2(576, 0, 192, 192)
+filter_clip = true
+metadata/preview_registered = true
+metadata/hand_anchor = Vector2(117, 143)
+
+[sub_resource type="AtlasTexture" id="black_hair_place_north_east_4"]
+atlas = ExtResource("black_hair_place_north_east")
+region = Rect2(768, 0, 192, 192)
+filter_clip = true
+metadata/preview_registered = true
+metadata/hand_anchor = Vector2(117, 126)
+
+[sub_resource type="AtlasTexture" id="black_hair_place_north_east_5"]
+atlas = ExtResource("black_hair_place_north_east")
+region = Rect2(960, 0, 192, 192)
+filter_clip = true
+metadata/preview_registered = true
+metadata/hand_anchor = Vector2(108, 116)
+
+[sub_resource type="AtlasTexture" id="black_hair_place_north_west_0"]
+atlas = ExtResource("black_hair_place_north_west")
+region = Rect2(0, 0, 192, 192)
+filter_clip = true
+metadata/preview_registered = true
+metadata/hand_anchor = Vector2(78, 113)
+
+[sub_resource type="AtlasTexture" id="black_hair_place_north_west_1"]
+atlas = ExtResource("black_hair_place_north_west")
+region = Rect2(192, 0, 192, 192)
+filter_clip = true
+metadata/preview_registered = true
+metadata/hand_anchor = Vector2(76, 121)
+
+[sub_resource type="AtlasTexture" id="black_hair_place_north_west_2"]
+atlas = ExtResource("black_hair_place_north_west")
+region = Rect2(384, 0, 192, 192)
+filter_clip = true
+metadata/preview_registered = true
+metadata/hand_anchor = Vector2(73, 128)
+
+[sub_resource type="AtlasTexture" id="black_hair_place_north_west_3"]
+atlas = ExtResource("black_hair_place_north_west")
+region = Rect2(576, 0, 192, 192)
+filter_clip = true
+metadata/preview_registered = true
+metadata/hand_anchor = Vector2(74, 143)
+
+[sub_resource type="AtlasTexture" id="black_hair_place_north_west_4"]
+atlas = ExtResource("black_hair_place_north_west")
+region = Rect2(768, 0, 192, 192)
+filter_clip = true
+metadata/preview_registered = true
+metadata/hand_anchor = Vector2(74, 126)
+
+[sub_resource type="AtlasTexture" id="black_hair_place_north_west_5"]
+atlas = ExtResource("black_hair_place_north_west")
+region = Rect2(960, 0, 192, 192)
+filter_clip = true
+metadata/preview_registered = true
+metadata/hand_anchor = Vector2(83, 116)
+
+[sub_resource type="AtlasTexture" id="black_hair_place_south_0"]
+atlas = ExtResource("black_hair_place_south")
+region = Rect2(0, 0, 192, 192)
+filter_clip = true
+metadata/preview_registered = true
+metadata/hand_anchor = Vector2(96, 114)
+
+[sub_resource type="AtlasTexture" id="black_hair_place_south_1"]
+atlas = ExtResource("black_hair_place_south")
+region = Rect2(192, 0, 192, 192)
+filter_clip = true
+metadata/preview_registered = true
+metadata/hand_anchor = Vector2(92, 123)
+
+[sub_resource type="AtlasTexture" id="black_hair_place_south_2"]
+atlas = ExtResource("black_hair_place_south")
+region = Rect2(384, 0, 192, 192)
+filter_clip = true
+metadata/preview_registered = true
+metadata/hand_anchor = Vector2(106, 131)
+
+[sub_resource type="AtlasTexture" id="black_hair_place_south_3"]
+atlas = ExtResource("black_hair_place_south")
+region = Rect2(576, 0, 192, 192)
+filter_clip = true
+metadata/preview_registered = true
+metadata/hand_anchor = Vector2(101, 144)
+
+[sub_resource type="AtlasTexture" id="black_hair_place_south_4"]
+atlas = ExtResource("black_hair_place_south")
+region = Rect2(768, 0, 192, 192)
+filter_clip = true
+metadata/preview_registered = true
+metadata/hand_anchor = Vector2(90, 125)
+
+[sub_resource type="AtlasTexture" id="black_hair_place_south_5"]
+atlas = ExtResource("black_hair_place_south")
+region = Rect2(960, 0, 192, 192)
+filter_clip = true
+metadata/preview_registered = true
+metadata/hand_anchor = Vector2(83, 118)
+
+[sub_resource type="AtlasTexture" id="black_hair_place_south_east_0"]
+atlas = ExtResource("black_hair_place_south_east")
+region = Rect2(0, 0, 192, 192)
+filter_clip = true
+metadata/preview_registered = true
+metadata/hand_anchor = Vector2(99, 114)
+
+[sub_resource type="AtlasTexture" id="black_hair_place_south_east_1"]
+atlas = ExtResource("black_hair_place_south_east")
+region = Rect2(192, 0, 192, 192)
+filter_clip = true
+metadata/preview_registered = true
+metadata/hand_anchor = Vector2(103, 123)
+
+[sub_resource type="AtlasTexture" id="black_hair_place_south_east_2"]
+atlas = ExtResource("black_hair_place_south_east")
+region = Rect2(384, 0, 192, 192)
+filter_clip = true
+metadata/preview_registered = true
+metadata/hand_anchor = Vector2(107, 130)
+
+[sub_resource type="AtlasTexture" id="black_hair_place_south_east_3"]
+atlas = ExtResource("black_hair_place_south_east")
+region = Rect2(576, 0, 192, 192)
+filter_clip = true
+metadata/preview_registered = true
+metadata/hand_anchor = Vector2(105, 144)
+
+[sub_resource type="AtlasTexture" id="black_hair_place_south_east_4"]
+atlas = ExtResource("black_hair_place_south_east")
+region = Rect2(768, 0, 192, 192)
+filter_clip = true
+metadata/preview_registered = true
+metadata/hand_anchor = Vector2(99, 128)
+
+[sub_resource type="AtlasTexture" id="black_hair_place_south_east_5"]
+atlas = ExtResource("black_hair_place_south_east")
+region = Rect2(960, 0, 192, 192)
+filter_clip = true
+metadata/preview_registered = true
+metadata/hand_anchor = Vector2(84, 117)
+
+[sub_resource type="AtlasTexture" id="black_hair_place_south_west_0"]
+atlas = ExtResource("black_hair_place_south_west")
+region = Rect2(0, 0, 192, 192)
+filter_clip = true
+metadata/preview_registered = true
+metadata/hand_anchor = Vector2(92, 114)
+
+[sub_resource type="AtlasTexture" id="black_hair_place_south_west_1"]
+atlas = ExtResource("black_hair_place_south_west")
+region = Rect2(192, 0, 192, 192)
+filter_clip = true
+metadata/preview_registered = true
+metadata/hand_anchor = Vector2(88, 123)
+
+[sub_resource type="AtlasTexture" id="black_hair_place_south_west_2"]
+atlas = ExtResource("black_hair_place_south_west")
+region = Rect2(384, 0, 192, 192)
+filter_clip = true
+metadata/preview_registered = true
+metadata/hand_anchor = Vector2(84, 130)
+
+[sub_resource type="AtlasTexture" id="black_hair_place_south_west_3"]
+atlas = ExtResource("black_hair_place_south_west")
+region = Rect2(576, 0, 192, 192)
+filter_clip = true
+metadata/preview_registered = true
+metadata/hand_anchor = Vector2(86, 144)
+
+[sub_resource type="AtlasTexture" id="black_hair_place_south_west_4"]
+atlas = ExtResource("black_hair_place_south_west")
+region = Rect2(768, 0, 192, 192)
+filter_clip = true
+metadata/preview_registered = true
+metadata/hand_anchor = Vector2(92, 128)
+
+[sub_resource type="AtlasTexture" id="black_hair_place_south_west_5"]
+atlas = ExtResource("black_hair_place_south_west")
+region = Rect2(960, 0, 192, 192)
+filter_clip = true
+metadata/preview_registered = true
+metadata/hand_anchor = Vector2(108, 117)
+
+[sub_resource type="AtlasTexture" id="black_hair_place_west_0"]
+atlas = ExtResource("black_hair_place_west")
+region = Rect2(0, 0, 192, 192)
+filter_clip = true
+metadata/preview_registered = true
+metadata/hand_anchor = Vector2(86, 113)
+
+[sub_resource type="AtlasTexture" id="black_hair_place_west_1"]
+atlas = ExtResource("black_hair_place_west")
+region = Rect2(192, 0, 192, 192)
+filter_clip = true
+metadata/preview_registered = true
+metadata/hand_anchor = Vector2(80, 122)
+
+[sub_resource type="AtlasTexture" id="black_hair_place_west_2"]
+atlas = ExtResource("black_hair_place_west")
+region = Rect2(384, 0, 192, 192)
+filter_clip = true
+metadata/preview_registered = true
+metadata/hand_anchor = Vector2(77, 127)
+
+[sub_resource type="AtlasTexture" id="black_hair_place_west_3"]
+atlas = ExtResource("black_hair_place_west")
+region = Rect2(576, 0, 192, 192)
+filter_clip = true
+metadata/preview_registered = true
+metadata/hand_anchor = Vector2(74, 141)
+
+[sub_resource type="AtlasTexture" id="black_hair_place_west_4"]
+atlas = ExtResource("black_hair_place_west")
+region = Rect2(768, 0, 192, 192)
+filter_clip = true
+metadata/preview_registered = true
+metadata/hand_anchor = Vector2(76, 129)
+
+[sub_resource type="AtlasTexture" id="black_hair_place_west_5"]
+atlas = ExtResource("black_hair_place_west")
+region = Rect2(960, 0, 192, 192)
+filter_clip = true
+metadata/preview_registered = true
+metadata/hand_anchor = Vector2(97, 119)
+
+[sub_resource type="AtlasTexture" id="black_hair_run_east_0"]
+atlas = ExtResource("black_hair_run_east")
+region = Rect2(0, 0, 192, 192)
+filter_clip = true
+metadata/preview_registered = true
+metadata/hand_anchor = Vector2(108, 107)
+
+[sub_resource type="AtlasTexture" id="black_hair_run_east_1"]
+atlas = ExtResource("black_hair_run_east")
+region = Rect2(192, 0, 192, 192)
+filter_clip = true
+metadata/preview_registered = true
+metadata/hand_anchor = Vector2(82, 112)
+
+[sub_resource type="AtlasTexture" id="black_hair_run_east_2"]
+atlas = ExtResource("black_hair_run_east")
+region = Rect2(384, 0, 192, 192)
+filter_clip = true
+metadata/preview_registered = true
+metadata/hand_anchor = Vector2(101, 112)
+
+[sub_resource type="AtlasTexture" id="black_hair_run_east_3"]
+atlas = ExtResource("black_hair_run_east")
+region = Rect2(576, 0, 192, 192)
+filter_clip = true
+metadata/preview_registered = true
+metadata/hand_anchor = Vector2(103, 107)
+
+[sub_resource type="AtlasTexture" id="black_hair_run_east_4"]
+atlas = ExtResource("black_hair_run_east")
+region = Rect2(768, 0, 192, 192)
+filter_clip = true
+metadata/preview_registered = true
+metadata/hand_anchor = Vector2(88, 111)
+
+[sub_resource type="AtlasTexture" id="black_hair_run_east_5"]
+atlas = ExtResource("black_hair_run_east")
+region = Rect2(960, 0, 192, 192)
+filter_clip = true
+metadata/preview_registered = true
+metadata/hand_anchor = Vector2(88, 114)
+
+[sub_resource type="AtlasTexture" id="black_hair_run_east_6"]
+atlas = ExtResource("black_hair_run_east")
+region = Rect2(1152, 0, 192, 192)
+filter_clip = true
+metadata/preview_registered = true
+metadata/hand_anchor = Vector2(110, 102)
+
+[sub_resource type="AtlasTexture" id="black_hair_run_east_7"]
+atlas = ExtResource("black_hair_run_east")
+region = Rect2(1344, 0, 192, 192)
+filter_clip = true
+metadata/preview_registered = true
+metadata/hand_anchor = Vector2(112, 108)
+
+[sub_resource type="AtlasTexture" id="black_hair_run_north_0"]
+atlas = ExtResource("black_hair_run_north")
+region = Rect2(0, 0, 192, 192)
+filter_clip = true
+metadata/preview_registered = true
+metadata/hand_anchor = Vector2(108, 116)
+
+[sub_resource type="AtlasTexture" id="black_hair_run_north_1"]
+atlas = ExtResource("black_hair_run_north")
+region = Rect2(192, 0, 192, 192)
+filter_clip = true
+metadata/preview_registered = true
+metadata/hand_anchor = Vector2(108, 112)
+
+[sub_resource type="AtlasTexture" id="black_hair_run_north_2"]
+atlas = ExtResource("black_hair_run_north")
+region = Rect2(384, 0, 192, 192)
+filter_clip = true
+metadata/preview_registered = true
+metadata/hand_anchor = Vector2(110, 111)
+
+[sub_resource type="AtlasTexture" id="black_hair_run_north_3"]
+atlas = ExtResource("black_hair_run_north")
+region = Rect2(576, 0, 192, 192)
+filter_clip = true
+metadata/preview_registered = true
+metadata/hand_anchor = Vector2(111, 113)
+
+[sub_resource type="AtlasTexture" id="black_hair_run_north_4"]
+atlas = ExtResource("black_hair_run_north")
+region = Rect2(768, 0, 192, 192)
+filter_clip = true
+metadata/preview_registered = true
+metadata/hand_anchor = Vector2(108, 114)
+
+[sub_resource type="AtlasTexture" id="black_hair_run_north_5"]
+atlas = ExtResource("black_hair_run_north")
+region = Rect2(960, 0, 192, 192)
+filter_clip = true
+metadata/preview_registered = true
+metadata/hand_anchor = Vector2(108, 117)
+
+[sub_resource type="AtlasTexture" id="black_hair_run_north_6"]
+atlas = ExtResource("black_hair_run_north")
+region = Rect2(1152, 0, 192, 192)
+filter_clip = true
+metadata/preview_registered = true
+metadata/hand_anchor = Vector2(109, 117)
+
+[sub_resource type="AtlasTexture" id="black_hair_run_north_7"]
+atlas = ExtResource("black_hair_run_north")
+region = Rect2(1344, 0, 192, 192)
+filter_clip = true
+metadata/preview_registered = true
+metadata/hand_anchor = Vector2(110, 110)
+
+[sub_resource type="AtlasTexture" id="black_hair_run_north_east_0"]
+atlas = ExtResource("black_hair_run_north_east")
+region = Rect2(0, 0, 192, 192)
+filter_clip = true
+metadata/preview_registered = true
+metadata/hand_anchor = Vector2(109, 109)
+
+[sub_resource type="AtlasTexture" id="black_hair_run_north_east_1"]
+atlas = ExtResource("black_hair_run_north_east")
+region = Rect2(192, 0, 192, 192)
+filter_clip = true
+metadata/preview_registered = true
+metadata/hand_anchor = Vector2(106, 113)
+
+[sub_resource type="AtlasTexture" id="black_hair_run_north_east_2"]
+atlas = ExtResource("black_hair_run_north_east")
+region = Rect2(384, 0, 192, 192)
+filter_clip = true
+metadata/preview_registered = true
+metadata/hand_anchor = Vector2(104, 107)
+
+[sub_resource type="AtlasTexture" id="black_hair_run_north_east_3"]
+atlas = ExtResource("black_hair_run_north_east")
+region = Rect2(576, 0, 192, 192)
+filter_clip = true
+metadata/preview_registered = true
+metadata/hand_anchor = Vector2(109, 114)
+
+[sub_resource type="AtlasTexture" id="black_hair_run_north_east_4"]
+atlas = ExtResource("black_hair_run_north_east")
+region = Rect2(768, 0, 192, 192)
+filter_clip = true
+metadata/preview_registered = true
+metadata/hand_anchor = Vector2(112, 107)
+
+[sub_resource type="AtlasTexture" id="black_hair_run_north_east_5"]
+atlas = ExtResource("black_hair_run_north_east")
+region = Rect2(960, 0, 192, 192)
+filter_clip = true
+metadata/preview_registered = true
+metadata/hand_anchor = Vector2(104, 115)
+
+[sub_resource type="AtlasTexture" id="black_hair_run_north_east_6"]
+atlas = ExtResource("black_hair_run_north_east")
+region = Rect2(1152, 0, 192, 192)
+filter_clip = true
+metadata/preview_registered = true
+metadata/hand_anchor = Vector2(109, 104)
+
+[sub_resource type="AtlasTexture" id="black_hair_run_north_east_7"]
+atlas = ExtResource("black_hair_run_north_east")
+region = Rect2(1344, 0, 192, 192)
+filter_clip = true
+metadata/preview_registered = true
+metadata/hand_anchor = Vector2(111, 114)
+
+[sub_resource type="AtlasTexture" id="black_hair_run_north_west_0"]
+atlas = ExtResource("black_hair_run_north_west")
+region = Rect2(0, 0, 192, 192)
+filter_clip = true
+metadata/preview_registered = true
+metadata/hand_anchor = Vector2(82, 109)
+
+[sub_resource type="AtlasTexture" id="black_hair_run_north_west_1"]
+atlas = ExtResource("black_hair_run_north_west")
+region = Rect2(192, 0, 192, 192)
+filter_clip = true
+metadata/preview_registered = true
+metadata/hand_anchor = Vector2(85, 113)
+
+[sub_resource type="AtlasTexture" id="black_hair_run_north_west_2"]
+atlas = ExtResource("black_hair_run_north_west")
+region = Rect2(384, 0, 192, 192)
+filter_clip = true
+metadata/preview_registered = true
+metadata/hand_anchor = Vector2(87, 107)
+
+[sub_resource type="AtlasTexture" id="black_hair_run_north_west_3"]
+atlas = ExtResource("black_hair_run_north_west")
+region = Rect2(576, 0, 192, 192)
+filter_clip = true
+metadata/preview_registered = true
+metadata/hand_anchor = Vector2(82, 114)
+
+[sub_resource type="AtlasTexture" id="black_hair_run_north_west_4"]
+atlas = ExtResource("black_hair_run_north_west")
+region = Rect2(768, 0, 192, 192)
+filter_clip = true
+metadata/preview_registered = true
+metadata/hand_anchor = Vector2(79, 107)
+
+[sub_resource type="AtlasTexture" id="black_hair_run_north_west_5"]
+atlas = ExtResource("black_hair_run_north_west")
+region = Rect2(960, 0, 192, 192)
+filter_clip = true
+metadata/preview_registered = true
+metadata/hand_anchor = Vector2(87, 115)
+
+[sub_resource type="AtlasTexture" id="black_hair_run_north_west_6"]
+atlas = ExtResource("black_hair_run_north_west")
+region = Rect2(1152, 0, 192, 192)
+filter_clip = true
+metadata/preview_registered = true
+metadata/hand_anchor = Vector2(82, 104)
+
+[sub_resource type="AtlasTexture" id="black_hair_run_north_west_7"]
+atlas = ExtResource("black_hair_run_north_west")
+region = Rect2(1344, 0, 192, 192)
+filter_clip = true
+metadata/preview_registered = true
+metadata/hand_anchor = Vector2(80, 114)
+
+[sub_resource type="AtlasTexture" id="black_hair_run_south_0"]
+atlas = ExtResource("black_hair_run_south")
+region = Rect2(0, 0, 192, 192)
+filter_clip = true
+metadata/preview_registered = true
+metadata/hand_anchor = Vector2(95, 110)
+
+[sub_resource type="AtlasTexture" id="black_hair_run_south_1"]
+atlas = ExtResource("black_hair_run_south")
+region = Rect2(192, 0, 192, 192)
+filter_clip = true
+metadata/preview_registered = true
+metadata/hand_anchor = Vector2(83, 113)
+
+[sub_resource type="AtlasTexture" id="black_hair_run_south_2"]
+atlas = ExtResource("black_hair_run_south")
+region = Rect2(384, 0, 192, 192)
+filter_clip = true
+metadata/preview_registered = true
+metadata/hand_anchor = Vector2(99, 105)
+
+[sub_resource type="AtlasTexture" id="black_hair_run_south_3"]
+atlas = ExtResource("black_hair_run_south")
+region = Rect2(576, 0, 192, 192)
+filter_clip = true
+metadata/preview_registered = true
+metadata/hand_anchor = Vector2(97, 105)
+
+[sub_resource type="AtlasTexture" id="black_hair_run_south_4"]
+atlas = ExtResource("black_hair_run_south")
+region = Rect2(768, 0, 192, 192)
+filter_clip = true
+metadata/preview_registered = true
+metadata/hand_anchor = Vector2(110, 111)
+
+[sub_resource type="AtlasTexture" id="black_hair_run_south_5"]
+atlas = ExtResource("black_hair_run_south")
+region = Rect2(960, 0, 192, 192)
+filter_clip = true
+metadata/preview_registered = true
+metadata/hand_anchor = Vector2(110, 116)
+
+[sub_resource type="AtlasTexture" id="black_hair_run_south_6"]
+atlas = ExtResource("black_hair_run_south")
+region = Rect2(1152, 0, 192, 192)
+filter_clip = true
+metadata/preview_registered = true
+metadata/hand_anchor = Vector2(84, 118)
+
+[sub_resource type="AtlasTexture" id="black_hair_run_south_7"]
+atlas = ExtResource("black_hair_run_south")
+region = Rect2(1344, 0, 192, 192)
+filter_clip = true
+metadata/preview_registered = true
+metadata/hand_anchor = Vector2(110, 111)
+
+[sub_resource type="AtlasTexture" id="black_hair_run_south_east_0"]
+atlas = ExtResource("black_hair_run_south_east")
+region = Rect2(0, 0, 192, 192)
+filter_clip = true
+metadata/preview_registered = true
+metadata/hand_anchor = Vector2(83, 110)
+
+[sub_resource type="AtlasTexture" id="black_hair_run_south_east_1"]
+atlas = ExtResource("black_hair_run_south_east")
+region = Rect2(192, 0, 192, 192)
+filter_clip = true
+metadata/preview_registered = true
+metadata/hand_anchor = Vector2(81, 114)
+
+[sub_resource type="AtlasTexture" id="black_hair_run_south_east_2"]
+atlas = ExtResource("black_hair_run_south_east")
+region = Rect2(384, 0, 192, 192)
+filter_clip = true
+metadata/preview_registered = true
+metadata/hand_anchor = Vector2(107, 109)
+
+[sub_resource type="AtlasTexture" id="black_hair_run_south_east_3"]
+atlas = ExtResource("black_hair_run_south_east")
+region = Rect2(576, 0, 192, 192)
+filter_clip = true
+metadata/preview_registered = true
+metadata/hand_anchor = Vector2(113, 113)
+
+[sub_resource type="AtlasTexture" id="black_hair_run_south_east_4"]
+atlas = ExtResource("black_hair_run_south_east")
+region = Rect2(768, 0, 192, 192)
+filter_clip = true
+metadata/preview_registered = true
+metadata/hand_anchor = Vector2(84, 111)
+
+[sub_resource type="AtlasTexture" id="black_hair_run_south_east_5"]
+atlas = ExtResource("black_hair_run_south_east")
+region = Rect2(960, 0, 192, 192)
+filter_clip = true
+metadata/preview_registered = true
+metadata/hand_anchor = Vector2(86, 116)
+
+[sub_resource type="AtlasTexture" id="black_hair_run_south_east_6"]
+atlas = ExtResource("black_hair_run_south_east")
+region = Rect2(1152, 0, 192, 192)
+filter_clip = true
+metadata/preview_registered = true
+metadata/hand_anchor = Vector2(110, 108)
+
+[sub_resource type="AtlasTexture" id="black_hair_run_south_east_7"]
+atlas = ExtResource("black_hair_run_south_east")
+region = Rect2(1344, 0, 192, 192)
+filter_clip = true
+metadata/preview_registered = true
+metadata/hand_anchor = Vector2(111, 111)
+
+[sub_resource type="AtlasTexture" id="black_hair_run_south_west_0"]
+atlas = ExtResource("black_hair_run_south_west")
+region = Rect2(0, 0, 192, 192)
+filter_clip = true
+metadata/preview_registered = true
+metadata/hand_anchor = Vector2(108, 110)
+
+[sub_resource type="AtlasTexture" id="black_hair_run_south_west_1"]
+atlas = ExtResource("black_hair_run_south_west")
+region = Rect2(192, 0, 192, 192)
+filter_clip = true
+metadata/preview_registered = true
+metadata/hand_anchor = Vector2(110, 114)
+
+[sub_resource type="AtlasTexture" id="black_hair_run_south_west_2"]
+atlas = ExtResource("black_hair_run_south_west")
+region = Rect2(384, 0, 192, 192)
+filter_clip = true
+metadata/preview_registered = true
+metadata/hand_anchor = Vector2(84, 109)
+
+[sub_resource type="AtlasTexture" id="black_hair_run_south_west_3"]
+atlas = ExtResource("black_hair_run_south_west")
+region = Rect2(576, 0, 192, 192)
+filter_clip = true
+metadata/preview_registered = true
+metadata/hand_anchor = Vector2(78, 113)
+
+[sub_resource type="AtlasTexture" id="black_hair_run_south_west_4"]
+atlas = ExtResource("black_hair_run_south_west")
+region = Rect2(768, 0, 192, 192)
+filter_clip = true
+metadata/preview_registered = true
+metadata/hand_anchor = Vector2(107, 111)
+
+[sub_resource type="AtlasTexture" id="black_hair_run_south_west_5"]
+atlas = ExtResource("black_hair_run_south_west")
+region = Rect2(960, 0, 192, 192)
+filter_clip = true
+metadata/preview_registered = true
+metadata/hand_anchor = Vector2(105, 116)
+
+[sub_resource type="AtlasTexture" id="black_hair_run_south_west_6"]
+atlas = ExtResource("black_hair_run_south_west")
+region = Rect2(1152, 0, 192, 192)
+filter_clip = true
+metadata/preview_registered = true
+metadata/hand_anchor = Vector2(81, 108)
+
+[sub_resource type="AtlasTexture" id="black_hair_run_south_west_7"]
+atlas = ExtResource("black_hair_run_south_west")
+region = Rect2(1344, 0, 192, 192)
+filter_clip = true
+metadata/preview_registered = true
+metadata/hand_anchor = Vector2(80, 111)
+
+[sub_resource type="AtlasTexture" id="black_hair_run_west_0"]
+atlas = ExtResource("black_hair_run_west")
+region = Rect2(0, 0, 192, 192)
+filter_clip = true
+metadata/preview_registered = true
+metadata/hand_anchor = Vector2(83, 107)
+
+[sub_resource type="AtlasTexture" id="black_hair_run_west_1"]
+atlas = ExtResource("black_hair_run_west")
+region = Rect2(192, 0, 192, 192)
+filter_clip = true
+metadata/preview_registered = true
+metadata/hand_anchor = Vector2(109, 112)
+
+[sub_resource type="AtlasTexture" id="black_hair_run_west_2"]
+atlas = ExtResource("black_hair_run_west")
+region = Rect2(384, 0, 192, 192)
+filter_clip = true
+metadata/preview_registered = true
+metadata/hand_anchor = Vector2(90, 112)
+
+[sub_resource type="AtlasTexture" id="black_hair_run_west_3"]
+atlas = ExtResource("black_hair_run_west")
+region = Rect2(576, 0, 192, 192)
+filter_clip = true
+metadata/preview_registered = true
+metadata/hand_anchor = Vector2(88, 107)
+
+[sub_resource type="AtlasTexture" id="black_hair_run_west_4"]
+atlas = ExtResource("black_hair_run_west")
+region = Rect2(768, 0, 192, 192)
+filter_clip = true
+metadata/preview_registered = true
+metadata/hand_anchor = Vector2(103, 111)
+
+[sub_resource type="AtlasTexture" id="black_hair_run_west_5"]
+atlas = ExtResource("black_hair_run_west")
+region = Rect2(960, 0, 192, 192)
+filter_clip = true
+metadata/preview_registered = true
+metadata/hand_anchor = Vector2(103, 114)
+
+[sub_resource type="AtlasTexture" id="black_hair_run_west_6"]
+atlas = ExtResource("black_hair_run_west")
+region = Rect2(1152, 0, 192, 192)
+filter_clip = true
+metadata/preview_registered = true
+metadata/hand_anchor = Vector2(81, 102)
+
+[sub_resource type="AtlasTexture" id="black_hair_run_west_7"]
+atlas = ExtResource("black_hair_run_west")
+region = Rect2(1344, 0, 192, 192)
+filter_clip = true
+metadata/preview_registered = true
+metadata/hand_anchor = Vector2(79, 108)
+
+[sub_resource type="AtlasTexture" id="black_hair_touch_east_0"]
+atlas = ExtResource("black_hair_touch_east")
+region = Rect2(0, 0, 192, 192)
+filter_clip = true
+metadata/preview_registered = true
+metadata/hand_anchor = Vector2(94, 120)
+
+[sub_resource type="AtlasTexture" id="black_hair_touch_east_1"]
+atlas = ExtResource("black_hair_touch_east")
+region = Rect2(192, 0, 192, 192)
+filter_clip = true
+metadata/preview_registered = true
+metadata/hand_anchor = Vector2(108, 116)
+
+[sub_resource type="AtlasTexture" id="black_hair_touch_east_2"]
+atlas = ExtResource("black_hair_touch_east")
+region = Rect2(384, 0, 192, 192)
+filter_clip = true
+metadata/preview_registered = true
+metadata/hand_anchor = Vector2(115, 109)
+
+[sub_resource type="AtlasTexture" id="black_hair_touch_east_3"]
+atlas = ExtResource("black_hair_touch_east")
+region = Rect2(576, 0, 192, 192)
+filter_clip = true
+metadata/preview_registered = true
+metadata/hand_anchor = Vector2(121, 104)
+
+[sub_resource type="AtlasTexture" id="black_hair_touch_east_4"]
+atlas = ExtResource("black_hair_touch_east")
+region = Rect2(768, 0, 192, 192)
+filter_clip = true
+metadata/preview_registered = true
+metadata/hand_anchor = Vector2(113, 111)
+
+[sub_resource type="AtlasTexture" id="black_hair_touch_east_5"]
+atlas = ExtResource("black_hair_touch_east")
+region = Rect2(960, 0, 192, 192)
+filter_clip = true
+metadata/preview_registered = true
+metadata/hand_anchor = Vector2(94, 120)
+
+[sub_resource type="AtlasTexture" id="black_hair_touch_north_0"]
+atlas = ExtResource("black_hair_touch_north")
+region = Rect2(0, 0, 192, 192)
+filter_clip = true
+metadata/preview_registered = true
+metadata/hand_anchor = Vector2(81, 120)
+
+[sub_resource type="AtlasTexture" id="black_hair_touch_north_1"]
+atlas = ExtResource("black_hair_touch_north")
+region = Rect2(192, 0, 192, 192)
+filter_clip = true
+metadata/preview_registered = true
+metadata/hand_anchor = Vector2(80, 114)
+
+[sub_resource type="AtlasTexture" id="black_hair_touch_north_2"]
+atlas = ExtResource("black_hair_touch_north")
+region = Rect2(384, 0, 192, 192)
+filter_clip = true
+metadata/preview_registered = true
+metadata/hand_anchor = Vector2(79, 115)
+
+[sub_resource type="AtlasTexture" id="black_hair_touch_north_3"]
+atlas = ExtResource("black_hair_touch_north")
+region = Rect2(576, 0, 192, 192)
+filter_clip = true
+metadata/preview_registered = true
+metadata/hand_anchor = Vector2(79, 115)
+
+[sub_resource type="AtlasTexture" id="black_hair_touch_north_4"]
+atlas = ExtResource("black_hair_touch_north")
+region = Rect2(768, 0, 192, 192)
+filter_clip = true
+metadata/preview_registered = true
+metadata/hand_anchor = Vector2(80, 113)
+
+[sub_resource type="AtlasTexture" id="black_hair_touch_north_5"]
+atlas = ExtResource("black_hair_touch_north")
+region = Rect2(960, 0, 192, 192)
+filter_clip = true
+metadata/preview_registered = true
+metadata/hand_anchor = Vector2(81, 120)
+
+[sub_resource type="AtlasTexture" id="black_hair_touch_north_east_0"]
+atlas = ExtResource("black_hair_touch_north_east")
+region = Rect2(0, 0, 192, 192)
+filter_clip = true
+metadata/preview_registered = true
+metadata/hand_anchor = Vector2(108, 116)
+
+[sub_resource type="AtlasTexture" id="black_hair_touch_north_east_1"]
+atlas = ExtResource("black_hair_touch_north_east")
+region = Rect2(192, 0, 192, 192)
+filter_clip = true
+metadata/preview_registered = true
+metadata/hand_anchor = Vector2(110, 113)
+
+[sub_resource type="AtlasTexture" id="black_hair_touch_north_east_2"]
+atlas = ExtResource("black_hair_touch_north_east")
+region = Rect2(384, 0, 192, 192)
+filter_clip = true
+metadata/preview_registered = true
+metadata/hand_anchor = Vector2(115, 109)
+
+[sub_resource type="AtlasTexture" id="black_hair_touch_north_east_3"]
+atlas = ExtResource("black_hair_touch_north_east")
+region = Rect2(576, 0, 192, 192)
+filter_clip = true
+metadata/preview_registered = true
+metadata/hand_anchor = Vector2(114, 106)
+
+[sub_resource type="AtlasTexture" id="black_hair_touch_north_east_4"]
+atlas = ExtResource("black_hair_touch_north_east")
+region = Rect2(768, 0, 192, 192)
+filter_clip = true
+metadata/preview_registered = true
+metadata/hand_anchor = Vector2(113, 110)
+
+[sub_resource type="AtlasTexture" id="black_hair_touch_north_east_5"]
+atlas = ExtResource("black_hair_touch_north_east")
+region = Rect2(960, 0, 192, 192)
+filter_clip = true
+metadata/preview_registered = true
+metadata/hand_anchor = Vector2(108, 116)
+
+[sub_resource type="AtlasTexture" id="black_hair_touch_north_west_0"]
+atlas = ExtResource("black_hair_touch_north_west")
+region = Rect2(0, 0, 192, 192)
+filter_clip = true
+metadata/preview_registered = true
+metadata/hand_anchor = Vector2(83, 116)
+
+[sub_resource type="AtlasTexture" id="black_hair_touch_north_west_1"]
+atlas = ExtResource("black_hair_touch_north_west")
+region = Rect2(192, 0, 192, 192)
+filter_clip = true
+metadata/preview_registered = true
+metadata/hand_anchor = Vector2(80, 113)
+
+[sub_resource type="AtlasTexture" id="black_hair_touch_north_west_2"]
+atlas = ExtResource("black_hair_touch_north_west")
+region = Rect2(384, 0, 192, 192)
+filter_clip = true
+metadata/preview_registered = true
+metadata/hand_anchor = Vector2(76, 109)
+
+[sub_resource type="AtlasTexture" id="black_hair_touch_north_west_3"]
+atlas = ExtResource("black_hair_touch_north_west")
+region = Rect2(576, 0, 192, 192)
+filter_clip = true
+metadata/preview_registered = true
+metadata/hand_anchor = Vector2(78, 106)
+
+[sub_resource type="AtlasTexture" id="black_hair_touch_north_west_4"]
+atlas = ExtResource("black_hair_touch_north_west")
+region = Rect2(768, 0, 192, 192)
+filter_clip = true
+metadata/preview_registered = true
+metadata/hand_anchor = Vector2(78, 110)
+
+[sub_resource type="AtlasTexture" id="black_hair_touch_north_west_5"]
+atlas = ExtResource("black_hair_touch_north_west")
+region = Rect2(960, 0, 192, 192)
+filter_clip = true
+metadata/preview_registered = true
+metadata/hand_anchor = Vector2(83, 116)
+
+[sub_resource type="AtlasTexture" id="black_hair_touch_south_0"]
+atlas = ExtResource("black_hair_touch_south")
+region = Rect2(0, 0, 192, 192)
+filter_clip = true
+metadata/preview_registered = true
+metadata/hand_anchor = Vector2(83, 118)
+
+[sub_resource type="AtlasTexture" id="black_hair_touch_south_1"]
+atlas = ExtResource("black_hair_touch_south")
+region = Rect2(192, 0, 192, 192)
+filter_clip = true
+metadata/preview_registered = true
+metadata/hand_anchor = Vector2(82, 115)
+
+[sub_resource type="AtlasTexture" id="black_hair_touch_south_2"]
+atlas = ExtResource("black_hair_touch_south")
+region = Rect2(384, 0, 192, 192)
+filter_clip = true
+metadata/preview_registered = true
+metadata/hand_anchor = Vector2(83, 111)
+
+[sub_resource type="AtlasTexture" id="black_hair_touch_south_3"]
+atlas = ExtResource("black_hair_touch_south")
+region = Rect2(576, 0, 192, 192)
+filter_clip = true
+metadata/preview_registered = true
+metadata/hand_anchor = Vector2(109, 110)
+
+[sub_resource type="AtlasTexture" id="black_hair_touch_south_4"]
+atlas = ExtResource("black_hair_touch_south")
+region = Rect2(768, 0, 192, 192)
+filter_clip = true
+metadata/preview_registered = true
+metadata/hand_anchor = Vector2(81, 114)
+
+[sub_resource type="AtlasTexture" id="black_hair_touch_south_5"]
+atlas = ExtResource("black_hair_touch_south")
+region = Rect2(960, 0, 192, 192)
+filter_clip = true
+metadata/preview_registered = true
+metadata/hand_anchor = Vector2(83, 118)
+
+[sub_resource type="AtlasTexture" id="black_hair_touch_south_east_0"]
+atlas = ExtResource("black_hair_touch_south_east")
+region = Rect2(0, 0, 192, 192)
+filter_clip = true
+metadata/preview_registered = true
+metadata/hand_anchor = Vector2(84, 117)
+
+[sub_resource type="AtlasTexture" id="black_hair_touch_south_east_1"]
+atlas = ExtResource("black_hair_touch_south_east")
+region = Rect2(192, 0, 192, 192)
+filter_clip = true
+metadata/preview_registered = true
+metadata/hand_anchor = Vector2(86, 115)
+
+[sub_resource type="AtlasTexture" id="black_hair_touch_south_east_2"]
+atlas = ExtResource("black_hair_touch_south_east")
+region = Rect2(384, 0, 192, 192)
+filter_clip = true
+metadata/preview_registered = true
+metadata/hand_anchor = Vector2(108, 108)
+
+[sub_resource type="AtlasTexture" id="black_hair_touch_south_east_3"]
+atlas = ExtResource("black_hair_touch_south_east")
+region = Rect2(576, 0, 192, 192)
+filter_clip = true
+metadata/preview_registered = true
+metadata/hand_anchor = Vector2(116, 106)
+
+[sub_resource type="AtlasTexture" id="black_hair_touch_south_east_4"]
+atlas = ExtResource("black_hair_touch_south_east")
+region = Rect2(768, 0, 192, 192)
+filter_clip = true
+metadata/preview_registered = true
+metadata/hand_anchor = Vector2(97, 115)
+
+[sub_resource type="AtlasTexture" id="black_hair_touch_south_east_5"]
+atlas = ExtResource("black_hair_touch_south_east")
+region = Rect2(960, 0, 192, 192)
+filter_clip = true
+metadata/preview_registered = true
+metadata/hand_anchor = Vector2(84, 117)
+
+[sub_resource type="AtlasTexture" id="black_hair_touch_south_west_0"]
+atlas = ExtResource("black_hair_touch_south_west")
+region = Rect2(0, 0, 192, 192)
+filter_clip = true
+metadata/preview_registered = true
+metadata/hand_anchor = Vector2(108, 117)
+
+[sub_resource type="AtlasTexture" id="black_hair_touch_south_west_1"]
+atlas = ExtResource("black_hair_touch_south_west")
+region = Rect2(192, 0, 192, 192)
+filter_clip = true
+metadata/preview_registered = true
+metadata/hand_anchor = Vector2(105, 115)
+
+[sub_resource type="AtlasTexture" id="black_hair_touch_south_west_2"]
+atlas = ExtResource("black_hair_touch_south_west")
+region = Rect2(384, 0, 192, 192)
+filter_clip = true
+metadata/preview_registered = true
+metadata/hand_anchor = Vector2(83, 108)
+
+[sub_resource type="AtlasTexture" id="black_hair_touch_south_west_3"]
+atlas = ExtResource("black_hair_touch_south_west")
+region = Rect2(576, 0, 192, 192)
+filter_clip = true
+metadata/preview_registered = true
+metadata/hand_anchor = Vector2(75, 106)
+
+[sub_resource type="AtlasTexture" id="black_hair_touch_south_west_4"]
+atlas = ExtResource("black_hair_touch_south_west")
+region = Rect2(768, 0, 192, 192)
+filter_clip = true
+metadata/preview_registered = true
+metadata/hand_anchor = Vector2(94, 115)
+
+[sub_resource type="AtlasTexture" id="black_hair_touch_south_west_5"]
+atlas = ExtResource("black_hair_touch_south_west")
+region = Rect2(960, 0, 192, 192)
+filter_clip = true
+metadata/preview_registered = true
+metadata/hand_anchor = Vector2(108, 117)
+
+[sub_resource type="AtlasTexture" id="black_hair_touch_west_0"]
+atlas = ExtResource("black_hair_touch_west")
+region = Rect2(0, 0, 192, 192)
+filter_clip = true
+metadata/preview_registered = true
+metadata/hand_anchor = Vector2(97, 119)
+
+[sub_resource type="AtlasTexture" id="black_hair_touch_west_1"]
+atlas = ExtResource("black_hair_touch_west")
+region = Rect2(192, 0, 192, 192)
+filter_clip = true
+metadata/preview_registered = true
+metadata/hand_anchor = Vector2(83, 116)
+
+[sub_resource type="AtlasTexture" id="black_hair_touch_west_2"]
+atlas = ExtResource("black_hair_touch_west")
+region = Rect2(384, 0, 192, 192)
+filter_clip = true
+metadata/preview_registered = true
+metadata/hand_anchor = Vector2(76, 109)
+
+[sub_resource type="AtlasTexture" id="black_hair_touch_west_3"]
+atlas = ExtResource("black_hair_touch_west")
+region = Rect2(576, 0, 192, 192)
+filter_clip = true
+metadata/preview_registered = true
+metadata/hand_anchor = Vector2(70, 104)
+
+[sub_resource type="AtlasTexture" id="black_hair_touch_west_4"]
+atlas = ExtResource("black_hair_touch_west")
+region = Rect2(768, 0, 192, 192)
+filter_clip = true
+metadata/preview_registered = true
+metadata/hand_anchor = Vector2(78, 111)
+
+[sub_resource type="AtlasTexture" id="black_hair_touch_west_5"]
+atlas = ExtResource("black_hair_touch_west")
+region = Rect2(960, 0, 192, 192)
+filter_clip = true
+metadata/preview_registered = true
+metadata/hand_anchor = Vector2(97, 119)
+
+[sub_resource type="AtlasTexture" id="black_hair_walk_east_0"]
+atlas = ExtResource("black_hair_walk_east")
+region = Rect2(0, 0, 192, 192)
+filter_clip = true
+metadata/mirror_walk = false
+
+[sub_resource type="AtlasTexture" id="black_hair_walk_east_1"]
+atlas = ExtResource("black_hair_walk_east")
+region = Rect2(192, 0, 192, 192)
+filter_clip = true
+metadata/mirror_walk = false
+
+[sub_resource type="AtlasTexture" id="black_hair_walk_east_2"]
+atlas = ExtResource("black_hair_walk_east")
+region = Rect2(384, 0, 192, 192)
+filter_clip = true
+metadata/mirror_walk = false
+
+[sub_resource type="AtlasTexture" id="black_hair_walk_east_3"]
+atlas = ExtResource("black_hair_walk_east")
+region = Rect2(576, 0, 192, 192)
+filter_clip = true
+metadata/mirror_walk = false
+
+[sub_resource type="AtlasTexture" id="black_hair_walk_north_0"]
+atlas = ExtResource("black_hair_walk_north")
+region = Rect2(0, 0, 192, 192)
+filter_clip = true
+metadata/mirror_walk = false
+
+[sub_resource type="AtlasTexture" id="black_hair_walk_north_1"]
+atlas = ExtResource("black_hair_walk_north")
+region = Rect2(192, 0, 192, 192)
+filter_clip = true
+metadata/mirror_walk = false
+
+[sub_resource type="AtlasTexture" id="black_hair_walk_north_2"]
+atlas = ExtResource("black_hair_walk_north")
+region = Rect2(384, 0, 192, 192)
+filter_clip = true
+metadata/mirror_walk = false
+
+[sub_resource type="AtlasTexture" id="black_hair_walk_north_3"]
+atlas = ExtResource("black_hair_walk_north")
+region = Rect2(576, 0, 192, 192)
+filter_clip = true
+metadata/mirror_walk = false
+
+[sub_resource type="AtlasTexture" id="black_hair_walk_north_east_0"]
+atlas = ExtResource("black_hair_walk_north_east")
+region = Rect2(0, 0, 192, 192)
+filter_clip = true
+metadata/mirror_walk = false
+
+[sub_resource type="AtlasTexture" id="black_hair_walk_north_east_1"]
+atlas = ExtResource("black_hair_walk_north_east")
+region = Rect2(192, 0, 192, 192)
+filter_clip = true
+metadata/mirror_walk = false
+
+[sub_resource type="AtlasTexture" id="black_hair_walk_north_east_2"]
+atlas = ExtResource("black_hair_walk_north_east")
+region = Rect2(384, 0, 192, 192)
+filter_clip = true
+metadata/mirror_walk = false
+
+[sub_resource type="AtlasTexture" id="black_hair_walk_north_east_3"]
+atlas = ExtResource("black_hair_walk_north_east")
+region = Rect2(576, 0, 192, 192)
+filter_clip = true
+metadata/mirror_walk = false
+
+[sub_resource type="AtlasTexture" id="black_hair_walk_north_west_0"]
+atlas = ExtResource("black_hair_walk_north_west")
+region = Rect2(0, 0, 192, 192)
+filter_clip = true
+metadata/mirror_walk = false
+
+[sub_resource type="AtlasTexture" id="black_hair_walk_north_west_1"]
+atlas = ExtResource("black_hair_walk_north_west")
+region = Rect2(192, 0, 192, 192)
+filter_clip = true
+metadata/mirror_walk = false
+
+[sub_resource type="AtlasTexture" id="black_hair_walk_north_west_2"]
+atlas = ExtResource("black_hair_walk_north_west")
+region = Rect2(384, 0, 192, 192)
+filter_clip = true
+metadata/mirror_walk = false
+
+[sub_resource type="AtlasTexture" id="black_hair_walk_north_west_3"]
+atlas = ExtResource("black_hair_walk_north_west")
+region = Rect2(576, 0, 192, 192)
+filter_clip = true
+metadata/mirror_walk = false
+
+[sub_resource type="AtlasTexture" id="black_hair_walk_south_0"]
+atlas = ExtResource("black_hair_walk_south")
+region = Rect2(0, 0, 192, 192)
+filter_clip = true
+metadata/mirror_walk = false
+
+[sub_resource type="AtlasTexture" id="black_hair_walk_south_1"]
+atlas = ExtResource("black_hair_walk_south")
+region = Rect2(192, 0, 192, 192)
+filter_clip = true
+metadata/mirror_walk = false
+
+[sub_resource type="AtlasTexture" id="black_hair_walk_south_2"]
+atlas = ExtResource("black_hair_walk_south")
+region = Rect2(384, 0, 192, 192)
+filter_clip = true
+metadata/mirror_walk = false
+
+[sub_resource type="AtlasTexture" id="black_hair_walk_south_3"]
+atlas = ExtResource("black_hair_walk_south")
+region = Rect2(576, 0, 192, 192)
+filter_clip = true
+metadata/mirror_walk = false
+
+[sub_resource type="AtlasTexture" id="black_hair_walk_south_east_0"]
+atlas = ExtResource("black_hair_walk_south_east")
+region = Rect2(0, 0, 192, 192)
+filter_clip = true
+metadata/mirror_walk = false
+
+[sub_resource type="AtlasTexture" id="black_hair_walk_south_east_1"]
+atlas = ExtResource("black_hair_walk_south_east")
+region = Rect2(192, 0, 192, 192)
+filter_clip = true
+metadata/mirror_walk = false
+
+[sub_resource type="AtlasTexture" id="black_hair_walk_south_east_2"]
+atlas = ExtResource("black_hair_walk_south_east")
+region = Rect2(384, 0, 192, 192)
+filter_clip = true
+metadata/mirror_walk = false
+
+[sub_resource type="AtlasTexture" id="black_hair_walk_south_east_3"]
+atlas = ExtResource("black_hair_walk_south_east")
+region = Rect2(576, 0, 192, 192)
+filter_clip = true
+metadata/mirror_walk = false
+
+[sub_resource type="AtlasTexture" id="black_hair_walk_south_west_0"]
+atlas = ExtResource("black_hair_walk_south_west")
+region = Rect2(0, 0, 192, 192)
+filter_clip = true
+metadata/mirror_walk = false
+
+[sub_resource type="AtlasTexture" id="black_hair_walk_south_west_1"]
+atlas = ExtResource("black_hair_walk_south_west")
+region = Rect2(192, 0, 192, 192)
+filter_clip = true
+metadata/mirror_walk = false
+
+[sub_resource type="AtlasTexture" id="black_hair_walk_south_west_2"]
+atlas = ExtResource("black_hair_walk_south_west")
+region = Rect2(384, 0, 192, 192)
+filter_clip = true
+metadata/mirror_walk = false
+
+[sub_resource type="AtlasTexture" id="black_hair_walk_south_west_3"]
+atlas = ExtResource("black_hair_walk_south_west")
+region = Rect2(576, 0, 192, 192)
+filter_clip = true
+metadata/mirror_walk = false
+
+[sub_resource type="AtlasTexture" id="black_hair_walk_west_0"]
+atlas = ExtResource("black_hair_walk_west")
+region = Rect2(0, 0, 192, 192)
+filter_clip = true
+metadata/mirror_walk = false
+
+[sub_resource type="AtlasTexture" id="black_hair_walk_west_1"]
+atlas = ExtResource("black_hair_walk_west")
+region = Rect2(192, 0, 192, 192)
+filter_clip = true
+metadata/mirror_walk = false
+
+[sub_resource type="AtlasTexture" id="black_hair_walk_west_2"]
+atlas = ExtResource("black_hair_walk_west")
+region = Rect2(384, 0, 192, 192)
+filter_clip = true
+metadata/mirror_walk = false
+
+[sub_resource type="AtlasTexture" id="black_hair_walk_west_3"]
+atlas = ExtResource("black_hair_walk_west")
+region = Rect2(576, 0, 192, 192)
+filter_clip = true
+metadata/mirror_walk = false
+
+[resource]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("black_hair_carry_idle_east_0")
+}, {
+"duration": 1.0,
+"texture": SubResource("black_hair_carry_idle_east_1")
+}, {
+"duration": 1.0,
+"texture": SubResource("black_hair_carry_idle_east_2")
+}, {
+"duration": 1.0,
+"texture": SubResource("black_hair_carry_idle_east_3")
+}, {
+"duration": 1.0,
+"texture": SubResource("black_hair_carry_idle_east_4")
+}, {
+"duration": 1.0,
+"texture": SubResource("black_hair_carry_idle_east_5")
+}],
+"loop": 1,
+"name": &"carry_idle_east",
+"speed": 3.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("black_hair_carry_idle_north_0")
+}, {
+"duration": 1.0,
+"texture": SubResource("black_hair_carry_idle_north_1")
+}, {
+"duration": 1.0,
+"texture": SubResource("black_hair_carry_idle_north_2")
+}, {
+"duration": 1.0,
+"texture": SubResource("black_hair_carry_idle_north_3")
+}, {
+"duration": 1.0,
+"texture": SubResource("black_hair_carry_idle_north_4")
+}, {
+"duration": 1.0,
+"texture": SubResource("black_hair_carry_idle_north_5")
+}],
+"loop": 1,
+"name": &"carry_idle_north",
+"speed": 3.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("black_hair_carry_idle_north_east_0")
+}, {
+"duration": 1.0,
+"texture": SubResource("black_hair_carry_idle_north_east_1")
+}, {
+"duration": 1.0,
+"texture": SubResource("black_hair_carry_idle_north_east_2")
+}, {
+"duration": 1.0,
+"texture": SubResource("black_hair_carry_idle_north_east_3")
+}, {
+"duration": 1.0,
+"texture": SubResource("black_hair_carry_idle_north_east_4")
+}, {
+"duration": 1.0,
+"texture": SubResource("black_hair_carry_idle_north_east_5")
+}],
+"loop": 1,
+"name": &"carry_idle_north_east",
+"speed": 3.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("black_hair_carry_idle_north_west_0")
+}, {
+"duration": 1.0,
+"texture": SubResource("black_hair_carry_idle_north_west_1")
+}, {
+"duration": 1.0,
+"texture": SubResource("black_hair_carry_idle_north_west_2")
+}, {
+"duration": 1.0,
+"texture": SubResource("black_hair_carry_idle_north_west_3")
+}, {
+"duration": 1.0,
+"texture": SubResource("black_hair_carry_idle_north_west_4")
+}, {
+"duration": 1.0,
+"texture": SubResource("black_hair_carry_idle_north_west_5")
+}],
+"loop": 1,
+"name": &"carry_idle_north_west",
+"speed": 3.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("black_hair_carry_idle_south_0")
+}, {
+"duration": 1.0,
+"texture": SubResource("black_hair_carry_idle_south_1")
+}, {
+"duration": 1.0,
+"texture": SubResource("black_hair_carry_idle_south_2")
+}, {
+"duration": 1.0,
+"texture": SubResource("black_hair_carry_idle_south_3")
+}, {
+"duration": 1.0,
+"texture": SubResource("black_hair_carry_idle_south_4")
+}, {
+"duration": 1.0,
+"texture": SubResource("black_hair_carry_idle_south_5")
+}],
+"loop": 1,
+"name": &"carry_idle_south",
+"speed": 3.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("black_hair_carry_idle_south_east_0")
+}, {
+"duration": 1.0,
+"texture": SubResource("black_hair_carry_idle_south_east_1")
+}, {
+"duration": 1.0,
+"texture": SubResource("black_hair_carry_idle_south_east_2")
+}, {
+"duration": 1.0,
+"texture": SubResource("black_hair_carry_idle_south_east_3")
+}, {
+"duration": 1.0,
+"texture": SubResource("black_hair_carry_idle_south_east_4")
+}, {
+"duration": 1.0,
+"texture": SubResource("black_hair_carry_idle_south_east_5")
+}],
+"loop": 1,
+"name": &"carry_idle_south_east",
+"speed": 3.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("black_hair_carry_idle_south_west_0")
+}, {
+"duration": 1.0,
+"texture": SubResource("black_hair_carry_idle_south_west_1")
+}, {
+"duration": 1.0,
+"texture": SubResource("black_hair_carry_idle_south_west_2")
+}, {
+"duration": 1.0,
+"texture": SubResource("black_hair_carry_idle_south_west_3")
+}, {
+"duration": 1.0,
+"texture": SubResource("black_hair_carry_idle_south_west_4")
+}, {
+"duration": 1.0,
+"texture": SubResource("black_hair_carry_idle_south_west_5")
+}],
+"loop": 1,
+"name": &"carry_idle_south_west",
+"speed": 3.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("black_hair_carry_idle_west_0")
+}, {
+"duration": 1.0,
+"texture": SubResource("black_hair_carry_idle_west_1")
+}, {
+"duration": 1.0,
+"texture": SubResource("black_hair_carry_idle_west_2")
+}, {
+"duration": 1.0,
+"texture": SubResource("black_hair_carry_idle_west_3")
+}, {
+"duration": 1.0,
+"texture": SubResource("black_hair_carry_idle_west_4")
+}, {
+"duration": 1.0,
+"texture": SubResource("black_hair_carry_idle_west_5")
+}],
+"loop": 1,
+"name": &"carry_idle_west",
+"speed": 3.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("black_hair_carry_walk_east_0")
+}, {
+"duration": 1.0,
+"texture": SubResource("black_hair_carry_walk_east_1")
+}, {
+"duration": 1.0,
+"texture": SubResource("black_hair_carry_walk_east_2")
+}, {
+"duration": 1.0,
+"texture": SubResource("black_hair_carry_walk_east_3")
+}, {
+"duration": 1.0,
+"texture": SubResource("black_hair_carry_walk_east_4")
+}, {
+"duration": 1.0,
+"texture": SubResource("black_hair_carry_walk_east_5")
+}],
+"loop": 1,
+"name": &"carry_walk_east",
+"speed": 6.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("black_hair_carry_walk_north_0")
+}, {
+"duration": 1.0,
+"texture": SubResource("black_hair_carry_walk_north_1")
+}, {
+"duration": 1.0,
+"texture": SubResource("black_hair_carry_walk_north_2")
+}, {
+"duration": 1.0,
+"texture": SubResource("black_hair_carry_walk_north_3")
+}, {
+"duration": 1.0,
+"texture": SubResource("black_hair_carry_walk_north_4")
+}, {
+"duration": 1.0,
+"texture": SubResource("black_hair_carry_walk_north_5")
+}],
+"loop": 1,
+"name": &"carry_walk_north",
+"speed": 6.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("black_hair_carry_walk_north_east_0")
+}, {
+"duration": 1.0,
+"texture": SubResource("black_hair_carry_walk_north_east_1")
+}, {
+"duration": 1.0,
+"texture": SubResource("black_hair_carry_walk_north_east_2")
+}, {
+"duration": 1.0,
+"texture": SubResource("black_hair_carry_walk_north_east_3")
+}, {
+"duration": 1.0,
+"texture": SubResource("black_hair_carry_walk_north_east_4")
+}, {
+"duration": 1.0,
+"texture": SubResource("black_hair_carry_walk_north_east_5")
+}],
+"loop": 1,
+"name": &"carry_walk_north_east",
+"speed": 6.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("black_hair_carry_walk_north_west_0")
+}, {
+"duration": 1.0,
+"texture": SubResource("black_hair_carry_walk_north_west_1")
+}, {
+"duration": 1.0,
+"texture": SubResource("black_hair_carry_walk_north_west_2")
+}, {
+"duration": 1.0,
+"texture": SubResource("black_hair_carry_walk_north_west_3")
+}, {
+"duration": 1.0,
+"texture": SubResource("black_hair_carry_walk_north_west_4")
+}, {
+"duration": 1.0,
+"texture": SubResource("black_hair_carry_walk_north_west_5")
+}],
+"loop": 1,
+"name": &"carry_walk_north_west",
+"speed": 6.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("black_hair_carry_walk_south_0")
+}, {
+"duration": 1.0,
+"texture": SubResource("black_hair_carry_walk_south_1")
+}, {
+"duration": 1.0,
+"texture": SubResource("black_hair_carry_walk_south_2")
+}, {
+"duration": 1.0,
+"texture": SubResource("black_hair_carry_walk_south_3")
+}, {
+"duration": 1.0,
+"texture": SubResource("black_hair_carry_walk_south_4")
+}, {
+"duration": 1.0,
+"texture": SubResource("black_hair_carry_walk_south_5")
+}],
+"loop": 1,
+"name": &"carry_walk_south",
+"speed": 6.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("black_hair_carry_walk_south_east_0")
+}, {
+"duration": 1.0,
+"texture": SubResource("black_hair_carry_walk_south_east_1")
+}, {
+"duration": 1.0,
+"texture": SubResource("black_hair_carry_walk_south_east_2")
+}, {
+"duration": 1.0,
+"texture": SubResource("black_hair_carry_walk_south_east_3")
+}, {
+"duration": 1.0,
+"texture": SubResource("black_hair_carry_walk_south_east_4")
+}, {
+"duration": 1.0,
+"texture": SubResource("black_hair_carry_walk_south_east_5")
+}],
+"loop": 1,
+"name": &"carry_walk_south_east",
+"speed": 6.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("black_hair_carry_walk_south_west_0")
+}, {
+"duration": 1.0,
+"texture": SubResource("black_hair_carry_walk_south_west_1")
+}, {
+"duration": 1.0,
+"texture": SubResource("black_hair_carry_walk_south_west_2")
+}, {
+"duration": 1.0,
+"texture": SubResource("black_hair_carry_walk_south_west_3")
+}, {
+"duration": 1.0,
+"texture": SubResource("black_hair_carry_walk_south_west_4")
+}, {
+"duration": 1.0,
+"texture": SubResource("black_hair_carry_walk_south_west_5")
+}],
+"loop": 1,
+"name": &"carry_walk_south_west",
+"speed": 6.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("black_hair_carry_walk_west_0")
+}, {
+"duration": 1.0,
+"texture": SubResource("black_hair_carry_walk_west_1")
+}, {
+"duration": 1.0,
+"texture": SubResource("black_hair_carry_walk_west_2")
+}, {
+"duration": 1.0,
+"texture": SubResource("black_hair_carry_walk_west_3")
+}, {
+"duration": 1.0,
+"texture": SubResource("black_hair_carry_walk_west_4")
+}, {
+"duration": 1.0,
+"texture": SubResource("black_hair_carry_walk_west_5")
+}],
+"loop": 1,
+"name": &"carry_walk_west",
+"speed": 6.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("black_hair_idle_east_0")
+}, {
+"duration": 1.0,
+"texture": SubResource("black_hair_idle_east_1")
+}, {
+"duration": 1.0,
+"texture": SubResource("black_hair_idle_east_2")
+}, {
+"duration": 1.0,
+"texture": SubResource("black_hair_idle_east_3")
+}],
+"loop": 1,
+"name": &"idle_east",
+"speed": 4.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("black_hair_idle_north_0")
+}, {
+"duration": 1.0,
+"texture": SubResource("black_hair_idle_north_1")
+}, {
+"duration": 1.0,
+"texture": SubResource("black_hair_idle_north_2")
+}, {
+"duration": 1.0,
+"texture": SubResource("black_hair_idle_north_3")
+}],
+"loop": 1,
+"name": &"idle_north",
+"speed": 4.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("black_hair_idle_north_east_0")
+}, {
+"duration": 1.0,
+"texture": SubResource("black_hair_idle_north_east_1")
+}, {
+"duration": 1.0,
+"texture": SubResource("black_hair_idle_north_east_2")
+}, {
+"duration": 1.0,
+"texture": SubResource("black_hair_idle_north_east_3")
+}],
+"loop": 1,
+"name": &"idle_north_east",
+"speed": 4.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("black_hair_idle_north_west_0")
+}, {
+"duration": 1.0,
+"texture": SubResource("black_hair_idle_north_west_1")
+}, {
+"duration": 1.0,
+"texture": SubResource("black_hair_idle_north_west_2")
+}, {
+"duration": 1.0,
+"texture": SubResource("black_hair_idle_north_west_3")
+}],
+"loop": 1,
+"name": &"idle_north_west",
+"speed": 4.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("black_hair_idle_south_0")
+}, {
+"duration": 1.0,
+"texture": SubResource("black_hair_idle_south_1")
+}, {
+"duration": 1.0,
+"texture": SubResource("black_hair_idle_south_2")
+}, {
+"duration": 1.0,
+"texture": SubResource("black_hair_idle_south_3")
+}],
+"loop": 1,
+"name": &"idle_south",
+"speed": 4.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("black_hair_idle_south_east_0")
+}, {
+"duration": 1.0,
+"texture": SubResource("black_hair_idle_south_east_1")
+}, {
+"duration": 1.0,
+"texture": SubResource("black_hair_idle_south_east_2")
+}, {
+"duration": 1.0,
+"texture": SubResource("black_hair_idle_south_east_3")
+}],
+"loop": 1,
+"name": &"idle_south_east",
+"speed": 4.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("black_hair_idle_south_west_0")
+}, {
+"duration": 1.0,
+"texture": SubResource("black_hair_idle_south_west_1")
+}, {
+"duration": 1.0,
+"texture": SubResource("black_hair_idle_south_west_2")
+}, {
+"duration": 1.0,
+"texture": SubResource("black_hair_idle_south_west_3")
+}],
+"loop": 1,
+"name": &"idle_south_west",
+"speed": 4.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("black_hair_idle_west_0")
+}, {
+"duration": 1.0,
+"texture": SubResource("black_hair_idle_west_1")
+}, {
+"duration": 1.0,
+"texture": SubResource("black_hair_idle_west_2")
+}, {
+"duration": 1.0,
+"texture": SubResource("black_hair_idle_west_3")
+}],
+"loop": 1,
+"name": &"idle_west",
+"speed": 4.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("black_hair_jump_east_0")
+}, {
+"duration": 1.0,
+"texture": SubResource("black_hair_jump_east_1")
+}, {
+"duration": 1.0,
+"texture": SubResource("black_hair_jump_east_2")
+}, {
+"duration": 1.0,
+"texture": SubResource("black_hair_jump_east_3")
+}, {
+"duration": 1.0,
+"texture": SubResource("black_hair_jump_east_4")
+}, {
+"duration": 1.0,
+"texture": SubResource("black_hair_jump_east_5")
+}],
+"loop": 0,
+"name": &"jump_east",
+"speed": 10.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("black_hair_jump_north_0")
+}, {
+"duration": 1.0,
+"texture": SubResource("black_hair_jump_north_1")
+}, {
+"duration": 1.0,
+"texture": SubResource("black_hair_jump_north_2")
+}, {
+"duration": 1.0,
+"texture": SubResource("black_hair_jump_north_3")
+}, {
+"duration": 1.0,
+"texture": SubResource("black_hair_jump_north_4")
+}, {
+"duration": 1.0,
+"texture": SubResource("black_hair_jump_north_5")
+}],
+"loop": 0,
+"name": &"jump_north",
+"speed": 10.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("black_hair_jump_north_east_0")
+}, {
+"duration": 1.0,
+"texture": SubResource("black_hair_jump_north_east_1")
+}, {
+"duration": 1.0,
+"texture": SubResource("black_hair_jump_north_east_2")
+}, {
+"duration": 1.0,
+"texture": SubResource("black_hair_jump_north_east_3")
+}, {
+"duration": 1.0,
+"texture": SubResource("black_hair_jump_north_east_4")
+}, {
+"duration": 1.0,
+"texture": SubResource("black_hair_jump_north_east_5")
+}],
+"loop": 0,
+"name": &"jump_north_east",
+"speed": 10.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("black_hair_jump_north_west_0")
+}, {
+"duration": 1.0,
+"texture": SubResource("black_hair_jump_north_west_1")
+}, {
+"duration": 1.0,
+"texture": SubResource("black_hair_jump_north_west_2")
+}, {
+"duration": 1.0,
+"texture": SubResource("black_hair_jump_north_west_3")
+}, {
+"duration": 1.0,
+"texture": SubResource("black_hair_jump_north_west_4")
+}, {
+"duration": 1.0,
+"texture": SubResource("black_hair_jump_north_west_5")
+}],
+"loop": 0,
+"name": &"jump_north_west",
+"speed": 10.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("black_hair_jump_south_0")
+}, {
+"duration": 1.0,
+"texture": SubResource("black_hair_jump_south_1")
+}, {
+"duration": 1.0,
+"texture": SubResource("black_hair_jump_south_2")
+}, {
+"duration": 1.0,
+"texture": SubResource("black_hair_jump_south_3")
+}, {
+"duration": 1.0,
+"texture": SubResource("black_hair_jump_south_4")
+}, {
+"duration": 1.0,
+"texture": SubResource("black_hair_jump_south_5")
+}],
+"loop": 0,
+"name": &"jump_south",
+"speed": 10.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("black_hair_jump_south_east_0")
+}, {
+"duration": 1.0,
+"texture": SubResource("black_hair_jump_south_east_1")
+}, {
+"duration": 1.0,
+"texture": SubResource("black_hair_jump_south_east_2")
+}, {
+"duration": 1.0,
+"texture": SubResource("black_hair_jump_south_east_3")
+}, {
+"duration": 1.0,
+"texture": SubResource("black_hair_jump_south_east_4")
+}, {
+"duration": 1.0,
+"texture": SubResource("black_hair_jump_south_east_5")
+}],
+"loop": 0,
+"name": &"jump_south_east",
+"speed": 10.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("black_hair_jump_south_west_0")
+}, {
+"duration": 1.0,
+"texture": SubResource("black_hair_jump_south_west_1")
+}, {
+"duration": 1.0,
+"texture": SubResource("black_hair_jump_south_west_2")
+}, {
+"duration": 1.0,
+"texture": SubResource("black_hair_jump_south_west_3")
+}, {
+"duration": 1.0,
+"texture": SubResource("black_hair_jump_south_west_4")
+}, {
+"duration": 1.0,
+"texture": SubResource("black_hair_jump_south_west_5")
+}],
+"loop": 0,
+"name": &"jump_south_west",
+"speed": 10.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("black_hair_jump_west_0")
+}, {
+"duration": 1.0,
+"texture": SubResource("black_hair_jump_west_1")
+}, {
+"duration": 1.0,
+"texture": SubResource("black_hair_jump_west_2")
+}, {
+"duration": 1.0,
+"texture": SubResource("black_hair_jump_west_3")
+}, {
+"duration": 1.0,
+"texture": SubResource("black_hair_jump_west_4")
+}, {
+"duration": 1.0,
+"texture": SubResource("black_hair_jump_west_5")
+}],
+"loop": 0,
+"name": &"jump_west",
+"speed": 10.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("black_hair_lift_east_0")
+}, {
+"duration": 1.0,
+"texture": SubResource("black_hair_lift_east_1")
+}, {
+"duration": 1.0,
+"texture": SubResource("black_hair_lift_east_2")
+}, {
+"duration": 1.0,
+"texture": SubResource("black_hair_lift_east_3")
+}, {
+"duration": 1.0,
+"texture": SubResource("black_hair_lift_east_4")
+}, {
+"duration": 1.0,
+"texture": SubResource("black_hair_lift_east_5")
+}],
+"loop": 0,
+"name": &"lift_east",
+"speed": 8.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("black_hair_lift_north_0")
+}, {
+"duration": 1.0,
+"texture": SubResource("black_hair_lift_north_1")
+}, {
+"duration": 1.0,
+"texture": SubResource("black_hair_lift_north_2")
+}, {
+"duration": 1.0,
+"texture": SubResource("black_hair_lift_north_3")
+}, {
+"duration": 1.0,
+"texture": SubResource("black_hair_lift_north_4")
+}, {
+"duration": 1.0,
+"texture": SubResource("black_hair_lift_north_5")
+}],
+"loop": 0,
+"name": &"lift_north",
+"speed": 8.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("black_hair_lift_north_east_0")
+}, {
+"duration": 1.0,
+"texture": SubResource("black_hair_lift_north_east_1")
+}, {
+"duration": 1.0,
+"texture": SubResource("black_hair_lift_north_east_2")
+}, {
+"duration": 1.0,
+"texture": SubResource("black_hair_lift_north_east_3")
+}, {
+"duration": 1.0,
+"texture": SubResource("black_hair_lift_north_east_4")
+}, {
+"duration": 1.0,
+"texture": SubResource("black_hair_lift_north_east_5")
+}],
+"loop": 0,
+"name": &"lift_north_east",
+"speed": 8.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("black_hair_lift_north_west_0")
+}, {
+"duration": 1.0,
+"texture": SubResource("black_hair_lift_north_west_1")
+}, {
+"duration": 1.0,
+"texture": SubResource("black_hair_lift_north_west_2")
+}, {
+"duration": 1.0,
+"texture": SubResource("black_hair_lift_north_west_3")
+}, {
+"duration": 1.0,
+"texture": SubResource("black_hair_lift_north_west_4")
+}, {
+"duration": 1.0,
+"texture": SubResource("black_hair_lift_north_west_5")
+}],
+"loop": 0,
+"name": &"lift_north_west",
+"speed": 8.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("black_hair_lift_south_0")
+}, {
+"duration": 1.0,
+"texture": SubResource("black_hair_lift_south_1")
+}, {
+"duration": 1.0,
+"texture": SubResource("black_hair_lift_south_2")
+}, {
+"duration": 1.0,
+"texture": SubResource("black_hair_lift_south_3")
+}, {
+"duration": 1.0,
+"texture": SubResource("black_hair_lift_south_4")
+}, {
+"duration": 1.0,
+"texture": SubResource("black_hair_lift_south_5")
+}],
+"loop": 0,
+"name": &"lift_south",
+"speed": 8.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("black_hair_lift_south_east_0")
+}, {
+"duration": 1.0,
+"texture": SubResource("black_hair_lift_south_east_1")
+}, {
+"duration": 1.0,
+"texture": SubResource("black_hair_lift_south_east_2")
+}, {
+"duration": 1.0,
+"texture": SubResource("black_hair_lift_south_east_3")
+}, {
+"duration": 1.0,
+"texture": SubResource("black_hair_lift_south_east_4")
+}, {
+"duration": 1.0,
+"texture": SubResource("black_hair_lift_south_east_5")
+}],
+"loop": 0,
+"name": &"lift_south_east",
+"speed": 8.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("black_hair_lift_south_west_0")
+}, {
+"duration": 1.0,
+"texture": SubResource("black_hair_lift_south_west_1")
+}, {
+"duration": 1.0,
+"texture": SubResource("black_hair_lift_south_west_2")
+}, {
+"duration": 1.0,
+"texture": SubResource("black_hair_lift_south_west_3")
+}, {
+"duration": 1.0,
+"texture": SubResource("black_hair_lift_south_west_4")
+}, {
+"duration": 1.0,
+"texture": SubResource("black_hair_lift_south_west_5")
+}],
+"loop": 0,
+"name": &"lift_south_west",
+"speed": 8.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("black_hair_lift_west_0")
+}, {
+"duration": 1.0,
+"texture": SubResource("black_hair_lift_west_1")
+}, {
+"duration": 1.0,
+"texture": SubResource("black_hair_lift_west_2")
+}, {
+"duration": 1.0,
+"texture": SubResource("black_hair_lift_west_3")
+}, {
+"duration": 1.0,
+"texture": SubResource("black_hair_lift_west_4")
+}, {
+"duration": 1.0,
+"texture": SubResource("black_hair_lift_west_5")
+}],
+"loop": 0,
+"name": &"lift_west",
+"speed": 8.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("black_hair_operate_east_0")
+}, {
+"duration": 1.0,
+"texture": SubResource("black_hair_operate_east_1")
+}, {
+"duration": 1.0,
+"texture": SubResource("black_hair_operate_east_2")
+}, {
+"duration": 1.0,
+"texture": SubResource("black_hair_operate_east_3")
+}, {
+"duration": 1.0,
+"texture": SubResource("black_hair_operate_east_4")
+}, {
+"duration": 1.0,
+"texture": SubResource("black_hair_operate_east_5")
+}],
+"loop": 0,
+"name": &"operate_east",
+"speed": 8.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("black_hair_operate_north_0")
+}, {
+"duration": 1.0,
+"texture": SubResource("black_hair_operate_north_1")
+}, {
+"duration": 1.0,
+"texture": SubResource("black_hair_operate_north_2")
+}, {
+"duration": 1.0,
+"texture": SubResource("black_hair_operate_north_3")
+}, {
+"duration": 1.0,
+"texture": SubResource("black_hair_operate_north_4")
+}, {
+"duration": 1.0,
+"texture": SubResource("black_hair_operate_north_5")
+}],
+"loop": 0,
+"name": &"operate_north",
+"speed": 8.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("black_hair_operate_north_east_0")
+}, {
+"duration": 1.0,
+"texture": SubResource("black_hair_operate_north_east_1")
+}, {
+"duration": 1.0,
+"texture": SubResource("black_hair_operate_north_east_2")
+}, {
+"duration": 1.0,
+"texture": SubResource("black_hair_operate_north_east_3")
+}, {
+"duration": 1.0,
+"texture": SubResource("black_hair_operate_north_east_4")
+}, {
+"duration": 1.0,
+"texture": SubResource("black_hair_operate_north_east_5")
+}],
+"loop": 0,
+"name": &"operate_north_east",
+"speed": 8.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("black_hair_operate_north_west_0")
+}, {
+"duration": 1.0,
+"texture": SubResource("black_hair_operate_north_west_1")
+}, {
+"duration": 1.0,
+"texture": SubResource("black_hair_operate_north_west_2")
+}, {
+"duration": 1.0,
+"texture": SubResource("black_hair_operate_north_west_3")
+}, {
+"duration": 1.0,
+"texture": SubResource("black_hair_operate_north_west_4")
+}, {
+"duration": 1.0,
+"texture": SubResource("black_hair_operate_north_west_5")
+}],
+"loop": 0,
+"name": &"operate_north_west",
+"speed": 8.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("black_hair_operate_south_0")
+}, {
+"duration": 1.0,
+"texture": SubResource("black_hair_operate_south_1")
+}, {
+"duration": 1.0,
+"texture": SubResource("black_hair_operate_south_2")
+}, {
+"duration": 1.0,
+"texture": SubResource("black_hair_operate_south_3")
+}, {
+"duration": 1.0,
+"texture": SubResource("black_hair_operate_south_4")
+}, {
+"duration": 1.0,
+"texture": SubResource("black_hair_operate_south_5")
+}],
+"loop": 0,
+"name": &"operate_south",
+"speed": 8.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("black_hair_operate_south_east_0")
+}, {
+"duration": 1.0,
+"texture": SubResource("black_hair_operate_south_east_1")
+}, {
+"duration": 1.0,
+"texture": SubResource("black_hair_operate_south_east_2")
+}, {
+"duration": 1.0,
+"texture": SubResource("black_hair_operate_south_east_3")
+}, {
+"duration": 1.0,
+"texture": SubResource("black_hair_operate_south_east_4")
+}, {
+"duration": 1.0,
+"texture": SubResource("black_hair_operate_south_east_5")
+}],
+"loop": 0,
+"name": &"operate_south_east",
+"speed": 8.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("black_hair_operate_south_west_0")
+}, {
+"duration": 1.0,
+"texture": SubResource("black_hair_operate_south_west_1")
+}, {
+"duration": 1.0,
+"texture": SubResource("black_hair_operate_south_west_2")
+}, {
+"duration": 1.0,
+"texture": SubResource("black_hair_operate_south_west_3")
+}, {
+"duration": 1.0,
+"texture": SubResource("black_hair_operate_south_west_4")
+}, {
+"duration": 1.0,
+"texture": SubResource("black_hair_operate_south_west_5")
+}],
+"loop": 0,
+"name": &"operate_south_west",
+"speed": 8.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("black_hair_operate_west_0")
+}, {
+"duration": 1.0,
+"texture": SubResource("black_hair_operate_west_1")
+}, {
+"duration": 1.0,
+"texture": SubResource("black_hair_operate_west_2")
+}, {
+"duration": 1.0,
+"texture": SubResource("black_hair_operate_west_3")
+}, {
+"duration": 1.0,
+"texture": SubResource("black_hair_operate_west_4")
+}, {
+"duration": 1.0,
+"texture": SubResource("black_hair_operate_west_5")
+}],
+"loop": 0,
+"name": &"operate_west",
+"speed": 8.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("black_hair_place_east_0")
+}, {
+"duration": 1.0,
+"texture": SubResource("black_hair_place_east_1")
+}, {
+"duration": 1.0,
+"texture": SubResource("black_hair_place_east_2")
+}, {
+"duration": 1.0,
+"texture": SubResource("black_hair_place_east_3")
+}, {
+"duration": 1.0,
+"texture": SubResource("black_hair_place_east_4")
+}, {
+"duration": 1.0,
+"texture": SubResource("black_hair_place_east_5")
+}],
+"loop": 0,
+"name": &"place_east",
+"speed": 8.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("black_hair_place_north_0")
+}, {
+"duration": 1.0,
+"texture": SubResource("black_hair_place_north_1")
+}, {
+"duration": 1.0,
+"texture": SubResource("black_hair_place_north_2")
+}, {
+"duration": 1.0,
+"texture": SubResource("black_hair_place_north_3")
+}, {
+"duration": 1.0,
+"texture": SubResource("black_hair_place_north_4")
+}, {
+"duration": 1.0,
+"texture": SubResource("black_hair_place_north_5")
+}],
+"loop": 0,
+"name": &"place_north",
+"speed": 8.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("black_hair_place_north_east_0")
+}, {
+"duration": 1.0,
+"texture": SubResource("black_hair_place_north_east_1")
+}, {
+"duration": 1.0,
+"texture": SubResource("black_hair_place_north_east_2")
+}, {
+"duration": 1.0,
+"texture": SubResource("black_hair_place_north_east_3")
+}, {
+"duration": 1.0,
+"texture": SubResource("black_hair_place_north_east_4")
+}, {
+"duration": 1.0,
+"texture": SubResource("black_hair_place_north_east_5")
+}],
+"loop": 0,
+"name": &"place_north_east",
+"speed": 8.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("black_hair_place_north_west_0")
+}, {
+"duration": 1.0,
+"texture": SubResource("black_hair_place_north_west_1")
+}, {
+"duration": 1.0,
+"texture": SubResource("black_hair_place_north_west_2")
+}, {
+"duration": 1.0,
+"texture": SubResource("black_hair_place_north_west_3")
+}, {
+"duration": 1.0,
+"texture": SubResource("black_hair_place_north_west_4")
+}, {
+"duration": 1.0,
+"texture": SubResource("black_hair_place_north_west_5")
+}],
+"loop": 0,
+"name": &"place_north_west",
+"speed": 8.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("black_hair_place_south_0")
+}, {
+"duration": 1.0,
+"texture": SubResource("black_hair_place_south_1")
+}, {
+"duration": 1.0,
+"texture": SubResource("black_hair_place_south_2")
+}, {
+"duration": 1.0,
+"texture": SubResource("black_hair_place_south_3")
+}, {
+"duration": 1.0,
+"texture": SubResource("black_hair_place_south_4")
+}, {
+"duration": 1.0,
+"texture": SubResource("black_hair_place_south_5")
+}],
+"loop": 0,
+"name": &"place_south",
+"speed": 8.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("black_hair_place_south_east_0")
+}, {
+"duration": 1.0,
+"texture": SubResource("black_hair_place_south_east_1")
+}, {
+"duration": 1.0,
+"texture": SubResource("black_hair_place_south_east_2")
+}, {
+"duration": 1.0,
+"texture": SubResource("black_hair_place_south_east_3")
+}, {
+"duration": 1.0,
+"texture": SubResource("black_hair_place_south_east_4")
+}, {
+"duration": 1.0,
+"texture": SubResource("black_hair_place_south_east_5")
+}],
+"loop": 0,
+"name": &"place_south_east",
+"speed": 8.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("black_hair_place_south_west_0")
+}, {
+"duration": 1.0,
+"texture": SubResource("black_hair_place_south_west_1")
+}, {
+"duration": 1.0,
+"texture": SubResource("black_hair_place_south_west_2")
+}, {
+"duration": 1.0,
+"texture": SubResource("black_hair_place_south_west_3")
+}, {
+"duration": 1.0,
+"texture": SubResource("black_hair_place_south_west_4")
+}, {
+"duration": 1.0,
+"texture": SubResource("black_hair_place_south_west_5")
+}],
+"loop": 0,
+"name": &"place_south_west",
+"speed": 8.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("black_hair_place_west_0")
+}, {
+"duration": 1.0,
+"texture": SubResource("black_hair_place_west_1")
+}, {
+"duration": 1.0,
+"texture": SubResource("black_hair_place_west_2")
+}, {
+"duration": 1.0,
+"texture": SubResource("black_hair_place_west_3")
+}, {
+"duration": 1.0,
+"texture": SubResource("black_hair_place_west_4")
+}, {
+"duration": 1.0,
+"texture": SubResource("black_hair_place_west_5")
+}],
+"loop": 0,
+"name": &"place_west",
+"speed": 8.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("black_hair_run_east_0")
+}, {
+"duration": 1.0,
+"texture": SubResource("black_hair_run_east_1")
+}, {
+"duration": 1.0,
+"texture": SubResource("black_hair_run_east_2")
+}, {
+"duration": 1.0,
+"texture": SubResource("black_hair_run_east_3")
+}, {
+"duration": 1.0,
+"texture": SubResource("black_hair_run_east_4")
+}, {
+"duration": 1.0,
+"texture": SubResource("black_hair_run_east_5")
+}, {
+"duration": 1.0,
+"texture": SubResource("black_hair_run_east_6")
+}, {
+"duration": 1.0,
+"texture": SubResource("black_hair_run_east_7")
+}],
+"loop": 1,
+"name": &"run_east",
+"speed": 12.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("black_hair_run_north_0")
+}, {
+"duration": 1.0,
+"texture": SubResource("black_hair_run_north_1")
+}, {
+"duration": 1.0,
+"texture": SubResource("black_hair_run_north_2")
+}, {
+"duration": 1.0,
+"texture": SubResource("black_hair_run_north_3")
+}, {
+"duration": 1.0,
+"texture": SubResource("black_hair_run_north_4")
+}, {
+"duration": 1.0,
+"texture": SubResource("black_hair_run_north_5")
+}, {
+"duration": 1.0,
+"texture": SubResource("black_hair_run_north_6")
+}, {
+"duration": 1.0,
+"texture": SubResource("black_hair_run_north_7")
+}],
+"loop": 1,
+"name": &"run_north",
+"speed": 12.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("black_hair_run_north_east_0")
+}, {
+"duration": 1.0,
+"texture": SubResource("black_hair_run_north_east_1")
+}, {
+"duration": 1.0,
+"texture": SubResource("black_hair_run_north_east_2")
+}, {
+"duration": 1.0,
+"texture": SubResource("black_hair_run_north_east_3")
+}, {
+"duration": 1.0,
+"texture": SubResource("black_hair_run_north_east_4")
+}, {
+"duration": 1.0,
+"texture": SubResource("black_hair_run_north_east_5")
+}, {
+"duration": 1.0,
+"texture": SubResource("black_hair_run_north_east_6")
+}, {
+"duration": 1.0,
+"texture": SubResource("black_hair_run_north_east_7")
+}],
+"loop": 1,
+"name": &"run_north_east",
+"speed": 12.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("black_hair_run_north_west_0")
+}, {
+"duration": 1.0,
+"texture": SubResource("black_hair_run_north_west_1")
+}, {
+"duration": 1.0,
+"texture": SubResource("black_hair_run_north_west_2")
+}, {
+"duration": 1.0,
+"texture": SubResource("black_hair_run_north_west_3")
+}, {
+"duration": 1.0,
+"texture": SubResource("black_hair_run_north_west_4")
+}, {
+"duration": 1.0,
+"texture": SubResource("black_hair_run_north_west_5")
+}, {
+"duration": 1.0,
+"texture": SubResource("black_hair_run_north_west_6")
+}, {
+"duration": 1.0,
+"texture": SubResource("black_hair_run_north_west_7")
+}],
+"loop": 1,
+"name": &"run_north_west",
+"speed": 12.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("black_hair_run_south_0")
+}, {
+"duration": 1.0,
+"texture": SubResource("black_hair_run_south_1")
+}, {
+"duration": 1.0,
+"texture": SubResource("black_hair_run_south_2")
+}, {
+"duration": 1.0,
+"texture": SubResource("black_hair_run_south_3")
+}, {
+"duration": 1.0,
+"texture": SubResource("black_hair_run_south_4")
+}, {
+"duration": 1.0,
+"texture": SubResource("black_hair_run_south_5")
+}, {
+"duration": 1.0,
+"texture": SubResource("black_hair_run_south_6")
+}, {
+"duration": 1.0,
+"texture": SubResource("black_hair_run_south_7")
+}],
+"loop": 1,
+"name": &"run_south",
+"speed": 12.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("black_hair_run_south_east_0")
+}, {
+"duration": 1.0,
+"texture": SubResource("black_hair_run_south_east_1")
+}, {
+"duration": 1.0,
+"texture": SubResource("black_hair_run_south_east_2")
+}, {
+"duration": 1.0,
+"texture": SubResource("black_hair_run_south_east_3")
+}, {
+"duration": 1.0,
+"texture": SubResource("black_hair_run_south_east_4")
+}, {
+"duration": 1.0,
+"texture": SubResource("black_hair_run_south_east_5")
+}, {
+"duration": 1.0,
+"texture": SubResource("black_hair_run_south_east_6")
+}, {
+"duration": 1.0,
+"texture": SubResource("black_hair_run_south_east_7")
+}],
+"loop": 1,
+"name": &"run_south_east",
+"speed": 12.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("black_hair_run_south_west_0")
+}, {
+"duration": 1.0,
+"texture": SubResource("black_hair_run_south_west_1")
+}, {
+"duration": 1.0,
+"texture": SubResource("black_hair_run_south_west_2")
+}, {
+"duration": 1.0,
+"texture": SubResource("black_hair_run_south_west_3")
+}, {
+"duration": 1.0,
+"texture": SubResource("black_hair_run_south_west_4")
+}, {
+"duration": 1.0,
+"texture": SubResource("black_hair_run_south_west_5")
+}, {
+"duration": 1.0,
+"texture": SubResource("black_hair_run_south_west_6")
+}, {
+"duration": 1.0,
+"texture": SubResource("black_hair_run_south_west_7")
+}],
+"loop": 1,
+"name": &"run_south_west",
+"speed": 12.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("black_hair_run_west_0")
+}, {
+"duration": 1.0,
+"texture": SubResource("black_hair_run_west_1")
+}, {
+"duration": 1.0,
+"texture": SubResource("black_hair_run_west_2")
+}, {
+"duration": 1.0,
+"texture": SubResource("black_hair_run_west_3")
+}, {
+"duration": 1.0,
+"texture": SubResource("black_hair_run_west_4")
+}, {
+"duration": 1.0,
+"texture": SubResource("black_hair_run_west_5")
+}, {
+"duration": 1.0,
+"texture": SubResource("black_hair_run_west_6")
+}, {
+"duration": 1.0,
+"texture": SubResource("black_hair_run_west_7")
+}],
+"loop": 1,
+"name": &"run_west",
+"speed": 12.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("black_hair_touch_east_0")
+}, {
+"duration": 1.0,
+"texture": SubResource("black_hair_touch_east_1")
+}, {
+"duration": 1.0,
+"texture": SubResource("black_hair_touch_east_2")
+}, {
+"duration": 1.0,
+"texture": SubResource("black_hair_touch_east_3")
+}, {
+"duration": 1.0,
+"texture": SubResource("black_hair_touch_east_4")
+}, {
+"duration": 1.0,
+"texture": SubResource("black_hair_touch_east_5")
+}],
+"loop": 0,
+"name": &"touch_east",
+"speed": 8.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("black_hair_touch_north_0")
+}, {
+"duration": 1.0,
+"texture": SubResource("black_hair_touch_north_1")
+}, {
+"duration": 1.0,
+"texture": SubResource("black_hair_touch_north_2")
+}, {
+"duration": 1.0,
+"texture": SubResource("black_hair_touch_north_3")
+}, {
+"duration": 1.0,
+"texture": SubResource("black_hair_touch_north_4")
+}, {
+"duration": 1.0,
+"texture": SubResource("black_hair_touch_north_5")
+}],
+"loop": 0,
+"name": &"touch_north",
+"speed": 8.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("black_hair_touch_north_east_0")
+}, {
+"duration": 1.0,
+"texture": SubResource("black_hair_touch_north_east_1")
+}, {
+"duration": 1.0,
+"texture": SubResource("black_hair_touch_north_east_2")
+}, {
+"duration": 1.0,
+"texture": SubResource("black_hair_touch_north_east_3")
+}, {
+"duration": 1.0,
+"texture": SubResource("black_hair_touch_north_east_4")
+}, {
+"duration": 1.0,
+"texture": SubResource("black_hair_touch_north_east_5")
+}],
+"loop": 0,
+"name": &"touch_north_east",
+"speed": 8.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("black_hair_touch_north_west_0")
+}, {
+"duration": 1.0,
+"texture": SubResource("black_hair_touch_north_west_1")
+}, {
+"duration": 1.0,
+"texture": SubResource("black_hair_touch_north_west_2")
+}, {
+"duration": 1.0,
+"texture": SubResource("black_hair_touch_north_west_3")
+}, {
+"duration": 1.0,
+"texture": SubResource("black_hair_touch_north_west_4")
+}, {
+"duration": 1.0,
+"texture": SubResource("black_hair_touch_north_west_5")
+}],
+"loop": 0,
+"name": &"touch_north_west",
+"speed": 8.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("black_hair_touch_south_0")
+}, {
+"duration": 1.0,
+"texture": SubResource("black_hair_touch_south_1")
+}, {
+"duration": 1.0,
+"texture": SubResource("black_hair_touch_south_2")
+}, {
+"duration": 1.0,
+"texture": SubResource("black_hair_touch_south_3")
+}, {
+"duration": 1.0,
+"texture": SubResource("black_hair_touch_south_4")
+}, {
+"duration": 1.0,
+"texture": SubResource("black_hair_touch_south_5")
+}],
+"loop": 0,
+"name": &"touch_south",
+"speed": 8.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("black_hair_touch_south_east_0")
+}, {
+"duration": 1.0,
+"texture": SubResource("black_hair_touch_south_east_1")
+}, {
+"duration": 1.0,
+"texture": SubResource("black_hair_touch_south_east_2")
+}, {
+"duration": 1.0,
+"texture": SubResource("black_hair_touch_south_east_3")
+}, {
+"duration": 1.0,
+"texture": SubResource("black_hair_touch_south_east_4")
+}, {
+"duration": 1.0,
+"texture": SubResource("black_hair_touch_south_east_5")
+}],
+"loop": 0,
+"name": &"touch_south_east",
+"speed": 8.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("black_hair_touch_south_west_0")
+}, {
+"duration": 1.0,
+"texture": SubResource("black_hair_touch_south_west_1")
+}, {
+"duration": 1.0,
+"texture": SubResource("black_hair_touch_south_west_2")
+}, {
+"duration": 1.0,
+"texture": SubResource("black_hair_touch_south_west_3")
+}, {
+"duration": 1.0,
+"texture": SubResource("black_hair_touch_south_west_4")
+}, {
+"duration": 1.0,
+"texture": SubResource("black_hair_touch_south_west_5")
+}],
+"loop": 0,
+"name": &"touch_south_west",
+"speed": 8.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("black_hair_touch_west_0")
+}, {
+"duration": 1.0,
+"texture": SubResource("black_hair_touch_west_1")
+}, {
+"duration": 1.0,
+"texture": SubResource("black_hair_touch_west_2")
+}, {
+"duration": 1.0,
+"texture": SubResource("black_hair_touch_west_3")
+}, {
+"duration": 1.0,
+"texture": SubResource("black_hair_touch_west_4")
+}, {
+"duration": 1.0,
+"texture": SubResource("black_hair_touch_west_5")
+}],
+"loop": 0,
+"name": &"touch_west",
+"speed": 8.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("black_hair_walk_east_0")
+}, {
+"duration": 1.0,
+"texture": SubResource("black_hair_walk_east_1")
+}, {
+"duration": 1.0,
+"texture": SubResource("black_hair_walk_east_2")
+}, {
+"duration": 1.0,
+"texture": SubResource("black_hair_walk_east_3")
+}],
+"loop": 1,
+"name": &"walk_east",
+"speed": 4.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("black_hair_walk_north_0")
+}, {
+"duration": 1.0,
+"texture": SubResource("black_hair_walk_north_1")
+}, {
+"duration": 1.0,
+"texture": SubResource("black_hair_walk_north_2")
+}, {
+"duration": 1.0,
+"texture": SubResource("black_hair_walk_north_3")
+}],
+"loop": 1,
+"name": &"walk_north",
+"speed": 4.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("black_hair_walk_north_east_0")
+}, {
+"duration": 1.0,
+"texture": SubResource("black_hair_walk_north_east_1")
+}, {
+"duration": 1.0,
+"texture": SubResource("black_hair_walk_north_east_2")
+}, {
+"duration": 1.0,
+"texture": SubResource("black_hair_walk_north_east_3")
+}],
+"loop": 1,
+"name": &"walk_north_east",
+"speed": 4.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("black_hair_walk_north_west_0")
+}, {
+"duration": 1.0,
+"texture": SubResource("black_hair_walk_north_west_1")
+}, {
+"duration": 1.0,
+"texture": SubResource("black_hair_walk_north_west_2")
+}, {
+"duration": 1.0,
+"texture": SubResource("black_hair_walk_north_west_3")
+}],
+"loop": 1,
+"name": &"walk_north_west",
+"speed": 4.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("black_hair_walk_south_0")
+}, {
+"duration": 1.0,
+"texture": SubResource("black_hair_walk_south_1")
+}, {
+"duration": 1.0,
+"texture": SubResource("black_hair_walk_south_2")
+}, {
+"duration": 1.0,
+"texture": SubResource("black_hair_walk_south_3")
+}],
+"loop": 1,
+"name": &"walk_south",
+"speed": 4.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("black_hair_walk_south_east_0")
+}, {
+"duration": 1.0,
+"texture": SubResource("black_hair_walk_south_east_1")
+}, {
+"duration": 1.0,
+"texture": SubResource("black_hair_walk_south_east_2")
+}, {
+"duration": 1.0,
+"texture": SubResource("black_hair_walk_south_east_3")
+}],
+"loop": 1,
+"name": &"walk_south_east",
+"speed": 4.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("black_hair_walk_south_west_0")
+}, {
+"duration": 1.0,
+"texture": SubResource("black_hair_walk_south_west_1")
+}, {
+"duration": 1.0,
+"texture": SubResource("black_hair_walk_south_west_2")
+}, {
+"duration": 1.0,
+"texture": SubResource("black_hair_walk_south_west_3")
+}],
+"loop": 1,
+"name": &"walk_south_west",
+"speed": 4.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("black_hair_walk_west_0")
+}, {
+"duration": 1.0,
+"texture": SubResource("black_hair_walk_west_1")
+}, {
+"duration": 1.0,
+"texture": SubResource("black_hair_walk_west_2")
+}, {
+"duration": 1.0,
+"texture": SubResource("black_hair_walk_west_3")
+}],
+"loop": 1,
+"name": &"walk_west",
+"speed": 4.0
+}]

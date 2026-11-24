@@ -1,0 +1,1189 @@
+[gd_resource type="SpriteFrames" format=3]
+
+[ext_resource type="Texture2D" path="res://assets/zones/zone_1/motion_v2/poses/wildlife/bird_idle_north_east_0.tres" id="1_56y1l"]
+[ext_resource type="Texture2D" path="res://assets/zones/zone_1/motion_v2/poses/wildlife/bird_idle_north_east_1.tres" id="2_gdpbi"]
+[ext_resource type="Texture2D" path="res://assets/zones/zone_1/motion_v2/poses/wildlife/bird_idle_north_east_2.tres" id="3_iqx5v"]
+[ext_resource type="Texture2D" path="res://assets/zones/zone_1/motion_v2/poses/wildlife/bird_idle_north_east_3.tres" id="4_ti8br"]
+[ext_resource type="Texture2D" path="res://assets/zones/zone_1/motion_v2/poses/wildlife/bird_idle_north_east_4.tres" id="5_7vgy8"]
+[ext_resource type="Texture2D" path="res://assets/zones/zone_1/motion_v2/poses/wildlife/bird_idle_north_east_5.tres" id="6_ixlb8"]
+[ext_resource type="Texture2D" path="res://assets/zones/zone_1/motion_v2/poses/wildlife/bird_idle_north_east_6.tres" id="7_jekhf"]
+[ext_resource type="Texture2D" path="res://assets/zones/zone_1/motion_v2/poses/wildlife/bird_idle_north_east_7.tres" id="8_0v6jk"]
+[ext_resource type="Texture2D" path="res://assets/zones/zone_1/motion_v2/poses/wildlife/bird_idle_north_west_0.tres" id="9_1t7qe"]
+[ext_resource type="Texture2D" path="res://assets/zones/zone_1/motion_v2/poses/wildlife/bird_idle_north_west_1.tres" id="10_mrafy"]
+[ext_resource type="Texture2D" path="res://assets/zones/zone_1/motion_v2/poses/wildlife/bird_idle_north_west_2.tres" id="11_7k512"]
+[ext_resource type="Texture2D" path="res://assets/zones/zone_1/motion_v2/poses/wildlife/bird_idle_north_west_3.tres" id="12_6ndep"]
+[ext_resource type="Texture2D" path="res://assets/zones/zone_1/motion_v2/poses/wildlife/bird_idle_north_west_4.tres" id="13_a7ast"]
+[ext_resource type="Texture2D" path="res://assets/zones/zone_1/motion_v2/poses/wildlife/bird_idle_north_west_5.tres" id="14_ocvu1"]
+[ext_resource type="Texture2D" path="res://assets/zones/zone_1/motion_v2/poses/wildlife/bird_idle_north_west_6.tres" id="15_6dati"]
+[ext_resource type="Texture2D" path="res://assets/zones/zone_1/motion_v2/poses/wildlife/bird_idle_north_west_7.tres" id="16_sm45y"]
+[ext_resource type="Texture2D" path="res://assets/zones/zone_1/motion_v2/poses/wildlife/bird_idle_south_east_0.tres" id="17_4hlps"]
+[ext_resource type="Texture2D" path="res://assets/zones/zone_1/motion_v2/poses/wildlife/bird_idle_south_east_1.tres" id="18_cc34d"]
+[ext_resource type="Texture2D" path="res://assets/zones/zone_1/motion_v2/poses/wildlife/bird_idle_south_east_2.tres" id="19_qr3an"]
+[ext_resource type="Texture2D" path="res://assets/zones/zone_1/motion_v2/poses/wildlife/bird_idle_south_east_3.tres" id="20_2vi0u"]
+[ext_resource type="Texture2D" path="res://assets/zones/zone_1/motion_v2/poses/wildlife/bird_idle_south_east_4.tres" id="21_f3523"]
+[ext_resource type="Texture2D" path="res://assets/zones/zone_1/motion_v2/poses/wildlife/bird_idle_south_east_5.tres" id="22_qbw2s"]
+[ext_resource type="Texture2D" path="res://assets/zones/zone_1/motion_v2/poses/wildlife/bird_idle_south_east_6.tres" id="23_vxxum"]
+[ext_resource type="Texture2D" path="res://assets/zones/zone_1/motion_v2/poses/wildlife/bird_idle_south_east_7.tres" id="24_siw6j"]
+[ext_resource type="Texture2D" path="res://assets/zones/zone_1/motion_v2/poses/wildlife/bird_idle_south_west_0.tres" id="25_6fxn4"]
+[ext_resource type="Texture2D" path="res://assets/zones/zone_1/motion_v2/poses/wildlife/bird_idle_south_west_1.tres" id="26_bakwv"]
+[ext_resource type="Texture2D" path="res://assets/zones/zone_1/motion_v2/poses/wildlife/bird_idle_south_west_2.tres" id="27_4ont8"]
+[ext_resource type="Texture2D" path="res://assets/zones/zone_1/motion_v2/poses/wildlife/bird_idle_south_west_3.tres" id="28_3wa6j"]
+[ext_resource type="Texture2D" path="res://assets/zones/zone_1/motion_v2/poses/wildlife/bird_idle_south_west_4.tres" id="29_8oatf"]
+[ext_resource type="Texture2D" path="res://assets/zones/zone_1/motion_v2/poses/wildlife/bird_idle_south_west_5.tres" id="30_m8gnw"]
+[ext_resource type="Texture2D" path="res://assets/zones/zone_1/motion_v2/poses/wildlife/bird_idle_south_west_6.tres" id="31_giyb7"]
+[ext_resource type="Texture2D" path="res://assets/zones/zone_1/motion_v2/poses/wildlife/bird_idle_south_west_7.tres" id="32_jwbym"]
+[ext_resource type="Texture2D" path="res://assets/zones/zone_1/motion_v2/poses/wildlife/bird_move_north_east_0.tres" id="33_gxkjq"]
+[ext_resource type="Texture2D" path="res://assets/zones/zone_1/motion_v2/poses/wildlife/bird_move_north_east_1.tres" id="34_65y8j"]
+[ext_resource type="Texture2D" path="res://assets/zones/zone_1/motion_v2/poses/wildlife/bird_move_north_east_2.tres" id="35_ftj0d"]
+[ext_resource type="Texture2D" path="res://assets/zones/zone_1/motion_v2/poses/wildlife/bird_move_north_east_3.tres" id="36_8mg1k"]
+[ext_resource type="Texture2D" path="res://assets/zones/zone_1/motion_v2/poses/wildlife/bird_move_north_east_4.tres" id="37_nsnfv"]
+[ext_resource type="Texture2D" path="res://assets/zones/zone_1/motion_v2/poses/wildlife/bird_move_north_east_5.tres" id="38_0cjov"]
+[ext_resource type="Texture2D" path="res://assets/zones/zone_1/motion_v2/poses/wildlife/bird_move_north_east_6.tres" id="39_2tx0o"]
+[ext_resource type="Texture2D" path="res://assets/zones/zone_1/motion_v2/poses/wildlife/bird_move_north_east_7.tres" id="40_4qmf0"]
+[ext_resource type="Texture2D" path="res://assets/zones/zone_1/motion_v2/poses/wildlife/bird_move_north_west_0.tres" id="41_outhw"]
+[ext_resource type="Texture2D" path="res://assets/zones/zone_1/motion_v2/poses/wildlife/bird_move_north_west_1.tres" id="42_34o28"]
+[ext_resource type="Texture2D" path="res://assets/zones/zone_1/motion_v2/poses/wildlife/bird_move_north_west_2.tres" id="43_0eidg"]
+[ext_resource type="Texture2D" path="res://assets/zones/zone_1/motion_v2/poses/wildlife/bird_move_north_west_3.tres" id="44_a7e1p"]
+[ext_resource type="Texture2D" path="res://assets/zones/zone_1/motion_v2/poses/wildlife/bird_move_north_west_4.tres" id="45_i7kyg"]
+[ext_resource type="Texture2D" path="res://assets/zones/zone_1/motion_v2/poses/wildlife/bird_move_north_west_5.tres" id="46_px28j"]
+[ext_resource type="Texture2D" path="res://assets/zones/zone_1/motion_v2/poses/wildlife/bird_move_north_west_6.tres" id="47_1iqtr"]
+[ext_resource type="Texture2D" path="res://assets/zones/zone_1/motion_v2/poses/wildlife/bird_move_north_west_7.tres" id="48_mkxl6"]
+[ext_resource type="Texture2D" path="res://assets/zones/zone_1/motion_v2/poses/wildlife/bird_move_south_east_0.tres" id="49_3j2ga"]
+[ext_resource type="Texture2D" path="res://assets/zones/zone_1/motion_v2/poses/wildlife/bird_move_south_east_1.tres" id="50_peh11"]
+[ext_resource type="Texture2D" path="res://assets/zones/zone_1/motion_v2/poses/wildlife/bird_move_south_east_2.tres" id="51_bdnco"]
+[ext_resource type="Texture2D" path="res://assets/zones/zone_1/motion_v2/poses/wildlife/bird_move_south_east_3.tres" id="52_bqedl"]
+[ext_resource type="Texture2D" path="res://assets/zones/zone_1/motion_v2/poses/wildlife/bird_move_south_east_4.tres" id="53_lkbk5"]
+[ext_resource type="Texture2D" path="res://assets/zones/zone_1/motion_v2/poses/wildlife/bird_move_south_east_5.tres" id="54_x6chq"]
+[ext_resource type="Texture2D" path="res://assets/zones/zone_1/motion_v2/poses/wildlife/bird_move_south_east_6.tres" id="55_qof15"]
+[ext_resource type="Texture2D" path="res://assets/zones/zone_1/motion_v2/poses/wildlife/bird_move_south_east_7.tres" id="56_us8xt"]
+[ext_resource type="Texture2D" path="res://assets/zones/zone_1/motion_v2/poses/wildlife/bird_move_south_west_0.tres" id="57_53cv0"]
+[ext_resource type="Texture2D" path="res://assets/zones/zone_1/motion_v2/poses/wildlife/bird_move_south_west_1.tres" id="58_di8ri"]
+[ext_resource type="Texture2D" path="res://assets/zones/zone_1/motion_v2/poses/wildlife/bird_move_south_west_2.tres" id="59_1v4i8"]
+[ext_resource type="Texture2D" path="res://assets/zones/zone_1/motion_v2/poses/wildlife/bird_move_south_west_3.tres" id="60_iohu3"]
+[ext_resource type="Texture2D" path="res://assets/zones/zone_1/motion_v2/poses/wildlife/bird_move_south_west_4.tres" id="61_s5h7x"]
+[ext_resource type="Texture2D" path="res://assets/zones/zone_1/motion_v2/poses/wildlife/bird_move_south_west_5.tres" id="62_6bm5i"]
+[ext_resource type="Texture2D" path="res://assets/zones/zone_1/motion_v2/poses/wildlife/bird_move_south_west_6.tres" id="63_is7qy"]
+[ext_resource type="Texture2D" path="res://assets/zones/zone_1/motion_v2/poses/wildlife/bird_move_south_west_7.tres" id="64_phyyk"]
+[ext_resource type="Texture2D" path="res://assets/zones/zone_1/motion_v2/poses/wildlife/deer_idle_north_east_0.tres" id="65_cvujj"]
+[ext_resource type="Texture2D" path="res://assets/zones/zone_1/motion_v2/poses/wildlife/deer_idle_north_east_1.tres" id="66_mdnq6"]
+[ext_resource type="Texture2D" path="res://assets/zones/zone_1/motion_v2/poses/wildlife/deer_idle_north_east_2.tres" id="67_clmo7"]
+[ext_resource type="Texture2D" path="res://assets/zones/zone_1/motion_v2/poses/wildlife/deer_idle_north_east_3.tres" id="68_6nagp"]
+[ext_resource type="Texture2D" path="res://assets/zones/zone_1/motion_v2/poses/wildlife/deer_idle_north_east_4.tres" id="69_t3fl7"]
+[ext_resource type="Texture2D" path="res://assets/zones/zone_1/motion_v2/poses/wildlife/deer_idle_north_east_5.tres" id="70_vcx81"]
+[ext_resource type="Texture2D" path="res://assets/zones/zone_1/motion_v2/poses/wildlife/deer_idle_north_east_6.tres" id="71_pdi0h"]
+[ext_resource type="Texture2D" path="res://assets/zones/zone_1/motion_v2/poses/wildlife/deer_idle_north_east_7.tres" id="72_1hom2"]
+[ext_resource type="Texture2D" path="res://assets/zones/zone_1/motion_v2/poses/wildlife/deer_idle_north_west_0.tres" id="73_8ks3g"]
+[ext_resource type="Texture2D" path="res://assets/zones/zone_1/motion_v2/poses/wildlife/deer_idle_north_west_1.tres" id="74_cmcp3"]
+[ext_resource type="Texture2D" path="res://assets/zones/zone_1/motion_v2/poses/wildlife/deer_idle_north_west_2.tres" id="75_5q1pf"]
+[ext_resource type="Texture2D" path="res://assets/zones/zone_1/motion_v2/poses/wildlife/deer_idle_north_west_3.tres" id="76_ji4c1"]
+[ext_resource type="Texture2D" path="res://assets/zones/zone_1/motion_v2/poses/wildlife/deer_idle_north_west_4.tres" id="77_6fstg"]
+[ext_resource type="Texture2D" path="res://assets/zones/zone_1/motion_v2/poses/wildlife/deer_idle_north_west_5.tres" id="78_eytvb"]
+[ext_resource type="Texture2D" path="res://assets/zones/zone_1/motion_v2/poses/wildlife/deer_idle_north_west_6.tres" id="79_e6sci"]
+[ext_resource type="Texture2D" path="res://assets/zones/zone_1/motion_v2/poses/wildlife/deer_idle_north_west_7.tres" id="80_asw11"]
+[ext_resource type="Texture2D" path="res://assets/zones/zone_1/motion_v2/poses/wildlife/deer_idle_south_east_0.tres" id="81_xfgfm"]
+[ext_resource type="Texture2D" path="res://assets/zones/zone_1/motion_v2/poses/wildlife/deer_idle_south_east_1.tres" id="82_vg7ox"]
+[ext_resource type="Texture2D" path="res://assets/zones/zone_1/motion_v2/poses/wildlife/deer_idle_south_east_2.tres" id="83_60c5j"]
+[ext_resource type="Texture2D" path="res://assets/zones/zone_1/motion_v2/poses/wildlife/deer_idle_south_east_3.tres" id="84_fko4g"]
+[ext_resource type="Texture2D" path="res://assets/zones/zone_1/motion_v2/poses/wildlife/deer_idle_south_east_4.tres" id="85_fuave"]
+[ext_resource type="Texture2D" path="res://assets/zones/zone_1/motion_v2/poses/wildlife/deer_idle_south_east_5.tres" id="86_rad56"]
+[ext_resource type="Texture2D" path="res://assets/zones/zone_1/motion_v2/poses/wildlife/deer_idle_south_east_6.tres" id="87_4qyij"]
+[ext_resource type="Texture2D" path="res://assets/zones/zone_1/motion_v2/poses/wildlife/deer_idle_south_east_7.tres" id="88_v10rk"]
+[ext_resource type="Texture2D" path="res://assets/zones/zone_1/motion_v2/poses/wildlife/deer_idle_south_west_0.tres" id="89_sev83"]
+[ext_resource type="Texture2D" path="res://assets/zones/zone_1/motion_v2/poses/wildlife/deer_idle_south_west_1.tres" id="90_rbhaa"]
+[ext_resource type="Texture2D" path="res://assets/zones/zone_1/motion_v2/poses/wildlife/deer_idle_south_west_2.tres" id="91_tfxkb"]
+[ext_resource type="Texture2D" path="res://assets/zones/zone_1/motion_v2/poses/wildlife/deer_idle_south_west_3.tres" id="92_oc058"]
+[ext_resource type="Texture2D" path="res://assets/zones/zone_1/motion_v2/poses/wildlife/deer_idle_south_west_4.tres" id="93_tplca"]
+[ext_resource type="Texture2D" path="res://assets/zones/zone_1/motion_v2/poses/wildlife/deer_idle_south_west_5.tres" id="94_d3vd5"]
+[ext_resource type="Texture2D" path="res://assets/zones/zone_1/motion_v2/poses/wildlife/deer_idle_south_west_6.tres" id="95_ngp4w"]
+[ext_resource type="Texture2D" path="res://assets/zones/zone_1/motion_v2/poses/wildlife/deer_idle_south_west_7.tres" id="96_0f601"]
+[ext_resource type="Texture2D" path="res://assets/zones/zone_1/motion_v2/poses/wildlife/deer_move_north_east_0.tres" id="97_qr23i"]
+[ext_resource type="Texture2D" path="res://assets/zones/zone_1/motion_v2/poses/wildlife/deer_move_north_east_1.tres" id="98_v77tm"]
+[ext_resource type="Texture2D" path="res://assets/zones/zone_1/motion_v2/poses/wildlife/deer_move_north_east_2.tres" id="99_6xerj"]
+[ext_resource type="Texture2D" path="res://assets/zones/zone_1/motion_v2/poses/wildlife/deer_move_north_east_3.tres" id="100_e4tpa"]
+[ext_resource type="Texture2D" path="res://assets/zones/zone_1/motion_v2/poses/wildlife/deer_move_north_east_4.tres" id="101_oe4tp"]
+[ext_resource type="Texture2D" path="res://assets/zones/zone_1/motion_v2/poses/wildlife/deer_move_north_east_5.tres" id="102_p3kmh"]
+[ext_resource type="Texture2D" path="res://assets/zones/zone_1/motion_v2/poses/wildlife/deer_move_north_east_6.tres" id="103_hslko"]
+[ext_resource type="Texture2D" path="res://assets/zones/zone_1/motion_v2/poses/wildlife/deer_move_north_east_7.tres" id="104_ftvap"]
+[ext_resource type="Texture2D" path="res://assets/zones/zone_1/motion_v2/poses/wildlife/deer_move_north_west_0.tres" id="105_73mk3"]
+[ext_resource type="Texture2D" path="res://assets/zones/zone_1/motion_v2/poses/wildlife/deer_move_north_west_1.tres" id="106_14bm0"]
+[ext_resource type="Texture2D" path="res://assets/zones/zone_1/motion_v2/poses/wildlife/deer_move_north_west_2.tres" id="107_1eei5"]
+[ext_resource type="Texture2D" path="res://assets/zones/zone_1/motion_v2/poses/wildlife/deer_move_north_west_3.tres" id="108_k7la5"]
+[ext_resource type="Texture2D" path="res://assets/zones/zone_1/motion_v2/poses/wildlife/deer_move_north_west_4.tres" id="109_37c1a"]
+[ext_resource type="Texture2D" path="res://assets/zones/zone_1/motion_v2/poses/wildlife/deer_move_north_west_5.tres" id="110_bjpmu"]
+[ext_resource type="Texture2D" path="res://assets/zones/zone_1/motion_v2/poses/wildlife/deer_move_north_west_6.tres" id="111_s4iet"]
+[ext_resource type="Texture2D" path="res://assets/zones/zone_1/motion_v2/poses/wildlife/deer_move_north_west_7.tres" id="112_24478"]
+[ext_resource type="Texture2D" path="res://assets/zones/zone_1/motion_v2/poses/wildlife/deer_move_south_east_0.tres" id="113_m8bmb"]
+[ext_resource type="Texture2D" path="res://assets/zones/zone_1/motion_v2/poses/wildlife/deer_move_south_east_1.tres" id="114_xrp8x"]
+[ext_resource type="Texture2D" path="res://assets/zones/zone_1/motion_v2/poses/wildlife/deer_move_south_east_2.tres" id="115_ay4n5"]
+[ext_resource type="Texture2D" path="res://assets/zones/zone_1/motion_v2/poses/wildlife/deer_move_south_east_3.tres" id="116_rtkoc"]
+[ext_resource type="Texture2D" path="res://assets/zones/zone_1/motion_v2/poses/wildlife/deer_move_south_east_4.tres" id="117_mphrt"]
+[ext_resource type="Texture2D" path="res://assets/zones/zone_1/motion_v2/poses/wildlife/deer_move_south_east_5.tres" id="118_hjv28"]
+[ext_resource type="Texture2D" path="res://assets/zones/zone_1/motion_v2/poses/wildlife/deer_move_south_east_6.tres" id="119_tfju8"]
+[ext_resource type="Texture2D" path="res://assets/zones/zone_1/motion_v2/poses/wildlife/deer_move_south_east_7.tres" id="120_ivphd"]
+[ext_resource type="Texture2D" path="res://assets/zones/zone_1/motion_v2/poses/wildlife/deer_move_south_west_0.tres" id="121_ft7h6"]
+[ext_resource type="Texture2D" path="res://assets/zones/zone_1/motion_v2/poses/wildlife/deer_move_south_west_1.tres" id="122_230kj"]
+[ext_resource type="Texture2D" path="res://assets/zones/zone_1/motion_v2/poses/wildlife/deer_move_south_west_2.tres" id="123_vgymb"]
+[ext_resource type="Texture2D" path="res://assets/zones/zone_1/motion_v2/poses/wildlife/deer_move_south_west_3.tres" id="124_opan8"]
+[ext_resource type="Texture2D" path="res://assets/zones/zone_1/motion_v2/poses/wildlife/deer_move_south_west_4.tres" id="125_uyevk"]
+[ext_resource type="Texture2D" path="res://assets/zones/zone_1/motion_v2/poses/wildlife/deer_move_south_west_5.tres" id="126_o8tps"]
+[ext_resource type="Texture2D" path="res://assets/zones/zone_1/motion_v2/poses/wildlife/deer_move_south_west_6.tres" id="127_mejtr"]
+[ext_resource type="Texture2D" path="res://assets/zones/zone_1/motion_v2/poses/wildlife/deer_move_south_west_7.tres" id="128_7fv1y"]
+[ext_resource type="Texture2D" path="res://assets/zones/zone_1/motion_v2/poses/wildlife/fox_idle_north_east_0.tres" id="129_j0a0g"]
+[ext_resource type="Texture2D" path="res://assets/zones/zone_1/motion_v2/poses/wildlife/fox_idle_north_east_1.tres" id="130_j6ouy"]
+[ext_resource type="Texture2D" path="res://assets/zones/zone_1/motion_v2/poses/wildlife/fox_idle_north_east_2.tres" id="131_cpeia"]
+[ext_resource type="Texture2D" path="res://assets/zones/zone_1/motion_v2/poses/wildlife/fox_idle_north_east_3.tres" id="132_xwdnu"]
+[ext_resource type="Texture2D" path="res://assets/zones/zone_1/motion_v2/poses/wildlife/fox_idle_north_east_4.tres" id="133_aj7to"]
+[ext_resource type="Texture2D" path="res://assets/zones/zone_1/motion_v2/poses/wildlife/fox_idle_north_east_5.tres" id="134_t47mt"]
+[ext_resource type="Texture2D" path="res://assets/zones/zone_1/motion_v2/poses/wildlife/fox_idle_north_east_6.tres" id="135_74soq"]
+[ext_resource type="Texture2D" path="res://assets/zones/zone_1/motion_v2/poses/wildlife/fox_idle_north_east_7.tres" id="136_lg7hi"]
+[ext_resource type="Texture2D" path="res://assets/zones/zone_1/motion_v2/poses/wildlife/fox_idle_north_west_0.tres" id="137_qtkvx"]
+[ext_resource type="Texture2D" path="res://assets/zones/zone_1/motion_v2/poses/wildlife/fox_idle_north_west_1.tres" id="138_goddb"]
+[ext_resource type="Texture2D" path="res://assets/zones/zone_1/motion_v2/poses/wildlife/fox_idle_north_west_2.tres" id="139_ckmrk"]
+[ext_resource type="Texture2D" path="res://assets/zones/zone_1/motion_v2/poses/wildlife/fox_idle_north_west_3.tres" id="140_63fdd"]
+[ext_resource type="Texture2D" path="res://assets/zones/zone_1/motion_v2/poses/wildlife/fox_idle_north_west_4.tres" id="141_wn0ap"]
+[ext_resource type="Texture2D" path="res://assets/zones/zone_1/motion_v2/poses/wildlife/fox_idle_north_west_5.tres" id="142_tityl"]
+[ext_resource type="Texture2D" path="res://assets/zones/zone_1/motion_v2/poses/wildlife/fox_idle_north_west_6.tres" id="143_w215w"]
+[ext_resource type="Texture2D" path="res://assets/zones/zone_1/motion_v2/poses/wildlife/fox_idle_north_west_7.tres" id="144_0o4qg"]
+[ext_resource type="Texture2D" path="res://assets/zones/zone_1/motion_v2/poses/wildlife/fox_idle_south_east_0.tres" id="145_8b670"]
+[ext_resource type="Texture2D" path="res://assets/zones/zone_1/motion_v2/poses/wildlife/fox_idle_south_east_1.tres" id="146_0y20j"]
+[ext_resource type="Texture2D" path="res://assets/zones/zone_1/motion_v2/poses/wildlife/fox_idle_south_east_2.tres" id="147_ncpnv"]
+[ext_resource type="Texture2D" path="res://assets/zones/zone_1/motion_v2/poses/wildlife/fox_idle_south_east_3.tres" id="148_01yx7"]
+[ext_resource type="Texture2D" path="res://assets/zones/zone_1/motion_v2/poses/wildlife/fox_idle_south_east_4.tres" id="149_lsnif"]
+[ext_resource type="Texture2D" path="res://assets/zones/zone_1/motion_v2/poses/wildlife/fox_idle_south_east_5.tres" id="150_q47xm"]
+[ext_resource type="Texture2D" path="res://assets/zones/zone_1/motion_v2/poses/wildlife/fox_idle_south_east_6.tres" id="151_60vjt"]
+[ext_resource type="Texture2D" path="res://assets/zones/zone_1/motion_v2/poses/wildlife/fox_idle_south_east_7.tres" id="152_2a31k"]
+[ext_resource type="Texture2D" path="res://assets/zones/zone_1/motion_v2/poses/wildlife/fox_idle_south_west_0.tres" id="153_q8h4b"]
+[ext_resource type="Texture2D" path="res://assets/zones/zone_1/motion_v2/poses/wildlife/fox_idle_south_west_1.tres" id="154_lxlxk"]
+[ext_resource type="Texture2D" path="res://assets/zones/zone_1/motion_v2/poses/wildlife/fox_idle_south_west_2.tres" id="155_ffevd"]
+[ext_resource type="Texture2D" path="res://assets/zones/zone_1/motion_v2/poses/wildlife/fox_idle_south_west_3.tres" id="156_vyao6"]
+[ext_resource type="Texture2D" path="res://assets/zones/zone_1/motion_v2/poses/wildlife/fox_idle_south_west_4.tres" id="157_r7l6t"]
+[ext_resource type="Texture2D" path="res://assets/zones/zone_1/motion_v2/poses/wildlife/fox_idle_south_west_5.tres" id="158_7ohc7"]
+[ext_resource type="Texture2D" path="res://assets/zones/zone_1/motion_v2/poses/wildlife/fox_idle_south_west_6.tres" id="159_isowj"]
+[ext_resource type="Texture2D" path="res://assets/zones/zone_1/motion_v2/poses/wildlife/fox_idle_south_west_7.tres" id="160_u7b4p"]
+[ext_resource type="Texture2D" path="res://assets/zones/zone_1/motion_v2/poses/wildlife/fox_move_north_east_0.tres" id="161_jptbw"]
+[ext_resource type="Texture2D" path="res://assets/zones/zone_1/motion_v2/poses/wildlife/fox_move_north_east_1.tres" id="162_rjm6f"]
+[ext_resource type="Texture2D" path="res://assets/zones/zone_1/motion_v2/poses/wildlife/fox_move_north_east_2.tres" id="163_xatax"]
+[ext_resource type="Texture2D" path="res://assets/zones/zone_1/motion_v2/poses/wildlife/fox_move_north_east_3.tres" id="164_ubigt"]
+[ext_resource type="Texture2D" path="res://assets/zones/zone_1/motion_v2/poses/wildlife/fox_move_north_east_4.tres" id="165_5ltfo"]
+[ext_resource type="Texture2D" path="res://assets/zones/zone_1/motion_v2/poses/wildlife/fox_move_north_east_5.tres" id="166_ooqcy"]
+[ext_resource type="Texture2D" path="res://assets/zones/zone_1/motion_v2/poses/wildlife/fox_move_north_east_6.tres" id="167_3xnkp"]
+[ext_resource type="Texture2D" path="res://assets/zones/zone_1/motion_v2/poses/wildlife/fox_move_north_east_7.tres" id="168_hp5x6"]
+[ext_resource type="Texture2D" path="res://assets/zones/zone_1/motion_v2/poses/wildlife/fox_move_north_west_0.tres" id="169_opn5p"]
+[ext_resource type="Texture2D" path="res://assets/zones/zone_1/motion_v2/poses/wildlife/fox_move_north_west_1.tres" id="170_t1vwc"]
+[ext_resource type="Texture2D" path="res://assets/zones/zone_1/motion_v2/poses/wildlife/fox_move_north_west_2.tres" id="171_ati5j"]
+[ext_resource type="Texture2D" path="res://assets/zones/zone_1/motion_v2/poses/wildlife/fox_move_north_west_3.tres" id="172_euxhu"]
+[ext_resource type="Texture2D" path="res://assets/zones/zone_1/motion_v2/poses/wildlife/fox_move_north_west_4.tres" id="173_chn5t"]
+[ext_resource type="Texture2D" path="res://assets/zones/zone_1/motion_v2/poses/wildlife/fox_move_north_west_5.tres" id="174_v2gal"]
+[ext_resource type="Texture2D" path="res://assets/zones/zone_1/motion_v2/poses/wildlife/fox_move_north_west_6.tres" id="175_yf4s8"]
+[ext_resource type="Texture2D" path="res://assets/zones/zone_1/motion_v2/poses/wildlife/fox_move_north_west_7.tres" id="176_p1oa1"]
+[ext_resource type="Texture2D" path="res://assets/zones/zone_1/motion_v2/poses/wildlife/fox_move_south_east_0.tres" id="177_3g4f0"]
+[ext_resource type="Texture2D" path="res://assets/zones/zone_1/motion_v2/poses/wildlife/fox_move_south_east_1.tres" id="178_psvqf"]
+[ext_resource type="Texture2D" path="res://assets/zones/zone_1/motion_v2/poses/wildlife/fox_move_south_east_2.tres" id="179_3oi1f"]
+[ext_resource type="Texture2D" path="res://assets/zones/zone_1/motion_v2/poses/wildlife/fox_move_south_east_3.tres" id="180_fohun"]
+[ext_resource type="Texture2D" path="res://assets/zones/zone_1/motion_v2/poses/wildlife/fox_move_south_east_4.tres" id="181_4hbfq"]
+[ext_resource type="Texture2D" path="res://assets/zones/zone_1/motion_v2/poses/wildlife/fox_move_south_east_5.tres" id="182_1dn07"]
+[ext_resource type="Texture2D" path="res://assets/zones/zone_1/motion_v2/poses/wildlife/fox_move_south_east_6.tres" id="183_ltcaa"]
+[ext_resource type="Texture2D" path="res://assets/zones/zone_1/motion_v2/poses/wildlife/fox_move_south_east_7.tres" id="184_ow7w4"]
+[ext_resource type="Texture2D" path="res://assets/zones/zone_1/motion_v2/poses/wildlife/fox_move_south_west_0.tres" id="185_2hahl"]
+[ext_resource type="Texture2D" path="res://assets/zones/zone_1/motion_v2/poses/wildlife/fox_move_south_west_1.tres" id="186_b4ohu"]
+[ext_resource type="Texture2D" path="res://assets/zones/zone_1/motion_v2/poses/wildlife/fox_move_south_west_2.tres" id="187_3lk1r"]
+[ext_resource type="Texture2D" path="res://assets/zones/zone_1/motion_v2/poses/wildlife/fox_move_south_west_3.tres" id="188_3i47o"]
+[ext_resource type="Texture2D" path="res://assets/zones/zone_1/motion_v2/poses/wildlife/fox_move_south_west_4.tres" id="189_iwkdc"]
+[ext_resource type="Texture2D" path="res://assets/zones/zone_1/motion_v2/poses/wildlife/fox_move_south_west_5.tres" id="190_vssu4"]
+[ext_resource type="Texture2D" path="res://assets/zones/zone_1/motion_v2/poses/wildlife/fox_move_south_west_6.tres" id="191_htn32"]
+[ext_resource type="Texture2D" path="res://assets/zones/zone_1/motion_v2/poses/wildlife/fox_move_south_west_7.tres" id="192_yvgws"]
+[ext_resource type="Texture2D" path="res://assets/zones/zone_1/motion_v2/poses/wildlife/hare_idle_north_east_0.tres" id="193_sqmvd"]
+[ext_resource type="Texture2D" path="res://assets/zones/zone_1/motion_v2/poses/wildlife/hare_idle_north_east_1.tres" id="194_ol8a2"]
+[ext_resource type="Texture2D" path="res://assets/zones/zone_1/motion_v2/poses/wildlife/hare_idle_north_east_2.tres" id="195_xbrh7"]
+[ext_resource type="Texture2D" path="res://assets/zones/zone_1/motion_v2/poses/wildlife/hare_idle_north_east_3.tres" id="196_tp05o"]
+[ext_resource type="Texture2D" path="res://assets/zones/zone_1/motion_v2/poses/wildlife/hare_idle_north_east_4.tres" id="197_1wghx"]
+[ext_resource type="Texture2D" path="res://assets/zones/zone_1/motion_v2/poses/wildlife/hare_idle_north_east_5.tres" id="198_24kwd"]
+[ext_resource type="Texture2D" path="res://assets/zones/zone_1/motion_v2/poses/wildlife/hare_idle_north_east_6.tres" id="199_52gni"]
+[ext_resource type="Texture2D" path="res://assets/zones/zone_1/motion_v2/poses/wildlife/hare_idle_north_east_7.tres" id="200_ct8s1"]
+[ext_resource type="Texture2D" path="res://assets/zones/zone_1/motion_v2/poses/wildlife/hare_idle_north_west_0.tres" id="201_m4j41"]
+[ext_resource type="Texture2D" path="res://assets/zones/zone_1/motion_v2/poses/wildlife/hare_idle_north_west_1.tres" id="202_ss8by"]
+[ext_resource type="Texture2D" path="res://assets/zones/zone_1/motion_v2/poses/wildlife/hare_idle_north_west_2.tres" id="203_y3v3s"]
+[ext_resource type="Texture2D" path="res://assets/zones/zone_1/motion_v2/poses/wildlife/hare_idle_north_west_3.tres" id="204_vwjs7"]
+[ext_resource type="Texture2D" path="res://assets/zones/zone_1/motion_v2/poses/wildlife/hare_idle_north_west_4.tres" id="205_lmogj"]
+[ext_resource type="Texture2D" path="res://assets/zones/zone_1/motion_v2/poses/wildlife/hare_idle_north_west_5.tres" id="206_m2maj"]
+[ext_resource type="Texture2D" path="res://assets/zones/zone_1/motion_v2/poses/wildlife/hare_idle_north_west_6.tres" id="207_hrrp1"]
+[ext_resource type="Texture2D" path="res://assets/zones/zone_1/motion_v2/poses/wildlife/hare_idle_north_west_7.tres" id="208_ermq4"]
+[ext_resource type="Texture2D" path="res://assets/zones/zone_1/motion_v2/poses/wildlife/hare_idle_south_east_0.tres" id="209_1jkdl"]
+[ext_resource type="Texture2D" path="res://assets/zones/zone_1/motion_v2/poses/wildlife/hare_idle_south_east_1.tres" id="210_7qfvb"]
+[ext_resource type="Texture2D" path="res://assets/zones/zone_1/motion_v2/poses/wildlife/hare_idle_south_east_2.tres" id="211_n7cbs"]
+[ext_resource type="Texture2D" path="res://assets/zones/zone_1/motion_v2/poses/wildlife/hare_idle_south_east_3.tres" id="212_wevym"]
+[ext_resource type="Texture2D" path="res://assets/zones/zone_1/motion_v2/poses/wildlife/hare_idle_south_east_4.tres" id="213_g3yvp"]
+[ext_resource type="Texture2D" path="res://assets/zones/zone_1/motion_v2/poses/wildlife/hare_idle_south_east_5.tres" id="214_5awpk"]
+[ext_resource type="Texture2D" path="res://assets/zones/zone_1/motion_v2/poses/wildlife/hare_idle_south_east_6.tres" id="215_hd81m"]
+[ext_resource type="Texture2D" path="res://assets/zones/zone_1/motion_v2/poses/wildlife/hare_idle_south_east_7.tres" id="216_en2d0"]
+[ext_resource type="Texture2D" path="res://assets/zones/zone_1/motion_v2/poses/wildlife/hare_idle_south_west_0.tres" id="217_rq1qf"]
+[ext_resource type="Texture2D" path="res://assets/zones/zone_1/motion_v2/poses/wildlife/hare_idle_south_west_1.tres" id="218_uyrgd"]
+[ext_resource type="Texture2D" path="res://assets/zones/zone_1/motion_v2/poses/wildlife/hare_idle_south_west_2.tres" id="219_rtw4h"]
+[ext_resource type="Texture2D" path="res://assets/zones/zone_1/motion_v2/poses/wildlife/hare_idle_south_west_3.tres" id="220_2bxs7"]
+[ext_resource type="Texture2D" path="res://assets/zones/zone_1/motion_v2/poses/wildlife/hare_idle_south_west_4.tres" id="221_03gs2"]
+[ext_resource type="Texture2D" path="res://assets/zones/zone_1/motion_v2/poses/wildlife/hare_idle_south_west_5.tres" id="222_kb6ml"]
+[ext_resource type="Texture2D" path="res://assets/zones/zone_1/motion_v2/poses/wildlife/hare_idle_south_west_6.tres" id="223_m3x6m"]
+[ext_resource type="Texture2D" path="res://assets/zones/zone_1/motion_v2/poses/wildlife/hare_idle_south_west_7.tres" id="224_6ifw1"]
+[ext_resource type="Texture2D" path="res://assets/zones/zone_1/motion_v2/poses/wildlife/hare_move_north_east_0.tres" id="225_suwul"]
+[ext_resource type="Texture2D" path="res://assets/zones/zone_1/motion_v2/poses/wildlife/hare_move_north_east_1.tres" id="226_rjnix"]
+[ext_resource type="Texture2D" path="res://assets/zones/zone_1/motion_v2/poses/wildlife/hare_move_north_east_2.tres" id="227_jyfed"]
+[ext_resource type="Texture2D" path="res://assets/zones/zone_1/motion_v2/poses/wildlife/hare_move_north_east_3.tres" id="228_xhco5"]
+[ext_resource type="Texture2D" path="res://assets/zones/zone_1/motion_v2/poses/wildlife/hare_move_north_east_4.tres" id="229_w08d1"]
+[ext_resource type="Texture2D" path="res://assets/zones/zone_1/motion_v2/poses/wildlife/hare_move_north_east_5.tres" id="230_u55cd"]
+[ext_resource type="Texture2D" path="res://assets/zones/zone_1/motion_v2/poses/wildlife/hare_move_north_east_6.tres" id="231_rg3sv"]
+[ext_resource type="Texture2D" path="res://assets/zones/zone_1/motion_v2/poses/wildlife/hare_move_north_east_7.tres" id="232_3x13v"]
+[ext_resource type="Texture2D" path="res://assets/zones/zone_1/motion_v2/poses/wildlife/hare_move_north_west_0.tres" id="233_biokr"]
+[ext_resource type="Texture2D" path="res://assets/zones/zone_1/motion_v2/poses/wildlife/hare_move_north_west_1.tres" id="234_cvjdh"]
+[ext_resource type="Texture2D" path="res://assets/zones/zone_1/motion_v2/poses/wildlife/hare_move_north_west_2.tres" id="235_lq8sl"]
+[ext_resource type="Texture2D" path="res://assets/zones/zone_1/motion_v2/poses/wildlife/hare_move_north_west_3.tres" id="236_7bbwi"]
+[ext_resource type="Texture2D" path="res://assets/zones/zone_1/motion_v2/poses/wildlife/hare_move_north_west_4.tres" id="237_xatbc"]
+[ext_resource type="Texture2D" path="res://assets/zones/zone_1/motion_v2/poses/wildlife/hare_move_north_west_5.tres" id="238_6juhg"]
+[ext_resource type="Texture2D" path="res://assets/zones/zone_1/motion_v2/poses/wildlife/hare_move_north_west_6.tres" id="239_k53j8"]
+[ext_resource type="Texture2D" path="res://assets/zones/zone_1/motion_v2/poses/wildlife/hare_move_north_west_7.tres" id="240_bse47"]
+[ext_resource type="Texture2D" path="res://assets/zones/zone_1/motion_v2/poses/wildlife/hare_move_south_east_0.tres" id="241_6gr7i"]
+[ext_resource type="Texture2D" path="res://assets/zones/zone_1/motion_v2/poses/wildlife/hare_move_south_east_1.tres" id="242_0t3f4"]
+[ext_resource type="Texture2D" path="res://assets/zones/zone_1/motion_v2/poses/wildlife/hare_move_south_east_2.tres" id="243_goffh"]
+[ext_resource type="Texture2D" path="res://assets/zones/zone_1/motion_v2/poses/wildlife/hare_move_south_east_3.tres" id="244_0xeys"]
+[ext_resource type="Texture2D" path="res://assets/zones/zone_1/motion_v2/poses/wildlife/hare_move_south_east_4.tres" id="245_a3dfp"]
+[ext_resource type="Texture2D" path="res://assets/zones/zone_1/motion_v2/poses/wildlife/hare_move_south_east_5.tres" id="246_wsa18"]
+[ext_resource type="Texture2D" path="res://assets/zones/zone_1/motion_v2/poses/wildlife/hare_move_south_east_6.tres" id="247_r41um"]
+[ext_resource type="Texture2D" path="res://assets/zones/zone_1/motion_v2/poses/wildlife/hare_move_south_east_7.tres" id="248_ieex6"]
+[ext_resource type="Texture2D" path="res://assets/zones/zone_1/motion_v2/poses/wildlife/hare_move_south_west_0.tres" id="249_6q8bi"]
+[ext_resource type="Texture2D" path="res://assets/zones/zone_1/motion_v2/poses/wildlife/hare_move_south_west_1.tres" id="250_gv3vu"]
+[ext_resource type="Texture2D" path="res://assets/zones/zone_1/motion_v2/poses/wildlife/hare_move_south_west_2.tres" id="251_2yu18"]
+[ext_resource type="Texture2D" path="res://assets/zones/zone_1/motion_v2/poses/wildlife/hare_move_south_west_3.tres" id="252_53krp"]
+[ext_resource type="Texture2D" path="res://assets/zones/zone_1/motion_v2/poses/wildlife/hare_move_south_west_4.tres" id="253_v7kvw"]
+[ext_resource type="Texture2D" path="res://assets/zones/zone_1/motion_v2/poses/wildlife/hare_move_south_west_5.tres" id="254_u4trp"]
+[ext_resource type="Texture2D" path="res://assets/zones/zone_1/motion_v2/poses/wildlife/hare_move_south_west_6.tres" id="255_signc"]
+[ext_resource type="Texture2D" path="res://assets/zones/zone_1/motion_v2/poses/wildlife/hare_move_south_west_7.tres" id="256_0d8kf"]
+
+[resource]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("1_56y1l")
+}, {
+"duration": 1.0,
+"texture": ExtResource("2_gdpbi")
+}, {
+"duration": 1.0,
+"texture": ExtResource("3_iqx5v")
+}, {
+"duration": 1.0,
+"texture": ExtResource("4_ti8br")
+}, {
+"duration": 1.0,
+"texture": ExtResource("5_7vgy8")
+}, {
+"duration": 1.0,
+"texture": ExtResource("6_ixlb8")
+}, {
+"duration": 1.0,
+"texture": ExtResource("7_jekhf")
+}, {
+"duration": 1.0,
+"texture": ExtResource("8_0v6jk")
+}],
+"loop": 1,
+"name": &"bird_idle_north_east",
+"speed": 2.5
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("9_1t7qe")
+}, {
+"duration": 1.0,
+"texture": ExtResource("10_mrafy")
+}, {
+"duration": 1.0,
+"texture": ExtResource("11_7k512")
+}, {
+"duration": 1.0,
+"texture": ExtResource("12_6ndep")
+}, {
+"duration": 1.0,
+"texture": ExtResource("13_a7ast")
+}, {
+"duration": 1.0,
+"texture": ExtResource("14_ocvu1")
+}, {
+"duration": 1.0,
+"texture": ExtResource("15_6dati")
+}, {
+"duration": 1.0,
+"texture": ExtResource("16_sm45y")
+}],
+"loop": 1,
+"name": &"bird_idle_north_west",
+"speed": 2.5
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("17_4hlps")
+}, {
+"duration": 1.0,
+"texture": ExtResource("18_cc34d")
+}, {
+"duration": 1.0,
+"texture": ExtResource("19_qr3an")
+}, {
+"duration": 1.0,
+"texture": ExtResource("20_2vi0u")
+}, {
+"duration": 1.0,
+"texture": ExtResource("21_f3523")
+}, {
+"duration": 1.0,
+"texture": ExtResource("22_qbw2s")
+}, {
+"duration": 1.0,
+"texture": ExtResource("23_vxxum")
+}, {
+"duration": 1.0,
+"texture": ExtResource("24_siw6j")
+}],
+"loop": 1,
+"name": &"bird_idle_south_east",
+"speed": 2.5
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("25_6fxn4")
+}, {
+"duration": 1.0,
+"texture": ExtResource("26_bakwv")
+}, {
+"duration": 1.0,
+"texture": ExtResource("27_4ont8")
+}, {
+"duration": 1.0,
+"texture": ExtResource("28_3wa6j")
+}, {
+"duration": 1.0,
+"texture": ExtResource("29_8oatf")
+}, {
+"duration": 1.0,
+"texture": ExtResource("30_m8gnw")
+}, {
+"duration": 1.0,
+"texture": ExtResource("31_giyb7")
+}, {
+"duration": 1.0,
+"texture": ExtResource("32_jwbym")
+}],
+"loop": 1,
+"name": &"bird_idle_south_west",
+"speed": 2.5
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("33_gxkjq")
+}, {
+"duration": 1.0,
+"texture": ExtResource("34_65y8j")
+}, {
+"duration": 1.0,
+"texture": ExtResource("35_ftj0d")
+}, {
+"duration": 1.0,
+"texture": ExtResource("36_8mg1k")
+}, {
+"duration": 1.0,
+"texture": ExtResource("37_nsnfv")
+}, {
+"duration": 1.0,
+"texture": ExtResource("38_0cjov")
+}, {
+"duration": 1.0,
+"texture": ExtResource("39_2tx0o")
+}, {
+"duration": 1.0,
+"texture": ExtResource("40_4qmf0")
+}],
+"loop": 1,
+"name": &"bird_move_north_east",
+"speed": 7.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("41_outhw")
+}, {
+"duration": 1.0,
+"texture": ExtResource("42_34o28")
+}, {
+"duration": 1.0,
+"texture": ExtResource("43_0eidg")
+}, {
+"duration": 1.0,
+"texture": ExtResource("44_a7e1p")
+}, {
+"duration": 1.0,
+"texture": ExtResource("45_i7kyg")
+}, {
+"duration": 1.0,
+"texture": ExtResource("46_px28j")
+}, {
+"duration": 1.0,
+"texture": ExtResource("47_1iqtr")
+}, {
+"duration": 1.0,
+"texture": ExtResource("48_mkxl6")
+}],
+"loop": 1,
+"name": &"bird_move_north_west",
+"speed": 7.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("49_3j2ga")
+}, {
+"duration": 1.0,
+"texture": ExtResource("50_peh11")
+}, {
+"duration": 1.0,
+"texture": ExtResource("51_bdnco")
+}, {
+"duration": 1.0,
+"texture": ExtResource("52_bqedl")
+}, {
+"duration": 1.0,
+"texture": ExtResource("53_lkbk5")
+}, {
+"duration": 1.0,
+"texture": ExtResource("54_x6chq")
+}, {
+"duration": 1.0,
+"texture": ExtResource("55_qof15")
+}, {
+"duration": 1.0,
+"texture": ExtResource("56_us8xt")
+}],
+"loop": 1,
+"name": &"bird_move_south_east",
+"speed": 7.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("57_53cv0")
+}, {
+"duration": 1.0,
+"texture": ExtResource("58_di8ri")
+}, {
+"duration": 1.0,
+"texture": ExtResource("59_1v4i8")
+}, {
+"duration": 1.0,
+"texture": ExtResource("60_iohu3")
+}, {
+"duration": 1.0,
+"texture": ExtResource("61_s5h7x")
+}, {
+"duration": 1.0,
+"texture": ExtResource("62_6bm5i")
+}, {
+"duration": 1.0,
+"texture": ExtResource("63_is7qy")
+}, {
+"duration": 1.0,
+"texture": ExtResource("64_phyyk")
+}],
+"loop": 1,
+"name": &"bird_move_south_west",
+"speed": 7.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("65_cvujj")
+}, {
+"duration": 1.0,
+"texture": ExtResource("66_mdnq6")
+}, {
+"duration": 1.0,
+"texture": ExtResource("67_clmo7")
+}, {
+"duration": 1.0,
+"texture": ExtResource("68_6nagp")
+}, {
+"duration": 1.0,
+"texture": ExtResource("69_t3fl7")
+}, {
+"duration": 1.0,
+"texture": ExtResource("70_vcx81")
+}, {
+"duration": 1.0,
+"texture": ExtResource("71_pdi0h")
+}, {
+"duration": 1.0,
+"texture": ExtResource("72_1hom2")
+}],
+"loop": 1,
+"name": &"deer_idle_north_east",
+"speed": 2.5
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("73_8ks3g")
+}, {
+"duration": 1.0,
+"texture": ExtResource("74_cmcp3")
+}, {
+"duration": 1.0,
+"texture": ExtResource("75_5q1pf")
+}, {
+"duration": 1.0,
+"texture": ExtResource("76_ji4c1")
+}, {
+"duration": 1.0,
+"texture": ExtResource("77_6fstg")
+}, {
+"duration": 1.0,
+"texture": ExtResource("78_eytvb")
+}, {
+"duration": 1.0,
+"texture": ExtResource("79_e6sci")
+}, {
+"duration": 1.0,
+"texture": ExtResource("80_asw11")
+}],
+"loop": 1,
+"name": &"deer_idle_north_west",
+"speed": 2.5
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("81_xfgfm")
+}, {
+"duration": 1.0,
+"texture": ExtResource("82_vg7ox")
+}, {
+"duration": 1.0,
+"texture": ExtResource("83_60c5j")
+}, {
+"duration": 1.0,
+"texture": ExtResource("84_fko4g")
+}, {
+"duration": 1.0,
+"texture": ExtResource("85_fuave")
+}, {
+"duration": 1.0,
+"texture": ExtResource("86_rad56")
+}, {
+"duration": 1.0,
+"texture": ExtResource("87_4qyij")
+}, {
+"duration": 1.0,
+"texture": ExtResource("88_v10rk")
+}],
+"loop": 1,
+"name": &"deer_idle_south_east",
+"speed": 2.5
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("89_sev83")
+}, {
+"duration": 1.0,
+"texture": ExtResource("90_rbhaa")
+}, {
+"duration": 1.0,
+"texture": ExtResource("91_tfxkb")
+}, {
+"duration": 1.0,
+"texture": ExtResource("92_oc058")
+}, {
+"duration": 1.0,
+"texture": ExtResource("93_tplca")
+}, {
+"duration": 1.0,
+"texture": ExtResource("94_d3vd5")
+}, {
+"duration": 1.0,
+"texture": ExtResource("95_ngp4w")
+}, {
+"duration": 1.0,
+"texture": ExtResource("96_0f601")
+}],
+"loop": 1,
+"name": &"deer_idle_south_west",
+"speed": 2.5
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("97_qr23i")
+}, {
+"duration": 1.0,
+"texture": ExtResource("98_v77tm")
+}, {
+"duration": 1.0,
+"texture": ExtResource("99_6xerj")
+}, {
+"duration": 1.0,
+"texture": ExtResource("100_e4tpa")
+}, {
+"duration": 1.0,
+"texture": ExtResource("101_oe4tp")
+}, {
+"duration": 1.0,
+"texture": ExtResource("102_p3kmh")
+}, {
+"duration": 1.0,
+"texture": ExtResource("103_hslko")
+}, {
+"duration": 1.0,
+"texture": ExtResource("104_ftvap")
+}],
+"loop": 1,
+"name": &"deer_move_north_east",
+"speed": 6.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("105_73mk3")
+}, {
+"duration": 1.0,
+"texture": ExtResource("106_14bm0")
+}, {
+"duration": 1.0,
+"texture": ExtResource("107_1eei5")
+}, {
+"duration": 1.0,
+"texture": ExtResource("108_k7la5")
+}, {
+"duration": 1.0,
+"texture": ExtResource("109_37c1a")
+}, {
+"duration": 1.0,
+"texture": ExtResource("110_bjpmu")
+}, {
+"duration": 1.0,
+"texture": ExtResource("111_s4iet")
+}, {
+"duration": 1.0,
+"texture": ExtResource("112_24478")
+}],
+"loop": 1,
+"name": &"deer_move_north_west",
+"speed": 6.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("113_m8bmb")
+}, {
+"duration": 1.0,
+"texture": ExtResource("114_xrp8x")
+}, {
+"duration": 1.0,
+"texture": ExtResource("115_ay4n5")
+}, {
+"duration": 1.0,
+"texture": ExtResource("116_rtkoc")
+}, {
+"duration": 1.0,
+"texture": ExtResource("117_mphrt")
+}, {
+"duration": 1.0,
+"texture": ExtResource("118_hjv28")
+}, {
+"duration": 1.0,
+"texture": ExtResource("119_tfju8")
+}, {
+"duration": 1.0,
+"texture": ExtResource("120_ivphd")
+}],
+"loop": 1,
+"name": &"deer_move_south_east",
+"speed": 6.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("121_ft7h6")
+}, {
+"duration": 1.0,
+"texture": ExtResource("122_230kj")
+}, {
+"duration": 1.0,
+"texture": ExtResource("123_vgymb")
+}, {
+"duration": 1.0,
+"texture": ExtResource("124_opan8")
+}, {
+"duration": 1.0,
+"texture": ExtResource("125_uyevk")
+}, {
+"duration": 1.0,
+"texture": ExtResource("126_o8tps")
+}, {
+"duration": 1.0,
+"texture": ExtResource("127_mejtr")
+}, {
+"duration": 1.0,
+"texture": ExtResource("128_7fv1y")
+}],
+"loop": 1,
+"name": &"deer_move_south_west",
+"speed": 6.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("129_j0a0g")
+}, {
+"duration": 1.0,
+"texture": ExtResource("130_j6ouy")
+}, {
+"duration": 1.0,
+"texture": ExtResource("131_cpeia")
+}, {
+"duration": 1.0,
+"texture": ExtResource("132_xwdnu")
+}, {
+"duration": 1.0,
+"texture": ExtResource("133_aj7to")
+}, {
+"duration": 1.0,
+"texture": ExtResource("134_t47mt")
+}, {
+"duration": 1.0,
+"texture": ExtResource("135_74soq")
+}, {
+"duration": 1.0,
+"texture": ExtResource("136_lg7hi")
+}],
+"loop": 1,
+"name": &"fox_idle_north_east",
+"speed": 2.5
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("137_qtkvx")
+}, {
+"duration": 1.0,
+"texture": ExtResource("138_goddb")
+}, {
+"duration": 1.0,
+"texture": ExtResource("139_ckmrk")
+}, {
+"duration": 1.0,
+"texture": ExtResource("140_63fdd")
+}, {
+"duration": 1.0,
+"texture": ExtResource("141_wn0ap")
+}, {
+"duration": 1.0,
+"texture": ExtResource("142_tityl")
+}, {
+"duration": 1.0,
+"texture": ExtResource("143_w215w")
+}, {
+"duration": 1.0,
+"texture": ExtResource("144_0o4qg")
+}],
+"loop": 1,
+"name": &"fox_idle_north_west",
+"speed": 2.5
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("145_8b670")
+}, {
+"duration": 1.0,
+"texture": ExtResource("146_0y20j")
+}, {
+"duration": 1.0,
+"texture": ExtResource("147_ncpnv")
+}, {
+"duration": 1.0,
+"texture": ExtResource("148_01yx7")
+}, {
+"duration": 1.0,
+"texture": ExtResource("149_lsnif")
+}, {
+"duration": 1.0,
+"texture": ExtResource("150_q47xm")
+}, {
+"duration": 1.0,
+"texture": ExtResource("151_60vjt")
+}, {
+"duration": 1.0,
+"texture": ExtResource("152_2a31k")
+}],
+"loop": 1,
+"name": &"fox_idle_south_east",
+"speed": 2.5
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("153_q8h4b")
+}, {
+"duration": 1.0,
+"texture": ExtResource("154_lxlxk")
+}, {
+"duration": 1.0,
+"texture": ExtResource("155_ffevd")
+}, {
+"duration": 1.0,
+"texture": ExtResource("156_vyao6")
+}, {
+"duration": 1.0,
+"texture": ExtResource("157_r7l6t")
+}, {
+"duration": 1.0,
+"texture": ExtResource("158_7ohc7")
+}, {
+"duration": 1.0,
+"texture": ExtResource("159_isowj")
+}, {
+"duration": 1.0,
+"texture": ExtResource("160_u7b4p")
+}],
+"loop": 1,
+"name": &"fox_idle_south_west",
+"speed": 2.5
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("161_jptbw")
+}, {
+"duration": 1.0,
+"texture": ExtResource("162_rjm6f")
+}, {
+"duration": 1.0,
+"texture": ExtResource("163_xatax")
+}, {
+"duration": 1.0,
+"texture": ExtResource("164_ubigt")
+}, {
+"duration": 1.0,
+"texture": ExtResource("165_5ltfo")
+}, {
+"duration": 1.0,
+"texture": ExtResource("166_ooqcy")
+}, {
+"duration": 1.0,
+"texture": ExtResource("167_3xnkp")
+}, {
+"duration": 1.0,
+"texture": ExtResource("168_hp5x6")
+}],
+"loop": 1,
+"name": &"fox_move_north_east",
+"speed": 7.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("169_opn5p")
+}, {
+"duration": 1.0,
+"texture": ExtResource("170_t1vwc")
+}, {
+"duration": 1.0,
+"texture": ExtResource("171_ati5j")
+}, {
+"duration": 1.0,
+"texture": ExtResource("172_euxhu")
+}, {
+"duration": 1.0,
+"texture": ExtResource("173_chn5t")
+}, {
+"duration": 1.0,
+"texture": ExtResource("174_v2gal")
+}, {
+"duration": 1.0,
+"texture": ExtResource("175_yf4s8")
+}, {
+"duration": 1.0,
+"texture": ExtResource("176_p1oa1")
+}],
+"loop": 1,
+"name": &"fox_move_north_west",
+"speed": 7.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("177_3g4f0")
+}, {
+"duration": 1.0,
+"texture": ExtResource("178_psvqf")
+}, {
+"duration": 1.0,
+"texture": ExtResource("179_3oi1f")
+}, {
+"duration": 1.0,
+"texture": ExtResource("180_fohun")
+}, {
+"duration": 1.0,
+"texture": ExtResource("181_4hbfq")
+}, {
+"duration": 1.0,
+"texture": ExtResource("182_1dn07")
+}, {
+"duration": 1.0,
+"texture": ExtResource("183_ltcaa")
+}, {
+"duration": 1.0,
+"texture": ExtResource("184_ow7w4")
+}],
+"loop": 1,
+"name": &"fox_move_south_east",
+"speed": 7.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("185_2hahl")
+}, {
+"duration": 1.0,
+"texture": ExtResource("186_b4ohu")
+}, {
+"duration": 1.0,
+"texture": ExtResource("187_3lk1r")
+}, {
+"duration": 1.0,
+"texture": ExtResource("188_3i47o")
+}, {
+"duration": 1.0,
+"texture": ExtResource("189_iwkdc")
+}, {
+"duration": 1.0,
+"texture": ExtResource("190_vssu4")
+}, {
+"duration": 1.0,
+"texture": ExtResource("191_htn32")
+}, {
+"duration": 1.0,
+"texture": ExtResource("192_yvgws")
+}],
+"loop": 1,
+"name": &"fox_move_south_west",
+"speed": 7.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("193_sqmvd")
+}, {
+"duration": 1.0,
+"texture": ExtResource("194_ol8a2")
+}, {
+"duration": 1.0,
+"texture": ExtResource("195_xbrh7")
+}, {
+"duration": 1.0,
+"texture": ExtResource("196_tp05o")
+}, {
+"duration": 1.0,
+"texture": ExtResource("197_1wghx")
+}, {
+"duration": 1.0,
+"texture": ExtResource("198_24kwd")
+}, {
+"duration": 1.0,
+"texture": ExtResource("199_52gni")
+}, {
+"duration": 1.0,
+"texture": ExtResource("200_ct8s1")
+}],
+"loop": 1,
+"name": &"hare_idle_north_east",
+"speed": 2.5
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("201_m4j41")
+}, {
+"duration": 1.0,
+"texture": ExtResource("202_ss8by")
+}, {
+"duration": 1.0,
+"texture": ExtResource("203_y3v3s")
+}, {
+"duration": 1.0,
+"texture": ExtResource("204_vwjs7")
+}, {
+"duration": 1.0,
+"texture": ExtResource("205_lmogj")
+}, {
+"duration": 1.0,
+"texture": ExtResource("206_m2maj")
+}, {
+"duration": 1.0,
+"texture": ExtResource("207_hrrp1")
+}, {
+"duration": 1.0,
+"texture": ExtResource("208_ermq4")
+}],
+"loop": 1,
+"name": &"hare_idle_north_west",
+"speed": 2.5
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("209_1jkdl")
+}, {
+"duration": 1.0,
+"texture": ExtResource("210_7qfvb")
+}, {
+"duration": 1.0,
+"texture": ExtResource("211_n7cbs")
+}, {
+"duration": 1.0,
+"texture": ExtResource("212_wevym")
+}, {
+"duration": 1.0,
+"texture": ExtResource("213_g3yvp")
+}, {
+"duration": 1.0,
+"texture": ExtResource("214_5awpk")
+}, {
+"duration": 1.0,
+"texture": ExtResource("215_hd81m")
+}, {
+"duration": 1.0,
+"texture": ExtResource("216_en2d0")
+}],
+"loop": 1,
+"name": &"hare_idle_south_east",
+"speed": 2.5
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("217_rq1qf")
+}, {
+"duration": 1.0,
+"texture": ExtResource("218_uyrgd")
+}, {
+"duration": 1.0,
+"texture": ExtResource("219_rtw4h")
+}, {
+"duration": 1.0,
+"texture": ExtResource("220_2bxs7")
+}, {
+"duration": 1.0,
+"texture": ExtResource("221_03gs2")
+}, {
+"duration": 1.0,
+"texture": ExtResource("222_kb6ml")
+}, {
+"duration": 1.0,
+"texture": ExtResource("223_m3x6m")
+}, {
+"duration": 1.0,
+"texture": ExtResource("224_6ifw1")
+}],
+"loop": 1,
+"name": &"hare_idle_south_west",
+"speed": 2.5
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("225_suwul")
+}, {
+"duration": 1.0,
+"texture": ExtResource("226_rjnix")
+}, {
+"duration": 1.0,
+"texture": ExtResource("227_jyfed")
+}, {
+"duration": 1.0,
+"texture": ExtResource("228_xhco5")
+}, {
+"duration": 1.0,
+"texture": ExtResource("229_w08d1")
+}, {
+"duration": 1.0,
+"texture": ExtResource("230_u55cd")
+}, {
+"duration": 1.0,
+"texture": ExtResource("231_rg3sv")
+}, {
+"duration": 1.0,
+"texture": ExtResource("232_3x13v")
+}],
+"loop": 1,
+"name": &"hare_move_north_east",
+"speed": 7.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("233_biokr")
+}, {
+"duration": 1.0,
+"texture": ExtResource("234_cvjdh")
+}, {
+"duration": 1.0,
+"texture": ExtResource("235_lq8sl")
+}, {
+"duration": 1.0,
+"texture": ExtResource("236_7bbwi")
+}, {
+"duration": 1.0,
+"texture": ExtResource("237_xatbc")
+}, {
+"duration": 1.0,
+"texture": ExtResource("238_6juhg")
+}, {
+"duration": 1.0,
+"texture": ExtResource("239_k53j8")
+}, {
+"duration": 1.0,
+"texture": ExtResource("240_bse47")
+}],
+"loop": 1,
+"name": &"hare_move_north_west",
+"speed": 7.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("241_6gr7i")
+}, {
+"duration": 1.0,
+"texture": ExtResource("242_0t3f4")
+}, {
+"duration": 1.0,
+"texture": ExtResource("243_goffh")
+}, {
+"duration": 1.0,
+"texture": ExtResource("244_0xeys")
+}, {
+"duration": 1.0,
+"texture": ExtResource("245_a3dfp")
+}, {
+"duration": 1.0,
+"texture": ExtResource("246_wsa18")
+}, {
+"duration": 1.0,
+"texture": ExtResource("247_r41um")
+}, {
+"duration": 1.0,
+"texture": ExtResource("248_ieex6")
+}],
+"loop": 1,
+"name": &"hare_move_south_east",
+"speed": 7.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("249_6q8bi")
+}, {
+"duration": 1.0,
+"texture": ExtResource("250_gv3vu")
+}, {
+"duration": 1.0,
+"texture": ExtResource("251_2yu18")
+}, {
+"duration": 1.0,
+"texture": ExtResource("252_53krp")
+}, {
+"duration": 1.0,
+"texture": ExtResource("253_v7kvw")
+}, {
+"duration": 1.0,
+"texture": ExtResource("254_u4trp")
+}, {
+"duration": 1.0,
+"texture": ExtResource("255_signc")
+}, {
+"duration": 1.0,
+"texture": ExtResource("256_0d8kf")
+}],
+"loop": 1,
+"name": &"hare_move_south_west",
+"speed": 7.0
+}]

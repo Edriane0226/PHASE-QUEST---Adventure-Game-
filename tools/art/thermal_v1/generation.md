@@ -1,0 +1,22 @@
+# Thermal v1 — original source and reproduction
+
+14 November 2026. **Built-in `image_gen.imagegen`**, transparent output, one original atlas; no CLI/API fallback. Source is preserved unchanged at `source-atlas.png` (1261×1247 RGBA). Reference: `tools/art/phase_player_v1/current-reference.png`, style only. The explorer, props and existing four-stage ice artwork were not regenerated or replaced. No temporary or user assets were deleted.
+
+`build.gd` packs the sixteen regular cells into 512×512 RGBA, retaining original alpha and independently measured start origins. Runtime resources: `assets/effects/thermal/v1/atlas.png`, `sprite_frames.tres`; `manifest.json` is authoring/audit metadata, not a runtime dependency. Four rows: start, stream, open-center contact, release; four frames each. Start/release 24fps; stream/contact 16fps. Hand-painted ribbons overlap along the finite shot; no generated line primitive or generic oversized particle effect substitutes for this artwork.
+
+The same builder authors three original 22050Hz mono PCM clips at `assets/audio/Device/thermal_start.wav`, `thermal_loop.wav`, `thermal_release.wav`. No recordings, licensed samples, external downloads or AI audio were used. Periodic filtered harmonic noise plus warm 90/135Hz components produces a restrained mechanical air/heat texture. All frequencies complete integer cycles over two seconds. A circular sample rotation chooses an equal adjacent-sample seam without gaps, duplicate endpoints or a crossfade dip. Start/release have baked silent edges. Imports explicitly retain uncompressed PCM. Runtime duplicates the loop resource and sets exact sample boundaries 0–44100, with a 40ms gain ramp; one bounded voice handles all phases.
+
+Rebuild with the existing engine using disposable APPDATA/LOCALAPPDATA:
+
+```powershell
+& $engine --headless --path . --script res://tools/art/thermal_v1/build.gd --quit-after 900
+& $engine --headless --editor --path . --import --quit
+```
+
+Run `contact_sheet.gd` after the 960×540 GPU evidence suite to pack actual gameplay crops at 1:1 scale. Its reading order is E, SE, S, SW / W, NW, N, NE. It does not edit generated artwork.
+
+## Final generation prompt
+
+```text
+Use case: stylized-concept. Asset type: ORIGINAL finished thermal-energy VFX sprite sheet for an illustrated mobile RPG, actual transparent RGBA background. Reference image is STYLE reference only (soft hand-painted storybook explorer, clean chunky silhouettes, warm brass/amber palette); NO character or device in output. Make one perfectly regular 4 column x 4 row square sheet, sixteen equal isolated cells, large transparent gutters. No text, labels, grid, border, checkerboard, floor, cast shadows, black backdrop. Every effect centered in its own cell, fully inside it. This is friendly controlled ADD HEAT science energy, not plasma, fireballs or explosions. Fine amber/gold with cream highlights, restrained red-orange accents; watercolor-like layered painted tongues and curved wisps, legible at tiny game scale. No neon white bloom. Row 1 four successive MUZZLE START frames, compact petal-shaped ignition expanding from tiny warm dot to a short open fan, pointing EAST/right; origin at center-left of each cell. Row 2 four coherent looping STREAM TILES: horizontal EAST/right flowing narrow ribbon of warm energy, several interleaved tapered curved amber brush strokes, delicate transparent gaps, softly breaking up at upper/lower edges. Ribbon spans middle 70 percent cell width, occupies only middle 25 percent cell height, each tile same visual width/thickness with subtle motion between frames, no circular halo or blobs; no actual black outlines on energy. These tiles will be overlapped at tiny scale along the shot, not stretched into one laser line. Row 3 four successive CONTACT/IMPACT frames, small crescent-shaped amber glancing-contact swirls surrounding a mostly transparent CENTER so underlying ice stays visible, no big explosion; delicate short upward rising hot motes. Row 4 four successive RELEASE frames: the same short EAST-facing muzzle ribbon breaks into 3 then 2 then 1 tapered curling amber wisps and dissipates, fourth frame extremely small remaining glimmer. Maintain crisp illustrative edges with soft alpha only at extremities, clean true transparent background, no haze filling empty cells. Consistent controlled scale across cells. Production game asset, not conceptual mockup.
+```

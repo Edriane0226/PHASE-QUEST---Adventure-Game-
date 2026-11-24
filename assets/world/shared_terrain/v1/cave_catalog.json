@@ -1,0 +1,37 @@
+{
+  "entries": [
+    {
+      "alpha_policy": "Existing 0.90–0.97 cutout shader suppresses generated outer haze; separate native base shadow",
+      "biome": "shared",
+      "direction": "front",
+      "doorway_profile": "64x64 threshold, side blockers outside x±32; original artwork opening retained",
+      "edge_mask": 0,
+      "id": "shared_cave_entry",
+      "kind": "cave",
+      "material_shader": "res://assets/world/shared_terrain/v1/cave_cutout.gdshader",
+      "path": "res://assets/world/shared_terrain/v1/cave.png",
+      "pivot_px": [
+        205.411758422852,
+        237.529418945313
+      ],
+      "profile_id": "cave_threshold",
+      "sha256": "f3ace442d768cfc434d56f152f2bc4fe703963155573c1618b73ebe9bda302a1",
+      "side_depth_world_units": 0,
+      "source": "tools/art/shared_terrain_v1/cave-source-alpha-edit.png",
+      "source_crop": [
+        208,
+        121,
+        1088,
+        776
+      ],
+      "source_size": [
+        384,
+        274
+      ],
+      "top_plane_height_world_units": 0,
+      "world_scale": 0.5,
+      "shadow_path": "res://assets/world/shared_terrain/v1/cave_shadow.svg"
+    }
+  ],
+  "schema_version": 1
+}

@@ -1,0 +1,271 @@
+{
+  "schema_version": 1,
+  "owner": "R3 009",
+  "status": "Implemented—needs verification; user/Android pending",
+  "scene": "UI/HUD/WorldHUD.tscn",
+  "runtime": "Opt-in presentation only; current CampaignHUD remains authoritative until015",
+  "families": [
+    "ui.hud.identity_status",
+    "ui.hud.quest_context",
+    "ui.hud.touch",
+    "ui.hud.five_slot_cluster",
+    "ui.hud.radial.art",
+    "ui.hud.minimap",
+    "ui.hud.guides_pause",
+    "ui.hud.forbidden_presentation",
+    "ui.theme_fonts_icons"
+  ],
+  "files": [
+    {
+      "path": "assets/ui/hud/r3_v1/circle_frame.svg",
+      "sha256": "133BFB8E228A6947D18CF794D3BEAF89605FA8A90851CCBAB8D76A743EA2C3AF",
+      "bytes": 796,
+      "owner": "R3 009",
+      "consumer": "UI/HUD/WorldHUD.tscn",
+      "dependencies": [
+        "R3 007 original identity",
+        "R3 008 four modes"
+      ],
+      "action": "new"
+    },
+    {
+      "path": "assets/ui/hud/r3_v1/guides.svg",
+      "sha256": "FB5FDCF952CF90A67BA75896B38137803C1D284F9381AD2988C96EB28A383767",
+      "bytes": 611,
+      "owner": "R3 009",
+      "consumer": "UI/HUD/WorldHUD.tscn",
+      "dependencies": [
+        "R3 007 original identity",
+        "R3 008 four modes"
+      ],
+      "action": "new"
+    },
+    {
+      "path": "assets/ui/hud/r3_v1/hex_frame.svg",
+      "sha256": "DB01B980E93B3D4026A89DA78AEF380167A1AAC712871B10752AC74493D24A2A",
+      "bytes": 699,
+      "owner": "R3 009",
+      "consumer": "UI/HUD/WorldHUD.tscn",
+      "dependencies": [
+        "R3 007 original identity",
+        "R3 008 four modes"
+      ],
+      "action": "new"
+    },
+    {
+      "path": "assets/ui/hud/r3_v1/interact.svg",
+      "sha256": "BB3F380E8C53A69FC026F0B50B0B5E3E6E6330EC04A12808A6933A0B3BB82F4C",
+      "bytes": 556,
+      "owner": "R3 009",
+      "consumer": "UI/HUD/WorldHUD.tscn",
+      "dependencies": [
+        "R3 007 original identity",
+        "R3 008 four modes"
+      ],
+      "action": "new"
+    },
+    {
+      "path": "assets/ui/hud/r3_v1/jump.svg",
+      "sha256": "A26EAF4847A4BC9ACE035F83D469A6F5D31704EE6C3CB22C2E56E5E893A19105",
+      "bytes": 439,
+      "owner": "R3 009",
+      "consumer": "UI/HUD/WorldHUD.tscn",
+      "dependencies": [
+        "R3 007 original identity",
+        "R3 008 four modes"
+      ],
+      "action": "new"
+    },
+    {
+      "path": "assets/ui/hud/r3_v1/lock.svg",
+      "sha256": "873F401336C907DE5D9566AEC02FDED9B01DDDCB33C27F4B303D858BC40EB5F2",
+      "bytes": 638,
+      "owner": "R3 009",
+      "consumer": "UI/HUD/WorldHUD.tscn",
+      "dependencies": [
+        "R3 007 original identity",
+        "R3 008 four modes"
+      ],
+      "action": "new"
+    },
+    {
+      "path": "assets/ui/hud/r3_v1/minimap_mask.gdshader",
+      "sha256": "243D1DCB64491BED7B9CFE6311C6CC1F8A63B4A45EB9787F52F9070984C18083",
+      "bytes": 502,
+      "owner": "R3 009",
+      "consumer": "UI/HUD/WorldHUD.tscn",
+      "dependencies": [
+        "R3 007 original identity",
+        "R3 008 four modes"
+      ],
+      "action": "new"
+    },
+    {
+      "path": "assets/ui/hud/r3_v1/pause.svg",
+      "sha256": "9E2F20577D13FD4FE4B386C28E4B40F7D392FE430322471E22401E6C0EACB55C",
+      "bytes": 499,
+      "owner": "R3 009",
+      "consumer": "UI/HUD/WorldHUD.tscn",
+      "dependencies": [
+        "R3 007 original identity",
+        "R3 008 four modes"
+      ],
+      "action": "new"
+    },
+    {
+      "path": "assets/ui/hud/r3_v1/player_marker.svg",
+      "sha256": "6700CC6CA7A93EDAABB32268A7407D1F248DACE68D2FEEC9116B95282D54917E",
+      "bytes": 486,
+      "owner": "R3 009",
+      "consumer": "UI/HUD/WorldHUD.tscn",
+      "dependencies": [
+        "R3 007 original identity",
+        "R3 008 four modes"
+      ],
+      "action": "new"
+    },
+    {
+      "path": "assets/ui/hud/r3_v1/portrait_face.tres",
+      "sha256": "242095A4A096003E6BAEE0AF5A6974684860AA979C40368DA1470689B5C76DF2",
+      "bytes": 258,
+      "owner": "R3 009",
+      "consumer": "UI/HUD/WorldHUD.tscn",
+      "dependencies": [
+        "R3 007 original identity",
+        "R3 008 four modes"
+      ],
+      "action": "new"
+    },
+    {
+      "path": "assets/ui/hud/r3_v1/warning.svg",
+      "sha256": "83CF9192AA09D8C4C3DCB3C788D31713D6C2F5C146D8631278963C2AD3CCBFF7",
+      "bytes": 575,
+      "owner": "R3 009",
+      "consumer": "UI/HUD/WorldHUD.tscn",
+      "dependencies": [
+        "R3 007 original identity",
+        "R3 008 four modes"
+      ],
+      "action": "new"
+    }
+  ],
+  "reused": [
+    {
+      "path": "assets/characters/cast/explorer/portraits/explorer_neutral.png",
+      "sha256": "D6DE8B1910A9EA8B8414429F4B0FB68CAAB7F9C685657D89730BAEAC8664C86A",
+      "action": "keep",
+      "owner": "R3 009 compatibility",
+      "consumer": "UI/HUD/WorldHUD.tscn"
+    },
+    {
+      "path": "assets/ui/icons/mobile_sprint.svg",
+      "sha256": "F27A4F1A2D0C8642A85BEFD8B8966421FDB7D5289AB1E881B6ED1032E2DA8E4D",
+      "action": "keep",
+      "owner": "R3 009 compatibility",
+      "consumer": "UI/HUD/WorldHUD.tscn"
+    },
+    {
+      "path": "assets/fonts/InterfaceSans.tres",
+      "sha256": "16CD2D3357A0915B878A40C801630706F216056CE30C5DAAA7BC4B7240837A1B",
+      "action": "keep",
+      "owner": "R3 009 compatibility",
+      "consumer": "UI/HUD/WorldHUD.tscn"
+    },
+    {
+      "path": "Scripts/Content/phase_device_progress.gd",
+      "sha256": "33C8782F7AACC94A547C36AD464259A39B4197F7A8FDB9A5003E3789D7A38591",
+      "action": "keep",
+      "owner": "R3 009 compatibility",
+      "consumer": "UI/HUD/WorldHUD.tscn"
+    },
+    {
+      "path": "assets/ui/phase_dial/v1/thermal_icon.svg",
+      "sha256": "1AED83BD83E935B1451D8F9CEC55181A8EFF9BE377C4E02768D83C12483B4D05",
+      "action": "keep",
+      "owner": "R3 009 compatibility",
+      "consumer": "UI/HUD/WorldHUD.tscn"
+    },
+    {
+      "path": "assets/ui/phase_dial/v1/cryo_icon.svg",
+      "sha256": "8C2C8CE5F1A8BD90BB0984149D5BB6C452BDC82A14972694A4D510AA08D76886",
+      "action": "keep",
+      "owner": "R3 009 compatibility",
+      "consumer": "UI/HUD/WorldHUD.tscn"
+    },
+    {
+      "path": "assets/ui/phase_dial/v1/vacuum_icon.svg",
+      "sha256": "90CB8BC5AED7369A741A31160D9964C90A46B692C0102E3174DCE81AC96340FF",
+      "action": "keep",
+      "owner": "R3 009 compatibility",
+      "consumer": "UI/HUD/WorldHUD.tscn"
+    },
+    {
+      "path": "assets/ui/phase_dial/v1/pressure_icon.svg",
+      "sha256": "2DF26E38396D0A360984E05A3C835109331E719E2B12B06EDDB379EC4434D4DE",
+      "action": "keep",
+      "owner": "R3 009 compatibility",
+      "consumer": "UI/HUD/WorldHUD.tscn"
+    }
+  ],
+  "presentation_sources": [
+    {
+      "path": "Scripts/UI/WorldHUD/world_hud.gd",
+      "sha256": "87E1788F5906786E2A6A9EFCEBFC90B239975D8541CD84C3EBF43E4C6B9A1EDC",
+      "owner": "R3 009",
+      "action": "new"
+    },
+    {
+      "path": "Scripts/UI/WorldHUD/hud_action.gd",
+      "sha256": "76F9E1DC1A863DD3A7E6683F6EE869B0A35615EFD59D1BC14600028CED8EED7F",
+      "owner": "R3 009",
+      "action": "new"
+    },
+    {
+      "path": "Scripts/UI/WorldHUD/hud_minimap.gd",
+      "sha256": "7CF444E766212A4AF9E357AC366921805BA9C489DEEEC528A415A2729B845A51",
+      "owner": "R3 009",
+      "action": "new"
+    },
+    {
+      "path": "UI/HUD/WorldHUD.tscn",
+      "sha256": "6649DB7D65D86E03AF2821451A3CF705162C04E2000E41B4F695A3BA2529D3FD",
+      "owner": "R3 009",
+      "action": "new"
+    },
+    {
+      "path": "tools/art/hud_r3_v1/build.ps1",
+      "sha256": "86118526C0660F9BDFBFDF5708EFD9DD8A450AEEA7A7499E6778799E54961DE5",
+      "owner": "R3 009",
+      "action": "new"
+    },
+    {
+      "path": "tools/art/hud_r3_v1/generation.md",
+      "sha256": "C7DB9A8DC6FAA5E0A14E9C31847248C14BBA2C90A8D14AAC111ACEFD5308F46D",
+      "owner": "R3 009",
+      "action": "new"
+    }
+  ],
+  "source_project": "tools/art/hud_r3_v1/build.ps1",
+  "source_notes": "tools/art/hud_r3_v1/generation.md",
+  "mode_mapping": {
+    "upper_left": "vacuum",
+    "upper_right": "pressure",
+    "lower_left": "thermal",
+    "lower_right": "cryo",
+    "central_hexagon": "committed selected-mode display; cancel preview, no mode selection/fire/unlock"
+  },
+  "minimum_landscape_safe_inner": [
+    540,
+    300
+  ],
+  "safe_margin_ui": 8,
+  "minimum_action_ui": 44,
+  "minimum_mode_circle_ui": 52,
+  "minimum_status_quest_font_ui": 12,
+  "minimum_button_font_ui": 11,
+  "landscape": "Responsive per viewport, not downsampled desktop",
+  "portrait": "Rotate-device fallback; no overlapping controls",
+  "retirement_eligible": false,
+  "production_input_binding": "R3 015; providers own saves, eligibility, discovery, target and action routing",
+  "render_style": "Editable native SVG + Godot vector panels; retained original portrait/font/mode/run glyphs"
+}

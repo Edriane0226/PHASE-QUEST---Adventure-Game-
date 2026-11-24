@@ -1,0 +1,9 @@
+[gd_resource type="AtlasTexture" format=3]
+
+[ext_resource type="Texture2D" path="res://assets/zones/zone_1/smooth_v1/effects/ice_crystal_7.png" id="1_3xi3h"]
+
+[resource]
+atlas = ExtResource("1_3xi3h")
+region = Rect2(0, 0, 92, 94)
+margin = Rect2(210, 356, 420, 418)
+metadata/pose_scale = 1.0

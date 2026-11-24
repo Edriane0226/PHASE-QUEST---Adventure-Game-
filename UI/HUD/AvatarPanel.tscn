@@ -1,0 +1,97 @@
+[gd_scene format=3]
+[ext_resource type="FontFile" path="res://assets/fonts/InterfaceSans.tres" id="font"]
+[ext_resource type="Texture2D" path="res://assets/characters/cast/explorer/portraits/explorer_face.tres" id="portrait"]
+[ext_resource type="Script" path="res://Scripts/UI/avatar_status_frame.gd" id="frame"]
+[ext_resource type="Shader" path="res://assets/shaders/ui/portrait_diamond.gdshader" id="portrait_clip"]
+[sub_resource type="ShaderMaterial" id="portrait_material"]
+shader = ExtResource("portrait_clip")
+[sub_resource type="StyleBoxEmpty" id="empty"]
+[sub_resource type="StyleBoxFlat" id="red"]
+bg_color = Color(0.67,0.04,0.12,1)
+[sub_resource type="StyleBoxFlat" id="blue"]
+bg_color = Color(0.12,0.46,0.72,1)
+[node name="ProfileFrame" type="PanelContainer"]
+offset_left = 18.0
+offset_top = 18.0
+offset_right = 370.0
+offset_bottom = 146.0
+mouse_filter = 2
+script = ExtResource("frame")
+theme_override_styles/panel = SubResource("empty")
+metadata/levelField = "objective_panel"
+[node name="Profile" type="Control" parent="."]
+custom_minimum_size = Vector2(352,128)
+mouse_filter = 2
+[node name="HealthBar" type="ProgressBar" parent="Profile"]
+offset_left = 98.0
+offset_top = 49.0
+offset_right = 334.0
+offset_bottom = 68.0
+max_value = 10.0
+value = 10.0
+show_percentage = false
+mouse_filter = 2
+theme_override_styles/fill = SubResource("red")
+theme_override_styles/background = SubResource("empty")
+[node name="HealthText" type="Label" parent="Profile/HealthBar"]
+anchor_right = 1.0
+anchor_bottom = 1.0
+horizontal_alignment = 1
+vertical_alignment = 1
+text = "10/10"
+theme_override_fonts/font = ExtResource("font")
+theme_override_font_sizes/font_size = 15
+theme_override_colors/font_color = Color(1,0.88,0.57,1)
+theme_override_colors/font_outline_color = Color(0.2,0.03,0.04,1)
+theme_override_constants/outline_size = 2
+mouse_filter = 2
+[node name="WarmthBar" type="ProgressBar" parent="Profile"]
+offset_left = 94.0
+offset_top = 82.0
+offset_right = 274.0
+offset_bottom = 96.0
+value = 100.0
+show_percentage = false
+theme_override_styles/background = SubResource("empty")
+theme_override_styles/fill = SubResource("blue")
+metadata/levelField = "warmth_bar"
+mouse_filter = 2
+[node name="WarmthText" type="Label" parent="Profile"]
+offset_left = 94.0
+offset_top = 78.0
+offset_right = 274.0
+offset_bottom = 99.0
+text = "Warmth 100%"
+horizontal_alignment = 1
+vertical_alignment = 1
+theme_override_fonts/font = ExtResource("font")
+theme_override_font_sizes/font_size = 11
+theme_override_colors/font_color = Color(0.94,0.97,1,1)
+theme_override_colors/font_outline_color = Color(0.02,0.10,0.2,1)
+theme_override_constants/outline_size = 2
+metadata/levelField = "warmth_label"
+mouse_filter = 2
+[node name="TextureRect2" type="TextureRect" parent="Profile"]
+visible = false
+offset_left = 10.0
+offset_top = 12.0
+offset_right = 94.0
+offset_bottom = 114.0
+material = SubResource("portrait_material")
+texture = ExtResource("portrait")
+expand_mode = 1
+stretch_mode = 0
+mouse_filter = 2
+[node name="PlayerNameplate" type="Label" parent="Profile"]
+offset_left = 99.0
+offset_top = 15.0
+offset_right = 332.0
+offset_bottom = 42.0
+theme_override_fonts/font = ExtResource("font")
+theme_override_font_sizes/font_size = 20
+theme_override_colors/font_color = Color(0.94,0.73,0.36,1)
+theme_override_colors/font_outline_color = Color(0.10,0.14,0.19,1)
+theme_override_constants/outline_size = 2
+text = "Explorer"
+text_overrun_behavior = 3
+mouse_filter = 2

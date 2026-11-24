@@ -1,0 +1,2985 @@
+{
+	"access": [
+		{
+			"anchor": [
+				14594.07,
+				4344.98
+			],
+			"distance_from_anchor": 2.29,
+			"id": "Z3L1.C0",
+			"safe_ground": [
+				14592.0,
+				4344.0
+			],
+			"subregion": "Z3L1",
+			"walking_samples": 1
+		},
+		{
+			"anchor": [
+				14572.58,
+				3772.7
+			],
+			"distance_from_anchor": 6.56,
+			"id": "Z3L1.C1",
+			"safe_ground": [
+				14568.0,
+				3768.0
+			],
+			"subregion": "Z3L1",
+			"walking_samples": 25
+		},
+		{
+			"anchor": [
+				15020.0,
+				4190.0
+			],
+			"distance_from_anchor": 10.77,
+			"id": "Z3L1.C2",
+			"safe_ground": [
+				15024.0,
+				4200.0
+			],
+			"subregion": "Z3L1",
+			"walking_samples": 19
+		},
+		{
+			"anchor": [
+				12648.33,
+				1750.89
+			],
+			"distance_from_anchor": 1.16,
+			"id": "Z3L1.court1",
+			"safe_ground": [
+				12648.0,
+				1752.0
+			],
+			"subregion": "Z3L1",
+			"walking_samples": 109
+		},
+		{
+			"anchor": [
+				12919.54,
+				3284.63
+			],
+			"distance_from_anchor": 8.26,
+			"id": "Z3L1.court2",
+			"safe_ground": [
+				12912.0,
+				3288.0
+			],
+			"subregion": "Z3L1",
+			"walking_samples": 97
+		},
+		{
+			"anchor": [
+				13752.95,
+				2257.29
+			],
+			"distance_from_anchor": 1.6,
+			"id": "Z3L1.court3",
+			"safe_ground": [
+				13752.0,
+				2256.0
+			],
+			"subregion": "Z3L1",
+			"walking_samples": 88
+		},
+		{
+			"anchor": [
+				14594.07,
+				4344.98
+			],
+			"distance_from_anchor": 2.29,
+			"id": "Z3L1.entry",
+			"safe_ground": [
+				14592.0,
+				4344.0
+			],
+			"subregion": "Z3L1",
+			"walking_samples": 1
+		},
+		{
+			"anchor": [
+				14494.95,
+				3260.9
+			],
+			"distance_from_anchor": 3.27,
+			"id": "Z3L1.exit",
+			"safe_ground": [
+				14496.0,
+				3264.0
+			],
+			"subregion": "Z3L1",
+			"walking_samples": 46
+		},
+		{
+			"anchor": [
+				15754.6,
+				3596.38
+			],
+			"distance_from_anchor": 11.2,
+			"id": "Z3L1.explore1",
+			"safe_ground": [
+				15744.0,
+				3600.0
+			],
+			"subregion": "Z3L1",
+			"walking_samples": 49
+		},
+		{
+			"anchor": [
+				15178.69,
+				4964.29
+			],
+			"distance_from_anchor": 11.32,
+			"id": "Z3L1.explore2",
+			"safe_ground": [
+				15168.0,
+				4968.0
+			],
+			"subregion": "Z3L1",
+			"walking_samples": 27
+		},
+		{
+			"anchor": [
+				13705.3,
+				3066.6
+			],
+			"distance_from_anchor": 5.55,
+			"id": "Z3L1.explore3",
+			"safe_ground": [
+				13704.0,
+				3072.0
+			],
+			"subregion": "Z3L1",
+			"walking_samples": 64
+		},
+		{
+			"anchor": [
+				14847.98,
+				4240.43
+			],
+			"distance_from_anchor": 11.03,
+			"id": "Z3L1.professor",
+			"safe_ground": [
+				14856.0,
+				4248.0
+			],
+			"subregion": "Z3L1",
+			"walking_samples": 12
+		},
+		{
+			"anchor": [
+				15694.07,
+				2744.98
+			],
+			"distance_from_anchor": 9.18,
+			"id": "Z3L2.C0",
+			"safe_ground": [
+				15696.0,
+				2736.0
+			],
+			"subregion": "Z3L2",
+			"walking_samples": 1
+		},
+		{
+			"anchor": [
+				16120.0,
+				2590.0
+			],
+			"distance_from_anchor": 8.25,
+			"id": "Z3L2.C1",
+			"safe_ground": [
+				16128.0,
+				2592.0
+			],
+			"subregion": "Z3L2",
+			"walking_samples": 19
+		},
+		{
+			"anchor": [
+				15234.78,
+				2779.18
+			],
+			"distance_from_anchor": 7.1,
+			"id": "Z3L2.C2",
+			"safe_ground": [
+				15240.0,
+				2784.0
+			],
+			"subregion": "Z3L2",
+			"walking_samples": 20
+		},
+		{
+			"anchor": [
+				12780.36,
+				900.19
+			],
+			"distance_from_anchor": 16.58,
+			"id": "Z3L2.court1",
+			"safe_ground": [
+				12792.0,
+				912.0
+			],
+			"subregion": "Z3L2",
+			"walking_samples": 138
+		},
+		{
+			"anchor": [
+				14705.16,
+				814.69
+			],
+			"distance_from_anchor": 6.96,
+			"id": "Z3L2.court2",
+			"safe_ground": [
+				14712.0,
+				816.0
+			],
+			"subregion": "Z3L2",
+			"walking_samples": 81
+		},
+		{
+			"anchor": [
+				17339.83,
+				1241.63
+			],
+			"distance_from_anchor": 13.44,
+			"id": "Z3L2.court3",
+			"safe_ground": [
+				17328.0,
+				1248.0
+			],
+			"subregion": "Z3L2",
+			"walking_samples": 70
+		},
+		{
+			"anchor": [
+				15694.07,
+				2744.98
+			],
+			"distance_from_anchor": 9.18,
+			"id": "Z3L2.entry",
+			"safe_ground": [
+				15696.0,
+				2736.0
+			],
+			"subregion": "Z3L2",
+			"walking_samples": 1
+		},
+		{
+			"anchor": [
+				16488.02,
+				2531.17
+			],
+			"distance_from_anchor": 11.17,
+			"id": "Z3L2.exit",
+			"safe_ground": [
+				16488.0,
+				2520.0
+			],
+			"subregion": "Z3L2",
+			"walking_samples": 34
+		},
+		{
+			"anchor": [
+				13890.65,
+				1827.52
+			],
+			"distance_from_anchor": 6.4,
+			"id": "Z3L2.explore1",
+			"safe_ground": [
+				13896.0,
+				1824.0
+			],
+			"subregion": "Z3L2",
+			"walking_samples": 92
+		},
+		{
+			"anchor": [
+				13749.58,
+				771.14
+			],
+			"distance_from_anchor": 3.96,
+			"id": "Z3L2.explore2",
+			"safe_ground": [
+				13752.0,
+				768.0
+			],
+			"subregion": "Z3L2",
+			"walking_samples": 98
+		},
+		{
+			"anchor": [
+				15170.75,
+				1790.13
+			],
+			"distance_from_anchor": 10.25,
+			"id": "Z3L2.explore3",
+			"safe_ground": [
+				15168.0,
+				1800.0
+			],
+			"subregion": "Z3L2",
+			"walking_samples": 40
+		},
+		{
+			"anchor": [
+				15932.29,
+				1048.93
+			],
+			"distance_from_anchor": 7.98,
+			"id": "Z3L2.optional",
+			"safe_ground": [
+				15936.0,
+				1056.0
+			],
+			"subregion": "Z3L2",
+			"walking_samples": 71
+		},
+		{
+			"anchor": [
+				15947.98,
+				2640.43
+			],
+			"distance_from_anchor": 11.99,
+			"id": "Z3L2.professor",
+			"safe_ground": [
+				15936.0,
+				2640.0
+			],
+			"subregion": "Z3L2",
+			"walking_samples": 11
+		},
+		{
+			"anchor": [
+				17411.98,
+				2968.83
+			],
+			"distance_from_anchor": 13.96,
+			"id": "Z3L3.C0",
+			"safe_ground": [
+				17400.0,
+				2976.0
+			],
+			"subregion": "Z3L3",
+			"walking_samples": 1
+		},
+		{
+			"anchor": [
+				17935.0,
+				3455.0
+			],
+			"distance_from_anchor": 7.07,
+			"id": "Z3L3.C1",
+			"safe_ground": [
+				17928.0,
+				3456.0
+			],
+			"subregion": "Z3L3",
+			"walking_samples": 23
+		},
+		{
+			"anchor": [
+				17910.76,
+				3844.72
+			],
+			"distance_from_anchor": 8.24,
+			"id": "Z3L3.C2",
+			"safe_ground": [
+				17904.0,
+				3840.0
+			],
+			"subregion": "Z3L3",
+			"walking_samples": 37
+		},
+		{
+			"anchor": [
+				17881.17,
+				1362.66
+			],
+			"distance_from_anchor": 5.47,
+			"id": "Z3L3.court1",
+			"safe_ground": [
+				17880.0,
+				1368.0
+			],
+			"subregion": "Z3L3",
+			"walking_samples": 68
+		},
+		{
+			"anchor": [
+				19046.09,
+				2359.91
+			],
+			"distance_from_anchor": 12.68,
+			"id": "Z3L3.court2",
+			"safe_ground": [
+				19056.0,
+				2352.0
+			],
+			"subregion": "Z3L3",
+			"walking_samples": 70
+		},
+		{
+			"anchor": [
+				19394.87,
+				3501.05
+			],
+			"distance_from_anchor": 4.12,
+			"id": "Z3L3.court3",
+			"safe_ground": [
+				19392.0,
+				3504.0
+			],
+			"subregion": "Z3L3",
+			"walking_samples": 84
+		},
+		{
+			"anchor": [
+				17411.98,
+				2968.83
+			],
+			"distance_from_anchor": 13.96,
+			"id": "Z3L3.entry",
+			"safe_ground": [
+				17400.0,
+				2976.0
+			],
+			"subregion": "Z3L3",
+			"walking_samples": 1
+		},
+		{
+			"anchor": [
+				18044.53,
+				3720.3
+			],
+			"distance_from_anchor": 3.48,
+			"id": "Z3L3.exit",
+			"safe_ground": [
+				18048.0,
+				3720.0
+			],
+			"subregion": "Z3L3",
+			"walking_samples": 32
+		},
+		{
+			"anchor": [
+				18109.56,
+				2314.72
+			],
+			"distance_from_anchor": 14.96,
+			"id": "Z3L3.explore1",
+			"safe_ground": [
+				18120.0,
+				2304.0
+			],
+			"subregion": "Z3L3",
+			"walking_samples": 33
+		},
+		{
+			"anchor": [
+				18726.74,
+				3138.24
+			],
+			"distance_from_anchor": 8.87,
+			"id": "Z3L3.explore2",
+			"safe_ground": [
+				18720.0,
+				3144.0
+			],
+			"subregion": "Z3L3",
+			"walking_samples": 56
+		},
+		{
+			"anchor": [
+				17376.24,
+				2214.35
+			],
+			"distance_from_anchor": 6.35,
+			"id": "Z3L3.explore3",
+			"safe_ground": [
+				17376.0,
+				2208.0
+			],
+			"subregion": "Z3L3",
+			"walking_samples": 33
+		},
+		{
+			"anchor": [
+				17555.63,
+				3202.85
+			],
+			"distance_from_anchor": 15.91,
+			"id": "Z3L3.professor",
+			"safe_ground": [
+				17544.0,
+				3192.0
+			],
+			"subregion": "Z3L3",
+			"walking_samples": 10
+		},
+		{
+			"anchor": [
+				18255.47,
+				4479.7
+			],
+			"distance_from_anchor": 11.9,
+			"id": "Z3L4.C0",
+			"safe_ground": [
+				18264.0,
+				4488.0
+			],
+			"subregion": "Z3L4",
+			"walking_samples": 1
+		},
+		{
+			"anchor": [
+				18520.0,
+				5290.0
+			],
+			"distance_from_anchor": 12.81,
+			"id": "Z3L4.C1",
+			"safe_ground": [
+				18528.0,
+				5280.0
+			],
+			"subregion": "Z3L4",
+			"walking_samples": 34
+		},
+		{
+			"anchor": [
+				18291.51,
+				4918.74
+			],
+			"distance_from_anchor": 3.73,
+			"id": "Z3L4.C2",
+			"safe_ground": [
+				18288.0,
+				4920.0
+			],
+			"subregion": "Z3L4",
+			"walking_samples": 19
+		},
+		{
+			"anchor": [
+				19455.44,
+				3949.88
+			],
+			"distance_from_anchor": 13.26,
+			"id": "Z3L4.court1",
+			"safe_ground": [
+				19464.0,
+				3960.0
+			],
+			"subregion": "Z3L4",
+			"walking_samples": 51
+		},
+		{
+			"anchor": [
+				18475.31,
+				7311.38
+			],
+			"distance_from_anchor": 9.81,
+			"id": "Z3L4.court2",
+			"safe_ground": [
+				18480.0,
+				7320.0
+			],
+			"subregion": "Z3L4",
+			"walking_samples": 119
+		},
+		{
+			"anchor": [
+				19375.28,
+				6681.21
+			],
+			"distance_from_anchor": 11.74,
+			"id": "Z3L4.court3",
+			"safe_ground": [
+				19368.0,
+				6672.0
+			],
+			"subregion": "Z3L4",
+			"walking_samples": 92
+		},
+		{
+			"anchor": [
+				18255.47,
+				4479.7
+			],
+			"distance_from_anchor": 11.9,
+			"id": "Z3L4.entry",
+			"safe_ground": [
+				18264.0,
+				4488.0
+			],
+			"subregion": "Z3L4",
+			"walking_samples": 1
+		},
+		{
+			"anchor": [
+				18502.82,
+				6134.0
+			],
+			"distance_from_anchor": 10.07,
+			"id": "Z3L4.exit",
+			"safe_ground": [
+				18504.0,
+				6144.0
+			],
+			"subregion": "Z3L4",
+			"walking_samples": 70
+		},
+		{
+			"anchor": [
+				19314.48,
+				4837.57
+			],
+			"distance_from_anchor": 11.8,
+			"id": "Z3L4.explore1",
+			"safe_ground": [
+				19320.0,
+				4848.0
+			],
+			"subregion": "Z3L4",
+			"walking_samples": 45
+		},
+		{
+			"anchor": [
+				19304.45,
+				5735.45
+			],
+			"distance_from_anchor": 8.47,
+			"id": "Z3L4.explore2",
+			"safe_ground": [
+				19296.0,
+				5736.0
+			],
+			"subregion": "Z3L4",
+			"walking_samples": 53
+		},
+		{
+			"anchor": [
+				18895.71,
+				4276.5
+			],
+			"distance_from_anchor": 8.93,
+			"id": "Z3L4.explore3",
+			"safe_ground": [
+				18888.0,
+				4272.0
+			],
+			"subregion": "Z3L4",
+			"walking_samples": 27
+		},
+		{
+			"anchor": [
+				17689.18,
+				5651.42
+			],
+			"distance_from_anchor": 11.48,
+			"id": "Z3L4.optional",
+			"safe_ground": [
+				17688.0,
+				5640.0
+			],
+			"subregion": "Z3L4",
+			"walking_samples": 49
+		},
+		{
+			"anchor": [
+				18172.5,
+				4741.46
+			],
+			"distance_from_anchor": 11.46,
+			"id": "Z3L4.professor",
+			"safe_ground": [
+				18168.0,
+				4752.0
+			],
+			"subregion": "Z3L4",
+			"walking_samples": 12
+		},
+		{
+			"anchor": [
+				16674.06,
+				5941.42
+			],
+			"distance_from_anchor": 12.13,
+			"id": "Z3L5.C0",
+			"safe_ground": [
+				16680.0,
+				5952.0
+			],
+			"subregion": "Z3L5",
+			"walking_samples": 1
+		},
+		{
+			"anchor": [
+				16320.0,
+				6490.0
+			],
+			"distance_from_anchor": 10.0,
+			"id": "Z3L5.C1",
+			"safe_ground": [
+				16320.0,
+				6480.0
+			],
+			"subregion": "Z3L5",
+			"walking_samples": 23
+		},
+		{
+			"anchor": [
+				15810.85,
+				6314.63
+			],
+			"distance_from_anchor": 5.78,
+			"id": "Z3L5.C2",
+			"safe_ground": [
+				15816.0,
+				6312.0
+			],
+			"subregion": "Z3L5",
+			"walking_samples": 37
+		},
+		{
+			"anchor": [
+				18030.78,
+				7565.78
+			],
+			"distance_from_anchor": 8.91,
+			"id": "Z3L5.court1",
+			"safe_ground": [
+				18024.0,
+				7560.0
+			],
+			"subregion": "Z3L5",
+			"walking_samples": 68
+		},
+		{
+			"anchor": [
+				15475.76,
+				8131.43
+			],
+			"distance_from_anchor": 6.23,
+			"id": "Z3L5.court2",
+			"safe_ground": [
+				15480.0,
+				8136.0
+			],
+			"subregion": "Z3L5",
+			"walking_samples": 92
+		},
+		{
+			"anchor": [
+				16717.67,
+				7721.85
+			],
+			"distance_from_anchor": 12.02,
+			"id": "Z3L5.court3",
+			"safe_ground": [
+				16728.0,
+				7728.0
+			],
+			"subregion": "Z3L5",
+			"walking_samples": 75
+		},
+		{
+			"anchor": [
+				16674.06,
+				5941.42
+			],
+			"distance_from_anchor": 12.13,
+			"id": "Z3L5.entry",
+			"safe_ground": [
+				16680.0,
+				5952.0
+			],
+			"subregion": "Z3L5",
+			"walking_samples": 1
+		},
+		{
+			"anchor": [
+				16400.55,
+				5698.62
+			],
+			"distance_from_anchor": 13.63,
+			"id": "Z3L5.exit",
+			"safe_ground": [
+				16392.0,
+				5688.0
+			],
+			"subregion": "Z3L5",
+			"walking_samples": 13
+		},
+		{
+			"anchor": [
+				17460.28,
+				6665.52
+			],
+			"distance_from_anchor": 13.39,
+			"id": "Z3L5.explore1",
+			"safe_ground": [
+				17472.0,
+				6672.0
+			],
+			"subregion": "Z3L5",
+			"walking_samples": 34
+		},
+		{
+			"anchor": [
+				15448.01,
+				5348.77
+			],
+			"distance_from_anchor": 8.62,
+			"id": "Z3L5.explore2",
+			"safe_ground": [
+				15456.0,
+				5352.0
+			],
+			"subregion": "Z3L5",
+			"walking_samples": 52
+		},
+		{
+			"anchor": [
+				15908.0,
+				7287.6
+			],
+			"distance_from_anchor": 9.3,
+			"id": "Z3L5.explore3",
+			"safe_ground": [
+				15912.0,
+				7296.0
+			],
+			"subregion": "Z3L5",
+			"walking_samples": 57
+		},
+		{
+			"anchor": [
+				14993.16,
+				7122.82
+			],
+			"distance_from_anchor": 8.58,
+			"id": "Z3L5.optional",
+			"safe_ground": [
+				15000.0,
+				7128.0
+			],
+			"subregion": "Z3L5",
+			"walking_samples": 71
+		},
+		{
+			"anchor": [
+				16400.32,
+				5919.87
+			],
+			"distance_from_anchor": 11.63,
+			"id": "Z3L5.professor",
+			"safe_ground": [
+				16392.0,
+				5928.0
+			],
+			"subregion": "Z3L5",
+			"walking_samples": 13
+		},
+		{
+			"anchor": [
+				16699.45,
+				4951.38
+			],
+			"distance_from_anchor": 8.67,
+			"id": "Z3L6.C0",
+			"safe_ground": [
+				16704.0,
+				4944.0
+			],
+			"subregion": "Z3L6",
+			"walking_samples": 1
+		},
+		{
+			"anchor": [
+				17105.0,
+				4775.0
+			],
+			"distance_from_anchor": 7.07,
+			"id": "Z3L6.C1",
+			"safe_ground": [
+				17112.0,
+				4776.0
+			],
+			"subregion": "Z3L6",
+			"walking_samples": 18
+		},
+		{
+			"anchor": [
+				17168.24,
+				4571.05
+			],
+			"distance_from_anchor": 13.78,
+			"id": "Z3L6.C2",
+			"safe_ground": [
+				17160.0,
+				4560.0
+			],
+			"subregion": "Z3L6",
+			"walking_samples": 20
+		},
+		{
+			"anchor": [
+				17275.0,
+				4845.0
+			],
+			"distance_from_anchor": 5.83,
+			"id": "Z3L6.C3",
+			"safe_ground": [
+				17280.0,
+				4848.0
+			],
+			"subregion": "Z3L6",
+			"walking_samples": 25
+		},
+		{
+			"anchor": [
+				15923.51,
+				4636.32
+			],
+			"distance_from_anchor": 12.29,
+			"id": "Z3L6.court1",
+			"safe_ground": [
+				15912.0,
+				4632.0
+			],
+			"subregion": "Z3L6",
+			"walking_samples": 34
+		},
+		{
+			"anchor": [
+				17585.33,
+				4143.07
+			],
+			"distance_from_anchor": 11.15,
+			"id": "Z3L6.court2",
+			"safe_ground": [
+				17592.0,
+				4152.0
+			],
+			"subregion": "Z3L6",
+			"walking_samples": 41
+		},
+		{
+			"anchor": [
+				16164.09,
+				3643.65
+			],
+			"distance_from_anchor": 12.68,
+			"id": "Z3L6.court3",
+			"safe_ground": [
+				16176.0,
+				3648.0
+			],
+			"subregion": "Z3L6",
+			"walking_samples": 55
+		},
+		{
+			"anchor": [
+				17180.05,
+				5384.83
+			],
+			"distance_from_anchor": 9.67,
+			"id": "Z3L6.court4",
+			"safe_ground": [
+				17184.0,
+				5376.0
+			],
+			"subregion": "Z3L6",
+			"walking_samples": 25
+		},
+		{
+			"anchor": [
+				16741.07,
+				3469.73
+			],
+			"distance_from_anchor": 15.0,
+			"id": "Z3L6.court5",
+			"safe_ground": [
+				16752.0,
+				3480.0
+			],
+			"subregion": "Z3L6",
+			"walking_samples": 62
+		},
+		{
+			"anchor": [
+				16699.45,
+				4951.38
+			],
+			"distance_from_anchor": 8.67,
+			"id": "Z3L6.entry",
+			"safe_ground": [
+				16704.0,
+				4944.0
+			],
+			"subregion": "Z3L6",
+			"walking_samples": 1
+		},
+		{
+			"anchor": [
+				17017.21,
+				4426.71
+			],
+			"distance_from_anchor": 10.78,
+			"id": "Z3L6.exit",
+			"safe_ground": [
+				17016.0,
+				4416.0
+			],
+			"subregion": "Z3L6",
+			"walking_samples": 23
+		},
+		{
+			"anchor": [
+				17229.36,
+				3764.61
+			],
+			"distance_from_anchor": 4.3,
+			"id": "Z3L6.explore1",
+			"safe_ground": [
+				17232.0,
+				3768.0
+			],
+			"subregion": "Z3L6",
+			"walking_samples": 50
+		},
+		{
+			"anchor": [
+				16121.28,
+				4159.25
+			],
+			"distance_from_anchor": 9.89,
+			"id": "Z3L6.explore2",
+			"safe_ground": [
+				16128.0,
+				4152.0
+			],
+			"subregion": "Z3L6",
+			"walking_samples": 34
+		},
+		{
+			"anchor": [
+				16199.29,
+				5127.36
+			],
+			"distance_from_anchor": 8.67,
+			"id": "Z3L6.explore3",
+			"safe_ground": [
+				16200.0,
+				5136.0
+			],
+			"subregion": "Z3L6",
+			"walking_samples": 22
+		},
+		{
+			"anchor": [
+				16691.55,
+				4003.55
+			],
+			"distance_from_anchor": 12.38,
+			"id": "Z3L6.finn",
+			"safe_ground": [
+				16680.0,
+				4008.0
+			],
+			"subregion": "Z3L6",
+			"walking_samples": 40
+		},
+		{
+			"anchor": [
+				16924.14,
+				4793.54
+			],
+			"distance_from_anchor": 7.67,
+			"id": "Z3L6.professor",
+			"safe_ground": [
+				16920.0,
+				4800.0
+			],
+			"subregion": "Z3L6",
+			"walking_samples": 10
+		}
+	],
+	"equipment_access": [
+		{
+			"at": [
+				12648.33,
+				1610.89
+			],
+			"id": "Z3L1.court1:lab_wall",
+			"reach": 34.0,
+			"safe_ground": [
+				12648.33,
+				1644.89
+			],
+			"subregion": "Z3L1"
+		},
+		{
+			"at": [
+				12508.33,
+				1750.89
+			],
+			"id": "Z3L1.court1:worktop",
+			"reach": 36.0,
+			"safe_ground": [
+				12508.33,
+				1786.89
+			],
+			"subregion": "Z3L1"
+		},
+		{
+			"at": [
+				12648.33,
+				1890.89
+			],
+			"id": "Z3L1.court1:glass_boundary",
+			"reach": 29.0,
+			"safe_ground": [
+				12648.33,
+				1919.89
+			],
+			"subregion": "Z3L1"
+		},
+		{
+			"at": [
+				12810.965,
+				1588.255
+			],
+			"id": "Z3L1.court1:condition_gauge",
+			"reach": 28.0,
+			"safe_ground": [
+				12810.965,
+				1616.255
+			],
+			"subregion": "Z3L1"
+		},
+		{
+			"at": [
+				12485.695,
+				1588.255
+			],
+			"id": "Z3L1.court1:heat_exchanger",
+			"reach": 31.0,
+			"safe_ground": [
+				12485.695,
+				1619.255
+			],
+			"subregion": "Z3L1"
+		},
+		{
+			"at": [
+				12878.33,
+				1750.89
+			],
+			"id": "Z3L1.court1:existing_preview",
+			"reach": 29.0,
+			"safe_ground": [
+				12878.33,
+				1779.89
+			],
+			"subregion": "Z3L1"
+		},
+		{
+			"at": [
+				12648.33,
+				1430.89
+			],
+			"id": "Z3L1.court1:sublimation",
+			"reach": 35.0,
+			"safe_ground": [
+				12648.33,
+				1465.89
+			],
+			"subregion": "Z3L1"
+		},
+		{
+			"at": [
+				12485.695,
+				1913.525
+			],
+			"id": "Z3L1.court1:sample_slot",
+			"reach": 35.0,
+			"safe_ground": [
+				12485.695,
+				1948.525
+			],
+			"subregion": "Z3L1"
+		},
+		{
+			"at": [
+				12919.54,
+				3144.63
+			],
+			"id": "Z3L1.court2:utility_seal",
+			"reach": 28.0,
+			"safe_ground": [
+				12919.54,
+				3172.63
+			],
+			"subregion": "Z3L1"
+		},
+		{
+			"at": [
+				12820.545,
+				3185.635
+			],
+			"id": "Z3L1.court2:utility_boiler",
+			"reach": 35.0,
+			"safe_ground": [
+				12820.545,
+				3220.635
+			],
+			"subregion": "Z3L1"
+		},
+		{
+			"at": [
+				13752.95,
+				2117.29
+			],
+			"id": "Z3L1.court3:recovery_condenser",
+			"reach": 35.0,
+			"safe_ground": [
+				13752.95,
+				2152.29
+			],
+			"subregion": "Z3L1"
+		},
+		{
+			"at": [
+				13851.945,
+				2158.295
+			],
+			"id": "Z3L1.court3:utility_tank",
+			"reach": 33.0,
+			"safe_ground": [
+				13851.945,
+				2191.295
+			],
+			"subregion": "Z3L1"
+		},
+		{
+			"at": [
+				14594.07,
+				4204.98
+			],
+			"id": "Z3L1.C0:lab_wall",
+			"reach": 34.0,
+			"safe_ground": [
+				14594.07,
+				4238.98
+			],
+			"subregion": "Z3L1"
+		},
+		{
+			"at": [
+				14454.07,
+				4344.98
+			],
+			"id": "Z3L1.C0:worktop",
+			"reach": 36.0,
+			"safe_ground": [
+				14454.07,
+				4380.98
+			],
+			"subregion": "Z3L1"
+		},
+		{
+			"at": [
+				14473.585,
+				3673.705
+			],
+			"id": "Z3L1.C1:lab_wall",
+			"reach": 34.0,
+			"safe_ground": [
+				14473.585,
+				3707.705
+			],
+			"subregion": "Z3L1"
+		},
+		{
+			"at": [
+				14473.585,
+				3871.695
+			],
+			"id": "Z3L1.C1:worktop",
+			"reach": 36.0,
+			"safe_ground": [
+				14473.585,
+				3907.695
+			],
+			"subregion": "Z3L1"
+		},
+		{
+			"at": [
+				15160.0,
+				4190.0
+			],
+			"id": "Z3L1.C2:lab_wall",
+			"reach": 34.0,
+			"safe_ground": [
+				15160.0,
+				4224.0
+			],
+			"subregion": "Z3L1"
+		},
+		{
+			"at": [
+				15020.0,
+				4330.0
+			],
+			"id": "Z3L1.C2:worktop",
+			"reach": 36.0,
+			"safe_ground": [
+				15020.0,
+				4366.0
+			],
+			"subregion": "Z3L1"
+		},
+		{
+			"at": [
+				12879.355,
+				801.195
+			],
+			"id": "Z3L2.court1:normal_warmer",
+			"reach": 35.0,
+			"safe_ground": [
+				12879.355,
+				836.195
+			],
+			"subregion": "Z3L2"
+		},
+		{
+			"at": [
+				12681.365,
+				801.195
+			],
+			"id": "Z3L2.court1:phase_sensor_solid",
+			"reach": 28.0,
+			"safe_ground": [
+				12681.365,
+				829.195
+			],
+			"subregion": "Z3L2"
+		},
+		{
+			"at": [
+				12640.36,
+				900.19
+			],
+			"id": "Z3L2.court1:phase_sensor_liquid",
+			"reach": 28.0,
+			"safe_ground": [
+				12640.36,
+				928.19
+			],
+			"subregion": "Z3L2"
+		},
+		{
+			"at": [
+				12879.355,
+				999.185
+			],
+			"id": "Z3L2.court1:path_card_melting",
+			"reach": 19.0,
+			"safe_ground": [
+				12879.355,
+				1018.185
+			],
+			"subregion": "Z3L2"
+		},
+		{
+			"at": [
+				14606.165,
+				715.695
+			],
+			"id": "Z3L2.court2:sublimation",
+			"reach": 35.0,
+			"safe_ground": [
+				14606.165,
+				750.695
+			],
+			"subregion": "Z3L2"
+		},
+		{
+			"at": [
+				14804.155,
+				715.695
+			],
+			"id": "Z3L2.court2:phase_sensor_gas",
+			"reach": 28.0,
+			"safe_ground": [
+				14804.155,
+				743.695
+			],
+			"subregion": "Z3L2"
+		},
+		{
+			"at": [
+				14845.16,
+				814.69
+			],
+			"id": "Z3L2.court2:path_card_sublimation",
+			"reach": 19.0,
+			"safe_ground": [
+				14845.16,
+				833.69
+			],
+			"subregion": "Z3L2"
+		},
+		{
+			"at": [
+				17339.83,
+				1101.63
+			],
+			"id": "Z3L2.court3:route_lock_liquid",
+			"reach": 29.0,
+			"safe_ground": [
+				17339.83,
+				1130.63
+			],
+			"subregion": "Z3L2"
+		},
+		{
+			"at": [
+				17438.824,
+				1142.635
+			],
+			"id": "Z3L2.court3:route_lock_direct_gas",
+			"reach": 29.0,
+			"safe_ground": [
+				17438.824,
+				1171.635
+			],
+			"subregion": "Z3L2"
+		},
+		{
+			"at": [
+				17240.836,
+				1142.635
+			],
+			"id": "Z3L2.court3:recovery_condenser",
+			"reach": 35.0,
+			"safe_ground": [
+				17240.836,
+				1177.635
+			],
+			"subregion": "Z3L2"
+		},
+		{
+			"at": [
+				17479.83,
+				1241.63
+			],
+			"id": "Z3L2.court3:utility_tank",
+			"reach": 33.0,
+			"safe_ground": [
+				17479.83,
+				1274.63
+			],
+			"subregion": "Z3L2"
+		},
+		{
+			"at": [
+				15793.065,
+				2843.975
+			],
+			"id": "Z3L2.C0:lab_wall",
+			"reach": 34.0,
+			"safe_ground": [
+				15793.065,
+				2877.975
+			],
+			"subregion": "Z3L2"
+		},
+		{
+			"at": [
+				15694.07,
+				2514.98
+			],
+			"id": "Z3L2.C0:worktop",
+			"reach": 36.0,
+			"safe_ground": [
+				15694.07,
+				2550.98
+			],
+			"subregion": "Z3L2"
+		},
+		{
+			"at": [
+				16218.995,
+				2491.005
+			],
+			"id": "Z3L2.C1:lab_wall",
+			"reach": 34.0,
+			"safe_ground": [
+				16218.995,
+				2525.005
+			],
+			"subregion": "Z3L2"
+		},
+		{
+			"at": [
+				16021.005,
+				2491.005
+			],
+			"id": "Z3L2.C1:worktop",
+			"reach": 36.0,
+			"safe_ground": [
+				16021.005,
+				2527.005
+			],
+			"subregion": "Z3L2"
+		},
+		{
+			"at": [
+				15234.78,
+				2639.18
+			],
+			"id": "Z3L2.C2:lab_wall",
+			"reach": 34.0,
+			"safe_ground": [
+				15234.78,
+				2673.18
+			],
+			"subregion": "Z3L2"
+		},
+		{
+			"at": [
+				15374.78,
+				2779.18
+			],
+			"id": "Z3L2.C2:worktop",
+			"reach": 36.0,
+			"safe_ground": [
+				15374.78,
+				2815.18
+			],
+			"subregion": "Z3L2"
+		},
+		{
+			"at": [
+				15932.29,
+				908.93
+			],
+			"id": "Z3L2.optional:path_card_melting",
+			"reach": 19.0,
+			"safe_ground": [
+				15932.29,
+				927.93
+			],
+			"subregion": "Z3L2"
+		},
+		{
+			"at": [
+				16031.285,
+				949.935
+			],
+			"id": "Z3L2.optional:path_card_sublimation",
+			"reach": 19.0,
+			"safe_ground": [
+				16031.285,
+				968.935
+			],
+			"subregion": "Z3L2"
+		},
+		{
+			"at": [
+				15833.295,
+				949.935
+			],
+			"id": "Z3L2.optional:sample_match_melting",
+			"reach": 33.0,
+			"safe_ground": [
+				15833.295,
+				982.935
+			],
+			"subregion": "Z3L2"
+		},
+		{
+			"at": [
+				15792.29,
+				1048.93
+			],
+			"id": "Z3L2.optional:sample_match_sublimation",
+			"reach": 33.0,
+			"safe_ground": [
+				15792.29,
+				1081.93
+			],
+			"subregion": "Z3L2"
+		},
+		{
+			"at": [
+				16031.285,
+				1147.925
+			],
+			"id": "Z3L2.optional:normal_warmer",
+			"reach": 35.0,
+			"safe_ground": [
+				16031.285,
+				1182.925
+			],
+			"subregion": "Z3L2"
+		},
+		{
+			"at": [
+				15932.29,
+				1278.93
+			],
+			"id": "Z3L2.optional:sublimation",
+			"reach": 35.0,
+			"safe_ground": [
+				15932.29,
+				1313.93
+			],
+			"subregion": "Z3L2"
+		},
+		{
+			"at": [
+				17881.17,
+				1222.66
+			],
+			"id": "Z3L3.court1:deposition",
+			"reach": 35.0,
+			"safe_ground": [
+				17881.17,
+				1257.66
+			],
+			"subregion": "Z3L3"
+		},
+		{
+			"at": [
+				19046.09,
+				2219.91
+			],
+			"id": "Z3L3.court2:dew_comparison",
+			"reach": 35.0,
+			"safe_ground": [
+				19046.09,
+				2254.91
+			],
+			"subregion": "Z3L3"
+		},
+		{
+			"at": [
+				19394.869,
+				3361.05
+			],
+			"id": "Z3L3.court3:optical_sensor",
+			"reach": 28.0,
+			"safe_ground": [
+				19394.869,
+				3389.05
+			],
+			"subregion": "Z3L3"
+		},
+		{
+			"at": [
+				19493.863,
+				3402.055
+			],
+			"id": "Z3L3.court3:lab_valve",
+			"reach": 29.0,
+			"safe_ground": [
+				19493.863,
+				3431.055
+			],
+			"subregion": "Z3L3"
+		},
+		{
+			"at": [
+				19493.863,
+				3600.045
+			],
+			"id": "Z3L3.court3:lab_gate",
+			"reach": 27.0,
+			"safe_ground": [
+				19493.863,
+				3627.045
+			],
+			"subregion": "Z3L3"
+		},
+		{
+			"at": [
+				19041.316,
+				3147.497
+			],
+			"id": "Z3L3.court3:permanent_step",
+			"reach": 33.0,
+			"safe_ground": [
+				19041.316,
+				3180.497
+			],
+			"subregion": "Z3L3"
+		},
+		{
+			"at": [
+				17510.975,
+				2869.835
+			],
+			"id": "Z3L3.C0:lab_wall",
+			"reach": 34.0,
+			"safe_ground": [
+				17510.975,
+				2903.835
+			],
+			"subregion": "Z3L3"
+		},
+		{
+			"at": [
+				17312.986,
+				3067.825
+			],
+			"id": "Z3L3.C0:worktop",
+			"reach": 36.0,
+			"safe_ground": [
+				17312.986,
+				3103.825
+			],
+			"subregion": "Z3L3"
+		},
+		{
+			"at": [
+				18033.994,
+				3356.005
+			],
+			"id": "Z3L3.C1:lab_wall",
+			"reach": 34.0,
+			"safe_ground": [
+				18033.994,
+				3390.005
+			],
+			"subregion": "Z3L3"
+		},
+		{
+			"at": [
+				18033.994,
+				3553.995
+			],
+			"id": "Z3L3.C1:worktop",
+			"reach": 36.0,
+			"safe_ground": [
+				18033.994,
+				3589.995
+			],
+			"subregion": "Z3L3"
+		},
+		{
+			"at": [
+				17910.76,
+				3704.72
+			],
+			"id": "Z3L3.C2:lab_wall",
+			"reach": 34.0,
+			"safe_ground": [
+				17910.76,
+				3738.72
+			],
+			"subregion": "Z3L3"
+		},
+		{
+			"at": [
+				17770.76,
+				3844.72
+			],
+			"id": "Z3L3.C2:worktop",
+			"reach": 36.0,
+			"safe_ground": [
+				17770.76,
+				3880.72
+			],
+			"subregion": "Z3L3"
+		},
+		{
+			"at": [
+				19554.434,
+				3850.885
+			],
+			"id": "Z3L4.court1:sublimation",
+			"reach": 35.0,
+			"safe_ground": [
+				19554.434,
+				3885.885
+			],
+			"subregion": "Z3L4"
+		},
+		{
+			"at": [
+				18475.311,
+				7171.38
+			],
+			"id": "Z3L4.court2:deposition",
+			"reach": 35.0,
+			"safe_ground": [
+				18475.311,
+				7206.38
+			],
+			"subregion": "Z3L4"
+		},
+		{
+			"at": [
+				18335.311,
+				7311.38
+			],
+			"id": "Z3L4.court2:receiver_a",
+			"reach": 35.0,
+			"safe_ground": [
+				18335.311,
+				7346.38
+			],
+			"subregion": "Z3L4"
+		},
+		{
+			"at": [
+				18615.311,
+				7311.38
+			],
+			"id": "Z3L4.court2:phase_sensor_gas",
+			"reach": 28.0,
+			"safe_ground": [
+				18615.311,
+				7339.38
+			],
+			"subregion": "Z3L4"
+		},
+		{
+			"at": [
+				19474.273,
+				6582.215
+			],
+			"id": "Z3L4.court3:frost_removal",
+			"reach": 35.0,
+			"safe_ground": [
+				19474.273,
+				6617.215
+			],
+			"subregion": "Z3L4"
+		},
+		{
+			"at": [
+				19276.285,
+				6582.215
+			],
+			"id": "Z3L4.court3:receiver_b",
+			"reach": 35.0,
+			"safe_ground": [
+				19276.285,
+				6617.215
+			],
+			"subregion": "Z3L4"
+		},
+		{
+			"at": [
+				19375.279,
+				6821.21
+			],
+			"id": "Z3L4.court3:reversible_circuit",
+			"reach": 48.0,
+			"safe_ground": [
+				19375.279,
+				6869.21
+			],
+			"subregion": "Z3L4"
+		},
+		{
+			"at": [
+				19235.279,
+				6681.21
+			],
+			"id": "Z3L4.court3:lab_valve",
+			"reach": 29.0,
+			"safe_ground": [
+				19235.279,
+				6710.21
+			],
+			"subregion": "Z3L4"
+		},
+		{
+			"at": [
+				19212.645,
+				6518.575
+			],
+			"id": "Z3L4.court3:optical_sensor",
+			"reach": 28.0,
+			"safe_ground": [
+				19212.645,
+				6546.575
+			],
+			"subregion": "Z3L4"
+		},
+		{
+			"at": [
+				18115.471,
+				4479.7
+			],
+			"id": "Z3L4.C0:lab_wall",
+			"reach": 34.0,
+			"safe_ground": [
+				18115.471,
+				4513.7
+			],
+			"subregion": "Z3L4"
+		},
+		{
+			"at": [
+				18354.465,
+				4578.695
+			],
+			"id": "Z3L4.C0:worktop",
+			"reach": 36.0,
+			"safe_ground": [
+				18354.465,
+				4614.695
+			],
+			"subregion": "Z3L4"
+		},
+		{
+			"at": [
+				18520.0,
+				5150.0
+			],
+			"id": "Z3L4.C1:lab_wall",
+			"reach": 34.0,
+			"safe_ground": [
+				18520.0,
+				5184.0
+			],
+			"subregion": "Z3L4"
+		},
+		{
+			"at": [
+				18660.0,
+				5290.0
+			],
+			"id": "Z3L4.C1:worktop",
+			"reach": 36.0,
+			"safe_ground": [
+				18660.0,
+				5326.0
+			],
+			"subregion": "Z3L4"
+		},
+		{
+			"at": [
+				18291.51,
+				4778.74
+			],
+			"id": "Z3L4.C2:lab_wall",
+			"reach": 34.0,
+			"safe_ground": [
+				18291.51,
+				4812.74
+			],
+			"subregion": "Z3L4"
+		},
+		{
+			"at": [
+				18431.51,
+				4918.74
+			],
+			"id": "Z3L4.C2:worktop",
+			"reach": 36.0,
+			"safe_ground": [
+				18431.51,
+				4954.74
+			],
+			"subregion": "Z3L4"
+		},
+		{
+			"at": [
+				17689.18,
+				5511.42
+			],
+			"id": "Z3L4.optional:gallery_collector_branch",
+			"reach": 35.0,
+			"safe_ground": [
+				17689.18,
+				5546.42
+			],
+			"subregion": "Z3L4"
+		},
+		{
+			"at": [
+				17549.18,
+				5651.42
+			],
+			"id": "Z3L4.optional:gallery_collector_star",
+			"reach": 35.0,
+			"safe_ground": [
+				17549.18,
+				5686.42
+			],
+			"subregion": "Z3L4"
+		},
+		{
+			"at": [
+				17590.186,
+				5750.415
+			],
+			"id": "Z3L4.optional:gallery_collector_grid",
+			"reach": 35.0,
+			"safe_ground": [
+				17590.186,
+				5785.415
+			],
+			"subregion": "Z3L4"
+		},
+		{
+			"at": [
+				17788.174,
+				5552.425
+			],
+			"id": "Z3L4.optional:gallery_sample_branch",
+			"reach": 30.0,
+			"safe_ground": [
+				17788.174,
+				5582.425
+			],
+			"subregion": "Z3L4"
+		},
+		{
+			"at": [
+				17590.186,
+				5552.425
+			],
+			"id": "Z3L4.optional:gallery_sample_star",
+			"reach": 30.0,
+			"safe_ground": [
+				17590.186,
+				5582.425
+			],
+			"subregion": "Z3L4"
+		},
+		{
+			"at": [
+				17829.18,
+				5651.42
+			],
+			"id": "Z3L4.optional:gallery_sample_grid",
+			"reach": 30.0,
+			"safe_ground": [
+				17829.18,
+				5681.42
+			],
+			"subregion": "Z3L4"
+		},
+		{
+			"at": [
+				17689.18,
+				5421.42
+			],
+			"id": "Z3L4.optional:gallery_slot_branch",
+			"reach": 33.0,
+			"safe_ground": [
+				17689.18,
+				5454.42
+			],
+			"subregion": "Z3L4"
+		},
+		{
+			"at": [
+				17851.814,
+				5488.785
+			],
+			"id": "Z3L4.optional:gallery_slot_star",
+			"reach": 33.0,
+			"safe_ground": [
+				17851.814,
+				5521.785
+			],
+			"subregion": "Z3L4"
+		},
+		{
+			"at": [
+				17919.18,
+				5651.42
+			],
+			"id": "Z3L4.optional:gallery_slot_grid",
+			"reach": 33.0,
+			"safe_ground": [
+				17919.18,
+				5684.42
+			],
+			"subregion": "Z3L4"
+		},
+		{
+			"at": [
+				17689.18,
+				5791.42
+			],
+			"id": "Z3L4.optional:gallery_card_branch",
+			"reach": 19.0,
+			"safe_ground": [
+				17689.18,
+				5810.42
+			],
+			"subregion": "Z3L4"
+		},
+		{
+			"at": [
+				17851.814,
+				5814.055
+			],
+			"id": "Z3L4.optional:gallery_card_star",
+			"reach": 19.0,
+			"safe_ground": [
+				17851.814,
+				5833.055
+			],
+			"subregion": "Z3L4"
+		},
+		{
+			"at": [
+				17526.545,
+				5814.055
+			],
+			"id": "Z3L4.optional:gallery_card_grid",
+			"reach": 19.0,
+			"safe_ground": [
+				17526.545,
+				5833.055
+			],
+			"subregion": "Z3L4"
+		},
+		{
+			"at": [
+				18129.773,
+				7466.785
+			],
+			"id": "Z3L5.court1:exhibit_melting",
+			"reach": 35.0,
+			"safe_ground": [
+				18129.773,
+				7501.785
+			],
+			"subregion": "Z3L5"
+		},
+		{
+			"at": [
+				18170.779,
+				7565.78
+			],
+			"id": "Z3L5.court1:exhibit_freezing",
+			"reach": 35.0,
+			"safe_ground": [
+				18170.779,
+				7600.78
+			],
+			"subregion": "Z3L5"
+		},
+		{
+			"at": [
+				18030.779,
+				7425.78
+			],
+			"id": "Z3L5.court1:exhibit_sign_solid_liquid",
+			"reach": 28.0,
+			"safe_ground": [
+				18030.779,
+				7453.78
+			],
+			"subregion": "Z3L5"
+		},
+		{
+			"at": [
+				17890.779,
+				7565.78
+			],
+			"id": "Z3L5.court1:path_card_melting",
+			"reach": 19.0,
+			"safe_ground": [
+				17890.779,
+				7584.78
+			],
+			"subregion": "Z3L5"
+		},
+		{
+			"at": [
+				18129.773,
+				7664.775
+			],
+			"id": "Z3L5.court1:path_card_freezing",
+			"reach": 19.0,
+			"safe_ground": [
+				18129.773,
+				7683.775
+			],
+			"subregion": "Z3L5"
+		},
+		{
+			"at": [
+				15376.765,
+				8032.435
+			],
+			"id": "Z3L5.court2:exhibit_evaporation",
+			"reach": 35.0,
+			"safe_ground": [
+				15376.765,
+				8067.435
+			],
+			"subregion": "Z3L5"
+		},
+		{
+			"at": [
+				15615.76,
+				8131.43
+			],
+			"id": "Z3L5.court2:exhibit_boiling",
+			"reach": 35.0,
+			"safe_ground": [
+				15615.76,
+				8166.43
+			],
+			"subregion": "Z3L5"
+		},
+		{
+			"at": [
+				15335.76,
+				8131.43
+			],
+			"id": "Z3L5.court2:exhibit_condensation",
+			"reach": 35.0,
+			"safe_ground": [
+				15335.76,
+				8166.43
+			],
+			"subregion": "Z3L5"
+		},
+		{
+			"at": [
+				15574.755,
+				8230.425
+			],
+			"id": "Z3L5.court2:exhibit_sign_liquid_gas",
+			"reach": 28.0,
+			"safe_ground": [
+				15574.755,
+				8258.425
+			],
+			"subregion": "Z3L5"
+		},
+		{
+			"at": [
+				15475.76,
+				7991.43
+			],
+			"id": "Z3L5.court2:path_card_evaporation",
+			"reach": 19.0,
+			"safe_ground": [
+				15475.76,
+				8010.43
+			],
+			"subregion": "Z3L5"
+		},
+		{
+			"at": [
+				15376.765,
+				8230.425
+			],
+			"id": "Z3L5.court2:path_card_boiling",
+			"reach": 19.0,
+			"safe_ground": [
+				15376.765,
+				8249.425
+			],
+			"subregion": "Z3L5"
+		},
+		{
+			"at": [
+				15475.76,
+				8271.43
+			],
+			"id": "Z3L5.court2:path_card_condensation",
+			"reach": 19.0,
+			"safe_ground": [
+				15475.76,
+				8290.43
+			],
+			"subregion": "Z3L5"
+		},
+		{
+			"at": [
+				16857.67,
+				7721.85
+			],
+			"id": "Z3L5.court3:exhibit_sublimation",
+			"reach": 35.0,
+			"safe_ground": [
+				16857.67,
+				7756.85
+			],
+			"subregion": "Z3L5"
+		},
+		{
+			"at": [
+				16816.664,
+				7820.845
+			],
+			"id": "Z3L5.court3:exhibit_deposition",
+			"reach": 35.0,
+			"safe_ground": [
+				16816.664,
+				7855.845
+			],
+			"subregion": "Z3L5"
+		},
+		{
+			"at": [
+				16717.67,
+				7581.85
+			],
+			"id": "Z3L5.court3:exhibit_sign_solid_gas",
+			"reach": 28.0,
+			"safe_ground": [
+				16717.67,
+				7609.85
+			],
+			"subregion": "Z3L5"
+		},
+		{
+			"at": [
+				16577.67,
+				7721.85
+			],
+			"id": "Z3L5.court3:path_card_sublimation",
+			"reach": 19.0,
+			"safe_ground": [
+				16577.67,
+				7740.85
+			],
+			"subregion": "Z3L5"
+		},
+		{
+			"at": [
+				16618.676,
+				7820.845
+			],
+			"id": "Z3L5.court3:path_card_deposition",
+			"reach": 19.0,
+			"safe_ground": [
+				16618.676,
+				7839.845
+			],
+			"subregion": "Z3L5"
+		},
+		{
+			"at": [
+				16717.67,
+				7861.85
+			],
+			"id": "Z3L5.court3:cartridge_blueprint",
+			"reach": 19.0,
+			"safe_ground": [
+				16717.67,
+				7880.85
+			],
+			"subregion": "Z3L5"
+		},
+		{
+			"at": [
+				16674.061,
+				5801.42
+			],
+			"id": "Z3L5.C0:lab_wall",
+			"reach": 34.0,
+			"safe_ground": [
+				16674.061,
+				5835.42
+			],
+			"subregion": "Z3L5"
+		},
+		{
+			"at": [
+				16814.061,
+				5941.42
+			],
+			"id": "Z3L5.C0:worktop",
+			"reach": 36.0,
+			"safe_ground": [
+				16814.061,
+				5977.42
+			],
+			"subregion": "Z3L5"
+		},
+		{
+			"at": [
+				16320.0,
+				6350.0
+			],
+			"id": "Z3L5.C1:lab_wall",
+			"reach": 34.0,
+			"safe_ground": [
+				16320.0,
+				6384.0
+			],
+			"subregion": "Z3L5"
+		},
+		{
+			"at": [
+				16460.0,
+				6490.0
+			],
+			"id": "Z3L5.C1:worktop",
+			"reach": 36.0,
+			"safe_ground": [
+				16460.0,
+				6526.0
+			],
+			"subregion": "Z3L5"
+		},
+		{
+			"at": [
+				15810.85,
+				6174.63
+			],
+			"id": "Z3L5.C2:lab_wall",
+			"reach": 34.0,
+			"safe_ground": [
+				15810.85,
+				6208.63
+			],
+			"subregion": "Z3L5"
+		},
+		{
+			"at": [
+				15950.85,
+				6314.63
+			],
+			"id": "Z3L5.C2:worktop",
+			"reach": 36.0,
+			"safe_ground": [
+				15950.85,
+				6350.63
+			],
+			"subregion": "Z3L5"
+		},
+		{
+			"at": [
+				14993.16,
+				6982.82
+			],
+			"id": "Z3L5.optional:gallery_collector_branch",
+			"reach": 35.0,
+			"safe_ground": [
+				14993.16,
+				7017.82
+			],
+			"subregion": "Z3L5"
+		},
+		{
+			"at": [
+				14853.16,
+				7122.82
+			],
+			"id": "Z3L5.optional:gallery_collector_star",
+			"reach": 35.0,
+			"safe_ground": [
+				14853.16,
+				7157.82
+			],
+			"subregion": "Z3L5"
+		},
+		{
+			"at": [
+				14894.165,
+				7221.815
+			],
+			"id": "Z3L5.optional:gallery_collector_grid",
+			"reach": 35.0,
+			"safe_ground": [
+				14894.165,
+				7256.815
+			],
+			"subregion": "Z3L5"
+		},
+		{
+			"at": [
+				15092.155,
+				7023.825
+			],
+			"id": "Z3L5.optional:gallery_sample_branch",
+			"reach": 30.0,
+			"safe_ground": [
+				15092.155,
+				7053.825
+			],
+			"subregion": "Z3L5"
+		},
+		{
+			"at": [
+				14894.165,
+				7023.825
+			],
+			"id": "Z3L5.optional:gallery_sample_star",
+			"reach": 30.0,
+			"safe_ground": [
+				14894.165,
+				7053.825
+			],
+			"subregion": "Z3L5"
+		},
+		{
+			"at": [
+				15092.155,
+				7221.815
+			],
+			"id": "Z3L5.optional:gallery_sample_grid",
+			"reach": 30.0,
+			"safe_ground": [
+				15092.155,
+				7251.815
+			],
+			"subregion": "Z3L5"
+		},
+		{
+			"at": [
+				14993.16,
+				6892.82
+			],
+			"id": "Z3L5.optional:gallery_slot_branch",
+			"reach": 33.0,
+			"safe_ground": [
+				14993.16,
+				6925.82
+			],
+			"subregion": "Z3L5"
+		},
+		{
+			"at": [
+				15155.795,
+				6960.185
+			],
+			"id": "Z3L5.optional:gallery_slot_star",
+			"reach": 33.0,
+			"safe_ground": [
+				15155.795,
+				6993.185
+			],
+			"subregion": "Z3L5"
+		},
+		{
+			"at": [
+				15155.795,
+				7285.455
+			],
+			"id": "Z3L5.optional:gallery_slot_grid",
+			"reach": 33.0,
+			"safe_ground": [
+				15155.795,
+				7318.455
+			],
+			"subregion": "Z3L5"
+		},
+		{
+			"at": [
+				14993.16,
+				7262.82
+			],
+			"id": "Z3L5.optional:gallery_card_branch",
+			"reach": 19.0,
+			"safe_ground": [
+				14993.16,
+				7281.82
+			],
+			"subregion": "Z3L5"
+		},
+		{
+			"at": [
+				14830.525,
+				6960.185
+			],
+			"id": "Z3L5.optional:gallery_card_star",
+			"reach": 19.0,
+			"safe_ground": [
+				14830.525,
+				6979.185
+			],
+			"subregion": "Z3L5"
+		},
+		{
+			"at": [
+				14763.16,
+				7122.82
+			],
+			"id": "Z3L5.optional:gallery_card_grid",
+			"reach": 19.0,
+			"safe_ground": [
+				14763.16,
+				7141.82
+			],
+			"subregion": "Z3L5"
+		},
+		{
+			"at": [
+				16063.51,
+				4636.32
+			],
+			"id": "Z3L6.court1:normal_warmer",
+			"reach": 35.0,
+			"safe_ground": [
+				16063.51,
+				4671.32
+			],
+			"subregion": "Z3L6"
+		},
+		{
+			"at": [
+				15824.515,
+				4537.325
+			],
+			"id": "Z3L6.court1:utility_seal",
+			"reach": 28.0,
+			"safe_ground": [
+				15824.515,
+				4565.325
+			],
+			"subregion": "Z3L6"
+		},
+		{
+			"at": [
+				15783.51,
+				4636.32
+			],
+			"id": "Z3L6.court1:utility_tank",
+			"reach": 33.0,
+			"safe_ground": [
+				15783.51,
+				4669.32
+			],
+			"subregion": "Z3L6"
+		},
+		{
+			"at": [
+				15824.515,
+				4735.315
+			],
+			"id": "Z3L6.court1:cartridge_part_housing",
+			"reach": 30.0,
+			"safe_ground": [
+				15824.515,
+				4765.315
+			],
+			"subregion": "Z3L6"
+		},
+		{
+			"at": [
+				15923.51,
+				4406.32
+			],
+			"id": "Z3L6.court1:cartridge_part_collector_plate",
+			"reach": 30.0,
+			"safe_ground": [
+				15923.51,
+				4436.32
+			],
+			"subregion": "Z3L6"
+		},
+		{
+			"at": [
+				17585.33,
+				4003.07
+			],
+			"id": "Z3L6.court2:utility_boiler",
+			"reach": 35.0,
+			"safe_ground": [
+				17585.33,
+				4038.07
+			],
+			"subregion": "Z3L6"
+		},
+		{
+			"at": [
+				17684.324,
+				4044.075
+			],
+			"id": "Z3L6.court2:recovery_condenser",
+			"reach": 35.0,
+			"safe_ground": [
+				17684.324,
+				4079.075
+			],
+			"subregion": "Z3L6"
+		},
+		{
+			"at": [
+				17725.33,
+				4143.07
+			],
+			"id": "Z3L6.court2:cartridge_part_vapor_tube",
+			"reach": 30.0,
+			"safe_ground": [
+				17725.33,
+				4173.07
+			],
+			"subregion": "Z3L6"
+		},
+		{
+			"at": [
+				17445.33,
+				4143.07
+			],
+			"id": "Z3L6.court2:cartridge_part_calibrated_sensor",
+			"reach": 30.0,
+			"safe_ground": [
+				17445.33,
+				4173.07
+			],
+			"subregion": "Z3L6"
+		},
+		{
+			"at": [
+				16164.09,
+				3503.65
+			],
+			"id": "Z3L6.court3:delivery_port",
+			"reach": 35.0,
+			"safe_ground": [
+				16164.09,
+				3538.65
+			],
+			"subregion": "Z3L6"
+		},
+		{
+			"at": [
+				16263.085,
+				3544.655
+			],
+			"id": "Z3L6.court3:cartridge_part_water_ice_sample",
+			"reach": 30.0,
+			"safe_ground": [
+				16263.085,
+				3574.655
+			],
+			"subregion": "Z3L6"
+		},
+		{
+			"at": [
+				17279.045,
+				5285.835
+			],
+			"id": "Z3L6.court4:assembly_jig",
+			"reach": 33.0,
+			"safe_ground": [
+				17279.045,
+				5318.835
+			],
+			"subregion": "Z3L6"
+		},
+		{
+			"at": [
+				17320.051,
+				5384.83
+			],
+			"id": "Z3L6.court4:cartridge_slot_housing",
+			"reach": 33.0,
+			"safe_ground": [
+				17320.051,
+				5417.83
+			],
+			"subregion": "Z3L6"
+		},
+		{
+			"at": [
+				17040.051,
+				5384.83
+			],
+			"id": "Z3L6.court4:cartridge_slot_collector_plate",
+			"reach": 33.0,
+			"safe_ground": [
+				17040.051,
+				5417.83
+			],
+			"subregion": "Z3L6"
+		},
+		{
+			"at": [
+				17279.045,
+				5483.825
+			],
+			"id": "Z3L6.court4:cartridge_slot_vapor_tube",
+			"reach": 33.0,
+			"safe_ground": [
+				17279.045,
+				5516.825
+			],
+			"subregion": "Z3L6"
+		},
+		{
+			"at": [
+				17081.057,
+				5483.825
+			],
+			"id": "Z3L6.court4:cartridge_slot_calibrated_sensor",
+			"reach": 33.0,
+			"safe_ground": [
+				17081.057,
+				5516.825
+			],
+			"subregion": "Z3L6"
+		},
+		{
+			"at": [
+				17180.051,
+				5154.83
+			],
+			"id": "Z3L6.court4:cartridge_slot_water_ice_sample",
+			"reach": 33.0,
+			"safe_ground": [
+				17180.051,
+				5187.83
+			],
+			"subregion": "Z3L6"
+		},
+		{
+			"at": [
+				17017.416,
+				5222.195
+			],
+			"id": "Z3L6.court4:cartridge",
+			"reach": 35.0,
+			"safe_ground": [
+				17017.416,
+				5257.195
+			],
+			"subregion": "Z3L6"
+		},
+		{
+			"at": [
+				17030.984,
+				3759.644
+			],
+			"id": "Z3L6.court5:exit_scanner",
+			"reach": 42.0,
+			"safe_ground": [
+				17030.984,
+				3801.644
+			],
+			"subregion": "Z3L6"
+		},
+		{
+			"at": [
+				16642.076,
+				3370.735
+			],
+			"id": "Z3L6.court5:final_exit",
+			"reach": 27.0,
+			"safe_ground": [
+				16642.076,
+				3397.735
+			],
+			"subregion": "Z3L6"
+		},
+		{
+			"at": [
+				16699.449,
+				4811.38
+			],
+			"id": "Z3L6.C0:lab_wall",
+			"reach": 34.0,
+			"safe_ground": [
+				16699.449,
+				4845.38
+			],
+			"subregion": "Z3L6"
+		},
+		{
+			"at": [
+				16798.443,
+				5050.375
+			],
+			"id": "Z3L6.C0:worktop",
+			"reach": 36.0,
+			"safe_ground": [
+				16798.443,
+				5086.375
+			],
+			"subregion": "Z3L6"
+		},
+		{
+			"at": [
+				17203.994,
+				4676.005
+			],
+			"id": "Z3L6.C1:lab_wall",
+			"reach": 34.0,
+			"safe_ground": [
+				17203.994,
+				4710.005
+			],
+			"subregion": "Z3L6"
+		},
+		{
+			"at": [
+				17105.0,
+				4915.0
+			],
+			"id": "Z3L6.C1:worktop",
+			"reach": 36.0,
+			"safe_ground": [
+				17105.0,
+				4951.0
+			],
+			"subregion": "Z3L6"
+		},
+		{
+			"at": [
+				17168.24,
+				4431.05
+			],
+			"id": "Z3L6.C2:lab_wall",
+			"reach": 34.0,
+			"safe_ground": [
+				17168.24,
+				4465.05
+			],
+			"subregion": "Z3L6"
+		},
+		{
+			"at": [
+				17330.875,
+				4408.415
+			],
+			"id": "Z3L6.C2:worktop",
+			"reach": 36.0,
+			"safe_ground": [
+				17330.875,
+				4444.415
+			],
+			"subregion": "Z3L6"
+		},
+		{
+			"at": [
+				17373.994,
+				4746.005
+			],
+			"id": "Z3L6.C3:lab_wall",
+			"reach": 34.0,
+			"safe_ground": [
+				17373.994,
+				4780.005
+			],
+			"subregion": "Z3L6"
+		},
+		{
+			"at": [
+				17373.994,
+				4943.995
+			],
+			"id": "Z3L6.C3:worktop",
+			"reach": 36.0,
+			"safe_ground": [
+				17373.994,
+				4979.995
+			],
+			"subregion": "Z3L6"
+		}
+	],
+	"geometry_hash": "8af9872421d98d9f05cd8777bac391e6008a52ff5df5b0e28975e00e4425dc17"
+}

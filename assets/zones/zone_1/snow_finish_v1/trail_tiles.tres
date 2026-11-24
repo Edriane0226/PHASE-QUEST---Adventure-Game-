@@ -1,0 +1,35 @@
+[gd_resource type="TileSet" format=3 uid="uid://dibcnwy8un2fd"]
+
+[ext_resource type="Texture2D" uid="uid://ccl7e4kw364ts" path="res://assets/zones/zone_1/snow_finish_v1/tiles/paver_0.png" id="1_epk1p"]
+[ext_resource type="Texture2D" uid="uid://dl2n7qbgqa1pa" path="res://assets/zones/zone_1/snow_finish_v1/tiles/paver_1.png" id="2_nvnvf"]
+[ext_resource type="Texture2D" uid="uid://dosq4uwdnobip" path="res://assets/zones/zone_1/snow_finish_v1/tiles/paver_2.png" id="3_5vyju"]
+[ext_resource type="Texture2D" uid="uid://iwtapsqrf6pn" path="res://assets/zones/zone_1/snow_finish_v1/tiles/paver_3.png" id="4_oltqh"]
+
+[sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_qrqd5"]
+texture = ExtResource("1_epk1p")
+texture_region_size = Vector2i(48, 40)
+0:0/0 = 0
+
+[sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_ysa1q"]
+texture = ExtResource("2_nvnvf")
+texture_region_size = Vector2i(48, 40)
+0:0/0 = 0
+
+[sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_rgml5"]
+texture = ExtResource("3_5vyju")
+texture_region_size = Vector2i(48, 40)
+0:0/0 = 0
+
+[sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_3tnch"]
+texture = ExtResource("4_oltqh")
+texture_region_size = Vector2i(48, 40)
+0:0/0 = 0
+
+[resource]
+tile_shape = 1
+tile_layout = 5
+tile_size = Vector2i(32, 16)
+sources/0 = SubResource("TileSetAtlasSource_qrqd5")
+sources/1 = SubResource("TileSetAtlasSource_ysa1q")
+sources/2 = SubResource("TileSetAtlasSource_rgml5")
+sources/3 = SubResource("TileSetAtlasSource_3tnch")

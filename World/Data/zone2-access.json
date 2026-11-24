@@ -1,0 +1,1111 @@
+{
+	"access": [
+		{
+			"anchor": [
+				8411.77,
+				6006.36
+			],
+			"distance_from_anchor": 13.38,
+			"id": "Z2L1.C0",
+			"safe_ground": [
+				8400.0,
+				6000.0
+			],
+			"subregion": "Z2L1",
+			"walking_samples": 1
+		},
+		{
+			"anchor": [
+				8985.0,
+				6305.0
+			],
+			"distance_from_anchor": 11.4,
+			"id": "Z2L1.C1",
+			"safe_ground": [
+				8976.0,
+				6312.0
+			],
+			"subregion": "Z2L1",
+			"walking_samples": 25
+		},
+		{
+			"anchor": [
+				8750.06,
+				5839.16
+			],
+			"distance_from_anchor": 12.25,
+			"id": "Z2L1.C2",
+			"safe_ground": [
+				8760.0,
+				5832.0
+			],
+			"subregion": "Z2L1",
+			"walking_samples": 16
+		},
+		{
+			"anchor": [
+				8533.29,
+				4550.52
+			],
+			"distance_from_anchor": 14.3,
+			"id": "Z2L1.court1",
+			"safe_ground": [
+				8544.0,
+				4560.0
+			],
+			"subregion": "Z2L1",
+			"walking_samples": 61
+		},
+		{
+			"anchor": [
+				8201.61,
+				7433.84
+			],
+			"distance_from_anchor": 8.88,
+			"id": "Z2L1.court2",
+			"safe_ground": [
+				8208.0,
+				7440.0
+			],
+			"subregion": "Z2L1",
+			"walking_samples": 61
+		},
+		{
+			"anchor": [
+				10048.92,
+				6062.2
+			],
+			"distance_from_anchor": 12.09,
+			"id": "Z2L1.court3",
+			"safe_ground": [
+				10056.0,
+				6072.0
+			],
+			"subregion": "Z2L1",
+			"walking_samples": 70
+		},
+		{
+			"anchor": [
+				8411.77,
+				6006.36
+			],
+			"distance_from_anchor": 13.38,
+			"id": "Z2L1.entry",
+			"safe_ground": [
+				8400.0,
+				6000.0
+			],
+			"subregion": "Z2L1",
+			"walking_samples": 1
+		},
+		{
+			"anchor": [
+				9306.46,
+				5644.37
+			],
+			"distance_from_anchor": 7.06,
+			"id": "Z2L1.exit",
+			"safe_ground": [
+				9312.0,
+				5640.0
+			],
+			"subregion": "Z2L1",
+			"walking_samples": 39
+		},
+		{
+			"anchor": [
+				8336.64,
+				5236.29
+			],
+			"distance_from_anchor": 9.65,
+			"id": "Z2L1.explore1",
+			"safe_ground": [
+				8328.0,
+				5232.0
+			],
+			"subregion": "Z2L1",
+			"walking_samples": 33
+		},
+		{
+			"anchor": [
+				9065.54,
+				5033.36
+			],
+			"distance_from_anchor": 9.26,
+			"id": "Z2L1.explore2",
+			"safe_ground": [
+				9072.0,
+				5040.0
+			],
+			"subregion": "Z2L1",
+			"walking_samples": 41
+		},
+		{
+			"anchor": [
+				9602.74,
+				6367.16
+			],
+			"distance_from_anchor": 7.67,
+			"id": "Z2L1.explore3",
+			"safe_ground": [
+				9600.0,
+				6360.0
+			],
+			"subregion": "Z2L1",
+			"walking_samples": 51
+		},
+		{
+			"anchor": [
+				8628.9,
+				6174.46
+			],
+			"distance_from_anchor": 12.84,
+			"id": "Z2L1.professor",
+			"safe_ground": [
+				8640.0,
+				6168.0
+			],
+			"subregion": "Z2L1",
+			"walking_samples": 11
+		},
+		{
+			"anchor": [
+				10043.54,
+				4805.63
+			],
+			"distance_from_anchor": 12.84,
+			"id": "Z2L2.C0",
+			"safe_ground": [
+				10032.0,
+				4800.0
+			],
+			"subregion": "Z2L2",
+			"walking_samples": 1
+		},
+		{
+			"anchor": [
+				10520.0,
+				4690.0
+			],
+			"distance_from_anchor": 12.81,
+			"id": "Z2L2.C1",
+			"safe_ground": [
+				10512.0,
+				4680.0
+			],
+			"subregion": "Z2L2",
+			"walking_samples": 21
+		},
+		{
+			"anchor": [
+				10642.95,
+				4440.58
+			],
+			"distance_from_anchor": 10.97,
+			"id": "Z2L2.C2",
+			"safe_ground": [
+				10632.0,
+				4440.0
+			],
+			"subregion": "Z2L2",
+			"walking_samples": 26
+		},
+		{
+			"anchor": [
+				11937.12,
+				1073.98
+			],
+			"distance_from_anchor": 10.93,
+			"id": "Z2L2.court1",
+			"safe_ground": [
+				11928.0,
+				1080.0
+			],
+			"subregion": "Z2L2",
+			"walking_samples": 156
+		},
+		{
+			"anchor": [
+				10169.23,
+				2283.01
+			],
+			"distance_from_anchor": 7.41,
+			"id": "Z2L2.court2",
+			"safe_ground": [
+				10176.0,
+				2280.0
+			],
+			"subregion": "Z2L2",
+			"walking_samples": 106
+		},
+		{
+			"anchor": [
+				12236.22,
+				3120.91
+			],
+			"distance_from_anchor": 3.89,
+			"id": "Z2L2.court3",
+			"safe_ground": [
+				12240.0,
+				3120.0
+			],
+			"subregion": "Z2L2",
+			"walking_samples": 93
+		},
+		{
+			"anchor": [
+				10043.54,
+				4805.63
+			],
+			"distance_from_anchor": 12.84,
+			"id": "Z2L2.entry",
+			"safe_ground": [
+				10032.0,
+				4800.0
+			],
+			"subregion": "Z2L2",
+			"walking_samples": 1
+		},
+		{
+			"anchor": [
+				9415.47,
+				4797.42
+			],
+			"distance_from_anchor": 7.9,
+			"id": "Z2L2.exit",
+			"safe_ground": [
+				9408.0,
+				4800.0
+			],
+			"subregion": "Z2L2",
+			"walking_samples": 27
+		},
+		{
+			"anchor": [
+				10998.61,
+				3254.44
+			],
+			"distance_from_anchor": 11.62,
+			"id": "Z2L2.explore1",
+			"safe_ground": [
+				10992.0,
+				3264.0
+			],
+			"subregion": "Z2L2",
+			"walking_samples": 65
+		},
+		{
+			"anchor": [
+				11868.56,
+				4314.48
+			],
+			"distance_from_anchor": 12.7,
+			"id": "Z2L2.explore2",
+			"safe_ground": [
+				11880.0,
+				4320.0
+			],
+			"subregion": "Z2L2",
+			"walking_samples": 78
+		},
+		{
+			"anchor": [
+				11379.13,
+				2085.03
+			],
+			"distance_from_anchor": 4.31,
+			"id": "Z2L2.explore3",
+			"safe_ground": [
+				11376.0,
+				2088.0
+			],
+			"subregion": "Z2L2",
+			"walking_samples": 114
+		},
+		{
+			"anchor": [
+				9435.8,
+				3478.62
+			],
+			"distance_from_anchor": 4.04,
+			"id": "Z2L2.optional",
+			"safe_ground": [
+				9432.0,
+				3480.0
+			],
+			"subregion": "Z2L2",
+			"walking_samples": 56
+		},
+		{
+			"anchor": [
+				10308.04,
+				4731.88
+			],
+			"distance_from_anchor": 12.57,
+			"id": "Z2L2.professor",
+			"safe_ground": [
+				10320.0,
+				4728.0
+			],
+			"subregion": "Z2L2",
+			"walking_samples": 13
+		},
+		{
+			"anchor": [
+				11288.59,
+				5658.84
+			],
+			"distance_from_anchor": 10.02,
+			"id": "Z2L3.C0",
+			"safe_ground": [
+				11280.0,
+				5664.0
+			],
+			"subregion": "Z2L3",
+			"walking_samples": 1
+		},
+		{
+			"anchor": [
+				11635.0,
+				6355.0
+			],
+			"distance_from_anchor": 7.07,
+			"id": "Z2L3.C1",
+			"safe_ground": [
+				11640.0,
+				6360.0
+			],
+			"subregion": "Z2L3",
+			"walking_samples": 30
+		},
+		{
+			"anchor": [
+				12034.16,
+				6357.13
+			],
+			"distance_from_anchor": 10.56,
+			"id": "Z2L3.C2",
+			"safe_ground": [
+				12024.0,
+				6360.0
+			],
+			"subregion": "Z2L3",
+			"walking_samples": 32
+		},
+		{
+			"anchor": [
+				12148.77,
+				4876.88
+			],
+			"distance_from_anchor": 6.82,
+			"id": "Z2L3.court1",
+			"safe_ground": [
+				12144.0,
+				4872.0
+			],
+			"subregion": "Z2L3",
+			"walking_samples": 37
+		},
+		{
+			"anchor": [
+				10446.64,
+				5991.34
+			],
+			"distance_from_anchor": 10.91,
+			"id": "Z2L3.court2",
+			"safe_ground": [
+				10440.0,
+				6000.0
+			],
+			"subregion": "Z2L3",
+			"walking_samples": 36
+		},
+		{
+			"anchor": [
+				10925.89,
+				6559.48
+			],
+			"distance_from_anchor": 9.52,
+			"id": "Z2L3.court3",
+			"safe_ground": [
+				10920.0,
+				6552.0
+			],
+			"subregion": "Z2L3",
+			"walking_samples": 38
+		},
+		{
+			"anchor": [
+				11288.59,
+				5658.84
+			],
+			"distance_from_anchor": 10.02,
+			"id": "Z2L3.entry",
+			"safe_ground": [
+				11280.0,
+				5664.0
+			],
+			"subregion": "Z2L3",
+			"walking_samples": 1
+		},
+		{
+			"anchor": [
+				11378.56,
+				7135.86
+			],
+			"distance_from_anchor": 8.27,
+			"id": "Z2L3.exit",
+			"safe_ground": [
+				11376.0,
+				7128.0
+			],
+			"subregion": "Z2L3",
+			"walking_samples": 62
+		},
+		{
+			"anchor": [
+				12416.67,
+				5658.09
+			],
+			"distance_from_anchor": 10.49,
+			"id": "Z2L3.explore1",
+			"safe_ground": [
+				12408.0,
+				5664.0
+			],
+			"subregion": "Z2L3",
+			"walking_samples": 48
+		},
+		{
+			"anchor": [
+				11535.14,
+				5085.62
+			],
+			"distance_from_anchor": 9.17,
+			"id": "Z2L3.explore2",
+			"safe_ground": [
+				11544.0,
+				5088.0
+			],
+			"subregion": "Z2L3",
+			"walking_samples": 25
+		},
+		{
+			"anchor": [
+				11890.43,
+				6880.25
+			],
+			"distance_from_anchor": 12.99,
+			"id": "Z2L3.explore3",
+			"safe_ground": [
+				11880.0,
+				6888.0
+			],
+			"subregion": "Z2L3",
+			"walking_samples": 52
+		},
+		{
+			"anchor": [
+				11298.68,
+				5933.25
+			],
+			"distance_from_anchor": 7.47,
+			"id": "Z2L3.professor",
+			"safe_ground": [
+				11304.0,
+				5928.0
+			],
+			"subregion": "Z2L3",
+			"walking_samples": 12
+		},
+		{
+			"anchor": [
+				10406.39,
+				7144.41
+			],
+			"distance_from_anchor": 12.25,
+			"id": "Z2L4.C0",
+			"safe_ground": [
+				10416.0,
+				7152.0
+			],
+			"subregion": "Z2L4",
+			"walking_samples": 1
+		},
+		{
+			"anchor": [
+				10120.0,
+				7790.0
+			],
+			"distance_from_anchor": 12.81,
+			"id": "Z2L4.C1",
+			"safe_ground": [
+				10128.0,
+				7800.0
+			],
+			"subregion": "Z2L4",
+			"walking_samples": 28
+		},
+		{
+			"anchor": [
+				10936.71,
+				7459.52
+			],
+			"distance_from_anchor": 8.56,
+			"id": "Z2L4.C2",
+			"safe_ground": [
+				10944.0,
+				7464.0
+			],
+			"subregion": "Z2L4",
+			"walking_samples": 26
+		},
+		{
+			"anchor": [
+				8209.86,
+				8023.26
+			],
+			"distance_from_anchor": 7.49,
+			"id": "Z2L4.court1",
+			"safe_ground": [
+				8208.0,
+				8016.0
+			],
+			"subregion": "Z2L4",
+			"walking_samples": 93
+		},
+		{
+			"anchor": [
+				10905.4,
+				8619.55
+			],
+			"distance_from_anchor": 10.05,
+			"id": "Z2L4.court2",
+			"safe_ground": [
+				10896.0,
+				8616.0
+			],
+			"subregion": "Z2L4",
+			"walking_samples": 66
+		},
+		{
+			"anchor": [
+				9209.75,
+				8462.15
+			],
+			"distance_from_anchor": 11.67,
+			"id": "Z2L4.court3",
+			"safe_ground": [
+				9216.0,
+				8472.0
+			],
+			"subregion": "Z2L4",
+			"walking_samples": 56
+		},
+		{
+			"anchor": [
+				10406.39,
+				7144.41
+			],
+			"distance_from_anchor": 12.25,
+			"id": "Z2L4.entry",
+			"safe_ground": [
+				10416.0,
+				7152.0
+			],
+			"subregion": "Z2L4",
+			"walking_samples": 1
+		},
+		{
+			"anchor": [
+				10539.7,
+				7517.99
+			],
+			"distance_from_anchor": 7.04,
+			"id": "Z2L4.exit",
+			"safe_ground": [
+				10536.0,
+				7512.0
+			],
+			"subregion": "Z2L4",
+			"walking_samples": 16
+		},
+		{
+			"anchor": [
+				9995.17,
+				8859.33
+			],
+			"distance_from_anchor": 11.66,
+			"id": "Z2L4.explore1",
+			"safe_ground": [
+				9984.0,
+				8856.0
+			],
+			"subregion": "Z2L4",
+			"walking_samples": 72
+		},
+		{
+			"anchor": [
+				10255.2,
+				6459.4
+			],
+			"distance_from_anchor": 7.96,
+			"id": "Z2L4.explore2",
+			"safe_ground": [
+				10248.0,
+				6456.0
+			],
+			"subregion": "Z2L4",
+			"walking_samples": 30
+		},
+		{
+			"anchor": [
+				9535.14,
+				7935.44
+			],
+			"distance_from_anchor": 11.15,
+			"id": "Z2L4.explore3",
+			"safe_ground": [
+				9528.0,
+				7944.0
+			],
+			"subregion": "Z2L4",
+			"walking_samples": 38
+		},
+		{
+			"anchor": [
+				9001.62,
+				7488.79
+			],
+			"distance_from_anchor": 1.8,
+			"id": "Z2L4.optional",
+			"safe_ground": [
+				9000.0,
+				7488.0
+			],
+			"subregion": "Z2L4",
+			"walking_samples": 60
+		},
+		{
+			"anchor": [
+				10134.52,
+				7182.98
+			],
+			"distance_from_anchor": 9.55,
+			"id": "Z2L4.professor",
+			"safe_ground": [
+				10128.0,
+				7176.0
+			],
+			"subregion": "Z2L4",
+			"walking_samples": 13
+		},
+		{
+			"anchor": [
+				12460.3,
+				7582.01
+			],
+			"distance_from_anchor": 4.74,
+			"id": "Z2L5.C0",
+			"safe_ground": [
+				12456.0,
+				7584.0
+			],
+			"subregion": "Z2L5",
+			"walking_samples": 1
+		},
+		{
+			"anchor": [
+				13120.0,
+				7890.0
+			],
+			"distance_from_anchor": 10.0,
+			"id": "Z2L5.C1",
+			"safe_ground": [
+				13128.0,
+				7896.0
+			],
+			"subregion": "Z2L5",
+			"walking_samples": 29
+		},
+		{
+			"anchor": [
+				13133.81,
+				7620.08
+			],
+			"distance_from_anchor": 13.26,
+			"id": "Z2L5.C2",
+			"safe_ground": [
+				13128.0,
+				7632.0
+			],
+			"subregion": "Z2L5",
+			"walking_samples": 29
+		},
+		{
+			"anchor": [
+				15079.28,
+				8550.54
+			],
+			"distance_from_anchor": 9.79,
+			"id": "Z2L5.court1",
+			"safe_ground": [
+				15072.0,
+				8544.0
+			],
+			"subregion": "Z2L5",
+			"walking_samples": 110
+		},
+		{
+			"anchor": [
+				14551.44,
+				7324.72
+			],
+			"distance_from_anchor": 8.81,
+			"id": "Z2L5.court2",
+			"safe_ground": [
+				14544.0,
+				7320.0
+			],
+			"subregion": "Z2L5",
+			"walking_samples": 88
+		},
+		{
+			"anchor": [
+				13837.91,
+				8905.48
+			],
+			"distance_from_anchor": 10.2,
+			"id": "Z2L5.court3",
+			"safe_ground": [
+				13848.0,
+				8904.0
+			],
+			"subregion": "Z2L5",
+			"walking_samples": 61
+		},
+		{
+			"anchor": [
+				12460.3,
+				7582.01
+			],
+			"distance_from_anchor": 4.74,
+			"id": "Z2L5.entry",
+			"safe_ground": [
+				12456.0,
+				7584.0
+			],
+			"subregion": "Z2L5",
+			"walking_samples": 1
+		},
+		{
+			"anchor": [
+				13192.24,
+				7095.38
+			],
+			"distance_from_anchor": 11.6,
+			"id": "Z2L5.exit",
+			"safe_ground": [
+				13200.0,
+				7104.0
+			],
+			"subregion": "Z2L5",
+			"walking_samples": 32
+		},
+		{
+			"anchor": [
+				12689.32,
+				8878.86
+			],
+			"distance_from_anchor": 6.78,
+			"id": "Z2L5.explore1",
+			"safe_ground": [
+				12696.0,
+				8880.0
+			],
+			"subregion": "Z2L5",
+			"walking_samples": 55
+		},
+		{
+			"anchor": [
+				14074.85,
+				8063.02
+			],
+			"distance_from_anchor": 10.89,
+			"id": "Z2L5.explore2",
+			"safe_ground": [
+				14064.0,
+				8064.0
+			],
+			"subregion": "Z2L5",
+			"walking_samples": 68
+		},
+		{
+			"anchor": [
+				11642.28,
+				7712.42
+			],
+			"distance_from_anchor": 8.72,
+			"id": "Z2L5.explore3",
+			"safe_ground": [
+				11640.0,
+				7704.0
+			],
+			"subregion": "Z2L5",
+			"walking_samples": 35
+		},
+		{
+			"anchor": [
+				11705.0,
+				8535.47
+			],
+			"distance_from_anchor": 11.03,
+			"id": "Z2L5.optional",
+			"safe_ground": [
+				11712.0,
+				8544.0
+			],
+			"subregion": "Z2L5",
+			"walking_samples": 41
+		},
+		{
+			"anchor": [
+				12685.17,
+				7739.59
+			],
+			"distance_from_anchor": 15.86,
+			"id": "Z2L5.professor",
+			"safe_ground": [
+				12696.0,
+				7728.0
+			],
+			"subregion": "Z2L5",
+			"walking_samples": 11
+		},
+		{
+			"anchor": [
+				13607.76,
+				6004.62
+			],
+			"distance_from_anchor": 4.63,
+			"id": "Z2L6.C0",
+			"safe_ground": [
+				13608.0,
+				6000.0
+			],
+			"subregion": "Z2L6",
+			"walking_samples": 1
+		},
+		{
+			"anchor": [
+				14005.0,
+				5825.0
+			],
+			"distance_from_anchor": 13.04,
+			"id": "Z2L6.C1",
+			"safe_ground": [
+				14016.0,
+				5832.0
+			],
+			"subregion": "Z2L6",
+			"walking_samples": 18
+		},
+		{
+			"anchor": [
+				13611.39,
+				6490.11
+			],
+			"distance_from_anchor": 10.66,
+			"id": "Z2L6.C2",
+			"safe_ground": [
+				13608.0,
+				6480.0
+			],
+			"subregion": "Z2L6",
+			"walking_samples": 21
+		},
+		{
+			"anchor": [
+				13252.75,
+				6319.61
+			],
+			"distance_from_anchor": 8.97,
+			"id": "Z2L6.C3",
+			"safe_ground": [
+				13248.0,
+				6312.0
+			],
+			"subregion": "Z2L6",
+			"walking_samples": 16
+		},
+		{
+			"anchor": [
+				12708.42,
+				3749.97
+			],
+			"distance_from_anchor": 13.03,
+			"id": "Z2L6.court1",
+			"safe_ground": [
+				12720.0,
+				3744.0
+			],
+			"subregion": "Z2L6",
+			"walking_samples": 95
+		},
+		{
+			"anchor": [
+				12715.02,
+				5232.58
+			],
+			"distance_from_anchor": 5.01,
+			"id": "Z2L6.court2",
+			"safe_ground": [
+				12720.0,
+				5232.0
+			],
+			"subregion": "Z2L6",
+			"walking_samples": 40
+		},
+		{
+			"anchor": [
+				13663.58,
+				4440.04
+			],
+			"distance_from_anchor": 7.58,
+			"id": "Z2L6.court3",
+			"safe_ground": [
+				13656.0,
+				4440.0
+			],
+			"subregion": "Z2L6",
+			"walking_samples": 66
+		},
+		{
+			"anchor": [
+				14205.3,
+				4983.08
+			],
+			"distance_from_anchor": 9.32,
+			"id": "Z2L6.court4",
+			"safe_ground": [
+				14208.0,
+				4992.0
+			],
+			"subregion": "Z2L6",
+			"walking_samples": 43
+		},
+		{
+			"anchor": [
+				14569.29,
+				6850.28
+			],
+			"distance_from_anchor": 10.36,
+			"id": "Z2L6.court5",
+			"safe_ground": [
+				14568.0,
+				6840.0
+			],
+			"subregion": "Z2L6",
+			"walking_samples": 41
+		},
+		{
+			"anchor": [
+				13607.76,
+				6004.62
+			],
+			"distance_from_anchor": 4.63,
+			"id": "Z2L6.entry",
+			"safe_ground": [
+				13608.0,
+				6000.0
+			],
+			"subregion": "Z2L6",
+			"walking_samples": 1
+		},
+		{
+			"anchor": [
+				14639.76,
+				5570.05
+			],
+			"distance_from_anchor": 2.06,
+			"id": "Z2L6.exit",
+			"safe_ground": [
+				14640.0,
+				5568.0
+			],
+			"subregion": "Z2L6",
+			"walking_samples": 44
+		},
+		{
+			"anchor": [
+				12560.45,
+				4489.19
+			],
+			"distance_from_anchor": 8.53,
+			"id": "Z2L6.explore1",
+			"safe_ground": [
+				12552.0,
+				4488.0
+			],
+			"subregion": "Z2L6",
+			"walking_samples": 64
+		},
+		{
+			"anchor": [
+				13327.73,
+				4997.48
+			],
+			"distance_from_anchor": 9.48,
+			"id": "Z2L6.explore2",
+			"safe_ground": [
+				13320.0,
+				4992.0
+			],
+			"subregion": "Z2L6",
+			"walking_samples": 43
+		},
+		{
+			"anchor": [
+				12827.3,
+				5830.87
+			],
+			"distance_from_anchor": 11.36,
+			"id": "Z2L6.explore3",
+			"safe_ground": [
+				12816.0,
+				5832.0
+			],
+			"subregion": "Z2L6",
+			"walking_samples": 34
+		},
+		{
+			"anchor": [
+				14383.67,
+				6105.44
+			],
+			"distance_from_anchor": 12.16,
+			"id": "Z2L6.finn",
+			"safe_ground": [
+				14376.0,
+				6096.0
+			],
+			"subregion": "Z2L6",
+			"walking_samples": 33
+		},
+		{
+			"anchor": [
+				13829.81,
+				5843.09
+			],
+			"distance_from_anchor": 12.52,
+			"id": "Z2L6.professor",
+			"safe_ground": [
+				13824.0,
+				5832.0
+			],
+			"subregion": "Z2L6",
+			"walking_samples": 10
+		}
+	],
+	"geometry_hash": "d68931ff03504c1ee63557bae6f9a4f52ad5e8c52baf74209cda324780ed9b0c"
+}

@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="256" height="256" viewBox="0 0 256 256"><defs>
+<linearGradient id="leaf" x2=".8" y2="1"><stop stop-color="#ADC985"/><stop offset="1" stop-color="#69974F"/></linearGradient>
+<linearGradient id="wood" x2=".8" y2="1"><stop stop-color="#BE9667"/><stop offset="1" stop-color="#785B47"/></linearGradient>
+<linearGradient id="metal" x2=".85" y2="1"><stop stop-color="#D6E2D8"/><stop offset=".45" stop-color="#9BA3A0"/><stop offset="1" stop-color="#526C70"/></linearGradient>
+<linearGradient id="brass" x2=".7" y2="1"><stop stop-color="#F3E0AA"/><stop offset=".5" stop-color="#D9B56E"/><stop offset="1" stop-color="#997449"/></linearGradient>
+<linearGradient id="ice" x2=".7" y2="1"><stop stop-color="#EDFDFC"/><stop offset="1" stop-color="#80BCCB"/></linearGradient>
+<linearGradient id="water" x2=".4" y2="1"><stop stop-color="#82BEC0"/><stop offset="1" stop-color="#528D9B"/></linearGradient>
+<linearGradient id="glass" x2=".8" y2="1"><stop stop-color="#D8EBE0" stop-opacity=".7"/><stop offset="1" stop-color="#8DB6B4" stop-opacity=".24"/></linearGradient>
+<linearGradient id="pot" x2=".8" y2="1"><stop stop-color="#D6A37A"/><stop offset="1" stop-color="#A36B50"/></linearGradient>
+<linearGradient id="warm" x2="0" y2="1"><stop stop-color="#FFF2B6"/><stop offset="1" stop-color="#D49551"/></linearGradient>
+</defs><g stroke="#3F514A" stroke-width="2" stroke-linejoin="round" stroke-linecap="round"><ellipse cx="138" cy="212" rx="68" ry="13" fill="#385942" opacity=".18" stroke="none"/><path d="M63 196 L128 221 L128 229 L63 204 Z" fill="#9BA3A0" /><path d="M128 221 L193 196 L193 204 L128 229 Z" fill="#6F827A" /><path d="M128 171 L193 196 L128 221 L63 196 Z" fill="url(#metal)" /><path d="M63 196 L128 171 L193 196" fill="none" stroke="#E1E9B9" stroke-width="1.8"/><path d="M68 182v-45l59-25 60 25v45l-60 25z" fill="url(#glass)" /><path d="M68 137l59 26 60-26m-60 26v44" fill="none" stroke="#97B2A0" stroke-width="2"/><path d="M115 117l12-5 12 5" fill="none" stroke="#D9B56E" stroke-width="4"/><g id="gas_model"><path d="M83 151l23 10-7 1m7-1-2-7m20 16 24-10-3 7m3-7-8-2" fill="none" stroke="#608278" stroke-width="3"/></g><path d="M176 181 C173 187 173 190 176 190 C179 190 179 187 176 181 Z" fill="#528D9B" stroke="#375E6A" stroke-width="1.5"/></g></svg>

@@ -1,0 +1,130 @@
+[gd_scene format=3 uid="uid://by46suf56lc00"]
+
+[ext_resource type="Script" uid="uid://dj7vq0wrnocqn" path="res://Scripts/UI/quest_frame.gd" id="1_gicga"]
+[ext_resource type="Texture2D" path="res://assets/zones/zone_1/flat_v1/extensions/hull_plates.tres" id="2_tvbth"]
+[ext_resource type="FontFile" path="res://assets/fonts/InterfaceSans.tres" id="3_y0bwo"]
+[ext_resource type="Texture2D" path="res://assets/zones/zone_1/flat_v1/props/module_off.tres" id="4_bk5v5"]
+[ext_resource type="Texture2D" path="res://assets/zones/zone_1/flat_v1/extensions/ice_runners.tres" id="5_bk5v5"]
+[ext_resource type="Texture2D" path="res://assets/zones/zone_1/flat_v1/extensions/sailcloth.tres" id="6_1o6a6"]
+
+[sub_resource type="StyleBox" id="StyleBox_a7avi"]
+resource_local_to_scene = false
+resource_name = ""
+content_margin_left = 18.0
+content_margin_top = 12.0
+content_margin_right = 18.0
+content_margin_bottom = 12.0
+script = ExtResource("1_gicga")
+
+[node name="MaterialsInventory" type="PanelContainer" unique_id=1641335036]
+visible = false
+anchors_preset = 7
+anchor_left = 0.5
+anchor_top = 1.0
+anchor_right = 0.5
+anchor_bottom = 1.0
+offset_left = -145.0
+offset_top = -110.0
+offset_right = 145.0
+offset_bottom = -36.0
+theme_override_styles/panel = SubResource("StyleBox_a7avi")
+
+[node name="Parts" type="HBoxContainer" parent="." unique_id=1559814048]
+layout_mode = 2
+theme_override_constants/separation = 10
+
+[node name="Part0" type="VBoxContainer" parent="Parts" unique_id=34178228]
+custom_minimum_size = Vector2(56, 0)
+layout_mode = 2
+
+[node name="Icon" type="TextureRect" parent="Parts/Part0" unique_id=277299456]
+modulate = Color(0.4, 0.45, 0.5, 0.6)
+custom_minimum_size = Vector2(50, 40)
+layout_mode = 2
+tooltip_text = "Hull plates"
+texture = ExtResource("2_tvbth")
+expand_mode = 1
+stretch_mode = 5
+
+[node name="Status" type="Label" parent="Parts/Part0" unique_id=928301283]
+layout_mode = 2
+theme_override_colors/font_color = Color(0.20784314, 0.32156864, 0.39215687, 1)
+theme_override_colors/font_outline_color = Color(1, 0.9411765, 0.79607844, 1)
+theme_override_constants/outline_size = 1
+theme_override_fonts/font = ExtResource("3_y0bwo")
+theme_override_font_sizes/font_size = 13
+text = "Locked"
+horizontal_alignment = 1
+autowrap_mode = 3
+
+[node name="Part1" type="VBoxContainer" parent="Parts" unique_id=1628414902]
+custom_minimum_size = Vector2(56, 0)
+layout_mode = 2
+
+[node name="Icon" type="TextureRect" parent="Parts/Part1" unique_id=58303459]
+modulate = Color(0.4, 0.45, 0.5, 0.6)
+custom_minimum_size = Vector2(50, 40)
+layout_mode = 2
+tooltip_text = "Heat engine"
+texture = ExtResource("4_bk5v5")
+expand_mode = 1
+stretch_mode = 5
+
+[node name="Status" type="Label" parent="Parts/Part1" unique_id=1821684433]
+layout_mode = 2
+theme_override_colors/font_color = Color(0.20784314, 0.32156864, 0.39215687, 1)
+theme_override_colors/font_outline_color = Color(1, 0.9411765, 0.79607844, 1)
+theme_override_constants/outline_size = 1
+theme_override_fonts/font = ExtResource("3_y0bwo")
+theme_override_font_sizes/font_size = 13
+text = "Locked"
+horizontal_alignment = 1
+autowrap_mode = 3
+
+[node name="Part2" type="VBoxContainer" parent="Parts" unique_id=408033864]
+custom_minimum_size = Vector2(56, 0)
+layout_mode = 2
+
+[node name="Icon" type="TextureRect" parent="Parts/Part2" unique_id=1484218826]
+modulate = Color(0.4, 0.45, 0.5, 0.6)
+custom_minimum_size = Vector2(50, 40)
+layout_mode = 2
+tooltip_text = "Ice runners"
+texture = ExtResource("5_bk5v5")
+expand_mode = 1
+stretch_mode = 5
+
+[node name="Status" type="Label" parent="Parts/Part2" unique_id=1612726987]
+layout_mode = 2
+theme_override_colors/font_color = Color(0.20784314, 0.32156864, 0.39215687, 1)
+theme_override_colors/font_outline_color = Color(1, 0.9411765, 0.79607844, 1)
+theme_override_constants/outline_size = 1
+theme_override_fonts/font = ExtResource("3_y0bwo")
+theme_override_font_sizes/font_size = 13
+text = "Locked"
+horizontal_alignment = 1
+autowrap_mode = 3
+
+[node name="Part3" type="VBoxContainer" parent="Parts" unique_id=995758606]
+custom_minimum_size = Vector2(56, 0)
+layout_mode = 2
+
+[node name="Icon" type="TextureRect" parent="Parts/Part3" unique_id=205884030]
+modulate = Color(0.4, 0.45, 0.5, 0.6)
+custom_minimum_size = Vector2(50, 40)
+layout_mode = 2
+tooltip_text = "Sailcloth"
+texture = ExtResource("6_1o6a6")
+expand_mode = 1
+stretch_mode = 5
+
+[node name="Status" type="Label" parent="Parts/Part3" unique_id=1760546437]
+layout_mode = 2
+theme_override_colors/font_color = Color(0.20784314, 0.32156864, 0.39215687, 1)
+theme_override_colors/font_outline_color = Color(1, 0.9411765, 0.79607844, 1)
+theme_override_constants/outline_size = 1
+theme_override_fonts/font = ExtResource("3_y0bwo")
+theme_override_font_sizes/font_size = 13
+text = "Locked"
+horizontal_alignment = 1
+autowrap_mode = 3

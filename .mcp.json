@@ -1,0 +1,11 @@
+{
+  "mcpServers": {
+    "aseprite": {
+      "command": "uvx",
+      "args": ["-n", "aseprite-mcp@latest"],
+      "env": {
+        "ASEPRITE_PATH": "C:\\aseprite\\build\\bin\\aseprite.exe"
+      }
+    }
+  }
+}

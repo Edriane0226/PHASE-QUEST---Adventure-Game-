@@ -1,0 +1,30 @@
+[gd_scene format=3]
+
+[sub_resource type="StyleBoxEmpty" id="StyleBoxEmpty_yencs"]
+
+[sub_resource type="StyleBoxEmpty" id="StyleBoxEmpty_nvhr6"]
+
+[sub_resource type="StyleBoxEmpty" id="StyleBoxEmpty_7feg6"]
+
+[sub_resource type="StyleBoxEmpty" id="StyleBoxEmpty_tnlyy"]
+
+[node name="ObjectiveSection" type="VBoxContainer" unique_id=931943094]
+offset_right = 245.0
+offset_bottom = 122.0
+
+[node name="ToggleButton" type="Button" parent="." unique_id=2121231155]
+custom_minimum_size = Vector2(210, 36)
+layout_mode = 2
+theme_override_colors/font_color = Color(0.1882353, 0.3372549, 0.40392157, 1)
+theme_override_font_sizes/font_size = 14
+theme_override_styles/normal = SubResource("StyleBoxEmpty_yencs")
+theme_override_styles/pressed = SubResource("StyleBoxEmpty_nvhr6")
+theme_override_styles/hover = SubResource("StyleBoxEmpty_7feg6")
+theme_override_styles/focus = SubResource("StyleBoxEmpty_tnlyy")
+text = "▾ Puzzles  0/2"
+alignment = 0
+
+[node name="Rows" type="VBoxContainer" parent="." unique_id=1932642066]
+custom_minimum_size = Vector2(210, 0)
+layout_mode = 2
+theme_override_constants/separation = 8

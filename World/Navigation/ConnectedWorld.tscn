@@ -1,0 +1,11 @@
+[gd_scene format=3 uid="uid://bp8jqfmjcwlgy"]
+
+[ext_resource type="PackedScene" path="res://World/PhaseWorld.tscn" id="base"]
+[ext_resource type="Script" uid="uid://ktgdrncygbkl" path="res://Scripts/World/Navigation/navigation_input.gd" id="input"]
+[ext_resource type="Script" uid="uid://cidmyjufddceq" path="res://Scripts/World/Navigation/connected_world.gd" id="world"]
+
+[node name="ConnectedWorld" unique_id=1578567524 instance=ExtResource("base")]
+script = ExtResource("world")
+
+[node name="WorldInput" parent="." index="2"]
+script = ExtResource("input")

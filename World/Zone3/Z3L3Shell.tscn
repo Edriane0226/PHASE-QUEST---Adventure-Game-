@@ -1,0 +1,11 @@
+[gd_scene load_steps=2 format=3]
+[ext_resource type="Script" path="res://Scripts/World/Zone3/zone3_shell.gd" id="shell"]
+[node name="Z3L3Shell" type="Node2D"]
+script = ExtResource("shell")
+y_sort_enabled = true
+surface_name = "metal"
+fixture_only = true
+subregion_id = "Z3L3"
+chunk_id = "Z3L3.shell"
+ground_origin = Vector2(17900, 3200)
+shell_number = 3

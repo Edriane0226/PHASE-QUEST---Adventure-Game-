@@ -1,0 +1,13 @@
+{
+  "assets/characters/cast/explorer/frames.tres": "8855eab043e6a6f7816a6fa66e1db85dd0d1436993c46ae2fe561f6c28c9cc22",
+  "Actors/Player/campaign_player.gd": "a4242b4744be72e60e677326d6a96ed809a22340e9f089eeb5029963f630155d",
+  "assets/shaders/world/player_idle_breath.gdshader": "ff4e348675c13cdce90d3718d85548b06e44f9ff387229cb4f782aa543adbe88",
+  "assets/characters/cast/explorer/Animation Sprites Player/Animation Sprites Player/black_hair_generated/idle_east.png": "07d4fd0cf064ac387c530999f1a0fcf3331c6fddd47e8fab62de05c331e479f7",
+  "assets/characters/cast/explorer/Animation Sprites Player/Animation Sprites Player/black_hair_generated/idle_south_east.png": "6ef49ad03865ac30117b4d78dcd8c76a5637929d0ce0734c6be6aeeb42a94d83",
+  "assets/characters/cast/explorer/Animation Sprites Player/Animation Sprites Player/black_hair_generated/idle_south.png": "c0f344abf10ae535d0ff17731a60fe0cfc15aa5c9408b851ddd9b25613977407",
+  "assets/characters/cast/explorer/Animation Sprites Player/Animation Sprites Player/black_hair_generated/idle_south_west.png": "e4053eef97646f3f99fbebe7a523db9abd2ff61a6e9b93e7e49c9f29491ec2af",
+  "assets/characters/cast/explorer/Animation Sprites Player/Animation Sprites Player/black_hair_generated/idle_west.png": "a8f412f5638fbc3ed555653fa9292b0fc31c63630a8537c227043ba6c9c3f760",
+  "assets/characters/cast/explorer/Animation Sprites Player/Animation Sprites Player/black_hair_generated/idle_north_west.png": "8e9b84b6103ac541f3554ae39d4a075a89fbccd09b82fe1dbf4a4ae1fdbb8262",
+  "assets/characters/cast/explorer/Animation Sprites Player/Animation Sprites Player/black_hair_generated/idle_north.png": "00a3262eb0789bd1013702ae02c9694cc1b0aeff1a1377abc90c0792f0d6c350",
+  "assets/characters/cast/explorer/Animation Sprites Player/Animation Sprites Player/black_hair_generated/idle_north_east.png": "16deaeefded10a129ee2226b7e3106a32038b18c9f210b0e3da6568516016f5f"
+}

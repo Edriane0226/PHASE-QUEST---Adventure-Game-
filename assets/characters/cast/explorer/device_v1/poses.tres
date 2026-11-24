@@ -1,0 +1,1573 @@
+[gd_resource type="SpriteFrames" format=3 uid="uid://5da3soe4u1jx"]
+
+[ext_resource type="Texture2D" uid="uid://f1p6fma6u38h" path="res://assets/characters/cast/explorer/Animation Sprites Player/Animation Sprites Player/black_hair_generated/operate_east.png" id="1_e2fsc"]
+[ext_resource type="Texture2D" uid="uid://nha3n5seto54" path="res://assets/characters/cast/explorer/Animation Sprites Player/Animation Sprites Player/black_hair_generated/operate_north.png" id="2_iojsd"]
+[ext_resource type="Texture2D" uid="uid://cw5ljgw2n8bgv" path="res://assets/characters/cast/explorer/Animation Sprites Player/Animation Sprites Player/black_hair_generated/operate_north_east.png" id="3_7mtln"]
+[ext_resource type="Texture2D" uid="uid://dq8h3wbir6tl1" path="res://assets/characters/cast/explorer/Animation Sprites Player/Animation Sprites Player/black_hair_generated/operate_north_west.png" id="4_gpibu"]
+[ext_resource type="Texture2D" uid="uid://btxpfne51ni00" path="res://assets/characters/cast/explorer/Animation Sprites Player/Animation Sprites Player/black_hair_generated/operate_south.png" id="5_mvjjr"]
+[ext_resource type="Texture2D" uid="uid://c42g0q4wg5fuu" path="res://assets/characters/cast/explorer/Animation Sprites Player/Animation Sprites Player/black_hair_generated/operate_south_east.png" id="6_jput1"]
+[ext_resource type="Texture2D" uid="uid://c2l1o68m00ht2" path="res://assets/characters/cast/explorer/Animation Sprites Player/Animation Sprites Player/black_hair_generated/operate_south_west.png" id="7_qimji"]
+[ext_resource type="Texture2D" uid="uid://hsn0oukgbrc3" path="res://assets/characters/cast/explorer/Animation Sprites Player/Animation Sprites Player/black_hair_generated/operate_west.png" id="8_nhuuy"]
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_xqdw4"]
+atlas = ExtResource("1_e2fsc")
+region = Rect2(192, 0, 192, 192)
+filter_clip = true
+metadata/preview_registered = true
+metadata/hand_anchor = Vector2(112, 113)
+metadata/device_neck_px = Vector2(95, 93)
+metadata/device_grip_px = Vector2(122, 111)
+metadata/device_hand_rect = Rect2(118, 105, 9, 14)
+metadata/device_arm_warp = Vector4(0, 0, 0, 0)
+metadata/device_recoil_px = Vector2(0, 0)
+metadata/device_muzzle_px = Vector2(148.86894, 100.53158)
+metadata/device_source_key = "operate_east:1"
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_rbjf8"]
+atlas = ExtResource("2_iojsd")
+region = Rect2(192, 0, 192, 192)
+filter_clip = true
+metadata/preview_registered = true
+metadata/hand_anchor = Vector2(114, 108)
+metadata/device_neck_px = Vector2(94, 99)
+metadata/device_grip_px = Vector2(118, 111)
+metadata/device_hand_rect = Rect2(115, 107, 9, 10)
+metadata/device_arm_warp = Vector4(107, 115, 12, 1)
+metadata/device_recoil_px = Vector2(0, 0)
+metadata/device_muzzle_px = Vector2(130, 77.850006)
+metadata/device_source_key = "operate_north:1"
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_hgx80"]
+atlas = ExtResource("3_7mtln")
+region = Rect2(192, 0, 192, 192)
+filter_clip = true
+metadata/preview_registered = true
+metadata/hand_anchor = Vector2(119, 107)
+metadata/device_neck_px = Vector2(97, 96)
+metadata/device_grip_px = Vector2(124, 109)
+metadata/device_hand_rect = Rect2(121, 104, 9, 13)
+metadata/device_arm_warp = Vector4(110, 121, 6, 1)
+metadata/device_recoil_px = Vector2(0, 0)
+metadata/device_muzzle_px = Vector2(138.84, 85.27158)
+metadata/device_source_key = "operate_north_east:1"
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_53mkb"]
+atlas = ExtResource("4_gpibu")
+region = Rect2(192, 0, 192, 192)
+filter_clip = true
+metadata/preview_registered = true
+metadata/hand_anchor = Vector2(72, 107)
+metadata/device_neck_px = Vector2(94, 96)
+metadata/device_grip_px = Vector2(67, 109)
+metadata/device_hand_rect = Rect2(62, 104, 9, 13)
+metadata/device_arm_warp = Vector4(-81, -71, 6, -1)
+metadata/device_recoil_px = Vector2(0, 0)
+metadata/device_muzzle_px = Vector2(50.531578, 83.99211)
+metadata/device_source_key = "operate_north_west:1"
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_cceb5"]
+atlas = ExtResource("5_mvjjr")
+region = Rect2(192, 0, 192, 192)
+filter_clip = true
+metadata/preview_registered = true
+metadata/hand_anchor = Vector2(86, 110)
+metadata/device_neck_px = Vector2(94, 97)
+metadata/device_grip_px = Vector2(75, 113)
+metadata/device_hand_rect = Rect2(70, 105, 9, 17)
+metadata/device_arm_warp = Vector4(0, 0, 0, 0)
+metadata/device_recoil_px = Vector2(0, 0)
+metadata/device_muzzle_px = Vector2(76.163155, 122.30526)
+metadata/device_source_key = "operate_south:1"
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_8vnln"]
+atlas = ExtResource("6_jput1")
+region = Rect2(192, 0, 192, 192)
+filter_clip = true
+metadata/preview_registered = true
+metadata/hand_anchor = Vector2(100, 111)
+metadata/device_neck_px = Vector2(93, 95)
+metadata/device_grip_px = Vector2(125, 110)
+metadata/device_hand_rect = Rect2(122, 103, 9, 15)
+metadata/device_arm_warp = Vector4(0, 0, 0, 0)
+metadata/device_recoil_px = Vector2(0, 0)
+metadata/device_muzzle_px = Vector2(145.12263, 111.744736)
+metadata/device_source_key = "operate_south_east:1"
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_kxpa5"]
+atlas = ExtResource("7_qimji")
+region = Rect2(192, 0, 192, 192)
+filter_clip = true
+metadata/preview_registered = true
+metadata/hand_anchor = Vector2(91, 111)
+metadata/device_neck_px = Vector2(98, 95)
+metadata/device_grip_px = Vector2(66, 110)
+metadata/device_hand_rect = Rect2(61, 103, 9, 15)
+metadata/device_arm_warp = Vector4(0, 0, 0, 0)
+metadata/device_recoil_px = Vector2(0, 0)
+metadata/device_muzzle_px = Vector2(43.31842, 111.51211)
+metadata/device_source_key = "operate_south_west:1"
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_om8h0"]
+atlas = ExtResource("8_nhuuy")
+region = Rect2(192, 0, 192, 192)
+filter_clip = true
+metadata/preview_registered = true
+metadata/hand_anchor = Vector2(79, 113)
+metadata/device_neck_px = Vector2(96, 93)
+metadata/device_grip_px = Vector2(69, 111)
+metadata/device_hand_rect = Rect2(65, 105, 9, 14)
+metadata/device_arm_warp = Vector4(0, 0, 0, 0)
+metadata/device_recoil_px = Vector2(0, 0)
+metadata/device_muzzle_px = Vector2(45.271584, 98.78684)
+metadata/device_source_key = "operate_west:1"
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_jxa57"]
+atlas = ExtResource("1_e2fsc")
+region = Rect2(192, 0, 192, 192)
+filter_clip = true
+metadata/preview_registered = true
+metadata/hand_anchor = Vector2(112, 113)
+metadata/device_neck_px = Vector2(95, 93)
+metadata/device_grip_px = Vector2(122, 111)
+metadata/device_hand_rect = Rect2(118, 105, 9, 14)
+metadata/device_arm_warp = Vector4(0, 0, 0, 0)
+metadata/device_recoil_px = Vector2(0, 0)
+metadata/device_muzzle_px = Vector2(148.86894, 100.53158)
+metadata/device_source_key = "operate_east:1"
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_3b2we"]
+atlas = ExtResource("1_e2fsc")
+region = Rect2(384, 0, 192, 192)
+filter_clip = true
+metadata/preview_registered = true
+metadata/hand_anchor = Vector2(115, 106)
+metadata/device_neck_px = Vector2(96, 93)
+metadata/device_grip_px = Vector2(128, 105)
+metadata/device_hand_rect = Rect2(125, 101, 7, 9)
+metadata/device_arm_warp = Vector4(0, 0, 0, 0)
+metadata/device_recoil_px = Vector2(-1.5, 0)
+metadata/device_muzzle_px = Vector2(154.86894, 94.53158)
+metadata/device_source_key = "operate_east:2"
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_1v16c"]
+atlas = ExtResource("1_e2fsc")
+region = Rect2(192, 0, 192, 192)
+filter_clip = true
+metadata/preview_registered = true
+metadata/hand_anchor = Vector2(112, 113)
+metadata/device_neck_px = Vector2(95, 93)
+metadata/device_grip_px = Vector2(122, 111)
+metadata/device_hand_rect = Rect2(118, 105, 9, 14)
+metadata/device_arm_warp = Vector4(0, 0, 0, 0)
+metadata/device_recoil_px = Vector2(0, 0)
+metadata/device_muzzle_px = Vector2(148.86894, 100.53158)
+metadata/device_source_key = "operate_east:1"
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_3nfse"]
+atlas = ExtResource("1_e2fsc")
+region = Rect2(576, 0, 192, 192)
+filter_clip = true
+metadata/preview_registered = true
+metadata/hand_anchor = Vector2(113, 108)
+metadata/device_neck_px = Vector2(97, 93)
+metadata/device_grip_px = Vector2(125, 106)
+metadata/device_hand_rect = Rect2(121, 101, 9, 12)
+metadata/device_arm_warp = Vector4(0, 0, 0, 0)
+metadata/device_recoil_px = Vector2(-1.5, 0)
+metadata/device_muzzle_px = Vector2(151.86894, 95.53158)
+metadata/device_source_key = "operate_east:3"
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_ggx6g"]
+atlas = ExtResource("2_iojsd")
+region = Rect2(192, 0, 192, 192)
+filter_clip = true
+metadata/preview_registered = true
+metadata/hand_anchor = Vector2(114, 108)
+metadata/device_neck_px = Vector2(94, 99)
+metadata/device_grip_px = Vector2(118, 111)
+metadata/device_hand_rect = Rect2(115, 107, 9, 10)
+metadata/device_arm_warp = Vector4(107, 115, 12, 1)
+metadata/device_recoil_px = Vector2(0, 0)
+metadata/device_muzzle_px = Vector2(130, 77.850006)
+metadata/device_source_key = "operate_north:1"
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_5m2p6"]
+atlas = ExtResource("2_iojsd")
+region = Rect2(384, 0, 192, 192)
+filter_clip = true
+metadata/preview_registered = true
+metadata/hand_anchor = Vector2(116, 106)
+metadata/device_neck_px = Vector2(96, 99)
+metadata/device_grip_px = Vector2(121, 109)
+metadata/device_hand_rect = Rect2(118, 107, 9, 6)
+metadata/device_arm_warp = Vector4(109, 118, 12, 1)
+metadata/device_recoil_px = Vector2(-1.788732e-08, 1.5)
+metadata/device_muzzle_px = Vector2(133, 75.850006)
+metadata/device_source_key = "operate_north:2"
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_l756l"]
+atlas = ExtResource("2_iojsd")
+region = Rect2(192, 0, 192, 192)
+filter_clip = true
+metadata/preview_registered = true
+metadata/hand_anchor = Vector2(114, 108)
+metadata/device_neck_px = Vector2(94, 99)
+metadata/device_grip_px = Vector2(118, 111)
+metadata/device_hand_rect = Rect2(115, 107, 9, 10)
+metadata/device_arm_warp = Vector4(107, 115, 12, 1)
+metadata/device_recoil_px = Vector2(0, 0)
+metadata/device_muzzle_px = Vector2(130, 77.850006)
+metadata/device_source_key = "operate_north:1"
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_n06ck"]
+atlas = ExtResource("2_iojsd")
+region = Rect2(576, 0, 192, 192)
+filter_clip = true
+metadata/preview_registered = true
+metadata/hand_anchor = Vector2(112, 110)
+metadata/device_neck_px = Vector2(94, 99)
+metadata/device_grip_px = Vector2(119, 112)
+metadata/device_hand_rect = Rect2(116, 107, 9, 13)
+metadata/device_arm_warp = Vector4(107, 116, 12, 1)
+metadata/device_recoil_px = Vector2(-1.788732e-08, 1.5)
+metadata/device_muzzle_px = Vector2(131, 78.850006)
+metadata/device_source_key = "operate_north:3"
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_fwlof"]
+atlas = ExtResource("3_7mtln")
+region = Rect2(192, 0, 192, 192)
+filter_clip = true
+metadata/preview_registered = true
+metadata/hand_anchor = Vector2(119, 107)
+metadata/device_neck_px = Vector2(97, 96)
+metadata/device_grip_px = Vector2(124, 109)
+metadata/device_hand_rect = Rect2(121, 104, 9, 13)
+metadata/device_arm_warp = Vector4(110, 121, 6, 1)
+metadata/device_recoil_px = Vector2(0, 0)
+metadata/device_muzzle_px = Vector2(138.84, 85.27158)
+metadata/device_source_key = "operate_north_east:1"
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_oiyyp"]
+atlas = ExtResource("3_7mtln")
+region = Rect2(384, 0, 192, 192)
+filter_clip = true
+metadata/preview_registered = true
+metadata/hand_anchor = Vector2(121, 106)
+metadata/device_neck_px = Vector2(98, 96)
+metadata/device_grip_px = Vector2(126, 108)
+metadata/device_hand_rect = Rect2(122, 104, 9, 9)
+metadata/device_arm_warp = Vector4(111, 122, 6, 1)
+metadata/device_recoil_px = Vector2(-1.06066, 1.0606604)
+metadata/device_muzzle_px = Vector2(140.84, 84.27158)
+metadata/device_source_key = "operate_north_east:2"
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_irm3r"]
+atlas = ExtResource("3_7mtln")
+region = Rect2(192, 0, 192, 192)
+filter_clip = true
+metadata/preview_registered = true
+metadata/hand_anchor = Vector2(119, 107)
+metadata/device_neck_px = Vector2(97, 96)
+metadata/device_grip_px = Vector2(124, 109)
+metadata/device_hand_rect = Rect2(121, 104, 9, 13)
+metadata/device_arm_warp = Vector4(110, 121, 6, 1)
+metadata/device_recoil_px = Vector2(0, 0)
+metadata/device_muzzle_px = Vector2(138.84, 85.27158)
+metadata/device_source_key = "operate_north_east:1"
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_kmsdl"]
+atlas = ExtResource("3_7mtln")
+region = Rect2(576, 0, 192, 192)
+filter_clip = true
+metadata/preview_registered = true
+metadata/hand_anchor = Vector2(116, 107)
+metadata/device_neck_px = Vector2(97, 96)
+metadata/device_grip_px = Vector2(122, 109)
+metadata/device_hand_rect = Rect2(119, 104, 9, 12)
+metadata/device_arm_warp = Vector4(110, 119, 6, 1)
+metadata/device_recoil_px = Vector2(-1.06066, 1.0606604)
+metadata/device_muzzle_px = Vector2(136.84, 85.27158)
+metadata/device_source_key = "operate_north_east:3"
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_xjp4p"]
+atlas = ExtResource("4_gpibu")
+region = Rect2(192, 0, 192, 192)
+filter_clip = true
+metadata/preview_registered = true
+metadata/hand_anchor = Vector2(72, 107)
+metadata/device_neck_px = Vector2(94, 96)
+metadata/device_grip_px = Vector2(67, 109)
+metadata/device_hand_rect = Rect2(62, 104, 9, 13)
+metadata/device_arm_warp = Vector4(-81, -71, 6, -1)
+metadata/device_recoil_px = Vector2(0, 0)
+metadata/device_muzzle_px = Vector2(50.531578, 83.99211)
+metadata/device_source_key = "operate_north_west:1"
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_alkst"]
+atlas = ExtResource("4_gpibu")
+region = Rect2(384, 0, 192, 192)
+filter_clip = true
+metadata/preview_registered = true
+metadata/hand_anchor = Vector2(70, 106)
+metadata/device_neck_px = Vector2(93, 96)
+metadata/device_grip_px = Vector2(65, 108)
+metadata/device_hand_rect = Rect2(61, 104, 9, 9)
+metadata/device_arm_warp = Vector4(-80, -70, 6, -1)
+metadata/device_recoil_px = Vector2(1.0606602, 1.0606601)
+metadata/device_muzzle_px = Vector2(48.531578, 82.99211)
+metadata/device_source_key = "operate_north_west:2"
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_j2qm6"]
+atlas = ExtResource("4_gpibu")
+region = Rect2(192, 0, 192, 192)
+filter_clip = true
+metadata/preview_registered = true
+metadata/hand_anchor = Vector2(72, 107)
+metadata/device_neck_px = Vector2(94, 96)
+metadata/device_grip_px = Vector2(67, 109)
+metadata/device_hand_rect = Rect2(62, 104, 9, 13)
+metadata/device_arm_warp = Vector4(-81, -71, 6, -1)
+metadata/device_recoil_px = Vector2(0, 0)
+metadata/device_muzzle_px = Vector2(50.531578, 83.99211)
+metadata/device_source_key = "operate_north_west:1"
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_adnkp"]
+atlas = ExtResource("4_gpibu")
+region = Rect2(576, 0, 192, 192)
+filter_clip = true
+metadata/preview_registered = true
+metadata/hand_anchor = Vector2(76, 107)
+metadata/device_neck_px = Vector2(94, 96)
+metadata/device_grip_px = Vector2(69, 109)
+metadata/device_hand_rect = Rect2(64, 104, 9, 12)
+metadata/device_arm_warp = Vector4(-81, -73, 6, -1)
+metadata/device_recoil_px = Vector2(1.0606602, 1.0606601)
+metadata/device_muzzle_px = Vector2(52.531578, 83.99211)
+metadata/device_source_key = "operate_north_west:3"
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_iob6e"]
+atlas = ExtResource("5_mvjjr")
+region = Rect2(192, 0, 192, 192)
+filter_clip = true
+metadata/preview_registered = true
+metadata/hand_anchor = Vector2(86, 110)
+metadata/device_neck_px = Vector2(94, 97)
+metadata/device_grip_px = Vector2(75, 113)
+metadata/device_hand_rect = Rect2(70, 105, 9, 17)
+metadata/device_arm_warp = Vector4(0, 0, 0, 0)
+metadata/device_recoil_px = Vector2(0, 0)
+metadata/device_muzzle_px = Vector2(76.163155, 122.30526)
+metadata/device_source_key = "operate_south:1"
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_aww11"]
+atlas = ExtResource("5_mvjjr")
+region = Rect2(384, 0, 192, 192)
+filter_clip = true
+metadata/preview_registered = true
+metadata/hand_anchor = Vector2(88, 107)
+metadata/device_neck_px = Vector2(94, 97)
+metadata/device_grip_px = Vector2(77, 110)
+metadata/device_hand_rect = Rect2(72, 105, 9, 13)
+metadata/device_arm_warp = Vector4(0, 0, 0, 0)
+metadata/device_recoil_px = Vector2(6.556708e-08, -1.5)
+metadata/device_muzzle_px = Vector2(78.163155, 119.30526)
+metadata/device_source_key = "operate_south:2"
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_adgsy"]
+atlas = ExtResource("5_mvjjr")
+region = Rect2(192, 0, 192, 192)
+filter_clip = true
+metadata/preview_registered = true
+metadata/hand_anchor = Vector2(86, 110)
+metadata/device_neck_px = Vector2(94, 97)
+metadata/device_grip_px = Vector2(75, 113)
+metadata/device_hand_rect = Rect2(70, 105, 9, 17)
+metadata/device_arm_warp = Vector4(0, 0, 0, 0)
+metadata/device_recoil_px = Vector2(0, 0)
+metadata/device_muzzle_px = Vector2(76.163155, 122.30526)
+metadata/device_source_key = "operate_south:1"
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_ms2wd"]
+atlas = ExtResource("5_mvjjr")
+region = Rect2(576, 0, 192, 192)
+filter_clip = true
+metadata/preview_registered = true
+metadata/hand_anchor = Vector2(88, 107)
+metadata/device_neck_px = Vector2(96, 98)
+metadata/device_grip_px = Vector2(75, 110)
+metadata/device_hand_rect = Rect2(71, 106, 9, 11)
+metadata/device_arm_warp = Vector4(0, 0, 0, 0)
+metadata/device_recoil_px = Vector2(6.556708e-08, -1.5)
+metadata/device_muzzle_px = Vector2(76.163155, 119.30526)
+metadata/device_source_key = "operate_south:3"
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_erksa"]
+atlas = ExtResource("6_jput1")
+region = Rect2(192, 0, 192, 192)
+filter_clip = true
+metadata/preview_registered = true
+metadata/hand_anchor = Vector2(100, 111)
+metadata/device_neck_px = Vector2(93, 95)
+metadata/device_grip_px = Vector2(125, 110)
+metadata/device_hand_rect = Rect2(122, 103, 9, 15)
+metadata/device_arm_warp = Vector4(0, 0, 0, 0)
+metadata/device_recoil_px = Vector2(0, 0)
+metadata/device_muzzle_px = Vector2(145.12263, 111.744736)
+metadata/device_source_key = "operate_south_east:1"
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_wqfx0"]
+atlas = ExtResource("6_jput1")
+region = Rect2(384, 0, 192, 192)
+filter_clip = true
+metadata/preview_registered = true
+metadata/hand_anchor = Vector2(105, 108)
+metadata/device_neck_px = Vector2(93, 95)
+metadata/device_grip_px = Vector2(125, 109)
+metadata/device_hand_rect = Rect2(121, 103, 9, 13)
+metadata/device_arm_warp = Vector4(0, 0, 0, 0)
+metadata/device_recoil_px = Vector2(-1.0606601, -1.0606601)
+metadata/device_muzzle_px = Vector2(145.12263, 110.744736)
+metadata/device_source_key = "operate_south_east:2"
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_poro0"]
+atlas = ExtResource("6_jput1")
+region = Rect2(192, 0, 192, 192)
+filter_clip = true
+metadata/preview_registered = true
+metadata/hand_anchor = Vector2(100, 111)
+metadata/device_neck_px = Vector2(93, 95)
+metadata/device_grip_px = Vector2(125, 110)
+metadata/device_hand_rect = Rect2(122, 103, 9, 15)
+metadata/device_arm_warp = Vector4(0, 0, 0, 0)
+metadata/device_recoil_px = Vector2(0, 0)
+metadata/device_muzzle_px = Vector2(145.12263, 111.744736)
+metadata/device_source_key = "operate_south_east:1"
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_oowr8"]
+atlas = ExtResource("6_jput1")
+region = Rect2(576, 0, 192, 192)
+filter_clip = true
+metadata/preview_registered = true
+metadata/hand_anchor = Vector2(98, 110)
+metadata/device_neck_px = Vector2(92, 95)
+metadata/device_grip_px = Vector2(120, 109)
+metadata/device_hand_rect = Rect2(117, 103, 9, 14)
+metadata/device_arm_warp = Vector4(0, 0, 0, 0)
+metadata/device_recoil_px = Vector2(-1.0606601, -1.0606601)
+metadata/device_muzzle_px = Vector2(140.12263, 110.744736)
+metadata/device_source_key = "operate_south_east:3"
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_7jura"]
+atlas = ExtResource("7_qimji")
+region = Rect2(192, 0, 192, 192)
+filter_clip = true
+metadata/preview_registered = true
+metadata/hand_anchor = Vector2(91, 111)
+metadata/device_neck_px = Vector2(98, 95)
+metadata/device_grip_px = Vector2(66, 110)
+metadata/device_hand_rect = Rect2(61, 103, 9, 15)
+metadata/device_arm_warp = Vector4(0, 0, 0, 0)
+metadata/device_recoil_px = Vector2(0, 0)
+metadata/device_muzzle_px = Vector2(43.31842, 111.51211)
+metadata/device_source_key = "operate_south_west:1"
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_78pws"]
+atlas = ExtResource("7_qimji")
+region = Rect2(384, 0, 192, 192)
+filter_clip = true
+metadata/preview_registered = true
+metadata/hand_anchor = Vector2(86, 108)
+metadata/device_neck_px = Vector2(98, 95)
+metadata/device_grip_px = Vector2(66, 109)
+metadata/device_hand_rect = Rect2(62, 103, 9, 13)
+metadata/device_arm_warp = Vector4(0, 0, 0, 0)
+metadata/device_recoil_px = Vector2(1.0606601, -1.0606601)
+metadata/device_muzzle_px = Vector2(43.31842, 110.51211)
+metadata/device_source_key = "operate_south_west:2"
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_veus0"]
+atlas = ExtResource("7_qimji")
+region = Rect2(192, 0, 192, 192)
+filter_clip = true
+metadata/preview_registered = true
+metadata/hand_anchor = Vector2(91, 111)
+metadata/device_neck_px = Vector2(98, 95)
+metadata/device_grip_px = Vector2(66, 110)
+metadata/device_hand_rect = Rect2(61, 103, 9, 15)
+metadata/device_arm_warp = Vector4(0, 0, 0, 0)
+metadata/device_recoil_px = Vector2(0, 0)
+metadata/device_muzzle_px = Vector2(43.31842, 111.51211)
+metadata/device_source_key = "operate_south_west:1"
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_ecgpc"]
+atlas = ExtResource("7_qimji")
+region = Rect2(576, 0, 192, 192)
+filter_clip = true
+metadata/preview_registered = true
+metadata/hand_anchor = Vector2(93, 110)
+metadata/device_neck_px = Vector2(99, 95)
+metadata/device_grip_px = Vector2(71, 109)
+metadata/device_hand_rect = Rect2(66, 103, 9, 14)
+metadata/device_arm_warp = Vector4(0, 0, 0, 0)
+metadata/device_recoil_px = Vector2(1.0606601, -1.0606601)
+metadata/device_muzzle_px = Vector2(48.31842, 110.51211)
+metadata/device_source_key = "operate_south_west:3"
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_u0m0p"]
+atlas = ExtResource("8_nhuuy")
+region = Rect2(192, 0, 192, 192)
+filter_clip = true
+metadata/preview_registered = true
+metadata/hand_anchor = Vector2(79, 113)
+metadata/device_neck_px = Vector2(96, 93)
+metadata/device_grip_px = Vector2(69, 111)
+metadata/device_hand_rect = Rect2(65, 105, 9, 14)
+metadata/device_arm_warp = Vector4(0, 0, 0, 0)
+metadata/device_recoil_px = Vector2(0, 0)
+metadata/device_muzzle_px = Vector2(45.271584, 98.78684)
+metadata/device_source_key = "operate_west:1"
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_ckeci"]
+atlas = ExtResource("8_nhuuy")
+region = Rect2(384, 0, 192, 192)
+filter_clip = true
+metadata/preview_registered = true
+metadata/hand_anchor = Vector2(76, 106)
+metadata/device_neck_px = Vector2(95, 93)
+metadata/device_grip_px = Vector2(63, 105)
+metadata/device_hand_rect = Rect2(60, 101, 7, 9)
+metadata/device_arm_warp = Vector4(0, 0, 0, 0)
+metadata/device_recoil_px = Vector2(1.5, 1.3113416e-07)
+metadata/device_muzzle_px = Vector2(39.271584, 92.78684)
+metadata/device_source_key = "operate_west:2"
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_einb7"]
+atlas = ExtResource("8_nhuuy")
+region = Rect2(192, 0, 192, 192)
+filter_clip = true
+metadata/preview_registered = true
+metadata/hand_anchor = Vector2(79, 113)
+metadata/device_neck_px = Vector2(96, 93)
+metadata/device_grip_px = Vector2(69, 111)
+metadata/device_hand_rect = Rect2(65, 105, 9, 14)
+metadata/device_arm_warp = Vector4(0, 0, 0, 0)
+metadata/device_recoil_px = Vector2(0, 0)
+metadata/device_muzzle_px = Vector2(45.271584, 98.78684)
+metadata/device_source_key = "operate_west:1"
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_6x4ff"]
+atlas = ExtResource("8_nhuuy")
+region = Rect2(576, 0, 192, 192)
+filter_clip = true
+metadata/preview_registered = true
+metadata/hand_anchor = Vector2(78, 108)
+metadata/device_neck_px = Vector2(94, 93)
+metadata/device_grip_px = Vector2(66, 106)
+metadata/device_hand_rect = Rect2(62, 101, 9, 12)
+metadata/device_arm_warp = Vector4(0, 0, 0, 0)
+metadata/device_recoil_px = Vector2(1.5, 1.3113416e-07)
+metadata/device_muzzle_px = Vector2(42.271584, 93.78684)
+metadata/device_source_key = "operate_west:3"
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_ed1ds"]
+atlas = ExtResource("1_e2fsc")
+region = Rect2(192, 0, 192, 192)
+filter_clip = true
+metadata/preview_registered = true
+metadata/hand_anchor = Vector2(112, 113)
+metadata/device_neck_px = Vector2(95, 93)
+metadata/device_grip_px = Vector2(122, 111)
+metadata/device_hand_rect = Rect2(118, 105, 9, 14)
+metadata/device_arm_warp = Vector4(0, 0, 0, 0)
+metadata/device_recoil_px = Vector2(0, 0)
+metadata/device_muzzle_px = Vector2(148.86894, 100.53158)
+metadata/device_source_key = "operate_east:1"
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_q8plb"]
+atlas = ExtResource("1_e2fsc")
+region = Rect2(0, 0, 192, 192)
+filter_clip = true
+metadata/preview_registered = true
+metadata/hand_anchor = Vector2(109, 114)
+metadata/device_neck_px = Vector2(95, 93)
+metadata/device_grip_px = Vector2(121, 110)
+metadata/device_hand_rect = Rect2(116, 106, 9, 10)
+metadata/device_arm_warp = Vector4(0, 0, 0, 0)
+metadata/device_recoil_px = Vector2(0, 0)
+metadata/device_muzzle_px = Vector2(147.86894, 99.53158)
+metadata/device_source_key = "operate_east:0"
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_dgash"]
+atlas = ExtResource("2_iojsd")
+region = Rect2(192, 0, 192, 192)
+filter_clip = true
+metadata/preview_registered = true
+metadata/hand_anchor = Vector2(114, 108)
+metadata/device_neck_px = Vector2(94, 99)
+metadata/device_grip_px = Vector2(118, 111)
+metadata/device_hand_rect = Rect2(115, 107, 9, 10)
+metadata/device_arm_warp = Vector4(107, 115, 12, 1)
+metadata/device_recoil_px = Vector2(0, 0)
+metadata/device_muzzle_px = Vector2(130, 77.850006)
+metadata/device_source_key = "operate_north:1"
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_6ca6s"]
+atlas = ExtResource("2_iojsd")
+region = Rect2(0, 0, 192, 192)
+filter_clip = true
+metadata/preview_registered = true
+metadata/hand_anchor = Vector2(111, 112)
+metadata/device_neck_px = Vector2(95, 99)
+metadata/device_grip_px = Vector2(119, 115)
+metadata/device_hand_rect = Rect2(115, 107, 9, 17)
+metadata/device_arm_warp = Vector4(108, 115, 12, 1)
+metadata/device_recoil_px = Vector2(0, 0)
+metadata/device_muzzle_px = Vector2(131, 81.850006)
+metadata/device_source_key = "operate_north:0"
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_8cf87"]
+atlas = ExtResource("3_7mtln")
+region = Rect2(192, 0, 192, 192)
+filter_clip = true
+metadata/preview_registered = true
+metadata/hand_anchor = Vector2(119, 107)
+metadata/device_neck_px = Vector2(97, 96)
+metadata/device_grip_px = Vector2(124, 109)
+metadata/device_hand_rect = Rect2(121, 104, 9, 13)
+metadata/device_arm_warp = Vector4(110, 121, 6, 1)
+metadata/device_recoil_px = Vector2(0, 0)
+metadata/device_muzzle_px = Vector2(138.84, 85.27158)
+metadata/device_source_key = "operate_north_east:1"
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_tef2y"]
+atlas = ExtResource("3_7mtln")
+region = Rect2(0, 0, 192, 192)
+filter_clip = true
+metadata/preview_registered = true
+metadata/hand_anchor = Vector2(113, 111)
+metadata/device_neck_px = Vector2(95, 96)
+metadata/device_grip_px = Vector2(120, 112)
+metadata/device_hand_rect = Rect2(117, 105, 9, 15)
+metadata/device_arm_warp = Vector4(108, 117, 6, 1)
+metadata/device_recoil_px = Vector2(0, 0)
+metadata/device_muzzle_px = Vector2(134.84, 88.27158)
+metadata/device_source_key = "operate_north_east:0"
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_ev6ws"]
+atlas = ExtResource("4_gpibu")
+region = Rect2(192, 0, 192, 192)
+filter_clip = true
+metadata/preview_registered = true
+metadata/hand_anchor = Vector2(72, 107)
+metadata/device_neck_px = Vector2(94, 96)
+metadata/device_grip_px = Vector2(67, 109)
+metadata/device_hand_rect = Rect2(62, 104, 9, 13)
+metadata/device_arm_warp = Vector4(-81, -71, 6, -1)
+metadata/device_recoil_px = Vector2(0, 0)
+metadata/device_muzzle_px = Vector2(50.531578, 83.99211)
+metadata/device_source_key = "operate_north_west:1"
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_1ht1a"]
+atlas = ExtResource("4_gpibu")
+region = Rect2(0, 0, 192, 192)
+filter_clip = true
+metadata/preview_registered = true
+metadata/hand_anchor = Vector2(78, 111)
+metadata/device_neck_px = Vector2(96, 96)
+metadata/device_grip_px = Vector2(71, 112)
+metadata/device_hand_rect = Rect2(66, 105, 9, 15)
+metadata/device_arm_warp = Vector4(-83, -75, 6, -1)
+metadata/device_recoil_px = Vector2(0, 0)
+metadata/device_muzzle_px = Vector2(54.531578, 86.99211)
+metadata/device_source_key = "operate_north_west:0"
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_igpkg"]
+atlas = ExtResource("5_mvjjr")
+region = Rect2(192, 0, 192, 192)
+filter_clip = true
+metadata/preview_registered = true
+metadata/hand_anchor = Vector2(86, 110)
+metadata/device_neck_px = Vector2(94, 97)
+metadata/device_grip_px = Vector2(75, 113)
+metadata/device_hand_rect = Rect2(70, 105, 9, 17)
+metadata/device_arm_warp = Vector4(0, 0, 0, 0)
+metadata/device_recoil_px = Vector2(0, 0)
+metadata/device_muzzle_px = Vector2(76.163155, 122.30526)
+metadata/device_source_key = "operate_south:1"
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_jllvf"]
+atlas = ExtResource("5_mvjjr")
+region = Rect2(0, 0, 192, 192)
+filter_clip = true
+metadata/preview_registered = true
+metadata/hand_anchor = Vector2(85, 114)
+metadata/device_neck_px = Vector2(93, 97)
+metadata/device_grip_px = Vector2(74, 117)
+metadata/device_hand_rect = Rect2(70, 108, 9, 19)
+metadata/device_arm_warp = Vector4(0, 0, 0, 0)
+metadata/device_recoil_px = Vector2(0, 0)
+metadata/device_muzzle_px = Vector2(75.163155, 126.30526)
+metadata/device_source_key = "operate_south:0"
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_eb3nj"]
+atlas = ExtResource("6_jput1")
+region = Rect2(192, 0, 192, 192)
+filter_clip = true
+metadata/preview_registered = true
+metadata/hand_anchor = Vector2(100, 111)
+metadata/device_neck_px = Vector2(93, 95)
+metadata/device_grip_px = Vector2(125, 110)
+metadata/device_hand_rect = Rect2(122, 103, 9, 15)
+metadata/device_arm_warp = Vector4(0, 0, 0, 0)
+metadata/device_recoil_px = Vector2(0, 0)
+metadata/device_muzzle_px = Vector2(145.12263, 111.744736)
+metadata/device_source_key = "operate_south_east:1"
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_5at7t"]
+atlas = ExtResource("6_jput1")
+region = Rect2(0, 0, 192, 192)
+filter_clip = true
+metadata/preview_registered = true
+metadata/hand_anchor = Vector2(90, 114)
+metadata/device_neck_px = Vector2(92, 95)
+metadata/device_grip_px = Vector2(117, 113)
+metadata/device_hand_rect = Rect2(113, 105, 9, 16)
+metadata/device_arm_warp = Vector4(0, 0, 0, 0)
+metadata/device_recoil_px = Vector2(0, 0)
+metadata/device_muzzle_px = Vector2(137.12263, 114.744736)
+metadata/device_source_key = "operate_south_east:0"
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_3exe8"]
+atlas = ExtResource("7_qimji")
+region = Rect2(192, 0, 192, 192)
+filter_clip = true
+metadata/preview_registered = true
+metadata/hand_anchor = Vector2(91, 111)
+metadata/device_neck_px = Vector2(98, 95)
+metadata/device_grip_px = Vector2(66, 110)
+metadata/device_hand_rect = Rect2(61, 103, 9, 15)
+metadata/device_arm_warp = Vector4(0, 0, 0, 0)
+metadata/device_recoil_px = Vector2(0, 0)
+metadata/device_muzzle_px = Vector2(43.31842, 111.51211)
+metadata/device_source_key = "operate_south_west:1"
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_m2ypt"]
+atlas = ExtResource("7_qimji")
+region = Rect2(0, 0, 192, 192)
+filter_clip = true
+metadata/preview_registered = true
+metadata/hand_anchor = Vector2(101, 114)
+metadata/device_neck_px = Vector2(99, 95)
+metadata/device_grip_px = Vector2(74, 113)
+metadata/device_hand_rect = Rect2(70, 105, 9, 16)
+metadata/device_arm_warp = Vector4(0, 0, 0, 0)
+metadata/device_recoil_px = Vector2(0, 0)
+metadata/device_muzzle_px = Vector2(51.31842, 114.51211)
+metadata/device_source_key = "operate_south_west:0"
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_1u2sg"]
+atlas = ExtResource("8_nhuuy")
+region = Rect2(192, 0, 192, 192)
+filter_clip = true
+metadata/preview_registered = true
+metadata/hand_anchor = Vector2(79, 113)
+metadata/device_neck_px = Vector2(96, 93)
+metadata/device_grip_px = Vector2(69, 111)
+metadata/device_hand_rect = Rect2(65, 105, 9, 14)
+metadata/device_arm_warp = Vector4(0, 0, 0, 0)
+metadata/device_recoil_px = Vector2(0, 0)
+metadata/device_muzzle_px = Vector2(45.271584, 98.78684)
+metadata/device_source_key = "operate_west:1"
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_kxjge"]
+atlas = ExtResource("8_nhuuy")
+region = Rect2(0, 0, 192, 192)
+filter_clip = true
+metadata/preview_registered = true
+metadata/hand_anchor = Vector2(82, 114)
+metadata/device_neck_px = Vector2(96, 93)
+metadata/device_grip_px = Vector2(70, 110)
+metadata/device_hand_rect = Rect2(67, 106, 9, 10)
+metadata/device_arm_warp = Vector4(0, 0, 0, 0)
+metadata/device_recoil_px = Vector2(0, 0)
+metadata/device_muzzle_px = Vector2(46.271584, 97.78684)
+metadata/device_source_key = "operate_west:0"
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_s3uhw"]
+atlas = ExtResource("1_e2fsc")
+region = Rect2(0, 0, 192, 192)
+filter_clip = true
+metadata/preview_registered = true
+metadata/hand_anchor = Vector2(109, 114)
+metadata/device_neck_px = Vector2(95, 93)
+metadata/device_grip_px = Vector2(121, 110)
+metadata/device_hand_rect = Rect2(116, 106, 9, 10)
+metadata/device_arm_warp = Vector4(0, 0, 0, 0)
+metadata/device_recoil_px = Vector2(0, 0)
+metadata/device_muzzle_px = Vector2(147.86894, 99.53158)
+metadata/device_source_key = "operate_east:0"
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_s5uku"]
+atlas = ExtResource("1_e2fsc")
+region = Rect2(192, 0, 192, 192)
+filter_clip = true
+metadata/preview_registered = true
+metadata/hand_anchor = Vector2(112, 113)
+metadata/device_neck_px = Vector2(95, 93)
+metadata/device_grip_px = Vector2(122, 111)
+metadata/device_hand_rect = Rect2(118, 105, 9, 14)
+metadata/device_arm_warp = Vector4(0, 0, 0, 0)
+metadata/device_recoil_px = Vector2(0, 0)
+metadata/device_muzzle_px = Vector2(148.86894, 100.53158)
+metadata/device_source_key = "operate_east:1"
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_sbjgp"]
+atlas = ExtResource("2_iojsd")
+region = Rect2(0, 0, 192, 192)
+filter_clip = true
+metadata/preview_registered = true
+metadata/hand_anchor = Vector2(111, 112)
+metadata/device_neck_px = Vector2(95, 99)
+metadata/device_grip_px = Vector2(119, 115)
+metadata/device_hand_rect = Rect2(115, 107, 9, 17)
+metadata/device_arm_warp = Vector4(108, 115, 12, 1)
+metadata/device_recoil_px = Vector2(0, 0)
+metadata/device_muzzle_px = Vector2(131, 81.850006)
+metadata/device_source_key = "operate_north:0"
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_85sd0"]
+atlas = ExtResource("2_iojsd")
+region = Rect2(192, 0, 192, 192)
+filter_clip = true
+metadata/preview_registered = true
+metadata/hand_anchor = Vector2(114, 108)
+metadata/device_neck_px = Vector2(94, 99)
+metadata/device_grip_px = Vector2(118, 111)
+metadata/device_hand_rect = Rect2(115, 107, 9, 10)
+metadata/device_arm_warp = Vector4(107, 115, 12, 1)
+metadata/device_recoil_px = Vector2(0, 0)
+metadata/device_muzzle_px = Vector2(130, 77.850006)
+metadata/device_source_key = "operate_north:1"
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_u8vyf"]
+atlas = ExtResource("3_7mtln")
+region = Rect2(0, 0, 192, 192)
+filter_clip = true
+metadata/preview_registered = true
+metadata/hand_anchor = Vector2(113, 111)
+metadata/device_neck_px = Vector2(95, 96)
+metadata/device_grip_px = Vector2(120, 112)
+metadata/device_hand_rect = Rect2(117, 105, 9, 15)
+metadata/device_arm_warp = Vector4(108, 117, 6, 1)
+metadata/device_recoil_px = Vector2(0, 0)
+metadata/device_muzzle_px = Vector2(134.84, 88.27158)
+metadata/device_source_key = "operate_north_east:0"
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_yad2d"]
+atlas = ExtResource("3_7mtln")
+region = Rect2(192, 0, 192, 192)
+filter_clip = true
+metadata/preview_registered = true
+metadata/hand_anchor = Vector2(119, 107)
+metadata/device_neck_px = Vector2(97, 96)
+metadata/device_grip_px = Vector2(124, 109)
+metadata/device_hand_rect = Rect2(121, 104, 9, 13)
+metadata/device_arm_warp = Vector4(110, 121, 6, 1)
+metadata/device_recoil_px = Vector2(0, 0)
+metadata/device_muzzle_px = Vector2(138.84, 85.27158)
+metadata/device_source_key = "operate_north_east:1"
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_dy42l"]
+atlas = ExtResource("4_gpibu")
+region = Rect2(0, 0, 192, 192)
+filter_clip = true
+metadata/preview_registered = true
+metadata/hand_anchor = Vector2(78, 111)
+metadata/device_neck_px = Vector2(96, 96)
+metadata/device_grip_px = Vector2(71, 112)
+metadata/device_hand_rect = Rect2(66, 105, 9, 15)
+metadata/device_arm_warp = Vector4(-83, -75, 6, -1)
+metadata/device_recoil_px = Vector2(0, 0)
+metadata/device_muzzle_px = Vector2(54.531578, 86.99211)
+metadata/device_source_key = "operate_north_west:0"
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_830lp"]
+atlas = ExtResource("4_gpibu")
+region = Rect2(192, 0, 192, 192)
+filter_clip = true
+metadata/preview_registered = true
+metadata/hand_anchor = Vector2(72, 107)
+metadata/device_neck_px = Vector2(94, 96)
+metadata/device_grip_px = Vector2(67, 109)
+metadata/device_hand_rect = Rect2(62, 104, 9, 13)
+metadata/device_arm_warp = Vector4(-81, -71, 6, -1)
+metadata/device_recoil_px = Vector2(0, 0)
+metadata/device_muzzle_px = Vector2(50.531578, 83.99211)
+metadata/device_source_key = "operate_north_west:1"
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_8t4hi"]
+atlas = ExtResource("5_mvjjr")
+region = Rect2(0, 0, 192, 192)
+filter_clip = true
+metadata/preview_registered = true
+metadata/hand_anchor = Vector2(85, 114)
+metadata/device_neck_px = Vector2(93, 97)
+metadata/device_grip_px = Vector2(74, 117)
+metadata/device_hand_rect = Rect2(70, 108, 9, 19)
+metadata/device_arm_warp = Vector4(0, 0, 0, 0)
+metadata/device_recoil_px = Vector2(0, 0)
+metadata/device_muzzle_px = Vector2(75.163155, 126.30526)
+metadata/device_source_key = "operate_south:0"
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_ht1vs"]
+atlas = ExtResource("5_mvjjr")
+region = Rect2(192, 0, 192, 192)
+filter_clip = true
+metadata/preview_registered = true
+metadata/hand_anchor = Vector2(86, 110)
+metadata/device_neck_px = Vector2(94, 97)
+metadata/device_grip_px = Vector2(75, 113)
+metadata/device_hand_rect = Rect2(70, 105, 9, 17)
+metadata/device_arm_warp = Vector4(0, 0, 0, 0)
+metadata/device_recoil_px = Vector2(0, 0)
+metadata/device_muzzle_px = Vector2(76.163155, 122.30526)
+metadata/device_source_key = "operate_south:1"
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_rt1m1"]
+atlas = ExtResource("6_jput1")
+region = Rect2(0, 0, 192, 192)
+filter_clip = true
+metadata/preview_registered = true
+metadata/hand_anchor = Vector2(90, 114)
+metadata/device_neck_px = Vector2(92, 95)
+metadata/device_grip_px = Vector2(117, 113)
+metadata/device_hand_rect = Rect2(113, 105, 9, 16)
+metadata/device_arm_warp = Vector4(0, 0, 0, 0)
+metadata/device_recoil_px = Vector2(0, 0)
+metadata/device_muzzle_px = Vector2(137.12263, 114.744736)
+metadata/device_source_key = "operate_south_east:0"
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_2pr0u"]
+atlas = ExtResource("6_jput1")
+region = Rect2(192, 0, 192, 192)
+filter_clip = true
+metadata/preview_registered = true
+metadata/hand_anchor = Vector2(100, 111)
+metadata/device_neck_px = Vector2(93, 95)
+metadata/device_grip_px = Vector2(125, 110)
+metadata/device_hand_rect = Rect2(122, 103, 9, 15)
+metadata/device_arm_warp = Vector4(0, 0, 0, 0)
+metadata/device_recoil_px = Vector2(0, 0)
+metadata/device_muzzle_px = Vector2(145.12263, 111.744736)
+metadata/device_source_key = "operate_south_east:1"
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_s5uec"]
+atlas = ExtResource("7_qimji")
+region = Rect2(0, 0, 192, 192)
+filter_clip = true
+metadata/preview_registered = true
+metadata/hand_anchor = Vector2(101, 114)
+metadata/device_neck_px = Vector2(99, 95)
+metadata/device_grip_px = Vector2(74, 113)
+metadata/device_hand_rect = Rect2(70, 105, 9, 16)
+metadata/device_arm_warp = Vector4(0, 0, 0, 0)
+metadata/device_recoil_px = Vector2(0, 0)
+metadata/device_muzzle_px = Vector2(51.31842, 114.51211)
+metadata/device_source_key = "operate_south_west:0"
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_vh20j"]
+atlas = ExtResource("7_qimji")
+region = Rect2(192, 0, 192, 192)
+filter_clip = true
+metadata/preview_registered = true
+metadata/hand_anchor = Vector2(91, 111)
+metadata/device_neck_px = Vector2(98, 95)
+metadata/device_grip_px = Vector2(66, 110)
+metadata/device_hand_rect = Rect2(61, 103, 9, 15)
+metadata/device_arm_warp = Vector4(0, 0, 0, 0)
+metadata/device_recoil_px = Vector2(0, 0)
+metadata/device_muzzle_px = Vector2(43.31842, 111.51211)
+metadata/device_source_key = "operate_south_west:1"
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_k0a5q"]
+atlas = ExtResource("8_nhuuy")
+region = Rect2(0, 0, 192, 192)
+filter_clip = true
+metadata/preview_registered = true
+metadata/hand_anchor = Vector2(82, 114)
+metadata/device_neck_px = Vector2(96, 93)
+metadata/device_grip_px = Vector2(70, 110)
+metadata/device_hand_rect = Rect2(67, 106, 9, 10)
+metadata/device_arm_warp = Vector4(0, 0, 0, 0)
+metadata/device_recoil_px = Vector2(0, 0)
+metadata/device_muzzle_px = Vector2(46.271584, 97.78684)
+metadata/device_source_key = "operate_west:0"
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_7bumk"]
+atlas = ExtResource("8_nhuuy")
+region = Rect2(192, 0, 192, 192)
+filter_clip = true
+metadata/preview_registered = true
+metadata/hand_anchor = Vector2(79, 113)
+metadata/device_neck_px = Vector2(96, 93)
+metadata/device_grip_px = Vector2(69, 111)
+metadata/device_hand_rect = Rect2(65, 105, 9, 14)
+metadata/device_arm_warp = Vector4(0, 0, 0, 0)
+metadata/device_recoil_px = Vector2(0, 0)
+metadata/device_muzzle_px = Vector2(45.271584, 98.78684)
+metadata/device_source_key = "operate_west:1"
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_yetkq"]
+atlas = ExtResource("1_e2fsc")
+region = Rect2(0, 0, 192, 192)
+filter_clip = true
+metadata/preview_registered = true
+metadata/hand_anchor = Vector2(109, 114)
+metadata/device_neck_px = Vector2(95, 93)
+metadata/device_grip_px = Vector2(121, 110)
+metadata/device_hand_rect = Rect2(116, 106, 9, 10)
+metadata/device_arm_warp = Vector4(0, 0, 0, 0)
+metadata/device_recoil_px = Vector2(0, 0)
+metadata/device_muzzle_px = Vector2(147.86894, 99.53158)
+metadata/device_source_key = "operate_east:0"
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_iolvr"]
+atlas = ExtResource("2_iojsd")
+region = Rect2(0, 0, 192, 192)
+filter_clip = true
+metadata/preview_registered = true
+metadata/hand_anchor = Vector2(111, 112)
+metadata/device_neck_px = Vector2(95, 99)
+metadata/device_grip_px = Vector2(119, 115)
+metadata/device_hand_rect = Rect2(115, 107, 9, 17)
+metadata/device_arm_warp = Vector4(108, 115, 12, 1)
+metadata/device_recoil_px = Vector2(0, 0)
+metadata/device_muzzle_px = Vector2(131, 81.850006)
+metadata/device_source_key = "operate_north:0"
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_s7ehc"]
+atlas = ExtResource("3_7mtln")
+region = Rect2(0, 0, 192, 192)
+filter_clip = true
+metadata/preview_registered = true
+metadata/hand_anchor = Vector2(113, 111)
+metadata/device_neck_px = Vector2(95, 96)
+metadata/device_grip_px = Vector2(120, 112)
+metadata/device_hand_rect = Rect2(117, 105, 9, 15)
+metadata/device_arm_warp = Vector4(108, 117, 6, 1)
+metadata/device_recoil_px = Vector2(0, 0)
+metadata/device_muzzle_px = Vector2(134.84, 88.27158)
+metadata/device_source_key = "operate_north_east:0"
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_1t7t8"]
+atlas = ExtResource("4_gpibu")
+region = Rect2(0, 0, 192, 192)
+filter_clip = true
+metadata/preview_registered = true
+metadata/hand_anchor = Vector2(78, 111)
+metadata/device_neck_px = Vector2(96, 96)
+metadata/device_grip_px = Vector2(71, 112)
+metadata/device_hand_rect = Rect2(66, 105, 9, 15)
+metadata/device_arm_warp = Vector4(-83, -75, 6, -1)
+metadata/device_recoil_px = Vector2(0, 0)
+metadata/device_muzzle_px = Vector2(54.531578, 86.99211)
+metadata/device_source_key = "operate_north_west:0"
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_2id00"]
+atlas = ExtResource("5_mvjjr")
+region = Rect2(0, 0, 192, 192)
+filter_clip = true
+metadata/preview_registered = true
+metadata/hand_anchor = Vector2(85, 114)
+metadata/device_neck_px = Vector2(93, 97)
+metadata/device_grip_px = Vector2(74, 117)
+metadata/device_hand_rect = Rect2(70, 108, 9, 19)
+metadata/device_arm_warp = Vector4(0, 0, 0, 0)
+metadata/device_recoil_px = Vector2(0, 0)
+metadata/device_muzzle_px = Vector2(75.163155, 126.30526)
+metadata/device_source_key = "operate_south:0"
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_s6j3n"]
+atlas = ExtResource("6_jput1")
+region = Rect2(0, 0, 192, 192)
+filter_clip = true
+metadata/preview_registered = true
+metadata/hand_anchor = Vector2(90, 114)
+metadata/device_neck_px = Vector2(92, 95)
+metadata/device_grip_px = Vector2(117, 113)
+metadata/device_hand_rect = Rect2(113, 105, 9, 16)
+metadata/device_arm_warp = Vector4(0, 0, 0, 0)
+metadata/device_recoil_px = Vector2(0, 0)
+metadata/device_muzzle_px = Vector2(137.12263, 114.744736)
+metadata/device_source_key = "operate_south_east:0"
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_0l3m5"]
+atlas = ExtResource("7_qimji")
+region = Rect2(0, 0, 192, 192)
+filter_clip = true
+metadata/preview_registered = true
+metadata/hand_anchor = Vector2(101, 114)
+metadata/device_neck_px = Vector2(99, 95)
+metadata/device_grip_px = Vector2(74, 113)
+metadata/device_hand_rect = Rect2(70, 105, 9, 16)
+metadata/device_arm_warp = Vector4(0, 0, 0, 0)
+metadata/device_recoil_px = Vector2(0, 0)
+metadata/device_muzzle_px = Vector2(51.31842, 114.51211)
+metadata/device_source_key = "operate_south_west:0"
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_5iop2"]
+atlas = ExtResource("8_nhuuy")
+region = Rect2(0, 0, 192, 192)
+filter_clip = true
+metadata/preview_registered = true
+metadata/hand_anchor = Vector2(82, 114)
+metadata/device_neck_px = Vector2(96, 93)
+metadata/device_grip_px = Vector2(70, 110)
+metadata/device_hand_rect = Rect2(67, 106, 9, 10)
+metadata/device_arm_warp = Vector4(0, 0, 0, 0)
+metadata/device_recoil_px = Vector2(0, 0)
+metadata/device_muzzle_px = Vector2(46.271584, 97.78684)
+metadata/device_source_key = "operate_west:0"
+
+[resource]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_xqdw4")
+}],
+"loop": 1,
+"name": &"aim_east",
+"speed": 8.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_rbjf8")
+}],
+"loop": 1,
+"name": &"aim_north",
+"speed": 8.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_hgx80")
+}],
+"loop": 1,
+"name": &"aim_north_east",
+"speed": 8.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_53mkb")
+}],
+"loop": 1,
+"name": &"aim_north_west",
+"speed": 8.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_cceb5")
+}],
+"loop": 1,
+"name": &"aim_south",
+"speed": 8.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_8vnln")
+}],
+"loop": 1,
+"name": &"aim_south_east",
+"speed": 8.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_kxpa5")
+}],
+"loop": 1,
+"name": &"aim_south_west",
+"speed": 8.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_om8h0")
+}],
+"loop": 1,
+"name": &"aim_west",
+"speed": 8.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_jxa57")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_3b2we")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_1v16c")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_3nfse")
+}],
+"loop": 1,
+"name": &"fire_loop_east",
+"speed": 8.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_ggx6g")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_5m2p6")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_l756l")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_n06ck")
+}],
+"loop": 1,
+"name": &"fire_loop_north",
+"speed": 8.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_fwlof")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_oiyyp")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_irm3r")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_kmsdl")
+}],
+"loop": 1,
+"name": &"fire_loop_north_east",
+"speed": 8.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_xjp4p")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_alkst")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_j2qm6")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_adnkp")
+}],
+"loop": 1,
+"name": &"fire_loop_north_west",
+"speed": 8.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_iob6e")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_aww11")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_adgsy")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_ms2wd")
+}],
+"loop": 1,
+"name": &"fire_loop_south",
+"speed": 8.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_erksa")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_wqfx0")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_poro0")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_oowr8")
+}],
+"loop": 1,
+"name": &"fire_loop_south_east",
+"speed": 8.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_7jura")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_78pws")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_veus0")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_ecgpc")
+}],
+"loop": 1,
+"name": &"fire_loop_south_west",
+"speed": 8.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_u0m0p")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_ckeci")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_einb7")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_6x4ff")
+}],
+"loop": 1,
+"name": &"fire_loop_west",
+"speed": 8.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_ed1ds")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_q8plb")
+}],
+"loop": 0,
+"name": &"fire_release_east",
+"speed": 10.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_dgash")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_6ca6s")
+}],
+"loop": 0,
+"name": &"fire_release_north",
+"speed": 10.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_8cf87")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_tef2y")
+}],
+"loop": 0,
+"name": &"fire_release_north_east",
+"speed": 10.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_ev6ws")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_1ht1a")
+}],
+"loop": 0,
+"name": &"fire_release_north_west",
+"speed": 10.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_igpkg")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_jllvf")
+}],
+"loop": 0,
+"name": &"fire_release_south",
+"speed": 10.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_eb3nj")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_5at7t")
+}],
+"loop": 0,
+"name": &"fire_release_south_east",
+"speed": 10.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_3exe8")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_m2ypt")
+}],
+"loop": 0,
+"name": &"fire_release_south_west",
+"speed": 10.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_1u2sg")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_kxjge")
+}],
+"loop": 0,
+"name": &"fire_release_west",
+"speed": 10.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_s3uhw")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_s5uku")
+}],
+"loop": 0,
+"name": &"fire_start_east",
+"speed": 12.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_sbjgp")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_85sd0")
+}],
+"loop": 0,
+"name": &"fire_start_north",
+"speed": 12.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_u8vyf")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_yad2d")
+}],
+"loop": 0,
+"name": &"fire_start_north_east",
+"speed": 12.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_dy42l")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_830lp")
+}],
+"loop": 0,
+"name": &"fire_start_north_west",
+"speed": 12.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_8t4hi")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_ht1vs")
+}],
+"loop": 0,
+"name": &"fire_start_south",
+"speed": 12.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_rt1m1")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_2pr0u")
+}],
+"loop": 0,
+"name": &"fire_start_south_east",
+"speed": 12.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_s5uec")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_vh20j")
+}],
+"loop": 0,
+"name": &"fire_start_south_west",
+"speed": 12.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_k0a5q")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_7bumk")
+}],
+"loop": 0,
+"name": &"fire_start_west",
+"speed": 12.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_yetkq")
+}],
+"loop": 1,
+"name": &"hold_east",
+"speed": 8.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_iolvr")
+}],
+"loop": 1,
+"name": &"hold_north",
+"speed": 8.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_s7ehc")
+}],
+"loop": 1,
+"name": &"hold_north_east",
+"speed": 8.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_1t7t8")
+}],
+"loop": 1,
+"name": &"hold_north_west",
+"speed": 8.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_2id00")
+}],
+"loop": 1,
+"name": &"hold_south",
+"speed": 8.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_s6j3n")
+}],
+"loop": 1,
+"name": &"hold_south_east",
+"speed": 8.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_0l3m5")
+}],
+"loop": 1,
+"name": &"hold_south_west",
+"speed": 8.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_5iop2")
+}],
+"loop": 1,
+"name": &"hold_west",
+"speed": 8.0
+}]

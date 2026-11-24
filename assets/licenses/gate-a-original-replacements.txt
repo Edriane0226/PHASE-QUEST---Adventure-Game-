@@ -1,0 +1,15 @@
+Phase Quest R3 013 closure — original replacement assets
+
+Editable source: tools/art/gate_a_closure/build.gd
+Products: assets/audio/Footsteps/original_v1/wet_step_0.wav through wet_step_2.wav;
+assets/ui/menu_accents/original_v1/dot_0.png and dot_1.png.
+
+These assets were authored directly for this project: seeded mathematical
+wet-footstep synthesis and antialiased circle geometry. No recording, external
+sample or vendor pixel data is copied. No third-party attribution is required
+by their source. This record does not impose a new open-source license.
+
+GameAudio's WET_STEPS uses these three new files. MainMenuPanel's existing
+Texture2D resource slots use the new dot files. Original recordings/vendor PNGs
+remain preserved for source history, with exact original runtime files excluded
+from export. This replacement does not assert rights to the preserved originals.

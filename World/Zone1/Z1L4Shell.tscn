@@ -1,0 +1,10 @@
+[gd_scene load_steps=2 format=3]
+[ext_resource type="Script" path="res://Scripts/World/Zone1/zone1_shell.gd" id="shell"]
+[node name="Z1L4Shell" type="Node2D"]
+y_sort_enabled = true
+fixture_only = true
+subregion_id = "Z1L4"
+chunk_id = "Z1L4.shell"
+ground_origin = Vector2(6400, 4300)
+script = ExtResource("shell")
+shell_number = 4

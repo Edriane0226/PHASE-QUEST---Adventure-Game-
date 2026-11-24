@@ -1,0 +1,198 @@
+[gd_scene format=3]
+
+[ext_resource type="Script" path="res://Actors/Player/campaign_player.gd" id="1_dk7l2"]
+[ext_resource type="SpriteFrames" path="res://assets/characters/cast/explorer/frames.tres" id="2_l4ngm"]
+[ext_resource type="Shader" path="res://assets/shaders/world/level1_flat_cutout.gdshader" id="3_422wb"]
+[ext_resource type="Texture2D" path="res://assets/zones/zone_1/flat_v1/props/inspection_tool.tres" id="4_micte"]
+[ext_resource type="Texture2D" path="res://assets/zones/zone_1/flat_v1/props/module_off.tres" id="5_dymaj"]
+[ext_resource type="Texture2D" path="res://assets/zones/zone_1/flat_v1/props/wood.tres" id="6_igmg3"]
+[ext_resource type="Texture2D" path="res://assets/zones/zone_1/flat_v1/props/fan_blade.tres" id="7_vg5uq"]
+
+[ext_resource type="Shader" path="res://assets/shaders/world/player_idle_breath.gdshader" id="idle_breath_shader"]
+[ext_resource type="Script" path="res://Actors/Player/phase_device_rig.gd" id="phase_device_rig"]
+
+[sub_resource type="CanvasItemMaterial" id="CanvasItemMaterial_nixxs"]
+light_mode = 1
+
+[sub_resource type="Gradient" id="Gradient_hjbeg"]
+offsets = PackedFloat32Array(0, 0.48, 0.82, 1)
+colors = PackedColorArray(0.4, 0.6, 0.86, 0.27, 0.45, 0.65, 0.9, 0.2, 0.53, 0.72, 0.94, 0.07, 0.59, 0.77, 0.98, 0)
+
+[sub_resource type="GradientTexture2D" id="GradientTexture2D_a7qhj"]
+gradient = SubResource("Gradient_hjbeg")
+width = 128
+height = 128
+fill = 1
+fill_from = Vector2(0.5, 0.5)
+fill_to = Vector2(1, 0.5)
+
+[sub_resource type="CapsuleShape2D" id="collision_shape"]
+height = 22.0
+
+[sub_resource type="ShaderMaterial" id="ShaderMaterial_ygcsd"]
+shader = ExtResource("3_422wb")
+
+[sub_resource type="ShaderMaterial" id="PlayerBreathMaterial"]
+resource_local_to_scene = true
+shader = ExtResource("idle_breath_shader")
+shader_parameter/breath = 0.0
+
+[sub_resource type="Animation" id="IdleBreathReset"]
+resource_name = "RESET"
+length = 0.001
+tracks/0/type = "value"
+tracks/0/path = NodePath("AnimatedSprite2D:material:shader_parameter/breath")
+tracks/0/keys = {
+"times": PackedFloat32Array(0),
+"transitions": PackedFloat32Array(1),
+"update": 0,
+"values": [0.0]
+}
+
+[sub_resource type="Animation" id="IdleBreathLoop"]
+resource_name = "breathe"
+length = 3.0
+loop_mode = 1
+tracks/0/type = "value"
+tracks/0/path = NodePath("AnimatedSprite2D:material:shader_parameter/breath")
+tracks/0/interp = 2
+tracks/0/keys = {
+"times": PackedFloat32Array(0, 0.75, 1.5, 2.25, 3),
+"transitions": PackedFloat32Array(1, 1, 1, 1, 1),
+"update": 0,
+"values": [0.0, 0.5, 1.0, 0.5, 0.0]
+}
+
+[sub_resource type="AnimationLibrary" id="IdleBreathLibrary"]
+_data = {
+&"RESET": SubResource("IdleBreathReset"),
+&"breathe": SubResource("IdleBreathLoop")
+}
+[node name="Player" type="CharacterBody2D" unique_id=1395497411]
+collision_layer = 4
+collision_mask = 11
+script = ExtResource("1_dk7l2")
+move_speed = 100.0
+acceleration = 750.0
+friction = 900.0
+
+[node name="GroundShadow" type="Polygon2D" parent="." unique_id=1415878880]
+color = Color(0.16, 0.25, 0.32, 0.18)
+polygon = PackedVector2Array(-12, 0, -10, -3, -6, -4, 0, -5, 6, -4, 10, -3, 12, 0, 10, 3, 6, 4, 0, 5, -6, 4, -10, 3)
+
+[node name="SoftBlueShadow" type="Sprite2D" parent="GroundShadow" unique_id=124439649]
+material = SubResource("CanvasItemMaterial_nixxs")
+position = Vector2(2.4, 1)
+scale = Vector2(0.234375, 0.12890625)
+texture = SubResource("GradientTexture2D_a7qhj")
+
+[node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="." unique_id=1277367506]
+material = SubResource("PlayerBreathMaterial")
+texture_filter = 2
+position = Vector2(1, -13.999992)
+scale = Vector2(0.2923077, 0.2923077)
+sprite_frames = ExtResource("2_l4ngm")
+animation = &"idle_west"
+autoplay = "idle_south"
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="." unique_id=1019636106]
+shape = SubResource("collision_shape")
+
+[node name="Camera2D" type="Camera2D" parent="." unique_id=1622025963]
+position = Vector2(0, -20)
+zoom = Vector2(1.55, 1.55)
+process_callback = 0
+
+[node name="WarmingTool" type="Sprite2D" parent="." unique_id=1728233034]
+visible = false
+material = SubResource("PlayerBreathMaterial")
+texture_filter = 2
+material = SubResource("ShaderMaterial_ygcsd")
+position = Vector2(0, -15.019226)
+scale = Vector2(0.10576923, 0.10576923)
+texture = ExtResource("4_micte")
+metadata/grounded_asset = "inspection_tool"
+metadata/blender_asset = "inspection_tool"
+metadata/height_world = 11.0
+metadata/flat_asset = "inspection_tool"
+
+[node name="CarriedModule" type="Node2D" parent="." unique_id=1829036093]
+visible = false
+
+[node name="Module" type="Sprite2D" parent="CarriedModule" unique_id=1827606200]
+visible = false
+material = SubResource("PlayerBreathMaterial")
+texture_filter = 2
+material = SubResource("ShaderMaterial_ygcsd")
+position = Vector2(0, -18.926483)
+scale = Vector2(0.13235293, 0.13235293)
+texture = ExtResource("5_dymaj")
+metadata/grounded_asset = "module_off"
+metadata/carry_id = "module"
+metadata/blender_asset = "module_off"
+metadata/height_world = 13.5
+metadata/flat_asset = "module_off"
+
+[node name="Wood" type="Sprite2D" parent="CarriedModule" unique_id=1984403019]
+visible = false
+material = SubResource("PlayerBreathMaterial")
+texture_filter = 2
+material = SubResource("ShaderMaterial_ygcsd")
+position = Vector2(0, -30.43689)
+scale = Vector2(0.21359223, 0.21359223)
+texture = ExtResource("6_igmg3")
+metadata/grounded_asset = "wood"
+metadata/carry_id = "wood"
+metadata/blender_asset = "wood"
+metadata/height_world = 22.0
+metadata/flat_asset = "wood"
+
+[node name="Blades" type="Sprite2D" parent="CarriedModule" unique_id=756667142]
+visible = false
+material = SubResource("PlayerBreathMaterial")
+texture_filter = 2
+material = SubResource("ShaderMaterial_ygcsd")
+position = Vector2(0, 12)
+scale = Vector2(0.23762377, 0.23762377)
+texture = ExtResource("7_vg5uq")
+offset = Vector2(0.5, -15)
+metadata/grounded_asset = "fan_blade"
+metadata/carry_id = "blades"
+metadata/blender_asset = "fan_blade"
+metadata/height_world = 24.0
+metadata/flat_asset = "fan_blade"
+
+[node name="CarrySockets" type="Node2D" parent="." unique_id=1392481396]
+
+[node name="east" type="Marker2D" parent="CarrySockets" unique_id=792545600]
+position = Vector2(12, -20)
+
+[node name="south_east" type="Marker2D" parent="CarrySockets" unique_id=137685344]
+position = Vector2(9, -15)
+
+[node name="south" type="Marker2D" parent="CarrySockets" unique_id=1323789939]
+position = Vector2(0, -15)
+
+[node name="south_west" type="Marker2D" parent="CarrySockets" unique_id=1823507792]
+position = Vector2(-9, -15)
+
+[node name="west" type="Marker2D" parent="CarrySockets" unique_id=20401766]
+position = Vector2(-12, -20)
+
+[node name="north_west" type="Marker2D" parent="CarrySockets" unique_id=1329713859]
+position = Vector2(-14, -19)
+
+[node name="north" type="Marker2D" parent="CarrySockets" unique_id=1000280887]
+position = Vector2(14, -19)
+
+[node name="north_east" type="Marker2D" parent="CarrySockets" unique_id=259946067]
+position = Vector2(14, -19)
+
+[node name="IdleBreathing" type="AnimationPlayer" parent="."]
+libraries = {
+&"": SubResource("IdleBreathLibrary")
+}
+autoplay = "breathe"
+
+[node name="PhaseDeviceRig" type="Node2D" parent="."]
+script = ExtResource("phase_device_rig")

@@ -1,0 +1,342 @@
+[gd_resource type="SpriteFrames" format=3 uid="uid://d10s0edqif0vr"]
+
+[ext_resource type="Texture2D" uid="uid://c1dce183lsyrh" path="res://assets/devices/phase_device/v1/atlas.png" id="1_atlas"]
+
+[sub_resource type="AtlasTexture" id="held_east"]
+atlas = ExtResource("1_atlas")
+region = Rect2(0, 0, 64, 64)
+filter_clip = true
+metadata/grip_px = Vector2(22.5, 39)
+metadata/muzzle_px = Vector2(45.6, 30)
+metadata/aim_direction = Vector2(1, 0)
+metadata/can_emit = true
+metadata/world_scale = 0.34
+metadata/belt_px = Vector2(27, 31)
+metadata/body_layer = 1
+metadata/muzzle_occluded_by_holster = false
+
+[sub_resource type="AtlasTexture" id="held_north"]
+atlas = ExtResource("1_atlas")
+region = Rect2(128, 64, 64, 64)
+filter_clip = true
+metadata/grip_px = Vector2(28.5, 44.5)
+metadata/muzzle_px = Vector2(28.5, 16)
+metadata/aim_direction = Vector2(1.192488e-08, -1)
+metadata/can_emit = true
+metadata/world_scale = 0.34
+metadata/belt_px = Vector2(30, 32)
+metadata/body_layer = 1
+metadata/muzzle_occluded_by_holster = false
+
+[sub_resource type="AtlasTexture" id="held_north_east"]
+atlas = ExtResource("1_atlas")
+region = Rect2(192, 64, 64, 64)
+filter_clip = true
+metadata/grip_px = Vector2(30, 41)
+metadata/muzzle_px = Vector2(37.6, 20.6)
+metadata/aim_direction = Vector2(0.70710665, -0.7071069)
+metadata/can_emit = true
+metadata/world_scale = 0.34
+metadata/belt_px = Vector2(27, 31)
+metadata/body_layer = 1
+metadata/muzzle_occluded_by_holster = false
+
+[sub_resource type="AtlasTexture" id="held_north_west"]
+atlas = ExtResource("1_atlas")
+region = Rect2(64, 64, 64, 64)
+filter_clip = true
+metadata/grip_px = Vector2(32.5, 41)
+metadata/muzzle_px = Vector2(23.5, 19.5)
+metadata/aim_direction = Vector2(-0.7071068, -0.7071067)
+metadata/can_emit = true
+metadata/world_scale = 0.34
+metadata/belt_px = Vector2(35, 31)
+metadata/body_layer = 1
+metadata/muzzle_occluded_by_holster = false
+
+[sub_resource type="AtlasTexture" id="held_south"]
+atlas = ExtResource("1_atlas")
+region = Rect2(128, 0, 64, 64)
+filter_clip = true
+metadata/grip_px = Vector2(27.5, 32)
+metadata/muzzle_px = Vector2(28.5, 40)
+metadata/aim_direction = Vector2(-4.371139e-08, 1)
+metadata/can_emit = true
+metadata/world_scale = 0.34
+metadata/belt_px = Vector2(29, 31)
+metadata/body_layer = 1
+metadata/muzzle_occluded_by_holster = false
+
+[sub_resource type="AtlasTexture" id="held_south_east"]
+atlas = ExtResource("1_atlas")
+region = Rect2(64, 0, 64, 64)
+filter_clip = true
+metadata/grip_px = Vector2(22.5, 36.5)
+metadata/muzzle_px = Vector2(39.8, 38)
+metadata/aim_direction = Vector2(0.70710677, 0.70710677)
+metadata/can_emit = true
+metadata/world_scale = 0.34
+metadata/belt_px = Vector2(28, 31)
+metadata/body_layer = 1
+metadata/muzzle_occluded_by_holster = false
+
+[sub_resource type="AtlasTexture" id="held_south_west"]
+atlas = ExtResource("1_atlas")
+region = Rect2(192, 0, 64, 64)
+filter_clip = true
+metadata/grip_px = Vector2(37.5, 36.5)
+metadata/muzzle_px = Vector2(18, 37.8)
+metadata/aim_direction = Vector2(-0.70710677, 0.70710677)
+metadata/can_emit = true
+metadata/world_scale = 0.34
+metadata/belt_px = Vector2(35, 31)
+metadata/body_layer = 1
+metadata/muzzle_occluded_by_holster = false
+
+[sub_resource type="AtlasTexture" id="held_west"]
+atlas = ExtResource("1_atlas")
+region = Rect2(0, 64, 64, 64)
+filter_clip = true
+metadata/grip_px = Vector2(38.5, 40.5)
+metadata/muzzle_px = Vector2(18.1, 30)
+metadata/aim_direction = Vector2(-1, -8.742278e-08)
+metadata/can_emit = true
+metadata/world_scale = 0.34
+metadata/belt_px = Vector2(36, 31)
+metadata/body_layer = 1
+metadata/muzzle_occluded_by_holster = false
+
+[sub_resource type="AtlasTexture" id="holstered_east"]
+atlas = ExtResource("1_atlas")
+region = Rect2(0, 128, 64, 64)
+filter_clip = true
+metadata/grip_px = Vector2(22, 20.8)
+metadata/muzzle_px = Vector2(31, 43)
+metadata/aim_direction = Vector2(1, 0)
+metadata/can_emit = false
+metadata/world_scale = 0.34
+metadata/belt_px = Vector2(27, 31)
+metadata/body_layer = 1
+metadata/muzzle_occluded_by_holster = true
+
+[sub_resource type="AtlasTexture" id="holstered_north"]
+atlas = ExtResource("1_atlas")
+region = Rect2(128, 192, 64, 64)
+filter_clip = true
+metadata/grip_px = Vector2(30.8, 26.8)
+metadata/muzzle_px = Vector2(31, 43)
+metadata/aim_direction = Vector2(1.192488e-08, -1)
+metadata/can_emit = false
+metadata/world_scale = 0.34
+metadata/belt_px = Vector2(30, 32)
+metadata/body_layer = 1
+metadata/muzzle_occluded_by_holster = true
+
+[sub_resource type="AtlasTexture" id="holstered_north_east"]
+atlas = ExtResource("1_atlas")
+region = Rect2(192, 192, 64, 64)
+filter_clip = true
+metadata/grip_px = Vector2(25, 22)
+metadata/muzzle_px = Vector2(31, 43)
+metadata/aim_direction = Vector2(0.70710665, -0.7071069)
+metadata/can_emit = false
+metadata/world_scale = 0.34
+metadata/belt_px = Vector2(27, 31)
+metadata/body_layer = 1
+metadata/muzzle_occluded_by_holster = true
+
+[sub_resource type="AtlasTexture" id="holstered_north_west"]
+atlas = ExtResource("1_atlas")
+region = Rect2(64, 192, 64, 64)
+filter_clip = true
+metadata/grip_px = Vector2(38.6, 19)
+metadata/muzzle_px = Vector2(31, 43)
+metadata/aim_direction = Vector2(-0.7071068, -0.7071067)
+metadata/can_emit = false
+metadata/world_scale = 0.34
+metadata/belt_px = Vector2(35, 31)
+metadata/body_layer = -1
+metadata/muzzle_occluded_by_holster = true
+
+[sub_resource type="AtlasTexture" id="holstered_south"]
+atlas = ExtResource("1_atlas")
+region = Rect2(128, 128, 64, 64)
+filter_clip = true
+metadata/grip_px = Vector2(24, 20)
+metadata/muzzle_px = Vector2(31, 43)
+metadata/aim_direction = Vector2(-4.371139e-08, 1)
+metadata/can_emit = false
+metadata/world_scale = 0.34
+metadata/belt_px = Vector2(29, 31)
+metadata/body_layer = 1
+metadata/muzzle_occluded_by_holster = true
+
+[sub_resource type="AtlasTexture" id="holstered_south_east"]
+atlas = ExtResource("1_atlas")
+region = Rect2(64, 128, 64, 64)
+filter_clip = true
+metadata/grip_px = Vector2(22, 19.2)
+metadata/muzzle_px = Vector2(31, 43)
+metadata/aim_direction = Vector2(0.70710677, 0.70710677)
+metadata/can_emit = false
+metadata/world_scale = 0.34
+metadata/belt_px = Vector2(28, 31)
+metadata/body_layer = 1
+metadata/muzzle_occluded_by_holster = true
+
+[sub_resource type="AtlasTexture" id="holstered_south_west"]
+atlas = ExtResource("1_atlas")
+region = Rect2(192, 128, 64, 64)
+filter_clip = true
+metadata/grip_px = Vector2(33, 19.2)
+metadata/muzzle_px = Vector2(31, 43)
+metadata/aim_direction = Vector2(-0.70710677, 0.70710677)
+metadata/can_emit = false
+metadata/world_scale = 0.34
+metadata/belt_px = Vector2(35, 31)
+metadata/body_layer = -1
+metadata/muzzle_occluded_by_holster = true
+
+[sub_resource type="AtlasTexture" id="holstered_west"]
+atlas = ExtResource("1_atlas")
+region = Rect2(0, 192, 64, 64)
+filter_clip = true
+metadata/grip_px = Vector2(39.4, 19)
+metadata/muzzle_px = Vector2(31, 43)
+metadata/aim_direction = Vector2(-1, -8.742278e-08)
+metadata/can_emit = false
+metadata/world_scale = 0.34
+metadata/belt_px = Vector2(36, 31)
+metadata/body_layer = -1
+metadata/muzzle_occluded_by_holster = true
+
+[resource]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("held_east")
+}],
+"loop": 0,
+"name": &"held_east",
+"speed": 1.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("held_north")
+}],
+"loop": 0,
+"name": &"held_north",
+"speed": 1.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("held_north_east")
+}],
+"loop": 0,
+"name": &"held_north_east",
+"speed": 1.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("held_north_west")
+}],
+"loop": 0,
+"name": &"held_north_west",
+"speed": 1.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("held_south")
+}],
+"loop": 0,
+"name": &"held_south",
+"speed": 1.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("held_south_east")
+}],
+"loop": 0,
+"name": &"held_south_east",
+"speed": 1.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("held_south_west")
+}],
+"loop": 0,
+"name": &"held_south_west",
+"speed": 1.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("held_west")
+}],
+"loop": 0,
+"name": &"held_west",
+"speed": 1.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("holstered_east")
+}],
+"loop": 0,
+"name": &"holstered_east",
+"speed": 1.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("holstered_north")
+}],
+"loop": 0,
+"name": &"holstered_north",
+"speed": 1.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("holstered_north_east")
+}],
+"loop": 0,
+"name": &"holstered_north_east",
+"speed": 1.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("holstered_north_west")
+}],
+"loop": 0,
+"name": &"holstered_north_west",
+"speed": 1.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("holstered_south")
+}],
+"loop": 0,
+"name": &"holstered_south",
+"speed": 1.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("holstered_south_east")
+}],
+"loop": 0,
+"name": &"holstered_south_east",
+"speed": 1.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("holstered_south_west")
+}],
+"loop": 0,
+"name": &"holstered_south_west",
+"speed": 1.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("holstered_west")
+}],
+"loop": 0,
+"name": &"holstered_west",
+"speed": 1.0
+}]

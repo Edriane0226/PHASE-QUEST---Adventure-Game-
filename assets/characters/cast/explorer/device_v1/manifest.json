@@ -1,0 +1,966 @@
+{
+	"clips": {
+		"aim_east": [
+			{
+				"grip": [
+					122.0,
+					111.0
+				],
+				"recoil": [
+					0.0,
+					0.0
+				],
+				"source_frame": 1
+			}
+		],
+		"aim_north": [
+			{
+				"grip": [
+					118.0,
+					111.0
+				],
+				"recoil": [
+					0.0,
+					0.0
+				],
+				"source_frame": 1
+			}
+		],
+		"aim_north_east": [
+			{
+				"grip": [
+					124.0,
+					109.0
+				],
+				"recoil": [
+					0.0,
+					0.0
+				],
+				"source_frame": 1
+			}
+		],
+		"aim_north_west": [
+			{
+				"grip": [
+					67.0,
+					109.0
+				],
+				"recoil": [
+					0.0,
+					0.0
+				],
+				"source_frame": 1
+			}
+		],
+		"aim_south": [
+			{
+				"grip": [
+					75.0,
+					113.0
+				],
+				"recoil": [
+					0.0,
+					0.0
+				],
+				"source_frame": 1
+			}
+		],
+		"aim_south_east": [
+			{
+				"grip": [
+					125.0,
+					110.0
+				],
+				"recoil": [
+					0.0,
+					0.0
+				],
+				"source_frame": 1
+			}
+		],
+		"aim_south_west": [
+			{
+				"grip": [
+					66.0,
+					110.0
+				],
+				"recoil": [
+					0.0,
+					0.0
+				],
+				"source_frame": 1
+			}
+		],
+		"aim_west": [
+			{
+				"grip": [
+					69.0,
+					111.0
+				],
+				"recoil": [
+					0.0,
+					0.0
+				],
+				"source_frame": 1
+			}
+		],
+		"fire_loop_east": [
+			{
+				"grip": [
+					122.0,
+					111.0
+				],
+				"recoil": [
+					0.0,
+					0.0
+				],
+				"source_frame": 1
+			},
+			{
+				"grip": [
+					128.0,
+					105.0
+				],
+				"recoil": [
+					-1.5,
+					0.0
+				],
+				"source_frame": 2
+			},
+			{
+				"grip": [
+					122.0,
+					111.0
+				],
+				"recoil": [
+					0.0,
+					0.0
+				],
+				"source_frame": 1
+			},
+			{
+				"grip": [
+					125.0,
+					106.0
+				],
+				"recoil": [
+					-1.5,
+					0.0
+				],
+				"source_frame": 3
+			}
+		],
+		"fire_loop_north": [
+			{
+				"grip": [
+					118.0,
+					111.0
+				],
+				"recoil": [
+					0.0,
+					0.0
+				],
+				"source_frame": 1
+			},
+			{
+				"grip": [
+					121.0,
+					109.0
+				],
+				"recoil": [
+					-0.0000000178873200695762,
+					1.5
+				],
+				"source_frame": 2
+			},
+			{
+				"grip": [
+					118.0,
+					111.0
+				],
+				"recoil": [
+					0.0,
+					0.0
+				],
+				"source_frame": 1
+			},
+			{
+				"grip": [
+					119.0,
+					112.0
+				],
+				"recoil": [
+					-0.0000000178873200695762,
+					1.5
+				],
+				"source_frame": 3
+			}
+		],
+		"fire_loop_north_east": [
+			{
+				"grip": [
+					124.0,
+					109.0
+				],
+				"recoil": [
+					0.0,
+					0.0
+				],
+				"source_frame": 1
+			},
+			{
+				"grip": [
+					126.0,
+					108.0
+				],
+				"recoil": [
+					-1.06066000461578,
+					1.06066036224365
+				],
+				"source_frame": 2
+			},
+			{
+				"grip": [
+					124.0,
+					109.0
+				],
+				"recoil": [
+					0.0,
+					0.0
+				],
+				"source_frame": 1
+			},
+			{
+				"grip": [
+					122.0,
+					109.0
+				],
+				"recoil": [
+					-1.06066000461578,
+					1.06066036224365
+				],
+				"source_frame": 3
+			}
+		],
+		"fire_loop_north_west": [
+			{
+				"grip": [
+					67.0,
+					109.0
+				],
+				"recoil": [
+					0.0,
+					0.0
+				],
+				"source_frame": 1
+			},
+			{
+				"grip": [
+					65.0,
+					108.0
+				],
+				"recoil": [
+					1.06066024303436,
+					1.06066012382507
+				],
+				"source_frame": 2
+			},
+			{
+				"grip": [
+					67.0,
+					109.0
+				],
+				"recoil": [
+					0.0,
+					0.0
+				],
+				"source_frame": 1
+			},
+			{
+				"grip": [
+					69.0,
+					109.0
+				],
+				"recoil": [
+					1.06066024303436,
+					1.06066012382507
+				],
+				"source_frame": 3
+			}
+		],
+		"fire_loop_south": [
+			{
+				"grip": [
+					75.0,
+					113.0
+				],
+				"recoil": [
+					0.0,
+					0.0
+				],
+				"source_frame": 1
+			},
+			{
+				"grip": [
+					77.0,
+					110.0
+				],
+				"recoil": [
+					0.0000000655670788773932,
+					-1.5
+				],
+				"source_frame": 2
+			},
+			{
+				"grip": [
+					75.0,
+					113.0
+				],
+				"recoil": [
+					0.0,
+					0.0
+				],
+				"source_frame": 1
+			},
+			{
+				"grip": [
+					75.0,
+					110.0
+				],
+				"recoil": [
+					0.0000000655670788773932,
+					-1.5
+				],
+				"source_frame": 3
+			}
+		],
+		"fire_loop_south_east": [
+			{
+				"grip": [
+					125.0,
+					110.0
+				],
+				"recoil": [
+					0.0,
+					0.0
+				],
+				"source_frame": 1
+			},
+			{
+				"grip": [
+					125.0,
+					109.0
+				],
+				"recoil": [
+					-1.06066012382507,
+					-1.06066012382507
+				],
+				"source_frame": 2
+			},
+			{
+				"grip": [
+					125.0,
+					110.0
+				],
+				"recoil": [
+					0.0,
+					0.0
+				],
+				"source_frame": 1
+			},
+			{
+				"grip": [
+					120.0,
+					109.0
+				],
+				"recoil": [
+					-1.06066012382507,
+					-1.06066012382507
+				],
+				"source_frame": 3
+			}
+		],
+		"fire_loop_south_west": [
+			{
+				"grip": [
+					66.0,
+					110.0
+				],
+				"recoil": [
+					0.0,
+					0.0
+				],
+				"source_frame": 1
+			},
+			{
+				"grip": [
+					66.0,
+					109.0
+				],
+				"recoil": [
+					1.06066012382507,
+					-1.06066012382507
+				],
+				"source_frame": 2
+			},
+			{
+				"grip": [
+					66.0,
+					110.0
+				],
+				"recoil": [
+					0.0,
+					0.0
+				],
+				"source_frame": 1
+			},
+			{
+				"grip": [
+					71.0,
+					109.0
+				],
+				"recoil": [
+					1.06066012382507,
+					-1.06066012382507
+				],
+				"source_frame": 3
+			}
+		],
+		"fire_loop_west": [
+			{
+				"grip": [
+					69.0,
+					111.0
+				],
+				"recoil": [
+					0.0,
+					0.0
+				],
+				"source_frame": 1
+			},
+			{
+				"grip": [
+					63.0,
+					105.0
+				],
+				"recoil": [
+					1.5,
+					0.000000131134157754786
+				],
+				"source_frame": 2
+			},
+			{
+				"grip": [
+					69.0,
+					111.0
+				],
+				"recoil": [
+					0.0,
+					0.0
+				],
+				"source_frame": 1
+			},
+			{
+				"grip": [
+					66.0,
+					106.0
+				],
+				"recoil": [
+					1.5,
+					0.000000131134157754786
+				],
+				"source_frame": 3
+			}
+		],
+		"fire_release_east": [
+			{
+				"grip": [
+					122.0,
+					111.0
+				],
+				"recoil": [
+					0.0,
+					0.0
+				],
+				"source_frame": 1
+			},
+			{
+				"grip": [
+					121.0,
+					110.0
+				],
+				"recoil": [
+					0.0,
+					0.0
+				],
+				"source_frame": 0
+			}
+		],
+		"fire_release_north": [
+			{
+				"grip": [
+					118.0,
+					111.0
+				],
+				"recoil": [
+					0.0,
+					0.0
+				],
+				"source_frame": 1
+			},
+			{
+				"grip": [
+					119.0,
+					115.0
+				],
+				"recoil": [
+					0.0,
+					0.0
+				],
+				"source_frame": 0
+			}
+		],
+		"fire_release_north_east": [
+			{
+				"grip": [
+					124.0,
+					109.0
+				],
+				"recoil": [
+					0.0,
+					0.0
+				],
+				"source_frame": 1
+			},
+			{
+				"grip": [
+					120.0,
+					112.0
+				],
+				"recoil": [
+					0.0,
+					0.0
+				],
+				"source_frame": 0
+			}
+		],
+		"fire_release_north_west": [
+			{
+				"grip": [
+					67.0,
+					109.0
+				],
+				"recoil": [
+					0.0,
+					0.0
+				],
+				"source_frame": 1
+			},
+			{
+				"grip": [
+					71.0,
+					112.0
+				],
+				"recoil": [
+					0.0,
+					0.0
+				],
+				"source_frame": 0
+			}
+		],
+		"fire_release_south": [
+			{
+				"grip": [
+					75.0,
+					113.0
+				],
+				"recoil": [
+					0.0,
+					0.0
+				],
+				"source_frame": 1
+			},
+			{
+				"grip": [
+					74.0,
+					117.0
+				],
+				"recoil": [
+					0.0,
+					0.0
+				],
+				"source_frame": 0
+			}
+		],
+		"fire_release_south_east": [
+			{
+				"grip": [
+					125.0,
+					110.0
+				],
+				"recoil": [
+					0.0,
+					0.0
+				],
+				"source_frame": 1
+			},
+			{
+				"grip": [
+					117.0,
+					113.0
+				],
+				"recoil": [
+					0.0,
+					0.0
+				],
+				"source_frame": 0
+			}
+		],
+		"fire_release_south_west": [
+			{
+				"grip": [
+					66.0,
+					110.0
+				],
+				"recoil": [
+					0.0,
+					0.0
+				],
+				"source_frame": 1
+			},
+			{
+				"grip": [
+					74.0,
+					113.0
+				],
+				"recoil": [
+					0.0,
+					0.0
+				],
+				"source_frame": 0
+			}
+		],
+		"fire_release_west": [
+			{
+				"grip": [
+					69.0,
+					111.0
+				],
+				"recoil": [
+					0.0,
+					0.0
+				],
+				"source_frame": 1
+			},
+			{
+				"grip": [
+					70.0,
+					110.0
+				],
+				"recoil": [
+					0.0,
+					0.0
+				],
+				"source_frame": 0
+			}
+		],
+		"fire_start_east": [
+			{
+				"grip": [
+					121.0,
+					110.0
+				],
+				"recoil": [
+					0.0,
+					0.0
+				],
+				"source_frame": 0
+			},
+			{
+				"grip": [
+					122.0,
+					111.0
+				],
+				"recoil": [
+					0.0,
+					0.0
+				],
+				"source_frame": 1
+			}
+		],
+		"fire_start_north": [
+			{
+				"grip": [
+					119.0,
+					115.0
+				],
+				"recoil": [
+					0.0,
+					0.0
+				],
+				"source_frame": 0
+			},
+			{
+				"grip": [
+					118.0,
+					111.0
+				],
+				"recoil": [
+					0.0,
+					0.0
+				],
+				"source_frame": 1
+			}
+		],
+		"fire_start_north_east": [
+			{
+				"grip": [
+					120.0,
+					112.0
+				],
+				"recoil": [
+					0.0,
+					0.0
+				],
+				"source_frame": 0
+			},
+			{
+				"grip": [
+					124.0,
+					109.0
+				],
+				"recoil": [
+					0.0,
+					0.0
+				],
+				"source_frame": 1
+			}
+		],
+		"fire_start_north_west": [
+			{
+				"grip": [
+					71.0,
+					112.0
+				],
+				"recoil": [
+					0.0,
+					0.0
+				],
+				"source_frame": 0
+			},
+			{
+				"grip": [
+					67.0,
+					109.0
+				],
+				"recoil": [
+					0.0,
+					0.0
+				],
+				"source_frame": 1
+			}
+		],
+		"fire_start_south": [
+			{
+				"grip": [
+					74.0,
+					117.0
+				],
+				"recoil": [
+					0.0,
+					0.0
+				],
+				"source_frame": 0
+			},
+			{
+				"grip": [
+					75.0,
+					113.0
+				],
+				"recoil": [
+					0.0,
+					0.0
+				],
+				"source_frame": 1
+			}
+		],
+		"fire_start_south_east": [
+			{
+				"grip": [
+					117.0,
+					113.0
+				],
+				"recoil": [
+					0.0,
+					0.0
+				],
+				"source_frame": 0
+			},
+			{
+				"grip": [
+					125.0,
+					110.0
+				],
+				"recoil": [
+					0.0,
+					0.0
+				],
+				"source_frame": 1
+			}
+		],
+		"fire_start_south_west": [
+			{
+				"grip": [
+					74.0,
+					113.0
+				],
+				"recoil": [
+					0.0,
+					0.0
+				],
+				"source_frame": 0
+			},
+			{
+				"grip": [
+					66.0,
+					110.0
+				],
+				"recoil": [
+					0.0,
+					0.0
+				],
+				"source_frame": 1
+			}
+		],
+		"fire_start_west": [
+			{
+				"grip": [
+					70.0,
+					110.0
+				],
+				"recoil": [
+					0.0,
+					0.0
+				],
+				"source_frame": 0
+			},
+			{
+				"grip": [
+					69.0,
+					111.0
+				],
+				"recoil": [
+					0.0,
+					0.0
+				],
+				"source_frame": 1
+			}
+		],
+		"hold_east": [
+			{
+				"grip": [
+					121.0,
+					110.0
+				],
+				"recoil": [
+					0.0,
+					0.0
+				],
+				"source_frame": 0
+			}
+		],
+		"hold_north": [
+			{
+				"grip": [
+					119.0,
+					115.0
+				],
+				"recoil": [
+					0.0,
+					0.0
+				],
+				"source_frame": 0
+			}
+		],
+		"hold_north_east": [
+			{
+				"grip": [
+					120.0,
+					112.0
+				],
+				"recoil": [
+					0.0,
+					0.0
+				],
+				"source_frame": 0
+			}
+		],
+		"hold_north_west": [
+			{
+				"grip": [
+					71.0,
+					112.0
+				],
+				"recoil": [
+					0.0,
+					0.0
+				],
+				"source_frame": 0
+			}
+		],
+		"hold_south": [
+			{
+				"grip": [
+					74.0,
+					117.0
+				],
+				"recoil": [
+					0.0,
+					0.0
+				],
+				"source_frame": 0
+			}
+		],
+		"hold_south_east": [
+			{
+				"grip": [
+					117.0,
+					113.0
+				],
+				"recoil": [
+					0.0,
+					0.0
+				],
+				"source_frame": 0
+			}
+		],
+		"hold_south_west": [
+			{
+				"grip": [
+					74.0,
+					113.0
+				],
+				"recoil": [
+					0.0,
+					0.0
+				],
+				"source_frame": 0
+			}
+		],
+		"hold_west": [
+			{
+				"grip": [
+					70.0,
+					110.0
+				],
+				"recoil": [
+					0.0,
+					0.0
+				],
+				"source_frame": 0
+			}
+		]
+	},
+	"source_frames_hash": "8855eab043e6a6f7816a6fa66e1db85dd0d1436993c46ae2fe561f6c28c9cc22",
+	"version": 1
+}

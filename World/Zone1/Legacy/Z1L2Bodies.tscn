@@ -1,0 +1,291 @@
+[gd_scene format=3]
+
+[node name="Z1L2SourceBodies" type="Node2D" unique_id=1850678531]
+
+[node name="SolidBarriers_CartridgeReturnGate_Body" type="StaticBody2D" parent="." unique_id=818740137]
+collision_mask = 0
+metadata/source_path = "SolidBarriers/CartridgeReturnGate/Body"
+metadata/science_gate = true
+
+[node name="@CollisionPolygon2D@240" type="CollisionPolygon2D" parent="SolidBarriers_CartridgeReturnGate_Body" unique_id=1264546530]
+polygon = PackedVector2Array(-507.5, 421.5, -499.5, 418.7, -495.5, 422.7, -503.5, 425.5)
+
+[node name="SolidBarriers_SluiceGate_Body" type="StaticBody2D" parent="." unique_id=1667873736]
+collision_mask = 0
+metadata/source_path = "SolidBarriers/SluiceGate/Body"
+metadata/science_gate = true
+
+[node name="@CollisionPolygon2D@241" type="CollisionPolygon2D" parent="SolidBarriers_SluiceGate_Body" unique_id=409432289]
+polygon = PackedVector2Array(575, 154, 601, 144.9, 751, 294.9, 725, 304)
+
+[node name="SolidBarriers_MaintenanceGate_Body" type="StaticBody2D" parent="." unique_id=117493131]
+collision_mask = 0
+metadata/source_path = "SolidBarriers/MaintenanceGate/Body"
+metadata/science_gate = true
+
+[node name="@CollisionPolygon2D@242" type="CollisionPolygon2D" parent="SolidBarriers_MaintenanceGate_Body" unique_id=213631971]
+polygon = PackedVector2Array(975, 14, 1001, 4.9, 1151, 154.9, 1125, 164)
+
+[node name="SolidBarriers_UpperWalkwayWall_Body" type="StaticBody2D" parent="." unique_id=751827385]
+collision_mask = 0
+metadata/source_path = "SolidBarriers/UpperWalkwayWall/Body"
+metadata/science_gate = false
+
+[node name="@CollisionPolygon2D@243" type="CollisionPolygon2D" parent="SolidBarriers_UpperWalkwayWall_Body" unique_id=1809694560]
+polygon = PackedVector2Array(985, -3, 1365, -136, 1390, -111, 1010, 22)
+
+[node name="SolidBarriers_LowerWalkwayWall_Body" type="StaticBody2D" parent="." unique_id=150161448]
+collision_mask = 0
+metadata/source_path = "SolidBarriers/LowerWalkwayWall/Body"
+metadata/science_gate = false
+
+[node name="@CollisionPolygon2D@244" type="CollisionPolygon2D" parent="SolidBarriers_LowerWalkwayWall_Body" unique_id=802496529]
+polygon = PackedVector2Array(1107.5, 119.5, 1487.5, -13.5, 1492.5, -8.5, 1112.5, 124.5)
+
+[node name="SolidBarriers_FarLandingIce_Body" type="StaticBody2D" parent="." unique_id=295827805]
+collision_mask = 0
+metadata/source_path = "SolidBarriers/FarLandingIce/Body"
+metadata/science_gate = true
+
+[node name="@CollisionPolygon2D@245" type="CollisionPolygon2D" parent="SolidBarriers_FarLandingIce_Body" unique_id=1267100039]
+polygon = PackedVector2Array(1230, -55, 1390, -111, 1490, -11, 1330, 45)
+
+[node name="SolidBarriers_WalkbackGate_Body" type="StaticBody2D" parent="." unique_id=355005392]
+collision_mask = 0
+metadata/source_path = "SolidBarriers/WalkbackGate/Body"
+metadata/science_gate = true
+
+[node name="@CollisionPolygon2D@246" type="CollisionPolygon2D" parent="SolidBarriers_WalkbackGate_Body" unique_id=1628859052]
+polygon = PackedVector2Array(1290, 59, 1490, -11, 1525, 24, 1325, 94)
+
+[node name="SolidBarriers_ExitBridgeGate_Body" type="StaticBody2D" parent="." unique_id=1086373093]
+collision_mask = 0
+metadata/source_path = "SolidBarriers/ExitBridgeGate/Body"
+metadata/science_gate = true
+
+[node name="@CollisionPolygon2D@247" type="CollisionPolygon2D" parent="SolidBarriers_ExitBridgeGate_Body" unique_id=107169600]
+polygon = PackedVector2Array(1650, -256, 1770, -298, 1805, -263, 1685, -221)
+
+[node name="Scenery_MillDockArt_Body" type="StaticBody2D" parent="." unique_id=2065362216]
+collision_mask = 0
+metadata/source_path = "Scenery/MillDockArt/Body"
+metadata/science_gate = false
+
+[node name="@CollisionPolygon2D@248" type="CollisionPolygon2D" parent="Scenery_MillDockArt_Body" unique_id=746451542]
+polygon = PackedVector2Array(-52.28, 468.75, -35, 463.71, -17.72, 468.75, -35, 472.35)
+
+[node name="Scenery_HeatRouteStationArt_Body" type="StaticBody2D" parent="." unique_id=90134086]
+collision_mask = 0
+metadata/source_path = "Scenery/HeatRouteStationArt/Body"
+metadata/science_gate = false
+
+[node name="@CollisionPolygon2D@249" type="CollisionPolygon2D" parent="Scenery_HeatRouteStationArt_Body" unique_id=1619691974]
+polygon = PackedVector2Array(382.72, 458.25, 400, 453.21, 417.28, 458.25, 400, 461.85)
+
+[node name="Scenery_HeaterCartridgeArt_Body" type="StaticBody2D" parent="." unique_id=715610788]
+collision_mask = 0
+metadata/source_path = "Scenery/HeaterCartridgeArt/Body"
+metadata/science_gate = false
+
+[node name="@CollisionPolygon2D@250" type="CollisionPolygon2D" parent="Scenery_HeaterCartridgeArt_Body" unique_id=1156405795]
+polygon = PackedVector2Array(465.22, 243.75, 482.5, 238.71, 499.78, 243.75, 482.5, 247.35)
+
+[node name="Scenery_ReflectorAArt_Body" type="StaticBody2D" parent="." unique_id=274517300]
+collision_mask = 0
+metadata/source_path = "Scenery/ReflectorAArt/Body"
+metadata/science_gate = false
+
+[node name="@CollisionPolygon2D@251" type="CollisionPolygon2D" parent="Scenery_ReflectorAArt_Body" unique_id=1386032052]
+polygon = PackedVector2Array(1627.9, -24, 1652.5, -25.4, 1677.1, -24, 1652.5, -23)
+
+[node name="Scenery_ReflectorBArt_Body" type="StaticBody2D" parent="." unique_id=488690722]
+collision_mask = 0
+metadata/source_path = "Scenery/ReflectorBArt/Body"
+metadata/science_gate = false
+
+[node name="@CollisionPolygon2D@252" type="CollisionPolygon2D" parent="Scenery_ReflectorBArt_Body" unique_id=1134172700]
+polygon = PackedVector2Array(2017.9, -295.5, 2042.5, -296.9, 2067.1, -295.5, 2042.5, -294.5)
+
+[node name="Scenery_CacheIceShellArt_Body" type="StaticBody2D" parent="." unique_id=1937988523]
+collision_mask = 0
+metadata/source_path = "Scenery/CacheIceShellArt/Body"
+metadata/science_gate = false
+
+[node name="@CollisionPolygon2D@253" type="CollisionPolygon2D" parent="Scenery_CacheIceShellArt_Body" unique_id=927686252]
+polygon = PackedVector2Array(1887.94, -180, 1915, -181.54, 1942.06, -180, 1915, -178.9)
+
+[node name="Scenery_CrankSocketArt_Body" type="StaticBody2D" parent="." unique_id=2111102899]
+collision_mask = 0
+metadata/source_path = "Scenery/CrankSocketArt/Body"
+metadata/science_gate = false
+
+[node name="@CollisionPolygon2D@254" type="CollisionPolygon2D" parent="Scenery_CrankSocketArt_Body" unique_id=1863637663]
+polygon = PackedVector2Array(1042.72, 180, 1060, 174.96, 1077.28, 180, 1060, 183.6)
+
+[node name="Scenery_Grove0_Trunk" type="StaticBody2D" parent="." unique_id=1027886043]
+collision_mask = 0
+metadata/source_path = "Scenery/Grove0/Trunk"
+metadata/science_gate = false
+
+[node name="@CollisionPolygon2D@255" type="CollisionPolygon2D" parent="Scenery_Grove0_Trunk" unique_id=537637465]
+polygon = PackedVector2Array(-409.28125, 445.6797, -400, 442.19922, -390.71875, 445.6797, -400, 452.64063)
+
+[node name="Scenery_Grove1_Trunk" type="StaticBody2D" parent="." unique_id=1211881010]
+collision_mask = 0
+metadata/source_path = "Scenery/Grove1/Trunk"
+metadata/science_gate = false
+
+[node name="@CollisionPolygon2D@256" type="CollisionPolygon2D" parent="Scenery_Grove1_Trunk" unique_id=1914432120]
+polygon = PackedVector2Array(-378.28125, 374.6797, -370, 371.57422, -361.71875, 374.6797, -370, 380.89063)
+
+[node name="Scenery_Grove2_Trunk" type="StaticBody2D" parent="." unique_id=1127887608]
+collision_mask = 0
+metadata/source_path = "Scenery/Grove2/Trunk"
+metadata/science_gate = false
+
+[node name="@CollisionPolygon2D@257" type="CollisionPolygon2D" parent="Scenery_Grove2_Trunk" unique_id=1014356111]
+polygon = PackedVector2Array(-276.875, 368.90625, -267.5, 365.39063, -258.125, 368.90625, -267.5, 375.9375)
+
+[node name="Scenery_Grove4_Trunk" type="StaticBody2D" parent="." unique_id=2142371975]
+collision_mask = 0
+metadata/source_path = "Scenery/Grove4/Trunk"
+metadata/science_gate = false
+
+[node name="@CollisionPolygon2D@258" type="CollisionPolygon2D" parent="Scenery_Grove4_Trunk" unique_id=1090985301]
+polygon = PackedVector2Array(-210.1875, 643.5781, -202.5, 640.6953, -194.8125, 643.5781, -202.5, 649.34375)
+
+[node name="Scenery_Grove5_Trunk" type="StaticBody2D" parent="." unique_id=1330749050]
+collision_mask = 0
+metadata/source_path = "Scenery/Grove5/Trunk"
+metadata/science_gate = false
+
+[node name="@CollisionPolygon2D@259" type="CollisionPolygon2D" parent="Scenery_Grove5_Trunk" unique_id=1021448341]
+polygon = PackedVector2Array(-209.1875, 605.2031, -200, 601.7578, -190.8125, 605.2031, -200, 612.09375)
+
+[node name="Scenery_Grove6_Trunk" type="StaticBody2D" parent="." unique_id=434052158]
+collision_mask = 0
+metadata/source_path = "Scenery/Grove6/Trunk"
+metadata/science_gate = false
+
+[node name="@CollisionPolygon2D@260" type="CollisionPolygon2D" parent="Scenery_Grove6_Trunk" unique_id=174324342]
+polygon = PackedVector2Array(-42.0625, 306.85938, -32.5, 303.27344, -22.9375, 306.85938, -32.5, 314.03125)
+
+[node name="Scenery_Grove7_Trunk" type="StaticBody2D" parent="." unique_id=50587365]
+collision_mask = 0
+metadata/source_path = "Scenery/Grove7/Trunk"
+metadata/science_gate = false
+
+[node name="@CollisionPolygon2D@261" type="CollisionPolygon2D" parent="Scenery_Grove7_Trunk" unique_id=1734001878]
+polygon = PackedVector2Array(7.21875, 267.0547, 15, 264.13672, 22.78125, 267.0547, 15, 272.89063)
+
+[node name="Scenery_Grove9_Trunk" type="StaticBody2D" parent="." unique_id=55596286]
+collision_mask = 0
+metadata/source_path = "Scenery/Grove9/Trunk"
+metadata/science_gate = false
+
+[node name="@CollisionPolygon2D@262" type="CollisionPolygon2D" parent="Scenery_Grove9_Trunk" unique_id=1434572345]
+polygon = PackedVector2Array(311.28125, 200.57031, 320, 197.30078, 328.71875, 200.57031, 320, 207.10938)
+
+[node name="Scenery_Grove10_Trunk" type="StaticBody2D" parent="." unique_id=1080314829]
+collision_mask = 0
+metadata/source_path = "Scenery/Grove10/Trunk"
+metadata/science_gate = false
+
+[node name="@CollisionPolygon2D@263" type="CollisionPolygon2D" parent="Scenery_Grove10_Trunk" unique_id=185650908]
+polygon = PackedVector2Array(581.6875, 463.92188, 590, 460.8047, 598.3125, 463.92188, 590, 470.15625)
+
+[node name="Scenery_Grove14_Trunk" type="StaticBody2D" parent="." unique_id=1772288848]
+collision_mask = 0
+metadata/source_path = "Scenery/Grove14/Trunk"
+metadata/science_gate = false
+
+[node name="@CollisionPolygon2D@264" type="CollisionPolygon2D" parent="Scenery_Grove14_Trunk" unique_id=1632520758]
+polygon = PackedVector2Array(426.21875, -244.69531, 435, -247.98828, 443.78125, -244.69531, 435, -238.10938)
+
+[node name="Scenery_Grove15_Trunk" type="StaticBody2D" parent="." unique_id=2021360831]
+collision_mask = 0
+metadata/source_path = "Scenery/Grove15/Trunk"
+metadata/science_gate = false
+
+[node name="@CollisionPolygon2D@265" type="CollisionPolygon2D" parent="Scenery_Grove15_Trunk" unique_id=1334034321]
+polygon = PackedVector2Array(627.46875, -240.13281, 635, -242.95703, 642.53125, -240.13281, 635, -234.48438)
+
+[node name="Scenery_Grove19_Trunk" type="StaticBody2D" parent="." unique_id=2026875564]
+collision_mask = 0
+metadata/source_path = "Scenery/Grove19/Trunk"
+metadata/science_gate = false
+
+[node name="@CollisionPolygon2D@266" type="CollisionPolygon2D" parent="Scenery_Grove19_Trunk" unique_id=1896065202]
+polygon = PackedVector2Array(1418.8125, -129.67188, 1427.5, -132.92969, 1436.1875, -129.67188, 1427.5, -123.15625)
+
+[node name="Scenery_Grove20_Trunk" type="StaticBody2D" parent="." unique_id=1663853700]
+collision_mask = 0
+metadata/source_path = "Scenery/Grove20/Trunk"
+metadata/science_gate = false
+
+[node name="@CollisionPolygon2D@267" type="CollisionPolygon2D" parent="Scenery_Grove20_Trunk" unique_id=1493792975]
+polygon = PackedVector2Array(1420.625, -208.34375, 1430, -211.85938, 1439.375, -208.34375, 1430, -201.3125)
+
+[node name="Scenery_Grove24_Trunk" type="StaticBody2D" parent="." unique_id=360454339]
+collision_mask = 0
+metadata/source_path = "Scenery/Grove24/Trunk"
+metadata/science_gate = false
+
+[node name="@CollisionPolygon2D@268" type="CollisionPolygon2D" parent="Scenery_Grove24_Trunk" unique_id=877479921]
+polygon = PackedVector2Array(2244.3438, -384.53906, 2252.5, -387.59766, 2260.6563, -384.53906, 2252.5, -378.42188)
+
+[node name="Scenery_SurveyCairn0_Body" type="StaticBody2D" parent="." unique_id=663644342]
+collision_mask = 0
+metadata/source_path = "Scenery/SurveyCairn0/Body"
+metadata/science_gate = false
+
+[node name="@CollisionPolygon2D@269" type="CollisionPolygon2D" parent="Scenery_SurveyCairn0_Body" unique_id=374757273]
+polygon = PackedVector2Array(-111.04, 478, -100, 474.78, -88.96, 478, -100, 480.3)
+
+[node name="Scenery_SurveyCairn1_Body" type="StaticBody2D" parent="." unique_id=1274260463]
+collision_mask = 0
+metadata/source_path = "Scenery/SurveyCairn1/Body"
+metadata/science_gate = false
+
+[node name="@CollisionPolygon2D@270" type="CollisionPolygon2D" parent="Scenery_SurveyCairn1_Body" unique_id=1553660265]
+polygon = PackedVector2Array(321.46, 465, 332.5, 461.78, 343.54, 465, 332.5, 467.3)
+
+[node name="Scenery_SurveyCairn2_Body" type="StaticBody2D" parent="." unique_id=1340379108]
+collision_mask = 0
+metadata/source_path = "Scenery/SurveyCairn2/Body"
+metadata/science_gate = false
+
+[node name="@CollisionPolygon2D@271" type="CollisionPolygon2D" parent="Scenery_SurveyCairn2_Body" unique_id=1450517197]
+polygon = PackedVector2Array(456.46, 215.25, 467.5, 212.03, 478.54, 215.25, 467.5, 217.55)
+
+[node name="Scenery_SurveyCairn3_Body" type="StaticBody2D" parent="." unique_id=632586912]
+collision_mask = 0
+metadata/source_path = "Scenery/SurveyCairn3/Body"
+metadata/science_gate = false
+
+[node name="@CollisionPolygon2D@272" type="CollisionPolygon2D" parent="Scenery_SurveyCairn3_Body" unique_id=1377872514]
+polygon = PackedVector2Array(641.96, 5.2, 653, 1.9799998, 664.04, 5.2, 653, 7.5)
+
+[node name="Scenery_SurveyCairn4_Body" type="StaticBody2D" parent="." unique_id=786395278]
+collision_mask = 0
+metadata/source_path = "Scenery/SurveyCairn4/Body"
+metadata/science_gate = false
+
+[node name="@CollisionPolygon2D@273" type="CollisionPolygon2D" parent="Scenery_SurveyCairn4_Body" unique_id=62988853]
+polygon = PackedVector2Array(1098.96, 311, 1110, 307.78, 1121.04, 311, 1110, 313.3)
+
+[node name="Scenery_SurveyCairn5_Body" type="StaticBody2D" parent="." unique_id=471069779]
+collision_mask = 0
+metadata/source_path = "Scenery/SurveyCairn5/Body"
+metadata/science_gate = false
+
+[node name="@CollisionPolygon2D@274" type="CollisionPolygon2D" parent="Scenery_SurveyCairn5_Body" unique_id=981034592]
+polygon = PackedVector2Array(1686.46, -12.75, 1697.5, -15.97, 1708.54, -12.75, 1697.5, -10.45)
+
+[node name="Scenery_SurveyCairn6_Body" type="StaticBody2D" parent="." unique_id=254509437]
+collision_mask = 0
+metadata/source_path = "Scenery/SurveyCairn6/Body"
+metadata/science_gate = false
+
+[node name="@CollisionPolygon2D@275" type="CollisionPolygon2D" parent="Scenery_SurveyCairn6_Body" unique_id=1549239003]
+polygon = PackedVector2Array(2038.96, -328.5, 2050, -331.72, 2061.04, -328.5, 2050, -326.2)

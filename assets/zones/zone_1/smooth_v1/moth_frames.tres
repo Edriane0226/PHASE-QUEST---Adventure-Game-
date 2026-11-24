@@ -1,0 +1,42 @@
+[gd_resource type="SpriteFrames" format=3]
+
+[ext_resource type="Texture2D" path="res://assets/zones/zone_1/motion_v2/poses/moth/flutter_0.tres" id="1_b81qw"]
+[ext_resource type="Texture2D" path="res://assets/zones/zone_1/motion_v2/poses/moth/flutter_1.tres" id="2_pjtj8"]
+[ext_resource type="Texture2D" path="res://assets/zones/zone_1/motion_v2/poses/moth/flutter_2.tres" id="3_jgl4p"]
+[ext_resource type="Texture2D" path="res://assets/zones/zone_1/motion_v2/poses/moth/flutter_3.tres" id="4_ot33y"]
+[ext_resource type="Texture2D" path="res://assets/zones/zone_1/motion_v2/poses/moth/flutter_4.tres" id="5_4l7hu"]
+[ext_resource type="Texture2D" path="res://assets/zones/zone_1/motion_v2/poses/moth/flutter_5.tres" id="6_sjolx"]
+[ext_resource type="Texture2D" path="res://assets/zones/zone_1/motion_v2/poses/moth/flutter_6.tres" id="7_6ltkt"]
+[ext_resource type="Texture2D" path="res://assets/zones/zone_1/motion_v2/poses/moth/flutter_7.tres" id="8_tlqn2"]
+
+[resource]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("1_b81qw")
+}, {
+"duration": 1.0,
+"texture": ExtResource("2_pjtj8")
+}, {
+"duration": 1.0,
+"texture": ExtResource("3_jgl4p")
+}, {
+"duration": 1.0,
+"texture": ExtResource("4_ot33y")
+}, {
+"duration": 1.0,
+"texture": ExtResource("5_4l7hu")
+}, {
+"duration": 1.0,
+"texture": ExtResource("6_sjolx")
+}, {
+"duration": 1.0,
+"texture": ExtResource("7_6ltkt")
+}, {
+"duration": 1.0,
+"texture": ExtResource("8_tlqn2")
+}],
+"loop": 1,
+"name": &"flutter",
+"speed": 12.0
+}]
