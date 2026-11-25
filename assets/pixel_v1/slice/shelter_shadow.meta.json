@@ -1,0 +1,27 @@
+{
+  "group": "shelter_shadow",
+  "class": "shadow",
+  "palette": "master",
+  "cell": [
+    192,
+    160
+  ],
+  "pivot": [
+    96,
+    122
+  ],
+  "footprint": [
+    -50,
+    -25,
+    100,
+    50
+  ],
+  "clips": {
+    "idle_contact": {
+      "loop": true
+    },
+    "idle_cast": {
+      "loop": true
+    }
+  }
+}

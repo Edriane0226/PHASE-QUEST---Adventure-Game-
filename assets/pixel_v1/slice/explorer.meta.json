@@ -1,0 +1,77 @@
+{
+  "group": "explorer",
+  "class": "character",
+  "palette": "cast",
+  "cell": [
+    64,
+    64
+  ],
+  "pivot": [
+    32,
+    55
+  ],
+  "footprint": [
+    -10,
+    -5,
+    20,
+    10
+  ],
+  "clips": {
+    "idle_south": {
+      "loop": true
+    },
+    "idle_south_east": {
+      "loop": true
+    },
+    "idle_east": {
+      "loop": true
+    },
+    "idle_north_east": {
+      "loop": true
+    },
+    "idle_north": {
+      "loop": true
+    },
+    "idle_north_west": {
+      "loop": true
+    },
+    "idle_west": {
+      "loop": true
+    },
+    "idle_south_west": {
+      "loop": true
+    },
+    "walk_south": {
+      "loop": true,
+      "distance": 32
+    },
+    "walk_south_east": {
+      "loop": true,
+      "distance": 32
+    },
+    "walk_east": {
+      "loop": true,
+      "distance": 32
+    },
+    "walk_north_east": {
+      "loop": true,
+      "distance": 32
+    },
+    "walk_north": {
+      "loop": true,
+      "distance": 32
+    },
+    "walk_north_west": {
+      "loop": true,
+      "distance": 32
+    },
+    "walk_west": {
+      "loop": true,
+      "distance": 32
+    },
+    "walk_south_west": {
+      "loop": true,
+      "distance": 32
+    }
+  }
+}

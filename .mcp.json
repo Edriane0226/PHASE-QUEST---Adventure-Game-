@@ -2,9 +2,10 @@
   "mcpServers": {
     "aseprite": {
       "command": "uvx",
-      "args": ["-n", "aseprite-mcp@latest"],
+      "args": ["aseprite-mcp@0.6.0"],
       "env": {
-        "ASEPRITE_PATH": "C:\\aseprite\\build\\bin\\aseprite.exe"
+        "ASEPRITE_PATH": "C:\\aseprite\\build\\bin\\aseprite.exe",
+        "ASEPRITE_MCP_TOOL_PROFILE": "cli"
       }
     }
   }

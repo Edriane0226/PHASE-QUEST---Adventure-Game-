@@ -1,0 +1,36 @@
+{
+  "group": "barrier_direct_shadow",
+  "class": "shadow",
+  "palette": "master",
+  "cell": [
+    128,
+    128
+  ],
+  "pivot": [
+    64,
+    104
+  ],
+  "footprint": [
+    -38,
+    -18,
+    76,
+    36
+  ],
+  "clips": {
+    "idle_solid": {
+      "loop": true
+    },
+    "idle_melting_early": {
+      "loop": true
+    },
+    "idle_melting_late": {
+      "loop": true
+    },
+    "idle_liquid": {
+      "loop": true
+    },
+    "idle_cleared": {
+      "loop": true
+    }
+  }
+}

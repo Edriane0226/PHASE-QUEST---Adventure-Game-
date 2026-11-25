@@ -1,0 +1,36 @@
+{
+  "group": "snow_decal",
+  "class": "prop",
+  "palette": "gardens",
+  "cell": [
+    40,
+    40
+  ],
+  "pivot": [
+    20,
+    20
+  ],
+  "footprint": [
+    0,
+    0,
+    0,
+    0
+  ],
+  "clips": {
+    "idle_tuft": {
+      "loop": true
+    },
+    "idle_stones": {
+      "loop": true
+    },
+    "idle_twig": {
+      "loop": true
+    },
+    "idle_prints": {
+      "loop": true
+    },
+    "idle_icicles": {
+      "loop": true
+    }
+  }
+}

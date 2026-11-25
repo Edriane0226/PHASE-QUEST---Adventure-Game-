@@ -1,0 +1,27 @@
+{
+  "group": "grass_side",
+  "class": "tile_side",
+  "palette": "vale",
+  "cell": [
+    40,
+    40
+  ],
+  "pivot": [
+    20,
+    10
+  ],
+  "footprint": [
+    -20,
+    -10,
+    40,
+    20
+  ],
+  "clips": {
+    "variant_left": {
+      "loop": false
+    },
+    "variant_right": {
+      "loop": false
+    }
+  }
+}

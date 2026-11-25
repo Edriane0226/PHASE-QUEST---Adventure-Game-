@@ -2,7 +2,7 @@ shader_type canvas_item;
 render_mode unshaded;
 uniform float breath : hint_range(0.0,1.0) = 0.0;
 uniform bool device_pose = false;
-uniform sampler2D upper_body : filter_linear, repeat_disable;
+uniform sampler2D upper_body : filter_nearest, repeat_disable;
 uniform vec2 pose_offset = vec2(0.0);
 uniform vec2 torso_band = vec2(98.0,132.0);
 uniform vec2 frame_size = vec2(192.0);

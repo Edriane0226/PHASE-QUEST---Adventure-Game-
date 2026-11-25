@@ -121,13 +121,16 @@ func height_mainland(point: Vector2) -> float:
 	return base_height_mainland(point)
 func base_height_mainland(point: Vector2) -> float:
 	var grid=preload("res://Scripts/World/terrain_relief.gd")
-	var at: Vector2=grid.center(grid.cell_at(point))
+	var at: Vector2=grid.block_center(grid.block_of(grid.cell_at(point)))
+	# The whole block belongs to the region of its centre, so a border never splits it.
+	var owner_point:=at if not region_at(at).is_empty() and not region_at(point).is_empty() else point
 	for i in range(data.regions.size()):
 		var r: Dictionary=data.regions[i];var p: PackedVector2Array=region_polygons[i]
-		if not Geometry2D.is_point_in_polygon(point,p):continue
+		if not Geometry2D.is_point_in_polygon(owner_point,p):continue
+		if terraces!=null:return terraces.slope_at(self,i,at)+terraces.offset_at(at)
 		var distance:=INF
 		for j in range(p.size()):distance=minf(distance,at.distance_to(Geometry2D.get_closest_point_to_segment(at,p[j],p[(j+1)%p.size()])))
-		return roundf(float(r.elevation)*smoothstep(0,320,distance)/20.0)*20.0+(terraces.offset_at(at) if terraces!=null else 0.0)
+		return roundf(float(r.elevation)*smoothstep(0,320,distance)/20.0)*20.0
 	return 0.0
 func surface_height(floor: Dictionary,point: Vector2) -> float:
 	var grid=preload("res://Scripts/World/terrain_relief.gd")

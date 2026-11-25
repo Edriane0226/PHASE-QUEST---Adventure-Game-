@@ -1,0 +1,27 @@
+{
+  "group": "shelter",
+  "class": "machine",
+  "palette": "gardens",
+  "cell": [
+    192,
+    160
+  ],
+  "pivot": [
+    96,
+    122
+  ],
+  "footprint": [
+    -50,
+    -25,
+    100,
+    50
+  ],
+  "clips": {
+    "idle_cold": {
+      "loop": true
+    },
+    "idle_warm": {
+      "loop": true
+    }
+  }
+}

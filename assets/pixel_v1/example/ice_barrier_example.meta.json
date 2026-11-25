@@ -1,0 +1,19 @@
+{
+  "group": "ice_barrier_example",
+  "class": "prop",
+  "palette": "gardens",
+  "cell": [128, 128],
+  "pivot": [64, 104],
+  "footprint": [-38, -18, 76, 36],
+  "clips": {
+    "idle_solid": {"loop": true},
+    "to_melting_early_from_solid": {"loop": false, "next": "idle_melting_early"},
+    "idle_melting_early": {"loop": true},
+    "to_melting_late_from_melting_early": {"loop": false, "next": "idle_melting_late"},
+    "idle_melting_late": {"loop": true},
+    "to_liquid_from_melting_late": {"loop": false, "next": "idle_liquid"},
+    "idle_liquid": {"loop": true},
+    "to_cleared_from_liquid": {"loop": false, "next": "idle_cleared"},
+    "idle_cleared": {"loop": true}
+  }
+}

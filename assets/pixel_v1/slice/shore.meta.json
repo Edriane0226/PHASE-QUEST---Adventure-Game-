@@ -1,0 +1,24 @@
+{
+  "group": "shore",
+  "class": "tile_edge",
+  "palette": "gardens",
+  "cell": [
+    40,
+    24
+  ],
+  "pivot": [
+    20,
+    10
+  ],
+  "footprint": [
+    -20,
+    -10,
+    40,
+    20
+  ],
+  "clips": {
+    "mask_edge": {
+      "loop": false
+    }
+  }
+}

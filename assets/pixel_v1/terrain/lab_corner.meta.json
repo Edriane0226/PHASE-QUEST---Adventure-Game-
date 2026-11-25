@@ -1,0 +1,27 @@
+{
+  "group": "lab_corner",
+  "class": "prop",
+  "palette": "laboratory",
+  "cell": [
+    40,
+    40
+  ],
+  "pivot": [
+    20,
+    20
+  ],
+  "footprint": [
+    -2,
+    0,
+    4,
+    20
+  ],
+  "clips": {
+    "idle_outer": {
+      "loop": true
+    },
+    "idle_inner": {
+      "loop": true
+    }
+  }
+}

@@ -42,7 +42,7 @@ func sprite_asset(id: String,point: Vector2,name_hint: String) -> Node2D:
 	var anchor=ANCHOR.new();anchor.name=name_hint.validate_node_name();anchor.position=point;anchor.elevation=float(geometry.height_record(point).get("height",0));$GroundSort.add_child(anchor)
 	var sprite:=Sprite2D.new();sprite.name="Artwork";sprite.centered=false;sprite.texture=_kit.get_meta("tiles",{}).get(definition.id)
 	if sprite.texture==null:sprite.texture=load(definition.path)
-	sprite.scale=Vector2.ONE*float(definition.world_scale);sprite.position=-Vector2(definition.pivot_px[0],definition.pivot_px[1])*float(definition.world_scale);sprite.texture_filter=CanvasItem.TEXTURE_FILTER_LINEAR
+	sprite.scale=Vector2.ONE*float(definition.world_scale);sprite.position=-Vector2(definition.pivot_px[0],definition.pivot_px[1])*float(definition.world_scale);sprite.texture_filter=CanvasItem.TEXTURE_FILTER_NEAREST
 	anchor.visuals.add_child(sprite);anchor.set_meta("asset_id",definition.id);anchor.set_meta("ground_xy",point)
 	props.append(anchor);return anchor
 func build_art() -> void:
@@ -145,12 +145,6 @@ func footstep_surface(_point: Vector2) -> String:
 	return "cement"
 func player_controls_allowed() -> bool:
 	return super.player_controls_allowed() and geometry!=null and geometry.permitted(player.position)
-func _process(_delta: float) -> void:
-	if geometry==null:return
-	var camera: Camera2D=player.get_node("Camera2D")
-	# High lab decks must remain centered at compact touch resolutions.
-	# Follow displayed floor, keeping jump arc visible and original camera/zoom intact.
-	if not camera.top_level:camera.offset=Vector2(0,-player._display_floor)
 func _physics_process(_delta: float) -> void:
 	if geometry==null or active_subregion_id.is_empty():return
 	var owner: String=geometry.region_at(player.position)

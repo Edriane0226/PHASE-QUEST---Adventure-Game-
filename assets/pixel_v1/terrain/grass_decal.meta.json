@@ -1,0 +1,39 @@
+{
+  "group": "grass_decal",
+  "class": "card",
+  "palette": "vale",
+  "cell": [
+    40,
+    40
+  ],
+  "pivot": [
+    20,
+    28
+  ],
+  "footprint": [
+    0,
+    0,
+    0,
+    0
+  ],
+  "clips": {
+    "idle_a": {
+      "loop": true
+    },
+    "idle_b": {
+      "loop": true
+    },
+    "idle_c": {
+      "loop": true
+    },
+    "idle_d": {
+      "loop": true
+    },
+    "idle_e": {
+      "loop": true
+    },
+    "idle_f": {
+      "loop": true
+    }
+  }
+}

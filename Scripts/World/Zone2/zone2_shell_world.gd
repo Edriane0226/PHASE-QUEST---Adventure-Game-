@@ -40,7 +40,7 @@ func sprite_asset(id: String,point: Vector2,name_hint: String) -> Node2D:
 	var anchor=ANCHOR.new();anchor.name=name_hint.validate_node_name();anchor.position=point;anchor.elevation=float(geometry.height_record(point).get("height",0));$GroundSort.add_child(anchor)
 	var sprite:=Sprite2D.new();sprite.name="Artwork";sprite.centered=false;sprite.texture=_kit.get_meta("tiles",{}).get(definition.id)
 	if sprite.texture==null:sprite.texture=load(definition.path)
-	sprite.scale=Vector2.ONE*float(definition.world_scale);sprite.position=-Vector2(definition.pivot_px[0],definition.pivot_px[1])*float(definition.world_scale);sprite.texture_filter=CanvasItem.TEXTURE_FILTER_LINEAR
+	sprite.scale=Vector2.ONE*float(definition.world_scale);sprite.position=-Vector2(definition.pivot_px[0],definition.pivot_px[1])*float(definition.world_scale);sprite.texture_filter=CanvasItem.TEXTURE_FILTER_NEAREST
 	anchor.visuals.add_child(sprite);anchor.set_meta("asset_id",definition.id);anchor.set_meta("ground_xy",point)
 	props.append(anchor);return anchor
 func build_art() -> void:

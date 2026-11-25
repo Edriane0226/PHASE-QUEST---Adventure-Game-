@@ -1,0 +1,158 @@
+{ "frames": [
+   {
+    "filename": "snow_path_over 0.aseprite",
+    "frame": { "x": 0, "y": 0, "w": 40, "h": 24 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 40, "h": 24 },
+    "sourceSize": { "w": 40, "h": 24 },
+    "duration": 100
+   },
+   {
+    "filename": "snow_path_over 1.aseprite",
+    "frame": { "x": 40, "y": 0, "w": 40, "h": 24 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 40, "h": 24 },
+    "sourceSize": { "w": 40, "h": 24 },
+    "duration": 100
+   },
+   {
+    "filename": "snow_path_over 2.aseprite",
+    "frame": { "x": 80, "y": 0, "w": 40, "h": 24 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 40, "h": 24 },
+    "sourceSize": { "w": 40, "h": 24 },
+    "duration": 100
+   },
+   {
+    "filename": "snow_path_over 3.aseprite",
+    "frame": { "x": 120, "y": 0, "w": 40, "h": 24 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 40, "h": 24 },
+    "sourceSize": { "w": 40, "h": 24 },
+    "duration": 100
+   },
+   {
+    "filename": "snow_path_over 4.aseprite",
+    "frame": { "x": 160, "y": 0, "w": 40, "h": 24 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 40, "h": 24 },
+    "sourceSize": { "w": 40, "h": 24 },
+    "duration": 100
+   },
+   {
+    "filename": "snow_path_over 5.aseprite",
+    "frame": { "x": 200, "y": 0, "w": 40, "h": 24 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 40, "h": 24 },
+    "sourceSize": { "w": 40, "h": 24 },
+    "duration": 100
+   },
+   {
+    "filename": "snow_path_over 6.aseprite",
+    "frame": { "x": 240, "y": 0, "w": 40, "h": 24 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 40, "h": 24 },
+    "sourceSize": { "w": 40, "h": 24 },
+    "duration": 100
+   },
+   {
+    "filename": "snow_path_over 7.aseprite",
+    "frame": { "x": 280, "y": 0, "w": 40, "h": 24 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 40, "h": 24 },
+    "sourceSize": { "w": 40, "h": 24 },
+    "duration": 100
+   },
+   {
+    "filename": "snow_path_over 8.aseprite",
+    "frame": { "x": 0, "y": 24, "w": 40, "h": 24 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 40, "h": 24 },
+    "sourceSize": { "w": 40, "h": 24 },
+    "duration": 100
+   },
+   {
+    "filename": "snow_path_over 9.aseprite",
+    "frame": { "x": 40, "y": 24, "w": 40, "h": 24 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 40, "h": 24 },
+    "sourceSize": { "w": 40, "h": 24 },
+    "duration": 100
+   },
+   {
+    "filename": "snow_path_over 10.aseprite",
+    "frame": { "x": 80, "y": 24, "w": 40, "h": 24 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 40, "h": 24 },
+    "sourceSize": { "w": 40, "h": 24 },
+    "duration": 100
+   },
+   {
+    "filename": "snow_path_over 11.aseprite",
+    "frame": { "x": 120, "y": 24, "w": 40, "h": 24 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 40, "h": 24 },
+    "sourceSize": { "w": 40, "h": 24 },
+    "duration": 100
+   },
+   {
+    "filename": "snow_path_over 12.aseprite",
+    "frame": { "x": 160, "y": 24, "w": 40, "h": 24 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 40, "h": 24 },
+    "sourceSize": { "w": 40, "h": 24 },
+    "duration": 100
+   },
+   {
+    "filename": "snow_path_over 13.aseprite",
+    "frame": { "x": 200, "y": 24, "w": 40, "h": 24 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 40, "h": 24 },
+    "sourceSize": { "w": 40, "h": 24 },
+    "duration": 100
+   },
+   {
+    "filename": "snow_path_over 14.aseprite",
+    "frame": { "x": 240, "y": 24, "w": 40, "h": 24 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 40, "h": 24 },
+    "sourceSize": { "w": 40, "h": 24 },
+    "duration": 100
+   },
+   {
+    "filename": "snow_path_over 15.aseprite",
+    "frame": { "x": 280, "y": 24, "w": 40, "h": 24 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 40, "h": 24 },
+    "sourceSize": { "w": 40, "h": 24 },
+    "duration": 100
+   }
+ ],
+ "meta": {
+  "app": "https://www.aseprite.org/",
+  "version": "1.3.18.6-dev",
+  "image": "snow_path_over.png",
+  "format": "I8",
+  "size": { "w": 320, "h": 48 },
+  "scale": "1",
+  "frameTags": [
+   { "name": "mask_edge", "from": 0, "to": 15, "direction": "forward", "color": "#000000ff" }
+  ]
+ }
+}

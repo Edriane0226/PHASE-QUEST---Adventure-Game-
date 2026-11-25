@@ -1,0 +1,220 @@
+{ "frames": [
+   {
+    "filename": "ice_barrier_example 0.aseprite",
+    "frame": { "x": 0, "y": 0, "w": 128, "h": 128 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 128, "h": 128 },
+    "sourceSize": { "w": 128, "h": 128 },
+    "duration": 400
+   },
+   {
+    "filename": "ice_barrier_example 1.aseprite",
+    "frame": { "x": 128, "y": 0, "w": 128, "h": 128 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 128, "h": 128 },
+    "sourceSize": { "w": 128, "h": 128 },
+    "duration": 400
+   },
+   {
+    "filename": "ice_barrier_example 2.aseprite",
+    "frame": { "x": 256, "y": 0, "w": 128, "h": 128 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 128, "h": 128 },
+    "sourceSize": { "w": 128, "h": 128 },
+    "duration": 120
+   },
+   {
+    "filename": "ice_barrier_example 3.aseprite",
+    "frame": { "x": 384, "y": 0, "w": 128, "h": 128 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 128, "h": 128 },
+    "sourceSize": { "w": 128, "h": 128 },
+    "duration": 120
+   },
+   {
+    "filename": "ice_barrier_example 4.aseprite",
+    "frame": { "x": 512, "y": 0, "w": 128, "h": 128 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 128, "h": 128 },
+    "sourceSize": { "w": 128, "h": 128 },
+    "duration": 120
+   },
+   {
+    "filename": "ice_barrier_example 5.aseprite",
+    "frame": { "x": 640, "y": 0, "w": 128, "h": 128 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 128, "h": 128 },
+    "sourceSize": { "w": 128, "h": 128 },
+    "duration": 250
+   },
+   {
+    "filename": "ice_barrier_example 6.aseprite",
+    "frame": { "x": 768, "y": 0, "w": 128, "h": 128 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 128, "h": 128 },
+    "sourceSize": { "w": 128, "h": 128 },
+    "duration": 250
+   },
+   {
+    "filename": "ice_barrier_example 7.aseprite",
+    "frame": { "x": 896, "y": 0, "w": 128, "h": 128 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 128, "h": 128 },
+    "sourceSize": { "w": 128, "h": 128 },
+    "duration": 120
+   },
+   {
+    "filename": "ice_barrier_example 8.aseprite",
+    "frame": { "x": 0, "y": 128, "w": 128, "h": 128 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 128, "h": 128 },
+    "sourceSize": { "w": 128, "h": 128 },
+    "duration": 120
+   },
+   {
+    "filename": "ice_barrier_example 9.aseprite",
+    "frame": { "x": 128, "y": 128, "w": 128, "h": 128 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 128, "h": 128 },
+    "sourceSize": { "w": 128, "h": 128 },
+    "duration": 120
+   },
+   {
+    "filename": "ice_barrier_example 10.aseprite",
+    "frame": { "x": 256, "y": 128, "w": 128, "h": 128 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 128, "h": 128 },
+    "sourceSize": { "w": 128, "h": 128 },
+    "duration": 250
+   },
+   {
+    "filename": "ice_barrier_example 11.aseprite",
+    "frame": { "x": 384, "y": 128, "w": 128, "h": 128 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 128, "h": 128 },
+    "sourceSize": { "w": 128, "h": 128 },
+    "duration": 250
+   },
+   {
+    "filename": "ice_barrier_example 12.aseprite",
+    "frame": { "x": 512, "y": 128, "w": 128, "h": 128 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 128, "h": 128 },
+    "sourceSize": { "w": 128, "h": 128 },
+    "duration": 120
+   },
+   {
+    "filename": "ice_barrier_example 13.aseprite",
+    "frame": { "x": 640, "y": 128, "w": 128, "h": 128 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 128, "h": 128 },
+    "sourceSize": { "w": 128, "h": 128 },
+    "duration": 120
+   },
+   {
+    "filename": "ice_barrier_example 14.aseprite",
+    "frame": { "x": 768, "y": 128, "w": 128, "h": 128 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 128, "h": 128 },
+    "sourceSize": { "w": 128, "h": 128 },
+    "duration": 120
+   },
+   {
+    "filename": "ice_barrier_example 15.aseprite",
+    "frame": { "x": 896, "y": 128, "w": 128, "h": 128 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 128, "h": 128 },
+    "sourceSize": { "w": 128, "h": 128 },
+    "duration": 250
+   },
+   {
+    "filename": "ice_barrier_example 16.aseprite",
+    "frame": { "x": 0, "y": 256, "w": 128, "h": 128 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 128, "h": 128 },
+    "sourceSize": { "w": 128, "h": 128 },
+    "duration": 250
+   },
+   {
+    "filename": "ice_barrier_example 17.aseprite",
+    "frame": { "x": 128, "y": 256, "w": 128, "h": 128 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 128, "h": 128 },
+    "sourceSize": { "w": 128, "h": 128 },
+    "duration": 150
+   },
+   {
+    "filename": "ice_barrier_example 18.aseprite",
+    "frame": { "x": 256, "y": 256, "w": 128, "h": 128 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 128, "h": 128 },
+    "sourceSize": { "w": 128, "h": 128 },
+    "duration": 150
+   },
+   {
+    "filename": "ice_barrier_example 19.aseprite",
+    "frame": { "x": 384, "y": 256, "w": 128, "h": 128 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 128, "h": 128 },
+    "sourceSize": { "w": 128, "h": 128 },
+    "duration": 150
+   },
+   {
+    "filename": "ice_barrier_example 20.aseprite",
+    "frame": { "x": 512, "y": 256, "w": 128, "h": 128 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 128, "h": 128 },
+    "sourceSize": { "w": 128, "h": 128 },
+    "duration": 400
+   },
+   {
+    "filename": "ice_barrier_example 21.aseprite",
+    "frame": { "x": 640, "y": 256, "w": 128, "h": 128 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 128, "h": 128 },
+    "sourceSize": { "w": 128, "h": 128 },
+    "duration": 400
+   }
+ ],
+ "meta": {
+  "app": "https://www.aseprite.org/",
+  "version": "1.3.18.6-dev",
+  "image": "ice_barrier_example.png",
+  "format": "I8",
+  "size": { "w": 1024, "h": 384 },
+  "scale": "1",
+  "frameTags": [
+   { "name": "idle_solid", "from": 0, "to": 1, "direction": "forward", "color": "#000000ff" },
+   { "name": "to_melting_early_from_solid", "from": 2, "to": 4, "direction": "forward", "color": "#000000ff" },
+   { "name": "idle_melting_early", "from": 5, "to": 6, "direction": "forward", "color": "#000000ff" },
+   { "name": "to_melting_late_from_melting_early", "from": 7, "to": 9, "direction": "forward", "color": "#000000ff" },
+   { "name": "idle_melting_late", "from": 10, "to": 11, "direction": "forward", "color": "#000000ff" },
+   { "name": "to_liquid_from_melting_late", "from": 12, "to": 14, "direction": "forward", "color": "#000000ff" },
+   { "name": "idle_liquid", "from": 15, "to": 16, "direction": "forward", "color": "#000000ff" },
+   { "name": "to_cleared_from_liquid", "from": 17, "to": 19, "direction": "forward", "color": "#000000ff" },
+   { "name": "idle_cleared", "from": 20, "to": 21, "direction": "forward", "color": "#000000ff" }
+  ]
+ }
+}

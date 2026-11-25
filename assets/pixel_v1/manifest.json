@@ -1,0 +1,480 @@
+{
+  "version": 1,
+  "aseprite": "Aseprite 1.3.18.6-dev",
+  "sheets": {
+    "example/ice_barrier_example_shadow": {
+      "source": "art_src/pixel_v1/example/ice_barrier_example_shadow.aseprite",
+      "source_sha256": "897e4034354c445fc53647ad8feaea4a6e05fd3c90ef3ecd9ce0d939cb2952cd",
+      "sheet_sha256": "41181c72d010108e5c0645e25dcd7c060dda9624697d235900e1e810f36bcebd",
+      "audit": "ok"
+    },
+    "example/ice_barrier_example": {
+      "source": "art_src/pixel_v1/example/ice_barrier_example.aseprite",
+      "source_sha256": "a1b22d397e602cf96201e477869bcf9413645d524a381bdfe985e49dc138c0ed",
+      "sheet_sha256": "e3d5b2fc6711628953063f9dce3d6d139c8f69a3f8fe0b8c20d8b40fdeec81a8",
+      "audit": "ok"
+    },
+    "slice/barrier_direct_shadow": {
+      "source": "art_src/pixel_v1/slice/barrier_direct_shadow.aseprite",
+      "source_sha256": "d25c7f495bb40079374a64dd57725a24f33ba26ddef7907c53e7ca9d7b4da2a9",
+      "sheet_sha256": "ea509bb2eade8be613c677da8810d6b40c7648605ad90acfa4671ea00472957b",
+      "audit": "ok"
+    },
+    "slice/barrier_direct": {
+      "source": "art_src/pixel_v1/slice/barrier_direct.aseprite",
+      "source_sha256": "402e80d00ea53c8c449d09ca5a3ee182c0aceefa8ccb325f48dca84aa44faccb",
+      "sheet_sha256": "d40da5010c540aebd360aab91593a0ca696fc6612a970b1796c3962cfaedd71a",
+      "audit": "ok"
+    },
+    "slice/explorer_shadow": {
+      "source": "art_src/pixel_v1/slice/explorer_shadow.aseprite",
+      "source_sha256": "7d3eca0119841ce0095d655bb53a7b48863f3b5834db5a533a8fc092f2dbcdca",
+      "sheet_sha256": "c8c6c05fc2318bff4539b23ce5e9125c4e763d2947b88dc40dcdb9db5d7fb3ba",
+      "audit": "ok"
+    },
+    "slice/explorer": {
+      "source": "art_src/pixel_v1/slice/explorer.aseprite",
+      "source_sha256": "538dc9028578a9ef21fac48680c9b65358ca81c1b797db64a4bb06dffc7af847",
+      "sheet_sha256": "dfc5945de128ef45a64b1abba9e695223f1fd1f72d570015fd45de9a87b8f8bb",
+      "audit": "ok"
+    },
+    "slice/lantern_shadow": {
+      "source": "art_src/pixel_v1/slice/lantern_shadow.aseprite",
+      "source_sha256": "4e2f18ab3b5438458934a0e313d8a951bdeab05edc2d6b4e57452f43cc36c2e2",
+      "sheet_sha256": "aa47ab5f6eb14ebaa6ca590cfe3c0099d29daef39a61b5a2d0ad4f1d1acb998c",
+      "audit": "ok"
+    },
+    "slice/lantern": {
+      "source": "art_src/pixel_v1/slice/lantern.aseprite",
+      "source_sha256": "df4de28305c9503ee713798b42aeeb6d49e47d1a1a7b31f397eff5508521f09a",
+      "sheet_sha256": "cecd37ca21047c8d194e75a46d33f35aefe699ddf936b75da2e0a8fa96efddb5",
+      "audit": "ok"
+    },
+    "slice/path_cap": {
+      "source": "art_src/pixel_v1/slice/path_cap.aseprite",
+      "source_sha256": "8756a088da342593689b3c8adf6cb9503736413491242c5bb35bd3dc360abfc1",
+      "sheet_sha256": "3bfa89de274b53f883f45a8913b8d028ea0d768e3dbbdffb8a3ae47f94417e17",
+      "audit": "ok"
+    },
+    "slice/path_over": {
+      "source": "art_src/pixel_v1/slice/path_over.aseprite",
+      "source_sha256": "d412de5961370fd5f1d067fe4de6867fa53cee839e0c3891230e6af6f8af4cb1",
+      "sheet_sha256": "49c708c0126526c7443467f477678cbf15a9f418d9b749feecbb40a9775a9c3e",
+      "audit": "ok"
+    },
+    "slice/rocks_shadow": {
+      "source": "art_src/pixel_v1/slice/rocks_shadow.aseprite",
+      "source_sha256": "7f5cc9d84f68b4fb405e9c386603eed7c47d326dc5dcc48cfe309b845a0d26ff",
+      "sheet_sha256": "ad0736413e06c407946d35ef8f76097775975950f43e7500aeee8f644bc6d981",
+      "audit": "ok"
+    },
+    "slice/rocks": {
+      "source": "art_src/pixel_v1/slice/rocks.aseprite",
+      "source_sha256": "6d851b498b30ee1f7a3f0e642c3c22157cd5a76b82a000c4d8b29fed3919eec8",
+      "sheet_sha256": "5a9926309fa1c0d82945321a572e55d240758d5c7bc488c48d9ab9509875bdae",
+      "audit": "ok"
+    },
+    "slice/shelter_shadow": {
+      "source": "art_src/pixel_v1/slice/shelter_shadow.aseprite",
+      "source_sha256": "b2aaced2e0ac210c3d35e1a311e6cf41f05036113cd34baa6af3788a748f7287",
+      "sheet_sha256": "1ba575974675390f66542ebc6da2d58e775fb8610b780a38137e737ddcfdfa02",
+      "audit": "ok"
+    },
+    "slice/shelter": {
+      "source": "art_src/pixel_v1/slice/shelter.aseprite",
+      "source_sha256": "ded4b6234d0b03f7fbba7ec81697168c6fe5ee567fe31aeb6c97136e39abdd1e",
+      "sheet_sha256": "ac2eaa86446f263f55a349a96ee0432f01fccf1b3834927d80818b72b33d27a0",
+      "audit": "ok"
+    },
+    "slice/shore": {
+      "source": "art_src/pixel_v1/slice/shore.aseprite",
+      "source_sha256": "c32aba0a6a7ed18fcbc2af2c1db5cc658b39e5d2ccc72f10c14d0b856b4c1156",
+      "sheet_sha256": "a6e00900f7c47952702e61362ead349c213bd258f643b925b42cbcbfc9af3387",
+      "audit": "ok"
+    },
+    "slice/snow_cap": {
+      "source": "art_src/pixel_v1/slice/snow_cap.aseprite",
+      "source_sha256": "e38e1145ad7319b48f35a5e0be2cd3cc7e1f80edf167a275cd2235c9a14a0de0",
+      "sheet_sha256": "7345bb08e1105e9488585ff1333d933e2ce740778c52ad9a1ee08d5f7e99d1c4",
+      "audit": "ok"
+    },
+    "slice/snow_corner": {
+      "source": "art_src/pixel_v1/slice/snow_corner.aseprite",
+      "source_sha256": "89ec9ba08655586929abab00bc2052287c39e618abd0a95e7a54fc6a72240957",
+      "sheet_sha256": "67e5b3520c7e0ccdbf4d5303526d3fed541859740f036fea1f378ebdcb010f00",
+      "audit": "ok"
+    },
+    "slice/snow_decal": {
+      "source": "art_src/pixel_v1/slice/snow_decal.aseprite",
+      "source_sha256": "560c93c4e3e045a27663223ad93d94dd8c063919296cd40e7ecb689f661bb7b0",
+      "sheet_sha256": "f6d81b3f54bb93f358831df60bbe477eaba1cc5d6c125483c784e257055b55d3",
+      "audit": "ok"
+    },
+    "slice/snow_drift": {
+      "source": "art_src/pixel_v1/slice/snow_drift.aseprite",
+      "source_sha256": "80361579d311b98a4cba761d441430a6f7a762c3475137ea3d29ea7a697f4921",
+      "sheet_sha256": "306d6a945e908433ed4fa144d0164bc3d9cb33722edaea84b69476be8d12e958",
+      "audit": "ok"
+    },
+    "slice/snow_edge": {
+      "source": "art_src/pixel_v1/slice/snow_edge.aseprite",
+      "source_sha256": "0ac264e41888fc98133da76f587c86677d2cd23f5c48c9a681d1dac2f950b628",
+      "sheet_sha256": "ba15da318494409b9603c9ed7c1b4d75973a9e2d04dbfa771e19959a0a06d80a",
+      "audit": "ok"
+    },
+    "slice/snow_foot": {
+      "source": "art_src/pixel_v1/slice/snow_foot.aseprite",
+      "source_sha256": "3da312869f758cd9c200628ba97da1017597de55da5a0a031d4431c6554e684b",
+      "sheet_sha256": "b1ee9a6d934701cd1afec332a29a05c4ef4541730f48fd88cdb50fecb6a622ee",
+      "audit": "ok"
+    },
+    "slice/snow_hollow": {
+      "source": "art_src/pixel_v1/slice/snow_hollow.aseprite",
+      "source_sha256": "fc5b9f8df9b83398487b61dee6220616faeaa0991928d8d821ca60e3317494a8",
+      "sheet_sha256": "4a7d5558221de83a2a96b8d3c254d3a6b26f0786725aad2072daaea9e9d0cfda",
+      "audit": "ok"
+    },
+    "slice/snow_over": {
+      "source": "art_src/pixel_v1/slice/snow_over.aseprite",
+      "source_sha256": "caa8ca6a1253cc7916c4c4543ddf617f18f8314a81b17f0e0159b1f9720602c5",
+      "sheet_sha256": "9b90723a3cb615a6d5c9408a9684281ef4daad9f7bf278d21aad0a8d0106305e",
+      "audit": "ok"
+    },
+    "slice/snow_side": {
+      "source": "art_src/pixel_v1/slice/snow_side.aseprite",
+      "source_sha256": "8d64ddf9ccdb4dd7de6bd7da7da2e9d9f8d7ca751c6f79ae96051a30b3d238d4",
+      "sheet_sha256": "12a240c993d6add41061661ac512f6afb338a6cde7408ec8339cf7be4ba7af52",
+      "audit": "ok"
+    },
+    "slice/tree_pine_shadow": {
+      "source": "art_src/pixel_v1/slice/tree_pine_shadow.aseprite",
+      "source_sha256": "6937676c113ceccf0671c8dab0ca2c229aa1bb5075c9fe2c842edfe8cfad07a7",
+      "sheet_sha256": "0defe4d163a93272392bb585bdc73d4adcee1f179f0827f777beef2984fd7e63",
+      "audit": "ok"
+    },
+    "slice/tree_pine": {
+      "source": "art_src/pixel_v1/slice/tree_pine.aseprite",
+      "source_sha256": "63343780ecf7228ff9cf37a57de3b7aefd18a608cab12dc8263a84351aab2d46",
+      "sheet_sha256": "eda27a4c3575a929a4a7f4c08ae1b37d0f5d41239f5d4816f4b76ffca0ce52a9",
+      "audit": "ok"
+    },
+    "slice/water_cap": {
+      "source": "art_src/pixel_v1/slice/water_cap.aseprite",
+      "source_sha256": "0bad22895be3df40e48b24e243f51670f89e9827745540a5f3e3b13ee373b397",
+      "sheet_sha256": "5ebb18ca0aa0a0881c51aa12e0755330d2ac13e9293dad5258ba7dd9a4a6eb17",
+      "audit": "ok"
+    },
+    "slice/water_deep": {
+      "source": "art_src/pixel_v1/slice/water_deep.aseprite",
+      "source_sha256": "04b8bed01833193e7e842cbed7df3defbb8ff80753acb9296be40db72a155499",
+      "sheet_sha256": "d06505051ad047b69c062f945cb1626af3152f69f165fa7324cb32116c9dab64",
+      "audit": "ok"
+    },
+    "slice/water_over": {
+      "source": "art_src/pixel_v1/slice/water_over.aseprite",
+      "source_sha256": "a796208b34aa67c4a13a5405d740e2edcd9bbce8d4d5be1d3e9147192ef7e23d",
+      "sheet_sha256": "219ce4b7707de58ac7c68d5a24082692a4ba33649d881045d2cb0b56b60d75ad",
+      "audit": "ok"
+    },
+    "terrain/bridge_cap": {
+      "source": "art_src/pixel_v1/terrain/bridge_cap.aseprite",
+      "source_sha256": "fa1c3ed8b80bc4e5693370b1a812bf235d77931b0ff6a3975ed1d1f6ec796cef",
+      "sheet_sha256": "736b3f0cf4834c8798e9e50b6dac331772d8009c31bd4b505b1d326d9a2ca5a6",
+      "audit": "ok"
+    },
+    "terrain/grass_cap": {
+      "source": "art_src/pixel_v1/terrain/grass_cap.aseprite",
+      "source_sha256": "a54241a8ee59ca3866263cd02e7b281d854416b6b24bb97d5d1ccb6308a27ae2",
+      "sheet_sha256": "b4096fa17a1ef71e089adeca52d1f1586b693e1aca3ff6c5edc66fff402801f4",
+      "audit": "ok"
+    },
+    "terrain/grass_corner": {
+      "source": "art_src/pixel_v1/terrain/grass_corner.aseprite",
+      "source_sha256": "893b7fa612204122dbdc639a3288aa310ee872a9d21385ead05f2ec20edbd492",
+      "sheet_sha256": "843aa5353a5e35ce797f2f8c219bb4d114214884741cfdee029fe232999614c3",
+      "audit": "ok"
+    },
+    "terrain/grass_decal": {
+      "source": "art_src/pixel_v1/terrain/grass_decal.aseprite",
+      "source_sha256": "e4eaadf696082654df05c08e8bb27ad20d0ee85ce400f982dd38c0d5fc3e5493",
+      "sheet_sha256": "1d327bdd4484762de50fc90afbebe199b4c530f852db93e1a68927bcdb17362c",
+      "audit": "ok"
+    },
+    "terrain/grass_edge": {
+      "source": "art_src/pixel_v1/terrain/grass_edge.aseprite",
+      "source_sha256": "73336f96742f80024279ecb68a5cf20735714dab2e88689c023321efabfc4a80",
+      "sheet_sha256": "8255f9c36a94bf84b2f14eb13cbc958e58711ef0441dc7b138337f82cab21379",
+      "audit": "ok"
+    },
+    "terrain/grass_foot": {
+      "source": "art_src/pixel_v1/terrain/grass_foot.aseprite",
+      "source_sha256": "237d3ee7eefe6fce7809e4d5b4fd100d5d9e1e05a605505277969f30ee7243cb",
+      "sheet_sha256": "e292440d1ba712914344a2b01fdafcec930e2c1436ef2ba06f2a7f025fc027ec",
+      "audit": "ok"
+    },
+    "terrain/grass_over": {
+      "source": "art_src/pixel_v1/terrain/grass_over.aseprite",
+      "source_sha256": "382201e1b4116501081a3da27c087030b34cacb355a406a50c0fdf9c5a8b6ddd",
+      "sheet_sha256": "af5a218661099f9ba43809b1b3c1ac265ebbd70e7faa01bfa63d27eb37cb4ef9",
+      "audit": "ok"
+    },
+    "terrain/grass_patch_a": {
+      "source": "art_src/pixel_v1/terrain/grass_patch_a.aseprite",
+      "source_sha256": "98878dd6cf33c7273c46400a9750ff89c324dbd475bce98480cc2ee80ec0c80c",
+      "sheet_sha256": "abfe92057cfab85137654b446a2e0119c3bd8ba50c39d4c37a1ad955b6793a7b",
+      "audit": "ok"
+    },
+    "terrain/grass_patch_b": {
+      "source": "art_src/pixel_v1/terrain/grass_patch_b.aseprite",
+      "source_sha256": "cca61ae790d7fe92c15c3530ccd23aae1a0e8f70a386a3ec08b440a00b0206fa",
+      "sheet_sha256": "0583fbb2964575fd5711b091e696af65aba8c1dd423c22e02180494aa9b383b4",
+      "audit": "ok"
+    },
+    "terrain/grass_path_over": {
+      "source": "art_src/pixel_v1/terrain/grass_path_over.aseprite",
+      "source_sha256": "7a1ae9203ee0d8c28d0d2fa54d4697fe6ca99d6fbbdb4559d7bcdecc5d5d4574",
+      "sheet_sha256": "34c8018b88e6bdaeaf93198a12fe5fef08563f01fdaeb34bdd9c333e0a1e4489",
+      "audit": "ok"
+    },
+    "terrain/grass_path": {
+      "source": "art_src/pixel_v1/terrain/grass_path.aseprite",
+      "source_sha256": "063592e06972af2519fb8dd4698bd4d2ae9d681e6a6a643c9619f95ee3deed45",
+      "sheet_sha256": "1b762bcffa7b6fbf7b62f77126b56397d37347d3d99afd0cedc4eb3fa0a7e50b",
+      "audit": "ok"
+    },
+    "terrain/grass_ramp": {
+      "source": "art_src/pixel_v1/terrain/grass_ramp.aseprite",
+      "source_sha256": "dbce46241a7b91d4cd44fd7e15e78a503332bb0b9a285ff0029f130547887625",
+      "sheet_sha256": "5a78ae7bd157a1a3d6309faf9f1c400580e41a91f223fbcc5de2997f3807a0d5",
+      "audit": "ok"
+    },
+    "terrain/grass_side": {
+      "source": "art_src/pixel_v1/terrain/grass_side.aseprite",
+      "source_sha256": "3ee6b7ce2e8ded1525c0caea736b26760f0af6ab28a78012b26c9dd6c0803fcb",
+      "sheet_sha256": "3d76d9490b3d7ceb571ba59541429a57635ebb2e39655d417cf037a5e8345d50",
+      "audit": "ok"
+    },
+    "terrain/lab_cap": {
+      "source": "art_src/pixel_v1/terrain/lab_cap.aseprite",
+      "source_sha256": "1af49d72a5ae3bc20805dc842bee8d84e816090fa689e927d030c7560177c3ec",
+      "sheet_sha256": "ece43dae7f441fabc542ff69844f7d4e0f2205b476fb8081bfb0fe303798afda",
+      "audit": "ok"
+    },
+    "terrain/lab_corner": {
+      "source": "art_src/pixel_v1/terrain/lab_corner.aseprite",
+      "source_sha256": "eb1eeaad6c1be6b774f3318f91c6c044d473d450c0431931c1bd4f757a81f498",
+      "sheet_sha256": "4c84b494c0eb81c2e76e9a9d771751ffcbf21fb2afd814765ac3188dfad6aabe",
+      "audit": "ok"
+    },
+    "terrain/lab_decal": {
+      "source": "art_src/pixel_v1/terrain/lab_decal.aseprite",
+      "source_sha256": "054813c420c0314ecfbc56892e2df4d06b3ec01431c337adcf9c01b54b32c4db",
+      "sheet_sha256": "8d9d00caa2921496cf2614bd967d71f759841ddb4f21d27fbc11ad162e9e2c02",
+      "audit": "ok"
+    },
+    "terrain/lab_edge": {
+      "source": "art_src/pixel_v1/terrain/lab_edge.aseprite",
+      "source_sha256": "9e245119ee881d99cadfea255b6d3eea49258f0bddf3c4c0126a005da08144aa",
+      "sheet_sha256": "aed1f69d16424622ecdbc3153a371804569ec05119462892d2b04829a3423c9c",
+      "audit": "ok"
+    },
+    "terrain/lab_foot": {
+      "source": "art_src/pixel_v1/terrain/lab_foot.aseprite",
+      "source_sha256": "e4004dfb35136c85e690bacd76e8ba2fa4d5a4ab9fa3ff3ad1d85cdb5e6d3b9d",
+      "sheet_sha256": "17a8a675f32ec76c60507f47887ba771b0f813eed976555a3b167815c94d86e2",
+      "audit": "ok"
+    },
+    "terrain/lab_over": {
+      "source": "art_src/pixel_v1/terrain/lab_over.aseprite",
+      "source_sha256": "80db0fd310b2207fe659d55b1fcbfdffcfe26dfe3220f2b689b76f4094a456a9",
+      "sheet_sha256": "4f027593dd5baab4a1454f14f2eb26ce96aea7718cd8731cb759ecb491573c51",
+      "audit": "ok"
+    },
+    "terrain/lab_patch_a": {
+      "source": "art_src/pixel_v1/terrain/lab_patch_a.aseprite",
+      "source_sha256": "d13ee52f3cef4a2558278d5b95ffd2c1de003099a227927a7274d8189fb420e4",
+      "sheet_sha256": "4391366441d22ea3593ac82dab00721933297d6854bceee5b2647e843de9b2ac",
+      "audit": "ok"
+    },
+    "terrain/lab_patch_b": {
+      "source": "art_src/pixel_v1/terrain/lab_patch_b.aseprite",
+      "source_sha256": "76d75c140de99a62f46ef59b929edf86094fd513afcb8d6cf06d5c172d0c80ac",
+      "sheet_sha256": "320a12eb91af7d881e3ad61b9ec1abe81c39f401c31fcbc8d72c7abd2258fe70",
+      "audit": "ok"
+    },
+    "terrain/lab_path_over": {
+      "source": "art_src/pixel_v1/terrain/lab_path_over.aseprite",
+      "source_sha256": "7a5dcc46c3d8741fcd0cb3ca533a33ff9459da1d79a6bba3a66a14af7eab76da",
+      "sheet_sha256": "364bb64887edf759259847f58d0d98996c84809368762cd97f09dffe0804121a",
+      "audit": "ok"
+    },
+    "terrain/lab_path": {
+      "source": "art_src/pixel_v1/terrain/lab_path.aseprite",
+      "source_sha256": "ab1f922e37e329db3d4b51059fce6aeea20a7d4a8e8d81e1275908f41b302e4b",
+      "sheet_sha256": "5bd7c42d9cbb8ac7be322f2bad75fe7a95bf5aded3e4ef6ef8fbc14300334b3d",
+      "audit": "ok"
+    },
+    "terrain/lab_ramp": {
+      "source": "art_src/pixel_v1/terrain/lab_ramp.aseprite",
+      "source_sha256": "14315bb36b12d7ed40c2b03fbb4923bc2e39c863df0717b954c0659b13c14f16",
+      "sheet_sha256": "f07420e846e008fb8b17c4f55c129b055d74dfbc3979efb9b76a71c44139f325",
+      "audit": "ok"
+    },
+    "terrain/lab_side": {
+      "source": "art_src/pixel_v1/terrain/lab_side.aseprite",
+      "source_sha256": "c1972903d1ee1d45131c87a2d0cadcb9d9a484e9514dc464361c14c8024a652b",
+      "sheet_sha256": "9e55c408c5d91a62a96b2d69eec82ad16d17a96ee0fbd0abee59eed26ba3cf86",
+      "audit": "ok"
+    },
+    "terrain/snow_cap": {
+      "source": "art_src/pixel_v1/terrain/snow_cap.aseprite",
+      "source_sha256": "a31afeb53e0b9c4bf4ec636098c832b1b7f985a0fe591fced897bd6a737e364e",
+      "sheet_sha256": "d65f784dc8d1578ad95a2c6e3958d5dca15abf109f81f78b0d0d89261b98b0e9",
+      "audit": "ok"
+    },
+    "terrain/snow_corner": {
+      "source": "art_src/pixel_v1/terrain/snow_corner.aseprite",
+      "source_sha256": "35f0d448011af0ad78c40abef69999181f8ee733eb8f4f864ca4b9132271830b",
+      "sheet_sha256": "fa86daaac8b712c64d474c7ed391c0d1e089e46b94cb97f3c6058f99fe5c4168",
+      "audit": "ok"
+    },
+    "terrain/snow_decal": {
+      "source": "art_src/pixel_v1/terrain/snow_decal.aseprite",
+      "source_sha256": "872bc21147ca274047cf3158dd0c502719930fb38c36f1f0ea965745e7c610b1",
+      "sheet_sha256": "4efd845fe058f13e07c61bd35e93e4a708c47ed612ebb636904a4feba9768495",
+      "audit": "ok"
+    },
+    "terrain/snow_edge": {
+      "source": "art_src/pixel_v1/terrain/snow_edge.aseprite",
+      "source_sha256": "0ac264e41888fc98133da76f587c86677d2cd23f5c48c9a681d1dac2f950b628",
+      "sheet_sha256": "ba15da318494409b9603c9ed7c1b4d75973a9e2d04dbfa771e19959a0a06d80a",
+      "audit": "ok"
+    },
+    "terrain/snow_foot": {
+      "source": "art_src/pixel_v1/terrain/snow_foot.aseprite",
+      "source_sha256": "076ba69f0f195ba0feadcc97a5b682e444ff2224985bf0f7a67ef1ae76878096",
+      "sheet_sha256": "fe5c73ac23d311d87d98f3a2f6a305413de7222f355d247e4e0d16da52299688",
+      "audit": "ok"
+    },
+    "terrain/snow_over": {
+      "source": "art_src/pixel_v1/terrain/snow_over.aseprite",
+      "source_sha256": "682a3678c340dc1db396b43e27615cd0af26ee13ba909b287d0f9c1c3365422f",
+      "sheet_sha256": "4bfd6b12c74bdad2087a0812718aa4cc5d4a2ecbe8188eedb59cf02c6b2d2417",
+      "audit": "ok"
+    },
+    "terrain/snow_patch_a": {
+      "source": "art_src/pixel_v1/terrain/snow_patch_a.aseprite",
+      "source_sha256": "8bc2e64f385ed376bbb892e02147a88a7c332b28dde40c4f9e47283c64a39a45",
+      "sheet_sha256": "0fc366d00bf435d3044f227ecf7971f93f00e41d03e8d7b071ff9cbddfd5e79c",
+      "audit": "ok"
+    },
+    "terrain/snow_patch_b": {
+      "source": "art_src/pixel_v1/terrain/snow_patch_b.aseprite",
+      "source_sha256": "df735ed031d15a2c8a405bcbca752da0551f1cdb307312f8b111318fcc3149e6",
+      "sheet_sha256": "4531f2b3ade0725e7c32ba647b72afbec2eef7e70385e8edc511c000463b230f",
+      "audit": "ok"
+    },
+    "terrain/snow_path_over": {
+      "source": "art_src/pixel_v1/terrain/snow_path_over.aseprite",
+      "source_sha256": "7d366695aad38aae450b3bcb9d8252ea6d315b1579610efcfa6276c0fa02eb8c",
+      "sheet_sha256": "cc416fbf7e21b4917a567622f27d90ee31f903037d2d634bcd7c9b9e4193e787",
+      "audit": "ok"
+    },
+    "terrain/snow_path": {
+      "source": "art_src/pixel_v1/terrain/snow_path.aseprite",
+      "source_sha256": "6d0d44c6f18f289cf2a8034777a1b04d2537ebabe79001edbeb74884ad8e323e",
+      "sheet_sha256": "f90be1d15c614a3f27d3c219cd7077685cbd05326a40202538d27ebe3fa9c91f",
+      "audit": "ok"
+    },
+    "terrain/snow_ramp": {
+      "source": "art_src/pixel_v1/terrain/snow_ramp.aseprite",
+      "source_sha256": "dbce46241a7b91d4cd44fd7e15e78a503332bb0b9a285ff0029f130547887625",
+      "sheet_sha256": "5a78ae7bd157a1a3d6309faf9f1c400580e41a91f223fbcc5de2997f3807a0d5",
+      "audit": "ok"
+    },
+    "terrain/snow_side": {
+      "source": "art_src/pixel_v1/terrain/snow_side.aseprite",
+      "source_sha256": "80e26303b35dff03b74a07eacd7291427f41e3bf6f0142f8159bdee5cca79589",
+      "sheet_sha256": "1998ecbe6c77825188ecd9653039f0a1664597a69173bc615473f9b688a866f7",
+      "audit": "ok"
+    },
+    "terrain/water_cap": {
+      "source": "art_src/pixel_v1/terrain/water_cap.aseprite",
+      "source_sha256": "0bad22895be3df40e48b24e243f51670f89e9827745540a5f3e3b13ee373b397",
+      "sheet_sha256": "5ebb18ca0aa0a0881c51aa12e0755330d2ac13e9293dad5258ba7dd9a4a6eb17",
+      "audit": "ok"
+    },
+    "terrain/water_deep": {
+      "source": "art_src/pixel_v1/terrain/water_deep.aseprite",
+      "source_sha256": "04b8bed01833193e7e842cbed7df3defbb8ff80753acb9296be40db72a155499",
+      "sheet_sha256": "d06505051ad047b69c062f945cb1626af3152f69f165fa7324cb32116c9dab64",
+      "audit": "ok"
+    },
+    "terrain/water_over": {
+      "source": "art_src/pixel_v1/terrain/water_over.aseprite",
+      "source_sha256": "4c7f445081016b77b01ec33957bfc9e4907e59e8aa2c5ff0344c81dd9b620336",
+      "sheet_sha256": "424eaf539afa00333ee2e71ab5ee7c0a7430d17b40c25b34d475a584595c500a",
+      "audit": "ok"
+    },
+    "terrain/water_reflect": {
+      "source": "art_src/pixel_v1/terrain/water_reflect.aseprite",
+      "source_sha256": "2057a984f42337085251af4953cd676b6aabb12eec04dd5e488685cea545826c",
+      "sheet_sha256": "a8e7182e210d6cc42a2b68379aaaaa53b2bb1b3d13b2511b42042d5b2fe7463e",
+      "audit": "ok"
+    },
+    "tiles/grass_cap": {
+      "source": "art_src/pixel_v1/tiles/grass_cap.aseprite",
+      "source_sha256": "b6dfd6a1436e0f44601f3f43d72999c0b29195f7631ba9c5bd40384091e99b61",
+      "sheet_sha256": "1dcde6e55e5a68095eb0c51656b99b0d9c576be622079cb7e60bf5621c832c42",
+      "audit": "ok"
+    },
+    "tiles/grass_edge": {
+      "source": "art_src/pixel_v1/tiles/grass_edge.aseprite",
+      "source_sha256": "f52eec07de5973ec54815a60d16d11fa4d168b05631067b4b4678fb3ff8dd790",
+      "sheet_sha256": "6fc7c2e2f3eed05cf2e8270d1cb3bd211a520864d781139d57fbc841079b43e6",
+      "audit": "ok"
+    },
+    "tiles/grass_side": {
+      "source": "art_src/pixel_v1/tiles/grass_side.aseprite",
+      "source_sha256": "a80250769d046c7166659be8b716c4095a020bb13ef51582ed4868d25627b48a",
+      "sheet_sha256": "935b5c09c651c90b0ae91da7c1faed67c99fba87a886b7cf34ae369d6b69ab38",
+      "audit": "ok"
+    },
+    "tiles/lab_cap": {
+      "source": "art_src/pixel_v1/tiles/lab_cap.aseprite",
+      "source_sha256": "38be5ec2d7434061a81eeedfb5f4b69937f9e27bd731e5cebc8f9f9df135c24b",
+      "sheet_sha256": "922b7dbd0c53f2b444bb50fd16d9331c8d02938d3bbaa72a271c51b5192198f5",
+      "audit": "ok"
+    },
+    "tiles/lab_edge": {
+      "source": "art_src/pixel_v1/tiles/lab_edge.aseprite",
+      "source_sha256": "840c7b8d32ba15cc957614975cc3db7b9129df338bfeb3b9e003d23cd7bcf64c",
+      "sheet_sha256": "b7c5c5b3f0c594909b5de269a2a7d0942ec37e375114d19d086c20d78a009068",
+      "audit": "ok"
+    },
+    "tiles/lab_side": {
+      "source": "art_src/pixel_v1/tiles/lab_side.aseprite",
+      "source_sha256": "3db4ace09c825d75c1528995208f1e1c1086ae3142d9574cbfba54660bc8ccc1",
+      "sheet_sha256": "ef04da19a58e0558a36d59c7a5c6e88438b4dd628e80c6a35241f1e8a48276e6",
+      "audit": "ok"
+    },
+    "tiles/snow_cap": {
+      "source": "art_src/pixel_v1/tiles/snow_cap.aseprite",
+      "source_sha256": "9de4d61ab15cb17c87488a43bc4b268d888b7bbae49feac60c9a01f5451656b3",
+      "sheet_sha256": "6ca8b6a5050b72b9e01df2d10c00485632d89b0aa51d60670854dab85735bcfe",
+      "audit": "ok"
+    },
+    "tiles/snow_edge": {
+      "source": "art_src/pixel_v1/tiles/snow_edge.aseprite",
+      "source_sha256": "d7626ef6b1bbf6df7606c5011036876e0bb18ccc678e57cd2907fc0eb8f1727c",
+      "sheet_sha256": "fd3bd52f68b225c6e4db87c576dde39f736a4ee12ce068c077337121dadff389",
+      "audit": "ok"
+    },
+    "tiles/snow_side": {
+      "source": "art_src/pixel_v1/tiles/snow_side.aseprite",
+      "source_sha256": "a80250769d046c7166659be8b716c4095a020bb13ef51582ed4868d25627b48a",
+      "sheet_sha256": "935b5c09c651c90b0ae91da7c1faed67c99fba87a886b7cf34ae369d6b69ab38",
+      "audit": "ok"
+    }
+  }
+}

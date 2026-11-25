@@ -6,11 +6,7 @@ const GEOMETRY_MODELS := [
 	preload("res://Scripts/World/Zone2/zone2_geometry.gd"),
 	preload("res://Scripts/World/Zone3/zone3_geometry.gd")
 ]
-const GROUND_ART := [
-	preload("res://Scripts/World/Zone1/zone1_ground_art.gd"),
-	preload("res://Scripts/World/Zone2/zone2_ground_art.gd"),
-	preload("res://Scripts/World/Zone3/zone3_ground_art.gd")
-]
+const GROUND = preload("res://Scripts/World/cube_ground_art.gd")
 const PROVIDERS := {
 	"Z1L1":["melting_garden_world","bind_garden"],
 	"Z1L2":["frozen_mill_world","bind_mill"],
@@ -115,7 +111,8 @@ func _bind_authored_map(profile: Node) -> bool:
 	geometry.bind(models, access)
 	for index in models.size():
 		DISTRICT.prepare_terrain(models[index])
-		_bind_zone_art(index)
+		_load_zone_kit(index)
+	_bind_ground()
 	_read_connections()
 	for district in chunks.values():
 		for room in district.get_children().filter(func(child):return child.has_meta("room")):
@@ -132,7 +129,7 @@ func _bind_authored_map(profile: Node) -> bool:
 func district_art_parent(district: Node) -> Node2D:
 	return district.get_node("LiveArt")
 
-func _bind_zone_art(index: int) -> void:
+func _load_zone_kit(index: int) -> void:
 	var number := index+1
 	var base := "res://assets/zones/zone_%d/world_v1/" % number
 	kits.append(load(base+"kit_atlas.tres"))
@@ -142,13 +139,16 @@ func _bind_zone_art(index: int) -> void:
 		if not entries.has(entry.group): entries[entry.group] = entry
 		entries[entry.id] = entry
 	catalogs.append(entries)
-	var art: Node2D = GROUND_ART[index].new()
-	art.name = "Zone%dTerrain" % number
-	add_child(art)
+
+## One painter draws all three zones, so their borders blend and nearer ground covers farther ground.
+func _bind_ground() -> void:
+	var ground: Node2D = GROUND.new()
+	ground.name = "Terrain"
+	add_child(ground)
 	if draw_terrain:
-		art.routes = models[index].data.review_routes
-		art.configure(models[index],access.polygons.values())
-	art_layers.append(art)
+		ground.configure_all(models,GROUND.BIOMES,models.map(func(model):return model.data.review_routes))
+		ground.follow_effects(get_node("/root/PlayerSave"))
+	art_layers.append(ground)
 
 func _read_connections() -> void:
 	for line in $Connections.get_children():
@@ -206,15 +206,13 @@ func activate(id: String, at: Vector2) -> bool:
 
 func _update_nearby(at: Vector2) -> void:
 	last_activation_position=at
-	var visible_zones := {}
 	for id in district_bounds:
 		var nearby: bool = district_bounds[id].grow(REGION_MARGIN).has_point(at)
-		if nearby:visible_zones[id.left(2)] = true
 		if nearby_districts.get(id) == nearby:continue
 		nearby_districts[id] = nearby
 		chunks[id+".shell"].set_nearby(nearby)
 	for index in art_layers.size():
-		art_layers[index].visible = draw_terrain and visible_zones.has("Z%d" % (index+1))
+		art_layers[index].visible = draw_terrain
 
 func save_and_menu() -> bool:
 	if not get_node("/root/PlayerSave").world_navigation_source(self, active_subregion_id):return false

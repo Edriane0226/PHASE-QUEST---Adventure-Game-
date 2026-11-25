@@ -1,0 +1,24 @@
+{
+  "group": "explorer_shadow",
+  "class": "shadow",
+  "palette": "master",
+  "cell": [
+    64,
+    64
+  ],
+  "pivot": [
+    32,
+    55
+  ],
+  "footprint": [
+    -10,
+    -5,
+    20,
+    10
+  ],
+  "clips": {
+    "idle_contact": {
+      "loop": true
+    }
+  }
+}

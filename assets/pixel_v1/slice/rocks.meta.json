@@ -1,0 +1,24 @@
+{
+  "group": "rocks",
+  "class": "prop",
+  "palette": "gardens",
+  "cell": [
+    128,
+    128
+  ],
+  "pivot": [
+    64,
+    104
+  ],
+  "footprint": [
+    -28,
+    -14,
+    56,
+    28
+  ],
+  "clips": {
+    "idle": {
+      "loop": true
+    }
+  }
+}

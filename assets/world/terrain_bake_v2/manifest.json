@@ -1,0 +1,52 @@
+{
+	"builder": "tools/world/terrain_bake/bake.gd",
+	"outputs": [
+		{
+			"file": "snow.res",
+			"sha256": "816f31ad39a14adb30eca0c171dfbd5c200867deaa94c3d252f9fc3fa9d9442c",
+			"signature": "7b5b0010ff2ff2eda30a06b8e5b1741198fc8cf0af280890c9883e3d9bb6742c",
+			"stats": {
+				"baked": false,
+				"build_ms": 11438,
+				"caps": 203820,
+				"cells": 115778,
+				"clipped_caps": 118170,
+				"rebuilt_chunks": 227,
+				"render_chunks": 206,
+				"road_caps": 38563
+			}
+		},
+		{
+			"file": "grass.res",
+			"sha256": "05f271632562edfeccadb91f4e3f9d4553463634785ffc6d0d38223d014f1013",
+			"signature": "06aa3ea7d74502bb0a9528f134a9a82cb4bcc0e634d1b40fa4f1ffd758a9a144",
+			"stats": {
+				"baked": false,
+				"build_ms": 8294,
+				"caps": 169198,
+				"cells": 102015,
+				"clipped_caps": 91280,
+				"rebuilt_chunks": 193,
+				"render_chunks": 175,
+				"road_caps": 30563
+			}
+		},
+		{
+			"file": "lab.res",
+			"sha256": "08e6e83cf00af2ac0da575f0925bbb6fe1c8b8307a650ff6b79397a9e75967cf",
+			"signature": "af3db0bac427168b82803011d60ff009b0b2d4dcbf3a251b9ab25ed82c7d067c",
+			"stats": {
+				"baked": false,
+				"build_ms": 5635,
+				"caps": 112268,
+				"cells": 99686,
+				"clipped_caps": 18517,
+				"rebuilt_chunks": 186,
+				"render_chunks": 166,
+				"road_caps": 24048
+			}
+		}
+	],
+	"source": "World/CampaignWorld.tscn",
+	"version": 2
+}

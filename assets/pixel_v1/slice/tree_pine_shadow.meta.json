@@ -1,0 +1,27 @@
+{
+  "group": "tree_pine_shadow",
+  "class": "shadow",
+  "palette": "master",
+  "cell": [
+    128,
+    128
+  ],
+  "pivot": [
+    64,
+    104
+  ],
+  "footprint": [
+    -6,
+    -3,
+    12,
+    6
+  ],
+  "clips": {
+    "idle_contact": {
+      "loop": true
+    },
+    "idle_cast": {
+      "loop": true
+    }
+  }
+}

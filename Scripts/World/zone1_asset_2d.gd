@@ -32,6 +32,6 @@ func configure(id: String) -> bool:
 	art.texture=texture; art.centered=false
 	art.scale=Vector2.ONE*float(selected.world_scale)
 	art.position=-Vector2(selected.pivot_px[0],selected.pivot_px[1])*float(selected.world_scale)
-	art.texture_filter=CanvasItem.TEXTURE_FILTER_LINEAR
+	art.texture_filter=CanvasItem.TEXTURE_FILTER_NEAREST
 	definition=selected
 	return true

@@ -1,0 +1,27 @@
+{
+  "group": "rocks_shadow",
+  "class": "shadow",
+  "palette": "master",
+  "cell": [
+    128,
+    128
+  ],
+  "pivot": [
+    64,
+    104
+  ],
+  "footprint": [
+    -28,
+    -14,
+    56,
+    28
+  ],
+  "clips": {
+    "idle_contact": {
+      "loop": true
+    },
+    "idle_cast": {
+      "loop": true
+    }
+  }
+}

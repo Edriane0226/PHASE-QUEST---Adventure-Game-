@@ -1,0 +1,24 @@
+{
+  "group": "tree_pine",
+  "class": "prop",
+  "palette": "gardens",
+  "cell": [
+    128,
+    128
+  ],
+  "pivot": [
+    64,
+    104
+  ],
+  "footprint": [
+    -6,
+    -3,
+    12,
+    6
+  ],
+  "clips": {
+    "idle": {
+      "loop": true
+    }
+  }
+}

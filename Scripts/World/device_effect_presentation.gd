@@ -37,7 +37,7 @@ func bind(owner_emitter: Node) -> void:
 	top_level = true
 	global_transform = Transform2D.IDENTITY
 	z_index = 1 # Explorer's head and grip occluders remain above the muzzle fan.
-	texture_filter = CanvasItem.TEXTURE_FILTER_LINEAR
+	texture_filter = CanvasItem.TEXTURE_FILTER_NEAREST
 	_anchors = art_frames().get_meta("start_origins")
 	sound = AudioStreamPlayer.new()
 	sound.name = mode_id().capitalize()+"Voice"

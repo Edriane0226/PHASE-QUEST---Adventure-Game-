@@ -10,8 +10,8 @@ func _ready() -> void:
 
 func _bind() -> void:
 	level = get_parent()
-	level.texture_filter = CanvasItem.TEXTURE_FILTER_LINEAR
-	level.player.get_node("AnimatedSprite2D").texture_filter = CanvasItem.TEXTURE_FILTER_LINEAR
+	level.texture_filter = CanvasItem.TEXTURE_FILTER_NEAREST
+	level.player.get_node("AnimatedSprite2D").texture_filter = CanvasItem.TEXTURE_FILTER_NEAREST
 	if level.has_node("Actors/vent/FanFace/Blades"):
 		fan_blades = level.get_node("Actors/vent/FanFace/Blades")
 		fan_angle = level.get_node("Actors/vent/VentRotor")

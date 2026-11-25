@@ -35,6 +35,11 @@ func append_geometry(model: RefCounted) -> void:
 		model.data.chambers.append({"service_loop":chamber.points})
 	if has_node("Layout/ProtectedSource"):
 		model.data.sources.append(legacy_layout())
+	for room in get_children().filter(func(child):return child.has_meta("room")):
+		var record: Dictionary = room.get_meta("room")
+		var size := Vector2(record.size.x+record.size.y,record.size.x+record.size.y)*Vector2(10,5)
+		if not model.data.has("rooms"):model.data.rooms = []
+		model.data.rooms.append({"subregion":subregion_id,"center":room.global_position+Vector2((record.size.x-record.size.y)*10,(record.size.x+record.size.y)*5),"half":size,"elevation":record.elevation})
 	for floor in $Layout/Floors.get_children():
 		var polygon := world_polygon(floor)
 		var kind: String = floor.get_meta("kind")

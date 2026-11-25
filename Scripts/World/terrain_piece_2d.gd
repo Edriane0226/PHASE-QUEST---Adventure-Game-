@@ -43,7 +43,7 @@ func configure(id: String, elevation := 0.0) -> bool:
 	if entry.get("shadow_path","")!="":
 		var shadow:=Sprite2D.new();shadow.texture=load(str(entry.shadow_path));shadow.position=Vector2(12,10);visuals.add_child(shadow)
 	var sprite:=Sprite2D.new(); sprite.name="Artwork"; sprite.centered=false
-	sprite.texture=texture; sprite.texture_filter=CanvasItem.TEXTURE_FILTER_LINEAR
+	sprite.texture=texture; sprite.texture_filter=CanvasItem.TEXTURE_FILTER_NEAREST
 	sprite.scale=Vector2.ONE*float(entry.world_scale)
 	sprite.position=-Vector2(float(entry.pivot_px[0]),float(entry.pivot_px[1]))*sprite.scale
 	if entry.get("material_shader","") != "":

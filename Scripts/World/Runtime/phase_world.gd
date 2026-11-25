@@ -21,6 +21,7 @@ var _focused:=true
 var _suspended:=false
 var restoration_pending:=false
 var room_cutaway: Node
+var pixel_camera: Node
 var achievement_events:
 	get:
 		var provider:=learning_provider()
@@ -32,11 +33,10 @@ var achievement_events:
 func _ready() -> void:
 	$GroundSort.y_sort_enabled=true
 	room_cutaway=preload("res://Scripts/World/Runtime/room_cutaway.gd").new();room_cutaway.name="RoomCutaway";add_child(room_cutaway);room_cutaway.bind(self)
-	player.get_node("Camera2D").position_smoothing_enabled=false
-	player.get_node("Camera2D").zoom=Vector2.ONE*1.55
 	var bounds:=REGISTRY.world_bounds();var camera: Camera2D=player.get_node("Camera2D")
 	camera.limit_left=floori(bounds.position.x);camera.limit_top=floori(bounds.position.y)
 	camera.limit_right=ceili(bounds.end.x);camera.limit_bottom=ceili(bounds.end.y)
+	pixel_camera=preload("res://Scripts/World/Runtime/pixel_camera.gd").new();pixel_camera.name="PixelCamera";player.add_child(pixel_camera);pixel_camera.bind(self)
 	input_adapter.bind(self,get_node("/root/PlayerSave"),hud,panels)
 	if not transform.is_equal_approx(Transform2D.IDENTITY):last_error="World root must retain the authored ground frame.";set_physics_process(false)
 	if not development_preview and not get_node("/root/PlayerSave").world_entry_request.is_empty():_apply_menu_entry.call_deferred()

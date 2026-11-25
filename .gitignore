@@ -14,5 +14,6 @@ __pycache__/
 _unused/
 .claude/
 /docs/
+/art_src/
 /output/
 /skills-lock.json

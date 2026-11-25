@@ -1,0 +1,21 @@
+{
+	"builder": "tools/world/terrain_bake/bake.gd",
+	"outputs": [
+		{
+			"file": "campaign.res",
+			"sha256": "39ec60ddf003aaae515f49a1325b78a82c6a55666d39ba975a7d4772f137c890",
+			"signature": "50ddfadc8e85b1259277955b871b06658c8f39982c8c83039cff6d6a64c6d77a",
+			"stats": {
+				"build_ms": 82479,
+				"image_bytes": 4642088,
+				"pages": 583
+			}
+		},
+		{
+			"file": "tiles.res",
+			"sha256": "aeefab3e2e20a7cb756eaa19daa3dbd6f2412645ed8d35796e0e778857122714"
+		}
+	],
+	"source": "World/CampaignWorld.tscn",
+	"version": 3
+}

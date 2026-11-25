@@ -88,7 +88,7 @@ texture = SubResource("GradientTexture2D_a7qhj")
 
 [node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="." unique_id=1277367506]
 material = SubResource("PlayerBreathMaterial")
-texture_filter = 2
+texture_filter = 1
 position = Vector2(1, -13.999992)
 scale = Vector2(0.2923077, 0.2923077)
 sprite_frames = ExtResource("2_l4ngm")
@@ -106,7 +106,7 @@ process_callback = 0
 [node name="WarmingTool" type="Sprite2D" parent="." unique_id=1728233034]
 visible = false
 material = SubResource("PlayerBreathMaterial")
-texture_filter = 2
+texture_filter = 1
 material = SubResource("ShaderMaterial_ygcsd")
 position = Vector2(0, -15.019226)
 scale = Vector2(0.10576923, 0.10576923)
@@ -122,7 +122,7 @@ visible = false
 [node name="Module" type="Sprite2D" parent="CarriedModule" unique_id=1827606200]
 visible = false
 material = SubResource("PlayerBreathMaterial")
-texture_filter = 2
+texture_filter = 1
 material = SubResource("ShaderMaterial_ygcsd")
 position = Vector2(0, -18.926483)
 scale = Vector2(0.13235293, 0.13235293)
@@ -136,7 +136,7 @@ metadata/flat_asset = "module_off"
 [node name="Wood" type="Sprite2D" parent="CarriedModule" unique_id=1984403019]
 visible = false
 material = SubResource("PlayerBreathMaterial")
-texture_filter = 2
+texture_filter = 1
 material = SubResource("ShaderMaterial_ygcsd")
 position = Vector2(0, -30.43689)
 scale = Vector2(0.21359223, 0.21359223)
@@ -150,7 +150,7 @@ metadata/flat_asset = "wood"
 [node name="Blades" type="Sprite2D" parent="CarriedModule" unique_id=756667142]
 visible = false
 material = SubResource("PlayerBreathMaterial")
-texture_filter = 2
+texture_filter = 1
 material = SubResource("ShaderMaterial_ygcsd")
 position = Vector2(0, 12)
 scale = Vector2(0.23762377, 0.23762377)

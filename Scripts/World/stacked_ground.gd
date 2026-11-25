@@ -28,7 +28,7 @@ func configure(value: RefCounted, id: String, biome: String, base: float) -> voi
 		layer.position.y = -z*RELIEF.CUBE_STEP_PX
 		layer.collision_enabled = false
 		layer.navigation_enabled = false
-		layer.texture_filter = CanvasItem.TEXTURE_FILTER_LINEAR
+		layer.texture_filter = CanvasItem.TEXTURE_FILTER_NEAREST
 		add_child(layer); layers.append(layer)
 	for cell: Vector2i in field.regions.get(id,[]):
 		var column: Dictionary = field.columns[cell]

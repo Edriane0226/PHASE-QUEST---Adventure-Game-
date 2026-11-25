@@ -2,7 +2,11 @@ extends RefCounted
 ## Deterministic, additive landforms. Authored routes/source floors remain authoritative.
 const CUBE_STEP_PX := 20
 const CUBE_UNIT_PX := 20
-const MAX_HEIGHT := 8
+const MAX_HEIGHT := 3
+## Landforms are whole blocks of 3x3 cells: no single bumps, and edges run at least three cells.
+const BLOCK := 3
+## From the centre of a block to its farthest corner.
+const BLOCK_REACH := 60.0
 const TILE_SIZE := Vector2i(40, 20)
 const SEED := 19017
 const BIN := 256.0
@@ -18,6 +22,17 @@ static func center(cell: Vector2i) -> Vector2:
 
 static func cell_at(point: Vector2) -> Vector2i:
 	return Vector2i(roundi(point.x/40.0+point.y/20.0), roundi(point.y/20.0-point.x/40.0))
+
+static func block_of(cell: Vector2i) -> Vector2i:
+	return Vector2i(floori(cell.x/float(BLOCK)),floori(cell.y/float(BLOCK)))
+
+## Hills and slopes change level on groups of 2x2 blocks, so ledges are long and few.
+static func ledge_center(at: Vector2) -> Vector2:
+	var block := block_of(cell_at(at))
+	return center(Vector2i(floori(block.x/2.0),floori(block.y/2.0))*BLOCK*2+Vector2i(3,3))
+
+static func block_center(block: Vector2i) -> Vector2:
+	return center(block*BLOCK+Vector2i.ONE)
 
 func _reserve(a: Vector2, b: Vector2, radius: float) -> void:
 	var box := Rect2(a, Vector2.ZERO).expand(b).grow(radius+80)
@@ -42,8 +57,9 @@ func build(model: RefCounted, read_review_routes:=true) -> void:
 	columns.clear(); foundations.clear(); regions.clear(); features.clear(); _reserves.clear()
 	_noise.seed = SEED
 	_noise.noise_type = FastNoiseLite.TYPE_SIMPLEX_SMOOTH
-	_noise.frequency = .0018
-	_noise.fractal_octaves = 3
+	_noise.frequency = .0016
+	_noise.fractal_type = FastNoiseLite.FRACTAL_RIDGED
+	_noise.fractal_octaves = 2
 	for s in model.data.stations:
 		var at: Vector2 = model.v(s.ground_xy); _reserve(at,at,190)
 	for s in model.data.exploration_stops:
@@ -67,71 +83,87 @@ func build(model: RefCounted, read_review_routes:=true) -> void:
 		var at: Vector2 = model.v(r.entry); _reserve(at,at,230)
 	for reserve in model.data.get("travel_reserves",[]):
 		var at: Vector2 = model.v(reserve.local_anchor); _reserve(at,at,250)
-	var candidates: Dictionary = {}
+	var blocks: Dictionary = {}
 	for r in model.data.regions:
 		var polygon: PackedVector2Array = model.polygon(r.permission_polygon)
 		var box: Rect2 = model.box_of(polygon)
 		var corners := [cell_at(box.position),cell_at(box.end),cell_at(Vector2(box.end.x,box.position.y)),cell_at(Vector2(box.position.x,box.end.y))]
-		var bounds := Rect2(Vector2(corners[0]),Vector2.ZERO)
-		for c: Vector2i in corners: bounds = bounds.expand(Vector2(c))
+		var bounds := Rect2(Vector2(block_of(corners[0])),Vector2.ZERO)
+		for c: Vector2i in corners: bounds = bounds.expand(Vector2(block_of(c)))
 		var owned: Array = []
 		for x in range(floori(bounds.position.x)-1,ceili(bounds.end.x)+2):
 			for y in range(floori(bounds.position.y)-1,ceili(bounds.end.y)+2):
-				var cell := Vector2i(x,y); var point := center(cell)
+				var block := Vector2i(x,y); var point := block_center(block)
 				if not box.has_point(point) or not Geometry2D.is_point_in_polygon(point,polygon): continue
 				# Flat interior base: no raised cube skirts at coasts or ownership seams.
 				var edge := INF
 				for j in range(polygon.size()): edge = minf(edge,point.distance_to(Geometry2D.get_closest_point_to_segment(point,polygon[j],polygon[(j+1)%polygon.size()])))
-				if edge < 370 or clearance(point) < 85: continue
-				var footprint := Rect2(point-Vector2(TILE_SIZE)*.5,Vector2(TILE_SIZE))
-				var support: Array = []; var unsafe := false
-				for f in model.nearby(point,model.floors,model.floor_bins):
-					if not f.bounds.intersects(footprint): continue
-					if f.kind != "mainland": unsafe = true; break
-					support.append(f.polygon)
+				if edge < 370+BLOCK_REACH or clearance(point) < 85+BLOCK_REACH: continue
+				var footprint := Rect2(point-Vector2(TILE_SIZE)*BLOCK*.5,Vector2(TILE_SIZE)*BLOCK)
+				var support: Array = []; var seen: Dictionary = {}; var unsafe := false
+				for bin in model.cells(footprint):
+					for id in model.floor_bins.get(bin,[]):
+						if seen.has(id): continue
+						seen[id] = true
+						var f: Dictionary = model.floors[id]
+						if not f.bounds.intersects(footprint): continue
+						if f.kind != "mainland": unsafe = true; break
+						support.append(f.polygon)
+					if unsafe: break
 				if unsafe or not model.SUPPORT.rectangle_supported(footprint,support): continue
 				# Original protected envelopes stay empty, including their overhead silhouette.
 				for source in model.data.get("sources",[]):
 					if not Geometry2D.intersect_polygons(model.rect_poly(footprint.grow(200)),model.polygon(source.protected_envelope)).is_empty(): unsafe = true; break
 				if unsafe: continue
-				candidates[cell] = {"region":str(r.id),"base":model.base_height_mainland(point),"height":0}
-				owned.append(cell)
+				blocks[block] = {"region":str(r.id),"base":model.base_height_mainland(point),"height":0}
+				owned.append(block)
 		regions[r.id] = owned
-	# Distance in tile steps gives natural terraced shoulders around every reserved lane.
+	# Steps from the flat land. Every rise is one cube per block, so it stays walkable.
 	var distance: Dictionary = {}; var queue: Array = []
 	var neighbors := [Vector2i.LEFT,Vector2i.RIGHT,Vector2i.UP,Vector2i.DOWN]
-	for cell: Vector2i in candidates:
+	for block: Vector2i in blocks:
 		for offset: Vector2i in neighbors:
-			if not candidates.has(cell+offset): distance[cell] = 0; queue.append(cell); break
+			if not blocks.has(block+offset): distance[block] = 0; queue.append(block); break
 	var cursor := 0
 	while cursor < queue.size():
-		var cell: Vector2i = queue[cursor]; cursor += 1
+		var block: Vector2i = queue[cursor]; cursor += 1
 		for offset: Vector2i in neighbors:
-			var next := cell+offset
-			if candidates.has(next) and not distance.has(next): distance[next] = distance[cell]+1; queue.append(next)
-	for cell: Vector2i in candidates:
-		var p := center(cell)
-		var noise := _noise.get_noise_2d(p.x,p.y)
-		var height := clampi(roundi(3.0+noise*7.0),0,MAX_HEIGHT)
-		candidates[cell].height = mini(height,int(distance.get(cell,0)))
-	# One broad ring depression per available region; solid floor, never a void/trap.
-	for id: String in regions:
-		var best := Vector2i.ZERO; var depth := 0
-		for cell: Vector2i in regions[id]:
-			if int(distance.get(cell,0)) > depth: best = cell; depth = distance[cell]
-		if depth < 5: continue
-		var at := center(best); var radius := minf(260,depth*14.0)
-		features.append({"region":id,"kind":"terraced bowl","center":at,"radius":radius})
-		for cell: Vector2i in regions[id]:
-			var d := center(cell).distance_to(at)/radius
-			if d > 1.6: continue
-			var rim := 5.0*smoothstep(.18,.8,d)*(1.0-smoothstep(1.0,1.6,d))
-			candidates[cell].height = mini(roundi(rim),int(distance[cell]))
-	columns = candidates
+			var next := block+offset
+			if blocks.has(next) and not distance.has(next): distance[next] = distance[block]+1; queue.append(next)
+	# Ridges and valleys follow the noise, not the outline of the free ground.
+	for block: Vector2i in blocks:
+		var p := ledge_center(block_center(block))
+		var ridge := _noise.get_noise_2d(p.x,p.y*2.0)
+		var limit := int(distance.get(block,0))
+		# The lowest limit of the group, so a group never breaks into single blocks.
+		var group := Vector2i(floori(block.x/2.0),floori(block.y/2.0))*2
+		for dx in 2:
+			for dy in 2: limit = mini(limit,int(distance.get(group+Vector2i(dx,dy),0)))
+		blocks[block].height = mini(clampi(roundi(.8+ridge*3.2),0,MAX_HEIGHT),limit)
+	_bowl(blocks,distance)
+	for block: Vector2i in blocks:
+		for dx in BLOCK:
+			for dy in BLOCK: columns[block*BLOCK+Vector2i(dx,dy)] = blocks[block].duplicate()
 	for cell: Vector2i in columns:foundations[cell]=columns[cell].base
 	for cell: Vector2i in columns:
 		for offset: Vector2i in [Vector2i.RIGHT,Vector2i.DOWN]:
 			if not foundations.has(cell+offset):foundations[cell+offset]=model.base_height_mainland(center(cell+offset))
+
+## At most one broad depression in a zone, in its largest free ground. Solid floor, never a trap.
+func _bowl(blocks: Dictionary, distance: Dictionary) -> void:
+	var best := Vector2i.ZERO; var depth := 0
+	for block: Vector2i in blocks:
+		if int(distance.get(block,0)) > depth: best = block; depth = distance[block]
+	if depth < 3: return
+	var at := block_center(best); var radius := minf(300,depth*70.0)
+	features.append({"region":blocks[best].region,"kind":"terraced bowl","center":at,"radius":radius})
+	for block: Vector2i in blocks:
+		if blocks[block].region != blocks[best].region: continue
+		var offset := block_center(block)-at
+		var d := Vector2(offset.x,offset.y*2.0).length()/radius
+		if d > 1.6: continue
+		var rim := 2.0*smoothstep(.3,.8,d)*(1.0-smoothstep(1.1,1.6,d))
+		blocks[block].height = mini(roundi(rim),int(distance[block]))
 
 func height_at(point: Vector2) -> float:
 	var column: Dictionary = columns.get(cell_at(point),{})

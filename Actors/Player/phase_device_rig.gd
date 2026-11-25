@@ -59,7 +59,7 @@ func _bind_player() -> void:
 	flat.shader = CUTOUT
 	for sprite: Sprite2D in [_held,_holstered,_head,_hand]:
 		sprite.material = flat
-		sprite.texture_filter = CanvasItem.TEXTURE_FILTER_LINEAR
+		sprite.texture_filter = CanvasItem.TEXTURE_FILTER_NEAREST
 		add_child(sprite)
 	_held.name = "Held"
 	_holstered.name = "Holstered"

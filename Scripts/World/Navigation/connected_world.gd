@@ -379,8 +379,6 @@ func _physics_process(delta: float) -> void:
 		if not discovery.save_ledger():input_adapter.feedback="Map discovery could not be saved.";input_adapter.refresh()
 func _process(delta: float) -> void:
 	if geometry==null:return
-	var camera: Camera2D=player.get_node("Camera2D")
-	if not camera.top_level:camera.offset=Vector2(0,-player._display_floor)
 	if not _transit.is_empty():_advance_transit(delta)
 func connection(id: String) -> Dictionary:
 	for c in connections:
